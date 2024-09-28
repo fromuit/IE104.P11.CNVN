@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công cụ đọc nội dung HTML</title>
+    <style>
+        #fileInput { margin-bottom: 10px; }
+        #output { white-space: pre-wrap; border: 1px solid #ccc; padding: 10px; }
+    </style>
+</head>
+<body>
+  <label for="fileInput">Chọn tệp HTML:</label>
+  <input type="file" id="fileInput" accept=".html">
+  <button onclick="readMainContent()">Đọc nội dung</button>
+  <div id="output"></div>
+
+    <script>
+        function readMainContent() {
+            const fileInput = document.getElementById('fileInput');
+            const output = document.getElementById('output');
+            
+            if (fileInput.files.length === 0) {
+                output.textContent = 'Vui lòng chọn một file HTML.';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                const content = e.target.result;
+                const parser = new DOMParser();
+                const htmlDoc = parser.parseFromString(content, 'text/html');
+                
+                // Tìm phần tử main
+                const mainElement = htmlDoc.querySelector('main');
+                
+                if (mainElement) {
+                    output.textContent = 'Nội dung trong thẻ <main>:\n\n' + mainElement.textContent.trim();
+                } else {
+                    // Nếu không tìm thấy thẻ main, tìm thẻ body
+                    const bodyElement = htmlDoc.querySelector('body');
+                    if (bodyElement) {
+                        output.textContent = 'Không tìm thấy thẻ <main>. Đây là nội dung trong thẻ <body>:\n\n' + bodyElement.textContent.trim();
+                    } else {
+                        output.textContent = 'Không tìm thấy nội dung hợp lệ trong file HTML.';
+                    }
+                }
+            };
+
+            reader.onerror = function() {
+                output.textContent = 'Có lỗi xảy ra khi đọc file.';
+            };
+
+            reader.readAsText(file);
+        }
+    </script>
+</body>
+</html>
