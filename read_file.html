@@ -35,17 +35,28 @@
                 
                 // Tìm phần tử main
                 const mainElement = htmlDoc.querySelector('main');
+                const paragraphs = htmlDoc.querySelectorAll('p');
+                const headers = htmlDoc.querySelectorAll('h1,h4,h5');
+                const small = htmlDoc.querySelectorAll('small');
                 
-                if (mainElement) {
-                    output.textContent = 'Nội dung trong thẻ <main>:\n\n' + mainElement.textContent.trim();
+                let result = '';
+
+                // Thêm nội dung của các thẻ header
+                headers.forEach(header => {
+                    result += ` ${header.textContent.trim()}\n\n`;
+                });
+
+                // Thêm nội dung của các thẻ p
+                paragraphs.forEach(p => {
+                    result += ` ${p.textContent.trim()}\n\n`;
+                });
+
+                
+
+                if (result) {
+                    output.textContent = result;
                 } else {
-                    // Nếu không tìm thấy thẻ main, tìm thẻ body
-                    const bodyElement = htmlDoc.querySelector('body');
-                    if (bodyElement) {
-                        output.textContent = 'Không tìm thấy thẻ <main>. Đây là nội dung trong thẻ <body>:\n\n' + bodyElement.textContent.trim();
-                    } else {
-                        output.textContent = 'Không tìm thấy nội dung hợp lệ trong file HTML.';
-                    }
+                    output.textContent = 'Không tìm thấy nội dung trong các thẻ p và header.';
                 }
             };
 
