@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
+    <link rel="stylesheet" href="login\style.css">
   </head>
   <body>
     <div class="login-container">
@@ -13,7 +13,11 @@
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br>
         <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br>
+        <div class="password-input">
+          <input type="password" id="password" name="password" required><br>
+          <span class="password-toggle" onclick="togglePassword()"></span>
+          <script src="login\script.js"></script>
+        </div>
         <button type="submit">Login</button>
       </form>
     </div>
