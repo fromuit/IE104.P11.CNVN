@@ -10,6 +10,18 @@
 //     toggleButton.classList.remove("fa-eye-slash");
 //   }
 // }
+function togglePassword() {
+  var toggleButton = document.querySelector(".password-toggle");
+  var passwordInput = document.getElementById("password");
+  var button = toggleButton.textContent;
+  if (button === "👁️") {
+    toggleButton.textContent = "🙈";
+    passwordInput.type = "text";
+  } else {
+    toggleButton.textContent = "👁️";
+    passwordInput.type = "password";
+  }
+} 
 
-var toggleButton = document.getElementsByClassName("password-toggle");
-console.log(toggleButton);
+var content = togglePassword();
+console.log(content);
