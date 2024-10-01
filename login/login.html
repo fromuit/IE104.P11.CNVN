@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="login/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="D:/IE104.P11.CNVN/login/styles.css">
+    
   </head>
   <body>
     <div class="login-container">
@@ -16,13 +14,26 @@
         <label for="username">Username:</label><br>
         <input type="text" id="username" name="username" required><br>
         <label for="password">Password:</label><br>
-        <div class="password-input">
-          <input type="password" id="password" required>
-          <button type="button" onclick="togglePassword()" class="password-toggle">👁️</button>
-          <script src="login/script.js"></script>
+        <div class="password-container">
+          <input type="password" id="password" name="password" required>
+          <span class="toggle-password" onclick="togglePassword()" >👁️</span>
         </div>
         <button type="submit">Login</button>
       </form>
     </div>
+
+    <script>
+      function togglePassword() {
+        var passwordInput = document.getElementById("password");
+        var toggleButton = document.querySelector(".toggle-password");
+        if (passwordInput.type === "password") {
+          passwordInput.type = "text";
+          toggleButton.textContent = "🙈";
+        } else {
+          passwordInput.type = "password";
+          toggleButton.textContent = "👁️";
+        }
+      }
+    </script>
   </body>
 </html>
