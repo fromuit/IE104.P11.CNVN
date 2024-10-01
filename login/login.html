@@ -18,23 +18,12 @@
         <div class="password-container">
           <input type="password" id="password" name="password" required>
           <span class="toggle-password" onclick="togglePassword()" >👁️</span>
+          <script src="script.js"></script>
         </div>
         <button type="submit">Login</button>
       </form>
     </div>
 
-    <script>
-      function togglePassword() {
-        var passwordInput = document.getElementById("password");
-        var toggleButton = document.querySelector(".toggle-password");
-        if (passwordInput.type === "password") {
-          passwordInput.type = "text";
-          toggleButton.textContent = "🙈";
-        } else {
-          passwordInput.type = "password";
-          toggleButton.textContent = "👁️";
-        }
-      }
-    </script>
+    
   </body>
 </html>
