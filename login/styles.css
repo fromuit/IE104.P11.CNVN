@@ -2,24 +2,11 @@
   position: relative;
   display: inline-block;
 }
-.authenticated-container {
-  position: relative;
-  display: inline-block;
-}
-.toggle-password {
+
+.toggle-password1 {
   position: absolute;
   right: 4.5px;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
-
-}
-
-.toggle-password2{
-  position: absolute;
-  right: 4.5px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-
 }

@@ -1,6 +1,5 @@
-function togglePassword() {
+function togglePassword1() {
   var passwordInput = document.getElementById("password");
-  var athenticatedInput = document.getElementById("athenticated");
   var toggleButton = document.querySelector(".toggle-password");
   if (passwordInput.type === "password") {
     passwordInput.type = "text";
