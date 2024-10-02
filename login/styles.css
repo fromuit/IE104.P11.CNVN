@@ -10,3 +10,12 @@
   cursor: pointer;
 
 }
+
+.toggle-password2{
+  position: absolute;
+  right: 4.5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+}
