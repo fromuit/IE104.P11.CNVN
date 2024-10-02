@@ -2,6 +2,10 @@
   position: relative;
   display: inline-block;
 }
+.authenticated-container {
+  position: relative;
+  display: inline-block;
+}
 .toggle-password {
   position: absolute;
   right: 4.5px;
