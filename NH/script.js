@@ -42,11 +42,11 @@ signupForm.onsubmit = function(event){
     console.log("Password:", password);
                 
     // Giả sử có một điều kiện kiểm tra thông tin đăng nhập
-    if (email === "test@example.com" && password === "password") {
-      alert("Log in successful!");
-    } else {
-      alert("Invalid email or password!");
-    }
+    // if (email === "test@example.com" && password === "password") {
+    //   alert("Log in successful!");
+    // } else {
+    //   alert("Invalid email or password!");
+    // }
     signupForm.reset();
   }
 }
