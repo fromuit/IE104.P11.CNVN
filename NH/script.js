@@ -1,12 +1,13 @@
-let signupBtn=document.getElementById("signupBtn");
-let loginBtn=document.getElementById("loginBtn");
-let nameField=document.getElementById("nameField");
-let title=document.getElementById("title");
-let signupForm=document.getElementById("signupForm");
-let submitBtn=document.getElementById("submitBtn");
 
 
 
 var signup=function(){
-  window.alert("Sign up successful!");
+  let password=document.querySelector(".password").value;
+  let confirmPassword=document.querySelector(".confirm-password").value;
+  if(password==confirmPassword){
+    window.alert("Sign up successful!");
+  }
+  else{
+    window.alert("Password and confirm password do not match!");
+  }
 }
