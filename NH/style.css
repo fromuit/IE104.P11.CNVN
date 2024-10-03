@@ -69,14 +69,10 @@ input{
   font-size: 25px;
 }
 
-.btn-field{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10%;
-}
+
 
 .btn-field button{
+  width: 100%;
   flex-basis: 48%;
   background: #3c00a0;
   color: #fff;
@@ -86,13 +82,10 @@ input{
   outline: 0;
   cursor: pointer;
   transition: background 1s;
+  position: center;
 }
 
 .input-group{
   height: 280px;
 }
 
-.btn-field button.disable{
-  background: #eaeaea;
-  color: #555;
-}
