@@ -10,6 +10,7 @@ loginBtn.onclick=function(){
   title.innerHTML="Log in";
   signupBtn.classList.add("disable");
   loginBtn.classList.remove("disable");
+  nameField.disabled=true;
 }
 
 signupBtn.onclick=function(){
