@@ -40,7 +40,7 @@
                 const small = htmlDoc.querySelectorAll('small');
                 const img = htmlDoc.querySelectorAll('img');
                 
-                let result = '';
+
 
                 // Thêm nội dung của các thẻ header
                 headers.forEach(header => {
@@ -65,11 +65,6 @@
                     output.appendChild(imgElement);
                 });
 
-                if (result) {
-                    output.textContent = result;
-                } else {
-                    output.append('Không tìm thấy nội dung trong các thẻ p và header.');
-                }
             };
 
             reader.onerror = function() {
