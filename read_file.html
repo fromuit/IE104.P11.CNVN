@@ -34,27 +34,46 @@
                 const htmlDoc = parser.parseFromString(content, 'text/html');
                 
                 // Tìm phần tử main
+                const mainElement = htmlDoc.querySelector('main');
+                const paragraphs = htmlDoc.querySelectorAll('p');
+                const headers = htmlDoc.querySelectorAll('h1,h4,h5');
+                const small = htmlDoc.querySelectorAll('small');
+                const img = htmlDoc.querySelectorAll('img');
+                
                 let result = '';
-                const all_element = htmlDoc.querySelectorAll(['p','h1','h4','h5','img']);
-                all_element.forEach(element => {
-                    if(element.tagName.toLowerCase()!=='img'){
-                        const elementText = document.createElement(element);
-                        elementText.textContent = `${element.textContent.trim()}\n\n`;
-                        elementText.style.margin = '10px';
-                        output.appendChild(elementText); // Thêm Node vào output
-                    }
-                    else{
-                        const imgElement = document.createElement('img');
-                        imgElement.src = element.src;
-                        imgElement.alt = element.alt || 'Hình ảnh không có mô tả';
-                        imgElement.style.margin = '10px';
-                        output.appendChild(imgElement);
-                    }
+
+                // Thêm nội dung của các thẻ header
+                headers.forEach(header => {
+                    output.append(` ${header.textContent.trim()}\n\n`);
                 });
+
+                // Thêm nội dung của các thẻ p
+                paragraphs.forEach(p => {
+                    output.append(` ${p.textContent.trim()}\n\n`);
+                });
+
+                // Thêm nội dung của các thẻ img
+                img.forEach(img => {
+                    const imgElement = document.createElement('img');
+                    imgElement.src = img.src;
+                    imgElement.alt = img.alt || 'Hình ảnh không có mô tả';
+                    imgElement.style.margin = '10px';
+                    imgElement.onerror = function() {
+                        console.error('Không thể tải ảnh:', img.src);
+                        imgElement.alt = 'Không thể tải ảnh';
+                    };
+                    output.appendChild(imgElement);
+                });
+
+                if (result) {
+                    output.textContent = result;
+                } else {
+                    output.append('Không tìm thấy nội dung trong các thẻ p và header.');
+                }
             };
 
             reader.onerror = function() {
-                output.appendChild ('Có lỗi xảy ra khi đọc file.');
+                output.textContent = 'Có lỗi xảy ra khi đọc file.';
             };
 
             reader.readAsText(file);
