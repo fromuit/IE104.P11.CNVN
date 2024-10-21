@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+}
+
+.featured-stories, .latest-stories {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.story-grid, .story-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.story-grid .story, .story-list .story {
+  width: 180px;
+  margin: 10px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f1f1f1;
+}
