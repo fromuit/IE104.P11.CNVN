@@ -35,15 +35,19 @@
                 
                 // Tìm phần tử main
                 const all_element = htmlDoc.querySelectorAll('main,p,h1,h4,h5,small,img');
+                output.innerHTML = '';
 
                 // Thêm nội dung của các thẻ header
-                all_element.forEach(all_element => {
-                    if(all_element!=='img'){
-                        output.appendChild(`${all_element.textContent.trim()}\n\n`);
+                all_element.forEach(element => {
+                    if(element.tagName.toLowerCase()!=='img'){
+                        
                     }
                     else{
-                        output.appendChild(all_element);
-                        output.style.margin = '10px';
+                        const imgElement = document.createElement('img');
+                        imgElement.src = element.src;
+                        imgElement.alt = element.alt || 'Hình ảnh không có mô tả';
+                        imgElement.style.margin = '10px';
+                        output.appendChild(imgElement);
                     }
                 });
 
