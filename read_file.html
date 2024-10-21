@@ -35,11 +35,13 @@
                 
                 // Tìm phần tử main
                 let result = '';
-                const all_element = htmlDoc.querySelectorAll('main,p,h1,h4,h5,img');
+                const all_element = htmlDoc.querySelectorAll('p,h1,h4,h5,img');
                 all_element.forEach(element => {
                     if(element.tagName.toLowerCase()!=='img'){
-                        result += `${element.textContent.trim()}\n\n`;
-                        output.appendChild(result);
+                        const elementText = document.createElement(all_element);
+                        elementText.textContent = `${element.textContent.trim()}\n\n`;
+                        elementText.style.margin = '10px';
+                        output.appendChild(elementText); // Thêm Node vào output
                     }
                     else{
                         const imgElement = document.createElement('img');
