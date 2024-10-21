@@ -52,3 +52,36 @@ footer {
   padding: 10px 0;
   background-color: #f1f1f1;
 }
+
+.featured-stories {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.story {
+  text-align: center;
+}
+
+.story img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Tạo viền bo tròn cho hình ảnh */
+}
+
+.story p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .story-grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
