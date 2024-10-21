@@ -34,32 +34,25 @@
                 const htmlDoc = parser.parseFromString(content, 'text/html');
                 
                 // Tìm phần tử main
+                let result = '';
                 const all_element = htmlDoc.querySelectorAll('main,p,h1,h4,h5,img');
-                output.innerHTML = '';
-
-                // Thêm nội dung của các thẻ header
                 all_element.forEach(element => {
-                    // Tạo một đoạn văn bản mới để hiển thị nội dung của phần tử
-                    const elementText = document.createElement('p');
-                    elementText.textContent = `${element.tagName}: ${element.textContent.trim()}`;
-            
-                    // Kiểm tra nếu phần tử là hình ảnh, thêm hình ảnh vào output
-                    if(element.tagName.toLowerCase() === 'img'){
+                    if(element.tagName.toLowerCase()!=='img'){
+                        result += `${element.textContent.trim()}\n\n`;
+                        output.appendChild(result);
+                    }
+                    else{
                         const imgElement = document.createElement('img');
                         imgElement.src = element.src;
                         imgElement.alt = element.alt || 'Hình ảnh không có mô tả';
                         imgElement.style.margin = '10px';
                         output.appendChild(imgElement);
                     }
-            
-                    // Thêm nội dung của phần tử vào output
-                    output.appendChild(elementText);
                 });
-
             };
 
             reader.onerror = function() {
-                output.append ('Có lỗi xảy ra khi đọc file.');
+                output.appendChild ('Có lỗi xảy ra khi đọc file.');
             };
 
             reader.readAsText(file);
