@@ -34,42 +34,19 @@
                 const htmlDoc = parser.parseFromString(content, 'text/html');
                 
                 // Tìm phần tử main
-                const mainElement = htmlDoc.querySelector('main');
-                const paragraphs = htmlDoc.querySelectorAll('p');
-                const headers = htmlDoc.querySelectorAll('h1,h4,h5');
-                const small = htmlDoc.querySelectorAll('small');
-                const img = htmlDoc.querySelectorAll('img');
-                
-                let result = '';
+                const all_element = htmlDoc.querySelectorAll('main,p,h1,h4,h5,small,img');
 
                 // Thêm nội dung của các thẻ header
-                headers.forEach(header => {
-                    result += ` ${header.textContent.trim()}\n\n`;
+                all_element.forEach(all_element => {
+                    if(all_element!=='img'){
+                        output.appendChild(`${all_element.textContent.trim()}\n\n`);
+                    }
+                    else{
+                        output.appendChild(all_element);
+                        output.style.margin = '10px';
+                    }
                 });
 
-                // Thêm nội dung của các thẻ p
-                paragraphs.forEach(p => {
-                    result += ` ${p.textContent.trim()}\n\n`;
-                });
-
-                // Thêm nội dung của các thẻ img
-                img.forEach(img => {
-                    const imgElement = document.createElement('img');
-                    imgElement.src = img.src;
-                    imgElement.alt = img.alt || 'Hình ảnh không có mô tả';
-                    imgElement.style.margin = '10px';
-                    imgElement.onerror = function() {
-                        console.error('Không thể tải ảnh:', img.src);
-                        imgElement.alt = 'Không thể tải ảnh';
-                    };
-                    output.appendChild(imgElement);
-                });
-
-                if (result) {
-                    output.append (result);
-                } else {
-                    output.append ('Không tìm thấy nội dung trong các thẻ p và header.');
-                }
             };
 
             reader.onerror = function() {
