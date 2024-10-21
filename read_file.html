@@ -38,6 +38,7 @@
                 const paragraphs = htmlDoc.querySelectorAll('p');
                 const headers = htmlDoc.querySelectorAll('h1,h4,h5');
                 const small = htmlDoc.querySelectorAll('small');
+                const img = htmlDoc.querySelectorAll('img');
                 
                 let result = '';
 
@@ -51,7 +52,18 @@
                     result += ` ${p.textContent.trim()}\n\n`;
                 });
 
-                
+                // Thêm nội dung của các thẻ img
+                img.forEach(img => {
+                    const imgElement = document.createElement('img');
+                    imgElement.src = img.src;
+                    imgElement.alt = img.alt || 'Hình ảnh không có mô tả';
+                    imgElement.style.margin = '10px';
+                    imgElement.onerror = function() {
+                        console.error('Không thể tải ảnh:', img.src);
+                        imgElement.alt = 'Không thể tải ảnh';
+                    };
+                    output.appendChild(imgElement);
+                });
 
                 if (result) {
                     output.textContent = result;
