@@ -66,14 +66,14 @@
                 });
 
                 if (result) {
-                    output.textContent = result;
+                    output.append (result);
                 } else {
-                    output.textContent = 'Không tìm thấy nội dung trong các thẻ p và header.';
+                    output.append ('Không tìm thấy nội dung trong các thẻ p và header.');
                 }
             };
 
             reader.onerror = function() {
-                output.textContent = 'Có lỗi xảy ra khi đọc file.';
+                output.append ('Có lỗi xảy ra khi đọc file.');
             };
 
             reader.readAsText(file);
