@@ -39,10 +39,10 @@
                 const headers = htmlDoc.querySelectorAll('h1,h4,h5');
                 const small = htmlDoc.querySelectorAll('small');
                 const img = htmlDoc.querySelectorAll('img');
-                
+                const read_content = htmlDoc.querySelector('h1,h4,h5,p,img');
 
 
-                // Thêm nội dung của các thẻ header
+                // Thêm nội dung của các thẻ header 
                 headers.forEach(header => {
                     output.append(` ${header.textContent.trim()}\n\n`);
                 });
@@ -50,9 +50,10 @@
                 // Thêm nội dung của các thẻ p
                 paragraphs.forEach(p => {
                     output.append(` ${p.textContent.trim()}\n\n`);
-                });
+                }); 
 
                 // Thêm nội dung của các thẻ img
+                // chuyen sang id chap-content
                 img.forEach(img => {
                     const imgElement = document.createElement('img');
                     imgElement.src = img.src;
