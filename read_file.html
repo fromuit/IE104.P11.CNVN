@@ -38,26 +38,38 @@
                 const paragraphs = htmlDoc.querySelectorAll('p');
                 const headers = htmlDoc.querySelectorAll('h1,h4,h5');
                 const small = htmlDoc.querySelectorAll('small');
-                
-                let result = '';
+                const img = htmlDoc.querySelectorAll('img');
+                const read_content = htmlDoc.querySelector('h1,h4,h5,p,img');
 
-                // Thêm nội dung của các thẻ header
+                const chap_content = htmlDoc.querySelector('#chapter-content');
+
+
+                // Thêm nội dung của các thẻ header 
                 headers.forEach(header => {
-                    result += ` ${header.textContent.trim()}\n\n`;
+                    output.append(` ${header.textContent.trim()}\n\n`);
                 });
 
                 // Thêm nội dung của các thẻ p
                 paragraphs.forEach(p => {
-                    result += ` ${p.textContent.trim()}\n\n`;
+                    output.append(` ${p.textContent.trim()}\n\n`);
+                }); 
+
+                // Thêm nội dung của các thẻ img
+                // chuyen sang id chap-content
+                img.forEach(img => {
+                    if(chap_content.contains(img)){
+                        const imgElement = document.createElement('img');
+                        imgElement.src = img.src;
+                        imgElement.alt = img.alt || 'Hình ảnh không có mô tả';
+                        imgElement.style.margin = '10px';
+                        imgElement.onerror = function() {
+                            console.error('Không thể tải ảnh:', img.src);
+                            imgElement.alt = 'Không thể tải ảnh';
+                        };
+                        output.appendChild(imgElement);
+                    }
                 });
 
-                
-
-                if (result) {
-                    output.textContent = result;
-                } else {
-                    output.textContent = 'Không tìm thấy nội dung trong các thẻ p và header.';
-                }
             };
 
             reader.onerror = function() {
