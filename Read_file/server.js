@@ -8,7 +8,10 @@ const app = express();
 const PORT = 3000;
 
 // Cho phép CORS cho mọi yêu cầu từ mọi nguồn
-app.use(cors());
+app.use(cors({
+  origin: '*'
+}
+));
 
 // Đường dẫn tới thư mục chứa các bộ truyện
 const directoryPath = 'D:/IE104.P11.CNVN/truyen';
