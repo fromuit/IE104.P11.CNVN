@@ -41,6 +41,8 @@
                 const img = htmlDoc.querySelectorAll('img');
                 const read_content = htmlDoc.querySelector('h1,h4,h5,p,img');
 
+                const chap_content = htmlDoc.querySelector('#chap-content');
+
 
                 // Thêm nội dung của các thẻ header 
                 headers.forEach(header => {
@@ -55,15 +57,17 @@
                 // Thêm nội dung của các thẻ img
                 // chuyen sang id chap-content
                 img.forEach(img => {
-                    const imgElement = document.createElement('img');
-                    imgElement.src = img.src;
-                    imgElement.alt = img.alt || 'Hình ảnh không có mô tả';
-                    imgElement.style.margin = '10px';
-                    imgElement.onerror = function() {
-                        console.error('Không thể tải ảnh:', img.src);
-                        imgElement.alt = 'Không thể tải ảnh';
-                    };
-                    output.appendChild(imgElement);
+                    if(chap_content.contains(img)){
+                        const imgElement = document.createElement('img');
+                        imgElement.src = img.src;
+                        imgElement.alt = img.alt || 'Hình ảnh không có mô tả';
+                        imgElement.style.margin = '10px';
+                        imgElement.onerror = function() {
+                            console.error('Không thể tải ảnh:', img.src);
+                            imgElement.alt = 'Không thể tải ảnh';
+                        };
+                        output.appendChild(imgElement);
+                    }
                 });
 
             };
