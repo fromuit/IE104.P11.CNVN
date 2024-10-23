@@ -21,8 +21,8 @@ var signup=function(){
 }
 
 // NH/script.js
-var login = function(event){
-  event.preventDefault(); // Ngăn chặn hành vi mặc định của form khi submit
+var login = function(){
+  // Ngăn chặn hành vi mặc định của form khi submit
   let email = document.querySelector(".email").value;
   let password = document.querySelector(".password").value;
   if(!email_check(email)){
