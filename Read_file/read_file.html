@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công cụ đọc nội dung HTML</title>
+    <style>
+        #fileInput { margin-bottom: 10px; }
+        #output { white-space: pre-wrap; border: 1px solid #ccc; padding: 10px; }
+    </style>
+</head>
+<body>
+    <button onclick="fetchDirectories()">Hiển thị thư mục truyện</button>
+    <div id="output"></div>
+
+    <script>
+        function fetchDirectories() {
+            fetch('http://localhost:3000/list-files')
+                .then(response => response.json())
+                .then(data => {
+                    const output = document.getElementById('output');
+                    output.innerHTML = ''; // Xóa nội dung hiện tại
+                    data.forEach(dir => {
+                        const dirElement = document.createElement('div');
+                        dirElement.textContent = dir;
+                        dirElement.style.cursor = 'pointer';
+                        dirElement.onclick = () => readMainContent(dir);
+                        output.appendChild(dirElement);
+                    });
+                })
+                .catch(error => {
+                    console.error('Lỗi khi lấy dữ liệu:', error);
+                });
+        }
+
+        function readMainContent(directory) {
+            // Giả sử mỗi thư mục có một file index.html mà bạn muốn đọc
+            const filePath = `http://localhost:3000/${directory}/index.html`;
+            fetch(filePath)
+                .then(response => response.text())
+                .then(html => {
+                    const parser = new DOMParser();
+                    const htmlDoc = parser.parseFromString(html, 'text/html');
+                    const mainElement = htmlDoc.querySelector('main');
+                    const output = document.getElementById('output');
+                    output.innerHTML = mainElement ? mainElement.innerHTML : 'Không tìm thấy phần tử main';
+                })
+                .catch(error => {
+                    console.error('Lỗi khi đọc file:', error);
+                });
+        }
+    </script>
+</body>
+</html>
