@@ -7,13 +7,13 @@ const cors = require('cors');
 const app = express();
 const PORT = 3000;
 
-// Cho phép CORS cho mọi yêu cầu
+// Cho phép CORS cho mọi yêu cầu từ mọi nguồn
 app.use(cors());
 
 // Đường dẫn tới thư mục chứa các bộ truyện
 const directoryPath = 'D:/IE104.P11.CNVN/truyen';
 
-app.get('/list-files', (req, res) => {
+app.get('/truyen', (req, res) => {
     fs.readdir(directoryPath, { withFileTypes: true }, (err, files) => {
         if (err) {
             console.error('Lỗi khi đọc thư mục:', err);
