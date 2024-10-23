@@ -10,44 +10,73 @@
     </style>
 </head>
 <body>
-    <button onclick="fetchDirectories()">Hiển thị thư mục truyện</button>
-    <div id="output"></div>
+  <label for="fileInput">Chọn tệp HTML:</label>
+  <input type="file" id="fileInput" accept=".html">
+  <button onclick="readMainContent()">Đọc nội dung</button>
+  <div id="output"></div>
 
     <script>
-        function fetchDirectories() {
-            fetch('http://localhost:3000/truyen')
-                .then(response => response.json())
-                .then(data => {
-                    const output = document.getElementById('output');
-                    output.innerHTML = ''; // Xóa nội dung hiện tại
-                    data.forEach(dir => {
-                        const dirElement = document.createElement('div');
-                        dirElement.textContent = dir;
-                        dirElement.style.cursor = 'pointer';
-                        dirElement.onclick = () => readMainContent(dir);
-                        output.appendChild(dirElement);
-                    });
-                })
-                .catch(error => {
-                    console.error('Lỗi khi lấy dữ liệu:', error);
-                });
-        }
+        function readMainContent() {
+            const fileInput = document.getElementById('fileInput');
+            const output = document.getElementById('output');
+            
+            if (fileInput.files.length === 0) {
+                output.textContent = 'Vui lòng chọn một file HTML.';
+                return;
+            }
 
-        function readMainContent(directory) {
-            // Giả sử mỗi thư mục có một file index.html mà bạn muốn đọc
-            const filePath = `http://localhost:3000/${directory}/index.html`;
-            fetch(filePath)
-                .then(response => response.text())
-                .then(html => {
-                    const parser = new DOMParser();
-                    const htmlDoc = parser.parseFromString(html, 'text/html');
-                    const mainElement = htmlDoc.querySelector('main');
-                    const output = document.getElementById('output');
-                    output.innerHTML = mainElement ? mainElement.innerHTML : 'Không tìm thấy phần tử main';
-                })
-                .catch(error => {
-                    console.error('Lỗi khi đọc file:', error);
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                const content = e.target.result;
+                const parser = new DOMParser();
+                const htmlDoc = parser.parseFromString(content, 'text/html');
+                
+                // Tìm phần tử main
+                const mainElement = htmlDoc.querySelector('main');
+                const paragraphs = htmlDoc.querySelectorAll('p');
+                const headers = htmlDoc.querySelectorAll('h1,h4,h5');
+                const small = htmlDoc.querySelectorAll('small');
+                const img = htmlDoc.querySelectorAll('img');
+                const read_content = htmlDoc.querySelector('h1,h4,h5,p,img');
+
+                const chap_content = htmlDoc.querySelector('#chapter-content');
+
+
+                // Thêm nội dung của các thẻ header 
+                headers.forEach(header => {
+                    output.append(` ${header.textContent.trim()}\n\n`);
                 });
+
+                // Thêm nội dung của các thẻ p
+                paragraphs.forEach(p => {
+                    output.append(` ${p.textContent.trim()}\n\n`);
+                }); 
+
+                // Thêm nội dung của các thẻ img
+                // chuyen sang id chap-content
+                img.forEach(img => {
+                    if(chap_content.contains(img)){
+                        const imgElement = document.createElement('img');
+                        imgElement.src = img.src;
+                        imgElement.alt = img.alt || 'Hình ảnh không có mô tả';
+                        imgElement.style.margin = '10px';
+                        imgElement.onerror = function() {
+                            console.error('Không thể tải ảnh:', img.src);
+                            imgElement.alt = 'Không thể tải ảnh';
+                        };
+                        output.appendChild(imgElement);
+                    }
+                });
+
+            };
+
+            reader.onerror = function() {
+                output.textContent = 'Có lỗi xảy ra khi đọc file.';
+            };
+
+            reader.readAsText(file);
         }
     </script>
 </body>
