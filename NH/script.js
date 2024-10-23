@@ -20,13 +20,15 @@ var signup=function(){
   }
 }
 
-var login=function(){
-  let email=document.querySelector(".email").value;
-  let password=document.querySelector(".password").value;
+// NH/script.js
+var login = function(event){
+  event.preventDefault(); // Ngăn chặn hành vi mặc định của form khi submit
+  let email = document.querySelector(".email").value;
+  let password = document.querySelector(".password").value;
   if(!email_check(email)){
     window.alert("Email is not valid!");
   }
-  else if(password==confirmPassword){
+  else {
     window.alert("Login successful!");
   }
 }
