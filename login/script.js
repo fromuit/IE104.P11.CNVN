@@ -1,6 +1,12 @@
+
 function togglePassword() {
   var passwordInput = document.getElementById("password");
   var toggleButton = document.querySelector(".toggle-password");
+
+function togglePassword1() {
+  var passwordInput = document.getElementById("password");
+  var toggleButton = document.querySelector(".toggle-password1");
+
   if (passwordInput.type === "password") {
     passwordInput.type = "text";
     toggleButton.textContent = "🙈";
@@ -8,4 +14,5 @@ function togglePassword() {
     passwordInput.type = "password";
     toggleButton.textContent = "👁️";
   }
+
 }
