@@ -89,3 +89,10 @@ input{
   height: 280px;
 }
 
+.login- btn {
+  position: absolute;
+  bottom: 20px; /* Đặt nút ở vị trí cách đáy 20px */
+  left: 50%;
+  transform: translateX(-50%); /* Căn giữa nút theo chiều ngang */
+}
+
