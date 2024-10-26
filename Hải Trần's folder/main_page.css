@@ -485,4 +485,28 @@ body.dark-theme .user-nav a:hover {
     .LN-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .top-nav-container, .banner, .LN-grid, .user-panel {
+        width: 100%; /* Đặt chiều rộng tối đa cho các thành phần */
+        padding: 0 10px; /* Thêm padding để không bị sát cạnh */
+    }
+
+    .LN-card {
+        width: 100%; /* Đảm bảo các thẻ LN hiển thị đầy đủ chiều rộng */
+    }
+
+    .banner-image, .LN-image img {
+        width: 100%; /* Đảm bảo hình ảnh co giãn đầy đủ */
+        height: auto; /* Giữ tỷ lệ hình ảnh */
+    }
+
+    nav ul {
+        flex-direction: row; /* Xếp các liên kết dọc thay vì ngang */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .header-container {
+        width: 100%;
+    }
 }
