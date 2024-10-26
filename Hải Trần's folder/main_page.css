@@ -512,3 +512,9 @@ body.dark-theme .user-nav a:hover {
 
    
 }
+
+.tab-item {
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+}

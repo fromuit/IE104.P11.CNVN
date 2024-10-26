@@ -35,6 +35,7 @@ window.addEventListener('scroll', function() {
 });
 
 
+//tris sửa ở đây
 // đổi ảnh ở banner
 document.addEventListener('DOMContentLoaded', function() {
     const bannerImages = document.querySelectorAll('.banner-image');
@@ -65,7 +66,17 @@ document.addEventListener('DOMContentLoaded', function() {
     //tự động đổi ảnh
     setInterval(nextImage, 10000);
 });
-
+// sửa thanh ngang ở tab Top Truyện 
+document.addEventListener('DOMContentLoaded', function() {
+    const tabItems = document.querySelectorAll('.tab-item');
+    tabItems.forEach(tab => {
+        tab.addEventListener('click', function(e) {
+            e.preventDefault();
+            tabItems.forEach(tab => tab.classList.remove('active'));
+            tab.classList.add('active');
+        });
+    });
+});
 
 
 
