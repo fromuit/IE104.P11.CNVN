@@ -34,7 +34,32 @@ window.addEventListener('scroll', function() {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const bannerImages = document.querySelectorAll('.banner-image');
+    const prevButton = document.querySelector('.banner-nav.prev');
+    const nextButton = document.querySelector('.banner-nav.next');
+    let currentIndex = 0;
 
+    function showImage(index) {
+        bannerImages.forEach(img => img.classList.remove('active'));
+        bannerImages[index].classList.add('active');
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % bannerImages.length;
+        showImage(currentIndex);
+    }
+
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + bannerImages.length) % bannerImages.length;
+        showImage(currentIndex);
+    }
+
+    prevButton.addEventListener('click', prevImage);
+    nextButton.addEventListener('click', nextImage);
+
+    showImage(currentIndex);
+});
 
 
 
