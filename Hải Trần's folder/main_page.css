@@ -158,10 +158,12 @@ header {
 
 .banner-nav.prev {
     left: 10px;
+    display: none;
 }
 
 .banner-nav.next {
     right: 10px;
+    display: none;
 }
 
 .banner-dots {
