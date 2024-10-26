@@ -34,6 +34,8 @@ window.addEventListener('scroll', function() {
     }
 });
 
+
+// đổi ảnh ở banner
 document.addEventListener('DOMContentLoaded', function() {
     const bannerImages = document.querySelectorAll('.banner-image');
     const prevButton = document.querySelector('.banner-nav.prev');
@@ -59,6 +61,9 @@ document.addEventListener('DOMContentLoaded', function() {
     nextButton.addEventListener('click', nextImage);
 
     showImage(currentIndex);
+
+    //tự động đổi ảnh
+    setInterval(nextImage, 10000);
 });
 
 
