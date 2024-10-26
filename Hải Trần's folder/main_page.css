@@ -518,3 +518,13 @@ body.dark-theme .user-nav a:hover {
     padding: 10px;
     position: relative;
 }
+
+.hot-nav-tabs a {
+    color: black; /* Màu chữ mặc định */
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+
+/* Màu chữ cho dark theme */
+.dark-theme .hot-nav-tabs a {
+    color: white; /* Màu chữ cho dark theme */
+}
