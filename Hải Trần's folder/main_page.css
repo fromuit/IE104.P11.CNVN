@@ -228,8 +228,7 @@ header {
 /* Main content styles */
 main {
     position: relative;
-    display: grid;
-    grid-template-columns: 2fr 250px;
+    display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -263,6 +262,76 @@ article {
     grid-template-columns: repeat(6, 1fr);
     gap: 20px;
     margin-bottom: 20px;
+}
+
+.top-nav-container, .banner, .LN-grid, .user-panel {
+
+    width: 100%; /* Đặt chiều rộng tối đa cho các thành phần */
+
+    padding: 0 10px; /* Thêm padding để không bị sát cạnh */
+
+}
+
+
+
+.LN-card {
+
+    width: 100%; /* Đảm bảo các thẻ LN hiển thị đầy đủ chiều rộng */
+
+}
+
+
+
+.banner-image, .LN-image img {
+
+    width: 100%; /* Đảm bảo hình ảnh co giãn đầy đủ */
+
+    height: auto; /* Giữ tỷ lệ hình ảnh */
+
+}
+
+
+
+nav ul {
+
+    flex-direction: row; /* Xếp các liên kết dọc thay vì ngang */
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+
+.tab-item {
+
+cursor: pointer;
+
+padding: 10px;
+
+position: relative;
+
+}
+
+
+
+.hot-nav-tabs a {
+
+color: black; /* Màu chữ mặc định */
+
+text-decoration: none; /* Loại bỏ gạch chân */
+
+}
+
+
+
+/* Màu chữ cho dark theme */
+
+.dark-theme .hot-nav-tabs a {
+
+color: white; /* Màu chữ cho dark theme */
 }
 
 .LN-card {
@@ -488,43 +557,4 @@ body.dark-theme .user-nav a:hover {
     .LN-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .top-nav-container, .banner, .LN-grid, .user-panel {
-        width: 100%; /* Đặt chiều rộng tối đa cho các thành phần */
-        padding: 0 10px; /* Thêm padding để không bị sát cạnh */
-    }
-
-    .LN-card {
-        width: 100%; /* Đảm bảo các thẻ LN hiển thị đầy đủ chiều rộng */
-    }
-
-    .banner-image, .LN-image img {
-        width: 100%; /* Đảm bảo hình ảnh co giãn đầy đủ */
-        height: auto; /* Giữ tỷ lệ hình ảnh */
-    }
-
-    nav ul {
-        flex-direction: row; /* Xếp các liên kết dọc thay vì ngang */
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-   
-}
-
-.tab-item {
-    cursor: pointer;
-    padding: 10px;
-    position: relative;
-}
-
-.hot-nav-tabs a {
-    color: black; /* Màu chữ mặc định */
-    text-decoration: none; /* Loại bỏ gạch chân */
-}
-
-/* Màu chữ cho dark theme */
-.dark-theme .hot-nav-tabs a {
-    color: white; /* Màu chữ cho dark theme */
 }

@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     showImage(currentIndex);
 
     //tự động đổi ảnh
-    setInterval(nextImage, 10000);
+    setInterval(nextImage, 1000);
 });
 // sửa thanh ngang ở tab Top Truyện 
 document.addEventListener('DOMContentLoaded', function() {
