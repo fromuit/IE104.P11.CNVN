@@ -7,7 +7,6 @@ window.addEventListener('scroll', function() {
 
     var bannerBottom = banner.offsetTop + banner.offsetHeight;
     var scrollPosition = window.scrollY;
-    var viewportHeight = window.innerHeight;
 
     // Xử lý bottom nav
     if (scrollPosition + topNav.offsetHeight >= bannerBottom - bottomNav.offsetHeight) {
@@ -21,14 +20,21 @@ window.addEventListener('scroll', function() {
     }
 
     // Xử lý aside
-    if (scrollPosition > bannerBottom - topNav.offsetHeight) {
+    var asideTop = main.offsetTop;
+    if (scrollPosition + topNav.offsetHeight + bottomNav.offsetHeight > asideTop) {
         aside.classList.add('aside-fixed');
+        aside.style.top = (topNav.offsetHeight + bottomNav.offsetHeight) + 'px';
+        aside.style.bottom = '0';
         main.classList.add('aside-fixed-active');
     } else {
         aside.classList.remove('aside-fixed');
+        aside.style.top = 'auto';
+        aside.style.bottom = 'auto';
         main.classList.remove('aside-fixed-active');
     }
 });
+
+
 
 
 
