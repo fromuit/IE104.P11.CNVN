@@ -1,6 +1,6 @@
 // src/components/Header.js
 import React from 'react';
-import '../styles/Header.css'; // Giả sử bạn đã chuyển CSS vào file riêng
+import './styles/Header.css'; // Giả sử bạn đã chuyển CSS vào file riêng
 
 function Header() {
     return (
