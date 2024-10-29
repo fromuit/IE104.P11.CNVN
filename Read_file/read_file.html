@@ -29,6 +29,9 @@
             const reader = new FileReader();
 
             reader.onload = function(e) {
+                //xoa ket qua truoc
+                output.textContent = '';
+
                 const content = e.target.result;
                 const parser = new DOMParser();
                 const htmlDoc = parser.parseFromString(content, 'text/html');
