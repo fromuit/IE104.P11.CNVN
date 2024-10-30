@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './Banner.css';
 
 const banners = [
   { id: 1, image: '/images/banner1.png', link: '/banner1' },
   { id: 2, image: '/images/banner2.png', link: '/banner2' },
-  { id: 3, image: '/images/banner3.png', link: '/banner3' },
+  { id: 3, image: '/images/banner3.jpg', link: '/banner3' },
 ];
 
 const Banner = () => {
