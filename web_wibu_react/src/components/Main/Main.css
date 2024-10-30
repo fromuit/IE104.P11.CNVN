@@ -1,0 +1,57 @@
+/* Layout chính */
+.main-container {
+  max-width: 1500px;
+  width: 90%;
+  margin: 20px auto;
+  padding-top: 20px; /* Thêm padding-top */
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 30px;
+  min-height: calc(100vh - var(--top-nav-height) - var(--bottom-nav-height));
+}
+  
+  /* Đảm bảo section và aside có chiều cao bằng nhau */
+  .main-section,
+  .main-aside {
+    min-height: calc(100vh - 200px); /* Trừ đi chiều cao của header và margin */
+  }
+  
+  /* Responsive */
+  @media (max-width: 1600px) {
+    .main-container {
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .main-container {
+      width: 98%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .main-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .main-aside {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Animation khi load content */
+  .main-container > * {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

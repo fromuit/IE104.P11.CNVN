@@ -1,0 +1,92 @@
+.top-nav {
+  background-color: #1e40af; /* Xanh dương đậm */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Đảm bảo thanh nav luôn hiển thị trên cùng */
+ 
+}
+
+/* Các styles khác giữ nguyên */
+
+.top-nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.top-nav-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #60a5fa; /* Viền xanh dương nhạt */
+}
+
+.search-bar input {
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px 0 0 20px;
+  flex: 1;
+}
+
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  color: #2c3e50;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-left: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover, .settings:hover {
+  color: #93c5fd; /* Xanh dương rất nhạt khi hover */
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
