@@ -1,68 +1,46 @@
-// import { useState, useEffect } from 'react';
-
-// const useScrollHeader = () => {
-//   const [isBottomNavStuck, setIsBottomNavStuck] = useState(false);
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       const topNav = document.querySelector('.top-nav');
-//       const banner = document.querySelector('.banner');
-//       const bottomNav = document.querySelector('.bottom-nav');
-
-//       if (!topNav || !banner || !bottomNav) return;
-
-//       const scrollPosition = window.scrollY;
-//       const bannerBottom = banner.offsetTop + banner.offsetHeight;
-//       const topNavHeight = topNav.offsetHeight;
-
-//       if (scrollPosition + topNavHeight >= bannerBottom - bottomNav.offsetHeight) {
-//         setIsBottomNavStuck(true);
-//       } else {
-//         setIsBottomNavStuck(false);
-//       }
-//     };
-
-//     window.addEventListener('scroll', handleScroll);
-//     // Gọi một lần để set trạng thái ban đầu
-//     handleScroll();
-
-//     return () => window.removeEventListener('scroll', handleScroll);
-//   }, []);
-
-//   return { isBottomNavStuck };
-// };
-
-// export default useScrollHeader;
-
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 const useScrollHeader = () => {
+  const lastScrollY = useRef(0);
+  const ticking = useRef(false);
+
   useEffect(() => {
     const handleScroll = () => {
-      const topNav = document.querySelector('.top-nav');
-      const bottomNav = document.querySelector('.bottom-nav');
-      const banner = document.querySelector('.banner-container');
-      
-      if (!topNav || !bottomNav || !banner) return;
+      if (!ticking.current) {
+        window.requestAnimationFrame(() => {
+          const topNav = document.querySelector('.top-nav');
+          const bottomNav = document.querySelector('.bottom-nav');
+          const banner = document.querySelector('.banner-container');
+          
+          if (!topNav || !bottomNav || !banner) return;
 
-      const bottomNavPosition = bottomNav.getBoundingClientRect().top;
-      
-      if (bottomNavPosition <= 0) {
-        // Khi cuộn đến bottom nav
-        topNav.style.position = 'fixed';
-        topNav.style.top = '0';
-        bottomNav.style.position = 'fixed';
-        bottomNav.style.top = '60px'; // Chiều cao của top nav
-      } else {
-        // Khi chưa cuộn đến bottom nav
-        topNav.style.position = 'fixed';
-        topNav.style.top = '0';
-        bottomNav.style.position = 'relative';
-        bottomNav.style.top = 'auto';
+          const bottomNavPosition = bottomNav.getBoundingClientRect().top;
+          const shouldCombine = bottomNavPosition <= 60; // 60px là chiều cao của topNav
+
+          // Chỉ cập nhật DOM khi trạng thái thay đổi
+          if (shouldCombine) {
+            if (bottomNav.style.position !== 'fixed') {
+              bottomNav.style.position = 'fixed';
+              bottomNav.style.top = '60px';
+              bottomNav.style.left = '0';
+              bottomNav.style.right = '0';
+            }
+          } else {
+            if (bottomNav.style.position !== 'relative') {
+              bottomNav.style.position = 'relative';
+              bottomNav.style.top = 'auto';
+            }
+          }
+
+          lastScrollY.current = window.scrollY;
+          ticking.current = false;
+        });
+
+        ticking.current = true;
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 };

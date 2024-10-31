@@ -2,7 +2,7 @@
 import TopNav from './TopNav/TopNav';
 import Banner from './Banner/Banner';
 import BottomNav from './BottomNav/BottomNav';
-import useScrollHeader from '../../hooks/useScrollHeader';
+import useScrollHeader from '../../hooks/useScrollHeader.jsx';
 import './Header.css';
 
 const Header = () => {
