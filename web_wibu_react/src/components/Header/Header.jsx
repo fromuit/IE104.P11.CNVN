@@ -1,4 +1,4 @@
-import React from 'react';
+
 import TopNav from './TopNav/TopNav';
 import Banner from './Banner/Banner';
 import BottomNav from './BottomNav/BottomNav';
@@ -12,6 +12,8 @@ const Header = () => {
       <TopNav />
       <Banner />
       <BottomNav />
+      <Banner />
+      <Banner />
     </header>
   );
 };
