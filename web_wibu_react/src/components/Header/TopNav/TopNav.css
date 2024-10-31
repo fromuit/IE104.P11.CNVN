@@ -3,8 +3,8 @@
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
-  position: fixed;
-  top: 200;
+  position: sticky;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 1000; /* Đảm bảo thanh nav luôn hiển thị trên cùng */
@@ -89,4 +89,11 @@
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
+}
+
+/* Thêm một container bao quanh top-nav và banner */
+.header-container {
+  position: relative;
+  /* Chiều cao bằng tổng của banner và top-nav */
+  height: calc(100vh - 60px); /* Điều chỉnh theo chiều cao thực tế của banner */
 }

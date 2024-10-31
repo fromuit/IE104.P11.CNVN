@@ -3,8 +3,9 @@
   border-bottom: 1px solid #bfdbfe; /* Viền xanh dương nhạt */
   padding: 0;
   position: sticky;
-  top: 60px
-  
+  top: 60px;
+  z-index: 999;
+  width: 100%;
 }
 
 .bottom-nav-container {
