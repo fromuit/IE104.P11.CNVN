@@ -6,7 +6,6 @@ const SubNav = () => {
   const location = useLocation();
   const navRef = useRef(null);
   const isSticky = useRef(false);
-  const SCROLL_THRESHOLD = 1500; // Điểm scroll để kích hoạt sticky
 
   const navItems = [
     { path: '/genres', label: 'Thể loại' },
@@ -21,24 +20,41 @@ const SubNav = () => {
     const nav = navRef.current;
     if (!nav) return;
 
+    const calculateThreshold = () => {
+      // 1500px ở 50% viewport height (khoảng 969px) 
+      // Tính tỉ lệ: 1500 / 969 ≈ 1.55
+      const viewportHeight = window.innerHeight;
+      return viewportHeight * 0.9;
+    };
+
     const handleScroll = () => {
       const scrollY = window.scrollY;
+      const threshold = calculateThreshold();
       
-      if (scrollY > SCROLL_THRESHOLD && !isSticky.current) {
+      if (scrollY > threshold && !isSticky.current) {
         isSticky.current = true;
         nav.classList.add('sticky');
-      } else if (scrollY <= SCROLL_THRESHOLD && isSticky.current) {
+      } else if (scrollY <= threshold && isSticky.current) {
         isSticky.current = false;
         nav.classList.remove('sticky');
       }
     };
 
+    // Xử lý khi resize window
+    const handleResize = () => {
+      handleScroll();
+    };
+
     window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('resize', handleResize, { passive: true });
     
     // Kiểm tra trạng thái ban đầu
     handleScroll();
     
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (

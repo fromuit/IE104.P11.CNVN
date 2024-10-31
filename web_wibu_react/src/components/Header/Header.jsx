@@ -10,9 +10,6 @@ const Header = () => {
       <div className="content-wrapper">
         <Banner />
         <SubNav />
-        <Banner />
-        <Banner />
-        <Banner />
       </div>
     </>
   );
