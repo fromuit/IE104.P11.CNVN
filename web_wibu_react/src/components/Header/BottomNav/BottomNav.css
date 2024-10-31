@@ -1,11 +1,9 @@
 .bottom-nav {
   background-color: #ffffff;
-  border-bottom: 1px solid #bfdbfe; /* Viền xanh dương nhạt */
+  border-bottom: 1px solid #bfdbfe;
   padding: 0;
-  position: sticky;
-  top: 60px;
-  z-index: 999;
   width: 100%;
+  z-index: 999;
 }
 
 .bottom-nav-container {

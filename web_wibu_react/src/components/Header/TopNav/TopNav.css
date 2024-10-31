@@ -1,14 +1,11 @@
 .top-nav {
-  background-color: #1e40af; /* Xanh dương đậm */
+  background-color: #1e40af;
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000; /* Đảm bảo thanh nav luôn hiển thị trên cùng */
-  height:60px;
+  height: 60px;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Các styles khác giữ nguyên */
