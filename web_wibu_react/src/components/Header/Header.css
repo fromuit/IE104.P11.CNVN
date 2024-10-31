@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  position: relative;
+  z-index: 1000; /* Đảm bảo header luôn nổi trên các phần tử khác */
+  padding: 0;
+}
+
+/* Chỉ giữ khoảng trống cho TopNav fixed */
+.header-spacer {
+  height: var(--top-nav-height, 50px); /* Fallback 50px nếu biến không được định nghĩa */
+}

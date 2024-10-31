@@ -1,0 +1,92 @@
+.main-aside {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: sticky;
+    top: 20px; /* Giữ khoảng cách với top khi scroll */
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #f8f9fa;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .username {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .user-status {
+    font-size: 0.9rem;
+    color: #27ae60;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .user-status::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #27ae60;
+    border-radius: 50%;
+  }
+  
+  .user-menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    text-decoration: none;
+    color: #2c3e50;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    background-color: #f8f9fa;
+    color: #3498db;
+    transform: translateX(5px);
+  }
+  
+  .menu-icon {
+    font-size: 1.2rem;
+    width: 24px;
+    text-align: center;
+  }
+  
+  .menu-label {
+    font-weight: 500;
+  }
