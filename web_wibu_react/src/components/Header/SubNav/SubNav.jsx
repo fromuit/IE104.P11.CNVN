@@ -6,6 +6,7 @@ const SubNav = () => {
   const location = useLocation();
   const navRef = useRef(null);
   const isSticky = useRef(false);
+  const SCROLL_THRESHOLD = 1500; // Điểm scroll để kích hoạt sticky
 
   const navItems = [
     { path: '/genres', label: 'Thể loại' },
@@ -18,31 +19,26 @@ const SubNav = () => {
 
   useEffect(() => {
     const nav = navRef.current;
-    
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        const shouldBeSticky = !entry.isIntersecting;
-        
-        if (shouldBeSticky !== isSticky.current) {
-          isSticky.current = shouldBeSticky;
-          nav.classList.toggle('sticky', shouldBeSticky);
-        }
-      },
-      { 
-        threshold: [0],
-        rootMargin: '-60px 0px 0px 0px'
-      }
-    );
+    if (!nav) return;
 
-    if (nav) {
-      observer.observe(nav);
-    }
-
-    return () => {
-      if (nav) {
-        observer.unobserve(nav);
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      
+      if (scrollY > SCROLL_THRESHOLD && !isSticky.current) {
+        isSticky.current = true;
+        nav.classList.add('sticky');
+      } else if (scrollY <= SCROLL_THRESHOLD && isSticky.current) {
+        isSticky.current = false;
+        nav.classList.remove('sticky');
       }
     };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
+    // Kiểm tra trạng thái ban đầu
+    handleScroll();
+    
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
