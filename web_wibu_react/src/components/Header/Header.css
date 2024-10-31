@@ -1,11 +1,12 @@
 .header {
   position: relative;
+  margin-top: 60px;  /* Chiều cao của top nav */
 }
 
-.nav-wrapper {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
+.banner-container {
+  margin-bottom: 0;
+}
+
+.content-wrapper {
+  margin-top: 60px; /* Chiều cao của TopNav */
 }

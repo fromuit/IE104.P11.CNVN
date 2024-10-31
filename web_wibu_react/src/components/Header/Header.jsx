@@ -1,20 +1,20 @@
-
 import TopNav from './TopNav/TopNav';
 import Banner from './Banner/Banner';
-import BottomNav from './BottomNav/BottomNav';
-import useScrollHeader from '../../hooks/useScrollHeader.jsx';
+import SubNav from './SubNav/SubNav';
 import './Header.css';
 
 const Header = () => {
-  useScrollHeader();
   return (
-    <header className="header">
+    <>
       <TopNav />
-      <Banner />
-      <BottomNav />
-      <Banner />
-      <Banner />
-    </header>
+      <div className="content-wrapper">
+        <Banner />
+        <SubNav />
+        <Banner />
+        <Banner />
+        <Banner />
+      </div>
+    </>
   );
 };
 

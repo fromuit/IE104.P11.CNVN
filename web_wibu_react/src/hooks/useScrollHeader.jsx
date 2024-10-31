@@ -1,48 +1,67 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 
 const useScrollHeader = () => {
-  const lastScrollY = useRef(0);
-  const ticking = useRef(false);
+  const bottomNavRef = useRef(null);
+  const observerRef = useRef(null);
+  const isFixedRef = useRef(false);
+
+  const updatePosition = useCallback((shouldFix) => {
+    const bottomNav = bottomNavRef.current;
+    if (!bottomNav) return;
+
+    // Chỉ cập nhật khi trạng thái thay đổi
+    if (shouldFix !== isFixedRef.current) {
+      isFixedRef.current = shouldFix;
+      
+      if (shouldFix) {
+        bottomNav.style.cssText = `
+          position: fixed;
+          top: 60px;
+          left: 0;
+          right: 0;
+          width: 100%;
+          z-index: 999;
+        `;
+      } else {
+        bottomNav.style.cssText = `
+          position: relative;
+          top: auto;
+          left: auto;
+          right: auto;
+        `;
+      }
+    }
+  }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (!ticking.current) {
-        window.requestAnimationFrame(() => {
-          const topNav = document.querySelector('.top-nav');
-          const bottomNav = document.querySelector('.bottom-nav');
-          const banner = document.querySelector('.banner-container');
-          
-          if (!topNav || !bottomNav || !banner) return;
+    if (!observerRef.current) {
+      observerRef.current = new IntersectionObserver(
+        (entries) => {
+          const entry = entries[0];
+          updatePosition(!entry.isIntersecting);
+        },
+        {
+          threshold: 0,
+          rootMargin: '-60px 0px 0px 0px'
+        }
+      );
+    }
 
-          const bottomNavPosition = bottomNav.getBoundingClientRect().top;
-          const shouldCombine = bottomNavPosition <= 60; // 60px là chiều cao của topNav
+    const currentNav = bottomNavRef.current;
+    const currentObserver = observerRef.current;
 
-          // Chỉ cập nhật DOM khi trạng thái thay đổi
-          if (shouldCombine) {
-            if (bottomNav.style.position !== 'fixed') {
-              bottomNav.style.position = 'fixed';
-              bottomNav.style.top = '60px';
-              bottomNav.style.left = '0';
-              bottomNav.style.right = '0';
-            }
-          } else {
-            if (bottomNav.style.position !== 'relative') {
-              bottomNav.style.position = 'relative';
-              bottomNav.style.top = 'auto';
-            }
-          }
+    if (currentNav && currentObserver) {
+      currentObserver.observe(currentNav);
+    }
 
-          lastScrollY.current = window.scrollY;
-          ticking.current = false;
-        });
-
-        ticking.current = true;
+    return () => {
+      if (currentNav && currentObserver) {
+        currentObserver.unobserve(currentNav);
       }
     };
+  }, [updatePosition]);
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  return bottomNavRef;
 };
 
 export default useScrollHeader;
