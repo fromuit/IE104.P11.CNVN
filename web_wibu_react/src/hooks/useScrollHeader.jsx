@@ -1,35 +1,67 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 
 const useScrollHeader = () => {
-  const [isBottomNavStuck, setIsBottomNavStuck] = useState(false);
+  const bottomNavRef = useRef(null);
+  const observerRef = useRef(null);
+  const isFixedRef = useRef(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const topNav = document.querySelector('.top-nav');
-      const banner = document.querySelector('.banner');
-      const bottomNav = document.querySelector('.bottom-nav');
+  const updatePosition = useCallback((shouldFix) => {
+    const bottomNav = bottomNavRef.current;
+    if (!bottomNav) return;
 
-      if (!topNav || !banner || !bottomNav) return;
-
-      const scrollPosition = window.scrollY;
-      const bannerBottom = banner.offsetTop + banner.offsetHeight;
-      const topNavHeight = topNav.offsetHeight;
-
-      if (scrollPosition + topNavHeight >= bannerBottom - bottomNav.offsetHeight) {
-        setIsBottomNavStuck(true);
+    // Chỉ cập nhật khi trạng thái thay đổi
+    if (shouldFix !== isFixedRef.current) {
+      isFixedRef.current = shouldFix;
+      
+      if (shouldFix) {
+        bottomNav.style.cssText = `
+          position: fixed;
+          top: 60px;
+          left: 0;
+          right: 0;
+          width: 100%;
+          z-index: 999;
+        `;
       } else {
-        setIsBottomNavStuck(false);
+        bottomNav.style.cssText = `
+          position: relative;
+          top: auto;
+          left: auto;
+          right: auto;
+        `;
       }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    // Gọi một lần để set trạng thái ban đầu
-    handleScroll();
-
-    return () => window.removeEventListener('scroll', handleScroll);
+    }
   }, []);
 
-  return { isBottomNavStuck };
+  useEffect(() => {
+    if (!observerRef.current) {
+      observerRef.current = new IntersectionObserver(
+        (entries) => {
+          const entry = entries[0];
+          updatePosition(!entry.isIntersecting);
+        },
+        {
+          threshold: 0,
+          rootMargin: '-60px 0px 0px 0px'
+        }
+      );
+    }
+
+    const currentNav = bottomNavRef.current;
+    const currentObserver = observerRef.current;
+
+    if (currentNav && currentObserver) {
+      currentObserver.observe(currentNav);
+    }
+
+    return () => {
+      if (currentNav && currentObserver) {
+        currentObserver.unobserve(currentNav);
+      }
+    };
+  }, [updatePosition]);
+
+  return bottomNavRef;
 };
 
 export default useScrollHeader;
