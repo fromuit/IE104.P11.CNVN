@@ -1,4 +1,3 @@
-import React from 'react';
 import Section from './Section/Section';
 import Aside from './Aside/Aside';
 import './Main.css';

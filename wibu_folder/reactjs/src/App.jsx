@@ -1,15 +1,11 @@
 import React from 'react';
-import Header from './components/Main-page/Header/Header';
-import Main from './components/Main-page/Main/Main';
-import Footer from './components/Main-page/Footer/Footer';
+import AppRoutes from './routes/routes.jsx';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="app">
-      <Header />
-      <Main />
-      <Footer />
+      <AppRoutes />
     </div>
   );
 }

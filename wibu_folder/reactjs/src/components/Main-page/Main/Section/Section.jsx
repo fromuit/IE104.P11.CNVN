@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Section.css';
-
 // Component cho tiêu đề section
 const SectionHeader = ({ title, link }) => (
   <div className="section__header">
@@ -42,7 +41,6 @@ const TopTabs = ({ activeTab, onTabChange }) => (
   </div>
 );
 import PropTypes from 'prop-types';
-
 // Component cho Novel Card
 const NovelCard = ({ novel }) => (
   <Link to={`/truyen/${novel.slug}`} className="novel-card">
