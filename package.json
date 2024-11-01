@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "path-browserify": "^1.0.1"
+  }
+}
