@@ -1,9 +1,7 @@
-import {
-  createBrowserRouter,
-} from "react-router-dom";
+import { createBrowserRouter } from 'react-router-dom';
 import MainPage from "../pages/main_page.jsx";
 
-export const AppRoutes = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
