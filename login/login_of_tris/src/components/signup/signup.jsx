@@ -12,7 +12,13 @@ const Signup = () => {
     confirmPassword: '', // Xác nhận mật khẩu
     fullName: ''        // Họ tên đầy đủ
   });
-  const [errors, setErrors] = useState({});
+  const [errors, setErrors] = useState({
+    email: '',
+    password: '',
+    confirmPassword: '',
+    fullName: '',
+    submit: '' // Thêm trường này để lưu lỗi submit
+  });
 
   // Hàm xử lý khi người dùng nhập liệu vào các trường input
   // e: event object chứa thông tin về sự kiện nhập liệu
@@ -81,14 +87,17 @@ const Signup = () => {
         const data = await response.json();
         
         if (!response.ok) {
-          throw new Error(data.error);
+          throw new Error(data.error || 'Đăng ký thất bại');
         }
 
         alert('Đăng ký thành công!');
         window.location.href = '/login';
       } catch (error) {
         console.error('Lỗi:', error);
-        alert(error.message || 'Đã xảy ra lỗi khi đăng ký!');
+        setErrors(prev => ({
+          ...prev,
+          submit: error.message || 'Đã xảy ra lỗi khi đăng ký'
+        }));
       }
     }
   };
@@ -144,8 +153,17 @@ const Signup = () => {
               {errors.confirmPassword && <span className="error">{errors.confirmPassword}</span>}
             </div>
           </div>
+          {errors.submit && (
+            <div className="error-message" style={{
+              color: 'red',
+              textAlign: 'center',
+              marginBottom: '10px'
+            }}>
+              {errors.submit}
+            </div>
+          )}
           <div className="btn-field">
-            <button type="submit">Submit</button>
+            <button type="submit">Đăng ký</button>
           </div>
           <div className="login-link">
             <p>Already have an account? <a href="/login">Log in</a></p>
