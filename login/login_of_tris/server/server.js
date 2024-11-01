@@ -1,4 +1,4 @@
-//Trước khi chạy server, cần chạy lệnh: npm install express fs path cors
+//Trước khi chạy server, cần chạy lệnh: npm install express fs path cors uuid
 //Sau đó chạy lệnh: node server.js
 //Sau đó ms chạy vite bt
 
@@ -6,6 +6,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const cors = require('cors');
+const { v4: uuidv4 } = require('uuid');
 
 const app = express();
 app.use(cors());
@@ -34,10 +35,27 @@ app.post('/api/signup', (req, res) => {
       return res.status(400).json({ error: 'Email đã tồn tại' });
     }
 
-    users.push(userData);
+    // Tạo user mới với ID và các trường bổ sung
+    const newUser = {
+      id: uuidv4(),
+      ...userData,
+      role: 'user',
+      status: 'active',
+      avatar: null,
+      createdAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+      lastLogin: null
+    };
+
+    users.push(newUser);
     fs.writeFileSync(dataPath, JSON.stringify(users, null, 2));
     
-    res.json({ message: 'Đăng ký thành công' });
+    // Trả về thông tin user (không bao gồm password)
+    const { password, ...userWithoutPassword } = newUser;
+    res.json({ 
+      message: 'Đăng ký thành công',
+      user: userWithoutPassword 
+    });
   } catch (error) {
     res.status(500).json({ error: 'Lỗi server' });
   }
