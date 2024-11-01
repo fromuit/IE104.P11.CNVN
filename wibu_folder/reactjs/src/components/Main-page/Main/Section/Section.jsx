@@ -41,6 +41,7 @@ const TopTabs = ({ activeTab, onTabChange }) => (
     </button>
   </div>
 );
+import PropTypes from 'prop-types';
 
 // Component cho Novel Card
 const NovelCard = ({ novel }) => (
@@ -57,6 +58,26 @@ const NovelCard = ({ novel }) => (
 
 function Section() {
   const [activeTopTab, setActiveTopTab] = React.useState('week');
+  const [slideDirection, setSlideDirection] = React.useState('slide-right');
+
+  // Thêm hàm xử lý chuyển tab
+  const handleTabChange = (newTab) => {
+    // Đảm bảo mảng tabOrder chứa đầy đủ các tab giống như trong TopTabs component
+    const tabOrder = ['week', 'month', 'year', 'all']; // Kiểm tra xem các giá trị này có khớp với các tab value của bạn không
+    const currentIndex = tabOrder.indexOf(activeTopTab);
+    const newIndex = tabOrder.indexOf(newTab);
+    
+    // Reset animation trước khi thêm animation mới
+    setSlideDirection('');
+    
+    // Sử dụng setTimeout để đảm bảo DOM được cập nhật
+    setTimeout(() => {
+      if (currentIndex !== -1 && newIndex !== -1) {
+        setSlideDirection(currentIndex < newIndex ? 'slide-left' : 'slide-right');
+      }
+      setActiveTopTab(newTab);
+    }, 10);
+  };
 
   // Data mẫu cho novels
   const sampleNovels = Array(6).fill({
@@ -70,8 +91,8 @@ function Section() {
       {/* Top truyện */}
       <section className="section__block">
         <SectionHeader title="Top truyện" link="/top-truyen" />
-        <TopTabs activeTab={activeTopTab} onTabChange={setActiveTopTab} />
-        <div className="novel-grid">
+        <TopTabs activeTab={activeTopTab} onTabChange={handleTabChange} />
+        <div className={`novel-grid ${slideDirection}`}>
           {sampleNovels.map((novel, index) => (
             <NovelCard key={index} novel={novel} />
           ))}
