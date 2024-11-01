@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kiyomizu - Web đọc Light Novel</title>
+    <link rel="stylesheet" href="main_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav class="top-nav">
+                <div class="top-nav-container">
+                    <a href="/" class="logo">
+                        <img src="logo.png" alt="Web Logo">
+                    </a>
+                    <div class="top-nav-items">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Tìm kiếm...">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+                        <button class="theme-toggle" aria-label="Toggle dark mode">
+                            <span class="theme-toggle-dark">🌙</span>
+                            <span class="theme-toggle-light">☀️</span>
+                        </button>
+                        <button class="settings">
+                            <i class="fa fa-cog"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+    
+            <div class="banner">
+                <img src="383cea039f33224c68dc7bae58660f9b_547677403341742960.png" alt="Banner 1" class="banner-image active">
+                <img src="image.png" alt="Banner 2" class="banner-image">
+                <img src="463776822_560257616376871_4920691297219730697_n.jpg" alt="Banner 3" class="banner-image">
+                <button class="banner-nav prev" aria-label="Previous banner">&#10094;</button>
+                <button class="banner-nav next" aria-label="Next banner">&#10095;</button>
+                <div class="banner-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+        
+
+        <nav class="bottom-nav">
+            <ul>
+                <li><a href="#categories">Thể loại</a></li>
+                <li><a href="#release-schedule">Lịch phát hành</a></li>
+                <li><a href="#store">Cửa hàng</a></li>
+                <li><a href="#write">Sáng tác</a></li>
+                <li><a href="#rankings">Bảng xếp hạng</a></li>
+                <li><a href="#rules">Quy định</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="LN-list">
+                <section class="LN-section">
+                    <h2 class="section-title">Top truyện</h2>
+                    <nav class="hot-nav-tabs">
+                        <ul>
+                            <li><a href="#" data-period="day" class="tab-item active">Top ngày</a></li>
+                            <li><a href="#" data-period="week" class="tab-item">Top tuần</a></li>
+                            <li><a href="#" data-period="month" class="tab-item">Top tháng</a></li>
+                            <li><a href="#" data-period="year" class="tab-item">Top năm</a></li>
+                            <li><a href="#" data-period="all-time" class="tab-item">Top toàn thời gian</a></li>
+                        </ul>
+                    </nav>
+                    <div id="hot-novels" class="LN-grid">
+                        <!-- 12 LN cards (6x2 grid) -->
+                        <!-- Repeat this structure 12 times -->
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                
+                <section class="new-update">
+                    <h2>Mới cập nhật</h2>
+                    <div id="new-update" class="LN-grid">
+                        <!-- 12 LN cards (6x2 grid) -->
+                        <!-- Repeat this structure 12 times -->
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <section class="new-LN">   
+                    <h2>Truyện mới</h2>
+                    <div id="new-LN" class="LN-grid">
+                        <!-- 6 LN cards (6x1 grid) -->
+                        <!-- Repeat this structure 12 times -->
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <section class="completed-LN">
+                    <h2>Truyện đã hoàn thành</h2>
+                    <div id="completed-LN" class="LN-grid">
+                        <!-- 6 LN cards (6x1 grid) -->
+                        <!-- Repeat this structure 12 times -->
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <section class="series">
+                    <h2>Series</h2>
+                    <div id="series" class="LN-grid">
+                        <!-- 6 LN cards (6x1 grid) -->
+                        <!-- Repeat this structure 12 times -->
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                <section class="oneshot">
+                    <h2>Oneshot</h2>
+                    <div id="oneshot" class="LN-grid">
+                        <!-- 6 LN cards (6x1 grid) -->
+                        <!-- Repeat this structure 12 times -->
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+
+                        <div class="LN-card">
+                            <div class="LN-image">
+                                <img src="/api/placeholder/200/280" alt="LN thumbnail">
+                                <div class="glow-overlay"></div>
+                            </div>
+                            <div class="LN-info">
+                                <div class="LN-title">Cao Vố: Hạ Cánh Đến M...</div>
+                                <span class="LN-chapter">Chapter 163</span>
+                                <span class="time-ago">1 ngày trước</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <aside class="user">
+            <div class="user-panel">
+                <div class="user-info">
+                    <img src="GYngKEjasAQ2SLU.png" alt="Avatar" class="avatar">
+                    <span class="username">Khách</span>
+                </div>
+                <nav class="user-nav">
+                    <ul>
+                        <li><a href="#notifications"><i class="fa fa-bell"></i>Thông báo</a></li>
+                        <li><a href="#follow"><i class="fa fa-user"></i>Theo dõi</a></li>
+                        <li><a href="#inbox"><i class="fa fa-envelope"></i>Hộp thư</a></li>
+                        <li><a href="#bookshelf"><i class="fa fa-book"></i>Tủ sách</a></li>
+                        <li><a href="#discussion"><i class="fa fa-comments"></i>Thảo luận</a></li>
+                        <li><a href="#shop"><i class="fa fa-shopping-cart"></i>Mua hàng</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+    </main>
+
+    <script src="main_page.js"></script>
+</body>
+</html>
