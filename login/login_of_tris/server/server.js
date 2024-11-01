@@ -23,24 +23,43 @@ if (!fs.existsSync(dataPath)) {
 
 app.post('/api/signup', (req, res) => {
     try {
+        // Kiểm tra dữ liệu đầu vào
+        const { username, email, password } = req.body;
+        if (!username || !email || !password) {
+            return res.status(400).json({ 
+                error: 'Vui lòng điền đầy đủ thông tin' 
+            });
+        }
+
         // Đọc file users.json
         let users = [];
-        if (fs.existsSync(dataPath)) {
+        try {
             const fileContent = fs.readFileSync(dataPath, 'utf8');
-            users = fileContent ? JSON.parse(fileContent) : [];
+            users = JSON.parse(fileContent || '[]');
+        } catch (err) {
+            users = [];
         }
 
-        const userData = req.body;
+        // Tạo ID mới bằng cách lấy ID lớn nhất + 1
+        const maxId = users.reduce((max, user) => {
+            const userId = parseInt(user.id) || 0;
+            return userId > max ? userId : max;
+        }, 0);
+        const newId = (maxId + 1).toString().padStart(6, '0'); // Format ID thành dạng 000001
 
         // Kiểm tra email đã tồn tại
-        if (users.some(user => user.email === userData.email)) {
-            return res.status(400).json({ error: 'Email đã tồn tại' });
+        if (users.some(user => user.email === email)) {
+            return res.status(400).json({ 
+                error: 'Email đã tồn tại' 
+            });
         }
 
-        // Tạo user mới với ID
+        // Tạo user mới
         const newUser = {
-            id: uuidv4(),
-            ...userData,
+            id: newId,
+            username,
+            email,
+            password,
             role: 'user',
             status: 'active',
             avatar: null,
@@ -49,15 +68,13 @@ app.post('/api/signup', (req, res) => {
             lastLogin: null
         };
 
-        // Thêm user mới vào mảng
+        // Thêm user và lưu file
         users.push(newUser);
-
-        // Lưu lại vào file
         fs.writeFileSync(dataPath, JSON.stringify(users, null, 2));
 
-        // Trả về thông tin user (không bao gồm password)
-        const { password, ...userWithoutPassword } = newUser;
-        res.status(200).json({
+        // Trả về kết quả
+        const { password: _, ...userWithoutPassword } = newUser;
+        res.status(201).json({
             message: 'Đăng ký thành công',
             user: userWithoutPassword
         });
@@ -66,7 +83,7 @@ app.post('/api/signup', (req, res) => {
         console.error('Lỗi đăng ký:', error);
         res.status(500).json({ 
             error: 'Lỗi server',
-            details: error.message 
+            message: error.message 
         });
     }
 });
