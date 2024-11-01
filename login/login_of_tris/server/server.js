@@ -23,43 +23,40 @@ if (!fs.existsSync(dataPath)) {
 
 app.post('/api/signup', (req, res) => {
     try {
-        // Kiểm tra dữ liệu đầu vào
-        const { username, email, password } = req.body;
-        if (!username || !email || !password) {
-            return res.status(400).json({ 
-                error: 'Vui lòng điền đầy đủ thông tin' 
-            });
+        const { fullName, email, password } = req.body;
+        
+        // Log để debug
+        console.log('Received data:', req.body);
+
+        // Kiểm tra dữ liệu một cách chi tiết hơn
+        if (typeof fullName !== 'string' || !fullName.trim()) {
+            return res.status(400).json({ error: 'Họ tên không được để trống' });
+        }
+        if (typeof email !== 'string' || !email.trim()) {
+            return res.status(400).json({ error: 'Email không được để trống' });
+        }
+        if (typeof password !== 'string' || !password.trim()) {
+            return res.status(400).json({ error: 'Mật khẩu không được để trống' });
         }
 
         // Đọc file users.json
         let users = [];
-        try {
-            const fileContent = fs.readFileSync(dataPath, 'utf8');
-            users = JSON.parse(fileContent || '[]');
-        } catch (err) {
-            users = [];
-        }
+        const fileContent = fs.readFileSync(dataPath, 'utf8');
+        users = fileContent ? JSON.parse(fileContent) : [];
 
-        // Tạo ID mới bằng cách lấy ID lớn nhất + 1
+        // Tạo ID mới
         const maxId = users.reduce((max, user) => {
             const userId = parseInt(user.id) || 0;
             return userId > max ? userId : max;
         }, 0);
-        const newId = (maxId + 1).toString().padStart(6, '0'); // Format ID thành dạng 000001
-
-        // Kiểm tra email đã tồn tại
-        if (users.some(user => user.email === email)) {
-            return res.status(400).json({ 
-                error: 'Email đã tồn tại' 
-            });
-        }
+        const newId = (maxId + 1).toString().padStart(6, '0');
 
         // Tạo user mới
         const newUser = {
             id: newId,
-            username,
-            email,
-            password,
+            fullName: fullName.trim(),
+            email: email.trim(),
+            password: password.trim(),
             role: 'user',
             status: 'active',
             avatar: null,
@@ -72,18 +69,22 @@ app.post('/api/signup', (req, res) => {
         users.push(newUser);
         fs.writeFileSync(dataPath, JSON.stringify(users, null, 2));
 
-        // Trả về kết quả
-        const { password: _, ...userWithoutPassword } = newUser;
+        // Trả về thành công
         res.status(201).json({
+            success: true,
             message: 'Đăng ký thành công',
-            user: userWithoutPassword
+            user: {
+                id: newUser.id,
+                fullName: newUser.fullName,
+                email: newUser.email
+            }
         });
 
     } catch (error) {
-        console.error('Lỗi đăng ký:', error);
+        console.error('Server error:', error);
         res.status(500).json({ 
-            error: 'Lỗi server',
-            message: error.message 
+            error: 'Lỗi server', 
+            details: error.message 
         });
     }
 });

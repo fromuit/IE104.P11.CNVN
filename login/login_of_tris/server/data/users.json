@@ -22,5 +22,29 @@
     "avatar": null,
     "updatedAt": "2024-11-01T07:18:51.411Z",
     "lastLogin": null
+  },
+  {
+    "id": "000009",
+    "fullName": "Tris",
+    "email": "trisnguyen45@gmail.com",
+    "password": "11111111",
+    "role": "user",
+    "status": "active",
+    "avatar": null,
+    "createdAt": "2024-11-01T07:33:59.067Z",
+    "updatedAt": "2024-11-01T07:33:59.067Z",
+    "lastLogin": null
+  },
+  {
+    "id": "000010",
+    "fullName": "triss",
+    "email": "22521522@gm.uit.edu.vn",
+    "password": "aaaaaaaaa",
+    "role": "user",
+    "status": "active",
+    "avatar": null,
+    "createdAt": "2024-11-01T07:34:36.431Z",
+    "updatedAt": "2024-11-01T07:34:36.431Z",
+    "lastLogin": null
   }
 ]

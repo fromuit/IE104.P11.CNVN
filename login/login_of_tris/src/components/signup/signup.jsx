@@ -32,73 +32,91 @@ const Signup = () => {
 
   // Hàm kiểm tra tính hợp lệ của form trước khi submit
   const validateForm = () => {
-    let tempErrors = {}; // Object tạm để lưu các lỗi
+    let isValid = true;
+    let tempErrors = {};
 
-    // Kiểm tra email: không được trống và phải đúng định dạng
-    if (!formData.email.trim()) {
-      tempErrors.email = 'Email không được để trống';
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      tempErrors.email = 'Email không hợp lệ';
-    }
-    
-    // Kiểm tra họ tên: không được trống
     if (!formData.fullName.trim()) {
-      tempErrors.fullName = 'Họ tên không được để trống';
+        tempErrors.fullName = 'Họ tên không được để trống';
+        isValid = false;
     }
 
-    // Kiểm tra mật khẩu: không được trống và phải đủ độ dài tối thiểu
+    if (!formData.email.trim()) {
+        tempErrors.email = 'Email không được để trống';
+        isValid = false;
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+        tempErrors.email = 'Email không hợp lệ';
+        isValid = false;
+    }
+
     if (!formData.password) {
-      tempErrors.password = 'Mật khẩu không được để trống';
+        tempErrors.password = 'Mật khẩu không được để trống';
+        isValid = false;
     } else if (formData.password.length < 6) {
-      tempErrors.password = 'Mật khẩu phải có ít nhất 6 ký tự';
+        tempErrors.password = 'Mật khẩu phải có ít nhất 6 ký tự';
+        isValid = false;
     }
 
-    // Kiểm tra xác nhận mật khẩu: phải khớp với mật khẩu đã nhập
     if (formData.password !== formData.confirmPassword) {
-      tempErrors.confirmPassword = 'Mật khẩu xác nhận không khớp';
+        tempErrors.confirmPassword = 'Mật khẩu xác nhận không khớp';
+        isValid = false;
     }
 
-    setErrors(tempErrors); // Cập nhật state errors
-    return Object.keys(tempErrors).length === 0; // Trả về true nếu không có lỗi
+    setErrors(prev => ({...prev, ...tempErrors}));
+    return isValid;
   };
 
   // Hàm xử lý khi form được submit
   const handleSubmit = async (e) => {
-    e.preventDefault(); // Ngăn chặn hành vi submit mặc định của form
-    if (validateForm()) { // Kiểm tra form hợp lệ
-      try {
-        // Tạo object chứa thông tin người dùng để gửi lên server
-        const userData = {
-          fullName: formData.fullName,
-          email: formData.email,
-          password: formData.password,
-          createdAt: new Date().toISOString() // Thêm thời gian tạo tài khoản
-        };
+    e.preventDefault();
+    
+    // Reset error messages
+    setErrors({
+        email: '',
+        password: '',
+        confirmPassword: '',
+        fullName: '',
+        submit: ''
+    });
 
-        // Gửi request đăng ký đến server
-        const response = await fetch('http://localhost:5000/api/signup', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(userData)
-        });
+    if (validateForm()) {
+        try {
+            const userData = {
+                fullName: formData.fullName.trim(),
+                email: formData.email.trim(),
+                password: formData.password
+            };
 
-        const data = await response.json();
-        
-        if (!response.ok) {
-          throw new Error(data.error || 'Đăng ký thất bại');
+            // Log data being sent
+            console.log('Sending data:', userData);
+
+            const response = await fetch('http://localhost:5000/api/signup', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(userData)
+            });
+
+            const data = await response.json();
+            
+            if (!response.ok) {
+                throw new Error(data.error || 'Đăng ký thất bại');
+            }
+
+            if (data.success) {
+                alert('Đăng ký thành công!');
+                window.location.href = '/login';
+            } else {
+                throw new Error(data.error || 'Đăng ký thất bại');
+            }
+
+        } catch (error) {
+            console.error('Client error:', error);
+            setErrors(prev => ({
+                ...prev,
+                submit: error.message
+            }));
         }
-
-        alert('Đăng ký thành công!');
-        window.location.href = '/login';
-      } catch (error) {
-        console.error('Lỗi:', error);
-        setErrors(prev => ({
-          ...prev,
-          submit: error.message || 'Đã xảy ra lỗi khi đăng ký'
-        }));
-      }
     }
   };
 
