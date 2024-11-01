@@ -12,53 +12,80 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Đường dẫn đến file users.json
 const dataPath = path.join(__dirname, 'data', 'users.json');
 
-// Tạo thư mục data nếu chưa tồn tại
-if (!fs.existsSync(path.join(__dirname, 'data'))) {
-  fs.mkdirSync(path.join(__dirname, 'data'));
-}
-
-// Tạo file users.json nếu chưa tồn tại
+// Đảm bảo file users.json tồn tại với mảng rỗng nếu chưa có
 if (!fs.existsSync(dataPath)) {
-  fs.writeFileSync(dataPath, '[]', 'utf8');
+    fs.mkdirSync(path.dirname(dataPath), { recursive: true });
+    fs.writeFileSync(dataPath, JSON.stringify([], null, 2));
 }
 
-// API đăng ký
 app.post('/api/signup', (req, res) => {
-  try {
-    const userData = req.body;
-    const users = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
-    
-    // Kiểm tra email đã tồn tại
-    if (users.find(user => user.email === userData.email)) {
-      return res.status(400).json({ error: 'Email đã tồn tại' });
+    try {
+        // Kiểm tra dữ liệu đầu vào
+        const { username, email, password } = req.body;
+        if (!username || !email || !password) {
+            return res.status(400).json({ 
+                error: 'Vui lòng điền đầy đủ thông tin' 
+            });
+        }
+
+        // Đọc file users.json
+        let users = [];
+        try {
+            const fileContent = fs.readFileSync(dataPath, 'utf8');
+            users = JSON.parse(fileContent || '[]');
+        } catch (err) {
+            users = [];
+        }
+
+        // Tạo ID mới bằng cách lấy ID lớn nhất + 1
+        const maxId = users.reduce((max, user) => {
+            const userId = parseInt(user.id) || 0;
+            return userId > max ? userId : max;
+        }, 0);
+        const newId = (maxId + 1).toString().padStart(6, '0'); // Format ID thành dạng 000001
+
+        // Kiểm tra email đã tồn tại
+        if (users.some(user => user.email === email)) {
+            return res.status(400).json({ 
+                error: 'Email đã tồn tại' 
+            });
+        }
+
+        // Tạo user mới
+        const newUser = {
+            id: newId,
+            username,
+            email,
+            password,
+            role: 'user',
+            status: 'active',
+            avatar: null,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+            lastLogin: null
+        };
+
+        // Thêm user và lưu file
+        users.push(newUser);
+        fs.writeFileSync(dataPath, JSON.stringify(users, null, 2));
+
+        // Trả về kết quả
+        const { password: _, ...userWithoutPassword } = newUser;
+        res.status(201).json({
+            message: 'Đăng ký thành công',
+            user: userWithoutPassword
+        });
+
+    } catch (error) {
+        console.error('Lỗi đăng ký:', error);
+        res.status(500).json({ 
+            error: 'Lỗi server',
+            message: error.message 
+        });
     }
-
-    // Tạo user mới với ID và các trường bổ sung
-    const newUser = {
-      id: uuidv4(),
-      ...userData,
-      role: 'user',
-      status: 'active',
-      avatar: null,
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString(),
-      lastLogin: null
-    };
-
-    users.push(newUser);
-    fs.writeFileSync(dataPath, JSON.stringify(users, null, 2));
-    
-    // Trả về thông tin user (không bao gồm password)
-    const { password, ...userWithoutPassword } = newUser;
-    res.json({ 
-      message: 'Đăng ký thành công',
-      user: userWithoutPassword 
-    });
-  } catch (error) {
-    res.status(500).json({ error: 'Lỗi server' });
-  }
 });
 
 // API lấy danh sách users
@@ -98,7 +125,7 @@ app.post('/api/login', (req, res) => {
   }
 });
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Server đang chạy tại port ${PORT}`);
+    console.log(`Server đang chạy trên port ${PORT}`);
 });
