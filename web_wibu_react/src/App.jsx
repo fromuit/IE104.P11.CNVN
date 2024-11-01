@@ -1,17 +1,14 @@
 
-import { BrowserRouter as Router } from 'react-router-dom';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import { BrowserRouter as Router, RouterProvider } from 'react-router-dom';
+import router from './Routers/routes';
 import './App.css';
 
 function App() {
   return (
-    <Router>
       <div className="app">
-        <Header />
-        <Main />
+        <RouterProvider router={router} />
       </div>
-    </Router>
+
   );
 }
 
