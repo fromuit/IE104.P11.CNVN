@@ -1,4 +1,4 @@
-const Novel = require('../models/Novel');
+/*const Novel = require('../models/Novel');
 const Comment = require('../models/Comment');
 
 // Controller cho Series novels
@@ -303,4 +303,26 @@ exports.searchNovels = async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: 'Lỗi server' });
   }
+};
+*/
+const sampleData = require('../data/sampleNovels.json');
+
+// Sử dụng trong các controller
+exports.getTopNovels = async (req, res) => {
+  const { period } = req.params;
+  res.json(sampleData.topNovels[period] || []);
+};
+
+exports.getRecentNovels = async (req, res) => {
+  res.json(sampleData.recentNovels);
+};
+
+exports.getSeriesNovels = async (req, res) => {
+  const seriesNovels = sampleData.novels.filter(novel => novel.type === 'series');
+  res.json(seriesNovels);
+};
+
+exports.getOneshotNovels = async (req, res) => {
+  const oneshotNovels = sampleData.novels.filter(novel => novel.type === 'oneshot');
+  res.json(oneshotNovels);
 };
