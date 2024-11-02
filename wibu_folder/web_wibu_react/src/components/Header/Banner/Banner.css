@@ -1,53 +1,41 @@
-.banner {
+/* Container chung cho banner */
+.banner-wrapper {
   width: 100%;
-  flex: 1;
-  position: relative;
-  overflow: hidden;
+  max-width: 1500px;
+  height: 700px;
   background: #f5f5f5;
-  margin: 0;
-  padding: 0;
+  margin: 0 0;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
-/* Thêm style cho banner compact */
+.banner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner compact giờ sẽ có cùng kích thước */
 .banner--compact {
-  flex: none; /* Không còn flex grow */
-  height: 160px;
+  height: 100%;
+  width: 100%;
 }
 
 .banner__container {
   width: 100%;
   height: 100%;
   position: relative;
-  display: flex; /* Thêm display flex */
-  flex-direction: column; /* Xếp các phần tử theo chiều dọc */
   margin: 0;
-  padding-top: 40px;
+  padding: 0;
 }
 
-/* Điều chỉnh navigation cho banner compact */
-.banner--compact .banner__nav {
-  width: 30px;
-  height: 30px;
-  top: calc(50% + 20px);
-}
-
-.banner--compact .banner__dots {
-  bottom: 5px;
-  padding: 5px 10px;
-}
-
-.banner--compact .banner__dot {
-  width: 8px;
-  height: 8px;
-}
-
-/* Slides */
 .banner__slides {
-  display: flex;
   width: 100%;
   height: 100%;
+  display: flex;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -55,27 +43,26 @@
   min-width: 100%;
   height: 100%;
   position: relative;
+  text-decoration: none;
   display: flex;
-  justify-content: center; /* Căn giữa ảnh */
-  align-items: center; /* Căn giữa ảnh */
+  align-items: center;
+  justify-content: center;
+}
+
+.banner__image-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner__image {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; /* Thay đổi từ cover sang contain */
-}
-
-/* Thêm một wrapper cho ảnh để kiểm soát tỉ lệ */
-.banner__image-wrapper {
-  position: relative;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Navigation Arrows */
@@ -109,72 +96,59 @@
   right: 20px;
 }
 
-/* Điều chỉnh vị trí nút trái phải cho banner compact */
-.banner--compact .banner__nav--prev {
-  left: 10px;
-}
-
-.banner--compact .banner__nav--next {
-  right: 10px;
-}
-
 /* Dots Navigation */
 .banner__dots {
   position: absolute;
-  bottom: 10px; /* Tăng khoảng cách với bottom */
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 12px; /* Tăng khoảng cách giữa các dots */
+  gap: 12px;
   z-index: 2;
-  padding: 10px 15px; /* Thêm padding */
-  background: rgba(0, 0, 0, 0.3); /* Thêm background mờ */
-  border-radius: 20px; /* Bo tròn viền */
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
 }
 
 .banner__dot {
-  width: 14px; /* Tăng kích thước */
-  height: 14px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.5);
-  border: 2px solid rgba(255, 255, 255, 0.8); /* Thêm viền */
+  border: 2px solid rgba(255, 255, 255, 0.8);
   cursor: pointer;
   transition: all 0.3s ease;
   padding: 0;
 }
 
-.banner__dot:hover {
-  background: rgba(255, 255, 255, 0.8);
-  transform: scale(1.2); /* Hiệu ứng phóng to khi hover */
-}
-
+.banner__dot:hover,
 .banner__dot.active {
   background: white;
-  transform: scale(1.2); /* Dot đang active sẽ to hơn */
-  border-color: white; /* Viền trắng đậm hơn cho dot active */
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); /* Thêm glow effect */
+  transform: scale(1.2);
 }
 
-/* Responsive adjustments */
+/* Responsive */
+@media (max-width: 1440px) {
+  .banner-wrapper {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .banner-wrapper {
+    height: 350px;
+  }
+}
+
 @media (max-width: 768px) {
-  .banner {
-    height: 50vh; /* Điều chỉnh chiều cao cho mobile */
+  .banner-wrapper {
+    height: 300px;
   }
+}
 
-  .banner__nav {
-    width: 30px;
-    height: 30px;
-  }
-
-  .banner__dots {
-    bottom: 20px;
-    gap: 10px;
-    padding: 8px 12px;
-  }
-
-  .banner__dot {
-    width: 10px;
-    height: 10px;
-    border-width: 1px;
+@media (max-width: 480px) {
+  .banner-wrapper {
+    height: 200px;
   }
 }

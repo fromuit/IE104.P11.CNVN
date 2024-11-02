@@ -66,78 +66,62 @@ function Banner() {
     );
   }, [banners.length]);
 
-  const handleImageLoad = (event) => {
-    const img = event.target;
-    const wrapper = img.parentElement;
-    const containerAspectRatio = wrapper.offsetWidth / wrapper.offsetHeight;
-    const imageAspectRatio = img.naturalWidth / img.naturalHeight;
-
-    if (imageAspectRatio > containerAspectRatio) {
-      // Ảnh quá rộng, ưu tiên chiều rộng
-      img.style.width = '100%';
-      img.style.height = 'auto';
-    } else {
-      // Ảnh quá cao, ưu tiên chiều cao
-      img.style.width = 'auto';
-      img.style.height = '100%';
-    }
-  };
-
   return (
-    <div 
-      className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className="banner__container">
-        <div 
-          className="banner__slides"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-        >
-          {banners.map((banner) => (
-            <Link 
-              key={banner.id}
-              to={banner.link}
-              className="banner__slide"
-            >
-              <div className="banner__image-wrapper">
-                <img 
-                  src={banner.image} 
-                  alt={banner.title}
-                  className="banner__image"
-                  onLoad={handleImageLoad}
-                />
-              </div>
-            </Link>
-          ))}
-        </div>
+    <div className="banner-wrapper">
+      <div 
+        className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div className="banner__container">
+          <div 
+            className="banner__slides"
+            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          >
+            {banners.map((banner) => (
+              <Link 
+                key={banner.id}
+                to={banner.link}
+                className="banner__slide"
+              >
+                <div className="banner__image-wrapper">
+                  <img 
+                    src={banner.image} 
+                    alt={banner.title}
+                    className="banner__image"
+                  />
+                </div>
+              </Link>
+            ))}
+          </div>
 
-        {/* Navigation Arrows */}
-        <button 
-          className="banner__nav banner__nav--prev"
-          onClick={goToPrevSlide}
-          aria-label="Previous banner"
-        >
-          <i className="fas fa-chevron-left"></i>
-        </button>
-        <button 
-          className="banner__nav banner__nav--next"
-          onClick={goToNextSlide}
-          aria-label="Next banner"
-        >
-          <i className="fas fa-chevron-right"></i>
-        </button>
+          {/* Navigation Arrows */}
+          <button 
+            className="banner__nav banner__nav--prev"
+            onClick={goToPrevSlide}
+            aria-label="Previous banner"
+          >
+            <i className="fas fa-chevron-left"></i>
+          </button>
+          <button 
+            className="banner__nav banner__nav--next"
+            onClick={goToNextSlide}
+            aria-label="Next banner"
+          >
+            <i className="fas fa-chevron-right"></i>
+          </button>
 
-        {/* Dots Navigation */}
-        <div className="banner__dots">
-          {banners.map((_, index) => (
-            <button
-              key={index}
-              className={`banner__dot ${currentSlide === index ? 'active' : ''}`}
-              onClick={() => goToSlide(index)}
-              aria-label={`Go to banner ${index + 1}`}
-            />
-          ))}
+          {/* Dots Navigation */}
+          <div className="banner__dots">
+            {banners.map((_, index) => (
+              <button
+                key={index}
+                className={`banner__dot ${currentSlide === index ? 'active' : ''}`}
+                onClick={() => goToSlide(index)}
+                aria-label={`Go to banner ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
