@@ -46,36 +46,61 @@
 /* Các nút tương tác */
 .novel-actions {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+  gap: 10px;
+  margin: 20px 0;
   flex-wrap: wrap;
 }
 
 .action-btn {
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: 500;
+  padding: 10px 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
   cursor: pointer;
+  font-weight: 500;
   transition: all 0.3s ease;
-  border: none;
+  background: transparent;
+  color: #333;
 }
 
-.read-btn {
-  background: #2196f3;
+/* Hover effect cho button không active */
+.action-btn:hover {
+  border-color: #2196F3;
+  color: #2196F3;
+}
+
+/* Style cho button đang active */
+.action-btn.active {
+  background: #2196F3;
   color: white;
+  border-color: #2196F3;
 }
 
-.read-btn:hover {
-  background: #1976d2;
+/* Khi button active được hover */
+.action-btn.active:hover {
+  opacity: 0.9;
 }
 
-.rating-btn, .toc-btn, .discuss-btn, .share-btn {
-  background: #f0f0f0;
-  color: #666;
+/* Responsive */
+@media (max-width: 768px) {
+  .novel-actions {
+    gap: 8px;
+  }
+  
+  .action-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
 }
 
-.rating-btn:hover, .toc-btn:hover, .discuss-btn:hover, .share-btn:hover {
-  background: #e0e0e0;
+@media (max-width: 480px) {
+  .novel-actions {
+    gap: 5px;
+  }
+  
+  .action-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
 }
 
 /* Thống kê */

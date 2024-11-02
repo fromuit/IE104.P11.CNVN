@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Section-of-info.css';
 
 function SectionOfInfo() {
+  // Thêm state để theo dõi button đang active
+  const [activeButton, setActiveButton] = useState('read');
+
   // Dữ liệu mẫu - sau này có thể lấy từ API hoặc props
   const novelData = {
     title: "Nguyên tắc của một Triết gia, được viết bởi Kẻ Ngốc Vĩnh Cửu \"Asley\"",
@@ -60,6 +63,11 @@ function SectionOfInfo() {
     { id: 'share', label: 'Chia sẻ' }
   ];
 
+  // Hàm xử lý khi click button
+  const handleButtonClick = (buttonId) => {
+    setActiveButton(buttonId === activeButton ? null : buttonId);
+  };
+
   return (
     <section className="section-info">
       {/* Thông tin cơ bản */}
@@ -87,7 +95,8 @@ function SectionOfInfo() {
         {actionButtons.map(button => (
           <button 
             key={button.id}
-            className={`action-btn ${button.primary ? 'read-btn' : `${button.id}-btn`}`}
+            className={`action-btn ${activeButton === button.id ? 'active' : ''}`}
+            onClick={() => handleButtonClick(button.id)}
           >
             {button.label}
           </button>
