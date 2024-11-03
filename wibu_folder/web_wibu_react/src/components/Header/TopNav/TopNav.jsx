@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import './TopNav.css';
+import { useAuth } from '../../Auth/AuthContext';
+import React from 'react';
 
 function TopNav() {
   const navigate = useNavigate();
   const location = useLocation();
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  const [isSearchActive, setIsSearchActive] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [isDarkMode, setIsDarkMode] = React.useState(false);
+  const [isSearchActive, setIsSearchActive] = React.useState(false);
+  const [searchQuery, setSearchQuery] = React.useState('');
+  const { isLoggedIn, currentUser } = useAuth();
 
   const isHomePage = location.pathname === '/';
 
@@ -66,25 +68,34 @@ function TopNav() {
           </form>
 
           <div className="top-nav__actions">
-            <button 
-              className="theme-toggle"
-              onClick={toggleTheme}
-              title="Chuyển đổi giao diện sáng/tối"
-            >
-              {isDarkMode ? (
-                <i className="fas fa-sun"></i>
-              ) : (
-                <i className="fas fa-moon"></i>
-              )}
-            </button>
+            {isLoggedIn ? (
+              <>
+                <button 
+                  className="theme-toggle"
+                  onClick={toggleTheme}
+                  title="Chuyển đổi giao diện sáng/tối"
+                >
+                  {isDarkMode ? (
+                    <i className="fas fa-sun"></i>
+                  ) : (
+                    <i className="fas fa-moon"></i>
+                  )}
+                </button>
 
-            <Link to="/settings" className="settings-button" title="Cài đặt">
-              <i className="fas fa-cog"></i>
-            </Link>
+                <Link to="/cai-dat" className="settings-button" title="Cài đặt">
+                  <i className="fas fa-cog"></i>
+                </Link>
 
-            <Link to="/tai-khoan" className="top-nav__avatar" title="Tài khoản">
-              <img src="/images/avatar.png" alt="Avatar" />
-            </Link>
+                <Link to="/tai-khoan" className="top-nav__avatar" title="Tài khoản">
+                  <img src={currentUser?.avatar || "/images/avatar.png"} alt="Avatar" />
+                </Link>
+              </>
+            ) : (
+              <>
+                <Link to="/dang-nhap" className="login-button">Đăng nhập</Link>
+                <Link to="/dang-ky" className="signup-button">Đăng ký</Link>
+              </>
+            )}
           </div>
         </div>
       </nav>
