@@ -30,6 +30,10 @@ const AppRoutes = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
+  {
+    path: "/info/:id",
+    element: <InfoPage />,
+  },
 
   {
     path: "*",
