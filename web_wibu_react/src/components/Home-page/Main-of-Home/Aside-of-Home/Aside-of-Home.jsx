@@ -227,7 +227,7 @@ function Aside() {
           <div className="aside__guest">
             <div className="aside__guest-message">
               <i className="fas fa-user-circle"></i>
-              <p>Hãy đăng nhập để có thể sử dụng các chức năng sa.</p>
+              <p>Hãy đăng nhập để có thể sử dụng các chức năng sau.</p>
               <div className="aside__benefits">
                 <ul>
                   <li><i className="fas fa-check"></i> Lưu lịch sử đọc truyện</li>
