@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../Header/Header';
 import MainOfInfo from './Main-of-Info/Main-of-Info';
 import Footer from '../Footer/Footer';

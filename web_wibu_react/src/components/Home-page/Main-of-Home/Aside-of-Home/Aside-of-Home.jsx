@@ -1,9 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import  { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
+// import {useNavigate} from 'react-router-dom';
 import './Aside-of-Home.css';
 
 function Aside() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const asideRef = useRef(null);
   const wrapperRef = useRef(null);
   const [userData, setUserData] = useState(null);
@@ -14,7 +15,7 @@ function Aside() {
   });
   const [recentlyReadData, setRecentlyReadData] = useState([]);
   const [bookmarksData, setBookmarksData] = useState([]);
-  const [showBenefits, setShowBenefits] = useState(false);
+  // const [showBenefits, setShowBenefits] = useState(false);
 
   useEffect(() => {
     // Kiểm tra trạng thái đăng nhập khi component mount
@@ -101,11 +102,11 @@ function Aside() {
   }, []);
 
   // Dữ liệu mặc định khi không đăng nhập
-  const defaultData = {
-    recentlyRead: [],
-    bookmarks: [],
-    cartItems: []
-  };
+  // const defaultData = {
+  //   recentlyRead: [],
+  //   bookmarks: [],
+  //   cartItems: []
+  // };
 
   // Phần render giỏ hàng
   const renderCartSection = () => {

@@ -1,6 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './BottomNav.css';
+import genresData from '../../../data_and_source/genres.json';
 
 function BottomNav() {
   const navRef = useRef(null);
@@ -8,6 +9,7 @@ function BottomNav() {
   const originalPositionRef = useRef(null);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
+  const [showGenres, setShowGenres] = useState(false);
 
   useEffect(() => {
     const initializeNav = () => {
@@ -69,10 +71,32 @@ function BottomNav() {
         <div className="bottom-nav__container">
           <ul className="bottom-nav__list">
             <li className="bottom-nav__item">
-              <NavLink to="/the-loai" className="bottom-nav__link">
+              <div 
+                className="bottom-nav__link"
+                onClick={() => setShowGenres(!showGenres)}
+                style={{ cursor: 'pointer' }}
+              >
                 <i className="fas fa-tags"></i>
                 Thể loại
-              </NavLink>
+                <i className={`fas fa-chevron-${showGenres ? 'up' : 'down'} ml-1`}></i>
+              </div>
+              {showGenres && (
+                <div className="genres-dropdown">
+                  <ul className="genres-list">
+                    {genresData.genres.map(genre => (
+                      <li key={genre.id}>
+                        <NavLink 
+                          to={`/the-loai/${genre.slug}`}
+                          className="genre-item"
+                          onClick={() => setShowGenres(false)}
+                        >
+                          {genre.name}
+                        </NavLink>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </li>
             <li className="bottom-nav__item">
               <NavLink to="/lich-phat-hanh" className="bottom-nav__link">

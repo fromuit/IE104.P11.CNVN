@@ -19,6 +19,10 @@ const AppRoutes = createBrowserRouter([
     element: <AccountPage />,
   },
   {
+    path: "/the-loai/:slug",
+    element: <div>Co con cac ma Xem</div>,
+  },
+  {
     path: "/signup",
     element: <Signup />,
   },
@@ -26,6 +30,7 @@ const AppRoutes = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
+
   {
     path: "*",
     element: <div>Not Found xdxd</div>,
