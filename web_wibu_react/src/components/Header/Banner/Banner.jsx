@@ -30,6 +30,12 @@ function Banner() {
       title: 'Banner 3'
     },
     // Thêm banner khác ở đây
+    {
+      id: 4,
+      image: '/images/banner4.jpg',
+      link: '/novel/4',
+      title: 'Banner 4'
+    }
   ];
 
   // Chuyển slide tự động
