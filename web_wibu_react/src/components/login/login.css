@@ -105,4 +105,18 @@
 
 .input-field:focus-within {
   background: #e8f0fe;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.error-message {
+  animation: shake 0.3s ease-in-out;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: rgba(255, 0, 0, 0.1);
 } 

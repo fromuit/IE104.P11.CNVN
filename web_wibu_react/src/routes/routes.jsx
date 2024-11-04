@@ -2,6 +2,8 @@ import { createBrowserRouter } from 'react-router-dom';
 import HomePage from '../components/Home-page/Home-page.jsx';  
 import InfoPage from '../components/Info-page/Info-page.jsx';
 import AccountPage from '../components/Account-page/Account-page.jsx';
+import Signup from '../components/signup/signup.jsx';
+import Login from '../components/login/login.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -15,6 +17,14 @@ const AppRoutes = createBrowserRouter([
   {
     path: "/thanh-vien/:id",
     element: <AccountPage />,
+  },
+  {
+    path: "/signup",
+    element: <Signup />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
   {
     path: "*",

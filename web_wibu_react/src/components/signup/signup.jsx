@@ -1,8 +1,11 @@
 import './signup.css';
 import { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 
 // Component chính xử lý đăng ký người dùng mới
 const Signup = () => {
+  const navigate = useNavigate();
+
   // Khởi tạo state để lưu trữ dữ liệu form
   // formData: object chứa các trường thông tin người dùng nhập vào
   // errors: object chứa các thông báo lỗi tương ứng với từng trường
@@ -105,7 +108,7 @@ const Signup = () => {
 
             if (data.success) {
                 alert('Đăng ký thành công!');
-                window.location.href = '/login';
+                navigate('/login');
             } else {
                 throw new Error(data.error || 'Đăng ký thất bại');
             }
@@ -135,7 +138,12 @@ const Signup = () => {
                 value={formData.fullName}
                 onChange={handleChange}
               />
-              {errors.fullName && <span className="error">{errors.fullName}</span>}
+              {errors.fullName && (
+                <div className="error-message">
+                  <i className="fas fa-exclamation-circle"></i>
+                  {errors.fullName}
+                </div>
+              )}
             </div>
             <div className="input-field">
               <i className="fa-solid fa-envelope"></i>
@@ -146,7 +154,12 @@ const Signup = () => {
                 value={formData.email}
                 onChange={handleChange}
               />
-              {errors.email && <span className="error">{errors.email}</span>}
+              {errors.email && (
+                <div className="error-message">
+                  <i className="fas fa-exclamation-circle"></i>
+                  {errors.email}
+                </div>
+              )}
             </div>
             <div className="input-field">
               <i className="fa-solid fa-lock"></i>
@@ -157,7 +170,12 @@ const Signup = () => {
                 value={formData.password}
                 onChange={handleChange}
               />
-              {errors.password && <span className="error">{errors.password}</span>}
+              {errors.password && (
+                <div className="error-message">
+                  <i className="fas fa-exclamation-circle"></i>
+                  {errors.password}
+                </div>
+              )}
             </div>
             <div className="input-field">
               <i className="fa-solid fa-check"></i>
@@ -168,7 +186,12 @@ const Signup = () => {
                 value={formData.confirmPassword}
                 onChange={handleChange}
               />
-              {errors.confirmPassword && <span className="error">{errors.confirmPassword}</span>}
+              {errors.confirmPassword && (
+                <div className="error-message">
+                  <i className="fas fa-exclamation-circle"></i>
+                  {errors.confirmPassword}
+                </div>
+              )}
             </div>
           </div>
           {errors.submit && (
@@ -184,7 +207,7 @@ const Signup = () => {
             <button type="submit">Đăng ký</button>
           </div>
           <div className="login-link">
-            <p>Already have an account? <a href="/login">Log in</a></p>
+            <p>Đã có tài khoản? <Link to="/login">Đăng nhập</Link></p>
           </div>
         </form>
       </div>

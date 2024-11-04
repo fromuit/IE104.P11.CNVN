@@ -450,3 +450,38 @@
 .dark-mode .dropdown-item.logout:hover {
   background-color: #3d2c2c;
 }
+
+.login-signup-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.login-button,
+.signup-button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.login-button {
+  color: #1a73e8;
+  background: transparent;
+  border: 1px solid #1a73e8;
+}
+
+.signup-button {
+  color: white;
+  background: #1a73e8;
+  border: 1px solid #1a73e8;
+}
+
+.login-button:hover {
+  background: rgba(26, 115, 232, 0.1);
+}
+
+.signup-button:hover {
+  background: #0b5fca;
+}

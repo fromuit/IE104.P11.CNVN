@@ -1,14 +1,21 @@
 import './login.css';
 import { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 
 // Component xử lý đăng nhập người dùng
 const Login = () => {
+  const navigate = useNavigate();
+
   // Khởi tạo state cho form data và error messages
   const [formData, setFormData] = useState({
     email: '',
     password: '',
   });
-  const [errors, setErrors] = useState({});
+  const [errors, setErrors] = useState({
+    email: '',
+    password: '',
+    submit: ''
+  });
 
   // Xử lý sự kiện khi người dùng nhập liệu
   const handleChange = (e) => {
@@ -55,16 +62,27 @@ const Login = () => {
         const data = await response.json();
         
         if (!response.ok) {
-          throw new Error(data.error || 'Đăng nhập thất bại');
+          throw new Error(data.error || 'Email hoặc mật khẩu không chính xác');
         }
 
-        // Lưu thông tin user vào localStorage nếu cần
+        // Xóa thông báo lỗi nếu đăng nhập thành công
+        setErrors({
+          email: '',
+          password: '',
+          submit: ''
+        });
+
+        localStorage.setItem('token', data.token);
         localStorage.setItem('currentUser', JSON.stringify(data.user));
+        
         alert('Đăng nhập thành công!');
-        window.location.href = '/home';
+        navigate('/');
       } catch (error) {
         console.error('Lỗi:', error);
-        alert(error.message || 'Email hoặc mật khẩu không chính xác!');
+        setErrors(prev => ({
+          ...prev,
+          submit: error.message
+        }));
       }
     }
   };
@@ -102,11 +120,21 @@ const Login = () => {
               <a href="/forgot-password">Quên mật khẩu?</a>
             </div>
           </div>
+          {errors.submit && (
+            <div className="error-message" style={{
+              color: 'red',
+              textAlign: 'center',
+              marginBottom: '10px',
+              animation: 'shake 0.3s ease-in-out'
+            }}>
+              {errors.submit}
+            </div>
+          )}
           <div className="btn-field">
             <button type="submit">Đăng nhập</button>
           </div>
           <div className="signup-link">
-            <p>Chưa có tài khoản? <a href="/signup">Đăng ký</a></p>
+            <p>Chưa có tài khoản? <Link to="/signup">Đăng ký</Link></p>
           </div>
         </form>
       </div>

@@ -35,6 +35,12 @@ function Banner() {
       image: '/images/banner4.jpg',
       link: '/novel/4',
       title: 'Banner 4'
+    },
+    {
+      id: 5,
+      image: '/images/banner5.png',
+      link: '/novel/5',
+      title: 'Banner 5'
     }
   ];
 
