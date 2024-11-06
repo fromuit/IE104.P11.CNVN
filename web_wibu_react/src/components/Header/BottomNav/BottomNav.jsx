@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './BottomNav.css';
-import genresData from '../../../data_and_source/genres.json';
+import genresData from '../../../data_and_source/truyen_data/genres.json';
 
 function BottomNav() {
   const navRef = useRef(null);
