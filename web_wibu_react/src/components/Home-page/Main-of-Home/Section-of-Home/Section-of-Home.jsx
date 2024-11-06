@@ -226,8 +226,11 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView,
         </button>
       )}
       
-      {/* Grid truy��n */}
-      <div className="novel-grid">
+      {/* Thêm key để force re-render và trigger animation */}
+      <div 
+        className="novel-grid"
+        key={`${activeTab}-${page}-${variant}`}
+      >
         {currentNovels.map((novel, index) => (
           <NovelCard 
             key={`${novel.ID}-${index}`} 
@@ -240,6 +243,7 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView,
           />
         ))}
       </div>
+
 
       {/* Nút Next */}
       {showNavigation && page < totalPages - 1 && (
