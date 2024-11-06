@@ -16,25 +16,29 @@ function BottomNav() {
   useEffect(() => {
     const initializeNav = () => {
       const topNavHeight = isHomePage ? 60 : 40;
+      const bannerElement = document.querySelector('.banner');
       
-      // Cập nhật classes dựa trên trang hiện tại
       navRef.current.classList.toggle('bottom-nav--compact', !isHomePage);
       wrapperRef.current.classList.toggle('bottom-nav__wrapper--compact', !isHomePage);
       
       // Lưu vị trí ban đầu của BottomNav
-      originalPositionRef.current = navRef.current.offsetTop;
+      originalPositionRef.current = bannerElement ? 
+        bannerElement.offsetTop + bannerElement.offsetHeight : 
+        navRef.current.offsetTop;
 
       const handleScroll = () => {
         const scrollY = window.scrollY;
         
         if (scrollY >= originalPositionRef.current - topNavHeight) {
-          navRef.current.classList.add('sticky');
-          navRef.current.style.top = `${topNavHeight}px`;
-          wrapperRef.current.style.display = 'block';
+          if (!navRef.current.classList.contains('sticky')) {
+            navRef.current.classList.add('sticky');
+            navRef.current.style.top = `${topNavHeight}px`;
+          }
         } else {
-          navRef.current.classList.remove('sticky');
-          navRef.current.style.top = '0';
-          wrapperRef.current.style.display = 'none';
+          if (navRef.current.classList.contains('sticky')) {
+            navRef.current.classList.remove('sticky');
+            navRef.current.style.top = '0';
+          }
         }
       };
 
@@ -58,7 +62,7 @@ function BottomNav() {
     };
 
     initializeNav();
-  }, [isHomePage]); // Dependency array với isHomePage
+  }, [isHomePage]);
 
   useEffect(() => {
     function handleClickOutside(event) {
