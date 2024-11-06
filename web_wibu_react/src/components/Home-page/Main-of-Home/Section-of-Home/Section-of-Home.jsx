@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo, useEffect } from "react";
 import { Link } from 'react-router-dom';
+import novelData from "../../../../../public/truyen_data/hako_data.json";
 import './Section-of-Home.css';
 
 // Component cho tiêu đề section
@@ -11,6 +12,25 @@ const SectionHeader = ({ title, link }) => (
     </Link>
   </div>
 );
+
+// Hàm helper để sắp xếp truyện
+const sortNovels = (novels, criteria) => {
+  return [...novels].sort((a, b) => {
+    switch (criteria) {
+      case "view":
+        return b["Số lượt xem"] - a["Số lượt xem"];
+      case "like":
+        return b["Số like"] - a["Số like"];
+      case "date":
+        const dateA = new Date(a["Năm cập nhật cuối"], a["Tháng cập nhật cuối"] - 1, a["Ngày cập nhật cuối"]);
+        const dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
+        return dateB - dateA;
+      default:
+        return 0;
+    }
+  });
+};
+
 
 // Component cho tabs của Top truyện
 const TopTabs = ({ activeTab, onTabChange }) => (
@@ -44,23 +64,29 @@ const TopTabs = ({ activeTab, onTabChange }) => (
 
 // Component cho Novel Card
 // Trong component NovelCard
+// Component cho Novel Card - Cập nhật để sử dụng dữ liệu thực
 const NovelCard = ({ novel }) => (
-  <Link to={`/truyen/${novel.slug}`} className="novel-card">
+  <Link to={`/truyen/${novel.ID}`} className="novel-card">
     <div className="novel-card__image">
-      <img src={novel.cover} alt={novel.title} />
+      <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
     </div>
     <div className="novel-card__info">
-      <h3 className="novel-card__title">{novel.title}</h3>
-      
+      <h3 className="novel-card__title">{novel["Tựa đề"]}</h3>
+      <div className="novel-card__stats">
+        <span>{novel["Số lượt xem"].toLocaleString()} lượt xem</span>
+        <span>{novel["Số like"]} likes</span>
+      </div>
     </div>
   </Link>
 );
+
 
 const NovelGrid = ({ novels, showNavigation = false, activeTab }) => {
   const [page, setPage] = useState(0);
   const itemsPerPage = 6;
   const totalPages = Math.ceil(novels.length / itemsPerPage);
 
+  // Reset page khi tab thay đổi
   React.useEffect(() => {
     setPage(0);
   }, [activeTab]);
@@ -117,20 +143,23 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab }) => {
 };
 
 function Section() {
-  const [activeTopTab, setActiveTopTab] = useState('week');
-  const [topNovels, setTopNovels] = useState({
-    week: Array(12).fill({ title: "Top Tuần - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" }),
-    month: Array(12).fill({ title: "Top Tháng - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" }),
-    year: Array(12).fill({ title: "Top Năm - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" }),
-    all: Array(12).fill({ title: "Top All - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" })
-  });
+  const [activeTopTab, setActiveTopTab] = useState("week");
 
-  // Sample data for other sections
-  const sampleNovels = Array(12).fill({
-    title: "Tên Light Novel",
-    slug: "ten-light-novel",
-    cover: "/path-to-cover.jpg"
-  });
+  // Xử lý dữ liệu cho các section khác nhau
+  const processedData = useMemo(() => {
+    return {
+      topNovels: {
+        week: sortNovels(novelData, "view").slice(0, 12),
+        month: sortNovels(novelData, "like").slice(0, 12),
+        year: sortNovels(novelData, "date").slice(0, 12),
+        all: novelData.slice(0, 12)
+      },
+      recentlyUpdated: sortNovels(novelData, "date").slice(0, 12),
+      newNovels: novelData.filter(novel => novel["Tình trạng"] === "Đang tiến hành").slice(0, 12),
+      completed: novelData.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 12),
+      original: novelData.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 12)
+    };
+  }, []);
 
   return (
     <div className="section">
@@ -140,45 +169,36 @@ function Section() {
         <TopTabs activeTab={activeTopTab} onTabChange={setActiveTopTab} />
         <div className="novel-grid-wrapper">
           <NovelGrid 
-            novels={topNovels[activeTopTab]} 
+            novels={processedData.topNovels[activeTopTab]} 
             showNavigation={true}
             activeTab={activeTopTab}
           />
         </div>
       </section>
 
-      {/* Other sections */}
+      {/* Mới cập nhật */}
       <section className="section__block">
         <SectionHeader title="Mới cập nhật" link="/moi-cap-nhat" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <NovelGrid novels={processedData.recentlyUpdated} showNavigation={true} />
       </section>
 
+      {/* Truyện mới */}
       <section className="section__block">
         <SectionHeader title="Truyện mới" link="/truyen-moi" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <NovelGrid novels={processedData.newNovels} showNavigation={true} />
       </section>
 
-      <section className="section__block">
-        <SectionHeader title="Truyện sáng tác" link="/truyen-sang-tac" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
-      </section>
-
+      {/* Truyện đã hoàn thành */}
       <section className="section__block">
         <SectionHeader title="Truyện đã hoàn thành" link="/truyen-da-hoan-thanh" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <NovelGrid novels={processedData.completed} showNavigation={true} />
       </section>
 
+      {/* Truyện sáng tác */}
       <section className="section__block">
-        <SectionHeader title="Series" link="/series" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <SectionHeader title="Truyện sáng tác" link="/truyen-sang-tac" />
+        <NovelGrid novels={processedData.original} showNavigation={true} />
       </section>
-
-      <section className="section__block">
-        <SectionHeader title="Oneshot" link="/oneshot" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
-      </section>
-
-      {/* ... other sections with NovelGrid ... */}
     </div>
   );
 }
