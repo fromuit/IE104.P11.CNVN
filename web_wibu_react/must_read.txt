@@ -1,3 +1,0 @@
--sau khi npm install để tải thư viện vite, nhấn:
-npm install concurrently --save-dev
-- sau đó nhấn "npm install" 1 lần nữa và nhấn "npm start" để chạy"
