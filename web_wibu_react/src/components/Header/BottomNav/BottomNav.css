@@ -18,6 +18,15 @@
   left: 0;
   right: 0;
   z-index: 999;
+  top: 60px;
+}
+
+.bottom-nav.hidden {
+  transform: translateY(-100%);
+}
+
+.bottom-nav.visible {
+  transform: translateY(0);
 }
 
 .bottom-nav__wrapper {

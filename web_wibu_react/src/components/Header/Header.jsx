@@ -33,8 +33,9 @@ function Header() {
     return (
       <header className="header header--compact">
         <TopNav />
-        <BottomNav />
+        
         <Banner />
+        <BottomNav />
       </header>
     );
   }

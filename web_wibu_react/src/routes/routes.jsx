@@ -2,8 +2,8 @@ import { createBrowserRouter } from 'react-router-dom';
 import HomePage from '../components/Home-page/Home-page.jsx';  
 import InfoPage from '../components/Info-page/Info-page.jsx';
 import AccountPage from '../components/Account-page/Account-page.jsx';
-import Signup from '../components/signup/signup.jsx';
-import Login from '../components/login/login.jsx';
+import SignUp from '../components/SignUp-page/SignUp.jsx';
+import SighIn from '../components/SignIn-page/SignIn.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -20,15 +20,15 @@ const AppRoutes = createBrowserRouter([
   },
   {
     path: "/the-loai/:slug",
-    element: <div>Co con cac ma Xem</div>,
+    element: <div>Nothing here</div>,
   },
   {
     path: "/signup",
-    element: <Signup />,
+    element: <SignUp />,
   },
   {
-    path: "/login",
-    element: <Login />,
+    path: "/signin",
+    element: <SignIn />,
   },
   {
     path: "/info/:id",
