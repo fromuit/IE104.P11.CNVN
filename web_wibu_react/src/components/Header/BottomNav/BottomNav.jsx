@@ -5,6 +5,7 @@ import genresData from '../../../data_and_source/genres.json';
 
 function BottomNav() {
   const [showGenres, setShowGenres] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const navRef = useRef(null);
   const wrapperRef = useRef(null);
   const originalPositionRef = useRef(null);
@@ -84,34 +85,46 @@ function BottomNav() {
       <nav className={`bottom-nav ${!isHomePage ? 'bottom-nav--compact' : ''} ${visible ? 'visible' : 'hidden'}`} ref={navRef}>
         <div className="bottom-nav__container">
           <ul className="bottom-nav__list">
-            <li className="bottom-nav__item genres-menu" ref={genresRef}>
+            <li 
+              className="bottom-nav__item genres-menu" 
+              ref={genresRef}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => {
+                setIsHovered(false);
+                if (!showGenres) {
+                  // Chỉ ẩn dropdown nếu không được click
+                  setShowGenres(false);
+                }
+              }}
+            >
               <div 
                 className="bottom-nav__link"
                 onClick={() => setShowGenres(!showGenres)}
               >
                 <i className="fas fa-tags"></i>
                 Thể loại
-                <i className={`fas fa-chevron-${showGenres ? 'up' : 'down'} ml-1`}></i>
+                <i className={`fas fa-chevron-${showGenres || isHovered ? 'up' : 'down'} ml-1`}></i>
               </div>
-              {showGenres && (
-                <div className="genres-dropdown">
-                  <div className="genres-container">
-                    <ul className="genres-list">
-                      {genresData.genres.map((genre, index) => (
-                        <li key={`genre-${genre.id}-${index}`}>
-                          <NavLink 
-                            to={`/the-loai/${genre.slug}`}
-                            className="genre-item"
-                            onClick={() => setShowGenres(false)}
-                          >
-                            {genre.name}
-                          </NavLink>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+              <div className={`genres-dropdown ${showGenres || isHovered ? 'show' : ''}`}>
+                <div className="genres-container">
+                  <ul className="genres-list">
+                    {genresData.genres.map((genre, index) => (
+                      <li key={`genre-${genre.id}-${index}`}>
+                        <NavLink 
+                          to={`/the-loai/${genre.slug}`}
+                          className="genre-item"
+                          onClick={() => {
+                            setShowGenres(false);
+                            setIsHovered(false);
+                          }}
+                        >
+                          {genre.name}
+                        </NavLink>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              )}
+              </div>
             </li>
             <li className="bottom-nav__item">
               <NavLink to="/bang-xep-hang" className="bottom-nav__link">
