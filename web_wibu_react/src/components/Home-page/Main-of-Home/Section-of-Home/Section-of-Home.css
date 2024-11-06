@@ -73,34 +73,36 @@
 /* Novel Grid */
 .novel-grid-container {
   position: relative;
-  padding: 0 2.5rem; /* Thay 40px thành 2.5rem */
+  width: 100%;
+  padding: 0 2rem;
+  overflow: hidden;
 }
 
 .novel-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  gap: 1rem;
-  padding: 0.5rem;
-  grid-template-rows: repeat(2, 1fr); /* 2 rows */
-  gap: 1.25rem; /* Thay 20px thành 1.25rem */
-  margin: 1.25rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+    /* Grid nav bar */
 .novel-grid__nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.9);
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(255, 255, 255, 0.95);
   border: none;
   border-radius: 50%;
-  width: 2.5rem; /* Thay 40px thành 2.5rem */
-  height: 2.5rem;
-  box-shadow: 0 0.125rem 0.313rem rgba(0, 0, 0, 0.1); /* Thay 2px 5px thành 0.125rem 0.313rem */
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  z-index: 1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .novel-grid__nav--prev {
@@ -111,6 +113,29 @@
   right: 0;
 }
 
+.novel-grid__nav:hover {
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.novel-grid__nav:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.novel-grid__nav i {
+  transition: transform 0.3s ease;
+}
+
+.novel-grid__nav--prev:hover i {
+  transform: translateX(-2px);
+}
+
+.novel-grid__nav--next:hover i {
+  transform: translateX(2px);
+}
+
+  /* Dots Navigation*/
 .novel-grid__dots {
   display: flex;
   justify-content: center;
@@ -126,10 +151,18 @@
   border: none;
   padding: 0;
   cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.novel-grid__dot:hover {
+  background: #bbb;
+  transform: scale(1.2);
 }
 
 .novel-grid__dot.active {
-  background: #666;
+  background: #2196f3;
+  transform: scale(1.3);
 }
 
 /* Novel Card */
@@ -142,10 +175,9 @@
   border-radius: 0.5rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
-  max-width: 20rem;
+  width: 100%;
   min-width: 10rem;
-  max-height: 30rem;
-  padding: 0.5rem;
+  height: auto;
 }
 
 .novel-card:hover {
@@ -161,7 +193,9 @@
 
 .novel-card__image {
   position: relative;
-  padding-top: 133%; /* Tỷ lệ 3:4 thay vì 140% */
+  aspect-ratio: 2/3;
+  width: 100%;
+  position: relative;
   border-radius: 0.375rem;
   margin-bottom: 0.5rem;
   overflow: hidden;
@@ -175,6 +209,7 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  border-radius: 0.5rem;
 }
 
 .novel-card:hover .novel-card__image img {
@@ -201,10 +236,72 @@
   height: 2.8em;
 }
 
+.novel-card__like-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 1rem;
+  padding: 0.25rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.novel-card__like-btn:hover {
+  background: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.novel-card__like-btn i {
+  color: #999; /* Màu xám mặc định cho icon trái tim */
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+.novel-card__like-btn.liked i {
+  color: #ff4081; /* Màu hồng khi đã like */
+}
+
+/* Page Transition Animation */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeSlideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+}
+
+.novel-card {
+  animation: fadeSlideIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .novel-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    grid-template-columns: 1 fr;
   }
 }
 
@@ -266,67 +363,6 @@
   }
 }
 
-.novel-grid-container {
-  position: relative;
-}
-
-.novel-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  transition: transform 0.3s ease-out;
-}
-
-.novel-grid__nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid #eee;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-  transition: all 0.2s;
-}
-
-.novel-grid__nav:hover {
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.novel-grid__nav--prev {
-  left: -20px;
-}
-
-.novel-grid__nav--next {
-  right: -20px;
-}
-
-.novel-grid__nav i {
-  color: #666;
-  font-size: 1.2rem;
-}
-
-/* Animation for novel cards */
-.novel-card {
-  animation: fadeIn 0.3s ease-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /* Dark mode styles */
 .dark-mode .novel-grid__nav {

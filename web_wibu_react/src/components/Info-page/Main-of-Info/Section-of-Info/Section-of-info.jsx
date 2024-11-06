@@ -1,7 +1,7 @@
 import React from 'react';
 import './Section-of-info.css';
-import novelData from "../../../../../public/truyen_data/hako_data.json";
-
+import novelData from "../../../../../src/assets/truyen_data/hako_data.json";
+import NovelStats from "../../../Novels/NovelStats/NovelStats";
 function SectionOfInfo() {
   // Dữ liệu mẫu - sau này có thể lấy từ API hoặc props
   const novelData = {

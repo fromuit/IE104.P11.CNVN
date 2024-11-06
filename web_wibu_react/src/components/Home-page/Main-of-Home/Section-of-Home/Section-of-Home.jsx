@@ -71,10 +71,11 @@ const useNovelData = () => {
     return savedData ? JSON.parse(savedData) : novelData;
   });
 
-  // Lưu thay đổi vào localStorage
-  useEffect(() => {
-    localStorage.setItem("novelData", JSON.stringify(novels));
-  }, [novels]);
+  // Thêm state để lưu trữ trạng thái liked
+  const [likedNovels, setLikedNovels] = useState(() => {
+    const savedLikes = localStorage.getItem("likedNovels");
+    return savedLikes ? JSON.parse(savedLikes) : {};
+  });
 
   // Hàm cập nhật lượt xem
   const incrementView = (novelId) => {
@@ -87,15 +88,34 @@ const useNovelData = () => {
     );
   };
 
-  // Hàm cập nhật lượt thích
+  // Cập nhật hàm toggleLike
   const toggleLike = (novelId) => {
-    setNovels(prevNovels => 
-      prevNovels.map(novel => 
+    // Lưu trạng thái like hiện tại trước khi cập nhật
+    const currentLikeStatus = likedNovels[novelId];
+
+    setLikedNovels(prev => {
+      const newLikedNovels = {
+        ...prev,
+        [novelId]: !prev[novelId]
+      };
+      localStorage.setItem("likedNovels", JSON.stringify(newLikedNovels));
+      return newLikedNovels;
+    });
+
+    setNovels(prevNovels => {
+      const updatedNovels = prevNovels.map(novel => 
         novel.ID === novelId 
-          ? { ...novel, "Số like": novel["Số like"] + 1 }
+          ? { 
+              ...novel, 
+              "Số like": currentLikeStatus 
+                ? novel["Số like"] - 1 
+                : novel["Số like"] + 1 
+            }
           : novel
-      )
-    );
+      );
+      localStorage.setItem("novelData", JSON.stringify(updatedNovels));
+      return updatedNovels;
+    });
   };
 
   // Hàm cập nhật đánh giá
@@ -115,6 +135,7 @@ const useNovelData = () => {
 
   return {
     novels,
+    likedNovels,
     incrementView,
     toggleLike,
     updateRating
@@ -124,7 +145,7 @@ const useNovelData = () => {
 // Component cho Novel Card
 // Trong component NovelCard
 // Cập nhật component NovelCard 
-const NovelCard = ({ novel, onView, onLike, variant, isTopNovel }) => (
+const NovelCard = ({ novel, onView, onLike, variant, isTopNovel, isLiked }) => (
   <div className="novel-card">
     <Link 
       to={`/truyen/${novel.ID}`} 
@@ -156,7 +177,7 @@ const NovelCard = ({ novel, onView, onLike, variant, isTopNovel }) => (
       </div>
     </Link>
     <button 
-      className="novel-card__like-btn"
+      className={`novel-card__like-btn ${isLiked ? "liked" : ""}`}
       onClick={() => onLike(novel.ID)}
     >
       <i className="fas fa-heart"></i>
@@ -166,10 +187,10 @@ const NovelCard = ({ novel, onView, onLike, variant, isTopNovel }) => (
 );
 
 
-const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView, onLike, isTopNovel }) => {
+const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView, onLike, isTopNovel, likedNovels }) => {
   const [page, setPage] = useState(0);
-  const itemsPerPage = 6; // Hiển thị 6 truyện mỗi trang (3x2)
-  const maxItems = 18; // Tổng số truyện tối đa
+  const itemsPerPage = 4; // Hiển thị 6 truyện mỗi trang (3x2)
+  const maxItems = 24; // Tổng số truyện tối đa
   const limitedNovels = novels.slice(0, maxItems); // Giới hạn tổng số truyện
   const totalPages = Math.ceil(limitedNovels.length / itemsPerPage);
 
@@ -215,6 +236,7 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView,
             onLike={onLike}
             variant={variant}
             isTopNovel={isTopNovel}
+            isLiked={likedNovels[novel.ID]}
           />
         ))}
       </div>
@@ -249,21 +271,21 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView,
 
 function Section() {
   const [activeTopTab, setActiveTopTab] = useState("week");
-  const { novels, incrementView, toggleLike, updateRating } = useNovelData();
+  const { novels, likedNovels, incrementView, toggleLike, updateRating } = useNovelData();
 
   // Xử lý dữ liệu cho các section khác nhau
   const processedData = useMemo(() => {
     return {
       topNovels: {
-        week: sortNovels(novels, "view").slice(0, 12),
-        month: sortNovels(novels, "like").slice(0, 12),
-        year: sortNovels(novels, "date").slice(0, 12),
-        all: novels.slice(0, 12)
+        week: sortNovels(novels, "view").slice(0, 24),
+        month: sortNovels(novels, "like").slice(0, 24),
+        year: sortNovels(novels, "date").slice(0, 24),
+        all: novels.slice(0, 24)
       },
-      recentlyUpdated: sortNovels(novels, "date").slice(0, 12),
-      newNovels: novels.filter(novel => novel["Tình trạng"] === "Đang tiến hành").slice(0, 12),
-      completed: novels.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 12),
-      original: novels.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 12)
+      recentlyUpdated: sortNovels(novels, "date").slice(0, 24),
+      newNovels: novels.filter(novel => novel["Tình trạng"] === "Đang tiến hành").slice(0, 24),
+      completed: novels.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 24),
+      original: novels.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 24)
     };
   }, [novels]);
 
@@ -282,6 +304,7 @@ function Section() {
             onLike={toggleLike}
             variant="original"
             isTopNovel={true} // Thêm prop này
+            likedNovels={likedNovels}
           />
         </div>
       </section>
@@ -295,6 +318,7 @@ function Section() {
           onView={incrementView}
           onLike={toggleLike}
           variant="recent"
+          likedNovels={likedNovels}
         />
       </section>
 
@@ -307,6 +331,7 @@ function Section() {
           onView={incrementView}
           onLike={toggleLike}
           variant="new"
+          likedNovels={likedNovels}
         />
       </section>
 
@@ -319,6 +344,7 @@ function Section() {
           onView={incrementView}
           onLike={toggleLike}
           variant="completed"
+          likedNovels={likedNovels}
         />
       </section>
 
@@ -331,6 +357,7 @@ function Section() {
           onView={incrementView}
           onLike={toggleLike}
           variant="original"
+          likedNovels={likedNovels}
         />
       </section>
     </div>
