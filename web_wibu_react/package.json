@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\" --kill-others --handle-input --success first",
     "client": "vite",
-    "server": "node src/server/server.js",
+    "server": "node src/components/server/server.js",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
