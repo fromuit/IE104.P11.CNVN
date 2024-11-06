@@ -94,6 +94,15 @@ app.post('/api/login', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server đang chạy tại http://localhost:${PORT}`);
+const server = app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
+// Thêm xử lý graceful shutdown
+process.on('SIGINT', () => {
+  console.log('Shutting down server...');
+  server.close(() => {
+    console.log('Server closed');
+    process.exit(0);
+  });
 });
