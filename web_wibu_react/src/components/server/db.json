@@ -27,6 +27,13 @@
       "password": "00000000",
       "fullName": "abc",
       "createdAt": "2024-11-04T06:58:23.145Z"
+    },
+    {
+      "id": "1730854067776",
+      "email": "duynguyenhoang22@gmail.com",
+      "password": "5ufUi3DHhyuKw3R",
+      "fullName": "Nguyen Hoang Duy",
+      "createdAt": "2024-11-06T00:47:47.776Z"
     }
   ]
 }

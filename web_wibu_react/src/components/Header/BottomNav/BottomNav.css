@@ -5,6 +5,10 @@
   width: 100%;
   margin-top: auto;
   transition: height 0.3s ease;
+  background-color: var(--white-color);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 999;
+  transition: transform 0.3s ease;
 }
 
 .bottom-nav--compact {
@@ -16,6 +20,15 @@
   left: 0;
   right: 0;
   z-index: 999;
+  top: 60px;
+}
+
+.bottom-nav.hidden {
+  transform: translateY(-100%);
+}
+
+.bottom-nav.visible {
+  transform: translateY(0);
 }
 
 .bottom-nav__wrapper {

@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo, useEffect } from "react";
 import { Link } from 'react-router-dom';
+import novelData from "../../../../../src/assets/truyen_data/hako_data.json";
+import NovelStats from "../../../Novels/NovelStats/NovelStats";
 import './Section-of-Home.css';
 
 // Component cho tiêu đề section
@@ -11,6 +13,25 @@ const SectionHeader = ({ title, link }) => (
     </Link>
   </div>
 );
+
+// Hàm helper để sắp xếp truyện
+const sortNovels = (novels, criteria) => {
+  return [...novels].sort((a, b) => {
+    switch (criteria) {
+      case "view":
+        return b["Số lượt xem"] - a["Số lượt xem"];
+      case "like":
+        return b["Số like"] - a["Số like"];
+      case "date":
+        const dateA = new Date(a["Năm cập nhật cuối"], a["Tháng cập nhật cuối"] - 1, a["Ngày cập nhật cuối"]);
+        const dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
+        return dateB - dateA;
+      default:
+        return 0;
+    }
+  });
+};
+
 
 // Component cho tabs của Top truyện
 const TopTabs = ({ activeTab, onTabChange }) => (
@@ -42,26 +63,139 @@ const TopTabs = ({ activeTab, onTabChange }) => (
   </div>
 );
 
+// Custom hook để quản lý dữ liệu truyện
+const useNovelData = () => {
+  // Khởi tạo state từ localStorage hoặc dữ liệu mặc định
+  const [novels, setNovels] = useState(() => {
+    const savedData = localStorage.getItem("novelData");
+    return savedData ? JSON.parse(savedData) : novelData;
+  });
+
+  // Thêm state để lưu trữ trạng thái liked
+  const [likedNovels, setLikedNovels] = useState(() => {
+    const savedLikes = localStorage.getItem("likedNovels");
+    return savedLikes ? JSON.parse(savedLikes) : {};
+  });
+
+  // Hàm cập nhật lượt xem
+  const incrementView = (novelId) => {
+    setNovels(prevNovels => 
+      prevNovels.map(novel => 
+        novel.ID === novelId 
+          ? { ...novel, "Số lượt xem": novel["Số lượt xem"] + 1 }
+          : novel
+      )
+    );
+  };
+
+  // Cập nhật hàm toggleLike
+  const toggleLike = (novelId) => {
+    // Lưu trạng thái like hiện tại trước khi cập nhật
+    const currentLikeStatus = likedNovels[novelId];
+
+    setLikedNovels(prev => {
+      const newLikedNovels = {
+        ...prev,
+        [novelId]: !prev[novelId]
+      };
+      localStorage.setItem("likedNovels", JSON.stringify(newLikedNovels));
+      return newLikedNovels;
+    });
+
+    setNovels(prevNovels => {
+      const updatedNovels = prevNovels.map(novel => 
+        novel.ID === novelId 
+          ? { 
+              ...novel, 
+              "Số like": currentLikeStatus 
+                ? novel["Số like"] - 1 
+                : novel["Số like"] + 1 
+            }
+          : novel
+      );
+      localStorage.setItem("novelData", JSON.stringify(updatedNovels));
+      return updatedNovels;
+    });
+  };
+
+  // Hàm cập nhật đánh giá
+  const updateRating = (novelId, rating) => {
+    setNovels(prevNovels => 
+      prevNovels.map(novel => 
+        novel.ID === novelId 
+          ? {
+              ...novel,
+              "Số lượt đánh giá": novel["Số lượt đánh giá"] + 1,
+              // Thêm logic tính rating trung bình nếu cần
+            }
+          : novel
+      )
+    );
+  };
+
+  return {
+    novels,
+    likedNovels,
+    incrementView,
+    toggleLike,
+    updateRating
+  };
+};
+
 // Component cho Novel Card
 // Trong component NovelCard
-const NovelCard = ({ novel }) => (
-  <Link to={`/truyen/${novel.slug}`} className="novel-card">
-    <div className="novel-card__image">
-      <img src={novel.cover} alt={novel.title} />
-    </div>
-    <div className="novel-card__info">
-      <h3 className="novel-card__title">{novel.title}</h3>
-      
-    </div>
-  </Link>
+// Cập nhật component NovelCard 
+const NovelCard = ({ novel, onView, onLike, variant, isTopNovel, isLiked }) => (
+  <div className="novel-card">
+    <Link 
+      to={`/truyen/${novel.ID}`} 
+      className="novel-card__image-link"
+      onClick={() => onView(novel.ID)}
+    >
+      <div className="novel-card__image">
+        <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
+      </div>
+      <div className="novel-card__info">
+        <h3 className="novel-card__title">{novel["Tựa đề"]}</h3>
+        <NovelStats
+          views={novel["Số lượt xem"]}
+          likes={novel["Số like"]}
+          chapters={variant === "completed" ? novel["Số chương"] : undefined}
+          wordCount={variant === "completed" ? novel["Số từ"] : undefined}
+          lastUpdated={variant === "recent" ? {
+            day: novel["Ngày cập nhật cuối"],
+            month: novel["Tháng cập nhật cuối"],
+            year: novel["Năm cập nhật cuối"]
+          } : undefined}
+          startDate={variant === "new" ? {
+            month: novel["Tháng bắt đầu"],
+            year: novel["Năm bắt đầu"]
+          } : undefined}
+          variant={isTopNovel ? "top" : variant} // Thêm điều kiện này
+          showLikes={false}
+        />
+      </div>
+    </Link>
+    <button 
+      className={`novel-card__like-btn ${isLiked ? "liked" : ""}`}
+      onClick={() => onLike(novel.ID)}
+    >
+      <i className="fas fa-heart"></i>
+      <span>{novel["Số like"]}</span>
+    </button>
+  </div>
 );
 
-const NovelGrid = ({ novels, showNavigation = false, activeTab }) => {
-  const [page, setPage] = useState(0);
-  const itemsPerPage = 6;
-  const totalPages = Math.ceil(novels.length / itemsPerPage);
 
-  React.useEffect(() => {
+const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView, onLike, isTopNovel, likedNovels }) => {
+  const [page, setPage] = useState(0);
+  const itemsPerPage = 4; // Hiển thị 6 truyện mỗi trang (3x2)
+  const maxItems = 24; // Tổng số truyện tối đa
+  const limitedNovels = novels.slice(0, maxItems); // Giới hạn tổng số truyện
+  const totalPages = Math.ceil(limitedNovels.length / itemsPerPage);
+
+  // Reset page khi tab thay đổi
+  useEffect(() => {
     setPage(0);
   }, [activeTab]);
 
@@ -73,28 +207,47 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab }) => {
     if (page < totalPages - 1) setPage(page + 1);
   };
 
-  const handleDotClick = (index) => {
-    setPage(index);
-  };
-
-  const currentNovels = novels.slice(page * itemsPerPage, (page + 1) * itemsPerPage);
+  // Lấy các truyện cho trang hiện tại
+  const currentNovels = limitedNovels.slice(
+    page * itemsPerPage,
+    (page + 1) * itemsPerPage
+  );
 
   return (
     <div className="novel-grid-container">
+      {/* Nút Previous */}
       {showNavigation && page > 0 && (
-        <button className="novel-grid__nav novel-grid__nav--prev" onClick={handlePrev}>
+        <button 
+          className="novel-grid__nav novel-grid__nav--prev" 
+          onClick={handlePrev}
+          aria-label="Previous page"
+        >
           <i className="fas fa-chevron-left"></i>
         </button>
       )}
       
+      {/* Grid truy��n */}
       <div className="novel-grid">
         {currentNovels.map((novel, index) => (
-          <NovelCard key={`${novel.slug}-${index}`} novel={novel} />
+          <NovelCard 
+            key={`${novel.ID}-${index}`} 
+            novel={novel}
+            onView={onView}
+            onLike={onLike}
+            variant={variant}
+            isTopNovel={isTopNovel}
+            isLiked={likedNovels[novel.ID]}
+          />
         ))}
       </div>
 
+      {/* Nút Next */}
       {showNavigation && page < totalPages - 1 && (
-        <button className="novel-grid__nav novel-grid__nav--next" onClick={handleNext}>
+        <button 
+          className="novel-grid__nav novel-grid__nav--next" 
+          onClick={handleNext}
+          aria-label="Next page"
+        >
           <i className="fas fa-chevron-right"></i>
         </button>
       )}
@@ -106,7 +259,7 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab }) => {
             <button
               key={index}
               className={`novel-grid__dot ${index === page ? 'active' : ''}`}
-              onClick={() => handleDotClick(index)}
+              onClick={() => setPage(index)}
               aria-label={`Page ${index + 1}`}
             />
           ))}
@@ -117,20 +270,45 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab }) => {
 };
 
 function Section() {
-  const [activeTopTab, setActiveTopTab] = useState('week');
-  const [topNovels, setTopNovels] = useState({
-    week: Array(12).fill({ title: "Top Tuần - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" }),
-    month: Array(12).fill({ title: "Top Tháng - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" }),
-    year: Array(12).fill({ title: "Top Năm - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" }),
-    all: Array(12).fill({ title: "Top All - Light Novel", slug: "ten-light-novel", cover: "/path-to-cover.jpg" })
-  });
+  const [activeTopTab, setActiveTopTab] = useState("week");
+  const { novels, likedNovels, incrementView, toggleLike, updateRating } = useNovelData();
 
-  // Sample data for other sections
-  const sampleNovels = Array(12).fill({
-    title: "Tên Light Novel",
-    slug: "ten-light-novel",
-    cover: "/path-to-cover.jpg"
-  });
+  // Sửa lại hàm processedData để x��� lý dữ liệu cho từng tab
+  const processedData = useMemo(() => {
+    const getTopNovels = (criteria) => {
+      switch(criteria) {
+        case "week":
+          // Sắp xếp theo lượt xem trong tuần
+          return sortNovels([...novels], "view").slice(0, 12);
+        case "month":
+          // Sắp xếp theo lượt like trong tháng
+          return sortNovels([...novels], "like").slice(0, 12);
+        case "year":
+          // Sắp xếp theo ngày cập nhật trong năm
+          return sortNovels([...novels], "date").slice(0, 12);
+        case "all":
+          // Sắp xếp theo tổng lượt xem
+          return sortNovels([...novels], "view")
+            .sort((a, b) => b["Số lượt xem"] - a["Số lượt xem"])
+            .slice(0, 12);
+        default:
+          return [];
+      }
+    };
+
+    return {
+      topNovels: {
+        week: sortNovels(novels, "view").slice(0, 24),
+        month: sortNovels(novels, "like").slice(0, 24),
+        year: sortNovels(novels, "date").slice(0, 24),
+        all: novels.slice(0, 24)
+      },
+      recentlyUpdated: sortNovels(novels, "date").slice(0, 24),
+      newNovels: novels.filter(novel => novel["Tình trạng"] === "Đang tiến hành").slice(0, 24),
+      completed: novels.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 24),
+      original: novels.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 24)
+    };
+  }, [novels, activeTopTab]); // Thêm activeTopTab vào dependencies
 
   return (
     <div className="section">
@@ -140,45 +318,69 @@ function Section() {
         <TopTabs activeTab={activeTopTab} onTabChange={setActiveTopTab} />
         <div className="novel-grid-wrapper">
           <NovelGrid 
-            novels={topNovels[activeTopTab]} 
+            novels={processedData.topNovels[activeTopTab]}  // Access the correct array using activeTopTab
             showNavigation={true}
             activeTab={activeTopTab}
+            onView={incrementView}
+            onLike={toggleLike}
+            variant="original"
+            isTopNovel={true}
+            likedNovels={likedNovels}
           />
         </div>
       </section>
 
-      {/* Other sections */}
+      {/* Mới cập nhật */}
       <section className="section__block">
         <SectionHeader title="Mới cập nhật" link="/moi-cap-nhat" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <NovelGrid 
+          novels={processedData.recentlyUpdated} 
+          showNavigation={true}
+          onView={incrementView}
+          onLike={toggleLike}
+          variant="recent"
+          likedNovels={likedNovels}
+        />
       </section>
 
+      {/* Truyện mới */}
       <section className="section__block">
         <SectionHeader title="Truyện mới" link="/truyen-moi" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <NovelGrid 
+          novels={processedData.newNovels} 
+          showNavigation={true}
+          onView={incrementView}
+          onLike={toggleLike}
+          variant="new"
+          likedNovels={likedNovels}
+        />
       </section>
 
-      <section className="section__block">
-        <SectionHeader title="Truyện sáng tác" link="/truyen-sang-tac" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
-      </section>
-
+      {/* Truyện đã hoàn thành */}
       <section className="section__block">
         <SectionHeader title="Truyện đã hoàn thành" link="/truyen-da-hoan-thanh" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <NovelGrid 
+          novels={processedData.completed} 
+          showNavigation={true}
+          onView={incrementView}
+          onLike={toggleLike}
+          variant="completed"
+          likedNovels={likedNovels}
+        />
       </section>
 
+      {/* Truyện sáng tác */}
       <section className="section__block">
-        <SectionHeader title="Series" link="/series" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
+        <SectionHeader title="Truyện sáng tác" link="/truyen-sang-tac" />
+        <NovelGrid 
+          novels={processedData.original} 
+          showNavigation={true}
+          onView={incrementView}
+          onLike={toggleLike}
+          variant="original"
+          likedNovels={likedNovels}
+        />
       </section>
-
-      <section className="section__block">
-        <SectionHeader title="Oneshot" link="/oneshot" />
-        <NovelGrid novels={sampleNovels} showNavigation={true} />
-      </section>
-
-      {/* ... other sections with NovelGrid ... */}
     </div>
   );
 }

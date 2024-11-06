@@ -94,6 +94,32 @@ app.post('/api/login', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server đang chạy tại http://localhost:${PORT}`);
+const server = app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
+// Cập nhật xử lý graceful shutdown
+const shutdown = () => {
+  console.log('\nReceived kill signal, shutting down gracefully');
+  server.close(() => {
+    console.log('Server closed');
+    process.exit(0);
+  });
+  
+  // Nếu server không đóng trong vòng 5s, force exit
+  setTimeout(() => {
+    console.error('Could not close connections in time, forcefully shutting down');
+    process.exit(1);
+  }, 5000);
+};
+
+// Xử lý các tín hiệu tắt server
+process.on('SIGTERM', shutdown);
+process.on('SIGINT', shutdown);
+process.on('SIGHUP', shutdown);
+
+// Bắt lỗi không xử lý được
+process.on('uncaughtException', (err) => {
+  console.error('Uncaught Exception:', err);
+  shutdown();
 });
