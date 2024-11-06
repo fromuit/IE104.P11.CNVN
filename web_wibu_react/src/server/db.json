@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1730701283134",
+      "email": "teste@exemplo.us",
+      "password": "00000000",
+      "fullName": "Tris",
+      "createdAt": "2024-11-04T06:21:23.134Z"
+    },
+    {
+      "id": "1730701896421",
+      "email": "eldlichlord2403@gmail.com",
+      "password": "00000000",
+      "fullName": "Tris",
+      "createdAt": "2024-11-04T06:31:36.421Z"
+    },
+    {
+      "id": "1730702327544",
+      "email": "trisnguyen45@gm.com",
+      "password": "11111111",
+      "fullName": "Tris",
+      "createdAt": "2024-11-04T06:38:47.544Z"
+    },
+    {
+      "id": "1730703503145",
+      "email": "trisnguyen45@gmail.com",
+      "password": "00000000",
+      "fullName": "abc",
+      "createdAt": "2024-11-04T06:58:23.145Z"
+    },
+    {
+      "id": "1730861974491",
+      "email": "rubik4567890@gmail.com",
+      "password": "1234567890",
+      "fullName": "Umi",
+      "createdAt": "2024-11-06T02:59:34.491Z"
+    },
+    {
+      "id": "1730865783083",
+      "email": "22520392@gm.uit.edu.vn",
+      "password": "123456",
+      "fullName": "Umi",
+      "createdAt": "2024-11-06T04:03:03.083Z"
+    }
+  ]
+}

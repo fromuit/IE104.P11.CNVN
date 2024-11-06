@@ -1,0 +1,219 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Hành động",
+      "slug": "hanh-dong"
+    },
+    {
+      "id": 2, 
+      "name": "Phiêu lưu",
+      "slug": "phieu-luu"
+    },
+    {
+      "id": 3,
+      "name": "Hài hước",
+      "slug": "hai-huoc"
+    },
+    {
+      "id": 4,
+      "name": "Tình cảm",
+      "slug": "tinh-cam"
+    },
+    {
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },
+    {
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    },{
+      "id": 5,
+      "name": "Học đường",
+      "slug": "hoc-duong"
+    }
+  
+  ]
+}
