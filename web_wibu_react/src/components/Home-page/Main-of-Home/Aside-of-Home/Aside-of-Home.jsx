@@ -238,7 +238,7 @@ function Aside() {
                   <li><i className="fas fa-check"></i> Nhận thông báo cập nhật mới</li>
                 </ul>
               </div>
-              <Link to="/login" className="aside__login-button">
+              <Link to="/signin" className="aside__signin-button">
                 Đăng nhập
               </Link>
             </div>

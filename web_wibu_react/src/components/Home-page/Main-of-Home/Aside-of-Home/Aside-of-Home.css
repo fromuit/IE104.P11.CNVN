@@ -490,7 +490,7 @@
   font-size: 16px;
 }
 
-.aside__login-button {
+.aside__signin-button {
   display: inline-block;
   padding: 8px 24px;
   background: transparent;
@@ -503,7 +503,7 @@
   margin-top: 15px;
 }
 
-.aside__login-button:hover {
+.aside__signin-button:hover {
   background: #1a73e8;
   color: white;
 }
