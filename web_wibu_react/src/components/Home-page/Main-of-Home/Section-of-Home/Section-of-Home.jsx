@@ -226,7 +226,7 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView,
         </button>
       )}
       
-      {/* Grid truyện */}
+      {/* Grid truy��n */}
       <div className="novel-grid">
         {currentNovels.map((novel, index) => (
           <NovelCard 
@@ -273,8 +273,29 @@ function Section() {
   const [activeTopTab, setActiveTopTab] = useState("week");
   const { novels, likedNovels, incrementView, toggleLike, updateRating } = useNovelData();
 
-  // Xử lý dữ liệu cho các section khác nhau
+  // Sửa lại hàm processedData để x��� lý dữ liệu cho từng tab
   const processedData = useMemo(() => {
+    const getTopNovels = (criteria) => {
+      switch(criteria) {
+        case "week":
+          // Sắp xếp theo lượt xem trong tuần
+          return sortNovels([...novels], "view").slice(0, 12);
+        case "month":
+          // Sắp xếp theo lượt like trong tháng
+          return sortNovels([...novels], "like").slice(0, 12);
+        case "year":
+          // Sắp xếp theo ngày cập nhật trong năm
+          return sortNovels([...novels], "date").slice(0, 12);
+        case "all":
+          // Sắp xếp theo tổng lượt xem
+          return sortNovels([...novels], "view")
+            .sort((a, b) => b["Số lượt xem"] - a["Số lượt xem"])
+            .slice(0, 12);
+        default:
+          return [];
+      }
+    };
+
     return {
       topNovels: {
         week: sortNovels(novels, "view").slice(0, 24),
@@ -287,7 +308,7 @@ function Section() {
       completed: novels.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 24),
       original: novels.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 24)
     };
-  }, [novels]);
+  }, [novels, activeTopTab]); // Thêm activeTopTab vào dependencies
 
   return (
     <div className="section">
@@ -297,7 +318,7 @@ function Section() {
         <TopTabs activeTab={activeTopTab} onTabChange={setActiveTopTab} />
         <div className="novel-grid-wrapper">
           <NovelGrid 
-            novels={processedData.topNovels[activeTopTab]} 
+            novels={processedData.topNovels}  // Đã thay đổi cách truy cập dữ liệu
             showNavigation={true}
             activeTab={activeTopTab}
             onView={incrementView}

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run server\" \"npm run client\" --kill-others --handle-input --success first",
     "client": "vite",
     "server": "node src/components/server/server.js",
     "build": "vite build",
