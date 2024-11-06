@@ -1,6 +1,7 @@
 import './login.css';
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import bgImage from '../../data_and_source/images/bg_for_login.png';
 
 // Component xử lý đăng nhập người dùng
 const Login = () => {
@@ -89,7 +90,10 @@ const Login = () => {
 
   // Render giao diện đăng nhập
   return (
-    <div className="container">
+    <div className="container" style={{ backgroundImage: `url(${bgImage})`,
+                                      backgroundSize: 'cover',
+                                      backgroundPosition: 'center',
+                                      backgroundRepeat: 'no-repeat'}}>
       <div className="form-box">
         <h1 id="title">Login</h1>
         <form onSubmit={handleSubmit}>

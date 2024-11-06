@@ -1,6 +1,7 @@
 import './signup.css';
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import bgImage from '../../data_and_source/images/bg_for_signup.png';
 
 // Component chính xử lý đăng ký người dùng mới
 const Signup = () => {
@@ -124,7 +125,10 @@ const Signup = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" style={{ backgroundImage: `url(${bgImage})`,
+                                      backgroundSize: 'cover',
+                                      backgroundPosition: 'center',
+                                      backgroundRepeat: 'no-repeat'}}>
       <div className="form-box">
         <h1 id="title">Đăng ký</h1>
         <form onSubmit={handleSubmit}>
