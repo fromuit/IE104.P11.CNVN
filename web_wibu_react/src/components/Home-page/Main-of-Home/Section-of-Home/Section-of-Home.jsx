@@ -318,13 +318,13 @@ function Section() {
         <TopTabs activeTab={activeTopTab} onTabChange={setActiveTopTab} />
         <div className="novel-grid-wrapper">
           <NovelGrid 
-            novels={processedData.topNovels}  // Đã thay đổi cách truy cập dữ liệu
+            novels={processedData.topNovels[activeTopTab]}  // Access the correct array using activeTopTab
             showNavigation={true}
             activeTab={activeTopTab}
             onView={incrementView}
             onLike={toggleLike}
             variant="original"
-            isTopNovel={true} // Thêm prop này
+            isTopNovel={true}
             likedNovels={likedNovels}
           />
         </div>
