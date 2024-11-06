@@ -205,7 +205,7 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView,
         </button>
       )}
       
-      {/* Grid truyện */}
+      {/* Grid truy��n */}
       <div className="novel-grid">
         {currentNovels.map((novel, index) => (
           <NovelCard 
@@ -249,23 +249,39 @@ const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView,
 
 function Section() {
   const [activeTopTab, setActiveTopTab] = useState("week");
-  const { novels, incrementView, toggleLike, updateRating } = useNovelData();
+  const { novels, incrementView, toggleLike } = useNovelData();
 
-  // Xử lý dữ liệu cho các section khác nhau
+  // Sửa lại hàm processedData để x��� lý dữ liệu cho từng tab
   const processedData = useMemo(() => {
+    const getTopNovels = (criteria) => {
+      switch(criteria) {
+        case "week":
+          // Sắp xếp theo lượt xem trong tuần
+          return sortNovels([...novels], "view").slice(0, 12);
+        case "month":
+          // Sắp xếp theo lượt like trong tháng
+          return sortNovels([...novels], "like").slice(0, 12);
+        case "year":
+          // Sắp xếp theo ngày cập nhật trong năm
+          return sortNovels([...novels], "date").slice(0, 12);
+        case "all":
+          // Sắp xếp theo tổng lượt xem
+          return sortNovels([...novels], "view")
+            .sort((a, b) => b["Số lượt xem"] - a["Số lượt xem"])
+            .slice(0, 12);
+        default:
+          return [];
+      }
+    };
+
     return {
-      topNovels: {
-        week: sortNovels(novels, "view").slice(0, 12),
-        month: sortNovels(novels, "like").slice(0, 12),
-        year: sortNovels(novels, "date").slice(0, 12),
-        all: novels.slice(0, 12)
-      },
-      recentlyUpdated: sortNovels(novels, "date").slice(0, 12),
+      topNovels: getTopNovels(activeTopTab),
+      recentlyUpdated: sortNovels([...novels], "date").slice(0, 12),
       newNovels: novels.filter(novel => novel["Tình trạng"] === "Đang tiến hành").slice(0, 12),
       completed: novels.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 12),
       original: novels.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 12)
     };
-  }, [novels]);
+  }, [novels, activeTopTab]); // Thêm activeTopTab vào dependencies
 
   return (
     <div className="section">
@@ -275,13 +291,14 @@ function Section() {
         <TopTabs activeTab={activeTopTab} onTabChange={setActiveTopTab} />
         <div className="novel-grid-wrapper">
           <NovelGrid 
-            novels={processedData.topNovels[activeTopTab]} 
+            novels={processedData.topNovels}  // Đã thay đổi cách truy cập dữ liệu
             showNavigation={true}
             activeTab={activeTopTab}
             onView={incrementView}
             onLike={toggleLike}
             variant="original"
-            isTopNovel={true} // Thêm prop này
+            isTopNovel={true}
+            key={activeTopTab} // Thêm key để force re-render khi đổi tab
           />
         </div>
       </section>

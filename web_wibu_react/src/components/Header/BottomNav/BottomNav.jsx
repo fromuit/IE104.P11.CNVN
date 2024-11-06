@@ -11,6 +11,7 @@ function BottomNav() {
   const isHomePage = location.pathname === '/';
   const [showGenres, setShowGenres] = useState(false);
   const genresRef = useRef(null);
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
     const initializeNav = () => {
@@ -84,7 +85,13 @@ function BottomNav() {
         >
           <div className="bottom-nav__container">
             <ul className="bottom-nav__list">
-              <li className="bottom-nav__item" key="genres">
+              <li 
+                className="bottom-nav__item" 
+                key="genres"
+                ref={genresRef}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+              >
                 <div 
                   className="bottom-nav__link"
                   onClick={() => setShowGenres(!showGenres)}
@@ -92,7 +99,7 @@ function BottomNav() {
                 >
                   <i className="fas fa-tags"></i>
                   Thể loại
-                  <i className={`fas fa-chevron-${showGenres ? 'up' : 'down'} ml-1`}></i>
+                  <i className={`fas fa-chevron-${isHovered || showGenres ? 'up' : 'down'} ml-1`}></i>
                 </div>
                 <div className={`genres-dropdown ${showGenres ? 'show' : ''}`}>
                   <ul className="genres-list">
