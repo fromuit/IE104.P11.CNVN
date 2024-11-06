@@ -283,20 +283,21 @@
 .genres-dropdown {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background: white;
   border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   z-index: 1000;
   max-height: 70vh;
   overflow-y: auto;
-  min-width: 200px;
+  width: max-content;
 }
 
 .genres-container {
   padding: 20px;
-  width: max-content;
-  min-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .genres-list {
@@ -304,9 +305,9 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 200px);
   gap: 10px;
-  justify-items: start;
+  width: 840px;
 }
 
 .genre-item {
@@ -321,18 +322,20 @@
 }
 
 @media (max-width: 1200px) {
-  .genres-dropdown {
-    width: auto;
-    min-width: 200px;
-  }
-  
   .genres-list {
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(3, 180px);
+    width: 560px;
   }
 }
 
 @media (max-width: 768px) {
   .genres-list {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, 150px);
+    width: 310px;
+  }
+  
+  .genres-dropdown {
+    width: 90vw;
+    max-width: 310px;
   }
 }
