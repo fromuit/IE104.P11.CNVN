@@ -190,7 +190,7 @@ const NovelCard = ({ novel, onView, onLike, variant, isTopNovel, isLiked }) => (
 const NovelGrid = ({ novels, showNavigation = false, activeTab, variant, onView, onLike, isTopNovel, likedNovels }) => {
   const [page, setPage] = useState(0);
   const itemsPerPage = 4; // Hiển thị 6 truyện mỗi trang (3x2)
-  const maxItems = 24; // Tổng số truyện tối đa
+  const maxItems = 16; // Tổng số truyện tối đa
   const limitedNovels = novels.slice(0, maxItems); // Giới hạn tổng số truyện
   const totalPages = Math.ceil(limitedNovels.length / itemsPerPage);
 
@@ -277,24 +277,21 @@ function Section() {
   const [activeTopTab, setActiveTopTab] = useState("week");
   const { novels, likedNovels, incrementView, toggleLike, updateRating } = useNovelData();
 
-  // Sửa lại hàm processedData để x��� lý dữ liệu cho từng tab
   const processedData = useMemo(() => {
     const getTopNovels = (criteria) => {
       switch(criteria) {
         case "week":
-          // Sắp xếp theo lượt xem trong tuần
-          return sortNovels([...novels], "view").slice(0, 12);
+          // Tạm thời sắp xếp như top toàn thời gian
+          return sortNovels([...novels], "view").slice(0, 16);
         case "month":
-          // Sắp xếp theo lượt like trong tháng
-          return sortNovels([...novels], "like").slice(0, 12);
+          // Tạm thời sắp xếp như top toàn thời gian
+          return sortNovels([...novels], "view").slice(0, 16);
         case "year":
-          // Sắp xếp theo ngày cập nhật trong năm
-          return sortNovels([...novels], "date").slice(0, 12);
+          // Tạm thời sắp xếp như top toàn thời gian
+          return sortNovels([...novels], "view").slice(0, 16);
         case "all":
-          // Sắp xếp theo tổng lượt xem
-          return sortNovels([...novels], "view")
-            .sort((a, b) => b["Số lượt xem"] - a["Số lượt xem"])
-            .slice(0, 12);
+          // ắp xếp theo tổng lượt xem 
+          return sortNovels([...novels], "view").slice(0, 16);
         default:
           return [];
       }
@@ -302,15 +299,15 @@ function Section() {
 
     return {
       topNovels: {
-        week: sortNovels(novels, "view").slice(0, 24),
-        month: sortNovels(novels, "like").slice(0, 24),
-        year: sortNovels(novels, "date").slice(0, 24),
-        all: novels.slice(0, 24)
+        week: sortNovels(novels, "view").slice(0, 16),    //Tạm thời
+        month: sortNovels(novels, "view").slice(0, 16),   //Tạm thời
+        year: sortNovels(novels, "view").slice(0, 16),    //Tạm thời
+        all: sortNovels(novels, "view").slice(0, 16)      //Mốc chuẩn
       },
-      recentlyUpdated: sortNovels(novels, "date").slice(0, 24),
-      newNovels: novels.filter(novel => novel["Tình trạng"] === "Đang tiến hành").slice(0, 24),
-      completed: novels.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 24),
-      original: novels.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 24)
+      recentlyUpdated: sortNovels(novels, "date").slice(0, 16),
+      newNovels: novels.filter(novel => novel["Tình trạng"] === "Đang tiến hành").slice(0, 16),
+      completed: novels.filter(novel => novel["Tình trạng"] === "Đã hoàn thành").slice(0, 16),
+      original: novels.filter(novel => novel["Phương thức dịch"] === "Sáng tác").slice(0, 16)
     };
   }, [novels, activeTopTab]); // Thêm activeTopTab vào dependencies
 
