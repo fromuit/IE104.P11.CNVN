@@ -3,7 +3,7 @@ import HomePage from '../components/Home-page/Home-page.jsx';
 import InfoPage from '../components/Info-page/Info-page.jsx';
 import AccountPage from '../components/Account-page/Account-page.jsx';
 import SignUp from '../components/SignUp-page/SignUp.jsx';
-import SighIn from '../components/SignIn-page/SignIn.jsx';
+import SignIn from '../components/SignIn-page/SignIn.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
