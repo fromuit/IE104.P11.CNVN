@@ -249,6 +249,10 @@
 
 /* Thêm transition để làm mượt animation */
 .genres-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s ease, visibility 0.2s ease;
@@ -265,4 +269,11 @@
   display: block;
   opacity: 1;
   visibility: visible;
+}
+
+.genres-dropdown.dropdown-up {
+  top: auto;
+  bottom: 100%;
+  animation: slideUp 0.3s ease forwards;
+  transform-origin: bottom center;
 }

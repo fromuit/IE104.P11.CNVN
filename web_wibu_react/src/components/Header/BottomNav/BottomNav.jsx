@@ -12,8 +12,32 @@ function BottomNav() {
   const [showGenres, setShowGenres] = React.useState(false);
   const genresRef = useRef(null);
   const [isHovered, setIsHovered] = React.useState(false);
+  const [dropdownPosition, setDropdownPosition] = React.useState('down');
 
   useEffect(() => {
+    function updateDropdownPosition() {
+      if (genresRef.current) {
+        const element = genresRef.current;
+        const rect = element.getBoundingClientRect();
+        const spaceBelow = window.innerHeight - rect.bottom;
+        const spaceAbove = rect.top;
+        const dropdownHeight = 300; // Ước tính chiều cao của dropdown menu
+
+        setDropdownPosition(spaceBelow >= dropdownHeight || spaceBelow > spaceAbove ? 'down' : 'up');
+      }
+    }
+
+    updateDropdownPosition();
+    window.addEventListener('resize', updateDropdownPosition);
+    window.addEventListener('scroll', updateDropdownPosition);
+
+    return () => {
+      window.removeEventListener('resize', updateDropdownPosition);
+      window.removeEventListener('scroll', updateDropdownPosition);
+    };
+  }, []);
+
+  useEffect(() => {  
     const initializeNav = () => {
       const topNavHeight = isHomePage ? 60 : 40;
       const bannerElement = document.querySelector('.banner');
@@ -107,7 +131,9 @@ function BottomNav() {
                   Thể loại
                   <i className={`fas fa-chevron-${isHovered || showGenres ? 'up' : 'down'} ml-1`}></i>
                 </div>
-                <div className={`genres-dropdown ${showGenres ? 'show' : ''}`}>
+                <div  
+                  className={`genres-dropdown ${showGenres ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
+                >
                   <ul className="genres-list">
                     {genresData.genres.map((genre, index) => (
                       <li key={`genre-${genre.id}-${index}`}>
