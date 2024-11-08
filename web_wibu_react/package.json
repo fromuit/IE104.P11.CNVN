@@ -6,11 +6,10 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "client": "vite",
-<<<<<<< HEAD
+
     "server": "node src/server/server.js",
-=======
-    "server": "nodemon src/server/server.js",
->>>>>>> 9e2e491e35ff0c0b26cd15b74f38359dc9850670
+
+
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
