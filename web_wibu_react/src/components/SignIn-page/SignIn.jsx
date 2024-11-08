@@ -94,10 +94,6 @@ const Signin = () => {
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center',
                                       backgroundRepeat: 'no-repeat'}}>
-    <div className="container" style={{ backgroundImage: `url(${bgImage})`,
-                                      backgroundSize: 'cover',
-                                      backgroundPosition: 'center',
-                                      backgroundRepeat: 'no-repeat'}}>
       <div className="form-box">
         <h1 id="title">Sign In</h1>
         <form onSubmit={handleSubmit}>

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import React, { useEffect, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './BottomNav.css';
 import genresData from '../../../data_and_source/truyen_data/genres.json';
@@ -10,7 +9,6 @@ function BottomNav() {
   const originalPositionRef = useRef(null);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
-  const [showGenres, setShowGenres] = React.useState(false);
   const [showGenres, setShowGenres] = React.useState(false);
   const genresRef = useRef(null);
   const [isHovered, setIsHovered] = React.useState(false);
@@ -64,19 +62,6 @@ function BottomNav() {
         navRef.current.offsetTop;
 
       const handleScroll = () => {
-        if (navRef.current) {
-          const scrollY = window.scrollY;
-          
-          if (scrollY >= originalPositionRef.current - topNavHeight) {
-            if (!navRef.current.classList.contains('sticky')) {
-              navRef.current.classList.add('sticky');
-              navRef.current.style.top = `${topNavHeight}px`;
-            }
-          } else {
-            if (navRef.current.classList.contains('sticky')) {
-              navRef.current.classList.remove('sticky');
-              navRef.current.style.top = '0';
-            }
         if (navRef.current) {
           const scrollY = window.scrollY;
           
@@ -211,5 +196,4 @@ function BottomNav() {
     </>
   );
 }
-
 export default BottomNav;
