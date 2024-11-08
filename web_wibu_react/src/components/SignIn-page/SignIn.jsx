@@ -1,9 +1,10 @@
 import './SignIn.css';
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import bgImage from '../../data_and_source/images/bg_for_signin.png';
 
 // Component xử lý đăng nhập người dùng
-const SignIn = () => {
+const Signin = () => {
   const navigate = useNavigate();
 
   // Khởi tạo state cho form data và error messages
@@ -48,7 +49,7 @@ const SignIn = () => {
     e.preventDefault();
     if (validateForm()) {
       try {
-        const response = await fetch('http://localhost:5000/api/login', {
+        const response = await fetch('http://localhost:5000/api/signin', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -89,9 +90,12 @@ const SignIn = () => {
 
   // Render giao diện đăng nhập
   return (
-    <div className="container">
+    <div className="container" style={{ backgroundImage: `url(${bgImage})`,
+                                      backgroundSize: 'cover',
+                                      backgroundPosition: 'center',
+                                      backgroundRepeat: 'no-repeat'}}>
       <div className="form-box">
-        <h1 id="title">Login</h1>
+        <h1 id="title">Sign In</h1>
         <form onSubmit={handleSubmit}>
           <div className="input-group">
             <div className="input-field">
@@ -142,4 +146,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn; 
+export default Signin; 

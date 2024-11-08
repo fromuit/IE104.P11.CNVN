@@ -148,6 +148,9 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  min-width: -webkit-fill-available;
+  min-width: -moz-available;
+  min-width: fill-available;
   min-width: fit-content;
 }
 
@@ -254,7 +257,9 @@
   position: absolute;
   top: calc(100% + 1px);
   right: -10px;
-  width: 300px;
+  min-width: 300px; /* Thay đổi width thành min-width */
+  max-width: 400px; /* Thêm max-width để tránh quá rộng */
+  width: max-content; /* Cho phép container mở rộng theo nội dung */
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -449,4 +454,39 @@
 
 .dark-mode .dropdown-item.logout:hover {
   background-color: #3d2c2c;
+}
+
+.signin-signup-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.signin-button,
+.signup-button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.signin-button {
+  color: #1a73e8;
+  background: transparent;
+  border: 1px solid #1a73e8;
+}
+
+.signup-button {
+  color: white;
+  background: #1a73e8;
+  border: 1px solid #1a73e8;
+}
+
+.signin-button:hover {
+  background: rgba(26, 115, 232, 0.1);
+}
+
+.signup-button:hover {
+  background: #0b5fca;
 }

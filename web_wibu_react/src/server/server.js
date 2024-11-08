@@ -8,11 +8,15 @@ const app = express();
 const PORT = 5000;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:5173", // URL của React app
+  methods: ["GET", "POST"],
+  credentials: true
+}));
 app.use(bodyParser.json());
 
 // Đường dẫn đến file db.json
-const dbPath = path.join(__dirname, 'db.json');
+const dbPath = path.join(__dirname, 'user_db.json');
 
 // API đăng ký
 app.post('/api/signup', (req, res) => {
@@ -59,7 +63,7 @@ app.post('/api/signup', (req, res) => {
 });
 
 // API đăng nhập
-app.post('/api/login', (req, res) => {
+app.post('/api/signin', (req, res) => {
   try {
     const { email, password } = req.body;
     
