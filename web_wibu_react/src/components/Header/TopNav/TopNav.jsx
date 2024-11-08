@@ -13,7 +13,7 @@ function TopNav() {
 
   const isHomePage = location.pathname === '/';
 
-  const toggleTheme = () => {
+  const toggleTheme = () => { 
     setIsDarkMode(!isDarkMode);
   };
 
@@ -21,12 +21,10 @@ function TopNav() {
     e.preventDefault();
     
     if (!searchQuery.trim()) {
-      // Nếu không có nội dung tìm kiếm, chuyển đến trang tìm kiếm nâng cao
       navigate('/tim-kiem-nang-cao');
       return;
     }
     
-    // Nếu có nội dung tìm kiếm, chuyển đến trang tìm kiếm nâng cao với query
     navigate(`/tim-kiem-nang-cao?q=${encodeURIComponent(searchQuery)}`);
   };
 
@@ -40,20 +38,14 @@ function TopNav() {
   };
 
   const handleLogout = () => {
-    // Xóa tất cả thông tin từ localStorage
     localStorage.clear();
-    
-    // Reset tất cả state về mặc định
     setIsLoggedIn(false);
     setUserData(null);
-    
-    // Chuyển hướng về trang chủ và reload page
     navigate('/');
     window.location.reload();
   };
 
   useEffect(() => {
-    // Kiểm tra trạng thái đăng nhập khi component mount
     const user = localStorage.getItem('currentUser');
     if (user) {
       setIsLoggedIn(true);
@@ -76,9 +68,10 @@ function TopNav() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
+            <div className="search-divider"></div>
             <button 
               type="submit"
-              className="search-button"
+              className="search-button-small"
               onClick={handleSearchClick}
               title="Tìm kiếm"
             >
@@ -132,29 +125,7 @@ function TopNav() {
                         <i className="fas fa-history"></i>
                         <span>Lịch sử đọc</span>
                       </Link>
-                      <Link to="/danh-dau" className="dropdown-item">
-                        <i className="fas fa-bookmark"></i>
-                        <span>Đánh dấu</span>
-                      </Link>
-                      <Link to="/hop-thu" className="dropdown-item">
-                        <i className="fas fa-envelope"></i>
-                        <span>Hộp thư</span>
-                        <span className="badge">1</span>
-                      </Link>
-                      <Link to="/thao-luan" className="dropdown-item">
-                        <i className="fas fa-comments"></i>
-                        <span>Thảo luận</span>
-                      </Link>
-                      <Link to="/tu-sach" className="dropdown-item">
-                        <i className="fas fa-book"></i>
-                        <span>Tủ sách</span>
-                      </Link>
-                      <Link to="/gio-hang" className="dropdown-item">
-                        <i className="fas fa-shopping-cart"></i>
-                        <span>Giỏ hàng</span>
-                        <span className="badge">2</span>
-                      </Link>
-                      <button onClick={handleLogout} className="dropdown-item">
+                      <button onClick={handleLogout} className="dropdown-item logout">
                         <i className="fas fa-sign-out-alt"></i>
                         <span>Đăng xuất</span>
                       </button>
