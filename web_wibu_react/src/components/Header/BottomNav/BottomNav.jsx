@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './BottomNav.css';
 import genresData from '../../../data_and_source/truyen_data/genres.json';
@@ -13,6 +13,9 @@ function BottomNav() {
   const genresRef = useRef(null);
   const [isHovered, setIsHovered] = React.useState(false);
   const [dropdownPosition, setDropdownPosition] = React.useState('down');
+  const [tooltipContent, setTooltipContent] = useState('');
+  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
+  const tooltipRef = useRef(null);
 
   useEffect(() => {
     function updateDropdownPosition() {
@@ -103,6 +106,19 @@ function BottomNav() {
     };
   }, []);
 
+  const handleMouseEnter = (event, description) => {
+    setTooltipContent(description);
+    const rect = event.target.getBoundingClientRect();
+    setTooltipPosition({
+      top: rect.top + window.scrollY - 10, // Adjust as needed
+      left: rect.left + window.scrollX + rect.width / 2,
+    });
+  };
+
+  const handleMouseLeave = () => {
+    setTooltipContent('');
+  };
+
   return (
     <>
       <div 
@@ -136,7 +152,11 @@ function BottomNav() {
                 >
                   <ul className="genres-list">
                     {genresData.genres.map((genre, index) => (
-                      <li key={`genre-${genre.id}-${index}`}>
+                      <li 
+                        key={`genre-${genre.id}-${index}`}
+                        onMouseEnter={(e) => handleMouseEnter(e, genre.description)}
+                        onMouseLeave={handleMouseLeave}
+                      >
                         <NavLink 
                           to={`/the-loai/${genre.slug}`}
                           className="genre-item"
@@ -177,6 +197,15 @@ function BottomNav() {
           </div>
         </nav>
       </div>
+      {tooltipContent && (
+        <div 
+          className="tooltip" 
+          style={{ top: tooltipPosition.top, left: tooltipPosition.left }}
+          ref={tooltipRef}
+        >
+          {tooltipContent}
+        </div>
+      )}
     </>
   );
 }
