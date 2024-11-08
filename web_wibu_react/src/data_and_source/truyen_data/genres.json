@@ -2,69 +2,69 @@
   "genres": [
     {
       "id": 1,
-      "name": "Hành Động",
-      "slug": "hanh-dong",
-      "description": "Nghẹt thở đến từng chi tiết"
+      "name": "Bí Ẩn",
+      "slug": "bi-an",
+      "description": "Bí ẩn mãi mãi là bí ẩn."
     },
     {
       "id": 2,
-      "name": "Phiêu Lưu",
-      "slug": "phieu-luu",
-      "description": "Xách balo lên và đi thôi."
-    },
-    {
-      "id": 3,
-      "name": "Hài Hước",
-      "slug": "hai-huoc",
-      "description": "Một nụ cười bằng mười thang thuốc bổ."
-    },
-    {
-      "id": 4,
       "name": "Drama",
       "slug": "drama",
       "description": "Plot twist bạn không đỡ được đâu."
     },
     {
-      "id": 5,
+      "id": 3,
+      "name": "Đời Thường",
+      "slug": "doi-thuong",
+      "description": "Những câu chuyện đời thường giản dị nhưng lại gây ấn tượng sâu sắc."
+    },
+    {
+      "id": 4,
       "name": "Ecchi",
       "slug": "ecchi",
       "description": "Đánh thức 'bản ngã khác' của bạn."
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Giả Tưởng",
       "slug": "gia-tuong",
       "description": "Những tình tiết giả tưởng nhưng lại chân thật đến lạ lùng."
     },
     {
+      "id": 6,
+      "name": "Hài Hước",
+      "slug": "hai-huoc",
+      "description": "Một nụ cười bằng mười thang thuốc bổ."
+    },
+    {
       "id": 7,
+      "name": "Hành Động",
+      "slug": "hanh-dong",
+      "description": "Nghẹt thở đến từng chi tiết"
+    },
+    {
+      "id": 8,
       "name": "Harem",
       "slug": "harem",
       "description": "Xây dựng một hậu cung của riêng bạn."
     },
     {
-      "id": 8,
+      "id": 9,
+      "name": "Học Đường",
+      "slug": "hoc-duong",
+      "description": "Khoảnh khắc thanh xuân vườn trường đáng nhớ nhất đời người."
+    },
+    {
+      "id": 10,
       "name": "Kinh Dị",
       "slug": "kinh-di",
       "description": "Cảm giác đáng sợ đến từng tế bào."
     },
     {
-      "id": 9,
-      "name": "Loạn Luân",
-      "slug": "loan-luan",
-      "description": "Chỉ là thể hiện tình cảm gia đình thân mật thôi."
-    },
-    {
-      "id": 10,
-      "name": "Mecha",
-      "slug": "mecha",
-      "description": "Máy móc cũng có cảm xúc đấy."
-    },
-    {
       "id": 11,
-      "name": "Bí Ẩn",
-      "slug": "bi-an",
-      "description": "Bí ẩn mãi mãi là bí ẩn."
+      "name": "Khoa Học Viễn Tưởng",
+      "slug": "khoa-hoc-vien-tuong",
+      "description": "Khi nền văn minh con người đạt đến một tầm cao mới."
     },
     {
       "id": 12,
@@ -74,27 +74,27 @@
     },
     {
       "id": 13,
-      "name": "Học Đường",
-      "slug": "hoc-duong",
-      "description": "Khoảnh khắc thanh xuân vườn trường đáng nhớ nhất đời người."
+      "name": "Loạn Luân",
+      "slug": "loan-luan",
+      "description": "Chỉ là thể hiện tình cảm gia đình thân mật thôi."
     },
     {
       "id": 14,
-      "name": "Khoa Học Viễn Tưởng",
-      "slug": "khoa-hoc-vien-tuong",
-      "description": "Khi nền văn minh con người đạt đến một tầm cao mới."
+      "name": "Mecha",
+      "slug": "mecha",
+      "description": "Máy móc cũng có cảm xúc đấy."
     },
     {
       "id": 15,
-      "name": "Seinen",
-      "slug": "seinen",
-      "description": "Những câu chuyện dành cho con trai."
+      "name": "Phiêu Lưu",
+      "slug": "phieu-luu",
+      "description": "Xách balo lên và đi thôi."
     },
     {
       "id": 16,
-      "name": "Đời Thường",
-      "slug": "doi-thuong",
-      "description": "Những câu chuyện đời thường giản dị nhưng lại gây ấn tượng sâu sắc."
+      "name": "Seinen",
+      "slug": "seinen",
+      "description": "Những câu chuyện dành cho con trai."
     },
     {
       "id": 17,

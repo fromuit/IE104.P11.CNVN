@@ -1,4 +1,4 @@
-import  { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import './BottomNav.css';
 import genresData from '../../../data_and_source/truyen_data/genres.json';
@@ -11,11 +11,42 @@ function BottomNav() {
   const isHomePage = location.pathname === '/';
   const  setShowGenres = useState(false);
   const genresRef = useRef(null);
-  const [dropdownPosition, setDropdownPosition] = useState('down');
+  const [isHovered, setIsHovered] = React.useState(false);
+  const [timeoutId, setTimeoutId] = useState(null); // Thêm state này để track timeout
+  const [dropdownPosition, setDropdownPosition] = React.useState('down');
+  const [isDropdownVisible, setIsDropdownVisible] = useState(false);
   const [tooltipContent, setTooltipContent] = useState('');
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
-  const [isDropdownVisible, setIsDropdownVisible] = useState(false);
   const navigate = useNavigate();
+  const organizeGenresInColumns = (genres, numColumns = 3) => {
+    const itemsPerColumn = Math.ceil(genres.length / numColumns);
+    const columns = [];
+    
+    for (let col = 0; col < numColumns; col++) {
+      columns.push(genres.slice(col * itemsPerColumn, (col + 1) * itemsPerColumn));
+    }
+    
+    return columns;
+  };
+
+  const handleGenresMouseEnter = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+      setTimeoutId(null);
+    }
+    setIsHovered(true);
+    setShowGenres(true);
+  };
+
+  const handleGenresMouseLeave = () => {
+    const newTimeoutId = setTimeout(() => {
+      setIsHovered(false);
+      setShowGenres(false);
+    }, 300);
+    
+    setTimeoutId(newTimeoutId);
+  };
+  
 
   useEffect(() => {
     function updateDropdownPosition() {
@@ -106,14 +137,6 @@ function BottomNav() {
     };
   }, []);
 
-  const handleDropdownEnter = () => {
-    setIsDropdownVisible(true);
-  };
-
-  const handleDropdownLeave = () => {
-    setIsDropdownVisible(false);
-  };
-
   const handleMouseEnter = (event, description) => {
     if (description && description !== "...") {
       setTooltipContent(description);
@@ -133,6 +156,7 @@ function BottomNav() {
     navigate(`/tim-kiem-nang-cao?genres=${genre.id}`);
   };
 
+
   return (
     <>
       <div 
@@ -145,12 +169,12 @@ function BottomNav() {
         >
           <div className="bottom-nav__container">
             <ul className="bottom-nav__list">
-              <li 
-                className="bottom-nav__item" 
-                key="genres"
-                ref={genresRef}
-                onMouseEnter={handleDropdownEnter}
-                onMouseLeave={handleDropdownLeave}
+            <li 
+                className="bottom-nav__item genres-container" 
+              key="genres"
+              ref={genresRef}
+              onMouseEnter={handleGenresMouseEnter}
+                onMouseLeave={handleGenresMouseLeave}
               >
                 <div 
                   className="bottom-nav__link"
@@ -158,27 +182,32 @@ function BottomNav() {
                 >
                   <i className="fas fa-tags"></i>
                   Thể loại
-                  <i className={`fas fa-chevron-${isDropdownVisible ? 'up' : 'down'} ml-1`}></i>
+                  <i className={`fas fa-chevron-${isHovered ? 'up' : 'down'} ml-1`}></i>
                 </div>
+  
                 <div  
                   className={`genres-dropdown ${isDropdownVisible ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
                 >
-                  <ul className="genres-list">
-                    {genresData.genres.map((genre, index) => (
-                      <li 
-                        key={`genre-${genre.id}-${index}`}
-                        onMouseEnter={(e) => handleMouseEnter(e, genre.description)}
-                        onMouseLeave={() => setTooltipContent('')}
-                      >
-                        <NavLink 
-                          to={`/tim-kiem-nang-cao?genres=${genre.id}`}
-                          className="genre-item"
-                        >
-                          {genre.name}
-                        </NavLink>
-                      </li>
+                    <div className="genres-list">
+                      {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
+                      <ul key={`column-${colIndex}`} className="genres-column">
+                        {column.map((genre) => (
+                          <li key={`genre-${genre.id}-${colIndex}`}
+                              onMouseEnter={(event) => handleMouseEnter(event, genre.description)}
+                              onMouseLeave={handleMouseLeave}
+                          >
+                            <NavLink 
+                              to={`/tim-kiem-nang-cao?genres=${genre.id}`}
+                              className="genre-item"
+                              onClick={() => setShowGenres(false)}
+                            >
+                              {genre.name}
+                            </NavLink>
+                          </li>
+                        ))}
+                      </ul>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               </li>
               <li className="bottom-nav__item" key="rank">
@@ -210,18 +239,11 @@ function BottomNav() {
         </nav>
       </div>
       {tooltipContent && (
-        <div 
-          className="tooltip" 
-          style={{ 
-            top: `${tooltipPosition.top}px`, 
-            left: `${tooltipPosition.left}px` 
-          }}
-        >
+        <div className="tooltip" style={tooltipPosition}>
           {tooltipContent}
         </div>
       )}
     </>
   );
 }
-
 export default BottomNav;
