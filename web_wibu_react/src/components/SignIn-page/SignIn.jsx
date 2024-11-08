@@ -99,7 +99,7 @@ const Signin = () => {
         <form onSubmit={handleSubmit}>
           <div className="signin-input-group">
             <div className="signin-input-field">
-              <i className="fa-solid fa-envelope"></i>
+              <i className="fas fa-envelope"></i>
               <input
                 type="email"
                 name="email"
@@ -110,7 +110,7 @@ const Signin = () => {
               {errors.email && <span className="error">{errors.email}</span>}
             </div>
             <div className="signin-input-field">
-              <i className="fa-solid fa-lock"></i>
+              <i className="fas fa-lock"></i>
               <input
                 type="password"
                 name="password"

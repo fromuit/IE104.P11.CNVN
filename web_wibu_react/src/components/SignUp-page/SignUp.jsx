@@ -134,7 +134,7 @@ const Signup = () => {
         <form onSubmit={handleSubmit}>
           <div className="signup-input-group">
             <div className="signup-input-field">
-              <i className="fa-solid fa-user"></i>
+              <i className="fas fa-user"></i>
               <input
                 type="text"
                 name="fullName"
@@ -150,7 +150,7 @@ const Signup = () => {
               )}
             </div>
             <div className="signup-input-field">
-              <i className="fa-solid fa-envelope"></i>
+              <i className="fas fa-envelope"></i>
               <input
                 type="email"
                 name="email"
@@ -166,7 +166,7 @@ const Signup = () => {
               )}
             </div>
             <div className="signup-input-field">
-              <i className="fa-solid fa-lock"></i>
+              <i className="fas fa-lock"></i>
               <input
                 type="password"
                 name="password"
@@ -182,7 +182,7 @@ const Signup = () => {
               )}
             </div>
             <div className="signup-input-field">
-              <i className="fa-solid fa-check"></i>
+              <i className="fas fa-check"></i>
               <input
                 type="password"
                 name="confirmPassword"
