@@ -13,7 +13,6 @@ function BottomNav() {
   const genresRef = useRef(null);
   const [isHovered, setIsHovered] = React.useState(false);
   const [dropdownPosition, setDropdownPosition] = React.useState('down');
-
   const organizeGenresInColumns = (genres, numColumns = 3) => {
     const itemsPerColumn = Math.ceil(genres.length / numColumns);
     const columns = [];
@@ -24,6 +23,8 @@ function BottomNav() {
     
     return columns;
   };
+  const [tooltipContent, setTooltipContent] = useState('');
+  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
 
   useEffect(() => {
     function updateDropdownPosition() {
@@ -114,6 +115,21 @@ function BottomNav() {
     };
   }, []);
 
+  const handleMouseEnter = (event, description) => {
+    if (description && description !== "...") {
+      setTooltipContent(description);
+      const rect = event.target.getBoundingClientRect();
+      setTooltipPosition({
+        top: rect.top - 30, // Điều chỉnh vị trí tooltip
+        left: rect.left + rect.width / 2,
+      });
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setTooltipContent('');
+  };
+
   return (
     <>
       <div 
@@ -150,7 +166,10 @@ function BottomNav() {
                     {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
                       <ul key={`column-${colIndex}`} className="genres-column">
                         {column.map((genre) => (
-                          <li key={`genre-${genre.id}`}>
+                          <li key={`genre-${genre.id}-${colIndex}`}
+                              onMouseEnter={(event) => handleMouseEnter(event, genre.description)}
+                              onMouseLeave={handleMouseLeave}
+                          >
                             <NavLink 
                               to={`/the-loai/${genre.slug}`}
                               className="genre-item"
@@ -193,6 +212,11 @@ function BottomNav() {
           </div>
         </nav>
       </div>
+      {tooltipContent && (
+        <div className="tooltip" style={tooltipPosition}>
+          {tooltipContent}
+        </div>
+      )}
     </>
   );
 }
