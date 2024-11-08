@@ -14,6 +14,17 @@ function BottomNav() {
   const [isHovered, setIsHovered] = React.useState(false);
   const [dropdownPosition, setDropdownPosition] = React.useState('down');
 
+  const organizeGenresInColumns = (genres, numColumns = 3) => {
+    const itemsPerColumn = Math.ceil(genres.length / numColumns);
+    const columns = [];
+    
+    for (let col = 0; col < numColumns; col++) {
+      columns.push(genres.slice(col * itemsPerColumn, (col + 1) * itemsPerColumn));
+    }
+    
+    return columns;
+  };
+
   useEffect(() => {
     function updateDropdownPosition() {
       if (genresRef.current) {
@@ -131,22 +142,27 @@ function BottomNav() {
                   Thể loại
                   <i className={`fas fa-chevron-${isHovered || showGenres ? 'up' : 'down'} ml-1`}></i>
                 </div>
+                
                 <div  
                   className={`genres-dropdown ${showGenres ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
                 >
-                  <ul className="genres-list">
-                    {genresData.genres.map((genre, index) => (
-                      <li key={`genre-${genre.id}-${index}`}>
-                        <NavLink 
-                          to={`/the-loai/${genre.slug}`}
-                          className="genre-item"
-                          onClick={() => setShowGenres(false)}
-                        >
-                          {genre.name}
-                        </NavLink>
-                      </li>
+                  <div className="genres-list">
+                    {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
+                      <ul key={`column-${colIndex}`} className="genres-column">
+                        {column.map((genre) => (
+                          <li key={`genre-${genre.id}`}>
+                            <NavLink 
+                              to={`/the-loai/${genre.slug}`}
+                              className="genre-item"
+                              onClick={() => setShowGenres(false)}
+                            >
+                              {genre.name}
+                            </NavLink>
+                          </li>
+                        ))}
+                      </ul>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               </li>
               <li className="bottom-nav__item" key="rank">

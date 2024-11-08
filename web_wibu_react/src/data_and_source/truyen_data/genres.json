@@ -2,58 +2,58 @@
   "genres": [
     {
       "id": 1,
-      "name": "Hành Động",
-      "slug": "hanh-dong"
+      "name": "Bí Ẩn",
+      "slug": "bi-an"
     },
     {
       "id": 2,
-      "name": "Phiêu Lưu",
-      "slug": "phieu-luu"
-    },
-    {
-      "id": 3,
-      "name": "Hài Hước",
-      "slug": "hai-huoc"
-    },
-    {
-      "id": 4,
       "name": "Drama",
       "slug": "drama"
     },
     {
-      "id": 5,
+      "id": 3,
+      "name": "Đời Thường",
+      "slug": "doi-thuong"
+    },
+    {
+      "id": 4,
       "name": "Ecchi",
       "slug": "ecchi"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Giả Tưởng",
       "slug": "gia-tuong"
     },
     {
+      "id": 6,
+      "name": "Hài Hước",
+      "slug": "hai-huoc"
+    },
+    {
       "id": 7,
+      "name": "Hành Động",
+      "slug": "hanh-dong"
+    },
+    {
+      "id": 8,
       "name": "Harem",
       "slug": "harem"
     },
     {
-      "id": 8,
+      "id": 9,
+      "name": "Học Đường",
+      "slug": "hoc-duong"
+    },
+    {
+      "id": 10,
       "name": "Kinh Dị",
       "slug": "kinh-di"
     },
     {
-      "id": 9,
-      "name": "Loạn Luân",
-      "slug": "loan-luan"
-    },
-    {
-      "id": 10,
-      "name": "Mecha",
-      "slug": "mecha"
-    },
-    {
       "id": 11,
-      "name": "Bí Ẩn",
-      "slug": "bi-an"
+      "name": "Khoa Học Viễn Tưởng",
+      "slug": "khoa-hoc-vien-tuong"
     },
     {
       "id": 12,
@@ -62,23 +62,23 @@
     },
     {
       "id": 13,
-      "name": "Học Đường",
-      "slug": "hoc-duong"
+      "name": "Loạn Luân",
+      "slug": "loan-luan"
     },
     {
       "id": 14,
-      "name": "Khoa Học Viễn Tưởng",
-      "slug": "khoa-hoc-vien-tuong"
+      "name": "Mecha",
+      "slug": "mecha"
     },
     {
       "id": 15,
-      "name": "Seinen",
-      "slug": "seinen"
+      "name": "Phiêu Lưu",
+      "slug": "phieu-luu"
     },
     {
       "id": 16,
-      "name": "Đời Thường",
-      "slug": "doi-thuong"
+      "name": "Seinen",
+      "slug": "seinen"
     },
     {
       "id": 17,
