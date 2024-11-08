@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import  { useEffect, useRef, useState } from 'react';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import './BottomNav.css';
 import genresData from '../../../data_and_source/truyen_data/genres.json';
 
@@ -9,14 +9,13 @@ function BottomNav() {
   const originalPositionRef = useRef(null);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
-  const [showGenres, setShowGenres] = useState(false);
+  const  setShowGenres = useState(false);
   const genresRef = useRef(null);
-  const [isHovered, setIsHovered] = useState(false);
   const [dropdownPosition, setDropdownPosition] = useState('down');
   const [tooltipContent, setTooltipContent] = useState('');
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
-  const tooltipRef = useRef(null);
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     function updateDropdownPosition() {
@@ -130,6 +129,10 @@ function BottomNav() {
     setTooltipContent('');
   };
 
+  const handleGenreClick = (genre) => {
+    navigate(`/tim-kiem-nang-cao?genres=${genre.id}`);
+  };
+
   return (
     <>
       <div 
@@ -168,7 +171,7 @@ function BottomNav() {
                         onMouseLeave={() => setTooltipContent('')}
                       >
                         <NavLink 
-                          to={`/the-loai/${genre.slug}`}
+                          to={`/tim-kiem-nang-cao?genres=${genre.id}`}
                           className="genre-item"
                         >
                           {genre.name}

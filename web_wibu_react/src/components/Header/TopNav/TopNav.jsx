@@ -18,22 +18,22 @@ function TopNav() {
   };
 
   const handleSearch = (e) => {
-    e.preventDefault(); // Ngăn form submit mặc định
+    e.preventDefault();
     
     if (!searchQuery.trim()) {
-      // Nếu không có nội dung tìm kiếm, chuyển đến trang tìm kiếm chi tiết
-      navigate('/tim-kiem');
+      // Nếu không có nội dung tìm kiếm, chuyển đến trang tìm kiếm nâng cao
+      navigate('/tim-kiem-nang-cao');
       return;
     }
     
-    // Xử lý tìm kiếm với nội dung (sẽ bổ sung sau)
-    navigate(`/tim-kiem?q=${encodeURIComponent(searchQuery)}`);
+    // Nếu có nội dung tìm kiếm, chuyển đến trang tìm kiếm nâng cao với query
+    navigate(`/tim-kiem-nang-cao?q=${encodeURIComponent(searchQuery)}`);
   };
 
   const handleSearchClick = () => {
     setIsSearchActive(!isSearchActive);
     if (!searchQuery.trim()) {
-      navigate('/tim-kiem');
+      navigate('/tim-kiem-nang-cao');
     } else {
       handleSearch({ preventDefault: () => {} });
     }
