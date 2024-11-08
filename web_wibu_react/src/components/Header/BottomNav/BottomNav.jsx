@@ -9,13 +9,14 @@ function BottomNav() {
   const originalPositionRef = useRef(null);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
-  const [showGenres, setShowGenres] = React.useState(false);
+  const [showGenres, setShowGenres] = useState(false);
   const genresRef = useRef(null);
-  const [isHovered, setIsHovered] = React.useState(false);
-  const [dropdownPosition, setDropdownPosition] = React.useState('down');
+  const [isHovered, setIsHovered] = useState(false);
+  const [dropdownPosition, setDropdownPosition] = useState('down');
   const [tooltipContent, setTooltipContent] = useState('');
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
   const tooltipRef = useRef(null);
+  const [isDropdownVisible, setIsDropdownVisible] = useState(false);
 
   useEffect(() => {
     function updateDropdownPosition() {
@@ -106,13 +107,23 @@ function BottomNav() {
     };
   }, []);
 
+  const handleDropdownEnter = () => {
+    setIsDropdownVisible(true);
+  };
+
+  const handleDropdownLeave = () => {
+    setIsDropdownVisible(false);
+  };
+
   const handleMouseEnter = (event, description) => {
-    setTooltipContent(description);
-    const rect = event.target.getBoundingClientRect();
-    setTooltipPosition({
-      top: rect.top + window.scrollY - 10, // Adjust as needed
-      left: rect.left + window.scrollX + rect.width / 2,
-    });
+    if (description && description !== "...") {
+      setTooltipContent(description);
+      const rect = event.target.getBoundingClientRect();
+      setTooltipPosition({
+        top: rect.top - 30, // Điều chỉnh vị trí tooltip
+        left: rect.left + rect.width / 2,
+      });
+    }
   };
 
   const handleMouseLeave = () => {
@@ -135,34 +146,30 @@ function BottomNav() {
                 className="bottom-nav__item" 
                 key="genres"
                 ref={genresRef}
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
+                onMouseEnter={handleDropdownEnter}
+                onMouseLeave={handleDropdownLeave}
               >
                 <div 
                   className="bottom-nav__link"
-                  onClick={() => setShowGenres(!showGenres)}
                   style={{ cursor: 'pointer' }}
                 >
                   <i className="fas fa-tags"></i>
                   Thể loại
-                  <i className={`fas fa-chevron-${isHovered || showGenres ? 'up' : 'down'} ml-1`}></i>
+                  <i className={`fas fa-chevron-${isDropdownVisible ? 'up' : 'down'} ml-1`}></i>
                 </div>
                 <div  
-                  className={`genres-dropdown ${showGenres ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
-                  onMouseEnter={() => setShowGenres(true)}
-                  onMouseLeave={() => setShowGenres(false)}
+                  className={`genres-dropdown ${isDropdownVisible ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
                 >
                   <ul className="genres-list">
                     {genresData.genres.map((genre, index) => (
                       <li 
                         key={`genre-${genre.id}-${index}`}
                         onMouseEnter={(e) => handleMouseEnter(e, genre.description)}
-                        onMouseLeave={handleMouseLeave}
+                        onMouseLeave={() => setTooltipContent('')}
                       >
                         <NavLink 
                           to={`/the-loai/${genre.slug}`}
                           className="genre-item"
-                          onClick={() => setShowGenres(false)}
                         >
                           {genre.name}
                         </NavLink>
@@ -202,8 +209,10 @@ function BottomNav() {
       {tooltipContent && (
         <div 
           className="tooltip" 
-          style={{ top: tooltipPosition.top, left: tooltipPosition.left }}
-          ref={tooltipRef}
+          style={{ 
+            top: `${tooltipPosition.top}px`, 
+            left: `${tooltipPosition.left}px` 
+          }}
         >
           {tooltipContent}
         </div>
