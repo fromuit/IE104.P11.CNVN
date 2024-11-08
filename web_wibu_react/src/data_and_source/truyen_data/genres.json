@@ -3,92 +3,110 @@
     {
       "id": 1,
       "name": "Hành Động",
-      "slug": "hanh-dong"
+      "slug": "hanh-dong",
+      "description": "Nghẹt thở đến từng chi tiết"
     },
     {
       "id": 2,
       "name": "Phiêu Lưu",
-      "slug": "phieu-luu"
+      "slug": "phieu-luu",
+      "description": "..."
     },
     {
       "id": 3,
       "name": "Hài Hước",
-      "slug": "hai-huoc"
+      "slug": "hai-huoc",
+      "description": "Một nụ cười bằng mười thang thuốc bổ."
     },
     {
       "id": 4,
       "name": "Drama",
-      "slug": "drama"
+      "slug": "drama",
+      "description": "Plot twist bạn không đỡ được đâu."
     },
     {
       "id": 5,
       "name": "Ecchi",
-      "slug": "ecchi"
+      "slug": "ecchi",
+      "description": "Đánh thức 'bản ngã khác' của bạn."
     },
     {
       "id": 6,
       "name": "Giả Tưởng",
-      "slug": "gia-tuong"
+      "slug": "gia-tuong",
+      "description": "Những tình tiết giả tưởng nhưng lại chân thật đến lạ lùng."
     },
     {
       "id": 7,
       "name": "Harem",
-      "slug": "harem"
+      "slug": "harem",
+      "description": "Xây dựng một hậu cung của riêng bạn."
     },
     {
       "id": 8,
       "name": "Kinh Dị",
-      "slug": "kinh-di"
+      "slug": "kinh-di",
+      "description": "Cảm giác đáng sợ đến từng tế bào."
     },
     {
       "id": 9,
       "name": "Loạn Luân",
-      "slug": "loan-luan"
+      "slug": "loan-luan",
+      "description": "Chỉ là thể hiện tình cảm gia đình thân mật thôi."
     },
     {
       "id": 10,
       "name": "Mecha",
-      "slug": "mecha"
+      "slug": "mecha",
+      "description": "Máy móc cũng có cảm xúc đấy."
     },
     {
       "id": 11,
       "name": "Bí Ẩn",
-      "slug": "bi-an"
+      "slug": "bi-an",
+      "description": "Bí ẩn mãi mãi là bí ẩn."
     },
     {
       "id": 12,
       "name": "Lãng Mạn",
-      "slug": "lang-man"
+      "slug": "lang-man",
+      "description": "Những câu chuyện tình yêu đẹp đẽ nhất khiến bạn ganh tị."
     },
     {
       "id": 13,
       "name": "Học Đường",
-      "slug": "hoc-duong"
+      "slug": "hoc-duong",
+      "description": "Khoảnh khắc thanh xuân vườn trường đáng nhớ nhất đời người."
     },
     {
       "id": 14,
       "name": "Khoa Học Viễn Tưởng",
-      "slug": "khoa-hoc-vien-tuong"
+      "slug": "khoa-hoc-vien-tuong",
+      "description": "..."
     },
     {
       "id": 15,
       "name": "Seinen",
-      "slug": "seinen"
+      "slug": "seinen",
+      "description": "Những câu chuyện dành cho con trai."
     },
     {
       "id": 16,
       "name": "Đời Thường",
-      "slug": "doi-thuong"
+      "slug": "doi-thuong",
+      "description": "Những câu chuyện đời thường giản dị nhưng lại gây ấn tượng sâu sắc."
     },
     {
       "id": 17,
       "name": "Siêu Năng Lực",
-      "slug": "sieu-nang-luc"
+      "slug": "sieu-nang-luc",
+      "description": "..."
     },
     {
       "id": 18,
       "name": "Siêu Nhiên",
-      "slug": "sieu-nhien"
+      "slug": "sieu-nhien",
+      "description": "..."
     }
   ]
 }
