@@ -7,6 +7,78 @@ import Banner from '../Header/Banner/Banner';
 import Aside from '../Home-page/Main-of-Home/Aside-of-Home/Aside-of-Home';
 import './AdvancedSearch.css';
 
+const Pagination = ({ currentPage, totalPages, onPageChange }) => {
+  const renderPaginationButtons = () => {
+    const pages = [];
+    const maxVisiblePages = 5;
+    
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+    
+    if (endPage - startPage + 1 < maxVisiblePages) {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+
+    if (currentPage > 1) {
+      pages.push(
+        <button key="first" onClick={() => onPageChange(1)} className="pagination__button">
+          <i className="fas fa-angle-double-left"></i>
+        </button>,
+        <button key="prev" onClick={() => onPageChange(currentPage - 1)} className="pagination__button">
+          <i className="fas fa-chevron-left"></i>
+        </button>
+      );
+    }
+
+    if (startPage > 1) {
+      pages.push(
+        <button key={1} onClick={() => onPageChange(1)} className="pagination__button">1</button>
+      );
+      if (startPage > 2) {
+        pages.push(<span key="dots1" className="pagination__dots">...</span>);
+      }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+      pages.push(
+        <button
+          key={i}
+          onClick={() => onPageChange(i)}
+          className={`pagination__button ${currentPage === i ? 'active' : ''}`}
+        >
+          {i}
+        </button>
+      );
+    }
+
+    if (endPage < totalPages) {
+      if (endPage < totalPages - 1) {
+        pages.push(<span key="dots2" className="pagination__dots">...</span>);
+      }
+      pages.push(
+        <button key={totalPages} onClick={() => onPageChange(totalPages)} className="pagination__button">
+          {totalPages}
+        </button>
+      );
+    }
+
+    if (currentPage < totalPages) {
+      pages.push(
+        <button key="next" onClick={() => onPageChange(currentPage + 1)} className="pagination__button">
+          <i className="fas fa-chevron-right"></i>
+        </button>,
+        <button key="last" onClick={() => onPageChange(totalPages)} className="pagination__button">
+          <i className="fas fa-angle-double-right"></i>
+        </button>
+      );
+    }
+
+    return pages;
+  };
+
+  return <div className="pagination">{renderPaginationButtons()}</div>;
+};
+
 function AdvancedSearch() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedGenres, setSelectedGenres] = useState([]);
@@ -113,115 +185,6 @@ function AdvancedSearch() {
     setSortBy(value);
   };
 
-  const renderPagination = () => {
-    const pages = [];
-    const maxVisiblePages = 5;
-    
-    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-    
-    if (endPage - startPage + 1 < maxVisiblePages) {
-      startPage = Math.max(1, endPage - maxVisiblePages + 1);
-    }
-
-    // Thêm nút về trang đầu
-    if (currentPage > 1) {
-      pages.push(
-        <button 
-          key="first"
-          onClick={() => handlePageChange(1)}
-          className="pagination__button"
-        >
-          <i className="fas fa-angle-double-left"></i>
-        </button>
-      );
-    }
-
-    // Nút Previous
-    if (currentPage > 1) {
-      pages.push(
-        <button 
-          key="prev"
-          onClick={() => handlePageChange(currentPage - 1)}
-          className="pagination__button"
-        >
-          <i className="fas fa-chevron-left"></i>
-        </button>
-      );
-    }
-
-    // Các trang số
-    if (startPage > 1) {
-      pages.push(
-        <button
-          key={1}
-          onClick={() => handlePageChange(1)}
-          className="pagination__button"
-        >
-          1
-        </button>
-      );
-      if (startPage > 2) {
-        pages.push(<span key="dots1" className="pagination__dots">...</span>);
-      }
-    }
-
-    for (let i = startPage; i <= endPage; i++) {
-      pages.push(
-        <button
-          key={i}
-          onClick={() => handlePageChange(i)}
-          className={`pagination__button ${currentPage === i ? 'active' : ''}`}
-        >
-          {i}
-        </button>
-      );
-    }
-
-    if (endPage < totalPages) {
-      if (endPage < totalPages - 1) {
-        pages.push(<span key="dots2" className="pagination__dots">...</span>);
-      }
-      pages.push(
-        <button
-          key={totalPages}
-          onClick={() => handlePageChange(totalPages)}
-          className="pagination__button"
-        >
-          {totalPages}
-        </button>
-      );
-    }
-
-    // Nút Next
-    if (currentPage < totalPages) {
-      pages.push(
-        <button 
-          key="next"
-          onClick={() => handlePageChange(currentPage + 1)}
-          className="pagination__button"
-        >
-          <i className="fas fa-chevron-right"></i>
-        </button>
-      );
-    }
-
-    // Thêm nút về trang cuối
-    if (currentPage < totalPages) {
-      pages.push(
-        <button 
-          key="last"
-          onClick={() => handlePageChange(totalPages)}
-          className="pagination__button"
-        >
-          <i className="fas fa-angle-double-right"></i>
-        </button>
-      );
-    }
-
-    return pages;
-  };
-
   return (
     <div className="advanced-search-page">
       <TopNav />
@@ -282,22 +245,40 @@ function AdvancedSearch() {
           </form>
 
           <div className="search-results">
-            {currentNovels.map(novel => (
-              <div key={novel.ID} className="novel-card">
-                <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
-                <h3>{novel["Tựa đề"]}</h3>
-                <p>{novel["Tác giả"]}</p>
+            {totalPages > 1 && (
+              <div className="pagination-container top-pagination">
+                <Pagination 
+                  currentPage={currentPage} 
+                  totalPages={totalPages} 
+                  onPageChange={handlePageChange} 
+                />
               </div>
-            ))}
-          </div>
-
-          {totalPages > 1 && (
-            <div className="pagination">
-              {renderPagination()}
+            )}
+            
+            <div className="novels-grid">
+              {currentNovels.map(novel => (
+                <div key={novel.ID} className="novel-card">
+                  <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
+                  <h3>{novel["Tựa đề"]}</h3>
+                  <p>{novel["Tác giả"]}</p>
+                </div>
+              ))}
             </div>
-          )}
+            
+            {totalPages > 1 && (
+              <div className="pagination-container bottom-pagination">
+                <Pagination 
+                  currentPage={currentPage} 
+                  totalPages={totalPages} 
+                  onPageChange={handlePageChange} 
+                />
+              </div>
+            )}
+          </div>
         </div>
-        <Aside />
+        <div className="aside-container">
+          <Aside />
+        </div>
       </div>
     </div>
   );
