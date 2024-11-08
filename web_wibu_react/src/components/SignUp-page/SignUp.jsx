@@ -125,15 +125,15 @@ const Signup = () => {
   };
 
   return (
-    <div className="container" style={{ backgroundImage: `url(${bgImage})`,
+    <div className="signup-container" style={{ backgroundImage: `url(${bgImage})`,
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center',
                                       backgroundRepeat: 'no-repeat'}}>
-      <div className="form-box">
+      <div className="signup-form-box">
         <h1 id="title">Đăng ký</h1>
         <form onSubmit={handleSubmit}>
-          <div className="input-group">
-            <div className="input-field">
+          <div className="signup-input-group">
+            <div className="signup-input-field">
               <i className="fa-solid fa-user"></i>
               <input
                 type="text"
@@ -149,7 +149,7 @@ const Signup = () => {
                 </div>
               )}
             </div>
-            <div className="input-field">
+            <div className="signup-input-field">
               <i className="fa-solid fa-envelope"></i>
               <input
                 type="email"
@@ -165,7 +165,7 @@ const Signup = () => {
                 </div>
               )}
             </div>
-            <div className="input-field">
+            <div className="signup-input-field">
               <i className="fa-solid fa-lock"></i>
               <input
                 type="password"
@@ -181,7 +181,7 @@ const Signup = () => {
                 </div>
               )}
             </div>
-            <div className="input-field">
+            <div className="signup-input-field">
               <i className="fa-solid fa-check"></i>
               <input
                 type="password"
@@ -207,10 +207,10 @@ const Signup = () => {
               {errors.submit}
             </div>
           )}
-          <div className="btn-field">
+          <div className="signup-btn-field">
             <button type="submit">Đăng ký</button>
           </div>
-          <div className="signin-link">
+          <div className="signup-signin-link">
             <p>Đã có tài khoản? <Link to="/signin">Đăng nhập</Link></p>
           </div>
         </form>

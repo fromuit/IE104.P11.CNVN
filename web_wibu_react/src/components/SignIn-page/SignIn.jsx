@@ -90,15 +90,15 @@ const Signin = () => {
 
   // Render giao diện đăng nhập
   return (
-    <div className="container" style={{ backgroundImage: `url(${bgImage})`,
+    <div className="signin-container" style={{ backgroundImage: `url(${bgImage})`,
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center',
                                       backgroundRepeat: 'no-repeat'}}>
-      <div className="form-box">
-        <h1 id="title">Sign In</h1>
+      <div className="signin-form-box">
+        <h1 id="title">Đăng nhập</h1>
         <form onSubmit={handleSubmit}>
-          <div className="input-group">
-            <div className="input-field">
+          <div className="signin-input-group">
+            <div className="signin-input-field">
               <i className="fa-solid fa-envelope"></i>
               <input
                 type="email"
@@ -109,7 +109,7 @@ const Signin = () => {
               />
               {errors.email && <span className="error">{errors.email}</span>}
             </div>
-            <div className="input-field">
+            <div className="signin-input-field">
               <i className="fa-solid fa-lock"></i>
               <input
                 type="password"
@@ -134,10 +134,10 @@ const Signin = () => {
               {errors.submit}
             </div>
           )}
-          <div className="btn-field">
+          <div className="signin-btn-field">
             <button type="submit">Đăng nhập</button>
           </div>
-          <div className="signup-link">
+          <div className="signin-signup-link">
             <p>Chưa có tài khoản? <Link to="/signup">Đăng ký</Link></p>
           </div>
         </form>
