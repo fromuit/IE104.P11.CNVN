@@ -123,6 +123,10 @@
   }
 }
 
+.genres-container {
+  position: relative;
+}
+
 .genres-dropdown {
   display: none;
   position: absolute;
@@ -142,7 +146,12 @@
   padding: 20px;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.2s ease, visibility 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.genres-dropdown.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .genres-list {
@@ -191,16 +200,17 @@
   position: fixed;
   background-color: #333;
   color: #fff;
-  padding: 8px 12px;
-  border-radius: 4px;
-  font-size: 16px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  font-size: 14px;
   z-index: 1001;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(10px);
   white-space: nowrap;
   pointer-events: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   line-height: 1.4;
   font-weight: 400;
+  margin: 4px;
 }
 
 /* Thêm animation cho tooltip */

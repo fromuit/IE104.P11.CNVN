@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './BottomNav.css';
 import genresData from '../../../data_and_source/truyen_data/genres.json';
@@ -12,7 +12,11 @@ function BottomNav() {
   const [showGenres, setShowGenres] = React.useState(false);
   const genresRef = useRef(null);
   const [isHovered, setIsHovered] = React.useState(false);
+  const [timeoutId, setTimeoutId] = useState(null); // Thêm state này để track timeout
   const [dropdownPosition, setDropdownPosition] = React.useState('down');
+  const [tooltipContent, setTooltipContent] = useState('');
+  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
+  
   const organizeGenresInColumns = (genres, numColumns = 3) => {
     const itemsPerColumn = Math.ceil(genres.length / numColumns);
     const columns = [];
@@ -23,8 +27,25 @@ function BottomNav() {
     
     return columns;
   };
-  const [tooltipContent, setTooltipContent] = useState('');
-  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
+
+  const handleGenresMouseEnter = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+      setTimeoutId(null);
+    }
+    setIsHovered(true);
+    setShowGenres(true);
+  };
+
+  const handleGenresMouseLeave = () => {
+    const newTimeoutId = setTimeout(() => {
+      setIsHovered(false);
+      setShowGenres(false);
+    }, 300);
+    
+    setTimeoutId(newTimeoutId);
+  };
+  
 
   useEffect(() => {
     function updateDropdownPosition() {
@@ -142,28 +163,27 @@ function BottomNav() {
         >
           <div className="bottom-nav__container">
             <ul className="bottom-nav__list">
-              <li 
-                className="bottom-nav__item" 
-                key="genres"
-                ref={genresRef}
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
+            <li 
+                className="bottom-nav__item genres-container" 
+              key="genres"
+              ref={genresRef}
+              onMouseEnter={handleGenresMouseEnter}
+                onMouseLeave={handleGenresMouseLeave}
               >
                 <div 
                   className="bottom-nav__link"
-                  onClick={() => setShowGenres(!showGenres)}
                   style={{ cursor: 'pointer' }}
                 >
                   <i className="fas fa-tags"></i>
                   Thể loại
-                  <i className={`fas fa-chevron-${isHovered || showGenres ? 'up' : 'down'} ml-1`}></i>
+                  <i className={`fas fa-chevron-${isHovered ? 'up' : 'down'} ml-1`}></i>
                 </div>
-                
+  
                 <div  
                   className={`genres-dropdown ${showGenres ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
                 >
-                  <div className="genres-list">
-                    {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
+                    <div className="genres-list">
+                      {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
                       <ul key={`column-${colIndex}`} className="genres-column">
                         {column.map((genre) => (
                           <li key={`genre-${genre.id}-${colIndex}`}
