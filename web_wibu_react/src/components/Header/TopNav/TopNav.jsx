@@ -76,17 +76,14 @@ function TopNav() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <div className={`search-button-container ${isSearchActive ? 'active' : ''}`}>
-              <div className="search-divider"></div>
-              <button 
-                type="submit"
-                className={`search-button ${isSearchActive ? 'active' : ''}`}
-                onClick={handleSearchClick}
-                title="Tìm kiếm"
-              >
-                <i className="fas fa-search"></i>
-              </button>
-            </div>
+            <button 
+              type="submit"
+              className="search-button"
+              onClick={handleSearchClick}
+              title="Tìm kiếm"
+            >
+              <i className="fas fa-search"></i>
+            </button>
           </form>
 
           <div className="top-nav__actions">
