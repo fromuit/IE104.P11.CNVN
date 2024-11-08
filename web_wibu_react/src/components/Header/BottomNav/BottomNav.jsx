@@ -149,6 +149,8 @@ function BottomNav() {
                 </div>
                 <div  
                   className={`genres-dropdown ${showGenres ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
+                  onMouseEnter={() => setShowGenres(true)}
+                  onMouseLeave={() => setShowGenres(false)}
                 >
                   <ul className="genres-list">
                     {genresData.genres.map((genre, index) => (
