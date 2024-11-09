@@ -127,7 +127,7 @@ const Signin = () => {
               />
               {errors.password && <span className="error">{errors.password}</span>}
             </div>
-            <div className="forgot-password">
+            <div className="signin-forgot-password">
               <a href="/forgot-password">Quên mật khẩu?</a>
             </div>
           </div>
