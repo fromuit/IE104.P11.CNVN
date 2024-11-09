@@ -231,7 +231,7 @@ function BottomNav() {
               </NavLink>
             </li>
             <li className="bottom-nav__item" key="account">
-              <NavLink to="/tai-khoan" className="bottom-nav__link">
+              <NavLink to="/thanh-vien/:id" className="bottom-nav__link">
                 <i className="fas fa-user"></i>
                 Tài khoản
               </NavLink>
