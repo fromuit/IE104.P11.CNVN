@@ -50,4 +50,19 @@ export const getAllGenres = () => {
     });
   });
   return Array.from(genresSet).sort();
+};
+
+export const searchNovelsRealtime = (query) => {
+  const searchQuery = query.toLowerCase();
+  if (!searchQuery) return [];
+  
+  return novelData.filter(novel => {
+    const titleMatch = novel["Tựa đề"].toLowerCase().includes(searchQuery);
+    const fnameMatch = novel["Fname"] && 
+                      novel["Fname"] !== "NOT FOUND" && 
+                      novel["Fname"].toLowerCase().includes(searchQuery);
+    const authorMatch = novel["Tác giả"].toLowerCase().includes(searchQuery);
+    
+    return titleMatch || fnameMatch || authorMatch;
+  });
 }; 

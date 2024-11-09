@@ -1,6 +1,7 @@
 import  { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import './TopNav.css';
+import { searchNovelsRealtime } from '../../../utils/searchUtils';
 
 function TopNav() {
   const navigate = useNavigate();
@@ -10,6 +11,9 @@ function TopNav() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userData, setUserData] = useState(null);
+  const [searchResults, setSearchResults] = useState([]);
+  const [showResults, setShowResults] = useState(false);
+  const [visibleResults, setVisibleResults] = useState(3);
 
   const isHomePage = location.pathname === '/';
 
@@ -17,15 +21,18 @@ function TopNav() {
     setIsDarkMode(!isDarkMode);
   };
 
-  const handleSearch = (e) => {
-    e.preventDefault();
+  const handleSearchChange = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
     
-    if (!searchQuery.trim()) {
-      navigate('/tim-kiem-nang-cao');
-      return;
+    if (query.trim()) {
+      const results = searchNovelsRealtime(query);
+      setSearchResults(results);
+      setShowResults(true);
+    } else {
+      setSearchResults([]);
+      setShowResults(false);
     }
-    
-    navigate(`/tim-kiem-nang-cao?q=${encodeURIComponent(searchQuery)}`);
   };
 
   const handleSearchClick = () => {
@@ -33,7 +40,7 @@ function TopNav() {
     if (!searchQuery.trim()) {
       navigate('/tim-kiem-nang-cao');
     } else {
-      handleSearch({ preventDefault: () => {} });
+      handleSearchChange({ preventDefault: () => {} });
     }
   };
 
@@ -53,6 +60,24 @@ function TopNav() {
     }
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!event.target.closest('.top-nav__search')) {
+        setShowResults(false);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
+  const handleScroll = (e) => {
+    const bottom = e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
+    if (bottom) {
+      setVisibleResults(prev => prev + 3);
+    }
+  };
+
   return (
     <div className="top-nav-wrapper">
       <nav className={`top-nav ${isHomePage ? '' : 'top-nav--compact'}`}>
@@ -61,13 +86,39 @@ function TopNav() {
             <img src="/images/logo.png" alt="Logo" />
           </a>
 
-          <form onSubmit={handleSearch} className="top-nav__search">
+          <form onSubmit={handleSearchChange} className="top-nav__search">
             <input 
               type="text" 
               placeholder="Tìm kiếm Light Novel..." 
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={handleSearchChange}
+              onFocus={() => setShowResults(true)}
             />
+            {showResults && searchResults.length > 0 && (
+              <div className="search-results-dropdown">
+                {searchResults.map(novel => (
+                  <Link 
+                    key={novel.ID}
+                    to={novel["Link truyện"]} 
+                    className="search-result-item"
+                    onClick={() => setShowResults(false)}
+                  >
+                    <img 
+                      src={novel["Link ảnh"]} 
+                      alt={novel["Tựa đề"]}
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = '/images/default-cover.jpg';
+                      }}
+                    />
+                    <div className="search-result-info">
+                      <div className="search-result-title">{novel["Tựa đề"]}</div>
+                      <div className="search-result-author">{novel["Tác giả"]}</div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
             <div className="search-divider"></div>
             <button 
               type="submit"

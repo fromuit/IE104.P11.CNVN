@@ -177,7 +177,7 @@ function Aside() {
               <div className="aside__manga-list">
                 {isLoggedIn && recentlyReadData.length > 0 ? (
                   recentlyReadData.map(manga => (
-                    <Link key={manga.id} to={`/truyen/${manga.id}`} className="aside__manga-item">
+                    <Link key={manga.id} to={`/info/${manga.id}`} className="aside__manga-item">
                       <img src={manga.thumbnail} alt={manga.title} />
                       <div className="aside__manga-info">
                         <h5>{manga.title}</h5>
@@ -205,7 +205,7 @@ function Aside() {
               <div className="aside__manga-list">
                 {isLoggedIn && bookmarksData.length > 0 ? (
                   bookmarksData.map(manga => (
-                    <Link key={manga.id} to={`/truyen/${manga.id}`} className="aside__manga-item">
+                    <Link key={manga.id} to={`/info/${manga.id}`} className="aside__manga-item">
                       <img src={manga.thumbnail} alt={manga.title} />
                       <div className="aside__manga-info">
                         <h5>{manga.title}</h5>

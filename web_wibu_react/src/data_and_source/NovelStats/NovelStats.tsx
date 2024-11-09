@@ -2,39 +2,32 @@ import React, { FC } from "react";
 import './NovelStats.css';
 
 interface NovelStatsProps {
-  views: number;
-  likes: number;
-  chapters?: number; 
-  wordCount?: number;
-  lastUpdated?: {
-    day: number;
-    month: number;
-    year: number;
+  novel: {
+    "Số lượt xem": number;
+    "Số like": number;
+    "Số chương"?: number;
+    "Số từ"?: number;
+    "Ngày cập nhật cuối"?: number;
+    "Tháng cập nhật cuối"?: number;
+    "Năm cập nhật cuối"?: number;
   };
-  startDate?: {
-    month: number;
-    year: number;
-  };
-  variant: "recent" | "new" | "completed" | "original" | "top";
-  showLikes?: boolean; 
+  variant?: "recent" | "new" | "completed" | "original" | "top";
+  showLikes?: boolean;
   showFullNumbers?: boolean;
 }
 
 const NovelStats: FC<NovelStatsProps> = ({
-  views,
-  likes,
-  chapters,
-  wordCount,
-  lastUpdated,
-  startDate,
-  variant,
-  showLikes = true, // Giá trị mặc định là true
-  showFullNumbers = false // Giá trị mặc định là false
+  novel,
+  variant = "original",
+  showLikes = true,
+  showFullNumbers = false
 }) => {
   // Helper function to format numbers
-  const formatNumber = (num: number): string => {
+  const formatNumber = (num: number | undefined): string => {
+    if (num === undefined || num === null) return '0';
+    
     if (showFullNumbers || variant === "top") {
-      return num.toLocaleString("vi-VN"); // Format số đầy đủ với dấu phẩy
+      return num.toLocaleString("vi-VN");
     }
     
     if (num >= 1000000) {
@@ -47,9 +40,17 @@ const NovelStats: FC<NovelStatsProps> = ({
   };
 
   // Helper function to calculate days ago
-  const getDaysAgo = (date: { day: number; month: number; year: number }): string => {
+  const getDaysAgo = (): string => {
+    if (!novel["Ngày cập nhật cuối"] || !novel["Tháng cập nhật cuối"] || !novel["Năm cập nhật cuối"]) {
+      return 'Không xác định';
+    }
+    
     const today = new Date();
-    const updateDate = new Date(date.year, date.month - 1, date.day);
+    const updateDate = new Date(
+      novel["Năm cập nhật cuối"],
+      novel["Tháng cập nhật cuối"] - 1,
+      novel["Ngày cập nhật cuối"]
+    );
     const diffTime = Math.abs(today.getTime() - updateDate.getTime());
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     return `Cập nhật ${diffDays} ngày trước`;
@@ -57,25 +58,19 @@ const NovelStats: FC<NovelStatsProps> = ({
 
   return (
     <div className="novel-stats" data-variant={variant}>
-      <span className="views">👁 {formatNumber(views)}</span>
-      {showLikes && <span className="likes">❤ {formatNumber(likes)}</span>} {/* Thêm điều kiện này */}
+      <span className="views">👁 {formatNumber(novel["Số lượt xem"])}</span>
+      {showLikes && <span className="likes">❤ {formatNumber(novel["Số like"])}</span>}
       
-      {variant === "recent" && lastUpdated && (
+      {variant === "recent" && (
         <span className="update-time">
-          {getDaysAgo(lastUpdated)}
-        </span>
-      )}
-
-      {variant === "new" && startDate && (
-        <span className="start-date">
-          {`Tháng ${startDate.month}/${startDate.year}`}
+          {getDaysAgo()}
         </span>
       )}
 
       {variant === "completed" && (
         <>
-          <span className="chapters">📚 {chapters} chương</span>
-          <span className="word-count">📝 {formatNumber(wordCount || 0)} từ</span>
+          <span className="chapters">📚 {formatNumber(novel["Số chương"])} chương</span>
+          <span className="word-count">📝 {formatNumber(novel["Số từ"])} từ</span>
         </>
       )}
     </div>

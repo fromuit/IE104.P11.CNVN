@@ -12,16 +12,12 @@ const AppRoutes = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/truyen/:slug",
+    path: "/info/:id",
     element: <InfoPage />,
   },
   {
     path: "/thanh-vien/:id",
     element: <AccountPage />,
-  },
-  {
-    path: "/the-loai/:slug",
-    element: <div>Nothing here</div>,
   },
   {
     path: "/signup",
@@ -32,19 +28,13 @@ const AppRoutes = createBrowserRouter([
     element: <SignIn />,
   },
   {
-    path: "/info/:id",
-    element: <InfoPage />,
-  },
-  {
     path: "/tim-kiem-nang-cao",
     element: <AdvancedSearch />,
   },
-
   {
     path: "*",
-    element: <div>Not Found xdxd</div>,
+    element: <div>Not Found</div>,
   }
-  
 ]);
 
 export default AppRoutes;
