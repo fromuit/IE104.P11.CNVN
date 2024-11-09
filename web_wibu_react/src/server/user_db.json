@@ -34,6 +34,13 @@
       "password": "5ufUi3DHhyuKw3R",
       "fullName": "Nguyen Hoang Duy",
       "createdAt": "2024-11-06T00:47:47.776Z"
+    },
+    {
+      "id": "1731123008340",
+      "email": "Test123@gmail.com",
+      "password": "123456",
+      "fullName": "Test123",
+      "createdAt": "2024-11-09T03:30:08.340Z"
     }
   ]
 }

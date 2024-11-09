@@ -24,6 +24,16 @@ const Signup = () => {
     submit: '' // Thêm trường này để lưu lỗi submit
   });
 
+  // Thêm state để quản lý việc hiển thị mật khẩu
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+
+  // Thêm state để theo dõi tính hợp lệ của form
+  const [isValid, setIsValid] = useState(true);
+
+  // Thêm state để theo dõi việc form đã được submit chưa
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
   // Hàm xử lý khi người dùng nhập liệu vào các trường input
   // e: event object chứa thông tin về sự kiện nhập liệu
   const handleChange = (e) => {
@@ -32,6 +42,11 @@ const Signup = () => {
       ...prevState,     // Giữ nguyên các giá trị cũ
       [name]: value     // Cập nhật giá trị mới cho trường đang được nhập
     }));
+    
+    // Chỉ validate form sau khi đã submit lần đầu
+    if (isSubmitted) {
+      setTimeout(() => validateForm(), 100);
+    }
   };
 
   // Hàm kiểm tra tính hợp lệ của form trước khi submit
@@ -52,11 +67,11 @@ const Signup = () => {
         isValid = false;
     }
 
-    if (!formData.password) {
-        tempErrors.password = 'Mật khẩu không được để trống';
+    if (!formData.password || formData.password.trim() === "") {
+        tempErrors.password = "Mật khẩu không được để trống";
         isValid = false;
     } else if (formData.password.length < 6) {
-        tempErrors.password = 'Mật khẩu phải có ít nhất 6 ký tự';
+        tempErrors.password = "Mật khẩu phải có ít nhất 6 ký tự";
         isValid = false;
     }
 
@@ -65,22 +80,15 @@ const Signup = () => {
         isValid = false;
     }
 
-    setErrors(prev => ({...prev, ...tempErrors}));
+    setErrors(tempErrors);
+    setIsValid(isValid); // Cập nhật state isValid
     return isValid;
   };
 
   // Hàm xử lý khi form được submit
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // Reset error messages
-    setErrors({
-        email: '',
-        password: '',
-        confirmPassword: '',
-        fullName: '',
-        submit: ''
-    });
+    setIsSubmitted(true); // Đánh dấu form đã được submit
 
     if (validateForm()) {
         try {
@@ -121,6 +129,19 @@ const Signup = () => {
                 submit: error.message
             }));
         }
+    }
+  };
+
+  // Cập nhật hàm xử lý hiện/ẩn mật khẩu xác nhận
+  const handleConfirmPasswordToggle = () => {
+    setShowConfirmPassword(!showConfirmPassword);
+    // Nếu đang hiện confirm password, cũng hiện password
+    if (!showConfirmPassword) {
+      setShowPassword(true);
+    }
+    // Nếu đang ẩn confirm password, cũng ẩn password
+    else {
+      setShowPassword(false);
     }
   };
 
@@ -176,12 +197,32 @@ const Signup = () => {
             <div className="signup-input-field">
               <i className="fas fa-lock"></i>
               <input
-                type="password"
+                type={showPassword ? "text" : "password"}
                 name="password"
                 placeholder="Mật khẩu"
                 value={formData.password}
                 onChange={handleChange}
               />
+              {isValid && ( // Chỉ hiển thị nút toggle khi form hợp lệ
+                <button
+                  type="button"
+                  className="password-toggle"
+                  onClick={() => setShowPassword(!showPassword)}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                    position: "absolute",
+                    right: "10px",
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                    opacity: isValid ? "1" : "0.5",
+                    pointerEvents: isValid ? "auto" : "none"
+                  }}
+                >
+                  <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"}`}></i>
+                </button>
+              )}
               {errors.password && (
                 <div className="error-message">
                   <i className="fas fa-exclamation-circle"></i>
@@ -192,12 +233,32 @@ const Signup = () => {
             <div className="signup-input-field">
               <i className="fas fa-check"></i>
               <input
-                type="password"
+                type={showConfirmPassword ? "text" : "password"}
                 name="confirmPassword"
                 placeholder="Xác nhận mật khẩu"
                 value={formData.confirmPassword}
                 onChange={handleChange}
               />
+              {isValid && ( // Ch hiển thị nút toggle khi form hợp lệ
+                <button
+                  type="button"
+                  className="password-toggle"
+                  onClick={handleConfirmPasswordToggle}
+                  style={{
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                    position: "absolute",
+                    right: "10px",
+                    top: "50%",
+                    transform: "translateY(-50%)",
+                    opacity: isValid ? "1" : "0.5",
+                    pointerEvents: isValid ? "auto" : "none"
+                  }}
+                >
+                  <i className={`fas ${showConfirmPassword ? "fa-eye-slash" : "fa-eye"}`}></i>
+                </button>
+              )}
               {errors.confirmPassword && (
                 <div className="error-message">
                   <i className="fas fa-exclamation-circle"></i>

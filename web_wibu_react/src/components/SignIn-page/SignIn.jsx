@@ -18,6 +18,9 @@ const Signin = () => {
     submit: ''
   });
 
+  // Thêm state để quản lý việc hiển thị mật khẩu
+  const [showPassword, setShowPassword] = useState(false);
+
   // Xử lý sự kiện khi người dùng nhập liệu
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -118,13 +121,31 @@ const Signin = () => {
             </div>
             <div className="signin-input-field">
               <i className="fas fa-lock"></i>
-              <input
-                type="password"
-                name="password"
-                placeholder="Password"
-                value={formData.password}
-                onChange={handleChange}
-              />
+              <div style={{ 
+                position: "relative", 
+                flex: 1,
+                display: "flex",
+                alignItems: "center" 
+              }}>
+                <input
+                  type={showPassword ? "text" : "password"}
+                  name="password"
+                  placeholder="Password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  style={{ width: "100%" }}
+                />
+                <i 
+                  className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"}`}
+                  onClick={() => setShowPassword(!showPassword)}
+                  style={{
+                    position: "absolute",
+                    right: "0px",
+                    cursor: "pointer",
+                    color: "#999"
+                  }}
+                />
+              </div>
               {errors.password && <span className="error">{errors.password}</span>}
             </div>
             <div className="signin-forgot-password">
