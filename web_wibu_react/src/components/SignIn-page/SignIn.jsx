@@ -94,6 +94,13 @@ const Signin = () => {
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center',
                                       backgroundRepeat: 'no-repeat'}}>
+       <button 
+        className="home-nav-btn"
+        onClick={() => navigate("/")}
+      >
+        <i className="fas fa-home"></i>
+      </button>
+
       <div className="signin-form-box">
         <h1 id="title">Đăng nhập</h1>
         <form onSubmit={handleSubmit}>

@@ -129,6 +129,14 @@ const Signup = () => {
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center',
                                       backgroundRepeat: 'no-repeat'}}>
+      {/* Add Home button */}
+      <button 
+        className="home-nav-btn"
+        onClick={() => navigate("/")}
+      >
+        <i className="fas fa-home"></i>
+      </button>
+
       <div className="signup-form-box">
         <h1 id="title">Đăng ký</h1>
         <form onSubmit={handleSubmit}>
