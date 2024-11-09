@@ -19,16 +19,24 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       startPage = Math.max(1, endPage - maxVisiblePages + 1);
     }
 
-    if (currentPage > 1) {
-      pages.push(
-        <button key="first" onClick={() => onPageChange(1)} className="pagination__button">
-          <i className="fas fa-angle-double-left"></i>
-        </button>,
-        <button key="prev" onClick={() => onPageChange(currentPage - 1)} className="pagination__button">
-          <i className="fas fa-chevron-left"></i>
-        </button>
-      );
-    }
+    pages.push(
+      <button 
+        key="first" 
+        onClick={() => onPageChange(1)} 
+        className="pagination__button"
+        disabled={currentPage === 1}
+      >
+        <i className="fas fa-angle-double-left"></i>
+      </button>,
+      <button 
+        key="prev" 
+        onClick={() => onPageChange(currentPage - 1)} 
+        className="pagination__button"
+        disabled={currentPage === 1}
+      >
+        <i className="fas fa-chevron-left"></i>
+      </button>
+    );
 
     if (startPage > 1) {
       pages.push(
@@ -62,22 +70,31 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       );
     }
 
-    if (currentPage < totalPages) {
-      pages.push(
-        <button key="next" onClick={() => onPageChange(currentPage + 1)} className="pagination__button">
-          <i className="fas fa-chevron-right"></i>
-        </button>,
-        <button key="last" onClick={() => onPageChange(totalPages)} className="pagination__button">
-          <i className="fas fa-angle-double-right"></i>
-        </button>
-      );
-    }
+    pages.push(
+      <button 
+        key="next" 
+        onClick={() => onPageChange(currentPage + 1)} 
+        className="pagination__button"
+        disabled={currentPage === totalPages}
+      >
+        <i className="fas fa-chevron-right"></i>
+      </button>,
+      <button 
+        key="last" 
+        onClick={() => onPageChange(totalPages)} 
+        className="pagination__button"
+        disabled={currentPage === totalPages}
+      >
+        <i className="fas fa-angle-double-right"></i>
+      </button>
+    );
 
     return pages;
   };
 
   return <div className="pagination">{renderPaginationButtons()}</div>;
 };
+
 
 function AdvancedSearch() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -87,6 +104,7 @@ function AdvancedSearch() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 9;
   const genres = getAllGenres();
+  const [isGenresExpanded, setIsGenresExpanded] = useState(true);
 
   const sortOptions = [
     { value: 'view', label: 'Lượt xem' },
@@ -142,11 +160,25 @@ function AdvancedSearch() {
 
   const totalPages = Math.ceil(filterNovels().length / itemsPerPage);
 
+  // Thêm effect để reset khi component mount (trang được load)
   useEffect(() => {
-    const page = parseInt(searchParams.get('page')) || 1;
-    const genres = searchParams.get('genres')?.split(',') || [];
-    const query = searchParams.get('q') || '';
-    const sort = searchParams.get('sort') || 'view';
+    // Reset tất cả state về giá trị mặc định
+    setCurrentPage(1);
+    setSelectedGenres([]);
+    setSearchQuery("");
+    setSortBy("view");
+    setIsGenresExpanded(true);
+    
+    // Xóa tất cả params trong URL
+    setSearchParams({});
+  }, []); // Empty dependency array means this runs once when component mounts
+
+  // Giữ lại effect cũ để handle URL params changes
+  useEffect(() => {
+    const page = parseInt(searchParams.get("page")) || 1;
+    const genres = searchParams.get("genres")?.split(",").filter(Boolean) || [];
+    const query = searchParams.get("q") || "";
+    const sort = searchParams.get("sort") || "view";
     
     setCurrentPage(page);
     setSelectedGenres(genres);
@@ -156,7 +188,6 @@ function AdvancedSearch() {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
-    window.scrollTo(0, 0);
     
     const params = new URLSearchParams(searchParams);
     params.set('page', pageNumber);
@@ -165,25 +196,69 @@ function AdvancedSearch() {
 
   const handleGenreToggle = (genre) => {
     setSelectedGenres(prev => {
-      if (prev.includes(genre)) {
-        return prev.filter(g => g !== genre);
+      const newGenres = prev.includes(genre) 
+        ? prev.filter(g => g !== genre)
+        : [...prev, genre];
+      
+      const params = new URLSearchParams(searchParams);
+      if (newGenres.length) {
+        params.set('genres', newGenres.join(','));
+      } else {
+        params.delete('genres');
       }
-      return [...prev, genre];
+      params.delete('page');
+      setSearchParams(params);
+      setCurrentPage(1);
+      
+      return newGenres;
     });
   };
 
-  const handleSearch = (e) => {
+  const handleSearchInputChange = (e) => {
+    const newValue = e.target.value;
+    setSearchQuery(newValue);
+    setIsGenresExpanded(!newValue);
+
+    const params = new URLSearchParams(searchParams);
+    if (newValue) {
+      params.set('q', newValue);
+    } else {
+      params.delete('q');
+    }
+    setSearchParams(params);
+  };
+
+  const handleSortChange = (value) => {
+    setSortBy(value);
+    setCurrentPage(1);
+    
+    const params = new URLSearchParams(searchParams);
+    params.set('sort', value);
+    params.delete('page');
+    setSearchParams(params);
+  };
+
+  // Comment lại hàm xử lý tìm kiếm để có thể sử dụng sau này nếu cần
+  /* const handleSearch = (e) => {
     e.preventDefault();
     const params = new URLSearchParams();
     if (searchQuery) params.set('q', searchQuery);
     if (selectedGenres.length) params.set('genres', selectedGenres.join(','));
     params.set('sort', sortBy);
     setSearchParams(params);
-  };
+    setIsGenresExpanded(false);
+  }; */
 
-  const handleSortChange = (value) => {
-    setSortBy(value);
-  };
+  // Thêm useEffect để xử lý scroll position khi URL thay đổi
+  useEffect(() => {
+    // Lưu scroll position hiện tại
+    const scrollPosition = window.scrollY;
+    
+    // Sau khi component re-render, khôi phục scroll position
+    window.requestAnimationFrame(() => {
+      window.scrollTo(0, scrollPosition);
+    });
+  }, [currentPage]); // Chỉ chạy khi currentPage thay đổi
 
   return (
     <div className="advanced-search-page">
@@ -197,81 +272,108 @@ function AdvancedSearch() {
       
       <div className="main-content">
         <div className="search-container">
-          <form onSubmit={handleSearch}>
+          {/* Comment lại form và button tìm kiếm để có thể sử dụng sau này
+        <form onSubmit={handleSearch}>
+          <div className="search-input-container">
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={handleSearchInputChange}
               placeholder="Nhập tên truyện, tác giả..."
               className="search-input"
             />
-            
-            <div className="genres-section">
-              <h3>Thể loại</h3>
-              <div className="genres-grid">
-                {genres.map(genre => (
-                  <label key={genre} className="genre-checkbox">
-                    <input
-                      type="checkbox"
-                      checked={selectedGenres.includes(genre)}
-                      onChange={() => handleGenreToggle(genre)}
-                    />
-                    {genre}
-                  </label>
-                ))}
-              </div>
-            </div>
-
-            <div className="sort-section">
-              <h3>Sắp xếp theo</h3>
-              <div className="sort-grid">
-                {sortOptions.map(option => (
-                  <label key={option.value} className="sort-checkbox">
-                    <input
-                      type="radio"
-                      checked={sortBy === option.value}
-                      onChange={() => handleSortChange(option.value)}
-                      name="sort"
-                    />
-                    {option.label}
-                  </label>
-                ))}
-              </div>
-            </div>
-
             <button type="submit" className="search-button">
-              <i className="fas fa-search"></i> Tìm kiếm
+              <i className="fas fa-search"></i>
             </button>
+          </div>
           </form>
-
-          <div className="search-results">
-            {totalPages > 1 && (
-              <div className="pagination-container top-pagination">
-                <Pagination 
-                  currentPage={currentPage} 
-                  totalPages={totalPages} 
-                  onPageChange={handlePageChange} 
-                />
-              </div>
-            )}
-            
-            <div className="novels-grid">
-              {currentNovels.map(novel => (
-                <div key={novel.ID} className="novel-card">
-                  <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
-                  <h3>{novel["Tựa đề"]}</h3>
-                  <p>{novel["Tác giả"]}</p>
-                </div>
+          */}
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={handleSearchInputChange}
+            placeholder="Nhập tên truyện, tác giả..."
+            className="search-input"
+          />
+          
+          <div className="genres-section">
+            <div className="genres-header">
+              <h3>Thể loại</h3>
+              <button 
+                type="button"
+                className="toggle-genres-btn"
+                onClick={() => setIsGenresExpanded(!isGenresExpanded)}
+              >
+                {isGenresExpanded ? (
+                  <i className="fas fa-chevron-up"></i>
+                ) : (
+                  <i className="fas fa-chevron-down"></i>
+                )}
+              </button>
+            </div>
+            <div className={`genres-grid ${isGenresExpanded ? "expanded" : ""}`}>
+              {genres.map(genre => (
+                <label key={genre} className="genre-checkbox">
+                  <input
+                    type="checkbox"
+                    checked={selectedGenres.includes(genre)}
+                    onChange={() => handleGenreToggle(genre)}
+                  />
+                  {genre}
+                </label>
               ))}
             </div>
-            
-            {totalPages > 1 && (
-              <div className="pagination-container bottom-pagination">
-                <Pagination 
-                  currentPage={currentPage} 
-                  totalPages={totalPages} 
-                  onPageChange={handlePageChange} 
-                />
+          </div>
+
+          <div className="sort-section">
+            <h3>Sắp xếp theo</h3>
+            <div className="sort-grid">
+              {sortOptions.map(option => (
+                <label key={option.value} className="sort-checkbox">
+                  <input
+                    type="radio"
+                    checked={sortBy === option.value}
+                    onChange={() => handleSortChange(option.value)}
+                    name="sort"
+                  />
+                  {option.label}
+                </label>
+              ))}
+            </div>
+          </div>
+
+          <div className="search-results">
+            {currentNovels.length > 0 ? (
+              <>
+                <div className="novels-grid">
+                  {currentNovels.map(novel => (
+                    <div key={novel.ID} className="novel-card">
+                      <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
+                      <h3>{novel["Tựa đề"]}</h3>
+                      <p>{novel["Tác giả"]}</p>
+                    </div>
+                  ))}
+                </div>
+
+                {totalPages > 1 && (
+                  <div className="pagination-container bottom-pagination">
+                    <Pagination 
+                      currentPage={currentPage} 
+                      totalPages={totalPages} 
+                      onPageChange={handlePageChange} 
+                    />
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="no-results">
+                <i className="fas fa-search"></i>
+                <p className="main-text">Không tìm thấy truyện phù hợp</p>
+                {(searchQuery || selectedGenres.length > 0) && (  
+                  <p className="sub-text">
+                    Hãy thử tìm kiếm với từ khóa khác hoặc điều chỉnh lại bộ lọc thể loại
+                  </p>
+                )}
               </div>
             )}
           </div>
