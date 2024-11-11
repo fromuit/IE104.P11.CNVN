@@ -1,0 +1,85 @@
+.aside-info {
+  position: sticky;
+  top: 180px; /* TopNav + BottomNav height */
+}
+
+/* Thông tin người dịch */
+.translator-info {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.translator-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.translator-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.translator-details h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.translator-role, .translator-type {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Thông tin thêm */
+.additional-info {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.info-value {
+  color: #666;
+}
+
+/* Có thể bạn quan tâm */
+.related-novels {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.related-novels h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .aside-info {
+    position: static;
+    margin-top: 1rem;
+  }
+}
