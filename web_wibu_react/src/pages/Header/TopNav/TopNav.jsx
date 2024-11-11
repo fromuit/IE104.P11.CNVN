@@ -2,6 +2,7 @@ import  { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import './TopNav.css';
 import { searchNovelsRealtime } from '../../../features/utils/searchUtils';
+import logo  from '../../../data_and_source/Images/Logo/logo.png';
 
 function TopNav() {
   const navigate = useNavigate();
@@ -83,7 +84,7 @@ function TopNav() {
       <nav className={`top-nav ${isHomePage ? '' : 'top-nav--compact'}`}>
         <div className="top-nav__container">
           <a href="/" className="top-nav__logo">
-            <img src="/images/logo.png" alt="Logo" />
+            <img src={logo} alt="Logo" />
           </a>
 
           <form onSubmit={handleSearchChange} className="top-nav__search">

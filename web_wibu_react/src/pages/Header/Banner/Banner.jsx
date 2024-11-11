@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './Banner.css';
 
 // Import từ file index
-import { banners, bannerArray } from "../../../data_and_source/Images/Banners";
+import {banners} from "../../../data_and_source/Images/Banners/index.js";
 
 function Banner() {
   const location = useLocation();
