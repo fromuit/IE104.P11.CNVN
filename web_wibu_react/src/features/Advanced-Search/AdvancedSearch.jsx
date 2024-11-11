@@ -115,9 +115,7 @@ function AdvancedSearch() {
   const sortOptions = [
     { value: 'view', label: 'Lượt xem' },
     { value: 'like', label: 'Lượt thích' },
-    { value: 'date', label: 'Ngày cập nhật' },
-    { value: 'asc', label: 'A-Z' },
-    { value: 'desc', label: 'Z-A' }
+    { value: 'date', label: 'Ngày cập nhật' }
   ];
 
   // Thêm state mới để quản lý danh sách novels đã được lọc
@@ -137,10 +135,6 @@ function AdvancedSearch() {
           const dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
           return dateB - dateA;
         }
-        case "asc":
-          return a["Tựa đề"].localeCompare(b["Tựa đề"], 'vi');
-        case "desc":
-          return b["Tựa đề"].localeCompare(a["Tựa đề"], 'vi');
         default:
           return 0;
       }

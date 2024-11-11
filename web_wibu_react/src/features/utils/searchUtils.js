@@ -3,7 +3,6 @@ import Novel_Data from '../../data_and_source/Novel_Data/hako_data.json';
 export const searchNovels = (query = '', selectedGenres = [], sortBy = 'view') => {
   const searchQuery = query.toLowerCase();
   
-  // Lọc theo query và thể loại
   const filteredNovels = Novel_Data.filter(novel => {
     const titleMatch = novel["Tựa đề"].toLowerCase().includes(searchQuery);
     const fnameMatch = novel["Fname"] && 
@@ -14,29 +13,14 @@ export const searchNovels = (query = '', selectedGenres = [], sortBy = 'view') =
     const genreMatch = selectedGenres.length === 0 || 
                       selectedGenres.every(selectedGenre => 
                         novel["Thể loại"].some(novelGenre => 
-                          novelGenre.toLowerCase() === selectedGenre.toLowerCase() && 
-                          novelGenre !== ""
+                          novelGenre.toLowerCase() === selectedGenre.toLowerCase()
                         )
                       );
 
     return (titleMatch || fnameMatch || authorMatch) && genreMatch;
   });
 
-  // Sắp xếp kết quả
-  return filteredNovels.sort((a, b) => {
-    switch (sortBy) {
-      case 'view':
-        return b["Số lượt xem"] - a["Số lượt xem"];
-      case 'like':
-        return b["Số like"] - a["Số like"];
-      case 'date':
-        const dateA = new Date(a["Năm cập nhật cuối"], a["Tháng cập nhật cuối"] - 1, a["Ngày cập nhật cuối"]);
-        const dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
-        return dateB - dateA;
-      default:
-        return 0;
-    }
-  });
+  return sortNovels(filteredNovels, sortBy);
 };
 
 // Lấy danh sách tất cả thể loại từ dữ liệu
