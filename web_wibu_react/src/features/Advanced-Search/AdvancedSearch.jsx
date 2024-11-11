@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import TopNav from '../../pages/Header/TopNav/TopNav';
 import Banner from '../../pages/Header/Banner/Banner';
-import { searchNovels, getAllGenres } from '../utils/searchUtils';
+import { getAllGenres } from '../utils/searchUtils';
+import novelData from '../../data_and_source/Novel_Data/hako_data.json';
+import Aside from '../../pages/Home-page/Main-of-Home/Aside-of-Home/Aside-of-Home';
 import './AdvancedSearch.css';
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {

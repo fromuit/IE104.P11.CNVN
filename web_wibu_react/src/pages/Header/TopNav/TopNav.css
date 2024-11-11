@@ -580,10 +580,12 @@
   color: inherit;
   transition: background-color 0.2s;
   align-items: center;
+  cursor: pointer;
 }
 
 .search-result-item:last-child {
   border-bottom: none;
+  background-color: #f5f5f5;
 }
 
 .search-result-item:hover {

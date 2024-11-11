@@ -78,18 +78,24 @@ function TopNav() {
     }
   };
 
+  const handleSearchResultClick = (novelId) => {
+    setShowResults(false);
+    setSearchQuery('');
+    navigate(`/info/${novelId}`);
+  };
+
   return (
     <div className="top-nav-wrapper">
       <nav className={`top-nav ${isHomePage ? '' : 'top-nav--compact'}`}>
         <div className="top-nav__container">
           <a href="/" className="top-nav__logo">
-            <img src="/images/logo.png" alt="Logo" />
+            <img src="/src/data_and_source/Images/logo.png" alt="Logo" />
           </a>
 
           <form onSubmit={handleSearchChange} className="top-nav__search">
             <input 
               type="text" 
-              placeholder="Tìm kiếm Light Novel..." 
+              placeholder="Tìm kiếm tựa Light Novel, tác giả, ..." 
               value={searchQuery}
               onChange={handleSearchChange}
               onFocus={() => setShowResults(true)}
@@ -97,11 +103,10 @@ function TopNav() {
             {showResults && searchResults.length > 0 && (
               <div className="search-results-dropdown">
                 {searchResults.map(novel => (
-                  <Link 
+                  <div
                     key={novel.ID}
-                    to={novel["Link truyện"]} 
                     className="search-result-item"
-                    onClick={() => setShowResults(false)}
+                    onClick={() => handleSearchResultClick(novel.ID)}
                   >
                     <img 
                       src={novel["Link ảnh"]} 
@@ -115,7 +120,7 @@ function TopNav() {
                       <div className="search-result-title">{novel["Tựa đề"]}</div>
                       <div className="search-result-author">{novel["Tác giả"]}</div>
                     </div>
-                  </Link>
+                  </div>
                 ))}
               </div>
             )}
@@ -151,7 +156,7 @@ function TopNav() {
               {isLoggedIn ? (
                 <>
                   <button className="top-nav__avatar" title="Tài khoản">
-                    <img src="/images/avatar.png" alt="Avatar" />
+                    <img src="/src/data_and_source/Images/avatar.png" alt="Avatar" />
                   </button>
 
                   <div className="account-dropdown">

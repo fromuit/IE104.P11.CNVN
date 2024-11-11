@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLocation } from 'react-router-dom';
 import TopNav from './TopNav/TopNav';
 import Banner from './Banner/Banner';

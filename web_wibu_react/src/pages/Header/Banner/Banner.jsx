@@ -13,33 +13,33 @@ function Banner() {
   const banners = [
     {
       id: 1,
-      image: '/images/banner1.png',
+      image: '/src/data_and_source/Images/banner1.png',
       link: '/info/1',
       title: 'Banner 1'
     },
     {
       id: 2,
-      image: '/images/banner2.png',
+      image: '/src/data_and_source/Images/banner2.png',
       link: '/info/2',
       title: 'Banner 2'
     },
     {
       id: 3,
-      image: '/images/banner3.png',
+      image: '/src/data_and_source/Images/banner3.png',
       link: '/info/3',
       title: 'Banner 3'
     },
     // Thêm banner khác ở đây
     {
       id: 4,
-      image: '/images/banner4.jpg',
+      image: '/src/data_and_source/Images/banner4.jpg',
       link: '/info/4',
       title: 'Banner 4'
     },
     {
       id: 5,
-      image: '/images/banner5.png',
-      link: '/info/5',
+      image: '/src/data_and_source/Images/banner5.png',
+      link: '/info/60',
       title: 'Banner 5'
     }
   ];
