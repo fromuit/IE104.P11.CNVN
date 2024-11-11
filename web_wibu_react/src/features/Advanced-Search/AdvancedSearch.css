@@ -455,3 +455,33 @@
 .novels-grid .novel-card-animate:nth-child(7) { animation-delay: 0.7s; }
 .novels-grid .novel-card-animate:nth-child(8) { animation-delay: 0.8s; }
 .novels-grid .novel-card-animate:nth-child(9) { animation-delay: 0.9s; }
+
+.genre-checkbox.clear-all {
+  grid-column: 1 / -1;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.clear-all-btn {
+  grid-column: 1 / -1;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  transition: all 0.2s ease;
+}
+
+.clear-all-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.clear-all-btn i {
+  font-size: 0.9em;
+}

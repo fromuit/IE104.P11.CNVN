@@ -333,15 +333,6 @@ function AdvancedSearch() {
             <div className="genres-header">
               <div className="genres-title">
                 <h3>Thể loại</h3>
-                {selectedGenres.length > 0 && (
-                  <button 
-                    type="button"
-                    className="clear-genres-btn"
-                    onClick={handleClearGenres}
-                  >
-                    Bỏ chọn tất cả
-                  </button>
-                )}
               </div>
               <button 
                 type="button"
@@ -356,6 +347,13 @@ function AdvancedSearch() {
               </button>
             </div>
             <div className={`genres-grid ${isGenresExpanded ? "expanded" : ""}`}>
+              <button 
+                type="button"
+                className="clear-all-btn"
+                onClick={handleClearGenres}
+              >
+                <i className="fas fa-times"></i> Bỏ chọn tất cả
+              </button>
               {genres.map(genre => (
                 <label key={genre} className="genre-checkbox">
                   <input
