@@ -279,6 +279,12 @@ function AdvancedSearch() {
     });
   }, [currentPage]); // Chỉ chạy khi currentPage thay đổi
 
+  const [previouslyRendered, setPreviouslyRendered] = useState(new Set());
+
+  useEffect(() => {
+    setPreviouslyRendered(new Set(currentNovels.map(novel => novel.ID)));
+  }, [currentNovels]);
+
   return (
     <div className="advanced-search-page">
       <TopNav />
@@ -369,7 +375,7 @@ function AdvancedSearch() {
                     <Link 
                       to={`/info/${novel.ID}`} 
                       key={novel.ID} 
-                      className="novel-card"
+                      className={`novel-card ${!previouslyRendered.includes(novel.ID) ? 'novel-card-animate' : ''}`}
                     >
                       <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
                       <h3>{novel["Tựa đề"]}</h3>

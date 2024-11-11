@@ -167,8 +167,6 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
   height: 100%;
-  animation: fadeInUp 0.5s ease-out;
-  animation-fill-mode: both;
 }
 
 .novel-card:hover {
@@ -416,3 +414,44 @@
 .novels-grid .novel-card:nth-child(7) { animation-delay: 0.7s; }
 .novels-grid .novel-card:nth-child(8) { animation-delay: 0.8s; }
 .novels-grid .novel-card:nth-child(9) { animation-delay: 0.9s; }
+
+/* Sửa lại animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.novel-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: 100%;
+}
+
+/* Thêm class mới cho animation */
+.novel-card-animate {
+  animation: fadeInUp 0.5s ease-out;
+  animation-fill-mode: both;
+}
+
+/* Sửa lại delay animation */
+.novels-grid .novel-card-animate:nth-child(1) { animation-delay: 0.1s; }
+.novels-grid .novel-card-animate:nth-child(2) { animation-delay: 0.2s; }
+.novels-grid .novel-card-animate:nth-child(3) { animation-delay: 0.3s; }
+.novels-grid .novel-card-animate:nth-child(4) { animation-delay: 0.4s; }
+.novels-grid .novel-card-animate:nth-child(5) { animation-delay: 0.5s; }
+.novels-grid .novel-card-animate:nth-child(6) { animation-delay: 0.6s; }
+.novels-grid .novel-card-animate:nth-child(7) { animation-delay: 0.7s; }
+.novels-grid .novel-card-animate:nth-child(8) { animation-delay: 0.8s; }
+.novels-grid .novel-card-animate:nth-child(9) { animation-delay: 0.9s; }
