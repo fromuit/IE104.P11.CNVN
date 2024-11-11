@@ -285,6 +285,14 @@ function AdvancedSearch() {
     setPreviouslyRendered(new Set(currentNovels.map(novel => novel.ID)));
   }, [currentNovels]);
 
+  // Thêm hàm xử lý bỏ chọn tất cả
+  const handleClearGenres = () => {
+    setSelectedGenres([]);
+    const params = new URLSearchParams(searchParams);
+    params.delete('genres');
+    setSearchParams(params);
+  };
+
   return (
     <div className="advanced-search-page">
       <TopNav />
@@ -323,7 +331,18 @@ function AdvancedSearch() {
           
           <div className="genres-section">
             <div className="genres-header">
-              <h3>Thể loại</h3>
+              <div className="genres-title">
+                <h3>Thể loại</h3>
+                {selectedGenres.length > 0 && (
+                  <button 
+                    type="button"
+                    className="clear-genres-btn"
+                    onClick={handleClearGenres}
+                  >
+                    Bỏ chọn tất cả
+                  </button>
+                )}
+              </div>
               <button 
                 type="button"
                 className="toggle-genres-btn"
