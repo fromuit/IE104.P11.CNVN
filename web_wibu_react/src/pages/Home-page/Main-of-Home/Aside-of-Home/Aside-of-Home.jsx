@@ -33,6 +33,11 @@ function Aside() {
       const bottomNav = document.querySelector('.bottom-nav');
       const footer = document.querySelector('.footer');
       
+      // Kiểm tra null cho các elements
+      if (!topNav || !bottomNav || !footer || !asideRef.current || !wrapperRef.current) {
+        return;
+      }
+      
       const topNavHeight = topNav.offsetHeight;
       const bottomNavHeight = bottomNav.offsetHeight;
       const totalOffset = topNavHeight + bottomNavHeight;
@@ -50,7 +55,6 @@ function Aside() {
         const distanceToFooter = footerRect.top - (totalOffset + asideHeight);
         
         if (distanceToFooter <= 0) {
-          // Điều chỉnh vị trí để không đè lên footer
           asideRef.current.style.top = `${totalOffset + distanceToFooter}px`;
         }
       } else {
@@ -60,6 +64,9 @@ function Aside() {
     };
 
     window.addEventListener('scroll', handleScroll);
+    // Gọi handleScroll lần đầu để set vị trí ban đầu
+    handleScroll();
+    
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 

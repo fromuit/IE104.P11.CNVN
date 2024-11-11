@@ -1,18 +1,13 @@
-import { Routes, Route } from 'react-router-dom';
-import Header from '../Header/Header';
+import Header from '/src/components/Header/Header';
 import MainOfHome from './Main-of-Home/Main-of-Home';
-import AdvancedSearch from '../../features/Advanced-Search/AdvancedSearch';
-import Footer from '../Footer/Footer';
+import Footer from '/src/components/Footer/Footer';
 import './Home-page.css';
 
 function HomePage() {
   return (
     <div className="home-page">
       <Header />
-      <Routes>
-        <Route path="/" element={<MainOfHome />} />
-        <Route path="/tim-kiem-nang-cao" element={<AdvancedSearch />} />
-      </Routes>
+      <MainOfHome />
       <Footer />
     </div>
   );

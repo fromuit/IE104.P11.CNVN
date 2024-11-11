@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
-import Header from '../Header/Header';
+import Header from '/src/components/Header/Header';
 import MainOfInfo from './Main-of-Info/Main-of-Info';
-import Footer from '../Footer/Footer';
+import Footer from '/src/components/Footer/Footer';
 import novelData from '../../data_and_source/Novel_Data/hako_data.json';
 import './Info-page.css';
 

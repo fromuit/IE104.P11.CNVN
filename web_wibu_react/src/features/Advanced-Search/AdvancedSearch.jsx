@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import TopNav from '../../pages/Header/TopNav/TopNav';
-import Banner from '../../pages/Header/Banner/Banner';
+import TopNav from '/src/components/Header/TopNav/TopNav';
+import Banner from '/src/components/Header/Banner/Banner';
 import { getAllGenres } from '../utils/searchUtils';
 import novelData from '../../data_and_source/Novel_Data/hako_data.json';
 import Aside from '../../pages/Home-page/Main-of-Home/Aside-of-Home/Aside-of-Home';
@@ -347,11 +347,15 @@ function AdvancedSearch() {
               <>
                 <div className="novels-grid">
                   {currentNovels.map(novel => (
-                    <div key={novel.ID} className="novel-card">
+                    <Link 
+                      to={`/info/${novel.ID}`} 
+                      key={novel.ID} 
+                      className="novel-card"
+                    >
                       <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
                       <h3>{novel["Tựa đề"]}</h3>
                       <p>{novel["Tác giả"]}</p>
-                    </div>
+                    </Link>
                   ))}
                 </div>
 
