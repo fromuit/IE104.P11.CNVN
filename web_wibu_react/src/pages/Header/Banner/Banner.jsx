@@ -2,6 +2,9 @@ import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Banner.css';
 
+// Import từ file index
+import { banners, bannerArray } from "../../../data_and_source/Images/Banners";
+
 function Banner() {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
@@ -9,36 +12,36 @@ function Banner() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
-  // Data mẫu - sau này có thể thay bằng API call
-  const banners = [
+  // Sử dụng object banners
+  const bannersData = [
     {
       id: 1,
-      image: '/images/banner1.png',
+      image: banners.banner1,
       link: '/info/1',
       title: 'Banner 1'
     },
     {
       id: 2,
-      image: '/images/banner2.png',
+      image: banners.banner2,
       link: '/info/2',
       title: 'Banner 2'
     },
     {
       id: 3,
-      image: '/images/banner3.png',
+      image: banners.banner3,
       link: '/info/3',
       title: 'Banner 3'
     },
     // Thêm banner khác ở đây
     {
       id: 4,
-      image: '/images/banner4.jpg',
+      image: banners.banner4,
       link: '/info/4',
       title: 'Banner 4'
     },
     {
       id: 5,
-      image: '/images/banner5.png',
+      image: banners.banner5,
       link: '/info/5',
       title: 'Banner 5'
     }
@@ -50,12 +53,12 @@ function Banner() {
     if (isAutoPlaying) {
       interval = setInterval(() => {
         setCurrentSlide(prev => 
-          prev === banners.length - 1 ? 0 : prev + 1
+          prev === bannersData.length - 1 ? 0 : prev + 1
         );
       }, 5000); // Chuyển sau mỗi 5 giây
     }
     return () => clearInterval(interval);
-  }, [isAutoPlaying, banners.length]);
+  }, [isAutoPlaying, bannersData.length]);
 
   // Dừng auto play khi hover
   const handleMouseEnter = () => setIsAutoPlaying(false);
@@ -68,15 +71,15 @@ function Banner() {
 
   const goToPrevSlide = useCallback(() => {
     setCurrentSlide(prev => 
-      prev === 0 ? banners.length - 1 : prev - 1
+      prev === 0 ? bannersData.length - 1 : prev - 1
     );
-  }, [banners.length]);
+  }, [bannersData.length]);
 
   const goToNextSlide = useCallback(() => {
     setCurrentSlide(prev => 
-      prev === banners.length - 1 ? 0 : prev + 1
+      prev === bannersData.length - 1 ? 0 : prev + 1
     );
-  }, [banners.length]);
+  }, [bannersData.length]);
 
   const handleImageLoad = (event) => {
     const img = event.target;
@@ -106,7 +109,7 @@ function Banner() {
           className="banner__slides"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
-          {banners.map((banner) => (
+          {bannersData.map((banner) => (
             <Link 
               key={banner.id}
               to={banner.link}
@@ -142,7 +145,7 @@ function Banner() {
 
         {/* Dots Navigation */}
         <div className="banner__dots">
-          {banners.map((_, index) => (
+          {bannersData.map((_, index) => (
             <button
               key={index}
               className={`banner__dot ${currentSlide === index ? 'active' : ''}`}
