@@ -6,12 +6,18 @@ import { getAllGenres } from '../utils/searchUtils';
 import novelData from '../../data_and_source/Novel_Data/hako_data.json';
 import Aside from '../../pages/Home-page/Main-of-Home/Aside-of-Home/Aside-of-Home';
 import './AdvancedSearch.css';
+import PropTypes from 'prop-types';
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
+  Pagination.propTypes = {
+    currentPage: PropTypes.number.isRequired,
+    totalPages: PropTypes.number.isRequired, 
+    onPageChange: PropTypes.func.isRequired
+  };
+
   const renderPaginationButtons = () => {
     const pages = [];
     const maxVisiblePages = 5;
-    
     let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
     let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
     
