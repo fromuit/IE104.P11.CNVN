@@ -167,11 +167,13 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
   height: 100%;
+  animation: fadeInUp 0.5s ease-out;
+  animation-fill-mode: both;
 }
 
 .novel-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .novel-card img {
@@ -392,3 +394,25 @@
   width: 100%;
   min-height: 300px;
 }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Thêm delay cho từng item */
+.novels-grid .novel-card:nth-child(1) { animation-delay: 0.1s; }
+.novels-grid .novel-card:nth-child(2) { animation-delay: 0.2s; }
+.novels-grid .novel-card:nth-child(3) { animation-delay: 0.3s; }
+.novels-grid .novel-card:nth-child(4) { animation-delay: 0.4s; }
+.novels-grid .novel-card:nth-child(5) { animation-delay: 0.5s; }
+.novels-grid .novel-card:nth-child(6) { animation-delay: 0.6s; }
+.novels-grid .novel-card:nth-child(7) { animation-delay: 0.7s; }
+.novels-grid .novel-card:nth-child(8) { animation-delay: 0.8s; }
+.novels-grid .novel-card:nth-child(9) { animation-delay: 0.9s; }
