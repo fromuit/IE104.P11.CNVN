@@ -375,7 +375,7 @@ function AdvancedSearch() {
                     <Link 
                       to={`/info/${novel.ID}`} 
                       key={novel.ID} 
-                      className={`novel-card ${!previouslyRendered.includes(novel.ID) ? 'novel-card-animate' : ''}`}
+                      className={`novel-card ${!previouslyRendered.has(novel.ID) ? 'novel-card-animate' : ''}`}
                     >
                       <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
                       <h3>{novel["Tựa đề"]}</h3>
