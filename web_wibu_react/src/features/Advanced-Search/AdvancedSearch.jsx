@@ -118,23 +118,28 @@ function AdvancedSearch() {
     { value: 'date', label: 'Ngày cập nhật' }
   ];
 
+  // Thêm state mới để quản lý danh sách novels đã được lọc
+  const [filteredNovels, setFilteredNovels] = useState([]);
+  const [currentNovels, setCurrentNovels] = useState([]);
+
   // Sắp xếp truyện theo tiêu chí
   const sortNovels = (novels, criteria) => {
-    return [...novels].sort((a, b) => {
+    const sorted = [...novels].sort((a, b) => {
       switch (criteria) {
         case "view":
           return b["Số lượt xem"] - a["Số lượt xem"];
         case "like":
           return b["Số like"] - a["Số like"];
         case "date": {
-          let dateA = new Date(a["Năm cập nhật cuối"], a["Tháng cập nhật cuối"] - 1, a["Ngày cập nhật cuối"]);
-          let dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
+          const dateA = new Date(a["Năm cập nhật cuối"], a["Tháng cập nhật cuối"] - 1, a["Ngày cập nhật cuối"]);
+          const dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
           return dateB - dateA;
         }
         default:
           return 0;
       }
     });
+    return sorted;
   };
 
   // Lọc truyện theo thể loại và từ khóa tìm kiếm
@@ -158,11 +163,15 @@ function AdvancedSearch() {
     return sortNovels(filtered, sortBy);
   };
 
-  // Lấy truyện cho trang hiện tại
-  const currentNovels = filterNovels().slice(
-    (currentPage - 1) * itemsPerPage,
-    currentPage * itemsPerPage
-  );
+  // Sửa lại useEffect để cập nhật filteredNovels và currentNovels
+  useEffect(() => {
+    const filtered = filterNovels();
+    setFilteredNovels(filtered);
+    
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    setCurrentNovels(filtered.slice(start, end));
+  }, [selectedGenres, searchQuery, sortBy, currentPage]);
 
   const totalPages = Math.ceil(filterNovels().length / itemsPerPage);
 
@@ -237,6 +246,10 @@ function AdvancedSearch() {
   const handleSortChange = (value) => {
     setSortBy(value);
     setCurrentPage(1);
+    
+    const sorted = sortNovels(filteredNovels, value);
+    setFilteredNovels(sorted);
+    setCurrentNovels(sorted.slice(0, itemsPerPage));
     
     const params = new URLSearchParams(searchParams);
     params.set('sort', value);
