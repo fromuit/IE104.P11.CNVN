@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import hakoData from '../../data_and_source/Novel_Data/hako_data.json';
 import genresData from '../../data_and_source/Novel_Data/genres.json';
 import genreMapping from '../../data_and_source/Novel_Data/gerne_mapping.json';
@@ -12,6 +12,7 @@ const convertGenreName = (englishName) => {
 };
 
 function GenresPage() {
+  const navigate = useNavigate();
   const { slug } = useParams();
   const [filteredNovels, setFilteredNovels] = useState([]);
   const [currentGenre, setCurrentGenre] = useState(null);
@@ -47,6 +48,16 @@ function GenresPage() {
     window.scrollTo(0, 0); // Cuộn lên đầu trang khi chuyển trang
   };
 
+  // Hàm xử lý chuyển trang
+  const handleAdvancedSearch = () => {
+    if (currentGenre) {
+      // Chuyển đến trang tìm kiếm nâng cao với thể loại đã chọn
+      navigate(`/tim-kiem-nang-cao?genres=${currentGenre.id}`);
+    } else {
+      navigate('/tim-kiem-nang-cao');
+    }
+  };
+
   if (!currentGenre) {
     return <div>Không tìm thấy thể loại này</div>;
   }
@@ -55,8 +66,17 @@ function GenresPage() {
     <>
       <Header />
       <div className="genres-page">
-        <h1>Thể loại: {currentGenre.name}</h1>
-        <p className="genre-description">{currentGenre.description}</p>
+        <div className="genres-header">
+          <h1>Thể loại: {currentGenre?.name}</h1>
+          <button 
+            onClick={handleAdvancedSearch}
+            className="advanced-search-btn"
+          >
+            <i className="fas fa-search-plus"></i>
+            Tìm kiếm nâng cao
+          </button>
+        </div>
+        <p className="genre-description">{currentGenre?.description}</p>
         
         <div className="novels-grid">
           {currentNovels.length > 0 ? (
