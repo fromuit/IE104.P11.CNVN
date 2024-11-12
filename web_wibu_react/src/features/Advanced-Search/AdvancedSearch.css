@@ -168,6 +168,7 @@
   /* transform: translateY(20px); */
   transition: all 0.3s ease-out;
   height: 100%;
+  position: relative;
 }
 
 .novel-card:hover {
@@ -472,4 +473,51 @@
 
 .clear-all-btn i {
   font-size: 0.9em;
+}
+
+.novel-info {
+  padding: 10px;
+}
+
+.novel-info h3 {
+  margin: 0;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  /* Giới hạn 2 dòng cho tiêu đề */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.author {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.genre-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.genre-tag {
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  background-color: #e3f2fd;
+  color: #1976d2;
+  border-radius: 12px;
+  white-space: nowrap;
+  /* Giới hạn số lượng tag hiển thị */
+  display: inline-block;
+}
+
+/* Giới hạn số lượng tag hiển thị trên mobile */
+@media (max-width: 768px) {
+  .genre-tags {
+    max-height: 50px;
+    overflow: hidden;
+  }
 }

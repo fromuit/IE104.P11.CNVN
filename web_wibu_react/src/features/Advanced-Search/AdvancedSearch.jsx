@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import TopNav from '../../components/Header/TopNav/TopNav';
 import Banner from '../../components/Header/Banner/Banner';
-import {  getAllGenres, searchNovels } from '../utils/searchUtils';
+import { searchNovels } from '../utils/searchUtils';
+import genreMapping from '../../data_and_source/Novel_Data/gerne_mapping.json';
 import './AdvancedSearch.css';
 import PropTypes from 'prop-types';
 import Novel_Data from '../../data_and_source/Novel_Data/hako_data.json';
@@ -115,7 +116,10 @@ function AdvancedSearch() {
   const [isAnimating, setIsAnimating] = useState(false);
   
   const itemsPerPage = 9;
-  const genres = getAllGenres();
+  const genres = Object.entries(genreMapping.mapping).map(([engName, viName]) => ({
+    english: engName,
+    vietnamese: viName
+  }));
   
   // Thêm options sắp xếp
   const sortOptions = [
@@ -141,9 +145,9 @@ function AdvancedSearch() {
 
   const handleGenreToggle = (genre) => {
     setSelectedGenres(prev => {
-      const newGenres = prev.includes(genre) 
-        ? prev.filter(g => g !== genre)
-        : [...prev, genre];
+      const newGenres = prev.includes(genre.english) 
+        ? prev.filter(g => g !== genre.english)
+        : [...prev, genre.english];
       return newGenres;
     });
     setCurrentPage(1);
@@ -246,13 +250,13 @@ function AdvancedSearch() {
                 <i className="fas fa-times"></i> Bỏ chọn tất cả
               </button>
               {genres.map(genre => (
-                <label key={genre} className="genre-checkbox">
+                <label key={genre.english} className="genre-checkbox">
                   <input
                     type="checkbox"
-                    checked={selectedGenres.includes(genre)}
+                    checked={selectedGenres.includes(genre.english)}
                     onChange={() => handleGenreToggle(genre)}
                   />
-                  {genre}
+                  {genre.vietnamese}
                 </label>
               ))}
             </div>
