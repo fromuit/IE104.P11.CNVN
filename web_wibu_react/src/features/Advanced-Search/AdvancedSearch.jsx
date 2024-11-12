@@ -2,9 +2,10 @@ import { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import TopNav from '../../components/Header/TopNav/TopNav';
 import Banner from '../../components/Header/Banner/Banner';
-import {  getAllGenres } from '../utils/searchUtils';
+import {  getAllGenres, searchNovels } from '../utils/searchUtils';
 import './AdvancedSearch.css';
 import PropTypes from 'prop-types';
+import Novel_Data from '../../data_and_source/Novel_Data/hako_data.json';
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   Pagination.propTypes = {
@@ -106,106 +107,36 @@ function AdvancedSearch() {
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('view');
   const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [filteredNovels, setFilteredNovels] = useState([]);
+  const [currentNovels, setCurrentNovels] = useState([]);
+  const [previouslyRendered] = useState(new Set());
+  const [isGenresExpanded, setIsGenresExpanded] = useState(true);
+  const [isAnimating, setIsAnimating] = useState(false);
+  
   const itemsPerPage = 9;
   const genres = getAllGenres();
-  const [isGenresExpanded, setIsGenresExpanded] = useState(true);
-
+  
+  // Thêm options sắp xếp
   const sortOptions = [
     { value: 'view', label: 'Lượt xem' },
     { value: 'like', label: 'Lượt thích' },
-    { value: 'date', label: 'Ngày cập nhật' }
+    { value: 'date', label: 'Ngày cập nhật' },
+    { value: 'asc', label: 'A-Z' },
+    { value: 'desc', label: 'Z-A' }
   ];
 
-  // Thêm state mới để quản lý danh sách novels đã được lọc
-  const [filteredNovels, setFilteredNovels] = useState([]);
-  const [currentNovels, setCurrentNovels] = useState([]);
-
-  // Sắp xếp truyện theo tiêu chí
-  const sortNovels = (novels, criteria) => {
-    const sorted = [...novels].sort((a, b) => {
-      switch (criteria) {
-        case "view":
-          return b["Số lượt xem"] - a["Số lượt xem"];
-        case "like":
-          return b["Số like"] - a["Số like"];
-        case "date": {
-          const dateA = new Date(a["Năm cập nhật cuối"], a["Tháng cập nhật cuối"] - 1, a["Ngày cập nhật cuối"]);
-          const dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
-          return dateB - dateA;
-        }
-        default:
-          return 0;
-      }
-    });
-    return sorted;
-  };
-
-  // Lọc truyện theo thể loại và từ khóa tìm kiếm
-  const filterNovels = () => {
-    const novelData = []; // Removed useState since it shouldn't be used in regular function
-    let filtered = [...novelData];
-
-    if (searchQuery) {
-      const query = searchQuery.toLowerCase();
-      filtered = filtered.filter(novel =>
-        novel["Tựa đề"].toLowerCase().includes(query) ||
-        novel["Tác giả"].toLowerCase().includes(query)
-      );
-    }
-
-    if (selectedGenres.length > 0) {
-      filtered = filtered.filter(novel =>
-        selectedGenres.every(genre => novel["Thể loại"].includes(genre))
-      );
-    }
-
-    return sortNovels(filtered, sortBy);
-  };
-
-  // Sửa lại useEffect để cập nhật filteredNovels và currentNovels
+  // Khởi tạo dữ liệu ban đầu
   useEffect(() => {
-    const filtered = filterNovels();
-    setFilteredNovels(filtered);
-    
-    const start = (currentPage - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-    setCurrentNovels(filtered.slice(start, end));
-  }, [selectedGenres, searchQuery, sortBy, currentPage]);
+    const initialNovels = searchNovels(searchQuery, selectedGenres, sortBy);
+    setFilteredNovels(initialNovels);
+    setTotalPages(Math.ceil(initialNovels.length / itemsPerPage));
+    setCurrentNovels(initialNovels.slice(0, itemsPerPage));
+  }, []);
 
-  const totalPages = Math.ceil(filterNovels().length / itemsPerPage);
-
-  // Thêm effect để reset khi component mount (trang được load)
-  useEffect(() => {
-    // Reset tất cả state về giá trị mặc định
+  const handleSearchInputChange = (e) => {
+    setSearchQuery(e.target.value);
     setCurrentPage(1);
-    setSelectedGenres([]);
-    setSearchQuery("");
-    setSortBy("view");
-    setIsGenresExpanded(true);
-    
-    // Xóa tất cả params trong URL
-    setSearchParams({});
-  }, []); // Empty dependency array means this runs once when component mounts
-
-  // Giữ lại effect cũ để handle URL params changes
-  useEffect(() => {
-    const page = parseInt(searchParams.get("page")) || 1;
-    const genres = searchParams.get("genres")?.split(",").filter(Boolean) || [];
-    const query = searchParams.get("q") || "";
-    const sort = searchParams.get("sort") || "view";
-    
-    setCurrentPage(page);
-    setSelectedGenres(genres);
-    setSearchQuery(query);
-    setSortBy(sort);
-  }, [searchParams]);
-
-  const handlePageChange = (pageNumber) => {
-    setCurrentPage(pageNumber);
-    
-    const params = new URLSearchParams(searchParams);
-    params.set('page', pageNumber);
-    setSearchParams(params);
   };
 
   const handleGenreToggle = (genre) => {
@@ -213,84 +144,45 @@ function AdvancedSearch() {
       const newGenres = prev.includes(genre) 
         ? prev.filter(g => g !== genre)
         : [...prev, genre];
-      
-      const params = new URLSearchParams(searchParams);
-      if (newGenres.length) {
-        params.set('genres', newGenres.join(','));
-      } else {
-        params.delete('genres');
-      }
-      params.delete('page');
-      setSearchParams(params);
-      setCurrentPage(1);
-      
       return newGenres;
     });
+    setCurrentPage(1);
   };
 
-  const handleSearchInputChange = (e) => {
-    const newValue = e.target.value;
-    setSearchQuery(newValue);
-    setIsGenresExpanded(!newValue);
-
-    const params = new URLSearchParams(searchParams);
-    if (newValue) {
-      params.set('q', newValue);
-    } else {
-      params.delete('q');
-    }
-    setSearchParams(params);
+  const handleClearGenres = () => {
+    setSelectedGenres([]);
+    setCurrentPage(1);
   };
 
   const handleSortChange = (value) => {
     setSortBy(value);
     setCurrentPage(1);
-    
-    const sorted = sortNovels(filteredNovels, value);
-    setFilteredNovels(sorted);
-    setCurrentNovels(sorted.slice(0, itemsPerPage));
-    
-    const params = new URLSearchParams(searchParams);
-    params.set('sort', value);
-    params.delete('page');
-    setSearchParams(params);
   };
 
-  // Comment lại hàm xử lý tìm kiếm để có thể sử dụng sau này nếu cần
-  /* const handleSearch = (e) => {
-    e.preventDefault();
-    const params = new URLSearchParams();
-    if (searchQuery) params.set('q', searchQuery);
-    if (selectedGenres.length) params.set('genres', selectedGenres.join(','));
-    params.set('sort', sortBy);
-    setSearchParams(params);
-    setIsGenresExpanded(false);
-  }; */
-
-  // Thêm useEffect để xử lý scroll position khi URL thay đổi
-  useEffect(() => {
-    // Lưu scroll position hiện tại
-    const scrollPosition = window.scrollY;
-    
-    // Sau khi component re-render, khôi phục scroll position
-    window.requestAnimationFrame(() => {
-      window.scrollTo(0, scrollPosition);
-    });
-  }, [currentPage]); // Chỉ chạy khi currentPage thay đổi
-
-  const [previouslyRendered, setPreviouslyRendered] = useState(new Set());
-
-  useEffect(() => {
-    setPreviouslyRendered(new Set(currentNovels.map(novel => novel.ID)));
-  }, [currentNovels]);
-
-  // Thêm hàm xử lý bỏ chọn tất cả
-  const handleClearGenres = () => {
-    setSelectedGenres([]);
-    const params = new URLSearchParams(searchParams);
-    params.delete('genres');
-    setSearchParams(params);
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
   };
+
+  // Xử lý tìm kiếm và phân trang
+  useEffect(() => {
+    const filtered = searchNovels(searchQuery, selectedGenres, sortBy);
+    setFilteredNovels(filtered);
+    setTotalPages(Math.ceil(filtered.length / itemsPerPage));
+    
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    
+    // Trigger animation
+    setIsAnimating(true);
+    setCurrentNovels(filtered.slice(start, end));
+    
+    // Reset animation sau 500ms
+    const timer = setTimeout(() => {
+      setIsAnimating(false);
+    }, 500);
+    
+    return () => clearTimeout(timer);
+  }, [searchQuery, selectedGenres, sortBy, currentPage]);
 
   return (
     <div className="advanced-search-page">
@@ -391,7 +283,7 @@ function AdvancedSearch() {
                     <Link 
                       to={`/info/${novel.ID}`} 
                       key={novel.ID} 
-                      className={`novel-card ${!previouslyRendered.has(novel.ID) ? 'novel-card-animate' : ''}`}
+                      className={`novel-card ${isAnimating ? 'novel-card-animate' : ''}`}
                     >
                       <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
                       <h3>{novel["Tựa đề"]}</h3>

@@ -63,6 +63,10 @@ const sortNovels = (novels, criteria) => {
         const dateB = new Date(b["Năm cập nhật cuối"], b["Tháng cập nhật cuối"] - 1, b["Ngày cập nhật cuối"]);
         return dateB - dateA;
       }
+      case "asc":
+        return a["Tựa đề"].localeCompare(b["Tựa đề"], 'vi');
+      case "desc":
+        return b["Tựa đề"].localeCompare(a["Tựa đề"], 'vi');
       default:
         return 0;
     }
