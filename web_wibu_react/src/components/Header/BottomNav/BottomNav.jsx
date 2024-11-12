@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import './BottomNav.css';
 import genresData from '../../../data_and_source/Novel_Data/genres.json';
 
@@ -14,10 +14,11 @@ function BottomNav() {
   const [isHovered, setIsHovered] = React.useState(false);
   const [timeoutId, setTimeoutId] = useState(null); // Thêm state này để track timeout
   const [dropdownPosition, setDropdownPosition] = React.useState('down');
-  const [isDropdownVisible, setIsDropdownVisible] = useState(false);
   const [tooltipContent, setTooltipContent] = useState('');
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
+  const [isAfterBanner, setIsAfterBanner] = useState(true);
+
   const organizeGenresInColumns = (genres, numColumns = 3) => {
     const itemsPerColumn = Math.ceil(genres.length / numColumns);
     const columns = [];
@@ -79,17 +80,30 @@ function BottomNav() {
       navRef.current.classList.toggle('bottom-nav--compact', !isHomePage);
       wrapperRef.current.classList.toggle('bottom-nav__wrapper--compact', !isHomePage);
       
-      // Lưu vị trí ban đầu của BottomNav
-      originalPositionRef.current = bannerElement ? 
-        bannerElement.offsetTop + bannerElement.offsetHeight : 
-        navRef.current.offsetTop;
+      // Kiểm tra vị trí của BottomNav
+      const isAfterBannerPosition = !!bannerElement && 
+        (bannerElement.compareDocumentPosition(navRef.current) & Node.DOCUMENT_POSITION_FOLLOWING);
+      setIsAfterBanner(isAfterBannerPosition);
+
+      // Nếu không có banner hoặc BottomNav nằm ngay sau TopNav
+      if (!isAfterBannerPosition) {
+        navRef.current.classList.add('sticky');
+        navRef.current.style.top = `${topNavHeight}px`;
+        wrapperRef.current.style.paddingBottom = `${navRef.current.offsetHeight}px`;
+      }
+
+      originalPositionRef.current = isAfterBannerPosition ? 
+        (bannerElement ? bannerElement.offsetTop + bannerElement.offsetHeight : navRef.current.offsetTop) :
+        topNavHeight;
 
       const handleScroll = () => {
-        if (navRef.current) {
+        if (navRef.current && isAfterBannerPosition) {
           const scrollY = window.scrollY;
           const topNavHeight = isHomePage ? 60 : 40;
           
-          if (scrollY >= originalPositionRef.current - topNavHeight) {
+          const shouldStick = scrollY >= originalPositionRef.current - topNavHeight;
+
+          if (shouldStick) {
             if (!navRef.current.classList.contains('sticky')) {
               navRef.current.classList.add('sticky');
               navRef.current.style.top = `${topNavHeight}px`;
@@ -120,12 +134,15 @@ function BottomNav() {
         }
       };
 
-      window.addEventListener('scroll', scrollListener);
-      return () => window.removeEventListener('scroll', scrollListener);
+      // Chỉ thêm scroll listener nếu BottomNav nằm sau Banner
+      if (isAfterBannerPosition) {
+        window.addEventListener('scroll', scrollListener);
+        return () => window.removeEventListener('scroll', scrollListener);
+      }
     };
 
     initializeNav();
-  }, [isHomePage]);
+  }, [isHomePage, isAfterBanner]);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -154,11 +171,6 @@ function BottomNav() {
   const handleMouseLeave = () => {
     setTooltipContent('');
   };
-
-  const handleGenreClick = (genre) => {
-    navigate(`/tim-kiem-nang-cao?genres=${genre.id}`);
-  };
-
 
   return (
     <>

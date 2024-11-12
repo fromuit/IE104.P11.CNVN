@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import TopNav from '/src/components/Header/TopNav/TopNav';
-import Banner from '/src/components/Header/Banner/Banner';
-import { getAllGenres } from '../utils/searchUtils';
-import novelData from '../../data_and_source/Novel_Data/hako_data.json';
-import Aside from '../../pages/Home-page/Main-of-Home/Aside-of-Home/Aside-of-Home';
+import TopNav from '../../components/Header/TopNav/TopNav';
+import Banner from '../../components/Header/Banner/Banner';
+import {  getAllGenres } from '../utils/searchUtils';
 import './AdvancedSearch.css';
 import PropTypes from 'prop-types';
 
@@ -144,11 +142,12 @@ function AdvancedSearch() {
 
   // Lọc truyện theo thể loại và từ khóa tìm kiếm
   const filterNovels = () => {
+    const novelData = []; // Removed useState since it shouldn't be used in regular function
     let filtered = [...novelData];
 
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
-      filtered = filtered.filter(novel => 
+      filtered = filtered.filter(novel =>
         novel["Tựa đề"].toLowerCase().includes(query) ||
         novel["Tác giả"].toLowerCase().includes(query)
       );
@@ -425,7 +424,7 @@ function AdvancedSearch() {
           </div>
         </div>
         <div className="aside-container">
-          <Aside />
+  
         </div>
       </div>
     </div>

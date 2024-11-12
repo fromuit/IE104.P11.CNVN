@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Aside-of-Home.css';
 import { useRef } from 'react'
+import avatarAside from '../../../../data_and_source/Images/avatar.png';
 
 
 function Aside() {
@@ -122,8 +123,8 @@ function Aside() {
       <div className="aside__section">
         <div className="aside__section-header">
           <h4>Giỏ hàng</h4>
-          {isLoggedIn && cartSummary.items.length > 0 && (
-            <Link to="/cart" className="aside__view-more">
+          {isLoggedIn && (
+            <Link to="/gio-hang" className="aside__view-more">
               Xem thêm <i className="fas fa-chevron-right"></i>
             </Link>
           )}
@@ -164,7 +165,7 @@ function Aside() {
             {/* User Info Section */}
             <div className="aside__user">
               <div className="aside__avatar">
-                <img src="/images/avatar.png" alt="Avatar" />
+                <img src={avatarAside} alt="Avatar" />
               </div>
               <div className="aside__user-info">
                 <h3 className="aside__username">{userData?.fullName}</h3>
