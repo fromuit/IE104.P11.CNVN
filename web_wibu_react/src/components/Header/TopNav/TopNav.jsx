@@ -1,6 +1,7 @@
 import  { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import './TopNav.css';
+import { searchNovelsRealtime, getAllGenres } from '../../../features/utils/searchUtils';
 
 function TopNav() {
   const navigate = useNavigate();
@@ -10,50 +11,51 @@ function TopNav() {
   const [searchQuery, setSearchQuery] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userData, setUserData] = useState(null);
+  const [searchResults, setSearchResults] = useState([]);
+  const [showResults, setShowResults] = useState(false);
+  const [visibleResults, setVisibleResults] = useState(3);
 
   const isHomePage = location.pathname === '/';
 
-  const toggleTheme = () => {
+  const toggleTheme = () => { 
     setIsDarkMode(!isDarkMode);
   };
 
-  const handleSearch = (e) => {
-    e.preventDefault(); // Ngăn form submit mặc định
+  const handleSearchChange = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
     
-    if (!searchQuery.trim()) {
-      // Nếu không có nội dung tìm kiếm, chuyển đến trang tìm kiếm chi tiết
-      navigate('/tim-kiem');
-      return;
+    if (query.trim()) {
+      const results = searchNovelsRealtime(query);
+      setSearchResults(results);
+      setShowResults(true);
+    } else {
+      setSearchResults([]);
+      setShowResults(false);
     }
-    
-    // Xử lý tìm kiếm với nội dung (sẽ bổ sung sau)
-    navigate(`/tim-kiem?q=${encodeURIComponent(searchQuery)}`);
   };
 
-  const handleSearchClick = () => {
+  const handleSearchClick = (e) => {
+    e.preventDefault();
     setIsSearchActive(!isSearchActive);
     if (!searchQuery.trim()) {
-      navigate('/tim-kiem');
+      navigate('/tim-kiem-nang-cao');
     } else {
-      handleSearch({ preventDefault: () => {} });
+      navigate(`/tim-kiem-nang-cao?q=${encodeURIComponent(searchQuery.trim())}`);
     }
+    setSearchQuery('');
+    setShowResults(false);
   };
 
   const handleLogout = () => {
-    // Xóa tất cả thông tin từ localStorage
     localStorage.clear();
-    
-    // Reset tất cả state về mặc định
     setIsLoggedIn(false);
     setUserData(null);
-    
-    // Chuyển hướng về trang chủ và reload page
     navigate('/');
     window.location.reload();
   };
 
   useEffect(() => {
-    // Kiểm tra trạng thái đăng nhập khi component mount
     const user = localStorage.getItem('currentUser');
     if (user) {
       setIsLoggedIn(true);
@@ -61,33 +63,110 @@ function TopNav() {
     }
   }, []);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!event.target.closest('.top-nav__search')) {
+        setShowResults(false);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
+  const handleScroll = (e) => {
+    const bottom = e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
+    if (bottom) {
+      setVisibleResults(prev => prev + 3);
+    }
+  };
+
+  const handleSearchResultClick = (novelId) => {
+    setShowResults(false);
+    setSearchQuery('');
+    navigate(`/info/${novelId}`);
+  };
+
+  const handleGenreClick = (genre) => {
+    navigate(`/tim-kiem-nang-cao?genres=${encodeURIComponent(genre)}`);
+    setShowResults(false);
+  };
+
   return (
     <div className="top-nav-wrapper">
       <nav className={`top-nav ${isHomePage ? '' : 'top-nav--compact'}`}>
         <div className="top-nav__container">
           <a href="/" className="top-nav__logo">
-            <img src="/images/logo.png" alt="Logo" />
+            <img src="/src/data_and_source/Images/logo.png" alt="Logo" />
           </a>
 
-          <form onSubmit={handleSearch} className="top-nav__search">
+          <form 
+            className="top-nav__search"
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleSearchClick(e);
+            }}
+          >
             <input 
               type="text" 
-              placeholder="Tìm kiếm Light Novel..." 
+              placeholder="Tìm kiếm tựa Light Novel, tác giả, ..." 
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={handleSearchChange}
+              onFocus={() => setShowResults(true)}
             />
-            <div className={`search-button-container ${isSearchActive ? 'active' : ''}`}>
-              <div className="search-divider"></div>
-              <button 
-                type="submit"
-                className={`search-button ${isSearchActive ? 'active' : ''}`}
-                onClick={handleSearchClick}
-                title="Tìm kiếm"
-              >
-                <i className="fas fa-search"></i>
-              </button>
-            </div>
+            {showResults && searchResults.length > 0 && (
+              <div className="search-results-dropdown">
+                {searchResults.map(novel => (
+                  <div
+                    key={novel.ID}
+                    className="search-result-item"
+                    onClick={() => handleSearchResultClick(novel.ID)}
+                  >
+                    <img 
+                      src={novel["Link ảnh"]} 
+                      alt={novel["Tựa đề"]}
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = '/images/default-cover.jpg';
+                      }}
+                    />
+                    <div className="search-result-info">
+                      <div className="search-result-title">{novel["Tựa đề"]}</div>
+                      <div className="search-result-author">{novel["Tác giả"]}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+            <div className="search-divider"></div>
+            <button 
+              type="button"
+              className="search-button-small"
+              onClick={handleSearchClick}
+              title="Tìm kiếm"
+            >
+              <i className="fas fa-search"></i>
+            </button>
           </form>
+
+          <div className="top-nav__genres">
+            <div className="genres-dropdown">
+              <button className="genres-button">
+                Thể loại <i className="fas fa-chevron-down"></i>
+              </button>
+              <div className="genres-list">
+                {getAllGenres().map(genre => (
+                  <button
+                    key={genre}
+                    onClick={() => handleGenreClick(genre)}
+                    className="genre-item"
+                  >
+                    {genre}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
 
           <div className="top-nav__actions">
             <button 
