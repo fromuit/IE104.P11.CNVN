@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import './BottomNav.css';
 import genresData from '../../../data_and_source/Novel_Data/genres.json';
 
@@ -16,7 +16,7 @@ function BottomNav() {
   const [dropdownPosition, setDropdownPosition] = React.useState('down');
   const [tooltipContent, setTooltipContent] = useState('');
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   const [isAfterBanner, setIsAfterBanner] = useState(true);
 
   const organizeGenresInColumns = (genres, numColumns = 3) => {
@@ -172,6 +172,11 @@ function BottomNav() {
     setTooltipContent('');
   };
 
+  const handleGenreClick = (genreId, genreSlug) => {
+    navigate(`/the-loai/${genreSlug}`);
+    setShowGenres(false);
+  };
+
   return (
     <>
       <div 
@@ -207,17 +212,17 @@ function BottomNav() {
                     {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
                     <ul key={`column-${colIndex}`} className="genres-column">
                       {column.map((genre) => (
-                        <li key={`genre-${genre.id}-${colIndex}`}
-                            onMouseEnter={(event) => handleMouseEnter(event, genre.description)}
-                            onMouseLeave={handleMouseLeave}
+                        <li 
+                          key={`genre-${genre.id}-${colIndex}`}
+                          onMouseEnter={(event) => handleMouseEnter(event, genre.description)}
+                          onMouseLeave={handleMouseLeave}
                         >
-                          <NavLink 
-                            to={`/tim-kiem-nang-cao?genres=${genre.id}`}
+                          <button
                             className="genre-item"
-                            onClick={() => setShowGenres(false)}
+                            onClick={() => handleGenreClick(genre.id, genre.slug)}
                           >
-                             {genre.name}
-                          </NavLink>
+                            {genre.name}
+                          </button>
                         </li>
                       ))}
                     </ul>
