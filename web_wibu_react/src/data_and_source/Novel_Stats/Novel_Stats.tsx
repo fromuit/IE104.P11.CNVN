@@ -10,6 +10,9 @@ interface NovelStatsProps {
     "Ngày cập nhật cuối"?: number;
     "Tháng cập nhật cuối"?: number;
     "Năm cập nhật cuối"?: number;
+    "Ngày bắt đầu"?: number;
+    "Tháng bắt đầu"?: number;
+    "Năm bắt đầu"?: number;
   };
   variant?: "recent" | "new" | "completed" | "original" | "top";
   showLikes?: boolean;
@@ -56,14 +59,18 @@ const NovelStats: FC<NovelStatsProps> = ({
     return `Cập nhật ${diffDays} ngày trước`;
   };
 
+
   return (
     <div className="novel-stats" data-variant={variant}>
-      <span className="views">👁 {formatNumber(novel["Số lượt xem"])}</span>
-      {showLikes && <span className="likes">❤ {formatNumber(novel["Số like"])}</span>}
-      
+      <span className="views">👁 {formatNumber(novel["Số lượt xem"])}</span>   
       {variant === "recent" && (
         <span className="update-time">
           {getDaysAgo()}
+        </span>
+      )}
+      {variant === "new" && (
+        <span className="start-date">
+        {novel["Ngày bắt đầu"]}/{novel["Tháng bắt đầu"]}/{novel["Năm bắt đầu"]}
         </span>
       )}
 

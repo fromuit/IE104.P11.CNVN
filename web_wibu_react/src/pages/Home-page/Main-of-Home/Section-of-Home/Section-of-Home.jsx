@@ -10,7 +10,7 @@ const SectionHeader = ({ title, link }) => (
   <div className={styles["section__header"]}>
     <h2 className={styles["section__title"]}>{title}</h2>
     <Link to={link} className={styles["section__more"]}>
-      Xem thêm <i className={styles["fas fa-chevron-right"]}></i>
+      Xem thêm <i className="fas fa-chevron-right"></i>
     </Link>
   </div>
 );
@@ -24,25 +24,25 @@ SectionHeader.propTypes = {
 const TopTabs = ({ activeTab, onTabChange }) => (
   <div className={styles["section__tabs"]}>
     <button 
-      className={`${styles["section__tab"]} ${activeTab === 'week' ? styles["active"] : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'week' ? styles["section__tab--active"] : ''}`}
       onClick={() => onTabChange('week')}
     >
       Top tuần
     </button>
     <button 
-      className={`${styles["section__tab"]} ${activeTab === 'month' ? styles["active"] : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'month' ? styles["section__tab--active"] : ''}`}
       onClick={() => onTabChange('month')}
     >
       Top tháng
     </button>
     <button 
-      className={`${styles["section__tab"]} ${activeTab === 'year' ? styles["active"] : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'year' ? styles["section__tab--active"] : ''}`}
       onClick={() => onTabChange('year')}
     >
       Top năm
     </button>
     <button 
-      className={`${styles["section__tab"]} ${activeTab === 'all' ? styles["active"] : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'all' ? styles["section__tab--active"] : ''}`}
       onClick={() => onTabChange('all')}
     >
       Top toàn thời gian
@@ -78,7 +78,7 @@ const NovelCard = ({ novel, onView, onLike, variant, isTopNovel, likedNovels }) 
         className={`${styles["novel-card__like-btn"]} ${isLiked ? styles["liked"] : ""}`}
         onClick={() => onLike(novel.ID)}
       >
-        <i className={styles["fas fa-heart"]}></i>
+        <i className="fas fa-heart"></i>
         <span>{novel["Số like"]}</span>
       </button>
     </div>
@@ -113,15 +113,14 @@ const NovelGrid = ({ novels, showNavigation, activeTab, variant, onView, onLike,
 
   return (
     <div className={styles["novel-grid-container"]}>
-      {showNavigation && page > 0 && (
-        <button 
-          className={styles["novel-grid__nav"]} 
-          onClick={() => setPage(p => p - 1)}
-          aria-label="Previous page"
-        >
-          <i className={styles["fas fa-chevron-left"]}></i>
-        </button>
-      )}
+      <button 
+        className={`${styles["novel-grid__nav"]} ${styles["novel-grid__nav--prev"]} ${!showNavigation || page === 0 ? styles["hidden"] : ""}`}
+        onClick={() => setPage(p => p - 1)}
+        aria-label="Previous page"
+        disabled={!showNavigation || page === 0}
+      >
+        <i className="fas fa-chevron-left"></i>
+      </button>
       
       <div className={styles["novel-grid"]} key={`${activeTab}-${page}-${variant}`}>
         {currentNovels.map((novel, index) => (
@@ -137,15 +136,14 @@ const NovelGrid = ({ novels, showNavigation, activeTab, variant, onView, onLike,
         ))}
       </div>
 
-      {showNavigation && page < totalPages - 1 && (
-        <button 
-          className={styles["novel-grid__nav"]} 
-          onClick={() => setPage(p => p + 1)}
-          aria-label="Next page"
-        >
-          <i className={styles["fas fa-chevron-right"]}></i>
-        </button>
-      )}
+      <button 
+        className={`${styles["novel-grid__nav"]} ${styles["novel-grid__nav--next"]} ${!showNavigation || page >= totalPages - 1 ? styles["hidden"] : ""}`}
+        onClick={() => setPage(p => p + 1)}
+        aria-label="Next page"
+        disabled={!showNavigation || page >= totalPages - 1}
+      >
+        <i className="fas fa-chevron-right"></i>
+      </button>
 
       {showNavigation && totalPages > 1 && (
         <div className={styles["novel-grid__dots"]}>

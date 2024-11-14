@@ -94,7 +94,7 @@ $border-light: #eee;
       background: #e3f2fd;
     }
 
-    &.active {
+    &--active {
       color: $primary-color;
       background: #e3f2fd;
       font-weight: 500;
@@ -125,17 +125,17 @@ $border-light: #eee;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 2.5rem;
-    height: 2.5rem;
-    background: rgba($white, 0.95);
-    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #eee;
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     z-index: 2;
     transition: all 0.3s ease;
-    @include flex-center;
-    justify-content: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
     &:hover {
       background: $white;
@@ -145,6 +145,13 @@ $border-light: #eee;
 
     &:active {
       transform: translateY(-50%) scale(0.95);
+    }
+    &--prev {
+        left: 5px;
+      }
+    
+    &--next {
+      right: 5px;
     }
 
     i {

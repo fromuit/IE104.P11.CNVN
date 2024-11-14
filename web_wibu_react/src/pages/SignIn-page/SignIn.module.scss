@@ -8,7 +8,7 @@ $colors: (
   input-focus: #e8f0fe,
   icon: #999,
   error: #ff3333,
-  overlay: rgba(0, 0, 0, 0.5),
+  overlay: rgba(191, 187, 187, 0.1),
   form-bg: rgba(255, 255, 255, 0.95),
   text-primary: #333,
   text-secondary: #666,
@@ -99,8 +99,8 @@ $colors: (
       height: 100%;
       background: linear-gradient(
         45deg,
-        rgba(map-get($colors, black), 0.5),
-        rgba(map-get($colors, black), 0.3)
+        map-get($colors, overlay),
+        map-get($colors, overlay)
       );
       z-index: 0;
     }
