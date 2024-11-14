@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import novelData from '../../../../data_and_source/Novel_Data/hako_data.json';
 import NovelStats from '../../../../data_and_source/Novel_Stats/Novel_Stats';
-import './Section-of-Home.css';
+import styles from './Section-of-Home.module.css';
 
 // Component cho tiêu đề section
 const SectionHeader = ({ title, link }) => (
-  <div className="section__header">
-    <h2 className="section__title">{title}</h2>
-    <Link to={link} className="section__more">
-      Xem thêm <i className="fas fa-chevron-right"></i>
+  <div className={styles["section__header"]}>
+    <h2 className={styles["section__title"]}>{title}</h2>
+    <Link to={link} className={styles["section__more"]}>
+      Xem thêm <i className={styles["fas fa-chevron-right"]}></i>
     </Link>
   </div>
 );
@@ -22,27 +22,27 @@ SectionHeader.propTypes = {
 
 // Component cho tabs của Top truyện
 const TopTabs = ({ activeTab, onTabChange }) => (
-  <div className="section__tabs">
+  <div className={styles["section__tabs"]}>
     <button 
-      className={`section__tab ${activeTab === 'week' ? 'active' : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'week' ? styles["active"] : ''}`}
       onClick={() => onTabChange('week')}
     >
       Top tuần
     </button>
     <button 
-      className={`section__tab ${activeTab === 'month' ? 'active' : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'month' ? styles["active"] : ''}`}
       onClick={() => onTabChange('month')}
     >
       Top tháng
     </button>
     <button 
-      className={`section__tab ${activeTab === 'year' ? 'active' : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'year' ? styles["active"] : ''}`}
       onClick={() => onTabChange('year')}
     >
       Top năm
     </button>
     <button 
-      className={`section__tab ${activeTab === 'all' ? 'active' : ''}`}
+      className={`${styles["section__tab"]} ${activeTab === 'all' ? styles["active"] : ''}`}
       onClick={() => onTabChange('all')}
     >
       Top toàn thời gian
@@ -60,25 +60,25 @@ const NovelCard = ({ novel, onView, onLike, variant, isTopNovel, likedNovels }) 
   const isLiked = likedNovels[novel.ID];
   
   return (
-    <div className="novel-card">
+    <div className={styles["novel-card"]}>
       <Link 
         to={`/info/${novel.ID}`} 
-        className="novel-card__image-link"
+        className={styles["novel-card__image-link"]}
         onClick={() => onView(novel.ID)}
       >
-        <div className="novel-card__image">
+        <div className={styles["novel-card__image"]}>
           <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
         </div>
-        <div className="novel-card__info">
-          <h3 className="novel-card__title">{novel["Tựa đề"]}</h3>
+        <div className={styles["novel-card__info"]}>
+          <h3 className={styles["novel-card__title"]}>{novel["Tựa đề"]}</h3>
           <NovelStats novel={novel} variant={variant} isTopNovel={isTopNovel} />
         </div>
       </Link>
       <button 
-        className={`novel-card__like-btn ${isLiked ? "liked" : ""}`}
+        className={`${styles["novel-card__like-btn"]} ${isLiked ? styles["liked"] : ""}`}
         onClick={() => onLike(novel.ID)}
       >
-        <i className="fas fa-heart"></i>
+        <i className={styles["fas fa-heart"]}></i>
         <span>{novel["Số like"]}</span>
       </button>
     </div>
@@ -112,18 +112,18 @@ const NovelGrid = ({ novels, showNavigation, activeTab, variant, onView, onLike,
   );
 
   return (
-    <div className="novel-grid-container">
+    <div className={styles["novel-grid-container"]}>
       {showNavigation && page > 0 && (
         <button 
-          className="novel-grid__nav novel-grid__nav--prev" 
+          className={styles["novel-grid__nav"]} 
           onClick={() => setPage(p => p - 1)}
           aria-label="Previous page"
         >
-          <i className="fas fa-chevron-left"></i>
+          <i className={styles["fas fa-chevron-left"]}></i>
         </button>
       )}
       
-      <div className="novel-grid" key={`${activeTab}-${page}-${variant}`}>
+      <div className={styles["novel-grid"]} key={`${activeTab}-${page}-${variant}`}>
         {currentNovels.map((novel, index) => (
           <NovelCard 
             key={`${novel.ID}-${index}`}
@@ -139,20 +139,20 @@ const NovelGrid = ({ novels, showNavigation, activeTab, variant, onView, onLike,
 
       {showNavigation && page < totalPages - 1 && (
         <button 
-          className="novel-grid__nav novel-grid__nav--next" 
+          className={styles["novel-grid__nav"]} 
           onClick={() => setPage(p => p + 1)}
           aria-label="Next page"
         >
-          <i className="fas fa-chevron-right"></i>
+          <i className={styles["fas fa-chevron-right"]}></i>
         </button>
       )}
 
       {showNavigation && totalPages > 1 && (
-        <div className="novel-grid__dots">
+        <div className={styles["novel-grid__dots"]}>
           {[...Array(totalPages)].map((_, index) => (
             <button
               key={index}
-              className={`novel-grid__dot ${index === page ? 'active' : ''}`}
+              className={`${styles["novel-grid__dot"]} ${index === page ? styles["active"] : ''}`}
               onClick={() => setPage(index)}
               aria-label={`Page ${index + 1}`}
             />
@@ -264,11 +264,11 @@ function Section() {
   }), [novels]);
 
   return (
-    <div className="section">
-      <section className="section__block">
+    <div className={styles["section"]}>
+      <section className={styles["section__block"]}>
         <SectionHeader title="Top truyện" link="/top-truyen" />
         <TopTabs activeTab={activeTopTab} onTabChange={setActiveTopTab} />
-        <div className="novel-grid-wrapper">
+        <div className={styles["novel-grid-wrapper"]}>
           <NovelGrid 
             novels={processedData.topNovels[activeTopTab]}
             showNavigation={true}
@@ -282,7 +282,7 @@ function Section() {
         </div>
       </section>
 
-      <section className="section__block">
+      <section className={styles["section__block"]}>
         <SectionHeader title="Mới cập nhật" link="/moi-cap-nhat" />
         <NovelGrid 
           novels={processedData.recentlyUpdated}
@@ -294,7 +294,7 @@ function Section() {
         />
       </section>
 
-      <section className="section__block">
+      <section className={styles["section__block"]}>
         <SectionHeader title="Truyện mới" link="/truyen-moi" />
         <NovelGrid 
           novels={processedData.newNovels}
@@ -306,7 +306,7 @@ function Section() {
         />
       </section>
 
-      <section className="section__block">
+      <section className={styles["section__block"]}>
         <SectionHeader title="Truyện đã hoàn thành" link="/truyen-da-hoan-thanh" />
         <NovelGrid 
           novels={processedData.completed}
@@ -318,7 +318,7 @@ function Section() {
         />
       </section>
 
-      <section className="section__block">
+      <section className={styles["section__block"]}>
         <SectionHeader title="Truyện sáng tác" link="/truyen-sang-tac" />
         <NovelGrid 
           novels={processedData.original}

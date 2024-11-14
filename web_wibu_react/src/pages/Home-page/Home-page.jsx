@@ -1,11 +1,11 @@
 import Header from '../../components/Header/Header';
 import MainOfHome from './Main-of-Home/Main-of-Home';
 import Footer from '../../components/Footer/Footer';
-import './Home-page.css';
+import styles from './Home-page.module.css';
 
 function HomePage() {
   return (
-    <div className="home-page">
+    <div className={styles["home-page"]}>
       <Header />
       <MainOfHome />
       <Footer />

@@ -1,11 +1,11 @@
 import Section from './Section-of-Home/Section-of-Home';
 import Aside from './Aside-of-Home/Aside-of-Home';
-import './Main-of-Home.css';
+import styles from './Main-of-Home.module.css';
 
 function Main() {
   return (
-    <main className="main">
-      <div className="main__container">
+    <main className={styles["main"]}>
+      <div className={styles["main__container"]}>
         <Section />
         <Aside />
       </div>
