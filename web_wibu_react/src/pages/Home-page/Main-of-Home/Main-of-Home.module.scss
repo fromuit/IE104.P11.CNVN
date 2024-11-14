@@ -1,0 +1,51 @@
+// Variables
+$breakpoints: (
+  large: 1400px,
+  medium: 1200px,
+  small: 1000px
+);
+
+$container-widths: (
+  large: 1100px,
+  medium: 1000px,
+  small: 900px
+);
+
+// Mixin for media queries
+@mixin respond-to($breakpoint) {
+  @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+.main {
+  flex: 1;
+  padding-top: 0;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 30px;
+  }
+}
+
+@include respond-to(large) {
+  .main__container {
+    max-width: map-get($container-widths, large);
+  }
+}
+
+@include respond-to(medium) {
+  .main__container {
+    max-width: map-get($container-widths, medium);
+  }
+}
+
+@include respond-to(small) {
+  .main__container {
+    max-width: map-get($container-widths, small);
+  }
+} 

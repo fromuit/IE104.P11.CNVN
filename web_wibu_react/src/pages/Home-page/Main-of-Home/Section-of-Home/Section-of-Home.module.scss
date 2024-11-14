@@ -1,0 +1,396 @@
+// Variables
+$primary-color: #2196f3;
+$primary-dark: #1976d2;
+$text-dark: #333;
+$text-light: #666;
+$white: #fff;
+$border-light: #eee;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin card-shadow {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+}
+
+@mixin hover-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+}
+
+// Animations
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// Main Styles
+.section {
+  width: 100%;
+  padding: 1rem 1rem 0.5rem;
+
+  &__block {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  // Header Styles
+  &__header {
+    @include flex-center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: $text-dark;
+    margin: 0;
+  }
+
+  &__more {
+    color: $primary-color;
+    text-decoration: none;
+    font-size: 0.9rem;
+    @include flex-center;
+    gap: 0.5rem;
+
+    &:hover {
+      color: $primary-dark;
+    }
+  }
+
+  // Tabs Styles
+  &__tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $border-light;
+    padding-bottom: 0.5rem;
+  }
+
+  &__tab {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: $text-light;
+    font-size: 0.9rem;
+    border-radius: 4px;
+
+    &:hover {
+      color: $primary-color;
+      background: #e3f2fd;
+    }
+
+    &.active {
+      color: $primary-color;
+      background: #e3f2fd;
+      font-weight: 500;
+    }
+  }
+}
+
+// Novel Grid Styles
+.novel-grid {
+  &-container {
+    position: relative;
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: fadeSlideIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
+
+  // Navigation
+  &__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+    background: rgba($white, 0.95);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease;
+    @include flex-center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+      background: $white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    &:active {
+      transform: translateY(-50%) scale(0.95);
+    }
+
+    i {
+      transition: transform 0.3s ease;
+    }
+  }
+
+  // Dots
+  &__dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  &__dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #ccc;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
+
+    &:hover {
+      background: #bbb;
+      transform: scale(1.2);
+    }
+
+    &.active {
+      background: $primary-color;
+      transform: scale(1.3);
+    }
+  }
+}
+
+// Novel Card Styles
+.novel-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: $white;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  @include card-shadow;
+  transition: all 0.3s ease;
+  width: 100%;
+  min-width: 10rem;
+  height: auto;
+
+  &:hover {
+    transform: translateY(-0.25rem);
+    @include hover-shadow;
+
+    .novel-card__image img {
+      transform: scale(1.05);
+    }
+  }
+
+  &__image {
+    &-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    position: relative;
+    aspect-ratio: 2/3;
+    width: 100%;
+    border-radius: 0.375rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      border-radius: 0.5rem;
+    }
+  }
+
+  &__info {
+    padding: 0.75rem 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 2.8em;
+  }
+
+  &__like-btn {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    background: rgba($white, 0.9);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem;
+    @include flex-center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    color: $text-light;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+
+    &:hover {
+      background: $white;
+      transform: scale(1.05);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    i {
+      color: #999;
+      font-size: 0.875rem;
+      transition: color 0.3s ease;
+    }
+
+    &.liked i {
+      color: #ff4081;
+    }
+  }
+}
+
+// Dark Mode Styles
+.dark-mode {
+  .section__title {
+    color: $white;
+  }
+
+  .novel-card {
+    background: #1a1a1a;
+    border-color: #333;
+
+    &__title {
+      color: $white;
+    }
+  }
+
+  .section__tab {
+    color: #999;
+
+    &:hover,
+    &.active {
+      background: rgba($primary-color, 0.1);
+    }
+  }
+
+  .novel-grid {
+    &__nav {
+      background: rgba(40, 40, 40, 0.9);
+      border-color: #333;
+
+      &:hover {
+        background: #282828;
+      }
+
+      i {
+        color: #aaa;
+      }
+    }
+
+    &__dot {
+      background-color: #444;
+
+      &:hover {
+        background-color: #666;
+      }
+
+      &.active {
+        background-color: $primary-color;
+      }
+    }
+  }
+}
+
+// Responsive Styles
+@media (max-width: 768px) {
+  .novel-grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    &__nav {
+      width: 36px;
+      height: 36px;
+
+      &--prev {
+        left: -18px;
+      }
+
+      &--next {
+        right: -18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .novel-grid {
+    grid-template-columns: 1fr;
+
+    &__nav {
+      display: none;
+    }
+
+    &__dots {
+      gap: 6px;
+    }
+
+    &__dot {
+      width: 6px;
+      height: 6px;
+    }
+  }
+
+  .section {
+    padding: 1rem 1rem 0.25rem;
+
+    &__tabs {
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+    }
+
+    &__block {
+      margin-bottom: 1rem;
+
+      &:last-child {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+} 

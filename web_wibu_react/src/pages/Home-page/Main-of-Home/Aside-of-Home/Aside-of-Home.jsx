@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Aside-of-Home.module.css';
+import styles from './Aside-of-Home.module.scss';
 import { useRef } from 'react'
 import avatarAside from '../../../../data_and_source/Images/Avatars/avatar.png';
 

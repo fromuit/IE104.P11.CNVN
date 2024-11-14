@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import novelData from '../../../../data_and_source/Novel_Data/hako_data.json';
 import NovelStats from '../../../../data_and_source/Novel_Stats/Novel_Stats';
-import styles from './Section-of-Home.module.css';
+import styles from './Section-of-Home.module.scss';
 
 // Component cho tiêu đề section
 const SectionHeader = ({ title, link }) => (
