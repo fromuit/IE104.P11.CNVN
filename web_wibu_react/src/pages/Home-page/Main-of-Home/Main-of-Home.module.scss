@@ -13,7 +13,7 @@ $container-widths: (
 
 // Mixin for media queries
 @mixin respond-to($breakpoint) {
-  @media screen and (max-width: map-get($breakpoints, $breakpoint)) {
+  @media screen and (max-width: map.get($breakpoints, $breakpoint)) {
     @content;
   }
 }
@@ -34,18 +34,18 @@ $container-widths: (
 
 @include respond-to(large) {
   .main__container {
-    max-width: map-get($container-widths, large);
+    max-width: map.get($container-widths, large);
   }
 }
 
 @include respond-to(medium) {
   .main__container {
-    max-width: map-get($container-widths, medium);
+    max-width: map.get($container-widths, medium);
   }
 }
 
 @include respond-to(small) {
   .main__container {
-    max-width: map-get($container-widths, small);
+    max-width: map.get($container-widths, small);
   }
 } 

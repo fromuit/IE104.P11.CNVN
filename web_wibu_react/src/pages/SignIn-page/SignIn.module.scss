@@ -35,9 +35,9 @@ $colors: (
 }
 
 @mixin glass-effect {
-  background: rgba(map-get($colors, white), 0.95);
+  background: rgba(map.get($colors, white), 0.95);
   backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px rgba(map-get($colors, black), 0.1);
+  box-shadow: 0 8px 32px rgba(map.get($colors, black), 0.1);
 }
 
 // Animations
@@ -68,12 +68,12 @@ $colors: (
 
   i {
     font-size: 20px;
-    color: map-get($colors, primary);
+    color: map.get($colors, primary);
   }
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 40px rgba(map-get($colors, black), 0.15);
+    box-shadow: 0 10px 40px rgba(map.get($colors, black), 0.15);
   }
 
   &:active {
@@ -99,8 +99,8 @@ $colors: (
       height: 100%;
       background: linear-gradient(
         45deg,
-        map-get($colors, overlay),
-        map-get($colors, overlay)
+        map.get($colors, overlay),
+        map.get($colors, overlay)
       );
       z-index: 0;
     }
@@ -124,7 +124,7 @@ $colors: (
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 2.5rem;
-    color: map-get($colors, primary);
+    color: map.get($colors, primary);
     position: relative;
     
     &::after {
@@ -135,7 +135,7 @@ $colors: (
       transform: translateX(-50%);
       width: 50px;
       height: 3px;
-      background: map-get($colors, primary);
+      background: map.get($colors, primary);
       border-radius: 2px;
     }
   }
@@ -147,7 +147,7 @@ $colors: (
     }
 
     &-field {
-      background: map-get($colors, input-bg);
+      background: map.get($colors, input-bg);
       margin: 1rem 0;
       border-radius: 12px;
       @include flex-center;
@@ -157,7 +157,7 @@ $colors: (
 
       i {
         margin-right: 1rem;
-        color: map-get($colors, icon);
+        color: map.get($colors, icon);
         font-size: 1.2rem;
         @include transition;
       }
@@ -169,19 +169,19 @@ $colors: (
         outline: 0;
         padding: 1rem;
         font-size: 1rem;
-        color: map-get($colors, text-primary);
+        color: map.get($colors, text-primary);
 
         &::placeholder {
-          color: map-get($colors, text-secondary);
+          color: map.get($colors, text-secondary);
         }
       }
 
       &:focus-within {
-        background: map-get($colors, input-focus);
-        box-shadow: 0 4px 12px rgba(map-get($colors, primary), 0.1);
+        background: map.get($colors, input-focus);
+        box-shadow: 0 4px 12px rgba(map.get($colors, primary), 0.1);
 
         i {
-          color: map-get($colors, primary);
+          color: map.get($colors, primary);
         }
       }
     }
@@ -189,7 +189,7 @@ $colors: (
 
   // Error Messages
   &-error {
-    color: map-get($colors, error);
+    color: map.get($colors, error);
     font-size: 0.85rem;
     margin-top: 0.5rem;
     display: flex;
@@ -208,13 +208,13 @@ $colors: (
     margin: 1rem 0;
 
     a {
-      color: map-get($colors, primary);
+      color: map.get($colors, primary);
       text-decoration: none;
       font-size: 0.9rem;
       @include transition;
 
       &:hover {
-        color: map-get($colors, primary-hover);
+        color: map.get($colors, primary-hover);
         text-decoration: underline;
       }
     }
@@ -228,8 +228,8 @@ $colors: (
     button {
       width: 100%;
       padding: 1rem;
-      background: map-get($colors, primary);
-      color: map-get($colors, white);
+      background: map.get($colors, primary);
+      color: map.get($colors, white);
       border: none;
       border-radius: 12px;
       font-size: 1rem;
@@ -238,9 +238,9 @@ $colors: (
       @include transition;
 
       &:hover {
-        background: map-get($colors, primary-hover);
+        background: map.get($colors, primary-hover);
         transform: translateY(-2px);
-        box-shadow: 0 4px 12px rgba(map-get($colors, primary), 0.2);
+        box-shadow: 0 4px 12px rgba(map.get($colors, primary), 0.2);
       }
 
       &:active {
@@ -253,16 +253,16 @@ $colors: (
   &-signup-link {
     margin-top: 1.5rem;
     font-size: 0.9rem;
-    color: map-get($colors, text-secondary);
+    color: map.get($colors, text-secondary);
 
     a {
-      color: map-get($colors, primary);
+      color: map.get($colors, primary);
       text-decoration: none;
       font-weight: 500;
       @include transition;
 
       &:hover {
-        color: map-get($colors, primary-hover);
+        color: map.get($colors, primary-hover);
         text-decoration: underline;
       }
     }

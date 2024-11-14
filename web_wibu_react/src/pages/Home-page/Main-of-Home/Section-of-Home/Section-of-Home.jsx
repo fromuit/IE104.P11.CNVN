@@ -113,14 +113,15 @@ const NovelGrid = ({ novels, showNavigation, activeTab, variant, onView, onLike,
 
   return (
     <div className={styles["novel-grid-container"]}>
-      <button 
-        className={`${styles["novel-grid__nav"]} ${styles["novel-grid__nav--prev"]} ${!showNavigation || page === 0 ? styles["hidden"] : ""}`}
-        onClick={() => setPage(p => p - 1)}
-        aria-label="Previous page"
-        disabled={!showNavigation || page === 0}
-      >
-        <i className="fas fa-chevron-left"></i>
-      </button>
+      {showNavigation && page > 0 && (
+        <button 
+          className={`${styles["novel-grid__nav"]} ${styles["novel-grid__nav--prev"]}`}
+          onClick={() => setPage(p => p - 1)}
+          aria-label="Previous page"
+        >
+          <i className="fas fa-chevron-left"></i>
+        </button>
+      )}
       
       <div className={styles["novel-grid"]} key={`${activeTab}-${page}-${variant}`}>
         {currentNovels.map((novel, index) => (
@@ -136,14 +137,15 @@ const NovelGrid = ({ novels, showNavigation, activeTab, variant, onView, onLike,
         ))}
       </div>
 
-      <button 
-        className={`${styles["novel-grid__nav"]} ${styles["novel-grid__nav--next"]} ${!showNavigation || page >= totalPages - 1 ? styles["hidden"] : ""}`}
-        onClick={() => setPage(p => p + 1)}
-        aria-label="Next page"
-        disabled={!showNavigation || page >= totalPages - 1}
-      >
-        <i className="fas fa-chevron-right"></i>
-      </button>
+      {showNavigation && page < totalPages - 1 && (
+        <button 
+          className={`${styles["novel-grid__nav"]} ${styles["novel-grid__nav--next"]}`}
+          onClick={() => setPage(p => p + 1)}
+          aria-label="Next page"
+        >
+          <i className="fas fa-chevron-right"></i>
+        </button>
+      )}
 
       {showNavigation && totalPages > 1 && (
         <div className={styles["novel-grid__dots"]}>
@@ -273,7 +275,7 @@ function Section() {
             activeTab={activeTopTab}
             onView={incrementView}
             onLike={toggleLike}
-            variant="original"
+            variant="top"
             isTopNovel={true}
             likedNovels={likedNovels}
           />
