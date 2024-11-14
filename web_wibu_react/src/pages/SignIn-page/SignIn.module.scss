@@ -1,0 +1,316 @@
+// Variables
+$colors: (
+  primary: #1a73e8,
+  primary-hover: #0b5fca,
+  white: #fff,
+  black: #000,
+  input-bg: #f0f2f5,
+  input-focus: #e8f0fe,
+  icon: #999,
+  error: #ff3333,
+  overlay: rgba(0, 0, 0, 0.5),
+  form-bg: rgba(255, 255, 255, 0.95),
+  text-primary: #333,
+  text-secondary: #666,
+  border: #e0e0e0
+);
+
+// Mixins
+@mixin flex-center($direction: row) {
+  display: flex;
+  align-items: center;
+  @if $direction == column {
+    flex-direction: column;
+  }
+}
+
+@mixin position-absolute($top: 0, $left: 0) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}
+
+@mixin transition($property: all, $duration: 0.3s) {
+  transition: $property $duration ease-in-out;
+}
+
+@mixin glass-effect {
+  background: rgba(map-get($colors, white), 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(map-get($colors, black), 0.1);
+}
+
+// Animations
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+// Home Navigation Button
+.home-nav-btn {
+  @include position-absolute($top: auto, $left: 20px);
+  bottom: 20px;
+  padding: 15px;
+  @include glass-effect;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  @include flex-center;
+  gap: 8px;
+  z-index: 1000;
+  @include transition;
+
+  i {
+    font-size: 20px;
+    color: map-get($colors, primary);
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px rgba(map-get($colors, black), 0.15);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+// Main Container
+.signin {
+  &-container {
+    width: 100%;
+    min-height: 100vh;
+    @include flex-center;
+    justify-content: flex-end;
+    padding: 2rem 8.5%;
+    position: relative;
+    animation: fadeIn 0.6s ease-out;
+
+    &::before {
+      content: '';
+      @include position-absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        45deg,
+        rgba(map-get($colors, black), 0.5),
+        rgba(map-get($colors, black), 0.3)
+      );
+      z-index: 0;
+    }
+  }
+
+  // Form Box
+  &-form-box {
+    width: 90%;
+    max-width: 450px;
+    @include glass-effect;
+    padding: 3rem 2.5rem;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  // Title
+  &-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    color: map-get($colors, primary);
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 3px;
+      background: map-get($colors, primary);
+      border-radius: 2px;
+    }
+  }
+
+  // Input Styles
+  &-input {
+    &-group {
+      margin: 1.5rem 0;
+    }
+
+    &-field {
+      background: map-get($colors, input-bg);
+      margin: 1rem 0;
+      border-radius: 12px;
+      @include flex-center;
+      padding: 0.5rem 1rem;
+      @include transition;
+      position: relative;
+
+      i {
+        margin-right: 1rem;
+        color: map-get($colors, icon);
+        font-size: 1.2rem;
+        @include transition;
+      }
+
+      input {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 1rem;
+        font-size: 1rem;
+        color: map-get($colors, text-primary);
+
+        &::placeholder {
+          color: map-get($colors, text-secondary);
+        }
+      }
+
+      &:focus-within {
+        background: map-get($colors, input-focus);
+        box-shadow: 0 4px 12px rgba(map-get($colors, primary), 0.1);
+
+        i {
+          color: map-get($colors, primary);
+        }
+      }
+    }
+  }
+
+  // Error Messages
+  &-error {
+    color: map-get($colors, error);
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    animation: shake 0.3s ease-in-out;
+
+    i {
+      font-size: 1rem;
+    }
+  }
+
+  // Forgot Password
+  &-forgot-password {
+    text-align: right;
+    margin: 1rem 0;
+
+    a {
+      color: map-get($colors, primary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      @include transition;
+
+      &:hover {
+        color: map-get($colors, primary-hover);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // Button Field
+  &-btn-field {
+    margin-top: 2rem;
+    width: 100%;
+
+    button {
+      width: 100%;
+      padding: 1rem;
+      background: map-get($colors, primary);
+      color: map-get($colors, white);
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      @include transition;
+
+      &:hover {
+        background: map-get($colors, primary-hover);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(map-get($colors, primary), 0.2);
+      }
+
+      &:active {
+        transform: translateY(0);
+      }
+    }
+  }
+
+  // Sign Up Link
+  &-signup-link {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: map-get($colors, text-secondary);
+
+    a {
+      color: map-get($colors, primary);
+      text-decoration: none;
+      font-weight: 500;
+      @include transition;
+
+      &:hover {
+        color: map-get($colors, primary-hover);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Responsive Design
+@media screen and (max-width: 768px) {
+  .signin {
+    &-container {
+      padding: 2rem;
+      justify-content: center;
+    }
+
+    &-form-box {
+      padding: 2rem 1.5rem;
+    }
+
+    &-title {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .signin {
+    &-form-box {
+      width: 100%;
+      padding: 1.5rem 1rem;
+    }
+
+    &-input-field {
+      padding: 0.25rem 0.75rem;
+
+      input {
+        padding: 0.75rem;
+      }
+    }
+
+    &-title {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .home-nav-btn {
+    left: 10px;
+    bottom: 10px;
+    padding: 12px;
+  }
+} 
