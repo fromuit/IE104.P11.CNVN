@@ -5,6 +5,7 @@ import Banner from '../../components/Header/Banner/Banner';
 import { searchNovels } from '../utils/searchUtils';
 import genreMapping from '../../data_and_source/Novel_Data/gerne_mapping.json';
 import './AdvancedSearch.css';
+import styles from './AdvancedSearch.module.scss';
 import PropTypes from 'prop-types';
 import Novel_Data from '../../data_and_source/Novel_Data/hako_data.json';
 
@@ -29,7 +30,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <button 
         key="first" 
         onClick={() => onPageChange(1)} 
-        className="pagination__button"
+        className={styles['pagination-button']}
         disabled={currentPage === 1}
       >
         <i className="fas fa-angle-double-left"></i>
@@ -37,7 +38,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <button 
         key="prev" 
         onClick={() => onPageChange(currentPage - 1)} 
-        className="pagination__button"
+        className={styles['pagination-button']}
         disabled={currentPage === 1}
       >
         <i className="fas fa-chevron-left"></i>
@@ -46,10 +47,10 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 
     if (startPage > 1) {
       pages.push(
-        <button key={1} onClick={() => onPageChange(1)} className="pagination__button">1</button>
+        <button key={1} onClick={() => onPageChange(1)} className={styles['pagination-button']}>1</button>
       );
       if (startPage > 2) {
-        pages.push(<span key="dots1" className="pagination__dots">...</span>);
+        pages.push(<span key="dots1" className={styles['pagination-dots']}>...</span>);
       }
     }
 
@@ -58,7 +59,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <button
           key={i}
           onClick={() => onPageChange(i)}
-          className={`pagination__button ${currentPage === i ? 'active' : ''}`}
+          className={`${styles['pagination-button']} ${currentPage === i ? styles['pagination-button.active'] : ''}`}
         >
           {i}
         </button>
@@ -67,10 +68,10 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
 
     if (endPage < totalPages) {
       if (endPage < totalPages - 1) {
-        pages.push(<span key="dots2" className="pagination__dots">...</span>);
+        pages.push(<span key="dots2" className={styles['pagination-dots']}>...</span>);
       }
       pages.push(
-        <button key={totalPages} onClick={() => onPageChange(totalPages)} className="pagination__button">
+        <button key={totalPages} onClick={() => onPageChange(totalPages)} className={styles['pagination-button']}>
           {totalPages}
         </button>
       );
@@ -80,7 +81,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <button 
         key="next" 
         onClick={() => onPageChange(currentPage + 1)} 
-        className="pagination__button"
+        className={styles['pagination-button']}
         disabled={currentPage === totalPages}
       >
         <i className="fas fa-chevron-right"></i>
@@ -88,7 +89,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
       <button 
         key="last" 
         onClick={() => onPageChange(totalPages)} 
-        className="pagination__button"
+        className={styles['pagination-button']}
         disabled={currentPage === totalPages}
       >
         <i className="fas fa-angle-double-right"></i>
@@ -98,7 +99,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     return pages;
   };
 
-  return <div className="pagination">{renderPaginationButtons()}</div>;
+  return <div className={styles['pagination']}>{renderPaginationButtons()}</div>;
 };
 
 
@@ -189,17 +190,17 @@ function AdvancedSearch() {
   }, [searchQuery, selectedGenres, sortBy, currentPage]);
 
   return (
-    <div className="advanced-search-page">
+    <div className={styles['advanced-search-page']}>
       <TopNav />
       <Banner />
-      <div className="back-to-home">
+      {/* <div className="back-to-home">
         <Link to="/">
           <i className="fas fa-arrow-left"></i> Về trang chủ
         </Link>
-      </div>
+      </div> */}
       
-      <div className="main-content">
-        <div className="search-container">
+      <div className={styles['main-content']}>
+        <div className={styles['searchbar-container']}>
           {/* Comment lại form và button tìm kiếm để có thể sử dụng sau này
         <form onSubmit={handleSearch}>
           <div className="search-input-container">
@@ -221,17 +222,17 @@ function AdvancedSearch() {
             value={searchQuery}
             onChange={handleSearchInputChange}
             placeholder="Nhập tên truyện, tác giả..."
-            className="search-input"
+            className={styles['searchbar-input']}
           />
           
-          <div className="genres-section">
-            <div className="genres-header">
-              <div className="genres-title">
+          <div className={styles['genres-section']}>
+            <div className={styles['genres-header']}>
+              <div className={styles['genres-title']}>
                 <h3>Thể loại</h3>
               </div>
               <button 
                 type="button"
-                className="toggle-genres-btn"
+                className={styles['genres-toggle']}
                 onClick={() => setIsGenresExpanded(!isGenresExpanded)}
               >
                 {isGenresExpanded ? (
@@ -241,16 +242,9 @@ function AdvancedSearch() {
                 )}
               </button>
             </div>
-            <div className={`genres-grid ${isGenresExpanded ? "expanded" : ""}`}>
-              <button 
-                type="button"
-                className="clear-all-btn"
-                onClick={handleClearGenres}
-              >
-                <i className="fas fa-times"></i> Bỏ chọn tất cả
-              </button>
+            <div className={`${styles['genres-grid']} ${isGenresExpanded ? styles['expanded'] : ""}`}>
               {genres.map(genre => (
-                <label key={genre.english} className="genre-checkbox">
+                <label key={genre.english} className={styles['genres-checkbox']}>
                   <input
                     type="checkbox"
                     checked={selectedGenres.includes(genre.english)}
@@ -259,14 +253,21 @@ function AdvancedSearch() {
                   {genre.vietnamese}
                 </label>
               ))}
+              <button 
+                type="button"
+                className={styles['genres-clear-all']}
+                onClick={handleClearGenres}
+              >
+                <i className="fas fa-times"></i> Bỏ chọn tất cả
+              </button>
             </div>
           </div>
 
-          <div className="sort-section">
+          <div className={styles['sort-section']}>
             <h3>Sắp xếp theo</h3>
-            <div className="sort-grid">
+            <div className={styles['sort-grid']}>
               {sortOptions.map(option => (
-                <label key={option.value} className="sort-checkbox">
+                <label key={option.value} className={styles['sort-checkbox']}>
                   <input
                     type="radio"
                     checked={sortBy === option.value}
@@ -279,15 +280,15 @@ function AdvancedSearch() {
             </div>
           </div>
 
-          <div className="search-results">
+          <div className={styles['search-results']}>
             {currentNovels.length > 0 ? (
               <>
-                <div className="novels-grid">
+                <div className={styles['novels-grid']}>
                   {currentNovels.map(novel => (
                     <Link 
                       to={`/info/${novel.ID}`} 
                       key={novel.ID} 
-                      className={`novel-card ${isAnimating ? 'novel-card-animate' : ''}`}
+                      className={`${styles['novel-card']} ${isAnimating ? styles['novel-card-animated'] : ''}`}
                     >
                       <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
                       <h3>{novel["Tựa đề"]}</h3>
@@ -297,7 +298,7 @@ function AdvancedSearch() {
                 </div>
 
                 {totalPages > 1 && (
-                  <div className="pagination-container bottom-pagination">
+                  <div className={styles['pagination-container-bottom']}>
                     <Pagination 
                       currentPage={currentPage} 
                       totalPages={totalPages} 
@@ -307,12 +308,12 @@ function AdvancedSearch() {
                 )}
               </>
             ) : (
-              <div className="no-results">
+              <div className={styles['no-results']}>
                 <i className="fas fa-search"></i>
-                <p className="main-text">Không tìm thấy truyện phù hợp</p>
+                <p className={styles['no-results-main_text']}>Không tìm thấy truyện phù hợp!!</p>
                 {(searchQuery || selectedGenres.length > 0) && (  
-                  <p className="sub-text">
-                    Hãy thử tìm kiếm với từ khóa khác hoặc điều chỉnh lại bộ lọc thể loại
+                  <p className={styles['no-results-sub_text']}>
+                    Hãy thử tìm kiếm với từ khóa khác hoặc điều chỉnh lại bộ lọc thể loại nhé!
                   </p>
                 )}
               </div>
