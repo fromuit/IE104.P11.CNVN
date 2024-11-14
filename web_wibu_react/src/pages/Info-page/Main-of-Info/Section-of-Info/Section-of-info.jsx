@@ -1,5 +1,5 @@
-
-import './Section-of-info.css';
+// import './Section-of-info.css';
+import styles from './Section-of-Info.module.scss';
 import PropTypes from 'prop-types';
 
 function SectionOfInfo({ novel }) {
@@ -28,84 +28,86 @@ function SectionOfInfo({ novel }) {
   };
 
   return (
-    <section className="section-info">
-      <div className="novel-basic-info">
-        <h1 className="novel-title">{novel["Tựa đề"]}</h1>
+    <section className={styles["section-info"]}>
+      <div className={styles["novel-basic-info"]}>
+        <h1 className={styles["novel-title"]}>{novel["Tựa đề"]}</h1>
         {novel["Fname"] && novel["Fname"] !== "NOT FOUND" && (
-          <h2 className="novel-alt-title">{novel["Fname"]}</h2>
+          <h2 className={styles["novel-alt-title"]}>{novel["Fname"]}</h2>
         )}
         
         <div className="novel-genres">
           {novel["Thể loại"].filter(genre => genre !== "").map((genre, index) => (
-            <span key={index} className="genre-tag">{genre}</span>
+            <span key={index} className={styles["genre-tag"]}>{genre}</span>
           ))}
         </div>
 
-        <div className="novel-meta">
-          <div className="meta-item">
-            <span className="meta-label">Tác giả:</span>
-            <span className="meta-value">{novel["Tác giả"]}</span>
+        <div className={styles["novel-author-info"]}>
+          <div className={styles["meta-item"]}>
+            <span className={styles["meta-label"]}>Tác giả:</span>
+            <span className={styles["meta-value"]}>{novel["Tác giả"]}</span>
           </div>
-          <div className="meta-item">
-            <span className="meta-label">Họa sĩ:</span>
-            <span className="meta-value">
+          <div className={styles["meta-item"]}>
+            <span className={styles["meta-label"]}>Họa sĩ:</span>
+            <span className={styles["meta-value"]}>
               {novel["Họa sĩ"] !== "NOT FOUND" ? novel["Họa sĩ"] : "Chưa cập nhật"}
             </span>
           </div>
-          <div className="meta-item">
-            <span className="meta-label">Tình trạng:</span>
-            <span className="meta-value status-tag">{novel["Tình trạng"]}</span>
+          <div className={styles["meta-item"]}>
+            <span className={styles["meta-label"]}>Tình trạng:</span>
+            <span className={`${styles["meta-value"]} ${styles["status-tag"]} ${styles[novel["Tình trạng"].toLowerCase().replace(/ /g, "-")]}`}>
+              {novel["Tình trạng"]}
+            </span>
           </div>
         </div>
 
-        <div className="novel-stats">
-          <div className="stat-box">
+        <div className={styles["novel-stats"]}>
+          <div className={styles["stat-box"]}>
             <i className="fas fa-book"></i>
-            <div className="stat-content">
-              <span className="stat-value">{novel["Số từ"].toLocaleString()}</span>
-              <span className="stat-label">Số từ</span>
+            <div className={styles["stat-content"]}>
+              <span className={styles["stat-value"]}>{novel["Số từ"].toLocaleString()}</span>
+              <span className={styles["stat-label"]}>Từ</span>
             </div>
           </div>
-          <div className="stat-box">
+          <div className={styles["stat-box"]}>
             <i className="fas fa-heart"></i>
-            <div className="stat-content">
-              <span className="stat-value">{novel["Số like"]}</span>
-              <span className="stat-label">Lượt thích</span>
+            <div className={styles["stat-content"]}>
+              <span className={styles["stat-value"]}>{novel["Số like"]}</span>
+              <span className={styles["stat-label"]}>Lượt thích</span>
             </div>
           </div>
-          <div className="stat-box">
+          <div className={styles["stat-box"]}>
             <i className="fas fa-eye"></i>
-            <div className="stat-content">
-              <span className="stat-value">{novel["Số lượt xem"].toLocaleString()}</span>
-              <span className="stat-label">Lượt xem</span>
+            <div className={styles["stat-content"]}>
+              <span className={styles["stat-value"]}>{novel["Số lượt xem"].toLocaleString()}</span>
+              <span className={styles["stat-label"]}>Lượt xem</span>
             </div>
           </div>
         </div>
 
-        <div className="novel-details">
-          <div className="detail-row">
-            <span className="detail-label">Nhóm dịch:</span>
-            <a href={novel["Link nhóm dịch"]} className="detail-value link">
+        <div className={styles["novel-additional-info"]}>
+          <div className={styles["add-info-row"]}>
+            <span className={styles["add-info-label"]}>Nhóm dịch</span>
+            <a href={novel["Link nhóm dịch"]} className={styles["add-info-value--link"]}>
               {novel["Nhóm dịch"]}
             </a>
           </div>
-          <div className="detail-row">
-            <span className="detail-label">Người dịch:</span>
-            <a href={novel["Link người dịch"]} className="detail-value link">
+          <div className={styles["add-info-row"]}>
+            <span className={styles["add-info-label"]}>Người dịch</span>
+            <a href={novel["Link người dịch"]} className={styles["add-info-value--link"]}>
               {novel["Người dịch"]}
             </a>
           </div>
-          <div className="detail-row">
-            <span className="detail-label">Số tập:</span>
-            <span className="detail-value">{novel["Số tập"]}</span>
+          <div className={styles["add-info-row"]}>
+            <span className={styles["add-info-label"]}>Số tập</span>
+            <span className={styles["add-info-value"]}>{novel["Số tập"]}</span>
           </div>
-          <div className="detail-row">
-            <span className="detail-label">Số chương:</span>
-            <span className="detail-value">{novel["Số chương"]}</span>
+          <div className={styles["add-info-row"]}>
+            <span className={styles["add-info-label"]}>Số chương</span>
+            <span className={styles["add-info-value"]}>{novel["Số chương"]}</span>
           </div>
-          <div className="detail-row">
-            <span className="detail-label">Cập nhật:</span>
-            <span className="detail-value">
+          <div className={styles["add-info-row"]}>
+            <span className={styles["add-info-label"]}>Cập nhật lần cuối</span>
+            <span className={styles["add-info-value"]}>
               {formatDate(
                 novel["Ngày cập nhật cuối"],
                 novel["Tháng cập nhật cuối"],

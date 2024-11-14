@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header';
 import MainOfInfo from './Main-of-Info/Main-of-Info';
 import Footer from '../../components/Footer/Footer';
 import novelData from '../../data_and_source/Novel_Data/hako_data.json';
-import './Info-page.css';
+import styles from './Info-page.module.scss';
 
 function InfoPage() {
   const { id } = useParams();
@@ -17,7 +17,7 @@ function InfoPage() {
 
   if (!novel) {
     return (
-      <div className="info-page">
+      <div className={styles["info-page"]}>
         <Header />
         <div className="not-found">Không tìm thấy truyện</div>
         <Footer />
@@ -26,7 +26,7 @@ function InfoPage() {
   }
 
   return (
-    <div className="info-page">
+    <div className={styles["info-page"]}>
       <Header />
       <MainOfInfo novel={novel} />
       <Footer />
