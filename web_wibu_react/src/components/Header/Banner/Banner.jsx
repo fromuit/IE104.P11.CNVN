@@ -1,6 +1,7 @@
 import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Banner.css';
+import { bannerArray } from '../../../data_and_source/Images/Banners/index.js';
 
 function Banner() {
   const location = useLocation();
@@ -10,39 +11,7 @@ function Banner() {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   // Data mẫu - sau này có thể thay bằng API call
-  const banners = [
-    {
-      id: 1,
-      image: '/src/data_and_source/Images/banner1.png',
-      link: '/info/1',
-      title: 'Banner 1'
-    },
-    {
-      id: 2,
-      image: '/src/data_and_source/Images/banner2.png',
-      link: '/info/2',
-      title: 'Banner 2'
-    },
-    {
-      id: 3,
-      image: '/src/data_and_source/Images/banner3.png',
-      link: '/info/3',
-      title: 'Banner 3'
-    },
-    // Thêm banner khác ở đây
-    {
-      id: 4,
-      image: '/src/data_and_source/Images/banner4.jpg',
-      link: '/info/4',
-      title: 'Banner 4'
-    },
-    {
-      id: 5,
-      image: '/src/data_and_source/Images/banner5.png',
-      link: '/info/60',
-      title: 'Banner 5'
-    }
-  ];
+  const banners = bannerArray;
 
   // Chuyển slide tự động
   useEffect(() => {
