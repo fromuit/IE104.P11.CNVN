@@ -1,0 +1,153 @@
+// Banner
+
+.banner {
+    width: 100%;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background: #f5f5f5;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+    &__container {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-top: 60px;
+    }
+
+    &__slides {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        will-change: transform;
+
+        &__item {
+            min-width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.8;
+            transition: opacity 0.5s ease;
+
+            &--active {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__image-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            transition: transform 0.5s ease;
+        }
+    }
+
+    &__nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        z-index: 2;
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        &--prev {
+            left: 20px;
+        }
+
+        &--next {
+            right: 20px;
+        }
+    }
+
+    &__dots {
+        position: absolute;
+        bottom: 10px; /* Tăng khoảng cách với bottom */
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 12px; /* Tăng khoảng cách giữa các dots */
+        z-index: 2;
+        padding: 10px 15px; /* Thêm padding */
+        background: rgba(0, 0, 0, 0.3); /* Thêm background mờ */
+        border-radius: 20px; /* Bo tròn viền */
+
+        &__item {
+            width: 14px; /* Tăng kích thước */
+            height: 14px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.8); /* Thêm viền */
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 0;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.8);
+                transform: scale(1.2); /* Hiệu ứng phóng to khi hover */
+            }
+
+            &--active {
+                background: white;
+                transform: scale(1.2); /* Dot đang active sẽ to hơn */
+                border-color: white; /* Viền trắng đậm hơn cho dot active */
+                box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); /* Thêm glow effect */
+            }
+        }
+    }
+    // Modifier cho compact version
+    &--compact {
+        flex: none; // Ghi đè thuộc tính flex
+        height: 160px;
+
+        .banner__container {
+            padding-top: 40px;
+        }
+
+        .banner__nav {
+            width: 30px;
+            height: 30px;
+
+            &--prev {
+                left: 10px;
+            }
+
+            &--next {
+                right: 10px;
+            }
+        }
+    }
+}

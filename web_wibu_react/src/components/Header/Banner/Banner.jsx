@@ -1,6 +1,7 @@
 import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Banner.css';
+import styles from './Banner.module.scss';
 import { bannerArray } from '../../../data_and_source/Images/Banners/index.js';
 
 function Banner() {
@@ -66,26 +67,25 @@ function Banner() {
 
   return (
     <div 
-      className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
+      className={`${styles["banner"]} ${!isHomePage ? styles["banner--compact"] : ""}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="banner__container">
+      <div className={styles["banner__container"]}>
         <div 
-          className="banner__slides"
+          className={styles["banner__slides"]}
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
         >
           {banners.map((banner) => (
             <Link 
               key={banner.id}
               to={banner.link}
-              className="banner__slide"
+              className={styles["banner__slides__item"]}
             >
-              <div className="banner__image-wrapper">
+              <div className={styles["banner__image-wrapper"]}>
                 <img 
                   src={banner.image} 
                   alt={banner.title}
-                  className="banner__image"
                   onLoad={handleImageLoad}
                 />
               </div>
@@ -95,14 +95,14 @@ function Banner() {
 
         {/* Navigation Arrows */}
         <button 
-          className="banner__nav banner__nav--prev"
+          className={`${styles["banner__nav"]} ${styles["banner__nav--prev"]}`}
           onClick={goToPrevSlide}
           aria-label="Previous banner"
         >
           <i className="fas fa-chevron-left"></i>
         </button>
         <button 
-          className="banner__nav banner__nav--next"
+          className={`${styles["banner__nav"]} ${styles["banner__nav--next"]}`}
           onClick={goToNextSlide}
           aria-label="Next banner"
         >
@@ -110,11 +110,13 @@ function Banner() {
         </button>
 
         {/* Dots Navigation */}
-        <div className="banner__dots">
+        <div className={styles["banner__dots"]}>
           {banners.map((_, index) => (
             <button
               key={index}
-              className={`banner__dot ${currentSlide === index ? 'active' : ''}`}
+              className={`${styles["banner__dots__item"]} ${
+                currentSlide === index ? styles["banner__dots__item--active"] : ""
+              }`}
               onClick={() => goToSlide(index)}
               aria-label={`Go to banner ${index + 1}`}
             />
