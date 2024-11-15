@@ -1,13 +1,19 @@
-import React from "react";
+// import React from "react";
 // import './Novel_Stats.css';
 import styles from './Novel_Stats.module.scss';
-
+import PropTypes from 'prop-types';
 const NovelStats = ({
   novel,
   variant = "original",
   showLikes = true,
   showFullNumbers = false
 }) => {
+  NovelStats.propTypes = {
+    novel: PropTypes.object.isRequired,
+    variant: PropTypes.string,
+    showLikes: PropTypes.bool,
+    showFullNumbers: PropTypes.bool
+  };
   // Helper function to format numbers
   const formatNumber = (num) => {
     if (num === undefined || num === null) return '0';
