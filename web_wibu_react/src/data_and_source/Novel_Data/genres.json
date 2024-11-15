@@ -4,108 +4,245 @@
       "id": 1,
       "name": "Bí Ẩn",
       "slug": "bi-an",
+      "englishName": "Mystery",
       "description": "Bí ẩn mãi mãi là bí ẩn."
     },
     {
       "id": 2,
-      "name": "Drama",
-      "slug": "drama",
-      "description": "Plot twist bạn không đỡ được đâu."
+      "name": "Bi Kịch",
+      "slug": "bi-kich",
+      "englishName": "Tragedy",
+      "description": "Những câu chuyện bi thương lay động lòng người."
     },
     {
       "id": 3,
-      "name": "Đời Thường",
-      "slug": "doi-thuong",
-      "description": "Những câu chuyện đời thường giản dị nhưng lại gây ấn tượng sâu sắc."
+      "name": "Cooking",
+      "slug": "cooking",
+      "englishName": "Cooking",
+      "description": "Thế giới ẩm thực đầy màu sắc."
     },
     {
       "id": 4,
-      "name": "Ecchi",
-      "slug": "ecchi",
-      "description": "Đánh thức 'bản ngã khác' của bạn."
+      "name": "Chuyển Giới",
+      "slug": "chuyen-gioi",
+      "englishName": "Gender Bender",
+      "description": "Khám phá bản thể mới của chính mình."
     },
     {
       "id": 5,
-      "name": "Giả Tưởng",
-      "slug": "gia-tuong",
-      "description": "Những tình tiết giả tưởng nhưng lại chân thật đến lạ lùng."
+      "name": "Drama",
+      "slug": "drama",
+      "englishName": "Drama",
+      "description": "Plot twist bạn không đỡ được đâu."
     },
     {
       "id": 6,
-      "name": "Hài Hước",
-      "slug": "hai-huoc",
-      "description": "Một nụ cười bằng mười thang thuốc bổ."
+      "name": "Đời Thường",
+      "slug": "doi-thuong",
+      "englishName": "Slice of Life",
+      "description": "Những câu chuyện đời thường giản dị nhưng lại gây ấn tượng sâu sắc."
     },
     {
       "id": 7,
-      "name": "Hành Động",
-      "slug": "hanh-dong",
-      "description": "Nghẹt thở đến từng chi tiết"
+      "name": "Ecchi",
+      "slug": "ecchi",
+      "englishName": "Ecchi",
+      "description": "Đánh thức 'bản ngã khác' của bạn."
     },
     {
       "id": 8,
-      "name": "Harem",
-      "slug": "harem",
-      "description": "Xây dựng một hậu cung của riêng bạn."
+      "name": "Giả Tưởng",
+      "slug": "gia-tuong",
+      "englishName": "Fantasy",
+      "description": "Những tình tiết giả tưởng nhưng lại chân thật đến lạ lùng."
     },
     {
       "id": 9,
-      "name": "Học Đường",
-      "slug": "hoc-duong",
-      "description": "Khoảnh khắc thanh xuân vườn trường đáng nhớ nhất đời người."
+      "name": "Hài Hước",
+      "slug": "hai-huoc",
+      "englishName": "Comedy",
+      "description": "Một nụ cười bằng mười thang thuốc bổ."
     },
     {
       "id": 10,
-      "name": "Kinh Dị",
-      "slug": "kinh-di",
-      "description": "Cảm giác run sợ đến từng tế bào."
+      "name": "Hành Động",
+      "slug": "hanh-dong",
+      "englishName": "Action",
+      "description": "Nghẹt thở đến từng chi tiết."
     },
     {
       "id": 11,
-      "name": "Khoa Học Viễn Tưởng",
-      "slug": "khoa-hoc-vien-tuong",
-      "description": "Khi nền văn minh con người đạt đến một tầm cao mới."
+      "name": "Harem",
+      "slug": "harem",
+      "englishName": "Harem",
+      "description": "Xây dựng một hậu cung của riêng bạn."
     },
     {
       "id": 12,
-      "name": "Lãng Mạn",
-      "slug": "lang-man",
-      "description": "Những câu chuyện tình yêu đẹp đẽ nhất khiến bạn ganh tị."
+      "name": "Học Đường",
+      "slug": "hoc-duong",
+      "englishName": "School Life",
+      "description": "Khoảnh khắc thanh xuân vườn trường đáng nhớ nhất đời người."
     },
     {
       "id": 13,
-      "name": "Loạn Luân",
-      "slug": "loan-luan",
-      "description": "Chỉ là thể hiện tình cảm gia đình thân mật thôi."
+      "name": "Isekai",
+      "slug": "isekai",
+      "englishName": "Isekai",
+      "description": "Phiêu lưu trong thế giới mới."
     },
     {
       "id": 14,
-      "name": "Mecha",
-      "slug": "mecha",
-      "description": "Máy móc cũng có cảm xúc đấy."
+      "name": "Kinh Dị",
+      "slug": "kinh-di",
+      "englishName": "Horror",
+      "description": "Cảm giác đáng sợ đến từng tế bào."
     },
     {
       "id": 15,
-      "name": "Phiêu Lưu",
-      "slug": "phieu-luu",
-      "description": "Xách balo lên và đi thôi."
+      "name": "Khoa Học Viễn Tưởng",
+      "slug": "khoa-hoc-vien-tuong",
+      "englishName": "Science Fiction",
+      "description": "Khi nền văn minh con người đạt đến một tầm cao mới."
     },
     {
       "id": 16,
-      "name": "Seinen",
-      "slug": "seinen",
-      "description": "Những câu chuyện dành cho con trai."
+      "name": "Lãng Mạn",
+      "slug": "lang-man",
+      "englishName": "Romance",
+      "description": "Những câu chuyện tình yêu đẹp đẽ nhất."
     },
     {
       "id": 17,
-      "name": "Siêu Năng Lực",
-      "slug": "sieu-nang-luc",
-      "description": "..."
+      "name": "Lịch Sử",
+      "slug": "lich-su",
+      "englishName": "Historical",
+      "description": "Hành trình ngược dòng thời gian."
     },
     {
       "id": 18,
+      "name": "Loạn Luân",
+      "slug": "loan-luan",
+      "englishName": "Incest",
+      "description": "..."
+    },
+    {
+      "id": 19,
+      "name": "Magic",
+      "slug": "magic",
+      "englishName": "Magic",
+      "description": "Thế giới của phép thuật và ma pháp."
+    },
+    {
+      "id": 20,
+      "name": "Mecha",
+      "slug": "mecha",
+      "englishName": "Mecha",
+      "description": "Máy móc cũng có cảm xúc đấy."
+    },
+    {
+      "id": 21,
+      "name": "Otome Game",
+      "slug": "otome-game",
+      "englishName": "Otome Game",
+      "description": "..."
+    },
+    {
+      "id": 22,
+      "name": "Phiêu Lưu",
+      "slug": "phieu-luu",
+      "englishName": "Adventure",
+      "description": "Xách balo lên và đi thôi."
+    },
+    {
+      "id": 23,
+      "name": "Quân Sự",
+      "slug": "quan-su",
+      "englishName": "Military",
+      "description": "..."
+    },
+    {
+      "id": 24,
+      "name": "Seinen",
+      "slug": "seinen",
+      "englishName": "Seinen",
+      "description": "Những câu chuyện dành cho con trai."
+    },
+    {
+      "id": 25,
+      "name": "Shoujo",
+      "slug": "shoujo",
+      "englishName": "Shoujo",
+      "description": "..."
+    },
+    {
+      "id": 26,
+      "name": "Shoujo ai",
+      "slug": "shoujo-ai",
+      "englishName": "Shoujo Ai",
+      "description": "..."
+    },
+    {
+      "id": 27,
+      "name": "Shounen",
+      "slug": "shounen",
+      "englishName": "Shounen",
+      "description": "..."
+    },
+    {
+      "id": 28,
+      "name": "Siêu Năng Lực",
+      "slug": "sieu-nang-luc",
+      "englishName": "Super Power",
+      "description": "..."
+    },
+    {
+      "id": 29,
       "name": "Siêu Nhiên",
       "slug": "sieu-nhien",
+      "englishName": "Supernatural",
+      "description": "..."
+    },
+    {
+      "id": 30,
+      "name": "Suspense",
+      "slug": "suspense",
+      "englishName": "Suspense",
+      "description": "..."
+    },
+    {
+      "id": 31,
+      "name": "Tâm Lý",
+      "slug": "tam-ly",
+      "englishName": "Psychological",
+      "description": "Đào sâu vào những góc khuất của tâm hồn."
+    },
+    {
+      "id": 32,
+      "name": "Thể Thao",
+      "slug": "the-thao",
+      "englishName": "Sports",
+      "description": "Đam mê và nhiệt huyết của tuổi trẻ."
+    },
+    {
+      "id": 33,
+      "name": "Trưởng Thành",
+      "slug": "truong-thanh",
+      "englishName": "Adult",
+      "description": "..."
+    },
+    {
+      "id": 34,
+      "name": "Wars",
+      "slug": "wars",
+      "englishName": "Wars",
+      "description": "..."
+    },
+    {
+      "id": 35,
+      "name": "Web Novel",
+      "slug": "web-novel",
+      "englishName": "Web Novel",
       "description": "..."
     }
   ]
