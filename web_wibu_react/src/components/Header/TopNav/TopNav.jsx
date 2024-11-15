@@ -1,6 +1,7 @@
 import  { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import './TopNav.css';
+// import './TopNav.css';
+import styles from './TopNav.module.scss';
 import { searchNovelsRealtime, getAllGenres } from '../../../features/utils/searchUtils';
 import avatar from '../../../data_and_source/Images/Avatars/avatar.png';
 
@@ -95,14 +96,14 @@ function TopNav() {
 
   return (
     <div className="top-nav-wrapper">
-      <nav className={`top-nav ${isHomePage ? '' : 'top-nav--compact'}`}>
-        <div className="top-nav__container">
-          <a href="/" className="top-nav__logo">
+      <nav className={`${styles["top-nav"]} ${isHomePage ? '' : styles["top-nav--compact"]}`}>
+        <div className={styles["top-nav__container"]}>
+          <a href="/" className={styles["top-nav__logo"]}>
             <img src="/src/data_and_source/Images/logo.png" alt="Logo" />
           </a>
 
           <form 
-            className="top-nav__search"
+            className={styles["top-nav__searchbar"]}
             onSubmit={(e) => {
               e.preventDefault();
               handleSearchClick(e);
@@ -116,11 +117,11 @@ function TopNav() {
               onFocus={() => setShowResults(true)}
             />
             {showResults && searchResults.length > 0 && (
-              <div className="search-results-dropdown">
+              <div className={styles["top-nav__search-results"]}>
                 {searchResults.map(novel => (
                   <div
                     key={novel.ID}
-                    className="search-result-item"
+                    className={styles["top-nav__search-results-item"]}
                     onClick={() => handleSearchResultClick(novel.ID)}
                   >
                     <img 
@@ -131,18 +132,18 @@ function TopNav() {
                         e.target.src = '/images/default-cover.jpg';
                       }}
                     />
-                    <div className="search-result-info">
-                      <div className="search-result-title">{novel["Tựa đề"]}</div>
-                      <div className="search-result-author">{novel["Tác giả"]}</div>
+                    <div className={styles["top-nav__search-results-item-info"]}>
+                      <div className={styles["title"]}>{novel["Tựa đề"]}</div>
+                      <div className={styles["author"]}>{novel["Tác giả"]}</div>
                     </div>
                   </div>
                 ))}
               </div>
             )}
-            <div className="search-divider"></div>
+            <div className={styles["top-nav__searchbar__divider"]}></div>
             <button 
               type="button"
-              className="search-button-small"
+              className={styles["top-nav__searchbar__button"]}
               onClick={handleSearchClick}
               title="Tìm kiếm"
             >
@@ -150,7 +151,7 @@ function TopNav() {
             </button>
           </form>
 
-          <div className="top-nav__genres">
+          {/* <div className="top-nav__genres">
             <div className="genres-dropdown">
               <button className="genres-button">
                 Thể loại <i className="fas fa-chevron-down"></i>
@@ -167,11 +168,11 @@ function TopNav() {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="top-nav__actions">
+          <div className={styles["top-nav__actions"]}>
             <button 
-              className="theme-toggle"
+              className={styles["theme-toggle"]}
               onClick={toggleTheme}
               title="Chuyển đổi giao diện sáng/tối"
             >
@@ -182,62 +183,62 @@ function TopNav() {
               )}
             </button>
 
-            <Link to="/settings" className="settings-button" title="Cài đặt">
+            <Link to="/settings" className={styles["settings-button"]} title="Cài đặt">
               <i className="fas fa-cog"></i>
             </Link>
 
-            <div className="account-dropdown-container">
+            <div className={styles["account-dropdown-container"]}>
               {isLoggedIn ? (
                 <>
-                  <button className="top-nav__avatar" title="Tài khoản">
+                  <button className={styles["top-nav__avatar"]} title="Tài khoản">
                     <img src={avatar} alt="Avatar" />
                   </button>
 
-                  <div className="account-dropdown">
-                    <div className="dropdown-user-info">
-                      <img src={avatar} alt="Avatar" className="dropdown-avatar" />
+                  <div className={styles["account-dropdown"]}>
+                    <div className={styles["dropdown-user-info"]}>
+                      <img src={avatar} alt="Avatar" className={styles["dropdown-avatar"]} />
                       <div>
                         <h4>{userData?.fullName || 'Khách'}</h4>
                         <span>{userData?.email ? `@${userData.email}` : ''}</span>
                       </div>
                     </div>
-                    <div className="dropdown-menu">
-                      <Link to="/thanh-vien/:slug" className="dropdown-item">
+                    <div className={styles["dropdown-menu"]}>
+                      <Link to="/thanh-vien/:slug" className={styles["dropdown-item"]}>
                         <i className="fas fa-user"></i>
                         <span>Tài khoản</span>
                       </Link>
-                      <Link to="/thong-bao" className="dropdown-item">
+                      <Link to="/thong-bao" className={styles["dropdown-item"]}>
                         <i className="fas fa-bell"></i>
                         <span>Thông báo</span>
                         <span className="badge">3</span>
                       </Link>
-                      <Link to="/lich-su-doc" className="dropdown-item">
+                      <Link to="/lich-su-doc" className={styles["dropdown-item"]}>
                         <i className="fas fa-history"></i>
                         <span>Lịch sử đọc</span>
                       </Link>
-                      <Link to="/danh-dau" className="dropdown-item">
+                      <Link to="/danh-dau" className={styles["dropdown-item"]}>
                         <i className="fas fa-bookmark"></i>
                         <span>Đánh dấu</span>
                       </Link>
-                      <Link to="/hop-thu" className="dropdown-item">
+                      <Link to="/hop-thu" className={styles["dropdown-item"]}>
                         <i className="fas fa-envelope"></i>
                         <span>Hộp thư</span>
                         <span className="badge">1</span>
                       </Link>
-                      <Link to="/thao-luan" className="dropdown-item">
+                      <Link to="/thao-luan" className={styles["dropdown-item"]}>
                         <i className="fas fa-comments"></i>
                         <span>Thảo luận</span>
                       </Link>
-                      <Link to="/tu-sach" className="dropdown-item">
+                      <Link to="/tu-sach" className={styles["dropdown-item"]}>
                         <i className="fas fa-book"></i>
                         <span>Tủ sách</span>
                       </Link>
-                      <Link to="/gio-hang" className="dropdown-item">
+                      <Link to="/gio-hang" className={styles["dropdown-item"]}>
                         <i className="fas fa-shopping-cart"></i>
                         <span>Giỏ hàng</span>
                         <span className="badge">2</span>
                       </Link>
-                      <button onClick={handleLogout} className="dropdown-item">
+                      <button onClick={handleLogout} className={styles["dropdown-item__signout"]}>
                         <i className="fas fa-sign-out-alt"></i>
                         <span>Đăng xuất</span>
                       </button>
@@ -245,9 +246,9 @@ function TopNav() {
                   </div>
                 </>
               ) : (
-                <div className="login-signup-buttons">
-                  <Link to="/login" className="login-button">Đăng nhập</Link>
-                  <Link to="/signup" className="signup-button">Đăng ký</Link>
+                <div className={styles["top-nav__signin-signup-buttons"]}>
+                  <Link to="/signin" className={styles["signin-button"]}>Đăng nhập</Link>
+                  <Link to="/signup" className={styles["signup-button"]}>Đăng ký</Link>
                 </div>
               )}
             </div>
