@@ -7,88 +7,173 @@
     },
     {
       "id": 2,
+      "name": "Bi Kịch",
+      "slug": "bi-kich"
+    },
+    {
+      "id": 3,
+      "name": "Cooking",
+      "slug": "cooking"
+    },
+    {
+      "id": 4,
+      "name": "Chuyển Giới",
+      "slug": "chuyen-gioi"
+    },
+    {
+      "id": 5,
       "name": "Drama",
       "slug": "drama"
     },
     {
-      "id": 3,
+      "id": 6,
       "name": "Đời Thường",
       "slug": "doi-thuong"
     },
     {
-      "id": 4,
+      "id": 7,
       "name": "Ecchi",
       "slug": "ecchi"
     },
     {
-      "id": 5,
+      "id": 8,
       "name": "Giả Tưởng",
       "slug": "gia-tuong"
     },
     {
-      "id": 6,
+      "id": 9,
       "name": "Hài Hước",
       "slug": "hai-huoc"
     },
     {
-      "id": 7,
+      "id": 10,
       "name": "Hành Động",
       "slug": "hanh-dong"
     },
     {
-      "id": 8,
+      "id": 11,
       "name": "Harem",
       "slug": "harem"
     },
     {
-      "id": 9,
+      "id": 12,
       "name": "Học Đường",
       "slug": "hoc-duong"
     },
     {
-      "id": 10,
+      "id": 13,
+      "name": "Isekai",
+      "slug": "isekai"
+    },
+    {
+      "id": 14,
       "name": "Kinh Dị",
       "slug": "kinh-di"
     },
     {
-      "id": 11,
+      "id": 15,
       "name": "Khoa Học Viễn Tưởng",
       "slug": "khoa-hoc-vien-tuong"
     },
     {
-      "id": 12,
+      "id": 16,
       "name": "Lãng Mạn",
       "slug": "lang-man"
     },
     {
-      "id": 13,
+      "id": 17,
+      "name": "Lịch Sử",
+      "slug": "lich-su"
+    },
+    {
+      "id": 18,
       "name": "Loạn Luân",
       "slug": "loan-luan"
     },
     {
-      "id": 14,
+      "id": 19,
+      "name": "Magic",
+      "slug": "magic"
+    },
+    {
+      "id": 20,
       "name": "Mecha",
       "slug": "mecha"
     },
     {
-      "id": 15,
+      "id": 21,
+      "name": "Otome Game",
+      "slug": "otome-game"
+    },
+    {
+      "id": 22,
       "name": "Phiêu Lưu",
       "slug": "phieu-luu"
     },
     {
-      "id": 16,
+      "id": 23,
+      "name": "Quân Sự",
+      "slug": "quan-su"
+    },
+    {
+      "id": 24,
       "name": "Seinen",
       "slug": "seinen"
     },
     {
-      "id": 17,
+      "id": 25,
+      "name": "Shoujo",
+      "slug": "shoujo"
+    },
+    {
+      "id": 26,
+      "name": "Shoujo ai",
+      "slug": "shoujo-ai"
+    },
+    {
+      "id": 27,
+      "name": "Shounen",
+      "slug": "shounen"
+    },
+    {
+      "id": 28,
       "name": "Siêu Năng Lực",
       "slug": "sieu-nang-luc"
     },
     {
-      "id": 18,
+      "id": 29,
       "name": "Siêu Nhiên",
       "slug": "sieu-nhien"
+    },
+    {
+      "id": 30,
+      "name": "Suspense",
+      "slug": "suspense"
+    },
+    {
+      "id": 31,
+      "name": "Tâm Lý",
+      "slug": "tam-ly"
+    },
+    {
+      "id": 32,
+      "name": "Thể Thao",
+      "slug": "the-thao"
+    },
+    {
+      "id": 33,
+      "name": "Trưởng Thành",
+      "slug": "truong-thanh"
+    },
+    {
+      "id": 34,
+      "name": "Wars",
+      "slug": "wars"
+    },
+    {
+      "id": 35,
+      "name": "Web Novel",
+      "slug": "web-novel"
     }
   ]
 }
