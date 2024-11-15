@@ -1,6 +1,6 @@
 import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Banner.css';
+// import './Banner.css';
 import styles from './Banner.module.scss';
 import { bannerArray } from '../../../data_and_source/Images/Banners/index.js';
 
