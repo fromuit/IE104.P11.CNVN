@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import hakoData from '../../data_and_source/Novel_Data/hako_data.json';
 import genresData from '../../data_and_source/Novel_Data/genres.json';
 import genreMapping from '../../data_and_source/Novel_Data/genre_mapping.json';
@@ -83,7 +83,11 @@ function GenresPage() {
         <div className={styles["novels-grid"]}>
           {currentNovels.length > 0 ? (
             currentNovels.map(novel => (
-              <div key={novel.ID} className={styles["genres-page--novel-card"]}>
+              <Link 
+                to={`/info/${novel.ID}`} 
+                key={novel.ID} 
+                className={styles["genres-page--novel-card"]}
+              >
                 <div className={styles["novel-cover-wrapper"]}>
                   <img src={novel["Link ảnh"]} alt={novel["Tựa đề"]} />
                 </div>
@@ -103,7 +107,7 @@ function GenresPage() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))
           ) : (
             <div className={styles["no-novels"]}>
