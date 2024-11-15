@@ -1,0 +1,94 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Bí Ẩn",
+      "slug": "bi-an"
+    },
+    {
+      "id": 2,
+      "name": "Drama",
+      "slug": "drama"
+    },
+    {
+      "id": 3,
+      "name": "Đời Thường",
+      "slug": "doi-thuong"
+    },
+    {
+      "id": 4,
+      "name": "Ecchi",
+      "slug": "ecchi"
+    },
+    {
+      "id": 5,
+      "name": "Giả Tưởng",
+      "slug": "gia-tuong"
+    },
+    {
+      "id": 6,
+      "name": "Hài Hước",
+      "slug": "hai-huoc"
+    },
+    {
+      "id": 7,
+      "name": "Hành Động",
+      "slug": "hanh-dong"
+    },
+    {
+      "id": 8,
+      "name": "Harem",
+      "slug": "harem"
+    },
+    {
+      "id": 9,
+      "name": "Học Đường",
+      "slug": "hoc-duong"
+    },
+    {
+      "id": 10,
+      "name": "Kinh Dị",
+      "slug": "kinh-di"
+    },
+    {
+      "id": 11,
+      "name": "Khoa Học Viễn Tưởng",
+      "slug": "khoa-hoc-vien-tuong"
+    },
+    {
+      "id": 12,
+      "name": "Lãng Mạn",
+      "slug": "lang-man"
+    },
+    {
+      "id": 13,
+      "name": "Loạn Luân",
+      "slug": "loan-luan"
+    },
+    {
+      "id": 14,
+      "name": "Mecha",
+      "slug": "mecha"
+    },
+    {
+      "id": 15,
+      "name": "Phiêu Lưu",
+      "slug": "phieu-luu"
+    },
+    {
+      "id": 16,
+      "name": "Seinen",
+      "slug": "seinen"
+    },
+    {
+      "id": 17,
+      "name": "Siêu Năng Lực",
+      "slug": "sieu-nang-luc"
+    },
+    {
+      "id": 18,
+      "name": "Siêu Nhiên",
+      "slug": "sieu-nhien"
+    }
+  ]
+}
