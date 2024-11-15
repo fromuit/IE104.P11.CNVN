@@ -30,37 +30,38 @@ function Aside() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const topNav = document.querySelector('.top-nav');
       const bottomNav = document.querySelector('.bottom-nav');
-      const footer = document.querySelector('.footer');
       
       // Kiểm tra null cho các elements
-      if (!topNav || !bottomNav || !footer || !asideRef.current || !wrapperRef.current) {
+      if (!bottomNav || !asideRef.current || !wrapperRef.current) {
         return;
       }
       
-      const topNavHeight = topNav.offsetHeight;
-      const bottomNavHeight = bottomNav.offsetHeight;
-      const totalOffset = topNavHeight + bottomNavHeight;
-      
+      const bottomNavRect = bottomNav.getBoundingClientRect();
       const wrapperRect = wrapperRef.current.getBoundingClientRect();
-      const footerRect = footer.getBoundingClientRect();
+      const asideHeight = asideRef.current.offsetHeight;
+      const viewportHeight = window.innerHeight;
       
-      // Kiểm tra khi aside chạm đến điểm sticky
-      if (wrapperRect.top <= totalOffset) {
-        asideRef.current.classList.add('sticky');
-        asideRef.current.style.top = `${totalOffset}px`;
+      // Tính toán vị trí stick
+      if (wrapperRect.top <= bottomNavRect.bottom) {
+        const availableSpace = viewportHeight - bottomNavRect.bottom;
         
-        // Kiểm tra khi aside chạm footer
-        const asideHeight = asideRef.current.offsetHeight;
-        const distanceToFooter = footerRect.top - (totalOffset + asideHeight);
-        
-        if (distanceToFooter <= 0) {
-          asideRef.current.style.top = `${totalOffset + distanceToFooter}px`;
+        // Kiểm tra xem có đủ không gian để hiển thị aside không
+        if (availableSpace >= asideHeight) {
+          asideRef.current.classList.add(styles.sticky);
+          asideRef.current.style.top = `${bottomNavRect.bottom}px`;
+        } else {
+          // Nếu không đủ không gian, cho phép scroll trong aside
+          asideRef.current.classList.add(styles.sticky);
+          asideRef.current.style.top = `${bottomNavRect.bottom}px`;
+          asideRef.current.style.maxHeight = `${availableSpace}px`;
+          asideRef.current.style.overflowY = 'auto';
         }
       } else {
-        asideRef.current.classList.remove('sticky');
+        asideRef.current.classList.remove(styles.sticky);
         asideRef.current.style.top = '0';
+        asideRef.current.style.maxHeight = 'none';
+        asideRef.current.style.overflowY = 'visible';
       }
     };
 

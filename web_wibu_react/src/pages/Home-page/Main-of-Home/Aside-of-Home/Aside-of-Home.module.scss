@@ -47,10 +47,30 @@ $colors: (
     position: fixed;
     width: inherit;
     right: calc((100% - 1200px) / 2 + 1rem);
+    
+    // Thêm styles cho scrollbar khi aside bị overflow
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: map.get($colors, gray-100);
+      border-radius: 3px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: map.get($colors, gray-400);
+      border-radius: 3px;
+      
+      &:hover {
+        background: map.get($colors, gray-500);
+      }
+    }
   }
 
   &-wrapper {
     width: 300px;
+    position: relative;
   }
 
   // User Profile Section
@@ -287,6 +307,20 @@ $colors: (
     &__manga-info span {
       color: map.get($colors, gray-500);
     }
+
+    &.sticky {
+      &::-webkit-scrollbar-track {
+        background: rgba(map.get($colors, white), 0.05);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: rgba(map.get($colors, white), 0.2);
+        
+        &:hover {
+          background: rgba(map.get($colors, white), 0.3);
+        }
+      }
+    }
   }
 }
 
@@ -311,5 +345,6 @@ $colors: (
   .aside.sticky {
     position: static;
     width: 100%;
+    right: auto;
   }
 } 
