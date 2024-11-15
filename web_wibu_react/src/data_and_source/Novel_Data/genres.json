@@ -85,6 +85,132 @@
       "description": "Khoảnh khắc thanh xuân vườn trường đáng nhớ nhất đời người."
     },
     {
+      "id": 13,
+      "name": "Isekai",
+      "slug": "isekai",
+      "englishName": "Isekai",
+      "description": "Phiêu lưu trong thế giới mới."
+    },
+    {
+      "id": 14,
+      "name": "Kinh Dị",
+      "slug": "kinh-di",
+      "englishName": "Horror",
+      "description": "Cảm giác đáng sợ đến từng tế bào."
+    },
+    {
+      "id": 15,
+      "name": "Khoa Học Viễn Tưởng",
+      "slug": "khoa-hoc-vien-tuong",
+      "englishName": "Science Fiction",
+      "description": "Khi nền văn minh con người đạt đến một tầm cao mới."
+    },
+    {
+      "id": 16,
+      "name": "Lãng Mạn",
+      "slug": "lang-man",
+      "englishName": "Romance",
+      "description": "Những câu chuyện tình yêu đẹp đẽ nhất."
+    },
+    {
+      "id": 17,
+      "name": "Lịch Sử",
+      "slug": "lich-su",
+      "englishName": "Historical",
+      "description": "Hành trình ngược dòng thời gian."
+    },
+    {
+      "id": 18,
+      "name": "Loạn Luân",
+      "slug": "loan-luan",
+      "englishName": "Incest",
+      "description": "..."
+    },
+    {
+      "id": 19,
+      "name": "Magic",
+      "slug": "magic",
+      "englishName": "Magic",
+      "description": "Thế giới của phép thuật và ma pháp."
+    },
+    {
+      "id": 20,
+      "name": "Mecha",
+      "slug": "mecha",
+      "englishName": "Mecha",
+      "description": "Máy móc cũng có cảm xúc đấy."
+    },
+    {
+      "id": 21,
+      "name": "Otome Game",
+      "slug": "otome-game",
+      "englishName": "Otome Game",
+      "description": "..."
+    },
+    {
+      "id": 22,
+      "name": "Phiêu Lưu",
+      "slug": "phieu-luu",
+      "englishName": "Adventure",
+      "description": "Xách balo lên và đi thôi."
+    },
+    {
+      "id": 23,
+      "name": "Quân Sự",
+      "slug": "quan-su",
+      "englishName": "Military",
+      "description": "..."
+    },
+    {
+      "id": 24,
+      "name": "Seinen",
+      "slug": "seinen",
+      "englishName": "Seinen",
+      "description": "Những câu chuyện dành cho con trai."
+    },
+    {
+      "id": 25,
+      "name": "Shoujo",
+      "slug": "shoujo",
+      "englishName": "Shoujo",
+      "description": "..."
+    },
+    {
+      "id": 26,
+      "name": "Shoujo ai",
+      "slug": "shoujo-ai",
+      "englishName": "Shoujo Ai",
+      "description": "..."
+    },
+    {
+      "id": 27,
+      "name": "Shounen",
+      "slug": "shounen",
+      "englishName": "Shounen",
+      "description": "..."
+    },
+    {
+      "id": 28,
+      "name": "Siêu Năng Lực",
+      "slug": "sieu-nang-luc",
+      "englishName": "Super Power",
+      "description": "..."
+    },
+    {
+      "id": 29,
+      "name": "Siêu Nhiên",
+      "slug": "sieu-nhien",
+      "englishName": "Supernatural",
+      "description": "..."
+    },
+    {
+      "id": 30,
+      "name": "Suspense",
+      "slug": "suspense",
+      "englishName": "Suspense",
+      "description": "..."
+    },
+    {
       "id": 31,
       "name": "Tâm Lý",
       "slug": "tam-ly",
@@ -97,6 +223,27 @@
       "slug": "the-thao",
       "englishName": "Sports",
       "description": "Đam mê và nhiệt huyết của tuổi trẻ."
+    },
+    {
+      "id": 33,
+      "name": "Trưởng Thành",
+      "slug": "truong-thanh",
+      "englishName": "Adult",
+      "description": "..."
+    },
+    {
+      "id": 34,
+      "name": "Wars",
+      "slug": "wars",
+      "englishName": "Wars",
+      "description": "..."
+    },
+    {
+      "id": 35,
+      "name": "Web Novel",
+      "slug": "web-novel",
+      "englishName": "Web Novel",
+      "description": "..."
     }
   ]
 }
