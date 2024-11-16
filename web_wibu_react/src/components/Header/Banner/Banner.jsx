@@ -2,6 +2,8 @@ import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Banner.css';
 
+import styles from './Banner.module.scss';
+
 // Có 3 chỗ cần chỉnh time cho slide
 // 1. slideInterval
 // 2. slideInterval ở handleMouseEnter
@@ -134,68 +136,134 @@ function Banner() {
     }
   };
 
-  return (
-    <div 
-      className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className="banner__container">
-        <div 
-          className="banner__slides"
-          style={{ 
-            transform: `translateX(-${currentSlide * 100}%)`,
-            transition: isTransitioning ? 'none' : 'transform 0.3s ease-in-out'
-          }}
-        >
-          {extendedBannersData.map((banner) => (
-            <Link 
-              key={banner.id}
-              to={banner.link}
-              className="banner__slide"
-            >
-              <div className="banner__image-wrapper">
-                <img 
-                  src={banner.image} 
-                  alt={banner.title}
-                  className="banner__image"
-                  onLoad={handleImageLoad}
-                />
-              </div>
-            </Link>
-          ))}
-        </div>
+//   return (
+//     <div 
+//       className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
+//       onMouseEnter={handleMouseEnter}
+//       onMouseLeave={handleMouseLeave}
+//     >
+//       <div className="banner__container">
+//         <div 
+//           className="banner__slides"
+//           style={{ 
+//             transform: `translateX(-${currentSlide * 100}%)`,
+//             transition: isTransitioning ? 'none' : 'transform 0.3s ease-in-out'
+//           }}
+//         >
+//           {extendedBannersData.map((banner) => (
+//             <Link 
+//               key={banner.id}
+//               to={banner.link}
+//               className="banner__slide"
+//             >
+//               <div className="banner__image-wrapper">
+//                 <img 
+//                   src={banner.image} 
+//                   alt={banner.title}
+//                   className="banner__image"
+//                   onLoad={handleImageLoad}
+//                 />
+//               </div>
+//             </Link>
+//           ))}
+//         </div>
 
-        {/* Navigation Arrows */}
-        <button 
-          className="banner__nav banner__nav--prev"
-          onClick={goToPrevSlide}
-          aria-label="Previous banner"
-        >
-          <i className="fas fa-chevron-left"></i>
-        </button>
-        <button 
-          className="banner__nav banner__nav--next"
-          onClick={goToNextSlide}
-          aria-label="Next banner"
-        >
-          <i className="fas fa-chevron-right"></i>
-        </button>
+//         {/* Navigation Arrows */}
+//         <button 
+//           className="banner__nav banner__nav--prev"
+//           onClick={goToPrevSlide}
+//           aria-label="Previous banner"
+//         >
+//           <i className="fas fa-chevron-left"></i>
+//         </button>
+//         <button 
+//           className="banner__nav banner__nav--next"
+//           onClick={goToNextSlide}
+//           aria-label="Next banner"
+//         >
+//           <i className="fas fa-chevron-right"></i>
+//         </button>
 
-        {/* Dots Navigation */}
-        <div className="banner__dots">
-          {bannersData.map((_, index) => (
-            <button
-              key={index}
-              className={`banner__dot ${currentSlide === index + 1 ? 'active' : ''}`}
-              onClick={() => goToSlide(index)}
-              aria-label={`Go to banner ${index + 1}`}
-            />
-          ))}
-        </div>
+//         {/* Dots Navigation */}
+//         <div className="banner__dots">
+//           {bannersData.map((_, index) => (
+//             <button
+//               key={index}
+//               className={`banner__dot ${currentSlide === index + 1 ? 'active' : ''}`}
+//               onClick={() => goToSlide(index)}
+//               aria-label={`Go to banner ${index + 1}`}
+//             />
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Banner;
+
+return (
+  <div 
+    className={`${styles.banner} ${!isHomePage ? styles['banner--compact'] : ''}`}
+    onMouseEnter={handleMouseEnter}
+    onMouseLeave={handleMouseLeave}
+  >
+    <div className={styles.banner__container}>
+      <div 
+        className={styles.banner__slides}
+        style={{ 
+          transform: `translateX(-${currentSlide * 100}%)`,
+          transition: isTransitioning ? 'none' : 'transform 0.3s ease-in-out'
+        }}
+      >
+        {extendedBannersData.map((banner) => (
+          <Link 
+            key={banner.id}
+            to={banner.link}
+            className={styles.banner__slide}
+          >
+            <div className={styles['banner__image-wrapper']}>
+              <img 
+                src={banner.image} 
+                alt={banner.title}
+                className={styles.banner__image}
+                onLoad={handleImageLoad}
+              />
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      {/* Navigation Arrows */}
+      <button 
+        className={`${styles.banner__nav} ${styles['banner__nav--prev']}`}
+        onClick={goToPrevSlide}
+        aria-label="Previous banner"
+      >
+        <i className="fas fa-chevron-left"></i>
+      </button>
+      <button 
+        className={`${styles.banner__nav} ${styles['banner__nav--next']}`}
+        onClick={goToNextSlide}
+        aria-label="Next banner"
+      >
+        <i className="fas fa-chevron-right"></i>
+      </button>
+
+      {/* Dots Navigation */}
+      <div className={styles.banner__dots}>
+        {bannersData.map((_, index) => (
+          <button
+            key={index}
+            className={`${styles.banner__dot} ${currentSlide === index + 1 ? styles.active : ''}`}
+            onClick={() => goToSlide(index)}
+            aria-label={`Go to banner ${index + 1}`}
+          />
+        ))}
       </div>
     </div>
-  );
+  </div>
+);
 }
 
 export default Banner;
