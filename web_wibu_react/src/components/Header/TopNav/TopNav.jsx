@@ -2,6 +2,7 @@ import  { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import './TopNav.css';
 import { searchNovelsRealtime, getAllGenres } from '../../../features/utils/searchUtils';
+import avatar from '../../../data_and_source/Images/Avatars/avatar.png';
 
 function TopNav() {
   const navigate = useNavigate();
@@ -189,12 +190,12 @@ function TopNav() {
               {isLoggedIn ? (
                 <>
                   <button className="top-nav__avatar" title="Tài khoản">
-                    <img src="/images/avatar.png" alt="Avatar" />
+                    <img src={avatar} alt="Avatar" />
                   </button>
 
                   <div className="account-dropdown">
                     <div className="dropdown-user-info">
-                      <img src="/images/avatar.png" alt="Avatar" className="dropdown-avatar" />
+                      <img src={avatar} alt="Avatar" className="dropdown-avatar" />
                       <div>
                         <h4>{userData?.fullName || 'Khách'}</h4>
                         <span>{userData?.email ? `@${userData.email}` : ''}</span>

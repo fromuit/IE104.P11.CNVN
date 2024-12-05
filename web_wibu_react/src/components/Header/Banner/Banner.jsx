@@ -1,6 +1,7 @@
 import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Banner.css';
+import { bannerArray } from '../../../data_and_source/Images/Banners/index.js';
 
 function Banner() {
   const location = useLocation();

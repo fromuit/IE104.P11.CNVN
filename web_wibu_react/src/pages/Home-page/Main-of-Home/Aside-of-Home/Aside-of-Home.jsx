@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Aside-of-Home.css';
 import { useRef } from 'react'
-import avatarAside from '../../../../data_and_source/Images/avatar.png';
+import avatarAside from '../../../../data_and_source/Images/Avatars/avatar.png';
 
 
 function Aside() {
