@@ -1,0 +1,350 @@
+// Variables
+$colors: (
+  primary: #1a73e8,
+  primary-light: #e8f0fe,
+  primary-hover: #1557b0,
+  border: #e0e0e0,
+  text-primary: #202124,
+  text-secondary: #5f6368,
+  danger: #dc3545,
+  danger-light: rgba(220, 53, 69, 0.1),
+  success: #4CAF50,
+  white: #fff,
+  black: #000,
+  gray-100: #f8f9fa,
+  gray-200: #e9ecef,
+  gray-400: #ced4da,
+  gray-500: #adb5bd,
+  gray-600: #6c757d,
+  gray-800: #343a40
+);
+
+// Mixins
+@mixin flex($direction: row, $justify: flex-start, $align: stretch, $gap: 0) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  @if $gap != 0 {
+    gap: $gap;
+  }
+}
+
+@mixin transition($property: all, $duration: 0.3s) {
+  transition: $property $duration ease;
+}
+
+// Base Styles
+.aside {
+  background: map.get($colors, white);
+  border-radius: 8px;
+  border: 1px solid map.get($colors, border);
+  box-shadow: 0 2px 4px rgba(map.get($colors, black), 0.05);
+  padding: 0.5rem;
+  width: 100%;
+
+  &.sticky {
+    position: fixed;
+    width: inherit;
+    right: calc((100% - 1200px) / 2 + 1rem);
+    
+    // Thêm styles cho scrollbar khi aside bị overflow
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: map.get($colors, gray-100);
+      border-radius: 3px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: map.get($colors, gray-400);
+      border-radius: 3px;
+      
+      &:hover {
+        background: map.get($colors, gray-500);
+      }
+    }
+  }
+
+  &-wrapper {
+    width: 300px;
+    position: relative;
+  }
+
+  // User Profile Section
+  &__user {
+    @include flex(row, flex-start, center, 0.5rem);
+    padding: 0.5rem;
+    border-bottom: 1px solid map.get($colors, border);
+    color: map.get($colors, text-primary);
+  }
+
+  &__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid map.get($colors, primary);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__user-info {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+
+  &__username {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: map.get($colors, text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__handle {
+    font-size: 0.8rem;
+    color: map.get($colors, text-secondary);
+  }
+
+  // Section Styles
+  &__section {
+    padding: 12px;
+    border-bottom: 1px solid rgba(map.get($colors, black), 0.08);
+
+    &-header {
+      @include flex(row, space-between, center);
+      margin-bottom: 8px;
+
+      h4 {
+        font-size: 0.95rem;
+        font-weight: 600;
+        margin: 0;
+      }
+    }
+  }
+
+  // Manga List Styles
+  &__manga {
+    &-list {
+      @include flex(column, flex-start, stretch, 8px);
+    }
+
+    &-item {
+      @include flex(row, flex-start, center, 8px);
+      text-decoration: none;
+      color: inherit;
+      padding: 4px;
+      border-radius: 8px;
+      @include transition(background-color);
+
+      &:hover {
+        background-color: rgba(map.get($colors, black), 0.05);
+      }
+
+      img {
+        width: 40px;
+        height: 56px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+    }
+
+    &-info {
+      flex: 1;
+
+      h5 {
+        margin: 0 0 2px 0;
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+
+      span {
+        font-size: 0.75rem;
+        color: map.get($colors, gray-600);
+      }
+    }
+  }
+
+  // Guest Section
+  &__guest {
+    padding: 20px;
+    text-align: center;
+
+    &-message {
+      @include flex(column, center, center, 15px);
+
+      i {
+        font-size: 48px;
+        color: map.get($colors, primary);
+      }
+    }
+  }
+
+  // Benefits Section
+  &__benefits {
+    margin: 15px 0;
+    padding: 15px;
+    background: map.get($colors, gray-100);
+    border-radius: 8px;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    li {
+      @include flex(row, flex-start, center, 10px);
+      margin: 10px 0;
+      color: map.get($colors, gray-600);
+      font-size: 14px;
+
+      i {
+        color: map.get($colors, success);
+        font-size: 16px;
+      }
+    }
+  }
+
+  // Sign In Button
+  &__signin-button {
+    display: inline-block;
+    padding: 8px 24px;
+    background: transparent;
+    color: map.get($colors, primary);
+    border: 2px solid map.get($colors, primary);
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    @include transition;
+    margin-top: 15px;
+
+    &:hover {
+      background: map.get($colors, primary);
+      color: map.get($colors, white);
+    }
+  }
+
+  // Cart Styles
+  &__cart {
+    &-total {
+      @include flex(row, space-between, center);
+      margin-top: 12px;
+      padding-top: 8px;
+      border-top: 1px solid map.get($colors, border);
+      font-weight: 500;
+    }
+
+    &-summary {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 12px;
+      border-radius: 8px;
+      background-color: map.get($colors, gray-100);
+      @include transition(background-color);
+
+      &:hover {
+        background-color: map.get($colors, gray-200);
+      }
+    }
+  }
+
+  // Empty State
+  &__empty-state {
+    @include flex(column, center, center);
+    padding: 20px;
+    color: map.get($colors, gray-500);
+
+    i {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+// Dark Mode Styles
+.dark-mode {
+  .aside {
+    background: #1a1a1a;
+    border-color: #333;
+
+    &__section {
+      border-bottom-color: rgba(map.get($colors, white), 0.1);
+    }
+
+    &__manga-item:hover {
+      background-color: rgba(map.get($colors, white), 0.05);
+    }
+
+    &__cart-summary {
+      background-color: rgba(map.get($colors, white), 0.05);
+
+      &:hover {
+        background-color: rgba(map.get($colors, white), 0.1);
+      }
+    }
+
+    &__benefits {
+      background: rgba(map.get($colors, white), 0.05);
+    }
+
+    &__manga-info span {
+      color: map.get($colors, gray-500);
+    }
+
+    &.sticky {
+      &::-webkit-scrollbar-track {
+        background: rgba(map.get($colors, white), 0.05);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: rgba(map.get($colors, white), 0.2);
+        
+        &:hover {
+          background: rgba(map.get($colors, white), 0.3);
+        }
+      }
+    }
+  }
+}
+
+// Media Queries
+@media (max-width: 1200px) {
+  .aside.sticky {
+    right: calc((100% - 1000px) / 2 + 1rem);
+  }
+}
+
+@media (max-width: 992px) {
+  .aside.sticky {
+    right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .aside-wrapper {
+    width: 100%;
+  }
+
+  .aside.sticky {
+    position: static;
+    width: 100%;
+    right: auto;
+  }
+} 

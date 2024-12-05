@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import bgImage from '../../data_and_source/images/bg_for_signup.png';
-import './SignUp.css';
+import styles from './SignUp.module.scss';
 
 // Component chính xử lý đăng ký người dùng mới
 const Signup = () => {
@@ -146,23 +146,22 @@ const Signup = () => {
   };
 
   return (
-    <div className="signup-container" style={{ backgroundImage: `url(${bgImage})`,
-                                      backgroundSize: 'cover',
-                                      backgroundPosition: 'center',
-                                      backgroundRepeat: 'no-repeat'}}>
-      {/* Add Home button */}
+    <div className={styles["signup-container"]} style={{ backgroundImage: `url(${bgImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'}}>
       <button 
-        className="home-nav-btn"
+        className={styles["home-nav-btn"]}
         onClick={() => navigate("/")}
       >
         <i className="fas fa-home"></i>
       </button>
-
-      <div className="signup-form-box">
-        <h1 id="title">Đăng ký</h1>
+      
+      <div className={styles["signup-form-box"]}>
+        <h1 className={styles["signup-title"]}>Đăng ký</h1>
         <form onSubmit={handleSubmit}>
-          <div className="signup-input-group">
-            <div className="signup-input-field">
+          <div className={styles["signup-input-group"]}>
+            <div className={styles["signup-input-field"]}>
               <i className="fas fa-user"></i>
               <input
                 type="text"
@@ -172,13 +171,14 @@ const Signup = () => {
                 onChange={handleChange}
               />
               {errors.fullName && (
-                <div className="error-message">
+                <div className={styles["signup-error"]}>
                   <i className="fas fa-exclamation-circle"></i>
                   {errors.fullName}
                 </div>
               )}
             </div>
-            <div className="signup-input-field">
+
+            <div className={styles["signup-input-field"]}>
               <i className="fas fa-envelope"></i>
               <input
                 type="email"
@@ -188,13 +188,14 @@ const Signup = () => {
                 onChange={handleChange}
               />
               {errors.email && (
-                <div className="error-message">
+                <div className={styles["signup-error"]}>
                   <i className="fas fa-exclamation-circle"></i>
                   {errors.email}
                 </div>
               )}
             </div>
-            <div className="signup-input-field">
+
+            <div className={styles["signup-input-field"]}>
               <i className="fas fa-lock"></i>
               <input
                 type={showPassword ? "text" : "password"}
@@ -203,34 +204,24 @@ const Signup = () => {
                 value={formData.password}
                 onChange={handleChange}
               />
-              {isValid && ( // Chỉ hiển thị nút toggle khi form hợp lệ
+              {isValid && (
                 <button
                   type="button"
-                  className="password-toggle"
+                  className={styles["signup-password-toggle"]}
                   onClick={() => setShowPassword(!showPassword)}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                    position: "absolute",
-                    right: "10px",
-                    top: "50%",
-                    transform: "translateY(-50%)",
-                    opacity: isValid ? "1" : "0.5",
-                    pointerEvents: isValid ? "auto" : "none"
-                  }}
                 >
                   <i className={`fas ${showPassword ? "fa-eye-slash" : "fa-eye"}`}></i>
                 </button>
               )}
               {errors.password && (
-                <div className="error-message">
+                <div className={styles["signup-error"]}>
                   <i className="fas fa-exclamation-circle"></i>
                   {errors.password}
                 </div>
               )}
             </div>
-            <div className="signup-input-field">
+
+            <div className={styles["signup-input-field"]}>
               <i className="fas fa-check"></i>
               <input
                 type={showConfirmPassword ? "text" : "password"}
@@ -239,47 +230,36 @@ const Signup = () => {
                 value={formData.confirmPassword}
                 onChange={handleChange}
               />
-              {isValid && ( // Ch hiển thị nút toggle khi form hợp lệ
+              {isValid && (
                 <button
                   type="button"
-                  className="password-toggle"
+                  className={styles["signup-password-toggle"]}
                   onClick={handleConfirmPasswordToggle}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                    position: "absolute",
-                    right: "10px",
-                    top: "50%",
-                    transform: "translateY(-50%)",
-                    opacity: isValid ? "1" : "0.5",
-                    pointerEvents: isValid ? "auto" : "none"
-                  }}
                 >
                   <i className={`fas ${showConfirmPassword ? "fa-eye-slash" : "fa-eye"}`}></i>
                 </button>
               )}
               {errors.confirmPassword && (
-                <div className="error-message">
+                <div className={styles["signup-error"]}>
                   <i className="fas fa-exclamation-circle"></i>
                   {errors.confirmPassword}
                 </div>
               )}
             </div>
           </div>
+
           {errors.submit && (
-            <div className="error-message" style={{
-              color: 'red',
-              textAlign: 'center',
-              marginBottom: '10px'
-            }}>
+            <div className={styles.errorMessage}>
+              <i className="fas fa-exclamation-circle"></i>
               {errors.submit}
             </div>
           )}
-          <div className="signup-btn-field">
+
+          <div className={styles["signup-btn-field"]}>
             <button type="submit">Đăng ký</button>
           </div>
-          <div className="signup-signin-link">
+
+          <div className={styles["signup-signin-link"]}>
             <p>Đã có tài khoản? <Link to="/signin">Đăng nhập</Link></p>
           </div>
         </form>

@@ -1,48 +1,70 @@
 import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Banner.css';
-import { bannerArray } from '../../../data_and_source/Images/Banners/index.js';
+
+import styles from './Banner.module.scss';
+
+// Có 3 chỗ cần chỉnh time cho slide
+// 1. slideInterval
+// 2. slideInterval ở handleMouseEnter
+// 3. slideInterval ở handleMouseLeave
+
+// Import từ file index
+import { bannerArray } from "../../../data_and_source/Images/Banners/index.js";
 
 function Banner() {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
 
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  // // Di chuyển bannersData lên trước các state
+  // const bannersData = [
+  //   {
+  //     id: 1,
+  //     image: banners.banner1,
+  //     link: '/info/1',
+  //     title: 'Banner 1'
+  //   },
+  //   {
+  //     id: 2,
+  //     image: banners.banner2,
+  //     link: '/info/2',
+  //     title: 'Banner 2'
+  //   },
+  //   {
+  //     id: 3,
+  //     image: banners.banner3,
+  //     link: '/info/3',
+  //     title: 'Banner 3'
+  //   },
+  //   {
+  //     id: 4,
+  //     image: banners.banner4,
+  //     link: '/info/4',
+  //     title: 'Banner 4'
+  //   },
+  //   {
+  //     id: 5,
+  //     image: banners.banner5,
+  //     link: '/info/5',
+  //     title: 'Banner 5'
+  //   }
+  // ];
+  const bannersData = bannerArray;
 
-  // Data mẫu - sau này có thể thay bằng API call
-  const banners = [
-    {
-      id: 1,
-      image: '/src/data_and_source/Images/Banners/banner1.png',
-      link: '/info/1',
-      title: 'Banner 1'
-    },
-    {
-      id: 2,
-      image: '/src/data_and_source/Images/Banners/banner2.png',
-      link: '/info/2',
-      title: 'Banner 2'
-    },
-    {
-      id: 3,
-      image: '/src/data_and_source/Images/Banners/banner3.png',
-      link: '/info/3',
-      title: 'Banner 3'
-    },
-    // Thêm banner khác ở đây
-    {
-      id: 4,
-      image: '/src/data_and_source/Images/Banners/banner4.jpg',
-      link: '/info/4',
-      title: 'Banner 4'
-    },
-    {
-      id: 5,
-      image: '/src/data_and_source/Images/Banners/banner5.png',
-      link: '/info/60',
-      title: 'Banner 5'
-    }
+  // Sau đó là các state
+  const [initialSlide] = useState(() => Math.floor(Math.random() * bannersData.length) + 1);
+  const [currentSlide, setCurrentSlide] = useState(initialSlide);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  // Thêm state để theo dõi thời gian interval
+  const [slideInterval, setSlideInterval] = useState(1000); 
+
+  // Tạo mảng slides mới với clone ở đầu và cuối
+  const extendedBannersData = [
+    { ...bannersData[bannersData.length - 1], id: 'clone-last' },  // Clone của slide cuối
+    ...bannersData,
+    { ...bannersData[0], id: 'clone-first' }  // Clone của slide đầu
   ];
 
   // Chuyển slide tự động
@@ -50,34 +72,52 @@ function Banner() {
     let interval;
     if (isAutoPlaying) {
       interval = setInterval(() => {
-        setCurrentSlide(prev => 
-          prev === banners.length - 1 ? 0 : prev + 1
-        );
-      }, 5000); // Chuyển sau mỗi 5 giây
+        setCurrentSlide(prev => prev + 1);
+      }, slideInterval);
     }
     return () => clearInterval(interval);
-  }, [isAutoPlaying, banners.length]);
+  }, [isAutoPlaying, slideInterval]);
+
+  // Thêm effect để xử lý infinite loop
+  useEffect(() => {
+    if (currentSlide === 0) {
+      // Đang ở clone đầu, reset về slide cuối
+      setTimeout(() => {
+        setIsTransitioning(true);
+        setCurrentSlide(bannersData.length);
+        setTimeout(() => setIsTransitioning(false), 50);
+      }, 300);
+    } else if (currentSlide === bannersData.length + 1) {
+      // Đang ở clone cuối, reset về slide đầu
+      setTimeout(() => {
+        setIsTransitioning(true);
+        setCurrentSlide(1);
+        setTimeout(() => setIsTransitioning(false), 50);
+      }, 300);
+    }
+  }, [currentSlide, bannersData.length]);
 
   // Dừng auto play khi hover
-  const handleMouseEnter = () => setIsAutoPlaying(false);
-  const handleMouseLeave = () => setIsAutoPlaying(true);
+  const handleMouseEnter = () => {
+    setSlideInterval(3000); // Tăng lên 10 giây khi hover
+  };
+  
+  const handleMouseLeave = () => {
+    setSlideInterval(1000); // Trở lại 5 giây khi không hover
+  };
 
   // Điều hướng slide
   const goToSlide = useCallback((index) => {
-    setCurrentSlide(index);
+    setCurrentSlide(index + 1); // +1 vì có slide clone ở đầu
   }, []);
 
   const goToPrevSlide = useCallback(() => {
-    setCurrentSlide(prev => 
-      prev === 0 ? banners.length - 1 : prev - 1
-    );
-  }, [banners.length]);
+    setCurrentSlide(prev => prev - 1);
+  }, []);
 
   const goToNextSlide = useCallback(() => {
-    setCurrentSlide(prev => 
-      prev === banners.length - 1 ? 0 : prev + 1
-    );
-  }, [banners.length]);
+    setCurrentSlide(prev => prev + 1);
+  }, []);
 
   const handleImageLoad = (event) => {
     const img = event.target;
@@ -96,65 +136,134 @@ function Banner() {
     }
   };
 
-  return (
-    <div 
-      className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className="banner__container">
-        <div 
-          className="banner__slides"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-        >
-          {banners.map((banner) => (
-            <Link 
-              key={banner.id}
-              to={banner.link}
-              className="banner__slide"
-            >
-              <div className="banner__image-wrapper">
-                <img 
-                  src={banner.image} 
-                  alt={banner.title}
-                  className="banner__image"
-                  onLoad={handleImageLoad}
-                />
-              </div>
-            </Link>
-          ))}
-        </div>
+//   return (
+//     <div 
+//       className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
+//       onMouseEnter={handleMouseEnter}
+//       onMouseLeave={handleMouseLeave}
+//     >
+//       <div className="banner__container">
+//         <div 
+//           className="banner__slides"
+//           style={{ 
+//             transform: `translateX(-${currentSlide * 100}%)`,
+//             transition: isTransitioning ? 'none' : 'transform 0.3s ease-in-out'
+//           }}
+//         >
+//           {extendedBannersData.map((banner) => (
+//             <Link 
+//               key={banner.id}
+//               to={banner.link}
+//               className="banner__slide"
+//             >
+//               <div className="banner__image-wrapper">
+//                 <img 
+//                   src={banner.image} 
+//                   alt={banner.title}
+//                   className="banner__image"
+//                   onLoad={handleImageLoad}
+//                 />
+//               </div>
+//             </Link>
+//           ))}
+//         </div>
 
-        {/* Navigation Arrows */}
-        <button 
-          className="banner__nav banner__nav--prev"
-          onClick={goToPrevSlide}
-          aria-label="Previous banner"
-        >
-          <i className="fas fa-chevron-left"></i>
-        </button>
-        <button 
-          className="banner__nav banner__nav--next"
-          onClick={goToNextSlide}
-          aria-label="Next banner"
-        >
-          <i className="fas fa-chevron-right"></i>
-        </button>
+//         {/* Navigation Arrows */}
+//         <button 
+//           className="banner__nav banner__nav--prev"
+//           onClick={goToPrevSlide}
+//           aria-label="Previous banner"
+//         >
+//           <i className="fas fa-chevron-left"></i>
+//         </button>
+//         <button 
+//           className="banner__nav banner__nav--next"
+//           onClick={goToNextSlide}
+//           aria-label="Next banner"
+//         >
+//           <i className="fas fa-chevron-right"></i>
+//         </button>
 
-        {/* Dots Navigation */}
-        <div className="banner__dots">
-          {banners.map((_, index) => (
-            <button
-              key={index}
-              className={`banner__dot ${currentSlide === index ? 'active' : ''}`}
-              onClick={() => goToSlide(index)}
-              aria-label={`Go to banner ${index + 1}`}
-            />
-          ))}
-        </div>
+//         {/* Dots Navigation */}
+//         <div className="banner__dots">
+//           {bannersData.map((_, index) => (
+//             <button
+//               key={index}
+//               className={`banner__dot ${currentSlide === index + 1 ? 'active' : ''}`}
+//               onClick={() => goToSlide(index)}
+//               aria-label={`Go to banner ${index + 1}`}
+//             />
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Banner;
+
+return (
+  <div 
+    className={`${styles.banner} ${!isHomePage ? styles['banner--compact'] : ''}`}
+    onMouseEnter={handleMouseEnter}
+    onMouseLeave={handleMouseLeave}
+  >
+    <div className={styles.banner__container}>
+      <div 
+        className={styles.banner__slides}
+        style={{ 
+          transform: `translateX(-${currentSlide * 100}%)`,
+          transition: isTransitioning ? 'none' : 'transform 0.3s ease-in-out'
+        }}
+      >
+        {extendedBannersData.map((banner) => (
+          <Link 
+            key={banner.id}
+            to={banner.link}
+            className={styles.banner__slide}
+          >
+            <div className={styles['banner__image-wrapper']}>
+              <img 
+                src={banner.image} 
+                alt={banner.title}
+                className={styles.banner__image}
+                onLoad={handleImageLoad}
+              />
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      {/* Navigation Arrows */}
+      <button 
+        className={`${styles.banner__nav} ${styles['banner__nav--prev']}`}
+        onClick={goToPrevSlide}
+        aria-label="Previous banner"
+      >
+        <i className="fas fa-chevron-left"></i>
+      </button>
+      <button 
+        className={`${styles.banner__nav} ${styles['banner__nav--next']}`}
+        onClick={goToNextSlide}
+        aria-label="Next banner"
+      >
+        <i className="fas fa-chevron-right"></i>
+      </button>
+
+      {/* Dots Navigation */}
+      <div className={styles.banner__dots}>
+        {bannersData.map((_, index) => (
+          <button
+            key={index}
+            className={`${styles.banner__dot} ${currentSlide === index + 1 ? styles.active : ''}`}
+            onClick={() => goToSlide(index)}
+            aria-label={`Go to banner ${index + 1}`}
+          />
+        ))}
       </div>
     </div>
-  );
+  </div>
+);
 }
 
 export default Banner;

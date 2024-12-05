@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Aside-of-Home.css';
+import styles from './Aside-of-Home.module.scss';
 import { useRef } from 'react'
 import avatarAside from '../../../../data_and_source/Images/Avatars/avatar.png';
 
@@ -30,37 +30,38 @@ function Aside() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const topNav = document.querySelector('.top-nav');
       const bottomNav = document.querySelector('.bottom-nav');
-      const footer = document.querySelector('.footer');
       
       // Kiểm tra null cho các elements
-      if (!topNav || !bottomNav || !footer || !asideRef.current || !wrapperRef.current) {
+      if (!bottomNav || !asideRef.current || !wrapperRef.current) {
         return;
       }
       
-      const topNavHeight = topNav.offsetHeight;
-      const bottomNavHeight = bottomNav.offsetHeight;
-      const totalOffset = topNavHeight + bottomNavHeight;
-      
+      const bottomNavRect = bottomNav.getBoundingClientRect();
       const wrapperRect = wrapperRef.current.getBoundingClientRect();
-      const footerRect = footer.getBoundingClientRect();
+      const asideHeight = asideRef.current.offsetHeight;
+      const viewportHeight = window.innerHeight;
       
-      // Kiểm tra khi aside chạm đến điểm sticky
-      if (wrapperRect.top <= totalOffset) {
-        asideRef.current.classList.add('sticky');
-        asideRef.current.style.top = `${totalOffset}px`;
+      // Tính toán vị trí stick
+      if (wrapperRect.top <= bottomNavRect.bottom) {
+        const availableSpace = viewportHeight - bottomNavRect.bottom;
         
-        // Kiểm tra khi aside chạm footer
-        const asideHeight = asideRef.current.offsetHeight;
-        const distanceToFooter = footerRect.top - (totalOffset + asideHeight);
-        
-        if (distanceToFooter <= 0) {
-          asideRef.current.style.top = `${totalOffset + distanceToFooter}px`;
+        // Kiểm tra xem có đủ không gian để hiển thị aside không
+        if (availableSpace >= asideHeight) {
+          asideRef.current.classList.add(styles.sticky);
+          asideRef.current.style.top = `${bottomNavRect.bottom}px`;
+        } else {
+          // Nếu không đủ không gian, cho phép scroll trong aside
+          asideRef.current.classList.add(styles.sticky);
+          asideRef.current.style.top = `${bottomNavRect.bottom}px`;
+          asideRef.current.style.maxHeight = `${availableSpace}px`;
+          asideRef.current.style.overflowY = 'auto';
         }
       } else {
-        asideRef.current.classList.remove('sticky');
+        asideRef.current.classList.remove(styles.sticky);
         asideRef.current.style.top = '0';
+        asideRef.current.style.maxHeight = 'none';
+        asideRef.current.style.overflowY = 'visible';
       }
     };
 
@@ -120,37 +121,37 @@ function Aside() {
   // Phần render giỏ hàng
   const renderCartSection = () => {
     return (
-      <div className="aside__section">
-        <div className="aside__section-header">
+      <div className={styles["aside__section"]}>
+        <div className={styles["aside__section-header"]}>
           <h4>Giỏ hàng</h4>
           {isLoggedIn && (
-            <Link to="/gio-hang" className="aside__view-more">
-              Xem thêm <i className="fas fa-chevron-right"></i>
+            <Link to="/gio-hang" className={styles["aside__view-more"]}>
+              Xem thêm <i className={styles["fas fa-chevron-right"]}></i>
             </Link>
           )}
         </div>
-        <div className="aside__manga-list">
+        <div className={styles["aside__manga-list"]}>
           {cartSummary.items.length > 0 ? (
             cartSummary.items.map((item, index) => (
-              <div key={index} className="aside__manga-item">
+              <div key={index} className={styles["aside__manga-item"]}>
                 <img src={item.thumbnail} alt={item.title} />
-                <div className="aside__manga-info">
+                <div className={styles["aside__manga-info"]}>
                   <h5>{item.title}</h5>
-                  <span className="aside__price">{item.price}đ</span>
+                  <span className={styles["aside__price"]}>{item.price}đ</span>
                 </div>
               </div>
             ))
           ) : (
-            <div className="aside__empty-state">
-              <i className="fas fa-shopping-cart"></i>
+            <div className={styles["aside__empty-state"]}>
+              <i className={styles["fas fa-shopping-cart"]}></i>
               <p>Giỏ hàng trống</p>
             </div>
           )}
         </div>
         {cartSummary.items.length > 0 && (
-          <div className="aside__cart-total">
+          <div className={styles["aside__cart-total"]}>
             <span>Tổng cộng:</span>
-            <span className="aside__price">{cartSummary.total}đ</span>
+            <span className={styles["aside__price"]}>{cartSummary.total}đ</span>
           </div>
         )}
       </div>
@@ -158,45 +159,45 @@ function Aside() {
   };
 
   return (
-    <div className="aside-wrapper" ref={wrapperRef}>
-      <aside className="aside" ref={asideRef}>
+    <div className={styles["aside-wrapper"]} ref={wrapperRef}>
+      <aside className={styles["aside"]} ref={asideRef}>
         {isLoggedIn ? (
           <>
             {/* User Info Section */}
-            <div className="aside__user">
-              <div className="aside__avatar">
+            <div className={styles["aside__user"]}>
+              <div className={styles["aside__avatar"]}>
                 <img src={avatarAside} alt="Avatar" />
               </div>
-              <div className="aside__user-info">
-                <h3 className="aside__username">{userData?.fullName}</h3>
-                <span className="aside__handle">@{userData?.email.split('@')[0]}</span>
+              <div className={styles["aside__user-info"]}>
+                <h3 className={styles["aside__username"]}>{userData?.fullName}</h3>
+                <span className={styles["aside__handle"]}>@{userData?.email.split('@')[0]}</span>
               </div>
             </div>
 
             {/* Recently Read Section */}
-            <div className="aside__section">
-              <div className="aside__section-header">
+            <div className={styles["aside__section"]}>
+              <div className={styles["aside__section-header"]}>
                 <h4>Lịch sử đọc</h4>
                 {isLoggedIn && (
-                  <Link to="/lich-su-doc" className="aside__view-more">
-                    Xem thêm <i className="fas fa-chevron-right"></i>
+                  <Link to="/lich-su-doc" className={styles["aside__view-more"]}>
+                    Xem thêm <i className={styles["fas fa-chevron-right"]}></i>
                   </Link>
                 )}
               </div>
-              <div className="aside__manga-list">
+              <div className={styles["aside__manga-list"]}>
                 {isLoggedIn && recentlyReadData.length > 0 ? (
                   recentlyReadData.map(manga => (
-                    <Link key={manga.id} to={`/info/${manga.id}`} className="aside__manga-item">
+                    <Link key={manga.id} to={`/info/${manga.id}`} className={styles["aside__manga-item"]}>
                       <img src={manga.thumbnail} alt={manga.title} />
-                      <div className="aside__manga-info">
+                      <div className={styles["aside__manga-info"]}>
                         <h5>{manga.title}</h5>
                         <span>{manga.chapter}</span>
                       </div>
                     </Link>
                   ))
                 ) : (
-                  <div className="aside__empty-state">
-                    <i className="fas fa-book-open"></i>
+                  <div className={styles["aside__empty-state"]}>
+                    <i className={styles["fas fa-book-open"]}></i>
                     <p>Chưa có lịch sử đọc</p>
                   </div>
                 )}
@@ -204,27 +205,27 @@ function Aside() {
             </div>
 
             {/* Bookmarks Section */}
-            <div className="aside__section">
-              <div className="aside__section-header">
+            <div className={styles["aside__section"]}>
+              <div className={styles["aside__section-header"]}>
                 <h4>Đánh dấu</h4>
-                <Link to="/danh-dau" className="aside__view-more">
-                  Xem thêm <i className="fas fa-chevron-right"></i>
+                <Link to="/danh-dau" className={styles["aside__view-more"]}>
+                  Xem thêm <i className={styles["fas fa-chevron-right"]}></i>
                 </Link>
               </div>
-              <div className="aside__manga-list">
+              <div className={styles["aside__manga-list"]}>
                 {isLoggedIn && bookmarksData.length > 0 ? (
                   bookmarksData.map(manga => (
-                    <Link key={manga.id} to={`/info/${manga.id}`} className="aside__manga-item">
+                    <Link key={manga.id} to={`/info/${manga.id}`} className={styles["aside__manga-item"]}>
                       <img src={manga.thumbnail} alt={manga.title} />
-                      <div className="aside__manga-info">
+                      <div className={styles["aside__manga-info"]}>
                         <h5>{manga.title}</h5>
                         <span>{manga.chapter}</span>
                       </div>
                     </Link>
                   ))
                 ) : (
-                  <div className="aside__empty-state">
-                    <i className="fas fa-bookmark"></i>
+                  <div className={styles["aside__empty-state"]}>
+                    <i className={styles["fas fa-bookmark"]}></i>
                     <p>Chưa có truyện đánh dấu</p>
                   </div>
                 )}
@@ -234,20 +235,20 @@ function Aside() {
             {renderCartSection()}
           </>
         ) : (
-          <div className="aside__guest">
-            <div className="aside__guest-message">
-              <i className="fas fa-user-circle"></i>
+          <div className={styles["aside__guest"]}>
+            <div className={styles["aside__guest-message"]}>
+              <i className={styles["fas fa-user-circle"]}></i>
               <p>Hãy đăng nhập để có thể sử dụng các chức năng sau.</p>
-              <div className="aside__benefits">
+              <div className={styles["aside__benefits"]}>
                 <ul>
-                  <li><i className="fas fa-check"></i> Lưu lịch sử đọc truyện</li>
-                  <li><i className="fas fa-check"></i> Đánh dấu truyện yêu thích</li>
-                  <li><i className="fas fa-check"></i> Mua truyện trực tuyến</li>
-                  <li><i className="fas fa-check"></i> Bình luận và đánh giá</li>
-                  <li><i className="fas fa-check"></i> Nhận thông báo cập nhật mới</li>
+                  <li><i className={styles["fas fa-check"]}></i> Lưu lịch sử đọc truyện</li>
+                  <li><i className={styles["fas fa-check"]}></i> Đánh dấu truyện yêu thích</li>
+                  <li><i className={styles["fas fa-check"]}></i> Mua truyện trực tuyến</li>
+                  <li><i className={styles["fas fa-check"]}></i> Bình luận và đánh giá</li>
+                  <li><i className={styles["fas fa-check"]}></i> Nhận thông báo cập nhật mới</li>
                 </ul>
               </div>
-              <Link to="/signin" className="aside__signin-button">
+              <Link to="/signin" className={styles["aside__signin-button"]}>
                 Đăng nhập
               </Link>
             </div>

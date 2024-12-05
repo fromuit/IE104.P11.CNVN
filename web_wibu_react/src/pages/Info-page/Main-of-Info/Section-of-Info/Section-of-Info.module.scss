@@ -1,0 +1,166 @@
+// Section of Info 
+
+.section-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+// Novel basic info 
+.novel-basic-info {
+    .novel-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 8px;
+    }
+
+    .novel-alt-title {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 16px;
+        font-style: italic;
+    }
+
+    .genre-tag {
+        display: inline-block;
+        padding: 4px 12px;
+        margin: 0 8px 8px 0;
+        background: #f0f2f5;
+        border-radius: 16px;
+        font-size: 14px;
+        color: #1a73e8;
+    }
+}
+
+// Novel detail info 
+.novel-author-info {
+    margin: 20px 0;
+
+    .meta-item {
+        margin-bottom: 8px;
+
+        .meta-label {
+            font-weight: 500;
+            margin-right: 8px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .meta-value {
+            color: #333;
+
+            &.status-tag {
+                padding: 4px 12px;
+                border-radius: 16px;
+                font-weight: 600;
+                font-size: 1rem;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 1.5;
+                white-space: nowrap;
+            }
+            &.đang-tiến-hành {
+                background: #e3f2fd;
+                color: #1976d2;
+            }
+    
+            &.đã-hoàn-thành {
+                background: #e8f5e9;
+                color: #2e7d32;
+            }
+    
+            &.tạm-ngưng {
+                background: #fff3e0;
+                color: #f57c00;
+            }
+        }
+    }
+}
+
+.novel-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+
+    .stat-box {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        background: #f8f9fa;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+
+        i {
+            font-size: 1.5rem;
+            color: #1a73e8;
+            margin-right: 12px;
+        }
+
+        .stat-content {
+            display: flex;
+            flex-direction: column;
+
+            .stat-value {
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: #333;
+            }
+
+            .stat-label {
+                font-size: 14px;
+                color: #666;
+            }
+        }
+    }
+
+}
+
+.novel-additional-info {
+    margin-top: 24px;
+
+    .add-info-row {
+        font-size: 1rem;
+        display: flex;
+        padding: 16px 0;
+        border-bottom: 1px solid #eee;
+        align-items: flex-start;
+
+        .add-info-label {
+            min-width: 150px;
+            font-weight: 500;
+            flex: 0 1 auto;
+            color: #666;
+            white-space: nowrap;
+            padding-right: 24px;
+            position: relative;
+            
+            &::after {
+                content: ":";
+                position: absolute;
+                right: 8px;
+                color: #666;
+            }
+        }
+
+        .add-info-value {
+            flex: 1;
+            color: #333;
+            padding-left: 0;
+
+            &--link {
+                color: #1a73e8;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

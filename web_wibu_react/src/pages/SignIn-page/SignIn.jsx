@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import bgImage from '../../data_and_source/images/bg_for_signin.png';
-import './SignIn.css';
+import styles from './SignIn.module.scss';
 
 // Component xử lý đăng nhập người dùng
 const Signin = () => {
@@ -93,22 +93,22 @@ const Signin = () => {
 
   // Render giao diện đăng nhập
   return (
-    <div className="signin-container" style={{ backgroundImage: `url(${bgImage})`,
+    <div className={styles["signin-container"]} style={{ backgroundImage: `url(${bgImage})`,
                                       backgroundSize: 'cover',
                                       backgroundPosition: 'center',
                                       backgroundRepeat: 'no-repeat'}}>
        <button 
-        className="home-nav-btn"
+        className={styles["home-nav-btn"]}
         onClick={() => navigate("/")}
       >
         <i className="fas fa-home"></i>
       </button>
 
-      <div className="signin-form-box">
-        <h1 id="title">Đăng nhập</h1>
+      <div className={styles["signin-form-box"]}>
+        <h1 className={styles["signin-title"]}>Đăng nhập</h1>
         <form onSubmit={handleSubmit}>
-          <div className="signin-input-group">
-            <div className="signin-input-field">
+          <div className={styles["signin-input-group"]}>
+            <div className={styles["signin-input-field"]}>
               <i className="fas fa-envelope"></i>
               <input
                 type="email"
@@ -117,9 +117,9 @@ const Signin = () => {
                 value={formData.email}
                 onChange={handleChange}
               />
-              {errors.email && <span className="error">{errors.email}</span>}
+              {errors.email && <span className={styles["signin-error"]}>{errors.email}</span>}
             </div>
-            <div className="signin-input-field">
+            <div className={styles["signin-input-field"]}>
               <i className="fas fa-lock"></i>
               <div style={{ 
                 position: "relative", 
@@ -146,14 +146,14 @@ const Signin = () => {
                   }}
                 />
               </div>
-              {errors.password && <span className="error">{errors.password}</span>}
+              {errors.password && <span className={styles["signin-error"]}>{errors.password}</span>}
             </div>
-            <div className="signin-forgot-password">
+            <div className={styles["signin-forgot-password"]}>
               <a href="/forgot-password">Quên mật khẩu?</a>
             </div>
           </div>
           {errors.submit && (
-            <div className="error-message" style={{
+            <div className={styles["signin-error"]} style={{
               color: 'red',
               textAlign: 'center',
               marginBottom: '10px',
@@ -162,10 +162,10 @@ const Signin = () => {
               {errors.submit}
             </div>
           )}
-          <div className="signin-btn-field">
+          <div className={styles["signin-btn-field"]}>
             <button type="submit">Đăng nhập</button>
           </div>
-          <div className="signin-signup-link">
+          <div className={styles["signin-signup-link"]}>
             <p>Chưa có tài khoản? <Link to="/signup">Đăng ký</Link></p>
           </div>
         </form>

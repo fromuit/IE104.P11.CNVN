@@ -27,6 +27,13 @@
       "password": "00000000",
       "fullName": "abc",
       "createdAt": "2024-11-04T06:58:23.145Z"
+    },
+    {
+      "id": "1731565479738",
+      "email": "Test123@gmail.com",
+      "password": "123456",
+      "fullName": "Test123",
+      "createdAt": "2024-11-14T06:24:39.738Z"
     }
   ]
 }

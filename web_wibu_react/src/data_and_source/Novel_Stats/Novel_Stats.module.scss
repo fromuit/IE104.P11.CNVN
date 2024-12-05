@@ -1,0 +1,71 @@
+// Key Frames
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// Novel Stats 
+.novel-stats {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: #666;
+    flex-wrap: wrap;
+    padding: 0.25rem 0;
+
+    span {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    &--views {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-weight: 500;
+        padding: 0.25rem 0;
+
+        i {
+            font-size: 0.875rem;
+        }
+
+        &[data-variant="top"] {
+            font-size: 0.875rem;
+            font-variant-numeric: normal;
+        }
+
+        &:hover {
+            color: #2196f3;
+            transition: color 0.2s ease;
+        }
+    }
+
+    &--update-time {
+        color: #888;
+        font-style: italic;
+        font-size: 0.8rem;
+        animation: fadeIn 0.3s ease-in;
+    }
+
+    &--start-date {
+        color: #2196f3;
+        font-weight: 500;
+    }
+
+    &--chapters, &--word-count {
+        color: #757575;
+    }
+
+    &[data-variant="recent"] {
+        justify-content: space-between;
+    }
+
+    &[data-variant="completed"] {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+

@@ -2,7 +2,8 @@ import { useLocation } from 'react-router-dom';
 import TopNav from './TopNav/TopNav';
 import Banner from './Banner/Banner';
 import BottomNav from './BottomNav/BottomNav';
-import './Header.css';
+// import './Header.css';
+import styles from './Header.module.scss';
 
 function Header() {
   const location = useLocation();
@@ -11,7 +12,7 @@ function Header() {
 
   if (isHomePage) {
     return (
-      <header className="header">
+      <header className={styles["header"]}>
         <TopNav />
         <Banner />
         <BottomNav />
@@ -21,7 +22,7 @@ function Header() {
 
   else if (isAccountPage) {
     return (
-      <header className="header header--compact">
+      <header className={styles["header--compact"]}>
         <TopNav />
         <BottomNav/>
       </header>
@@ -30,7 +31,7 @@ function Header() {
 
   else {
     return (
-      <header className="header header--compact">
+      <header className={styles["header--compact"]}>
         <TopNav />
         <BottomNav />
         <Banner />
