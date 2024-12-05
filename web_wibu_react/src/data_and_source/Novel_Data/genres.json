@@ -3,247 +3,142 @@
     {
       "id": 1,
       "name": "Bí Ẩn",
-      "slug": "bi-an",
-      "englishName": "Mystery",
-      "description": "Bí ẩn mãi mãi là bí ẩn."
+      "slug": "bi-an"
     },
     {
       "id": 2,
       "name": "Bi Kịch",
-      "slug": "bi-kich",
-      "englishName": "Tragedy",
-      "description": "Những câu chuyện bi thương lay động lòng người."
+      "slug": "bi-kich"
     },
     {
       "id": 3,
-      "name": "Cooking",
-      "slug": "cooking",
-      "englishName": "Cooking",
-      "description": "Thế giới ẩm thực đầy màu sắc."
+      "name": "Chuyển Giới",
+      "slug": "chuyen-gioi"
     },
     {
       "id": 4,
-      "name": "Chuyển Giới",
-      "slug": "chuyen-gioi",
-      "englishName": "Gender Bender",
-      "description": "Khám phá bản thể mới của chính mình."
+      "name": "Drama",
+      "slug": "drama"
     },
     {
       "id": 5,
-      "name": "Drama",
-      "slug": "drama",
-      "englishName": "Drama",
-      "description": "Plot twist bạn không đỡ được đâu."
+      "name": "Đời Thường",
+      "slug": "doi-thuong"
     },
     {
       "id": 6,
-      "name": "Đời Thường",
-      "slug": "doi-thuong",
-      "englishName": "Slice of Life",
-      "description": "Những câu chuyện đời thường giản dị nhưng lại gây ấn tượng sâu sắc."
+      "name": "Ecchi",
+      "slug": "ecchi"
     },
     {
       "id": 7,
-      "name": "Ecchi",
-      "slug": "ecchi",
-      "englishName": "Ecchi",
-      "description": "Đánh thức 'bản ngã khác' của bạn."
+      "name": "Giả Tưởng",
+      "slug": "gia-tuong"
     },
     {
       "id": 8,
-      "name": "Giả Tưởng",
-      "slug": "gia-tuong",
-      "englishName": "Fantasy",
-      "description": "Những tình tiết giả tưởng nhưng lại chân thật đến lạ lùng."
+      "name": "Hài Hước",
+      "slug": "hai-huoc"
     },
     {
       "id": 9,
-      "name": "Hài Hước",
-      "slug": "hai-huoc",
-      "englishName": "Comedy",
-      "description": "Một nụ cười bằng mười thang thuốc bổ."
+      "name": "Hành Động",
+      "slug": "hanh-dong"
     },
     {
       "id": 10,
-      "name": "Hành Động",
-      "slug": "hanh-dong",
-      "englishName": "Action",
-      "description": "Nghẹt thở đến từng chi tiết."
+      "name": "Harem",
+      "slug": "harem"
     },
     {
       "id": 11,
-      "name": "Harem",
-      "slug": "harem",
-      "englishName": "Harem",
-      "description": "Xây dựng một hậu cung của riêng bạn."
+      "name": "Học Đường",
+      "slug": "hoc-duong"
     },
     {
       "id": 12,
-      "name": "Học Đường",
-      "slug": "hoc-duong",
-      "englishName": "School Life",
-      "description": "Khoảnh khắc thanh xuân vườn trường đáng nhớ nhất đời người."
+      "name": "Isekai",
+      "slug": "isekai"
     },
     {
       "id": 13,
-      "name": "Isekai",
-      "slug": "isekai",
-      "englishName": "Isekai",
-      "description": "Phiêu lưu trong thế giới mới."
+      "name": "Kinh Dị",
+      "slug": "kinh-di"
     },
     {
       "id": 14,
-      "name": "Kinh Dị",
-      "slug": "kinh-di",
-      "englishName": "Horror",
-      "description": "Cảm giác đáng sợ đến từng tế bào."
+      "name": "Khoa Học Viễn Tưởng",
+      "slug": "khoa-hoc-vien-tuong"
     },
     {
       "id": 15,
-      "name": "Khoa Học Viễn Tưởng",
-      "slug": "khoa-hoc-vien-tuong",
-      "englishName": "Science Fiction",
-      "description": "Khi nền văn minh con người đạt đến một tầm cao mới."
+      "name": "Lãng Mạn",
+      "slug": "lang-man"
     },
     {
       "id": 16,
-      "name": "Lãng Mạn",
-      "slug": "lang-man",
-      "englishName": "Romance",
-      "description": "Những câu chuyện tình yêu đẹp đẽ nhất."
+      "name": "Lịch Sử",
+      "slug": "lich-su"
     },
     {
       "id": 17,
-      "name": "Lịch Sử",
-      "slug": "lich-su",
-      "englishName": "Historical",
-      "description": "Hành trình ngược dòng thời gian."
+      "name": "Magic",
+      "slug": "magic"
     },
     {
       "id": 18,
-      "name": "Loạn Luân",
-      "slug": "loan-luan",
-      "englishName": "Incest",
-      "description": "..."
+      "name": "Mecha",
+      "slug": "mecha"
     },
     {
       "id": 19,
-      "name": "Magic",
-      "slug": "magic",
-      "englishName": "Magic",
-      "description": "Thế giới của phép thuật và ma pháp."
+      "name": "Phiêu Lưu",
+      "slug": "phieu-luu"
     },
     {
       "id": 20,
-      "name": "Mecha",
-      "slug": "mecha",
-      "englishName": "Mecha",
-      "description": "Máy móc cũng có cảm xúc đấy."
+      "name": "Quân Sự",
+      "slug": "quan-su"
     },
     {
       "id": 21,
-      "name": "Otome Game",
-      "slug": "otome-game",
-      "englishName": "Otome Game",
-      "description": "..."
+      "name": "Seinen",
+      "slug": "seinen"
     },
     {
       "id": 22,
-      "name": "Phiêu Lưu",
-      "slug": "phieu-luu",
-      "englishName": "Adventure",
-      "description": "Xách balo lên và đi thôi."
+      "name": "Shoujo",
+      "slug": "shoujo"
     },
     {
       "id": 23,
-      "name": "Quân Sự",
-      "slug": "quan-su",
-      "englishName": "Military",
-      "description": "..."
+      "name": "Shounen",
+      "slug": "shounen"
     },
     {
       "id": 24,
-      "name": "Seinen",
-      "slug": "seinen",
-      "englishName": "Seinen",
-      "description": "Những câu chuyện dành cho con trai."
+      "name": "Siêu Năng Lực",
+      "slug": "sieu-nang-luc"
     },
     {
       "id": 25,
-      "name": "Shoujo",
-      "slug": "shoujo",
-      "englishName": "Shoujo",
-      "description": "..."
+      "name": "Siêu Nhiên",
+      "slug": "sieu-nhien"
     },
     {
       "id": 26,
-      "name": "Shoujo ai",
-      "slug": "shoujo-ai",
-      "englishName": "Shoujo Ai",
-      "description": "..."
+      "name": "Suspense",
+      "slug": "suspense"
     },
     {
       "id": 27,
-      "name": "Shounen",
-      "slug": "shounen",
-      "englishName": "Shounen",
-      "description": "..."
+      "name": "Tâm Lý",
+      "slug": "tam-ly"
     },
     {
       "id": 28,
-      "name": "Siêu Năng Lực",
-      "slug": "sieu-nang-luc",
-      "englishName": "Super Power",
-      "description": "..."
-    },
-    {
-      "id": 29,
-      "name": "Siêu Nhiên",
-      "slug": "sieu-nhien",
-      "englishName": "Supernatural",
-      "description": "..."
-    },
-    {
-      "id": 30,
-      "name": "Suspense",
-      "slug": "suspense",
-      "englishName": "Suspense",
-      "description": "..."
-    },
-    {
-      "id": 31,
-      "name": "Tâm Lý",
-      "slug": "tam-ly",
-      "englishName": "Psychological",
-      "description": "Đào sâu vào những góc khuất của tâm hồn."
-    },
-    {
-      "id": 32,
-      "name": "Thể Thao",
-      "slug": "the-thao",
-      "englishName": "Sports",
-      "description": "Đam mê và nhiệt huyết của tuổi trẻ."
-    },
-    {
-      "id": 33,
-      "name": "Trưởng Thành",
-      "slug": "truong-thanh",
-      "englishName": "Adult",
-      "description": "..."
-    },
-    {
-      "id": 34,
-      "name": "Wars",
-      "slug": "wars",
-      "englishName": "Wars",
-      "description": "..."
-    },
-    {
-      "id": 35,
       "name": "Web Novel",
-      "slug": "web-novel",
-      "englishName": "Web Novel",
-      "description": "..."
+      "slug": "web-novel"
     }
   ]
 }
