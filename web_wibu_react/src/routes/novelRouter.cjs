@@ -1,55 +1,36 @@
 const express = require('express');
-const fs = require('fs').promises;
 const path = require('path');
+const novels = require('../data_and_source/Novel_Data/novels_chapters.json');
 
 const router = express.Router();
-const NOVELS_DIR = 'D:\\IE104.P11.CNVN\\truyen_filtered';
 
-// Kiểm tra thư mục truyện có tồn tại
+// Kiểm tra truyện có tồn tại
 router.get('/check-novel-directory/:title', async (req, res) => {
   try {
     const novelTitle = req.params.title.toLowerCase();
-    const directories = await fs.readdir(NOVELS_DIR);
-    
-    // Log để kiểm tra
     console.log('Tựa đề cần tìm (lowercase):', novelTitle);
     
-    const novelDir = directories.find(dir => {
-      const lowercaseDir = dir.toLowerCase();
-      console.log('Tên thư mục con (lowercase):', lowercaseDir);
-      return lowercaseDir === novelTitle;
-    });
-    
-    const exists = !!novelDir;
+    const exists = !!novels[novelTitle];
     res.json({ exists });
   } catch (error) {
-    console.error('Lỗi kiểm tra thư mục:', error);
-    res.status(500).json({ error: 'Lỗi khi kiểm tra thư mục' });
+    console.error('Lỗi kiểm tra truyện:', error);
+    res.status(500).json({ error: 'Lỗi khi kiểm tra truyện' });
   }
 });
 
-// Lấy danh sách tên file trong thư mục truyện
+// Lấy danh sách chapter của truyện
 router.get('/list-chapters/:title', async (req, res) => {
   try {
     const novelTitle = req.params.title.toLowerCase();
-    const directories = await fs.readdir(NOVELS_DIR);
-    
-    // Log để kiểm tra
     console.log('Tựa đề cần tìm (lowercase):', novelTitle);
     
-    const novelDir = directories.find(dir => {
-      const lowercaseDir = dir.toLowerCase();
-      console.log('Tên thư mục con (lowercase):', lowercaseDir);
-      return lowercaseDir === novelTitle;
-    });
-    
-    if (!novelDir) {
-      return res.status(404).json({ error: 'Không tìm thấy thư mục truyện' });
+    const novel = novels[novelTitle];
+    if (!novel) {
+      return res.status(404).json({ error: 'Không tìm thấy truyện' });
     }
     
-    const files = await fs.readdir(path.join(NOVELS_DIR, novelDir));
-    const chapters = files.filter(file => file.toLowerCase().endsWith('.html'));
-    
+    // Lấy danh sách chapters từ JSON
+    const chapters = Object.values(novel.chapters).map(chapter => chapter.path);
     res.json({ chapters });
   } catch (error) {
     console.error('Lỗi đọc danh sách chương:', error);
