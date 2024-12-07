@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "concurrently \"npm run auth-server\" \"npm run novel-server\" \"npm run client\"",
     "client": "vite",
-    "server": "node src/server/server.js",
+    "auth-server": "node src/server/server.js",
+    "novel-server": "node src/server/novelServer.cjs",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
