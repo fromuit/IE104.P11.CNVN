@@ -29,8 +29,8 @@ router.get('/list-chapters/:title', async (req, res) => {
       return res.status(404).json({ error: 'Không tìm thấy truyện' });
     }
     
-    // Lấy danh sách chapters từ JSON
-    const chapters = Object.values(novel.chapters).map(chapter => chapter.path);
+    // Lấy danh sách tên chapter từ JSON
+    const chapters = Object.values(novel.chapters).map(chapter => chapter.name);
     res.json({ chapters });
   } catch (error) {
     console.error('Lỗi đọc danh sách chương:', error);
