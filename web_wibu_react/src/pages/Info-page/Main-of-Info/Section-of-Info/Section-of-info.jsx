@@ -2,7 +2,7 @@
 import styles from './Section-of-Info.module.scss';
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
-import { fetchChapters } from '../../../../pages/Info-page/Tool-for-chapters/chapterApi';
+import novelsData from '../../../../data_and_source/Novel_Data/novels_chapters.json';
 
 function SectionOfInfo({ novel }) {
   SectionOfInfo.propTypes = {
@@ -23,12 +23,33 @@ function SectionOfInfo({ novel }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const loadChapters = async () => {
+    const loadChapters = () => {
       if (!novel["Tựa đề"]) return;
       
       setLoading(true);
       try {
-        const chaptersList = await fetchChapters(novel["Tựa đề"]);
+        console.log('\n=== Bắt đầu tải chapters ===');
+        const novelTitle = novel["Tựa đề"].toLowerCase();
+        console.log('Tên truyện:', novelTitle);
+        
+        const novelData = novelsData[novelTitle];
+        if (!novelData) {
+          throw new Error('Không tìm thấy truyện');
+        }
+
+        // Chuyển đổi chapters từ object sang array và phân loại theo tập
+        const chaptersList = Object.keys(novelData.chapters)
+          .sort((a, b) => parseInt(a) - parseInt(b))
+          .map(key => ({
+            path: novelData.chapters[key].path,
+            name: novelData.chapters[key].name,
+            volume: novelData.chapters[key].name.toLowerCase().includes('minh họa') ? 'Minh Họa' : 
+                   `Tập ${Math.ceil(parseInt(key) / 10)}` // Mỗi 10 chapter là 1 tập
+          }));
+
+        console.log('Số lượng chapters:', chaptersList.length);
+        console.log('Danh sách chapters:', chaptersList);
+        
         setChapters(chaptersList);
       } catch (err) {
         setError(err.message);
@@ -40,6 +61,15 @@ function SectionOfInfo({ novel }) {
 
     loadChapters();
   }, [novel["Tựa đề"]]);
+
+  // Nhóm chapters theo tập
+  const chaptersByVolume = chapters.reduce((acc, chapter) => {
+    if (!acc[chapter.volume]) {
+      acc[chapter.volume] = [];
+    }
+    acc[chapter.volume].push(chapter);
+    return acc;
+  }, {});
 
   if (!novel) {
     console.log("No novel data received"); // Debug
@@ -148,28 +178,27 @@ function SectionOfInfo({ novel }) {
         {loading && <div>Đang tải danh sách chương...</div>}
         {error && <div className={styles["error-message"]}>{error}</div>}
         {chapters.length > 0 && (
-          <div className={styles["chapters-grid"]}>
-            {chapters.map((chapter, index) => {
-              const chapterName = chapter
-                .replace('.html', '')
-                .replace(/-/g, ' ')
-                .replace(/_/g, ' ')
-                .split(' ')
-                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                .join(' ');
-
-              return (
-                <div key={index} className={styles["chapter-item-container"]}>
-                  <a 
-                    href={`/read/${encodeURIComponent(novel["Tựa đề"])}/${encodeURIComponent(chapter)}`}
-                    className={styles["chapter-item"]}
-                  >
-                    <span className={styles["chapter-number"]}>Chương {index + 1}:</span>
-                    <span className={styles["chapter-name"]}>{chapterName}</span>
-                  </a>
+          <div className={styles["volumes-container"]}>
+            {Object.entries(chaptersByVolume).map(([volume, volumeChapters]) => (
+              <div key={volume} className={styles["volume-section"]}>
+                <h4 className={styles["volume-title"]}>{volume}</h4>
+                <div className={styles["chapters-grid"]}>
+                  {volumeChapters.map((chapter, index) => {
+                    console.log(`Đang render chapter ${index + 1} của ${volume}:`, chapter);
+                    return (
+                      <div key={index} className={styles["chapter-item-container"]}>
+                        <a 
+                          href={`/read/${encodeURIComponent(novel["Tựa đề"])}/${encodeURIComponent(chapter.name)}`}
+                          className={styles["chapter-item"]}
+                        >
+                          <span className={styles["chapter-name"]}>{chapter.name}</span>
+                        </a>
+                      </div>
+                    );
+                  })}
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
         )}
       </div>
