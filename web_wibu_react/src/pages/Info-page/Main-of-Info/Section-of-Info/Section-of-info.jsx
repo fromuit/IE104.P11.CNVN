@@ -82,6 +82,15 @@ function SectionOfInfo({ novel }) {
     return `${day}/${month}/${year}`;
   };
 
+  // Thêm hàm xử lý tên chương ở đầu component
+  function formatChapterName(name, index) {
+    // Kiểm tra nếu là "Minh họa" hoặc các biến thể
+    if (/^[Mm]inh\s*[Hh]o[aạ]/.test(name)) {
+      return name;
+    }
+    return `Chương ${index + 1}: ${name}`;
+  }
+
   return (
     <section className={styles["section-info"]}>
       <div className={styles["novel-basic-info"]}>
@@ -178,25 +187,17 @@ function SectionOfInfo({ novel }) {
         {loading && <div>Đang tải danh sách chương...</div>}
         {error && <div className={styles["error-message"]}>{error}</div>}
         {chapters.length > 0 && (
-          <div className={styles["volumes-container"]}>
-            {Object.entries(chaptersByVolume).map(([volume, volumeChapters]) => (
-              <div key={volume} className={styles["volume-section"]}>
-                <h4 className={styles["volume-title"]}>{volume}</h4>
-                <div className={styles["chapters-grid"]}>
-                  {volumeChapters.map((chapter, index) => {
-                    console.log(`Đang render chapter ${index + 1} của ${volume}:`, chapter);
-                    return (
-                      <div key={index} className={styles["chapter-item-container"]}>
-                        <a 
-                          href={`/read/${encodeURIComponent(novel["Tựa đề"])}/${encodeURIComponent(chapter.name)}`}
-                          className={styles["chapter-item"]}
-                        >
-                          <span className={styles["chapter-name"]}>{chapter.name}</span>
-                        </a>
-                      </div>
-                    );
-                  })}
-                </div>
+          <div className={styles["chapters-grid"]}>
+            {chapters.map((chapter, index) => (
+              <div key={index} className={styles["chapter-item-container"]}>
+                <a 
+                  href={`/read/${encodeURIComponent(novel["Tựa đề"])}/${encodeURIComponent(chapter.name)}`}
+                  className={styles["chapter-item"]}
+                >
+                  <span className={styles["chapter-name"]}>
+                    {formatChapterName(chapter.name, index)}
+                  </span>
+                </a>
               </div>
             ))}
           </div>
