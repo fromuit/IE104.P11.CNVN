@@ -1,0 +1,2668 @@
+{
+    "accel world": {
+        "id": 163,
+        "name": "accel world",
+        "chapters": {
+            "1": {
+                "name": "",
+                "path": "accel world\\c5483-chuong-1.html"
+            },
+            "3": {
+                "name": "",
+                "path": "accel world\\c5485-chuong-2.html"
+            },
+            "4": {
+                "name": "",
+                "path": "accel world\\c5486-chuong-3.html"
+            },
+            "5": {
+                "name": "",
+                "path": "accel world\\c5487-chuong-4.html"
+            },
+            "6": {
+                "name": "",
+                "path": "accel world\\c5488-chuong-5.html"
+            },
+            "7": {
+                "name": "",
+                "path": "accel world\\c5489-chuong-6.html"
+            },
+            "8": {
+                "name": "",
+                "path": "accel world\\c5490-chuong-7.html"
+            },
+            "9": {
+                "name": "",
+                "path": "accel world\\c5491-chuong-8.html"
+            },
+            "10": {
+                "name": "",
+                "path": "accel world\\c5492-chuong-9.html"
+            },
+            "12": {
+                "name": "",
+                "path": "accel world\\c5494-chuong-1.html"
+            },
+            "13": {
+                "name": "",
+                "path": "accel world\\c5495-chuong-2.html"
+            },
+            "14": {
+                "name": "",
+                "path": "accel world\\c5496-chuong-3.html"
+            }
+        }
+    },
+    "aldnoah zero extra": {
+        "id": 164,
+        "name": "aldnoah zero extra",
+        "chapters": {
+            "1": {
+                "name": "Thị Trấn Mới",
+                "path": "aldnoah zero extra\\c8057-chuong-1-thi-tran-moi.html"
+            },
+            "2": {
+                "name": "Buổi dã ngoại mùa xuân",
+                "path": "aldnoah zero extra\\c8058-chuong-2-buoi-da-ngoai-mua-xuan.html"
+            }
+        }
+    },
+    "bungaku shoujo": {
+        "id": 169,
+        "name": "bungaku shoujo",
+        "chapters": {
+            "3": {
+                "name": "",
+                "path": "bungaku shoujo\\c773-chuong-1.html"
+            },
+            "4": {
+                "name": "",
+                "path": "bungaku shoujo\\c774-chuong-2.html"
+            },
+            "5": {
+                "name": "",
+                "path": "bungaku shoujo\\c775-chuong-3.html"
+            },
+            "6": {
+                "name": "",
+                "path": "bungaku shoujo\\c776-chuong-4.html"
+            },
+            "7": {
+                "name": "",
+                "path": "bungaku shoujo\\c777-chuong-5.html"
+            },
+            "10": {
+                "name": "",
+                "path": "bungaku shoujo\\c780-chuong-1.html"
+            },
+            "11": {
+                "name": "",
+                "path": "bungaku shoujo\\c781-chuong-2.html"
+            },
+            "12": {
+                "name": "",
+                "path": "bungaku shoujo\\c782-chuong-3.html"
+            }
+        }
+    },
+    "byousoku 5 centimeter": {
+        "id": 170,
+        "name": "byousoku 5 centimeter",
+        "chapters": {
+            "1": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4802-chuong-0.html"
+            },
+            "2": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4803-chuong-1.html"
+            },
+            "3": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4804-chuong-2.html"
+            },
+            "4": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4805-chuong-3.html"
+            },
+            "5": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4806-chuong-4.html"
+            },
+            "6": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4807-chuong-1.html"
+            },
+            "7": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4808-chuong-2.html"
+            },
+            "8": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4809-chuong-3.html"
+            },
+            "9": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4810-chuong-1.html"
+            },
+            "10": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4811-chuong-2.html"
+            },
+            "11": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4812-chuong-3.html"
+            },
+            "12": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4813-chuong-4.html"
+            },
+            "13": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4814-chuong-5.html"
+            },
+            "14": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4815-chuong-6.html"
+            },
+            "15": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4816-chuong-7.html"
+            },
+            "16": {
+                "name": "",
+                "path": "byousoku 5 centimeter\\c4817-chuong-8.html"
+            }
+        }
+    },
+    "dantalian no shoka": {
+        "id": 172,
+        "name": "dantalian no shoka",
+        "chapters": {
+            "6": {
+                "name": "",
+                "path": "dantalian no shoka\\c790-chuong-4.html"
+            },
+            "8": {
+                "name": "",
+                "path": "dantalian no shoka\\c792-chuong-5.html"
+            }
+        }
+    },
+    "gundam sentinel": {
+        "id": 178,
+        "name": "gundam sentinel",
+        "chapters": {
+            "1": {
+                "name": "Mở đầu",
+                "path": "gundam sentinel\\c6026-chuong-00-mo-dau.html"
+            },
+            "3": {
+                "name": "Đụng độ",
+                "path": "gundam sentinel\\c6028-chuong-02-dung-do.html"
+            },
+            "4": {
+                "name": "S Gundam, xuất phát",
+                "path": "gundam sentinel\\c6029-chuong-03-s-gundam-xuat-phat.html"
+            },
+            "5": {
+                "name": "Đánh chiếm Pezun",
+                "path": "gundam sentinel\\c6030-chuong-04-danh-chiem-pezun.html"
+            },
+            "6": {
+                "name": "Giấc mơ về Mặt Trăng",
+                "path": "gundam sentinel\\c6031-chuong-05-giac-mo-ve-mat-trang.html"
+            },
+            "7": {
+                "name": "Bom Logitic",
+                "path": "gundam sentinel\\c6032-chuong-06-bom-logitic.html"
+            },
+            "8": {
+                "name": "Đại Bàng Gục Ngã",
+                "path": "gundam sentinel\\c6033-chuong-07-dai-bang-guc-nga.html"
+            },
+            "9": {
+                "name": "Cuộc chiến tại Thành Phố Ayers",
+                "path": "gundam sentinel\\c6034-chuong-08-cuoc-chien-tai-thanh-pho-ayers.html"
+            },
+            "10": {
+                "name": "Hệ thống gia tốc",
+                "path": "gundam sentinel\\c6035-chuong-09-he-thong-gia-toc.html"
+            },
+            "11": {
+                "name": "Cái bóng của Neo Zeon",
+                "path": "gundam sentinel\\c6036-chuong-10-cai-bong-cua-neo-zeon.html"
+            },
+            "12": {
+                "name": "Mục tiêu: Penta",
+                "path": "gundam sentinel\\c6037-chuong-11-muc-tieu-penta.html"
+            },
+            "13": {
+                "name": "Truy đuổi",
+                "path": "gundam sentinel\\c6038-chuong-12-truy-duoi.html"
+            },
+            "14": {
+                "name": "Ba lần khai hỏa",
+                "path": "gundam sentinel\\c6039-chuong-13-ba-lan-khai-hoa.html"
+            },
+            "15": {
+                "name": "Ánh sáng từ Trái Đất (Hết)",
+                "path": "gundam sentinel\\c6040-chuong-14-anh-sang-tu-trai-dat-het.html"
+            }
+        }
+    },
+    "harmony": {
+        "id": 181,
+        "name": "harmony",
+        "chapters": {
+            "7": {
+                "name": "",
+                "path": "harmony\\c30431-chuong-07.html"
+            }
+        }
+    },
+    "heavy object": {
+        "id": 182,
+        "name": "heavy object",
+        "chapters": {
+            "10": {
+                "name": "Trong trận chiến kỵ binh, hãy phá hủy chỗ đứng của đối phương >> Chiến tranh toàn diện tại Thành Phố Amazon",
+                "path": "heavy object\\c1610-chuong-3-trong-tran-chien-ky-binh-hay-pha-huy-cho-dung-cua-doi-phuong-chien-tranh-toan-dien-tai-thanh-pho-amazon.html"
+            },
+            "14": {
+                "name": "Một bãi rác thải là một núi kim loại hiếm >> Cuộc chặn đánh tại tàn tích chiến trường Alaska",
+                "path": "heavy object\\c1614-chuong-1-mot-bai-rac-thai-la-mot-nui-kim-loai-hiem-cuoc-chan-danh-tai-tan-tich-chien-truong-alaska.html"
+            },
+            "15": {
+                "name": "Mỏ than rải rác đống tiền >> Trận đột kích chớp nhoáng buổi đêm trên Bán đảo Kamchatka",
+                "path": "heavy object\\c1615-chuong-2-mo-than-rai-rac-dong-tien-tran-dot-kich-chop-nhoang-buoi-dem-tren-ban-dao-kamchatka.html"
+            },
+            "16": {
+                "name": "Danh dự là vô giá >> Cuộc đánh chặn khẩn cấp tại Đảo Victoria",
+                "path": "heavy object\\c1616-chuong-3-danh-du-la-vo-gia-cuoc-danh-chan-khan-cap-tai-dao-victoria.html"
+            },
+            "26": {
+                "name": "",
+                "path": "heavy object\\c40641-chuong-1.html"
+            },
+            "27": {
+                "name": "",
+                "path": "heavy object\\c40642-chuong-2.html"
+            },
+            "28": {
+                "name": "",
+                "path": "heavy object\\c40643-chuong-04.html"
+            },
+            "29": {
+                "name": "",
+                "path": "heavy object\\c40644-chuong-4.html"
+            },
+            "30": {
+                "name": "",
+                "path": "heavy object\\c40645-chuong-5.html"
+            }
+        }
+    },
+    "hyouka": {
+        "id": 185,
+        "name": "hyouka",
+        "chapters": {
+            "1": {
+                "name": "Thư gửi từ Benares.",
+                "path": "hyouka\\c4751-chuong-1-thu-gui-tu-benares.html"
+            },
+            "2": {
+                "name": "Sự hồi sinh của CLB Cổ Điển giàu truyền thống.",
+                "path": "hyouka\\c4752-chuong-2-su-hoi-sinh-cua-clb-co-dien-giau-truyen-thong.html"
+            },
+            "3": {
+                "name": "Những hoạt động của CLB Cổ Điển lâu đời.",
+                "path": "hyouka\\c4753-chuong-3-nhung-hoat-dong-cua-clb-co-dien-lau-doi.html"
+            },
+            "4": {
+                "name": "Lớp hậu bối của CLB Cổ Điển nhiều trầm thăng.",
+                "path": "hyouka\\c4754-chuong-4-lop-hau-boi-cua-clb-co-dien-nhieu-tram-thang.html"
+            },
+            "5": {
+                "name": "Ẩn tích trong kỉ yếu của CLB Cổ Điển.",
+                "path": "hyouka\\c4755-chuong-5-an-tich-trong-ki-yeu-cua-clb-co-dien.html"
+            },
+            "6": {
+                "name": "Những ngày vàng son của CLB Cổ Điển đầy hoa lệ.",
+                "path": "hyouka\\c4756-chuong-6-nhung-ngay-vang-son-cua-clb-co-dien-day-hoa-le.html"
+            },
+            "7": {
+                "name": "Sự thật về CLB Cổ Điển.",
+                "path": "hyouka\\c4757-chuong-7-su-that-ve-clb-co-dien.html"
+            },
+            "8": {
+                "name": "Cuộc sống thường nhật của CLB Cổ Điển hướng tới tương lai.",
+                "path": "hyouka\\c4758-chuong-8-cuoc-song-thuong-nhat-cua-clb-co-dien-huong-toi-tuong-lai.html"
+            },
+            "9": {
+                "name": "Thư gửi đến Sarajevo.",
+                "path": "hyouka\\c4759-chuong-9-thu-gui-den-sarajevo.html"
+            },
+            "11": {
+                "name": "Mở Màn.",
+                "path": "hyouka\\c4761-chuong-0-mo-man.html"
+            },
+            "12": {
+                "name": "Cùng đi xem Review nào!.",
+                "path": "hyouka\\c4762-chuong-1-cung-di-xem-review-nao.html"
+            },
+            "13": {
+                "name": "\"Vụ án trong ngôi làng hoang ở Furuoka\".",
+                "path": "hyouka\\c4763-chuong-2-vu-an-trong-ngoi-lang-hoang-o-furuoka.html"
+            },
+            "14": {
+                "name": "\"Kẻ đột nhập vô hình\".",
+                "path": "hyouka\\c4764-chuong-3-ke-dot-nhap-vo-hinh.html"
+            },
+            "15": {
+                "name": "\"Bloody Beast\".",
+                "path": "hyouka\\c4765-chuong-4-bloody-beast.html"
+            },
+            "16": {
+                "name": "Thử xem nào.",
+                "path": "hyouka\\c4766-chuong-5-thu-xem-nao.html"
+            },
+            "17": {
+                "name": "\"Điểm mù của vạn người\".",
+                "path": "hyouka\\c4767-chuong-6-diem-mu-cua-van-nguoi.html"
+            },
+            "18": {
+                "name": "Chưa được kết thúc.",
+                "path": "hyouka\\c4768-chuong-7-chua-duoc-ket-thuc.html"
+            },
+            "19": {
+                "name": "Hạ màn.",
+                "path": "hyouka\\c4769-chuong-8-ha-man.html"
+            },
+            "22": {
+                "name": "Một đêm khó ngủ.",
+                "path": "hyouka\\c4772-chuong-1-mot-dem-kho-ngu.html"
+            },
+            "29": {
+                "name": "Lại một đêm khó ngủ",
+                "path": "hyouka\\c4779-chuong-4-lai-mot-dem-kho-ngu.html"
+            },
+            "45": {
+                "name": "Kết nạp hội viên mới ở đây này",
+                "path": "hyouka\\c4795-chuong-1-ket-nap-hoi-vien-moi-o-day-nay.html"
+            },
+            "46": {
+                "name": "Là bạn thì phải được chúc mừng",
+                "path": "hyouka\\c4796-chuong-2-la-ban-thi-phai-duoc-chuc-mung.html"
+            },
+            "47": {
+                "name": "Một cửa hàng rất đẹp",
+                "path": "hyouka\\c4797-chuong-3-mot-cua-hang-rat-dep.html"
+            },
+            "48": {
+                "name": "Chia xa đâu có tốn sức, và thế là khoẻ",
+                "path": "hyouka\\c4798-chuong-4-chia-xa-dau-co-ton-suc-va-the-la-khoe.html"
+            },
+            "49": {
+                "name": "Khoảng cách xấp xỉ giữa hai người",
+                "path": "hyouka\\c4799-chuong-5-khoang-cach-xap-xi-giua-hai-nguoi.html"
+            },
+            "50": {
+                "name": "Bàn tay vươn tới khắp mọi nơi",
+                "path": "hyouka\\c4800-chuong-6-ban-tay-vuon-toi-khap-moi-noi.html"
+            }
+        }
+    },
+    "infinite stratos": {
+        "id": 187,
+        "name": "infinite stratos",
+        "chapters": {
+            "26": {
+                "name": "",
+                "path": "infinite stratos\\c841-chuong-1.html"
+            },
+            "27": {
+                "name": "",
+                "path": "infinite stratos\\c842-chuong-2.html"
+            },
+            "28": {
+                "name": "",
+                "path": "infinite stratos\\c843-chuong-3.html"
+            },
+            "29": {
+                "name": "",
+                "path": "infinite stratos\\c844-chuong-4.html"
+            },
+            "30": {
+                "name": "",
+                "path": "infinite stratos\\c845-chuong-5.html"
+            }
+        }
+    },
+    "izure shinwa no houkago sensou": {
+        "id": 188,
+        "name": "izure shinwa no houkago sensou",
+        "chapters": {
+            "10": {
+                "name": "Cuộc gặp gỡ tình cờ trong đêm",
+                "path": "izure shinwa no houkago sensou\\c33336-chuong-1-cuoc-gap-go-tinh-co-trong-dem.html"
+            },
+            "11": {
+                "name": "Tách biệt khỏi cuộc sống thường nhật",
+                "path": "izure shinwa no houkago sensou\\c33337-chuong-2-tach-biet-khoi-cuoc-song-thuong-nhat.html"
+            },
+            "12": {
+                "name": "Khởi đầu sau giờ học",
+                "path": "izure shinwa no houkago sensou\\c33347-chuong-3-khoi-dau-sau-gio-hoc.html"
+            },
+            "13": {
+                "name": "Phù thủy vàng và vị vua tàn ác",
+                "path": "izure shinwa no houkago sensou\\c33365-chuong-4-phu-thuy-vang-va-vi-vua-tan-ac.html"
+            }
+        }
+    },
+    "jinsei reset button": {
+        "id": 189,
+        "name": "jinsei reset button",
+        "chapters": {
+            "1": {
+                "name": "Phần 01: Một buổi sáng, khi tôi thức dậy",
+                "path": "jinsei reset button\\c14725-chuong-01-phan-01-mot-buoi-sang-khi-toi-thuc-day.html"
+            },
+            "2": {
+                "name": "Phần 02",
+                "path": "jinsei reset button\\c14910-chuong-01-phan-02.html"
+            },
+            "3": {
+                "name": "Phần 03+04",
+                "path": "jinsei reset button\\c15355-chuong-01-phan-0304.html"
+            },
+            "4": {
+                "name": "Phần 05",
+                "path": "jinsei reset button\\c17939-chuong-01-phan-05.html"
+            }
+        }
+    },
+    "kamisu reina": {
+        "id": 191,
+        "name": "kamisu reina",
+        "chapters": {
+            "1": {
+                "name": "Saito Fumi",
+                "path": "kamisu reina\\c4251-chuong-1-saito-fumi.html"
+            }
+        }
+    },
+    "katahane no riku": {
+        "id": 193,
+        "name": "katahane no riku",
+        "chapters": {
+            "1": {
+                "name": "NGÀY MÀ BÁNH RĂNG LỆCH KHỚP",
+                "path": "katahane no riku\\c14185-chuong-01-ngay-ma-banh-rang-lech-khop.html"
+            },
+            "2": {
+                "name": "GIAO ƯỚC",
+                "path": "katahane no riku\\c14192-chuong-02-giao-uoc.html"
+            }
+        }
+    },
+    "kenja no deshi wo nanoru kenja": {
+        "id": 194,
+        "name": "kenja no deshi wo nanoru kenja",
+        "chapters": {
+            "9": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8097-chuong-7.html"
+            },
+            "10": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8098-chuong-8.html"
+            },
+            "11": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8099-chuong-9.html"
+            },
+            "12": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8100-chuong-10.html"
+            },
+            "13": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8101-chuong-11.html"
+            },
+            "14": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8102-chuong-12.html"
+            },
+            "15": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8103-chuong-13.html"
+            },
+            "16": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8104-chuong-14.html"
+            },
+            "17": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8105-chuong-15.html"
+            },
+            "18": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8106-chuong-16.html"
+            },
+            "19": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8107-chuong-17.html"
+            },
+            "20": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8108-chuong-18.html"
+            },
+            "21": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8109-chuong-19.html"
+            },
+            "22": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c8110-chuong-20.html"
+            },
+            "23": {
+                "name": "",
+                "path": "kenja no deshi wo nanoru kenja\\c22643-chuong-21.html"
+            }
+        }
+    },
+    "kokoro connect": {
+        "id": 196,
+        "name": "kokoro connect",
+        "chapters": {
+            "2": {
+                "name": "Khi chúng tôi nhận ra, nó đã bắt đầu.",
+                "path": "kokoro connect\\c9562-chuong-1-khi-chung-toi-nhan-ra-no-da-bat-dau.html"
+            },
+            "3": {
+                "name": "'Thứ đó' bắt đầu bằng 'v'.",
+                "path": "kokoro connect\\c9563-chuong-2-thu-do-bat-dau-bang-v.html"
+            },
+            "4": {
+                "name": "Cái gã 'nhăn nhở' thích thú.",
+                "path": "kokoro connect\\c9564-chuong-3-cai-ga-nhan-nho-thich-thu.html"
+            },
+            "5": {
+                "name": "Tuần để thúc đẩy những mối quan hệ và kich nổ những quả bom.",
+                "path": "kokoro connect\\c9565-chuong-4-tuan-de-thuc-day-nhung-moi-quan-he-va-kich-no-nhung-qua-bom.html"
+            },
+            "6": {
+                "name": "Đòn phản công của những kẻ đóng thế.",
+                "path": "kokoro connect\\c9566-chuong-5-don-phan-cong-cua-nhung-ke-dong-the.html"
+            },
+            "7": {
+                "name": "Cú đá tầm thấp là thốn nhất.",
+                "path": "kokoro connect\\c9567-chuong-6-cu-da-tam-thap-la-thon-nhat.html"
+            },
+            "8": {
+                "name": "Kết thúc và điểm khởi đầu mới",
+                "path": "kokoro connect\\c9568-chuong-7-ket-thuc-va-diem-khoi-dau-moi.html"
+            },
+            "9": {
+                "name": "Cô ấy sinh ra đã thế.",
+                "path": "kokoro connect\\c9569-chuong-8-co-ay-sinh-ra-da-the.html"
+            },
+            "10": {
+                "name": "Lời tỏ tình và cái chết cận kề.",
+                "path": "kokoro connect\\c9570-chuong-9-loi-to-tinh-va-cai-chet-can-ke.html"
+            },
+            "14": {
+                "name": "Không thể dừng lại! Không thể dừng lại! Không thể dừng lại!",
+                "path": "kokoro connect\\c12216-chuong-1-khong-the-dung-lai-khong-the-dung-lai-khong-the-dung-lai.html"
+            },
+            "15": {
+                "name": "Khi chúng tôi nhận ra,nó đã bắt đầu (II).",
+                "path": "kokoro connect\\c12267-chuong-2-khi-chung-toi-nhan-rano-da-bat-dau-ii.html"
+            },
+            "16": {
+                "name": "Liệu cuộc sống bình thường của chúng tôi có bị thay đổi?",
+                "path": "kokoro connect\\c12299-chuong-3-lieu-cuoc-song-binh-thuong-cua-chung-toi-co-bi-thay-doi.html"
+            },
+            "17": {
+                "name": "Sự sụp đổ và rạn vỡ mối quan hệ giữa họ.",
+                "path": "kokoro connect\\c12326-chuong-4-su-sup-do-va-ran-vo-moi-quan-he-giua-ho.html"
+            },
+            "18": {
+                "name": "Hợp tác giải quyết vấn đề.",
+                "path": "kokoro connect\\c12354-chuong-5-hop-tac-giai-quyet-van-de.html"
+            },
+            "19": {
+                "name": "Tình cờ Nhận ra.",
+                "path": "kokoro connect\\c12391-chuong-6-tinh-co-nhan-ra.html"
+            },
+            "20": {
+                "name": "Chuyến dã ngoại trở thành chiến trường.",
+                "path": "kokoro connect\\c12429-chuong-7-chuyen-da-ngoai-tro-thanh-chien-truong.html"
+            },
+            "21": {
+                "name": "Làm như đã nói.",
+                "path": "kokoro connect\\c12460-chuong-8-lam-nhu-da-noi.html"
+            },
+            "25": {
+                "name": "Khi tôi được gợi nhớ lại, nó đã bắt đầu.",
+                "path": "kokoro connect\\c12598-chuong-1-khi-toi-duoc-goi-nho-lai-no-da-bat-dau.html"
+            },
+            "26": {
+                "name": "Chuyện xảy ra trong quá khứ.",
+                "path": "kokoro connect\\c12616-chuong-2-chuyen-xay-ra-trong-qua-khu.html"
+            },
+            "27": {
+                "name": "Cái tôi quá khứ và cái tôi hiện tại.",
+                "path": "kokoro connect\\c12638-chuong-3-cai-toi-qua-khu-va-cai-toi-hien-tai.html"
+            },
+            "28": {
+                "name": "Bởi vì đã không thể cứu vãn được nữa rồi.",
+                "path": "kokoro connect\\c12675-chuong-4-boi-vi-da-khong-the-cuu-van-duoc-nua-roi.html"
+            },
+            "29": {
+                "name": "Đêm giao thừa.",
+                "path": "kokoro connect\\c12697-chuong-5-dem-giao-thua.html"
+            },
+            "30": {
+                "name": "Tạm biệt.",
+                "path": "kokoro connect\\c12721-chuong-6-tam-biet.html"
+            },
+            "31": {
+                "name": "Trên thiên đường và dưới mặt đất, chỉ có tôi cao quý.",
+                "path": "kokoro connect\\c12742-chuong-7-tren-thien-duong-va-duoi-mat-dat-chi-co-toi-cao-quy.html"
+            },
+            "32": {
+                "name": "Bắt đầu lại.",
+                "path": "kokoro connect\\c12762-chuong-8-bat-dau-lai.html"
+            }
+        }
+    },
+    "konjiki no word master": {
+        "id": 197,
+        "name": "konjiki no word master",
+        "chapters": {
+            "226": {
+                "name": "",
+                "path": "konjiki no word master\\c36635-chuong-226-nhung-buoc-chan-den-toi-noi-vung-dat-thanh.html"
+            },
+            "228": {
+                "name": "",
+                "path": "konjiki no word master\\c39245-chuong-228-nguoi-dan-ong-ten-cruzer-geo.html"
+            },
+            "229": {
+                "name": "",
+                "path": "konjiki no word master\\c39497-chuong-229-tu-xuyen-tsuranuki-thanh-tram-zangeki.html"
+            },
+            "230": {
+                "name": "",
+                "path": "konjiki no word master\\c43101-chuong-230.html"
+            },
+            "231": {
+                "name": "",
+                "path": "konjiki no word master\\c44213-chuong-24.html"
+            },
+            "232": {
+                "name": "",
+                "path": "konjiki no word master\\c44214-chuong-232-cuoc-hen.html"
+            }
+        }
+    },
+    "legendary moonlight sculptor": {
+        "id": 198,
+        "name": "legendary moonlight sculptor",
+        "chapters": {
+            "1": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8703-chuong-1.html"
+            },
+            "2": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8704-chuong-2.html"
+            },
+            "3": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8705-chuong-3.html"
+            },
+            "4": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8706-chuong-4.html"
+            },
+            "5": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8707-chuong-5.html"
+            },
+            "6": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8708-chuong-6.html"
+            },
+            "7": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8709-chuong-7.html"
+            },
+            "8": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8710-chuong-8.html"
+            },
+            "9": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8711-chuong-9.html"
+            },
+            "10": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8712-chuong-10.html"
+            },
+            "11": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8713-chuong-1.html"
+            },
+            "12": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8714-chuong-2.html"
+            },
+            "13": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8715-chuong-3.html"
+            },
+            "14": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8716-chuong-4.html"
+            },
+            "15": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8717-chuong-5.html"
+            },
+            "16": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8718-chuong-6.html"
+            },
+            "17": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8719-chuong-7.html"
+            },
+            "18": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8720-chuong-8.html"
+            },
+            "19": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8721-chuong-9.html"
+            },
+            "20": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8722-chuong-10.html"
+            },
+            "21": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8723-chuong-1.html"
+            },
+            "22": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8724-chuong-2.html"
+            },
+            "23": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8725-chuong-3.html"
+            },
+            "24": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8726-chuong-4.html"
+            },
+            "25": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8727-chuong-5.html"
+            },
+            "26": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8728-chuong-6.html"
+            },
+            "27": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8729-chuong-7.html"
+            },
+            "28": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8730-chuong-8.html"
+            },
+            "29": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8731-chuong-9.html"
+            },
+            "30": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8732-chuong-10.html"
+            },
+            "31": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8733-chuong-11.html"
+            },
+            "32": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8734-chuong-1.html"
+            },
+            "33": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8735-chuong-2.html"
+            },
+            "34": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8736-chuong-3.html"
+            },
+            "35": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8737-chuong-4.html"
+            },
+            "36": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8738-chuong-5.html"
+            },
+            "37": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8739-chuong-6.html"
+            },
+            "38": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8740-chuong-7.html"
+            },
+            "39": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8741-chuong-8.html"
+            },
+            "40": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8742-chuong-9.html"
+            },
+            "41": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8743-chuong-10.html"
+            },
+            "42": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8744-chuong-1.html"
+            },
+            "43": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8745-chuong-2.html"
+            },
+            "44": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8746-chuong-3.html"
+            },
+            "45": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8747-chuong-4.html"
+            },
+            "46": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8748-chuong-5.html"
+            },
+            "47": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8749-chuong-6.html"
+            },
+            "48": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8750-chuong-7.html"
+            },
+            "49": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8751-chuong-8.html"
+            },
+            "50": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8752-chuong-9.html"
+            },
+            "51": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8753-chuong-10.html"
+            },
+            "52": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8754-chuong-1.html"
+            },
+            "53": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8755-chuong-2.html"
+            },
+            "54": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8756-chuong-3.html"
+            },
+            "55": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8757-chuong-4.html"
+            },
+            "56": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8758-chuong-5.html"
+            },
+            "57": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8759-chuong-6.html"
+            },
+            "58": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8760-chuong-7.html"
+            },
+            "59": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8761-chuong-8.html"
+            },
+            "60": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8762-chuong-9.html"
+            },
+            "61": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8763-chuong-1.html"
+            },
+            "62": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8764-chuong-2.html"
+            },
+            "63": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8765-chuong-3.html"
+            },
+            "64": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8766-chuong-4.html"
+            },
+            "65": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8767-chuong-5.html"
+            },
+            "66": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8768-chuong-6.html"
+            },
+            "67": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8769-chuong-7.html"
+            },
+            "68": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8770-chuong-8.html"
+            },
+            "69": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8771-chuong-9.html"
+            },
+            "70": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8772-chuong-1.html"
+            },
+            "71": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8773-chuong-2.html"
+            },
+            "72": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8774-chuong-3.html"
+            },
+            "73": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8775-chuong-4.html"
+            },
+            "74": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8776-chuong-5.html"
+            },
+            "75": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8777-chuong-6.html"
+            },
+            "76": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8778-chuong-7.html"
+            },
+            "77": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8779-chuong-8.html"
+            },
+            "78": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8780-chuong-9.html"
+            },
+            "79": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8781-chuong-1.html"
+            },
+            "80": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8782-chuong-2.html"
+            },
+            "81": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8783-chuong-3.html"
+            },
+            "82": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8784-chuong-4.html"
+            },
+            "83": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8785-chuong-5.html"
+            },
+            "84": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8786-chuong-6.html"
+            },
+            "85": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8787-chuong-7.html"
+            },
+            "86": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8788-chuong-8.html"
+            },
+            "87": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8789-chuong-9.html"
+            },
+            "88": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8790-chuong-10.html"
+            },
+            "89": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8791-chuong-1.html"
+            },
+            "90": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8792-chuong-2.html"
+            },
+            "91": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8793-chuong-3.html"
+            },
+            "92": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8794-chuong-4.html"
+            },
+            "93": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8795-chuong-5.html"
+            },
+            "94": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8796-chuong-6.html"
+            },
+            "95": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8797-chuong-7.html"
+            },
+            "96": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8798-chuong-8.html"
+            },
+            "97": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8799-chuong-9.html"
+            },
+            "98": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8800-chuong-1.html"
+            },
+            "99": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8801-chuong-2.html"
+            },
+            "100": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8802-chuong-3.html"
+            },
+            "101": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8803-chuong-4.html"
+            },
+            "102": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8804-chuong-5.html"
+            },
+            "103": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8805-chuong-6.html"
+            },
+            "104": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8806-chuong-7.html"
+            },
+            "105": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8807-chuong-8.html"
+            },
+            "106": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8808-chuong-9.html"
+            },
+            "107": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8809-chuong-10.html"
+            },
+            "108": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8810-chuong-11.html"
+            },
+            "109": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8811-chuong-1.html"
+            },
+            "110": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8812-chuong-2.html"
+            },
+            "111": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8813-chuong-3.html"
+            },
+            "112": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8814-chuong-4.html"
+            },
+            "113": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8815-chuong-5.html"
+            },
+            "114": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8816-chuong-6.html"
+            },
+            "115": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8817-chuong-7.html"
+            },
+            "116": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8818-chuong-8.html"
+            },
+            "117": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8819-chuong-9.html"
+            },
+            "118": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8820-chuong-10.html"
+            },
+            "119": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8821-chuong-1.html"
+            },
+            "120": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8822-chuong-2.html"
+            },
+            "121": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8823-chuong-3.html"
+            },
+            "122": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8824-chuong-4.html"
+            },
+            "123": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8825-chuong-5.html"
+            },
+            "124": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8826-chuong-6.html"
+            },
+            "125": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8827-chuong-7.html"
+            },
+            "126": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8828-chuong-8.html"
+            },
+            "127": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8829-chuong-9.html"
+            },
+            "128": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8830-chuong-10.html"
+            },
+            "129": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8831-chuong-1.html"
+            },
+            "130": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8832-chuong-2.html"
+            },
+            "131": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8833-chuong-3.html"
+            },
+            "132": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8834-chuong-4.html"
+            },
+            "133": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8835-chuong-5.html"
+            },
+            "134": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8836-chuong-6.html"
+            },
+            "135": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8837-chuong-7.html"
+            },
+            "136": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8838-chuong-8.html"
+            },
+            "137": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8839-chuong-9.html"
+            },
+            "138": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8840-chuong-10.html"
+            },
+            "139": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8841-chuong-11.html"
+            },
+            "140": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8842-chuong-1.html"
+            },
+            "141": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8843-chuong-2.html"
+            },
+            "142": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8844-chuong-3.html"
+            },
+            "143": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8845-chuong-4.html"
+            },
+            "144": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8846-chuong-5.html"
+            },
+            "145": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8847-chuong-6.html"
+            },
+            "146": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8848-chuong-7.html"
+            },
+            "147": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8849-chuong-8.html"
+            },
+            "148": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8850-chuong-9.html"
+            },
+            "149": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8851-chuong-10.html"
+            },
+            "150": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8852-chuong-11.html"
+            },
+            "151": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8853-chuong-1.html"
+            },
+            "152": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8854-chuong-2.html"
+            },
+            "153": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8855-chuong-3.html"
+            },
+            "154": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8856-chuong-4.html"
+            },
+            "155": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8857-chuong-5.html"
+            },
+            "156": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8858-chuong-6.html"
+            },
+            "157": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8859-chuong-7.html"
+            },
+            "158": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8860-chuong-8.html"
+            },
+            "159": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8861-chuong-9.html"
+            },
+            "160": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8862-chuong-1.html"
+            },
+            "161": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8863-chuong-2.html"
+            },
+            "162": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8864-chuong-3.html"
+            },
+            "163": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8865-chuong-4.html"
+            },
+            "164": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8866-chuong-5.html"
+            },
+            "165": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8867-chuong-6.html"
+            },
+            "166": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8868-chuong-7.html"
+            },
+            "167": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8869-chuong-8.html"
+            },
+            "168": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8870-chuong-9.html"
+            },
+            "169": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8871-chuong-10.html"
+            },
+            "170": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8872-chuong-1.html"
+            },
+            "171": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8873-chuong-2.html"
+            },
+            "172": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8874-chuong-3.html"
+            },
+            "173": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8875-chuong-4.html"
+            },
+            "174": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8876-chuong-5.html"
+            },
+            "175": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8877-chuong-6.html"
+            },
+            "176": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8878-chuong-7.html"
+            },
+            "177": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8879-chuong-8.html"
+            },
+            "178": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8880-chuong-9.html"
+            },
+            "179": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8881-chuong-10.html"
+            },
+            "180": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8882-chuong-11.html"
+            },
+            "181": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8883-chuong-1.html"
+            },
+            "182": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8884-chuong-2.html"
+            },
+            "183": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8885-chuong-3.html"
+            },
+            "184": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8886-chuong-4.html"
+            },
+            "185": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8887-chuong-5.html"
+            },
+            "186": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8888-chuong-6.html"
+            },
+            "187": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8889-chuong-7.html"
+            },
+            "188": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8890-chuong-8.html"
+            },
+            "189": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8891-chuong-9.html"
+            },
+            "190": {
+                "name": "",
+                "path": "legendary moonlight sculptor\\c8892-chuong-10.html"
+            }
+        }
+    },
+    "mimizuku to yoru no ou": {
+        "id": 202,
+        "name": "mimizuku to yoru no ou",
+        "chapters": {
+            "2": {
+                "name": "Mimizuku thích Tự tử và Vị Dạ Vương Ghét Người",
+                "path": "mimizuku to yoru no ou\\c9471-chuong-1-mimizuku-thich-tu-tu-va-vi-da-vuong-ghet-nguoi.html"
+            },
+            "3": {
+                "name": "Ngưỡng cửa Hạnh phúc",
+                "path": "mimizuku to yoru no ou\\c9472-chuong-2-nguong-cua-hanh-phuc.html"
+            },
+            "4": {
+                "name": "Những đóa hoa Luyện ngục",
+                "path": "mimizuku to yoru no ou\\c9473-chuong-3-nhung-doa-hoa-luyen-nguc.html"
+            },
+            "5": {
+                "name": "Giải thoát",
+                "path": "mimizuku to yoru no ou\\c9474-chuong-4-giai-thoat.html"
+            },
+            "8": {
+                "name": "Kỵ sĩ và Trinh nữ",
+                "path": "mimizuku to yoru no ou\\c9477-chuong-7-ky-si-va-trinh-nu.html"
+            },
+            "9": {
+                "name": "Giải thoát II",
+                "path": "mimizuku to yoru no ou\\c9478-chuong-8-giai-thoat-ii.html"
+            }
+        }
+    },
+    "ore no imouto ga konna ni kawaii wake ga nai": {
+        "id": 207,
+        "name": "ore no imouto ga konna ni kawaii wake ga nai",
+        "chapters": {
+            "2": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6112-chuong-1.html"
+            },
+            "3": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6113-chuong-2.html"
+            },
+            "4": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6114-chuong-3.html"
+            },
+            "5": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6115-chuong-4.html"
+            },
+            "8": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6118-chuong-1.html"
+            },
+            "9": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6119-chuong-2.html"
+            },
+            "10": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6120-chuong-3.html"
+            },
+            "11": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6121-chuong-4.html"
+            },
+            "13": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6123-chuong-1.html"
+            },
+            "14": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6124-chuong-2.html"
+            },
+            "15": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6125-chuong-3.html"
+            },
+            "16": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6126-chuong-4.html"
+            },
+            "18": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6128-chuong-1.html"
+            },
+            "19": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6129-chuong-2.html"
+            },
+            "20": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6130-chuong-3.html"
+            },
+            "21": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6131-chuong-4.html"
+            },
+            "23": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6133-chuong-1.html"
+            },
+            "24": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6134-chuong-2.html"
+            },
+            "25": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6135-chuong-3.html"
+            },
+            "26": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6136-chuong-4.html"
+            },
+            "28": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6138-chuong-1.html"
+            },
+            "29": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6139-chuong-2.html"
+            },
+            "30": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6140-chuong-3.html"
+            },
+            "31": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6141-chuong-4.html"
+            },
+            "34": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6144-chuong-1.html"
+            },
+            "35": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6145-chuong-2.html"
+            },
+            "36": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6146-chuong-3.html"
+            },
+            "37": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6147-chuong-4.html"
+            },
+            "39": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6149-chuong-1.html"
+            },
+            "40": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6150-chuong-2.html"
+            },
+            "41": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6151-chuong-3.html"
+            },
+            "42": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6152-chuong-4.html"
+            },
+            "53": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6163-chuong-1.html"
+            },
+            "54": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6164-chuong-2.html"
+            },
+            "55": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6165-chuong-3.html"
+            },
+            "56": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6166-chuong-4.html"
+            },
+            "58": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6168-chuong-1.html"
+            },
+            "59": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6169-chuong-2.html"
+            },
+            "60": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6170-chuong-3.html"
+            },
+            "61": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6171-chuong-4.html"
+            },
+            "65": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6175-chuong-1.html"
+            },
+            "66": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6176-chuong-2.html"
+            },
+            "67": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6177-chuong-3.html"
+            },
+            "68": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6178-chuong-4.html"
+            },
+            "69": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6179-chuong-5.html"
+            },
+            "70": {
+                "name": "",
+                "path": "ore no imouto ga konna ni kawaii wake ga nai\\c6180-chuong-6.html"
+            }
+        }
+    },
+    "sayonara piano sonata": {
+        "id": 213,
+        "name": "sayonara piano sonata",
+        "chapters": {
+            "1": {
+                "name": "Cửa hàng bách hóa ở tận cùng thế giới",
+                "path": "sayonara piano sonata\\c539-chuong-1-cua-hang-bach-hoa-o-tan-cung-the-gioi.html"
+            }
+        }
+    },
+    "seikoku no dragonar": {
+        "id": 215,
+        "name": "seikoku no dragonar",
+        "chapters": {
+            "2": {
+                "name": "Eco Tiểu Long nữ",
+                "path": "seikoku no dragonar\\c8431-chuong-1-eco-tieu-long-nu.html"
+            },
+            "3": {
+                "name": "Đường phố Ansarivan",
+                "path": "seikoku no dragonar\\c8432-chuong-2-duong-pho-ansarivan.html"
+            },
+            "4": {
+                "name": "Cuộc tấn công của Necromancia",
+                "path": "seikoku no dragonar\\c8433-chuong-3-cuoc-tan-cong-cua-necromancia.html"
+            },
+            "7": {
+                "name": "Hiệp sĩ Bạc.",
+                "path": "seikoku no dragonar\\c11791-chuong-1-hiep-si-bac.html"
+            },
+            "8": {
+                "name": "Thiết Huyết Valkyrie.",
+                "path": "seikoku no dragonar\\c11825-chuong-2-thiet-huyet-valkyrie.html"
+            },
+            "9": {
+                "name": "Veronica và Silvia.",
+                "path": "seikoku no dragonar\\c11875-chuong-3-veronica-va-silvia.html"
+            },
+            "10": {
+                "name": "Avdocha Đoạn Tội.",
+                "path": "seikoku no dragonar\\c11931-chuong-4-avdocha-doan-toi.html"
+            },
+            "13": {
+                "name": "Thảm kịch của nhà Apolo và quyết định của Mirabel.",
+                "path": "seikoku no dragonar\\c12172-chuong-1-tham-kich-cua-nha-apolo-va-quyet-dinh-cua-mirabel.html"
+            },
+            "14": {
+                "name": "Nhóm học nhóm của Ash và Silvia.",
+                "path": "seikoku no dragonar\\c12200-chuong-2-nhom-hoc-nhom-cua-ash-va-silvia.html"
+            }
+        }
+    },
+    "seirei tsukai no blade dance": {
+        "id": 216,
+        "name": "seirei tsukai no blade dance",
+        "chapters": {
+            "44": {
+                "name": "Nữ Tinh Linh Bóng Đêm",
+                "path": "seirei tsukai no blade dance\\c44-chuong-7-nu-tinh-linh-bong-dem.html"
+            },
+            "45": {
+                "name": "Vũ hội",
+                "path": "seirei tsukai no blade dance\\c45-chuong-8-vu-hoi.html"
+            },
+            "46": {
+                "name": "Khắc ấn Bóng Tối",
+                "path": "seirei tsukai no blade dance\\c46-chuong-9-khac-an-bong-toi.html"
+            },
+            "47": {
+                "name": "Trận thư hùng trong quá khứ",
+                "path": "seirei tsukai no blade dance\\c47-chuong-10-tran-thu-hung-trong-qua-khu.html"
+            },
+            "50": {
+                "name": "Thánh kiếm bị gãy khúc",
+                "path": "seirei tsukai no blade dance\\c50-chuong-1-thanh-kiem-bi-gay-khuc.html"
+            },
+            "51": {
+                "name": "Cuộc hẹn 3 người",
+                "path": "seirei tsukai no blade dance\\c51-chuong-2-cuoc-hen-3-nguoi.html"
+            },
+            "52": {
+                "name": "Sự mê hoặc của Công Chúa Rồng",
+                "path": "seirei tsukai no blade dance\\c52-chuong-3-su-me-hoac-cua-cong-chua-rong.html"
+            },
+            "53": {
+                "name": "Chị em nhà Laurenfrost",
+                "path": "seirei tsukai no blade dance\\c53-chuong-4-chi-em-nha-laurenfrost.html"
+            },
+            "54": {
+                "name": "Tinh Linh Cơ ở Đại Thần Điện",
+                "path": "seirei tsukai no blade dance\\c54-chuong-5-tinh-linh-co-o-dai-than-dien.html"
+            },
+            "55": {
+                "name": "Ký ức của Thánh kiếm",
+                "path": "seirei tsukai no blade dance\\c55-chuong-6-ky-uc-cua-thanh-kiem.html"
+            },
+            "56": {
+                "name": "Trận chiến thật sự bắt đầu",
+                "path": "seirei tsukai no blade dance\\c56-chuong-7-tran-chien-that-su-bat-dau.html"
+            },
+            "57": {
+                "name": "Sự cám dỗ của Đêm Tối",
+                "path": "seirei tsukai no blade dance\\c57-chuong-8-su-cam-do-cua-dem-toi.html"
+            },
+            "58": {
+                "name": "Demon Slayer",
+                "path": "seirei tsukai no blade dance\\c58-chuong-9-demon-slayer.html"
+            },
+            "62": {
+                "name": "Bình minh đầu tiên",
+                "path": "seirei tsukai no blade dance\\c62-chuong-1-binh-minh-dau-tien.html"
+            },
+            "63": {
+                "name": "Sứ giả từ Công Quốc Rossvale",
+                "path": "seirei tsukai no blade dance\\c63-chuong-2-su-gia-tu-cong-quoc-rossvale.html"
+            },
+            "64": {
+                "name": "Nepenthes Lore",
+                "path": "seirei tsukai no blade dance\\c64-chuong-3-nepenthes-lore.html"
+            },
+            "65": {
+                "name": "Milla Bassett",
+                "path": "seirei tsukai no blade dance\\c65-chuong-4-milla-bassett.html"
+            },
+            "66": {
+                "name": "Buổi tối của mỗi người",
+                "path": "seirei tsukai no blade dance\\c66-chuong-5-buoi-toi-cua-moi-nguoi.html"
+            },
+            "67": {
+                "name": "Trận đột kích giữa đêm",
+                "path": "seirei tsukai no blade dance\\c67-chuong-6-tran-dot-kich-giua-dem.html"
+            },
+            "68": {
+                "name": "Trở lại",
+                "path": "seirei tsukai no blade dance\\c68-chuong-7-tro-lai.html"
+            },
+            "69": {
+                "name": "Ma kiếm tái sinh",
+                "path": "seirei tsukai no blade dance\\c69-chuong-8-ma-kiem-tai-sinh.html"
+            },
+            "70": {
+                "name": "Quyết chiến",
+                "path": "seirei tsukai no blade dance\\c70-chuong-9-quyet-chien.html"
+            },
+            "74": {
+                "name": "Thư tuyên chiến",
+                "path": "seirei tsukai no blade dance\\c74-chuong-1-thu-tuyen-chien.html"
+            },
+            "75": {
+                "name": "Claire nghi ngờ",
+                "path": "seirei tsukai no blade dance\\c75-chuong-2-claire-nghi-ngo.html"
+            },
+            "76": {
+                "name": "Bài vấn đáp của Ellis",
+                "path": "seirei tsukai no blade dance\\c76-chuong-3-bai-van-dap-cua-ellis.html"
+            },
+            "77": {
+                "name": "Mãng xà đang đến gần",
+                "path": "seirei tsukai no blade dance\\c77-chuong-4-mang-xa-dang-den-gan.html"
+            },
+            "78": {
+                "name": "Đội Tứ Linh",
+                "path": "seirei tsukai no blade dance\\c78-chuong-5-doi-tu-linh.html"
+            },
+            "79": {
+                "name": "Công chúa bị bắt cóc",
+                "path": "seirei tsukai no blade dance\\c79-chuong-6-cong-chua-bi-bat-coc.html"
+            },
+            "80": {
+                "name": "Mưu lược của mụ phù thủy",
+                "path": "seirei tsukai no blade dance\\c80-chuong-7-muu-luoc-cua-mu-phu-thuy.html"
+            },
+            "81": {
+                "name": "Cuộc chạm trán nảy lửa",
+                "path": "seirei tsukai no blade dance\\c81-chuong-8-cuoc-cham-tran-nay-lua.html"
+            },
+            "82": {
+                "name": "Pandemonium (Vạn ma điện)",
+                "path": "seirei tsukai no blade dance\\c82-chuong-9-pandemonium-van-ma-dien.html"
+            },
+            "83": {
+                "name": "Vũ Cơ mạnh nhất",
+                "path": "seirei tsukai no blade dance\\c83-chuong-10-vu-co-manh-nhat.html"
+            },
+            "87": {
+                "name": "Tiệc mừng thắng lợi",
+                "path": "seirei tsukai no blade dance\\c87-chuong-1-tiec-mung-thang-loi.html"
+            },
+            "88": {
+                "name": "Phù thủy và thích khách",
+                "path": "seirei tsukai no blade dance\\c88-chuong-2-phu-thuy-va-thich-khach.html"
+            },
+            "90": {
+                "name": "Băng Ma và Hỏa Miêu",
+                "path": "seirei tsukai no blade dance\\c90-chuong-3-bang-ma-va-hoa-mieu.html"
+            },
+            "91": {
+                "name": "Cuộc hẹn với Rồng",
+                "path": "seirei tsukai no blade dance\\c91-chuong-4-cuoc-hen-voi-rong.html"
+            },
+            "93": {
+                "name": "Đêm trước trận chung kết",
+                "path": "seirei tsukai no blade dance\\c93-chuong-5-dem-truoc-tran-chung-ket.html"
+            },
+            "96": {
+                "name": "Nguyện vọng được phó thác",
+                "path": "seirei tsukai no blade dance\\c96-chuong-1-nguyen-vong-duoc-pho-thac.html"
+            },
+            "97": {
+                "name": "Kiếm Vũ trong đêm",
+                "path": "seirei tsukai no blade dance\\c97-chuong-2-kiem-vu-trong-dem.html"
+            },
+            "98": {
+                "name": "Chiến trường tóe lửa",
+                "path": "seirei tsukai no blade dance\\c98-chuong-3-chien-truong-toe-lua.html"
+            },
+            "99": {
+                "name": "Ma kiếm Bóng Đêm",
+                "path": "seirei tsukai no blade dance\\c99-chuong-4-ma-kiem-bong-dem.html"
+            },
+            "100": {
+                "name": "Vũ khí Tinh Linh",
+                "path": "seirei tsukai no blade dance\\c100-chuong-5-vu-khi-tinh-linh.html"
+            },
+            "101": {
+                "name": "Scarlet Valkyrie",
+                "path": "seirei tsukai no blade dance\\c101-chuong-6-scarlet-valkyrie.html"
+            },
+            "102": {
+                "name": "Cross Fire",
+                "path": "seirei tsukai no blade dance\\c102-chuong-7-cross-fire.html"
+            },
+            "106": {
+                "name": "Muir Alenstarl",
+                "path": "seirei tsukai no blade dance\\c106-chuong-1-muir-alenstarl.html"
+            },
+            "107": {
+                "name": "Tiếng gọi của Bóng Tối",
+                "path": "seirei tsukai no blade dance\\c107-chuong-2-tieng-goi-cua-bong-toi.html"
+            },
+            "108": {
+                "name": "Claire bị bắt",
+                "path": "seirei tsukai no blade dance\\c108-chuong-3-claire-bi-bat.html"
+            },
+            "109": {
+                "name": "Iseria Seaward",
+                "path": "seirei tsukai no blade dance\\c109-chuong-4-iseria-seaward.html"
+            },
+            "110": {
+                "name": "Bí mật của Scarlet",
+                "path": "seirei tsukai no blade dance\\c110-chuong-5-bi-mat-cua-scarlet.html"
+            },
+            "111": {
+                "name": "Lost Cathedral",
+                "path": "seirei tsukai no blade dance\\c111-chuong-6-lost-cathedral.html"
+            },
+            "112": {
+                "name": "Kiếm Vũ của Long Công Chúa",
+                "path": "seirei tsukai no blade dance\\c112-chuong-7-kiem-vu-cua-long-cong-chua.html"
+            },
+            "113": {
+                "name": "Laevateinn",
+                "path": "seirei tsukai no blade dance\\c113-chuong-8-laevateinn.html"
+            },
+            "114": {
+                "name": "Ma Vương thức tỉnh",
+                "path": "seirei tsukai no blade dance\\c114-chuong-9-ma-vuong-thuc-tinh.html"
+            },
+            "116": {
+                "name": "Tinh Linh Cơ Tai Họa",
+                "path": "seirei tsukai no blade dance\\c116-chuong-1-tinh-linh-co-tai-hoa.html"
+            },
+            "117": {
+                "name": "Vũ điệu của Song kiếm",
+                "path": "seirei tsukai no blade dance\\c117-chuong-2-vu-dieu-cua-song-kiem.html"
+            },
+            "118": {
+                "name": "\"Cuộc thi Tinh Linh Kiếm Vũ\" bế mạc",
+                "path": "seirei tsukai no blade dance\\c118-chuong-3-cuoc-thi-tinh-linh-kiem-vu-be-mac.html"
+            },
+            "119": {
+                "name": "Sự thật ba năm trước",
+                "path": "seirei tsukai no blade dance\\c119-chuong-4-su-that-ba-nam-truoc.html"
+            },
+            "120": {
+                "name": "Quyết tâm của Rinslet",
+                "path": "seirei tsukai no blade dance\\c120-chuong-5-quyet-tam-cua-rinslet.html"
+            },
+            "121": {
+                "name": "Trở lại Thành phố bỏ hoang",
+                "path": "seirei tsukai no blade dance\\c121-chuong-6-tro-lai-thanh-pho-bo-hoang.html"
+            },
+            "122": {
+                "name": "Nghi thức giải phong ấn",
+                "path": "seirei tsukai no blade dance\\c122-chuong-7-nghi-thuc-giai-phong-an.html"
+            },
+            "123": {
+                "name": "Tinh Linh Vương được giải phóng",
+                "path": "seirei tsukai no blade dance\\c123-chuong-8-tinh-linh-vuong-duoc-giai-phong.html"
+            },
+            "124": {
+                "name": "Đêm cuối",
+                "path": "seirei tsukai no blade dance\\c124-chuong-9-dem-cuoi.html"
+            },
+            "127": {
+                "name": "Đánh mất ký ức",
+                "path": "seirei tsukai no blade dance\\c127-chuong-1-danh-mat-ky-uc.html"
+            },
+            "128": {
+                "name": "Trốn chạy",
+                "path": "seirei tsukai no blade dance\\c128-chuong-2-tron-chay.html"
+            },
+            "129": {
+                "name": "Giáo Quốc rung chuyển",
+                "path": "seirei tsukai no blade dance\\c129-chuong-3-giao-quoc-rung-chuyen.html"
+            },
+            "130": {
+                "name": "Mật thất của Ma Vương",
+                "path": "seirei tsukai no blade dance\\c130-chuong-4-mat-that-cua-ma-vuong.html"
+            },
+            "131": {
+                "name": "Kẻ xâm phạm",
+                "path": "seirei tsukai no blade dance\\c131-chuong-5-ke-xam-pham.html"
+            },
+            "132": {
+                "name": "Mười hai tinh linh kỵ sĩ",
+                "path": "seirei tsukai no blade dance\\c132-chuong-6-muoi-hai-tinh-linh-ky-si.html"
+            },
+            "133": {
+                "name": "Đêm trước Đại Lễ",
+                "path": "seirei tsukai no blade dance\\c133-chuong-7-dem-truoc-dai-le.html"
+            },
+            "134": {
+                "name": "Đại Lễ Tinh Linh",
+                "path": "seirei tsukai no blade dance\\c134-chuong-8-dai-le-tinh-linh.html"
+            },
+            "135": {
+                "name": "Học viện bị tấn công",
+                "path": "seirei tsukai no blade dance\\c135-chuong-9-hoc-vien-bi-tan-cong.html"
+            },
+            "136": {
+                "name": "Giải phóng phong ấn kiếm",
+                "path": "seirei tsukai no blade dance\\c136-chuong-10-giai-phong-phong-an-kiem.html"
+            },
+            "150": {
+                "name": "Buổi sáng ở Vịnh Mùa Đông",
+                "path": "seirei tsukai no blade dance\\c150-chuong-1-buoi-sang-o-vinh-mua-dong.html"
+            },
+            "151": {
+                "name": "Thiếu nữ thức tỉnh",
+                "path": "seirei tsukai no blade dance\\c151-chuong-2-thieu-nu-thuc-tinh.html"
+            },
+            "152": {
+                "name": "Bàn tay ma quái của một âm mưu",
+                "path": "seirei tsukai no blade dance\\c152-chuong-3-ban-tay-ma-quai-cua-mot-am-muu.html"
+            },
+            "153": {
+                "name": "Trở lại Học Viện",
+                "path": "seirei tsukai no blade dance\\c153-chuong-4-tro-lai-hoc-vien.html"
+            },
+            "154": {
+                "name": "Pháo đài trầm mặc",
+                "path": "seirei tsukai no blade dance\\c154-chuong-5-phao-dai-tram-mac.html"
+            },
+            "155": {
+                "name": "Revenant",
+                "path": "seirei tsukai no blade dance\\c155-chuong-6-revenant.html"
+            },
+            "156": {
+                "name": "Tinh Linh Cơ của Ma Vương",
+                "path": "seirei tsukai no blade dance\\c156-chuong-7-tinh-linh-co-cua-ma-vuong.html"
+            },
+            "157": {
+                "name": "Đột nhập Đế Đô",
+                "path": "seirei tsukai no blade dance\\c157-chuong-8-dot-nhap-de-do.html"
+            },
+            "158": {
+                "name": "Tháp Nghiên Cứu Guas Gibai",
+                "path": "seirei tsukai no blade dance\\c158-chuong-9-thap-nghien-cuu-guas-gibai.html"
+            },
+            "163": {
+                "name": "Hoàng hôn ở kinh đô.",
+                "path": "seirei tsukai no blade dance\\c11230-chuong-1-hoang-hon-o-kinh-do.html"
+            },
+            "164": {
+                "name": "Bữa tiệc ở Vịnh Đông.",
+                "path": "seirei tsukai no blade dance\\c11231-chuong-2-bua-tiec-o-vinh-dong.html"
+            },
+            "165": {
+                "name": "Khoảng cách hai chị em.",
+                "path": "seirei tsukai no blade dance\\c11232-chuong-3-khoang-cach-hai-chi-em.html"
+            },
+            "166": {
+                "name": "Long vương của Dracunia.",
+                "path": "seirei tsukai no blade dance\\c11233-chuong-4-long-vuong-cua-dracunia.html"
+            },
+            "167": {
+                "name": "Đền Hắc long.",
+                "path": "seirei tsukai no blade dance\\c11234-chuong-5-den-hac-long.html"
+            },
+            "168": {
+                "name": "Leonora cám dỗ.",
+                "path": "seirei tsukai no blade dance\\c11235-chuong-6-leonora-cam-do.html"
+            },
+            "169": {
+                "name": "Chân dạng Long vương.",
+                "path": "seirei tsukai no blade dance\\c11236-chuong-7-chan-dang-long-vuong.html"
+            },
+            "170": {
+                "name": "Núi xác và Sông máu.",
+                "path": "seirei tsukai no blade dance\\c11237-chuong-8-nui-xac-va-song-mau.html"
+            },
+            "171": {
+                "name": "Chân Thực Quán Kiếm.",
+                "path": "seirei tsukai no blade dance\\c11238-chuong-9-chan-thuc-quan-kiem.html"
+            },
+            "185": {
+                "name": "Leviathan",
+                "path": "seirei tsukai no blade dance\\c20242-chuong-9-leviathan.html"
+            },
+            "191": {
+                "name": "Elemental Festa",
+                "path": "seirei tsukai no blade dance\\c28798-chuong-7-elemental-festa.html"
+            },
+            "194": {
+                "name": "Đại hội tinh linh ở Đế Đô.",
+                "path": "seirei tsukai no blade dance\\c30325-chuong-1-dai-hoi-tinh-linh-o-de-do.html"
+            },
+            "206": {
+                "name": "Giấc mơ của Est",
+                "path": "seirei tsukai no blade dance\\c31448-chuong-1-giac-mo-cua-est.html"
+            },
+            "213": {
+                "name": "",
+                "path": "seirei tsukai no blade dance\\c37408-chuong-3-sa-mac-hong-tu-ghul-a-val.html"
+            },
+            "216": {
+                "name": "Quỷ vương Đô",
+                "path": "seirei tsukai no blade dance\\c40829-chuong-5-quy-vuong-do.html"
+            },
+            "218": {
+                "name": "Lăng mộ Quỷ Vương",
+                "path": "seirei tsukai no blade dance\\c43992-chuong-7-lang-mo-quy-vuong.html"
+            },
+            "240": {
+                "name": "Bóng tối thức tỉnh",
+                "path": "seirei tsukai no blade dance\\c48770-chuong-03.html"
+            },
+            "242": {
+                "name": "Thánh Vương",
+                "path": "seirei tsukai no blade dance\\c50129-chuong-3-thanh-vuong.html"
+            },
+            "243": {
+                "name": "Tới Đế Đô",
+                "path": "seirei tsukai no blade dance\\c51669-chuong-4-toi-de-do.html"
+            },
+            "244": {
+                "name": "Quyết tâm của Rubia",
+                "path": "seirei tsukai no blade dance\\c51670-chuong-5-quyet-tam-cua-rubia.html"
+            },
+            "245": {
+                "name": "Thánh Đô biến mất",
+                "path": "seirei tsukai no blade dance\\c51671-chuong-6-thanh-do-bien-mat.html"
+            },
+            "246": {
+                "name": "Liệt diễm tỷ muội",
+                "path": "seirei tsukai no blade dance\\c51672-chuong-7-liet-diem-ty-muoi.html"
+            },
+            "247": {
+                "name": "Tiến về Linh Giới",
+                "path": "seirei tsukai no blade dance\\c51674-chuong-8-tien-ve-linh-gioi.html"
+            },
+            "248": {
+                "name": "Tới Tế đàn Kiếm Vũ",
+                "path": "seirei tsukai no blade dance\\c51675-chuong-9-toi-te-dan-kiem-vu.html"
+            },
+            "249": {
+                "name": "Triệu hồi Ma vương",
+                "path": "seirei tsukai no blade dance\\c51676-chuong-10-trieu-hoi-ma-vuong.html"
+            },
+            "250": {
+                "name": "Terminus Est",
+                "path": "seirei tsukai no blade dance\\c51678-chuong-11-terminus-est.html"
+            },
+            "257": {
+                "name": "Hội tụ",
+                "path": "seirei tsukai no blade dance\\c57305-chuong-4-hoi-tu.html"
+            },
+            "267": {
+                "name": "Lời cầu nguyện của các tinh linh cơ",
+                "path": "seirei tsukai no blade dance\\c65479-chuong-8-loi-cau-nguyen-cua-cac-tinh-linh-co.html"
+            },
+            "268": {
+                "name": "True Force",
+                "path": "seirei tsukai no blade dance\\c67101-chuong-9-true-force.html"
+            }
+        }
+    },
+    "shinonome yuuko": {
+        "id": 218,
+        "name": "shinonome yuuko",
+        "chapters": {
+            "2": {
+                "name": "",
+                "path": "shinonome yuuko\\c7350-chuong-2.html"
+            },
+            "3": {
+                "name": "",
+                "path": "shinonome yuuko\\c7351-chuong-1.html"
+            },
+            "4": {
+                "name": "",
+                "path": "shinonome yuuko\\c7352-chuong-3.html"
+            },
+            "5": {
+                "name": "",
+                "path": "shinonome yuuko\\c7353-chuong-4.html"
+            },
+            "6": {
+                "name": "",
+                "path": "shinonome yuuko\\c7354-chuong-5.html"
+            },
+            "7": {
+                "name": "",
+                "path": "shinonome yuuko\\c7355-chuong-6.html"
+            },
+            "8": {
+                "name": "",
+                "path": "shinonome yuuko\\c7356-chuong-7.html"
+            },
+            "9": {
+                "name": "",
+                "path": "shinonome yuuko\\c7357-chuong-8.html"
+            },
+            "10": {
+                "name": "",
+                "path": "shinonome yuuko\\c7358-chuong-9.html"
+            }
+        }
+    },
+    "suzumiya haruhi": {
+        "id": 222,
+        "name": "suzumiya haruhi",
+        "chapters": {
+            "2": {
+                "name": "",
+                "path": "suzumiya haruhi\\c1623-chuong-2.html"
+            },
+            "3": {
+                "name": "",
+                "path": "suzumiya haruhi\\c1624-chuong-3.html"
+            },
+            "4": {
+                "name": "",
+                "path": "suzumiya haruhi\\c1625-chuong-4.html"
+            },
+            "5": {
+                "name": "",
+                "path": "suzumiya haruhi\\c1626-chuong-5.html"
+            },
+            "6": {
+                "name": "",
+                "path": "suzumiya haruhi\\c1627-chuong-6.html"
+            },
+            "7": {
+                "name": "",
+                "path": "suzumiya haruhi\\c1628-chuong-7.html"
+            }
+        }
+    },
+    "sword art online progressive": {
+        "id": 223,
+        "name": "sword art online progressive",
+        "chapters": {
+            "3": {
+                "name": "Điệu Rondo của Thanh Kiếm Hư Ảo",
+                "path": "sword art online progressive\\c8055-chuong-2-dieu-rondo-cua-thanh-kiem-hu-ao.html"
+            }
+        }
+    },
+    "taimadou gakuen 35 shiken shoutai": {
+        "id": 224,
+        "name": "taimadou gakuen 35 shiken shoutai",
+        "chapters": {
+            "11": {
+                "name": "Phù Thủy mất trí nhớ.",
+                "path": "taimadou gakuen 35 shiken shoutai\\c9583-chuong-1-phu-thuy-mat-tri-nho.html"
+            },
+            "12": {
+                "name": "Phù Thủy gia nhập.",
+                "path": "taimadou gakuen 35 shiken shoutai\\c9584-chuong-2-phu-thuy-gia-nhap.html"
+            },
+            "13": {
+                "name": "Sự tương thích tồi tệ nhất.",
+                "path": "taimadou gakuen 35 shiken shoutai\\c9585-chuong-3-su-tuong-thich-toi-te-nhat.html"
+            },
+            "14": {
+                "name": "Giải đấu giả chiến.",
+                "path": "taimadou gakuen 35 shiken shoutai\\c9586-chuong-4-giai-dau-gia-chien.html"
+            },
+            "15": {
+                "name": "Tiếng cười của tên Vu Thuật Sư.",
+                "path": "taimadou gakuen 35 shiken shoutai\\c9587-chuong-5-tieng-cuoi-cua-ten-vu-thuat-su.html"
+            },
+            "16": {
+                "name": "Sức mạnh của kẻ gánh vác.",
+                "path": "taimadou gakuen 35 shiken shoutai\\c9588-chuong-6-suc-manh-cua-ke-ganh-vac.html"
+            }
+        }
+    },
+    "the new gate": {
+        "id": 226,
+        "name": "the new gate",
+        "chapters": {
+            "3": {
+                "name": "",
+                "path": "the new gate\\c8607-chuong-1.html"
+            },
+            "4": {
+                "name": "",
+                "path": "the new gate\\c8608-chuong-2.html"
+            },
+            "5": {
+                "name": "",
+                "path": "the new gate\\c8609-chuong-3.html"
+            },
+            "6": {
+                "name": "",
+                "path": "the new gate\\c8610-chuong-4.html"
+            },
+            "7": {
+                "name": "",
+                "path": "the new gate\\c8611-chuong-1.html"
+            },
+            "8": {
+                "name": "",
+                "path": "the new gate\\c8612-chuong-2.html"
+            },
+            "9": {
+                "name": "",
+                "path": "the new gate\\c8613-chuong-3.html"
+            },
+            "10": {
+                "name": "",
+                "path": "the new gate\\c8614-chuong-4.html"
+            },
+            "11": {
+                "name": "",
+                "path": "the new gate\\c8615-chuong-1.html"
+            },
+            "12": {
+                "name": "",
+                "path": "the new gate\\c8616-chuong-2.html"
+            },
+            "13": {
+                "name": "",
+                "path": "the new gate\\c8617-chuong-3.html"
+            },
+            "14": {
+                "name": "",
+                "path": "the new gate\\c8618-chuong-4.html"
+            },
+            "16": {
+                "name": "",
+                "path": "the new gate\\c23678-chuong-01.html"
+            }
+        }
+    },
+    "toaru majutsu no index": {
+        "id": 227,
+        "name": "toaru majutsu no index",
+        "chapters": {
+            "214": {
+                "name": "",
+                "path": "toaru majutsu no index\\c1927-chuong-6.html"
+            }
+        }
+    },
+    "tsuki no sango": {
+        "id": 229,
+        "name": "tsuki no sango",
+        "chapters": {
+            "1": {
+                "name": "",
+                "path": "tsuki no sango\\c2257-chuong-1.html"
+            },
+            "2": {
+                "name": "",
+                "path": "tsuki no sango\\c2258-chuong-2.html"
+            },
+            "3": {
+                "name": "",
+                "path": "tsuki no sango\\c2259-chuong-3.html"
+            },
+            "4": {
+                "name": "",
+                "path": "tsuki no sango\\c2260-chuong-4.html"
+            }
+        }
+    },
+    "tsurugi no joou to rakuin no ko": {
+        "id": 230,
+        "name": "tsurugi no joou to rakuin no ko",
+        "chapters": {
+            "2": {
+                "name": "Con trai của Ác ma.",
+                "path": "tsurugi no joou to rakuin no ko\\c8538-chuong-1-con-trai-cua-ac-ma.html"
+            },
+            "3": {
+                "name": "Đêm hôm trước.",
+                "path": "tsurugi no joou to rakuin no ko\\c8539-chuong-2-dem-hom-truoc.html"
+            },
+            "4": {
+                "name": "Nữ Vương Đao Kiếm",
+                "path": "tsurugi no joou to rakuin no ko\\c8540-chuong-3-nu-vuong-cua-thanh-kiem.html"
+            },
+            "5": {
+                "name": "Lá cờ màu bạc.",
+                "path": "tsurugi no joou to rakuin no ko\\c8541-chuong-4-la-co-mau-bac.html"
+            },
+            "6": {
+                "name": "Nữ hồ li kiêu hãnh",
+                "path": "tsurugi no joou to rakuin no ko\\c8542-chuong-5-nu-ho-li-kieu-hanh.html"
+            },
+            "7": {
+                "name": "Phòng thủ phản công.",
+                "path": "tsurugi no joou to rakuin no ko\\c8543-chuong-6-phong-thu-phan-cong.html"
+            },
+            "8": {
+                "name": "Thánh Đô",
+                "path": "tsurugi no joou to rakuin no ko\\c8544-chuong-7-santuario.html"
+            },
+            "9": {
+                "name": "Lưỡi dao độc.",
+                "path": "tsurugi no joou to rakuin no ko\\c8545-chuong-8-luoi-dao-doc.html"
+            },
+            "10": {
+                "name": "Vây hãm.",
+                "path": "tsurugi no joou to rakuin no ko\\c8546-chuong-9-vay-ham.html"
+            },
+            "11": {
+                "name": "Trăng non",
+                "path": "tsurugi no joou to rakuin no ko\\c8547-chuong-10-vang-trang-moi.html"
+            },
+            "12": {
+                "name": "Dấu ấn.",
+                "path": "tsurugi no joou to rakuin no ko\\c8548-chuong-11-dau-an.html"
+            },
+            "15": {
+                "name": "Tương lai đẫm máu.",
+                "path": "tsurugi no joou to rakuin no ko\\c8551-chuong-1-tuong-lai-dam-mau.html"
+            },
+            "16": {
+                "name": "Bạch Tường vi Kị sĩ.",
+                "path": "tsurugi no joou to rakuin no ko\\c8552-chuong-2-bach-tuong-vi-ki-si.html"
+            },
+            "17": {
+                "name": "Tổng giám mục.",
+                "path": "tsurugi no joou to rakuin no ko\\c8553-chuong-3-tong-giam-muc.html"
+            },
+            "18": {
+                "name": "Lời nói dối của Công chúa.",
+                "path": "tsurugi no joou to rakuin no ko\\c8554-chuong-4-loi-noi-doi-cua-cong-chua.html"
+            },
+            "19": {
+                "name": "Giữa những con sóng.",
+                "path": "tsurugi no joou to rakuin no ko\\c8555-chuong-5-giua-nhung-con-song.html"
+            },
+            "20": {
+                "name": "Phía sau gợn sóng.",
+                "path": "tsurugi no joou to rakuin no ko\\c8556-chuong-6-phia-sau-gon-song.html"
+            },
+            "21": {
+                "name": "Ngọn sóng cuối cùng.",
+                "path": "tsurugi no joou to rakuin no ko\\c8557-chuong-7-ngon-song-cuoi-cung.html"
+            },
+            "22": {
+                "name": "Tiếng gọi từ cõi chết.",
+                "path": "tsurugi no joou to rakuin no ko\\c8558-chuong-8-tieng-goi-tu-coi-chet.html"
+            },
+            "23": {
+                "name": "Ma ấn của Tử vương.",
+                "path": "tsurugi no joou to rakuin no ko\\c8559-chuong-9-ma-an-cua-tu-vuong.html"
+            },
+            "24": {
+                "name": "Tập kích.",
+                "path": "tsurugi no joou to rakuin no ko\\c8560-chuong-10-tap-kich.html"
+            },
+            "26": {
+                "name": "Nữ thần chưa ra đời.",
+                "path": "tsurugi no joou to rakuin no ko\\c12294-chuong-1-nu-than-chua-ra-doi.html"
+            },
+            "27": {
+                "name": "Phong ấn.",
+                "path": "tsurugi no joou to rakuin no ko\\c12322-chuong-2-phong-an.html"
+            },
+            "28": {
+                "name": "Lửa hận lan tràn",
+                "path": "tsurugi no joou to rakuin no ko\\c12350-chuong-3-hoa-cong.html"
+            },
+            "29": {
+                "name": "Lời cầu nguyện của dã thú.",
+                "path": "tsurugi no joou to rakuin no ko\\c12387-chuong-4-loi-cau-nguyen-cua-da-thu.html"
+            },
+            "30": {
+                "name": "Hắc Ma Thú và Bạch Tường Vi.",
+                "path": "tsurugi no joou to rakuin no ko\\c12425-chuong-5-hac-ma-thu-va-bach-tuong-vi.html"
+            },
+            "31": {
+                "name": "Thủ thành chiến.",
+                "path": "tsurugi no joou to rakuin no ko\\c14062-chuong-6-thu-thanh-chien.html"
+            },
+            "32": {
+                "name": "Thần huyết.",
+                "path": "tsurugi no joou to rakuin no ko\\c14063-chuong-7-than-huyet.html"
+            },
+            "33": {
+                "name": "Tái hợp",
+                "path": "tsurugi no joou to rakuin no ko\\c14134-chuong-8-tap-hop.html"
+            },
+            "39": {
+                "name": "Nơi để trở về",
+                "path": "tsurugi no joou to rakuin no ko\\c44155-chuong-1-noi-de-tro-ve.html"
+            },
+            "40": {
+                "name": "Hắc Tường Vi",
+                "path": "tsurugi no joou to rakuin no ko\\c47635-chuong-2.html"
+            },
+            "41": {
+                "name": "Ý nghĩa của quân y",
+                "path": "tsurugi no joou to rakuin no ko\\c78666-chuong-3-y-nghia-cua-quan-y.html"
+            },
+            "42": {
+                "name": "Khí tiết kị sĩ",
+                "path": "tsurugi no joou to rakuin no ko\\c79123-chuong-5-phien-toa-cua-bach-tuong-vi-ki-si.html"
+            },
+            "43": {
+                "name": "Nghi ngờ nối nghi ngờ",
+                "path": "tsurugi no joou to rakuin no ko\\c79597-chuong-6-nghi-ngo-noi-nghi-ngo.html"
+            }
+        }
+    },
+    "utsuro no hako to zero no maria": {
+        "id": 232,
+        "name": "utsuro no hako to zero no maria",
+        "chapters": {
+            "35": {
+                "name": "",
+                "path": "utsuro no hako to zero no maria\\c9700-chuong-1.html"
+            },
+            "36": {
+                "name": "",
+                "path": "utsuro no hako to zero no maria\\c9701-chuong-2.html"
+            },
+            "37": {
+                "name": "",
+                "path": "utsuro no hako to zero no maria\\c9702-chuong-3.html"
+            },
+            "38": {
+                "name": "",
+                "path": "utsuro no hako to zero no maria\\c9703-chuong-4.html"
+            }
+        }
+    },
+    "washio sumi wa yuusha de aru": {
+        "id": 233,
+        "name": "washio sumi wa yuusha de aru",
+        "chapters": {
+            "1": {
+                "name": "Washio Sumi",
+                "path": "washio sumi wa yuusha de aru\\c8060-chuong-1-washio-sumi.html"
+            },
+            "2": {
+                "name": "Minowa Gin",
+                "path": "washio sumi wa yuusha de aru\\c11292-chuong-2-minowa-gin.html"
+            },
+            "3": {
+                "name": "Nogi Sonoko",
+                "path": "washio sumi wa yuusha de aru\\c11293-chuong-3-nogi-sonoko.html"
+            },
+            "4": {
+                "name": "Trận Chiến",
+                "path": "washio sumi wa yuusha de aru\\c11294-chuong-4-tran-chien.html"
+            },
+            "5": {
+                "name": "Vĩnh Biệt",
+                "path": "washio sumi wa yuusha de aru\\c11295-chuong-5-vinh-biet.html"
+            },
+            "6": {
+                "name": "Tinh Linh",
+                "path": "washio sumi wa yuusha de aru\\c11296-chuong-6-tinh-linh.html"
+            },
+            "7": {
+                "name": "Lời Hứa",
+                "path": "washio sumi wa yuusha de aru\\c11297-chuong-7-loi-hua.html"
+            },
+            "8": {
+                "name": "Bạn Bè",
+                "path": "washio sumi wa yuusha de aru\\c11298-chuong-8-ban-be.html"
+            }
+        }
+    },
+    "zero no tsukaima": {
+        "id": 238,
+        "name": "zero no tsukaima",
+        "chapters": {
+            "14": {
+                "name": "Thành phố cảng La Rochelle",
+                "path": "zero no tsukaima\\c806-chuong-4-thanh-pho-cang-la-rochelle.html"
+            },
+            "15": {
+                "name": "Ngày nghỉ trước khi lên đường",
+                "path": "zero no tsukaima\\c807-chuong-5-ngay-nghi-truoc-khi-len-duong.html"
+            },
+            "16": {
+                "name": "Vương quốc Trắng",
+                "path": "zero no tsukaima\\c808-chuong-6-vuong-quoc-trang.html"
+            }
+        }
+    },
+    "zombie no afureta sekai de ore dake ga osowarenai": {
+        "id": 240,
+        "name": "zombie no afureta sekai de ore dake ga osowarenai",
+        "chapters": {
+            "2": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14427-chuong-01.html"
+            },
+            "3": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14433-chuong-02.html"
+            },
+            "4": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14436-chuong-03.html"
+            },
+            "5": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14462-chuong-04.html"
+            },
+            "6": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14525-chuong-05.html"
+            },
+            "7": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14527-chuong-06.html"
+            },
+            "8": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14546-chuong-07.html"
+            },
+            "9": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14605-chuong-08.html"
+            },
+            "11": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14633-chuong-01.html"
+            },
+            "12": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c14734-chuong-02.html"
+            },
+            "13": {
+                "name": "",
+                "path": "zombie no afureta sekai de ore dake ga osowarenai\\c15985-chuong-03.html"
+            }
+        }
+    }
+}
