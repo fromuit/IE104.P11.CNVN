@@ -6,6 +6,11 @@ import SignUp from '../pages/SignUp-page/SignUp.jsx';
 import SignIn from '../pages/SignIn-page/SignIn.jsx';
 import AdvancedSearch from '../features/Advanced-Search/AdvancedSearch.jsx';
 import GenresPage from '../pages/Genres-page/Genres-page.jsx';
+import TopNovelsPage from '../pages/Home-page/Main-of-Home/See_More/TopNovels-page.jsx';
+import RecentlyUpdatedPage from '../pages/Home-page/Main-of-Home/See_More/RecentlyUpdated-page.jsx';
+import NewNovelsPage from '../pages/Home-page/Main-of-Home/See_More/NewNovels-page.jsx';
+import CompletedNovelsPage from '../pages/Home-page/Main-of-Home/See_More/CompletedNovels-page.jsx';
+import OriginalNovelsPage from '../pages/Home-page/Main-of-Home/See_More/OriginalNovels-page.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -35,6 +40,26 @@ const AppRoutes = createBrowserRouter([
   {
     path: "/the-loai/:slug",
     element: <GenresPage />,
+  },
+  {
+    path: "/top-truyen",
+    element: <TopNovelsPage />,
+  },
+  {
+    path: "/moi-cap-nhat",
+    element: <RecentlyUpdatedPage />,
+  },
+  {
+    path: "/truyen-moi",
+    element: <NewNovelsPage />,
+  },
+  {
+    path: "/truyen-da-hoan-thanh",
+    element: <CompletedNovelsPage />,
+  },
+  {
+    path: "/truyen-sang-tac", 
+    element: <OriginalNovelsPage />,
   },
   {
     path: "*",
