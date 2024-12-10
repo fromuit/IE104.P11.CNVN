@@ -1,5 +1,5 @@
 import SectionOfInfo from './Section-of-Info/Section-of-Info';
-import AsideOfInfo from './Aside-of-Info/Aside-of-Info';
+import AsideOfInfo from './Aside-of-Info/Aside-of-info';
 // import './Main-of-Info.css';
 import styles from './Main-of-Info.module.scss';
 import PropTypes from 'prop-types';
