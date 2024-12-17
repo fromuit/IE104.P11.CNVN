@@ -1,0 +1,206 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+
+    h1 {
+        font-size: 2rem;
+        color: #333;
+        margin: 0;
+    }
+}
+
+.homeButton {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #2196f3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+    i {
+        font-size: 1.1rem;
+    }
+
+    &:hover {
+        background: #1976d2;
+        transform: translateY(-2px);
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.novelCard {
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-4px);
+    }
+}
+
+.imageLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image {
+    position: relative;
+    padding-top: 150%;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.info {
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+    line-height: 1.4;
+    height: 2.8em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.likeBtn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: #fff;
+        transform: scale(1.05);
+    }
+
+    &.liked {
+        i {
+            color: #ff4081;
+        }
+    }
+
+    i {
+        color: #666;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.pageBtn {
+    background: #f5f5f5;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background 0.3s ease;
+
+    &:hover:not(:disabled) {
+        background: #e0e0e0;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+
+.pageInfo {
+    color: #666;
+}
+
+// Responsive styles
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 1rem;
+    }
+
+    .title {
+        font-size: 0.9rem;
+    }
+
+    .header {
+        padding-top: 4rem;
+    }
+
+    .homeButton {
+        left: 50%;
+        transform: translateX(-50%);
+        
+        &:hover {
+            transform: translateX(-50%) translateY(-2px);
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .pagination {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
