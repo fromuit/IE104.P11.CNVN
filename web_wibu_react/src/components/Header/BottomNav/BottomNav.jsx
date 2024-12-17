@@ -80,42 +80,25 @@ function BottomNav() {
       navRef.current.classList.toggle('bottom-nav--compact', !isHomePage);
       wrapperRef.current.classList.toggle('bottom-nav__wrapper--compact', !isHomePage);
       
-      // Kiểm tra vị trí của BottomNav
-      const isAfterBannerPosition = !!bannerElement && 
-        (bannerElement.compareDocumentPosition(navRef.current) & Node.DOCUMENT_POSITION_FOLLOWING);
-      setIsAfterBanner(isAfterBannerPosition);
-
-      // Nếu không có banner hoặc BottomNav nằm ngay sau TopNav
-      if (!isAfterBannerPosition) {
-        navRef.current.classList.add('sticky');
-        navRef.current.style.top = `${topNavHeight}px`;
-        wrapperRef.current.style.paddingBottom = `${navRef.current.offsetHeight}px`;
-      }
-
-      originalPositionRef.current = isAfterBannerPosition ? 
-        (bannerElement ? bannerElement.offsetTop + bannerElement.offsetHeight : navRef.current.offsetTop) :
-        topNavHeight;
+      // Lấy vị trí ban đầu của BottomNav
+      originalPositionRef.current = bannerElement ? 
+        bannerElement.offsetTop + bannerElement.offsetHeight : 
+        navRef.current.offsetTop;
 
       const handleScroll = () => {
-        if (navRef.current && isAfterBannerPosition) {
-          const scrollY = window.scrollY;
-          const topNavHeight = isHomePage ? 60 : 40;
-          
-          const shouldStick = scrollY >= originalPositionRef.current - topNavHeight;
+        if (!navRef.current) return;
 
-          if (shouldStick) {
-            if (!navRef.current.classList.contains('sticky')) {
-              navRef.current.classList.add('sticky');
-              navRef.current.style.top = `${topNavHeight}px`;
-              wrapperRef.current.style.paddingBottom = `${navRef.current.offsetHeight}px`;
-            }
-          } else {
-            if (navRef.current.classList.contains('sticky')) {
-              navRef.current.classList.remove('sticky');
-              navRef.current.style.top = '0';
-              wrapperRef.current.style.paddingBottom = '0';
-            }
-          }
+        const scrollY = window.scrollY;
+        const shouldStick = scrollY + topNavHeight >= originalPositionRef.current;
+
+        if (shouldStick) {
+          navRef.current.classList.add('sticky');
+          navRef.current.style.top = `${topNavHeight}px`;
+          wrapperRef.current.style.paddingBottom = `${navRef.current.offsetHeight}px`;
+        } else {
+          navRef.current.classList.remove('sticky');
+          navRef.current.style.top = '0';
+          wrapperRef.current.style.paddingBottom = '0';
         }
       };
 
@@ -134,15 +117,12 @@ function BottomNav() {
         }
       };
 
-      // Chỉ thêm scroll listener nếu BottomNav nằm sau Banner
-      if (isAfterBannerPosition) {
-        window.addEventListener('scroll', scrollListener);
-        return () => window.removeEventListener('scroll', scrollListener);
-      }
+      window.addEventListener('scroll', scrollListener);
+      return () => window.removeEventListener('scroll', scrollListener);
     };
 
     initializeNav();
-  }, [isHomePage, isAfterBanner]);
+  }, [isHomePage]);
 
   useEffect(() => {
     function handleClickOutside(event) {
