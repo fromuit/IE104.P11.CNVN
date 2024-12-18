@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
-// import './BottomNav.css';
 import styles from './BottomNav.module.scss';
 import genresData from '../../../data_and_source/Novel_Data/genres.json';
 
@@ -178,7 +177,7 @@ return (
             onMouseLeave={handleGenresMouseLeave}
           >
             <div 
-              className={styles['bottom-nav__link']}
+              className={styles['bottom-nav__list__item__link']}
               style={{ cursor: 'pointer' }}
             >
               <i className="fas fa-tags"></i>
@@ -217,31 +216,31 @@ return (
           </li>
 
           <li className={styles['bottom-nav__item']}>
-            <NavLink to="/lich-phat-hanh" className={styles['bottom-nav__link']}>
+            <NavLink to="/lich-phat-hanh" className={styles['bottom-nav__list__item__link']}>
               <i className="far fa-calendar-alt"></i>
               Lịch phát hành
             </NavLink>
           </li>
           <li className={styles['bottom-nav__item']}>
-            <NavLink to="/dang-truyen" className={styles['bottom-nav__item__link']}>
+            <NavLink to="/dang-truyen" className={styles['bottom-nav__list__item__link']}>
               <i className="fas fa-upload"></i>
               Đăng truyện
             </NavLink>
           </li>
           <li className={styles['bottom-nav__item']}>
-            <NavLink to="/cua-hang" className={styles['bottom-nav__item__link']}>
+            <NavLink to="/cua-hang" className={styles['bottom-nav__list__item__link']}>
               <i className="fas fa-store"></i>
               Cửa hàng
             </NavLink>
           </li>
           <li className={styles['bottom-nav__item']}>
-            <NavLink to="/bang-xep-hang" className={styles['bottom-nav__item__link']}>
+            <NavLink to="/bang-xep-hang" className={styles['bottom-nav__list__item__link']}>
               <i className="fas fa-trophy"></i>
               Bảng xếp hạng
             </NavLink>
           </li>
           <li className={styles['bottom-nav__item']}>
-            <NavLink to="/quy-dinh" className={styles['bottom-nav__item__link']}>
+            <NavLink to="/quy-dinh" className={styles['bottom-nav__list__item__link']}>
               <i className="fas fa-book"></i>
               Quy định
             </NavLink>
