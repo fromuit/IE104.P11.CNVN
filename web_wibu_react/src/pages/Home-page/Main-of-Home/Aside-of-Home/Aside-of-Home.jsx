@@ -31,45 +31,63 @@ function Aside() {
   useEffect(() => {
     const handleScroll = () => {
       const bottomNav = document.querySelector(`.${bottomNavStyles["bottom-nav"]}`);
+      const footer = document.querySelector(`.${footerStyles.footer}`);
       
-      // Kiểm tra null cho các elements
-      if (!bottomNav || !asideRef.current || !wrapperRef.current) {
+      // Check for null elements
+      if (!bottomNav || !asideRef.current || !wrapperRef.current || !footer) {
         return;
       }
       
       const bottomNavRect = bottomNav.getBoundingClientRect();
       const wrapperRect = wrapperRef.current.getBoundingClientRect();
+      const footerRect = footer.getBoundingClientRect();
       const asideHeight = asideRef.current.offsetHeight;
       const viewportHeight = window.innerHeight;
+
+      // Calculate distance to footer
+      const distanceToFooter = footerRect.top - (bottomNavRect.bottom + asideHeight);
+      const FOOTER_THRESHOLD = 100; // Minimum distance to footer (in pixels)
       
-      // Tính toán vị trí stick
+      // Determine if we should stick the aside
       if (wrapperRect.top <= bottomNavRect.bottom) {
         const availableSpace = viewportHeight - bottomNavRect.bottom;
         
-        // Kiểm tra xem có đủ không gian để hiển thị aside không
-        if (availableSpace >= asideHeight) {
-          asideRef.current.classList.add(styles.sticky);
-          asideRef.current.style.top = `${bottomNavRect.bottom}px`;
-        } else {
-          // Nếu không đủ không gian, cho phép scroll trong aside
+        if (distanceToFooter <= FOOTER_THRESHOLD) {
+          // Too close to footer - remove sticky behavior
           asideRef.current.classList.remove(styles.sticky);
+          asideRef.current.style.position = "absolute";
+          asideRef.current.style.bottom = "0";
+          asideRef.current.style.top = "auto";
+        } else if (availableSpace >= asideHeight) {
+          // Enough space and not too close to footer - make it sticky
+          asideRef.current.classList.add(styles.sticky);
+          asideRef.current.style.position = "fixed";
+          asideRef.current.style.top = `${bottomNavRect.bottom}px`;
+          asideRef.current.style.bottom = "auto";
+        } else {
+          // Not enough vertical space - allow scrolling
+          asideRef.current.classList.remove(styles.sticky);
+          asideRef.current.style.position = "fixed";
           asideRef.current.style.top = `${bottomNavRect.bottom}px`;
           asideRef.current.style.maxHeight = `${availableSpace}px`;
-          asideRef.current.style.overflowY = 'auto';
+          asideRef.current.style.overflowY = "auto";
         }
       } else {
+        // Reset to default position
         asideRef.current.classList.remove(styles.sticky);
-        asideRef.current.style.top = '0';
-        asideRef.current.style.maxHeight = 'none';
-        asideRef.current.style.overflowY = 'visible';
+        asideRef.current.style.position = "static";
+        asideRef.current.style.top = "0";
+        asideRef.current.style.bottom = "auto";
+        asideRef.current.style.maxHeight = "none";
+        asideRef.current.style.overflowY = "visible";
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    // Gọi handleScroll lần đầu để set vị trí ban đầu
+    window.addEventListener("scroll", handleScroll);
+    // Initial position setup
     handleScroll();
     
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
