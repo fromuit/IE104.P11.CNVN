@@ -96,8 +96,13 @@ function TopNav() {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (!event.target.closest('.top-nav__search')) {
+      // Check if click is outside both search input and dropdown results
+      const isSearchArea = event.target.closest(`.${styles["top-nav__searchbar"]}`);
+      const isDropdownArea = event.target.closest(`.${styles["top-nav__search-results"]}`);
+      
+      if (!isSearchArea && !isDropdownArea) {
         setShowResults(false);
+        // setSearchQuery('');
       }
     };
 
