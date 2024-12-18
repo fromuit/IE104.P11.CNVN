@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import TopNav from '../../components/Header/TopNav/TopNav';
 import Banner from '../../components/Header/Banner/Banner';
 import { searchNovels } from '../utils/searchUtils';
 import genreMapping from '../../data_and_source/Novel_Data/genre_mapping.json';
-// import './AdvancedSearch.css';
 import Pagination from '../Pagination/Pagination';
 import styles from './AdvancedSearch.module.scss';
 import TopOfPageButton from "../../features/Top_of_Page_Button/Top_of_Page_Button";
@@ -18,7 +17,6 @@ function AdvancedSearch() {
   const [totalPages, setTotalPages] = useState(1);
   const [filteredNovels, setFilteredNovels] = useState([]);
   const [currentNovels, setCurrentNovels] = useState([]);
-  const [previouslyRendered] = useState(new Set());
   const [isGenresExpanded, setIsGenresExpanded] = useState(true);
   const [isAnimating, setIsAnimating] = useState(false);
   
