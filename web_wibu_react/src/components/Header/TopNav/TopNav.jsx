@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-// import './TopNav.css';
 import styles from './TopNav.module.scss';
 import { searchNovelsRealtime } from '../../../features/utils/searchUtils';
 import avatar from '../../../data_and_source/Images/Avatars/avatar.png';
@@ -15,7 +14,6 @@ function TopNav() {
   const [userData, setUserData] = useState(null);
   const [searchResults, setSearchResults] = useState([]);
   const [showResults, setShowResults] = useState(false);
-  const [setVisibleResults] = useState(3);
   const [showLogoutModal, setShowLogoutModal] = useState(false);
   const [sortOrder, setSortOrder] = useState('asc');
 
@@ -43,14 +41,24 @@ function TopNav() {
     }
   };
 
-  const toggleSortOrder = () => {
+  const toggleSortOrder = (e) => {
+    // Prevent both the button click from bubbling and the form submission
+    e.preventDefault();
+    e.stopPropagation();
+    
     const newOrder = sortOrder === 'asc' ? 'desc' : 'asc';
     setSortOrder(newOrder);
-    const sortedResults = [...searchResults].sort((a, b) => {
-      const compareResult = a["Tựa đề"].localeCompare(b["Tựa đề"]);
-      return newOrder === 'asc' ? compareResult : -compareResult;
-    });
-    setSearchResults(sortedResults);
+    
+    // Re-run the search with current query and new sort order
+    if (searchQuery.trim()) {
+      let results = searchNovelsRealtime(searchQuery);
+      results = results.sort((a, b) => {
+        const compareResult = a["Tựa đề"].localeCompare(b["Tựa đề"]);
+        return newOrder === 'asc' ? compareResult : -compareResult;
+      });
+      setSearchResults(results);
+      setShowResults(true); // Keep the dropdown visible
+    }
   };
 
   const handleSearchClick = (e) => {
@@ -132,6 +140,16 @@ function TopNav() {
             
             {showResults && searchResults.length > 0 && (
               <div className={styles["top-nav__search-results"]}>
+                <div className={styles["top-nav__search-results-header"]}>
+                  <button 
+                    className={styles["sort-button"]} 
+                    onClick={toggleSortOrder}
+                    title="Sắp xếp theo tên"
+                  >
+                    <i className={`fas fa-sort-alpha-${sortOrder === 'asc' ? 'down' : 'up'}`}></i>
+                    {sortOrder === 'asc' ? ' A-Z' : ' Z-A'}
+                  </button>
+                </div>
                 {searchResults.map(novel => (
                   <div
                     key={novel.ID}
