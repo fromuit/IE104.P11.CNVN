@@ -1,0 +1,925 @@
+Tập 8
+
+Chương 2: Tên của Nhà quán quân mạnh nhất Thế giới - Byunhilde
+
+Độ dài: 6,789 từ - Lần cuối:
+
+12/04/2017 16:39:57
+
+- Bình luận: 0
+
+"Vậy để ta giải thích tình hình."
+
+Họ giờ đang ở trong phòng tác chiến trong khu tầng hầm đặc biệt của Học viện IS.
+
+Thường thì đây là một nơi mà không học sinh nào biết đến, nhưng lúc này đây, tất cả học viên IS cá nhân đều đang tập trung lại ở đó.
+
+Houki, Cecilia, Rin, Charlotte, Laura, Kanzashi và Tatenashi đều đang đứng thành hàng, với Chifuyu và Yamada đang đứng trước mặt họ.
+
+Phòng tác chiến này dường như chạy nguồn điện hoàn toàn biệt lập, và màn hình hiện rõ toàn bộ thông tin. Tuy nhiên, đó không phải là màn hình holo, mà là một màn hình đời cũ.
+
+"Nhưng nghĩ đến việc có một nơi như thế này..."
+
+"Phải, việc này làm mình có hơi ngạc nhiên...."
+
+Rin và Cecilia nhìn quanh phòng và thì thầm với nhau, rồi lập tức bị Chifuyu cảnh cáo.
+
+"Im lặng, Huang, Alcott! Chúng ta đang ở giữa cuộc tóm tắt!"
+
+"V-vâng!"
+
+"E-em xin lỗi!"
+
+Sau khi bị Chifuyu càu nhàu, Rin và Cecilia đều ngừng lẩm bẩm.
+
+Rồi Yamada phóng to những dữ liệu được hiển thị và bắt đầu giải thích tất cả cho những người hiện diện.
+
+"Lúc này đây, tất cả hệ thống trong Học viện IS đều đã bị tắt. Đây là một cuộc tấn công điện tử từ một nguồn không rõ.... nói cách khác, có thể kết luận rằng chúng ta đã bị một tên hacker tấn công."
+
+Giọng của Maya nghe cứng hơn bình thường. Có vẻ như đây là một tình huống khá khẩn cấp, đến mức đưa cả học sinh vào khu vực đặc biệt này.
+
+"Đến giờ vẫn chưa có học viên nào bị thương cả, và cũng không có mối nguy hại nào gây nguy hiểm đến mạng sống cả khi bức tường phòng hộ đóng xuống. Không phải tất cả tường phòng hộ đều đóng, nên dường như chỉ có một phần trong số những cảnh cửa được kích hoạt."
+
+Vậy nên mấy em có thể đi nhà vệ sinh, biết chứ? Cô ấy nói, nhưng chả ai cười.
+
+"Ơ-ờm, các em có câu hỏi gì về tình hình hiện tại không?"
+
+"Vâng."
+
+Laura giơ tay lên. Như thường lệ, một người lính tích cực luôn rất tích cực khi có chuyện gì đó xảy đến.
+
+"Em nghe bảo Học viện IS chạy một hệ thống độc lập. Có thật là một tên hacker thực sự hack được vào trong cái tình trạng đó không?"
+
+"V-về cái đó thì...."
+
+Maya dường như đang cảm thấy rất rắc rối, và cô ấy quay mặt sang một bên. Chifuyu dường như hiểu được ý cô ấy, nên đã thẳng thắn mà nói ra.
+
+"Đó không phải là vấn đề. Vấn đề là ai là người đang tấn công chúng ta."
+
+"Và mục đích của kẻ tấn công là gì?"
+
+"Sẽ không cần phải tốn nhiều công sức nếu chúng ta biết."
+
+Điều đó không sai. Laura nói, và kết thúc câu hỏi của mình.
+
+Không còn ai giơ tay mình lên nữa, và Maya quay sang giải thích nội dụng chiến dịch.
+
+"Vậy, Shinonono-san, Alcott-san, Huang-san, Dunois-san, Bodewig-san, các em hãy đến phòng truy cập và tiến hành lặn máy tính qua mạng trung tâm IS. Sarasiki Kanzashi-san, em giữ nhiệm vụ hỗ trợ nhé."
+
+Maya thông báo với một giọng dõng dạc, nhưng những người sử dụng IS cá nhân chỉ đáp lại bằng một sự im lặng.
+
+"..."
+
+"Ể? Mọi người sao thế?"
+
+Ngoài Tatenashi ra, những người còn lại đều trông bối rối khi đứng trước mặt Maya.
+
+"""Lặn máy tính!?"""
+
+"Phải. Mấy em cũng biết trong giả thuyết có cái khả năng đó mà nhỉ? Các phi công IS có thể lặn vào thế giới máy tính với trực quan ảo qua cái đường rẻ bảo vệ hệ thống thần kinh... tuy nhiên phương pháp này không chỉ là giả thuyết. Thực tế, chúng ta bị hạn chế bởi các điều khoản bổ sung của hiệp ước Alaska, nhưng vì chúng ta có đầy đủ 4 tiêu chuẩn cho tình huống này, nên chúng ta được phép sử dụng chúng."
+
+"Đó-đó không phải là điều mà em đang muốn hỏi!"
+
+Rin vung nắm tay và xoay chúng vòng vòng.
+
+"Vâng! Với việc lặn máy tính, bọn em, à thì...."
+
+Cecilia nói với điệu bộ khó khăn, và Charlotte tiếp lời cô ấy.
+
+"Bon em sẽ dùng chức năng kết nối IS và tín hiệu nano để tải lên một ý thức cá nhân và vào thế giới máy tính như thế--"
+
+"Việc đấy thì không ẩn chứa bất kì mối nguy gì, nhưng hẳn cũng chẳng có ích lợi gì. Dù cho có là loại máy tính gì đi nữa, tái đo đạc phần mềm, phần cứng hoặc cả hai sẽ nhanh hơn việc lặn vào thế giới máy tính IS."
+
+Sau lời giải thích của Laura, Kanzashi thêm vào.
+
+"Và với lại... phi công không thể phòng thủ khi lặn vào thế giới máy tính... sẽ rất rắc rối nếu xảy ra chuyện gì đó...."
+
+Cuối cùng, Houki bày tỏ ý kiến của mình thay cho mọi người.
+
+"Ngoài ra, tập trung tất cả các học viên IS cá nhân vào cùng một nơi như thế này rõ là quá mạo hiểm."
+
+Sau khi nghe tất cả ý kiến của mọi người, Chifuyu kết thúc một cách dứt khoát.
+
+"Không, chiến dịch này yêu cầu chúng ta phải đẩy lùi tên hacker qua lặn máy tính, và ta sẽ không nghe bất kì lời phản đối nào. Nếu ai không muốn làm thì có thể đi ra."
+
+Tất cả mọi người đều bị đàn áp bởi sức ép của cô ấy.
+
+"Không, không phải thế. Cũng không phải là em không muốn..."
+
+"Chỉ, chỉ hơi ngạc nhiên một chút..."
+
+"Cậu-cậu có làm không, Laura?"
+
+"À, ừ, đúng vậy."
+
+"Tớ sẽ cố hết sức...."
+
+"Tớ-tớ sẽ làm. Hãy để tớ thành công trong nhiệm vụ này."
+
+Thấy tất cả đều đồng ý, Chifuyu vỗ tay mình.
+
+"Được rồi, vậy mọi người vào phòng truy cập để tiến hành lặn máy tính đi! Bắt đầu chiến dịch!"
+
+Houki với chúng bạn nhận lệnh và rời phòng tác chiến.
+
+Người còn lại ở đó là Chifuyu, Maya và Tatenashi.
+
+"Ta có nhiệm vụ khác cho em."
+
+"Em nghe đây."
+
+Tatenashi không hề tỏ ra chút gì cái thái độ giễu cợt thường ngày của mình khi cô gật đầu một cách im lặng.
+
+"Ta đoán khi hệ thống đang tắt như thế này, một lực lượng khác sẽ tấn công vào học viện."
+
+"Một kẻ địch--phải không ạ?"
+
+Chắc hẳn là một quốc gia khác sẽ lợi dụng sự hỗn loạn này để xâm nhập, và Chifuyu đã nhìn trước được điều đó.
+
+"Phải, bọn nó giờ không thể chiến đấu được. Xin lỗi vì phải nhờ em lần nữa."
+
+"Cứ để cho em."
+
+"Em sẽ ở trong một trận phòng thủ khó khăn đấy."
+
+"Không cần lo đâu ạ. Dù là thế, em vẫn là hội trưởng hội học sinh."
+
+Cô ấy vừa nói vừa làm một nụ cười tự tin, nhưng vẻ mặt của Chifuyu vẫn không hề thay đổi.
+
+"Nhưng IS của em cũng chịu khá nhiều thiệt hại trong vụ việc lần trước. Hẳn là nó vẫn chưa phục hồi hoàn toàn."
+
+"Vâng, nhưng em là Sarashiki Tatenashi. Em biết cách chiến đấu trong tình huống này mà."
+
+Là người dẫn dắt giữa các học sinh, cô ấy sẽ không lùi dù chỉ một bước.
+
+Chifuyu thấy được một sự quả quyết trong đôi mắt ấy, và cô thở dài.
+
+Rồi cô nhìn thẳng vào Tatenashi và nói.
+
+"Vậy ta sẽ để việc đó cho em."
+
+Tatenashi cúi đầu và cáo từ khi cô bước ra khỏi phòng tác chiến.
+
+Chifuyu và Maya nhìn cô ấy rời đi, và nói với một trái tim nặng nề.
+
+"Chính xác thì chúng ta đang làm gì vậy... chúng ta bắt ép những học sinh mà đáng lẽ chúng ta phải bảo vệ ra chiến đấu..."
+
+"Orimura-sensei...."
+
+Cô ấy không nói 'khó mà khác được'. Đó là điều mà cô không thể nói ra.
+
+Dù cho lý do có là gì, hành động khiến học sinh... những đứa trẻ đứng giữa chiến trường là một hành động không thể tha thứ.
+
+Dù cho có là Chifuyu hay Maya, thì vẫn có một giới hạn mà họ không thể rút lui được nữa.
+
+"Được rồi, giờ không phải là lúc đứng làm trò chơi. Chúng ta vẫn có việc của mình."
+
+"Vâng!"
+
+Chifuyu và May bắt tay vào chuẩn bị việc gì đó.
+
+***
+
+"..."
+
+Với một cái click, chiếc dây đai ở ống giày thắt chặt lại.
+
+Chifuyu đang mặc trên người bộ đồ đen giống như ninja, và cô ngẩng đầu lên.
+
+Cô đang nhìn vào 6 thanh kiếm được gọi là kanata, tinh chỉnh từ những thanh gươm vật lý sắc bén được IS dùng, và chúng đều đang dựa vào tường trong tình trạng nằm trong bao.
+
+Cô nhét chúng vào trong bao kiếm ở đùi mình, và trở thành một samurai với hình dáng bất thường.
+
+"Cũng khá lâu rồi mình không cột tóc lên như vầy."
+
+Cô vừa nói vừa cột chặt tóc mình lại.
+
+Chifuyu, với mái tóc được buộc theo kiểu đuôi gà, nắm lấy một thanh kiếm IS bằng cả hai tay.
+
+"---Đi thôi."
+
+Click. Chiếc cửa mở ra.
+
+Chifuyu bước vào trong bóng tối, và chỉ có mỗi đèn khẩn cấp dưới chân là làm hiện lên nét mặt nghiêng của cô ấy.
+
+<img alt="" height="600" src="http://vignette3.wikia.nocookie.net/sonako/images/c/c7/IS8_011.jpg/revision/latest?cb=20150311012304" width="395"/>
+
+Hình ảnh phản chiếu của Chifuyu trên bề mặt lưỡi gươm, lúc này đang hiện lên một nụ cười.
+
+***
+
+"Được rồi, giờ thì."
+
+Tatenashi đi ra từ bức tường phòng hộ bị phá vỡ, và đáp xuống mặt đất một cách nhẹ nhàng.
+
+"Tất cả học sinh đều đã được sơ tán. Thế thì mình chắc là ổn rồi."
+
+Pặc. Cô ấy mở quạt ra, và có chữ 'chào mừng quý khách' được ghi trên đó.
+
+Cô không chào đón họ bằng một nụ cười, mà là bằng một nắm đấm sắt.
+
+"Có kẻ xâm nhập, có kẻ xâm nhập."
+
+Điện thoại của Tatenashi bắt đầu kêu lớn tiếng lên.
+
+Cô lấy điện thoại ra và nhìn vào màn hình. Có một chiếc camera biệt lập của hệ thống trong trường... nói cách khác, đó là một tấm hình mà cô tự chụp lấy.
+
+Có 6 'sinh vật lông lá' với những vật trông như lá héo bám trên người chúng, và không nào xác định được giới tính.
+
+Mới liếc nhìn qua lần đầu, người ta có lẽ sẽ tưởng là những bộ đồ nguỵ trang trong rừng, nhưng sự thật thì chúng hoàn toàn khác hẳn.
+
+"Ta nhớ rằng chúng là những bộ holo quang học mới nhất có thể chụp nhanh hình ảnh xung quanh và hiện lên bề mặt của mình."
+
+Những thứ trông như những chiếc lá héo ấy thực ra là những màng đặc biệt có thể di chuyển; thường thì chúng sẽ mang vẻ bề ngoài của những chiếc lá, nhưng khi lớp nguỵ trang được kích hoạt, chúng sẽ bao phủ lấy người mặc từng miếng từng miếng một, và hiện thị những hình ảnh xung quanh trên bề mặt của nó, tạo ra một hiệu ứng nguỵ trang.
+
+(Nói đến chuyện đó, chúng ta có chiến dịch đặc biệt với cái thiết bị tối tân thế này để xâm nhập vào trường ngay khi hệ thống sập cơ à? Lạ thật.)
+
+Nhưng nhóm bọn chúng chắc hẳn khác với nhóm đã tắt hệ thống đi. Còn nếu là một nhóm thì sẽ hiệu quả hơn nếu chúng xâm nhập vào ngay khi hệ thống bị sập.
+
+(Chà, điều này chứng tỏ rằng chúng ta đã bị theo dõi suốt rồi. Chả thích tí nào.)
+
+Đây là học viện IS, một ngôi trường toàn gái với đang tuổi khoe sắc, và có một sự giám sát 24 tiếng ở nơi này? Người lớn thiếu lãng mạn thật đấy--Tatenashi nghĩ.
+
+"Trời ạ?"
+
+Đây là một hành lang thẳng dài, ở đấy chẳng thấy có gì cả, và cũng chẳng có tiếng bước chân, nhưng lại có cái gì đó.
+
+"Chà, ta không nghĩ rằng mình lại gặp sớm đến thế. Chắc ta là một người phụ nữ được yêu mến bởi định mệnh và luật nhân quả rồi."
+
+Phụt phụt.
+
+Những viên đạn kim loại độc đáo bay vào Tatenashi với một thứ tiếng nổ ngắn.
+
+Nhưng những viên đạn ấy bị dừng lại ngay trước mặt cô.
+
+"!?"
+
+"Fufu, đùa chút thôi. Đây là AIC."
+
+Trên thực tế, cô ấy đã phân tán các hạt nước nano từ IS của mình, chiếc [Mysterious Lady], vào không khí. Mặc dù những thứ vũ khí xả đạn của IS là một chuyện khác, nhưng cô vẫn có thể dễ dàng chặn những phát bắn từ những người lính bình thường.
+
+Cô hé cười trước vẻ mặt ngập ngừng của kẻ thù mà cô không thể nhìn thấy.
+
+Ngoài ra, những hạt nano cũng là thứ phát hiện ra những kẻ địch tàng hình này. Dù cho chúng không có âm thanh hay sự hiện diện có thể nhìn thấy được, cô vẫn có thể dễ dàng nhận ra chúng với bằng những hạt cảm biến chừng nào chúng vẫn còn chạm vào không khí. Với lại---
+
+"Póc."
+
+Tatenashi búng ngón tay.
+
+Trong chớp mắt, một vụ nổ lớn nuốt chửng cả hành lang.
+
+"Đây là một trong những đặc kĩ của Mysterious Lady, "Clear Passion". Thấy thế nào?"
+
+Trong bất kì trường hợp nào, [Mysterious Lady] vẫn luôn mạnh nhất trong những trận chiến 'trong nhà'. Trong những tình huống bình thường , cô có thể kiểm soát những hạt nano một cách uyển chuyển, dù là mật độ hay dòng chảy.
+
+Mặc dù đối phương là một lực lượng đặc biệt với trang bị hiện đại nhất, nhưng họ vẫn chỉ là người thường, và họ chắc chắn chẳng bằng một góc của một chiếc IS thậm chí chưa kích hoạt hoàn toàn.
+
+"Cứ như mình đang ăn hiếp kẻ yếu vậy."
+
+Haa... Tatenashi trút một tiếng thở dài... tuy nhiên.
+
+"Ufufu, mình thực sự thích làm mấy việc này."
+
+Người đàn bà ác quỷ mỉm cười.
+
+Thường thì chính nghĩa thường bên phe của Tatenashi, nhất là khi kẻ địch xâm nhập vào một trường nữ sinh mà hầu hết các học sinh đều không được vũ trang.
+
+"Được rồi, đến rồi đây. Đây là chiêu đặc biệt của ta, Tatenashi Five!"
+
+Khi Tatenashi nói thế, hình bóng của cô tách ra làm 5.
+
+Có 5 Tatenashi mặc đồng phục, đang cầm lấy cây thương và đứng thành hàng.
+
+"Well, đây là năng lực của Mysterious Lady."
+
+Nói cách khác, vài cái trong số 5 cái này là ảo ảnh tạo ra bởi những thấu kính nano, trong khi những cái còn lại là bóng dáng nước tạo bởi những hạt nước nano.
+
+Vấn đề hẳn là việc tìm đâu là người thật.
+
+Và với những hình dáng làm từ nước---
+
+"BAM!"
+
+Chúng là những cơ thể vật lý với chức năng nổ. Vì được làm bằng nước nên đạn hoàn toàn không có tác dụng với chúng.
+
+"Chỉ-chỉ huy! Nếu cứ tiếp tục thế này---"
+
+"UWAAHHH!!!"
+
+Những người lính đã được đào tào rất bài bản đều bị hạ gục từng người một.
+
+6 người lộ mặt ra trước thấu kính, nhưng vẫn chẳng có mối đe doạ nào với Tatenashi.
+
+"Rút-rút lui! RÚT LUI---!"
+
+Cô ấy đã gần 16 tuổi, và cỗ máy với tình trạng cơ thể của cô cũng không được tốt.
+
+Nhưng cô vẫn một mình tự tay tạo ra sự tàn phá này.
+
+Đây là một sự nhắc nhở đau thường về cái tồn tại được gọi là IS phá huỷ mọi sự hiểu biết.
+
+"Ufufufu♪"
+
+Tatenashi khúc khích cười giữa biển lửa, hiện lên hình ảnh của một hoàn toàn xấu xa.
+
+***
+
+"..."
+
+Một người phụ nữ nghe thấy tiếng nổ vang xa trên đầu cô, và cô tiếp tục bước đi trên hành lang đen đặc này.
+
+Kẻ đang xâm nhập vào khu tầng hầm đặc biệt của Học viện IS là chỉ huy của đơn vị Tác chiến Đặc biệt của Mĩ, 'Unnamed'. Cô ta đang mặc mẫu thử nghiệm giấu năng lượng của chiếc IS [Fang Quake].
+
+Có một sự khác nhau nhẹ về chi tiết thiết kế khi so sánh với chiếc thông số chiến đấu công kích tốc độ cao của Iris.
+
+Đầu tiên là có một sự khác biệt về màu sơn. Không giống như những cái cọp vằn cực kì dễ nhận biết của chiếc mà Iris sở hữu, chiếc này được sơn hoàn toàn một màu xanh nước biển, được sử dụng bởi đội SEALS; nó không hề được trang trí gì, và cũng chẳng có bất kì ảnh vẽ hay biểu tượng của đội.
+
+Cái này cũng dễ hiểu. Tiểu đội 'Unnamed' bao gồm những thành viên không có quốc tịch, dân tộc, tôn giáo, hay thậm chí là cả tên gọi, đúng nghĩa 'vô danh'. Cũng chẳng có tài liệu hay ghi chép gì ám chỉ rằng họ thuộc quân đội Mĩ. Một nhóm người như thế chẳng thể có nổi một biểu tượng.
+
+Người phụ nữ này cũng không có tên gọi, và tiểu đội chỉ đơn giản gọi cô là 'đội trưởng' cho tiện.
+
+Cô từng có một cái tên, một cái tên mà cô đã quên từ cái cuộc huấn luyện tàn độc rất lâu về trước. Lúc này, cô không là ai cả, chỉ là một đội trưởng không tên của một tiểu đội không tên. Đó là toàn bộ về người phụ nữ này.
+
+"..."
+
+Người đội trưởng tiếp tục tiến lên.
+
+Mục tiêu của cô là những chiếc core chưa đăng kí bị Học viện IS lấy đi vài ngày trước.
+
+Nếu cô có thể làm được điều đó, ai cũng có thể gia tăng số lượng IS một cách đơn giản.
+
+--Nhưng là những chiếc hoàn toàn vô danh.
+
+Với Mĩ, nó mang một phương diện quan trọng hơn là số lượng IS. Phải, một kế hoạch nào đó có thể được hoàn thành nếu có thể lấy được những chiếc core đó.
+
+(Mình từng nghe bảo khi 'kế hoạch' hoàn thành, bảo đồ thế giới có thể được vẽ lại, nhưng---)
+
+Cô không biết nội dung của kế hoạch, và cũng chẳng có hứng thú gì với nó. Là một đội trưởng, cô chỉ tập trung vào nhiệm vụ.
+
+"...?"
+
+Cô lơ lửng để dừng bước tiến của mình lại. Cảm biến của cô bắt được rõ sự hiện diện của một người trước mặt cô, trong chiếc hành lang đen tuyền này.
+
+"Nó đang đến."
+
+"---!?"
+
+Thình lình, một cơn gió mạnh thổi qua cùng với lời nói ngắn ngủi đó.
+
+<img alt="" height="600" src="http://vignette3.wikia.nocookie.net/sonako/images/b/bc/IS8_012.jpg/revision/latest?cb=20150311012305" width="395"/>
+
+BAM! Một tia sáng loé lên cùng với một tiếng nổ lớn, và một cái bóng đen nhảy ra sau lưng tên chỉ huy.
+
+Và khoảng khắc tiếp theo, tất cả ánh sáng trong hành lang đều được bật lên.
+
+"Mạnh nhất Thế giớiBrunhilde....."
+
+Tên chỉ huy vô tình lẩm bẩm.
+
+Một người phụ nữ đứng trên con hành lang sáng với dáng vẻ tự tin.
+
+Đó là Chifuyu, diện bộ trang phục hoàn toàn đen, và có 3 chiếc bao kiếm katana ở mỗi bên đùi cô ấy... 6 cái tất cả.
+
+Cô cũng đang nắm lấy hai thanh kiếm ở hai tay, và chúng dường như là những thanh kiếm đã chém vào lớp giáp của [Fang Quake].
+
+(Cô ta nghiêm túc sao...?)
+
+Đây là điều đầu tiên mà tên chỉ huy nghĩ.
+
+Cô ta dùng cảm biến IS để kiểm tra rất nhiều lần, và thấy rằng Chifuyu chỉ được trang bị với một bộ đồ bó sát thân. Bộ đồ này trông giống với một bộ đồ lặn, và bao phủ cả người cô ấy; cô cũng đang mặc một đôi giày cứng cáp được nâng cấp, một đôi bao tay chiến đấu, duy chỉ có gương mặt ấy là được để lộ ra. Nhưng dù thế--
+
+(Cô ta đang mặc một bộ đồ chỉ phù hợp để chống lại những thứ vũ khí thông thường... chính xác thì cô ta đang tính làm cái gì vậy?)
+
+Tất nhiên chắc hẳn phải có vài chức năng chống đạn hoặc chống dao kiếm, nhưng dù vậy, cô chẳng khác gì nude hoàn toàn trước hoả lực áp đảo của IS.
+
+"Cái gì đây?"
+
+"..."
+
+"Ra tay đi. Cô đang đứng trước Brunhilde thế hệ đầu tiên, người phụ nữ đầu tiên giành được danh hiệu mạnh nhất thế giới đấy, nên cứ tập trung hết sức mà chiến đấu với ta đi, tên lính lác kia."
+
+Chifuyu nhoẻo miệng cười, và gương mặt của cô để lộ ra một vẻ thư thái của một người có sức mạnh áp đảo hoàn toàn.
+
+***
+
+"Cái này là....?"
+
+Houki, Cecilia, Rin, Charlotte, Laura, Kanzashi nghe theo lệnh, và rốt cuộc thì họ cũng đã đến được phòng truy cập.
+
+Căn phòng được sơn một màu hoàn toàn trắng, và mọi ngóc ngách đều sáng bóng cả lên.
+
+Bên trong phòng là 6 chiếc ghế nằm, 3 cái bên phải và 3 cái bên trái, một căn phòng trắng tinh khỏi, và trông cứ như một tiệm salon vậy.
+
+"Mọi người ngồi vào ghế và thư giãn đi nhé.... Tớ sẽ ngồi vào cái chỗ kia để sao lưu."
+
+Với lời thúc giục của Kanzashi, những người còn lại ngồi xuống chiếc ghế dài ở cả hai bên.
+
+"Nhưng-nhưng mà, cái phòng này là gì thế? Cái này trông không khác gì với thế giới trong phim."
+
+"Phải, đây là lần đầu tiên tớ thấy một cơ sở như thế này. Cậu thì sao, Rin-san?"
+
+"Hm--Tớ nghĩ là Trung Quốc không có cơ sở như thế này. Về chuyện đó, cái khu tầng hầm đặc biệt là sao? Dù nghĩ thế nào thì tớ cũng cảm thấy kì lạ."
+
+" Đúng là nó tạo cảm giác bất thường thật. Căn phòng tác chiến ban nãy có một cấu trúc rất bền vững."
+
+"Ể, gì thế Charlotte? Cậu dùng IS để quét à?"
+
+"Ừ, một chút thôi."
+
+*"Giữ bí mật giùm nhé, làm ơn?"* Charlotte đặt ngón trỏ lên môi mình.
+
+"Đức cũng không có cơ sở như thế này. Chính xác thì cái Học viện này là gì đây? Đây có thật là một ngôi trường cao trung bình thường không vậy?"
+
+Nghe thấy lời của Laura, mọi người đều tỏ ra im lặng.
+
+Có một khả năng mà họ có thể lờ mờ đoán ra.
+
+*"Cái Học viện IS này thực sự có rất nhiều bí mật."*
+
+Dù cho không ai nói rõ, nhưng đó chắc chắn là những gì mà những người có mặt ở đây đang nghĩ.
+
+"Giờ thì chúng ta còn phải bắt tay vào việc khởi động lại hệ thống...."
+
+Kanzashi vừa trình bày vừa giả vờ bình tĩnh, và những người còn lại gật đầu đồng ý khi họ kết nối IS với cổng kết nối của chiếc ghế nằm.
+
+"Vậy, để kết nối toàn bộ IS của các cậu với hệ thống mạng trung tâm... hãy đổi sang chế độ ưu tiên phần mềm...."
+
+Cô ấy lập tức kích hoạt IS của mình, [Uchigane Nishiki], gọi ra một bảng điều khiển, và đặt những từ khoá theo kiểu trôi tự do.
+
+"Ah."
+
+Charlotte đột nhiên thốt lên một tiếng.
+
+"Tớ mới nghĩ về chuyện này. Tớ đã đọc về một quyển sách mà người ta đi vào trong thế giới game. Đây có phải là cái cảm giác đó không?"
+
+Thấy vẻ phấn khích không có lý do rõ ràng của Charlotte, những người còn lại đều kinh ngạc.
+
+Kanzashi ho một cách khô khan, và đáp lại.
+
+"Sẽ có một thế giới thực tế ảo được tạo ra bên trong...Từ giờ tớ sẽ phụ trách việc sao lưu, nên mọi người hãy chuẩn bị tái kích hoạt hệ thống trung tâm... điều hướng bắt đầu."
+
+"Đã hiểu."
+
+Rin đáp lại một cách hăng hái.
+
+Và rồi tất cả họ đều nằm xuống ghế và tập trung ý thức của mình lại.
+
+"Bắt đầu...!"
+
+Kanzashi kết nối hệ thống-- lúc đó, nhìn thì giống như ý thức của 5 cô gái đều bị hút vào bởi một thứ cảm giác 'hút rơi xuống' kì bí.
+
+***
+
+"Đây là..."
+
+Charlotte là người đầu tiên lên tiếng.
+
+Xung quanh họ là một đồng cỏ xanh, và ánh nắng chói chang của những ngày đầu hè rọi xuống khi một làn gió mát lạnh thổi qua.
+
+Zaaa... ở giữa cái khung cảnh mà hoa cỏ reo hát, Rin đột nhiên hét lên.
+
+"KYAH--! Cái-cái gì đây!?"
+
+Cô vừa nói vừa nắm lấy bộ đồ của mình.
+
+Nó là một bộ đồ màu xanh dương với chiếc tạp dề màu trắng, cứ như bộ đồ mà Alice trong 'Alice in Wonderland' mặc vậy.
+
+Những người còn lại đều bị giật mình trước giọng của Rin, và nhìn vào bộ đồ của mình và những người khác.
+
+"Cái-cái này...."
+
+"Mọi người..."
+
+"Đều mặc y chang thế....?"
+
+Ngay lúc họ tỏ ra ngạc nhiên, một chiếc cửa sổ đột nhiên hiện ra trên trời.
+
+"Kanzashi đây... tình trạng của mọi người thế nào...?"
+
+"À-thì....cứ như bọn tớ vừa vào một thế giới cổ tích gì ấy..."
+
+Nghe thấy câu trả lời của Charlotte, Kanzashi khẽ nghĩ ngợi một hồi, và đáp lại.
+
+"Cái này là..."
+
+Họ có thể nghe thấy tiếng gõ bàn phím.
+
+"Tớ hiểu rồi. Hiện giờ thế giới máy tính này đang bị hack... trong trường hợp này, mọi người... phải diễn... vai mà các cậu được đưa."
+
+"Vai!?"
+
+Rin nói thay lời những người còn lại bằng một giọng lớn tiếng.
+
+"Eh, vậy là ý gì? Bọn tớ phải trở thành Alice á?"
+
+"Tớ không biết... không gian này quá bất ổn định... nên là."
+
+"Ờm, nói về Alice..."
+
+Charlotte nhìn vào Laura bên cạnh mình.
+
+"Gì vậy?"
+
+"À không, tớ chỉ nghĩ cậu là một con thỏ con thôi."
+
+"Humph. Đừng có gộp tớ với cái con vật yếu ớt đó. Tớ là một con thỏ rừng đen--"
+
+"Á!"
+
+Cecilia đột nhiên ré lên.
+
+"Thiệt tình, chúng ta nhanh lên thôi."
+
+Tatetatetate....
+
+Một con thỏ trắng trong bộ trang phục quý ông đang vừa nhìn vào chiếc đồng hồ vừa bước về phía họ với đôi chân duỗi thẳng.
+
+"Nó-nó xuất hiện rồi!"
+
+"B-bắt lấy nó!"
+
+Nghe thấy lời của Kanzashi, cả 5 người họ gật đầu cùng một lúc.
+
+"Giữ lấy nó---!... Ahh, thiệt tình, bộ đồ này làm khó chạy quá!"
+
+"Rin, trong những lúc thế này cậu nên nâng hai bên váy lên và chạy như vầy--"
+
+"Hm, vậy tớ lên đây."
+
+"Không ổn, nó chạy vào trong rừng kìa!"
+
+Cecilia chỉ, và rồi con thỏ trắng biến mất vào trong khu rừng mà không hề ngoảnh lại.
+
+Cả 5 người họ đi vào cánh rừng um tùm ấy để đuổi theo nó.
+
+Họ đi qua một lối mòn với lá cây che hết phần bên trên đầu, và khu vực trước mặt đột ngột sáng lên khi họ đi đến một nơi rộng rãi có thể thấy được bầu trời.
+
+"Ể, cái gì đây?"
+
+Có 5 cánh cửa trong rừng.
+
+"Chúng ta phải đi vào à?"
+
+"Chắc thế..."
+
+Tatenashi gật đầu với vẻ không chắc chắn. Nhìn gần hơn thì ta có thể để ý thấy có tiếng tĩnh điện trên hình ảnh cửa sổ.
+
+"Trước mặt chúng ta... tớ nghĩ tín hiệu sẽ bị cắt... nên các cậu phải tự mình đi đến hệ thống mạng trung tâm...."
+
+"""Hiểu rồi."""
+
+Cả 5 người họ gật đầu, và rồi mỗi người mở lấy một cánh cửa riêng.
+
+***
+
+"Nn...."
+
+Rin xác nhận rằng cái tia nắng chói chang trước mắt mình đã giảm đi, và cô từ từ mở chúng ra.
+
+Cô có một cảm giác mơ hồ sau khi đi qua cánh cửa, và cứ như thế, cô bị bao phủ bởi ánh sáng.
+
+"Chính xác thì, đây là...."
+
+Cô quay đầu lại và nhìn xung quanh.
+
+"Đây, có lẽ..."
+
+Đây là nơi mà cô đã trông thấy ở đâu đó, và cô trước đây cũng từng trải qua bầu không khí này.
+
+Đó là một lớp học mà cô và Ichika từng học chung với nhau hồi sơ trung.
+
+Ánh sáng màu cam chiếu xuyên qua khung cửa sổ, và cô có thể nghe thấy tiếng của câu lạc bộ bóng chày từ đằng xa.
+
+"Tại sao, trường sơ trung...."
+
+Cô thẫn thờ một lúc, và rồi nhận ra rằng bộ đồ của mình đã bị thay đổi.
+
+"Đây là, đồng phục thuỷ thủ mà mình mặc hồi học sơ trung...."
+
+Đó là một bộ đồng phục thuỷ xanh thẫm đen. Cô cảm thấy bộ đồng phục này quá đơn sơ, và từ khi vào trường là cô đã không thích nó rồi, nhưng lúc này đây, cô lại cảm thấy hoài niệm.
+
+"..."
+
+Dù sao thì, cô bắt đầu bước đi quanh phòng học.
+
+Thực.
+
+Cảm giác hoàn toàn thực.
+
+Nhiệt độ, độ ẩm, và cả bầu không khí phảng phất cũng được mô phỏng theo một cách hoàn hảo.
+
+Nhưng đây không phải thực tại.
+
+Cô cố triệu hồi chiếc IS của mình, nhưng không hiểu sao cô tìm không thấy chiếc vòng tay ở chế độ nghỉ của mình.
+
+"...Mình đoán đây là một cái bẫy."
+
+Nhận ra điều này, cô phải nhanh chóng rời khỏi đây.
+
+Rin bước về phía cửa ra của phòng học.
+
+--KARAK
+
+"Ể?"
+
+Ai đó bên kia cánh cửa mở ra nhanh hơn một khắc.
+
+"Yo, Rin."
+
+"I-I-Ichika??"
+
+Đứng đó là Ichika, trong bộ đồng phục của cậu ta.
+
+***
+
+"..."
+
+Không biết đã là lần thứ bao Chifuyu chém thêm nhát kiếm khác vào giáp con [Fang Quake].
+
+Nhưng lại không có lấy một vết xước.
+
+Và có 4 lưỡi kiếm sứt mẻ.
+
+"...Hm..."
+
+Cô ném những lưỡi kiếm nứt xuống sàn, và lại kéo những thanh katana mới ra từ chiếc bao kiếm ở đùi mình.
+
+Một tiếng rút kiếm vang lên hoà vào với sát khí trong cái chiến trường này.
+
+"...Dừng lại ở đây đi."
+
+Tên 'đội trưởng' lên tiếng, hẳn là do cảm thấy phiền phức vì việc này.
+
+Giọng cô ta vẫn giữ vẻ điềm tĩnh như trước, nhưng lại ẩn chứa trong đó một vẻ mất kiên nhẫn.
+
+"Hm?"
+
+*Ý cô là gì?* Chifuyu biểu lộ ý định đó khi nhạo lại.
+
+"Cái lực lượng Tác chiến Đặc biệt của Mĩ các người chẳng việc gì phải đi cả một chặng đường dài để đến một quốc đảo xa xôi ở phía đông này cả."
+
+"..."
+
+"Các người muốn mảnh vỡ của những cỗ máy không người lái-- và ta đoán là không chỉ có vậy, đúng không? Nhưng không may là chiếc [Byakushiki] đã được đưa đến nơi khác rồi."
+
+Chifuyu vểnh môi lên và nhếch mép cười.
+
+Tên 'đội trưởng' khẽ nghiến răng mình lại.
+
+"Vì cô đã biết việc đó... tại sao?"
+
+"Humph, 'người phàm thì không thể đấu lại một chiếc IS', đúng không?"
+
+Swoosh, Swoosh, cô vung thanh kiếm ở hai bên và đứng vào thế.
+
+"--Đó là nếu ta là một người phàm."
+
+Trong khoảng khắc đó, Chifuyu nhảy lên phía trước và nhanh chóng vung kiếm vào [Fang Quake], nhưng lần này, tên 'đội trưởng' rốt cuộc cũng có thể bắt được lưỡi kiếm của Chifuyu bằng tay phải mình.
+
+"Vô dụng thôi...!"
+
+"Ta mới là kẻ quyết định xem nó có vô dụng hay không."
+
+Chifuyu thả thanh katana ra, và cô dùng tay quấn lấy người kẻ địch như một con rắn.
+
+Chuyển động của cô yểu chuyển như một dòng nước, và cô nâng tên 'đội trưởng' lên. Cô đang giữ một sợi dây kim loại trong tay mình.
+
+"Gak...!?"
+
+Tên 'đội trưởng' không biết làm gì hơn ngoài việc ré lên khi cổ của cô ta bị thắt lại.
+
+"Cô quá dựa dẫm vào Hệ thống Phòng thủ Tuyệt đối, nên óc phàn đoán của cô cũng đã bị đần đi rồi."
+
+Khoảng khắc tiếp theo, khi sợi dây kim loại sắp bị lớp khiên năng lượng của Phòng thủ Tuyệt đối đốt cháy thì Chifuyu đã đứng vào thế và xoay người một vòng để đá vào tên 'đội trưởng'.
+
+Bộ giáp IS nặng nề cùng với trọng lượng của một người đều bị đá văng vào tường, nhưng Chifuyu vẫn giữ vẻ mặt lãnh đạm như thường ngày.
+
+Trái lại, tên 'đội trưởng' cảm thấy khó chịu.
+
+(Đặc tính vật lý đáng sợ như thế, nhưng...)
+
+Thế thì sao?
+
+(Dù sao thì mức độ tấn công này chẳng gây bất kì tổn hại gì đến IS.)
+
+Vì cô hiểu điều này, nên cô cảm thấy khó hiểu.
+
+(Những hành động này mang ý nghĩa gì? Người này---)
+
+Tuy nhiên Chifuyu không để cô ta có cơ hội để nghĩ ngợi, và đòn tấn công bằng katana của cô ấy lại đến.
+
+"Sao vầy? Thể hiện năng lực của ngươi nhiều hơn đi nào, con Mẽo kia."
+
+"...Cô phiền phức thật đấy, Nhựt à."
+
+Tia lửa của trận chiến lại loé lên lần nữa.
+
+***
+
+"Vậy, thu thập dữ liệu của [Byakushiki] thôi nào. Khi cậu kích hoạt thì bước lên máy quét này."
+
+"Vâng."
+
+Tôi gật đầu và làm theo chỉ dẫn của Hikaruno-san.
+
+Vòng sáng hoàn toàn bao phủ lấy IS từ trên xuống dưới, và thu thập mọi dữ liệu từ nó.
+
+"Cho ta xem phần cứng nữa. Mở cổng cáp số 4 ra."
+
+"À, vâng."
+
+Sau khi trải qua việc điều chỉnh với Kanzashi cùng những người còn lại, tôi có học được một chút về mấy việc thế này.
+
+Tôi làm theo yêu cầu và mở phần đầu cuối ra.
+
+"Ok ok, để thử nào!"
+
+Kachl, chị ấy cắm cáp vào.
+
+BUZZ--!
+
+"....!!"
+
+"Hm, gì thế?"
+
+"Không, cảm giác như.... có một dòng chảy điện tử đột biến xuyên khắp người."
+
+"Hm---? Kì nhỉ. Chờ xỉu, để ta kiểm ra một lúc."
+
+Ngay khi tôi băn khoăn không biết chuyện gì đang xảy ra thì đột nhiên có một tiếng nói vang lên trong tâm trí tôi.
+
+"...*Ichika*..."
+
+"Ể?"
+
+"Hửm?"
+
+Hikaruno-san và tôi đều giật mình.
+
+"Erm, kênh chat riêng đang mở à?"
+
+"Không, đâu có? Thiết lập đặt ở chế độ giới hạn mà."
+
+"Vậy thì kì lạ thật..."
+
+Cảm giác như đó chắc chắn là kênh chat riêng... tôi nghĩ.
+
+"Bỏ chuyện đó sang một bên. Ta sẽ điều chỉnh tỉ lệ hiệu suất và tăng bộ đẩy lên 5%."
+
+"Vâng."
+
+Dù sao thì cũng tập trung vào việc thu thập dữ liệu đã.
+
+Tôi vừa nghĩ vừa lấy lại tinh thần.
+
+***
+
+"....!"
+
+GAKINK! Với một âm thanh nặng nề, thanh katana cuối cùng của Chifuyu bị vỡ ra.
+
+"Kết thúc rồi.
+
+Tên 'đội trưởng' chuyển động một cách nhanh nhẹn.
+
+Cô ta vung một cú đấm trái nhanh vào bụng của Chifuyu.
+
+--Trong giây phút đó, BAM! Một tiếng gãy vỡ vang lên, và Chifuyu bị đánh bay đi.
+
+Cô có thể thấy vết sẹo của đạn dược cháy xuyên qua nó.
+
+(Không ổn rồi---)
+
+Cuối cùng thì cô cũng nhận ra.
+
+Cô kéo dài khoảng cách với Chifuyu; kẻ thù đã tránh bị tổn thương bằng cách tái kích hoạt giáp, và cô ta có kiếm xung quanh người.
+
+Và rồi Chifuyu dõng dạc nói ra.
+
+"'Vỡ vụn'."
+
+Như một chiếc ngòi nổ được bật lên, trong khoảng khắc tiếp theo, tất cả các lưỡi kiếm đều phát ra một vụ nổ lớn.
+
+"!!!"
+
+Từ tường, sàn cho đến trần nhà đều bị nhấm chìm trong vụ nổ, một cảnh tượng hoàn toàn chết chóc.
+
+Chifuyu chạy khỏi hành lang trước khi ngọn lửa kịp nuốt lấy cô.
+
+"Đừng hòng chạy...ah!"
+
+Tên 'đội trưởng có hết sức để giữ bình tĩnh, nhưng cô không thể không để lộ ra vẻ mặt lo lắng vì không thể bắt được Chifuyu.
+
+Cô ta kích hoạt bộ đẩy của mình và lập tức bay lên.
+
+Cô muốn tung ra một đòn nghiền nát từ sau lưng Chifuyu đang bỏ trốn kia---nhưng dường như người ấy có mắt ở sau lưng, vì cô ta dễ dàng làm một cú nhào lộn để né nấm đấm ấy đi.
+
+"Humph."
+
+GAK. Cô đá vào mặt của tên 'đội trưởng', và lợi dụng lực bật ngược lại để đáp xuống hành lang.
+
+(Theo cảm biến sóng âm thì căn phòng đó là một ngõ cụt. Tôi bắt được cô rồi!)
+
+Tên 'đội trưởng' vừa nghĩ vừa gia tốc lên mức tối đa.
+
+"Heh!"
+
+Cô ta đá vào cửa.
+
+Nhưng cái lúc mà cô ta bước vào, ánh sáng được bật lên.
+
+"Đến lượt em đấy, Maya."
+
+"Đã rõ!"
+
+Chifuyu kéo tấm áo choàng tàng hình xuống, và xuất hiện dưới tấm áo choàng đó là chiếc [Rafale Revive] được trang bị 4 khẩu 6 nòng lớn.
+
+(Ku, 'Quad Phalanx' à!)
+
+Do trọng lượng và nhu cầu kiểm soát phản ứng giật bắn mà 'pháo đài' này không thể di chuyển được, nhưng nó lại có lực chiến mạnh nhất khi đứng ở đó.
+
+Khi cô ta nhận ra cái tình huống tệ này thì cũng đã quá trễ.
+
+BARARARARARARARARARARA!!
+
+Một làn mưa pháo xả xuống cô ta.
+
+Glak glak glak, tiếng đạn nghe cứ như tiếng của một chiếc máy kéo (game) đang xả tiền do trúng độc đắc. Chifuyu chỉ đơn thuần là nhìn sang một bên và nhâm nhi ly cà phê trên bàn.
+
+"...Ừ, cà phê ở đây của em đúng là tuyệt nhất, Yamada-sensei."
+
+"Thực ra thì, đó chỉ là cà phê hoà tan thôi ạ."
+
+"..."
+
+Một phút sau, tên đội trưởng hoàn toàn bị vỡ nát kia đã bị Maya và Chifuyu đàn áp.
+
+Chifuyu thì chỉ đơn giản là uống hết cốc cà phê có lẫn vào trong một chút mùi máu tanh.
+
+***
+
+"Được rồi, vậy là xong."
+
+Tatenashi trói hết những gã trong đội Tác chiến Đặc biệt với một sợi dây duy nhất, rồi trút một hơi thở dài.
+
+(Họ rõ ràng là người Mĩ, và mình đoán là họ đến từ mẫu không người lái số 371.)
+
+Nhưng khó hiểu là hệ thống của Học viện lại bị sập.
+
+Nếu chuyện này tiếp diễn trong một khoảng thời gian dài, cô chắc sẽ phải đập vỡ cửa chớp của các phòng học để không khí bên ngoài bay vào.
+
+(Hm, để hội trưởng hội học sinh tự mình làm chuyện này thì có hơi...)
+
+Mà dù sao thì do dự cũng chẳng giải quyết được chuyện gì.
+
+"Đi thôi."
+
+Cô ấy chuyển IS của minh về chế độ nghỉ để tiết kiệm năng lượng.
+
+Cô bước về phía trước một bước.
+
+Và lúc đó, một viên đạn giảm thanh bắn xuyên qua bụng cô.
+
+"Eh?"
+
+Máu rỉ ra.
+
+Và cứ như thế, Tatenashi ngã nhào về phía trước mà không báo trước lấy một câu.
+
+"Cuối cùng thì mình cũng có cơ hội..."
+
+(Chết tiệt, mình bất cẩn quá!)
+
+Những gã đàn ông đã bị trói kia đều đã tự cởi trói.
+
+Có khả năng là họ đã dùng một con dao plasma ẩn để cắt dây, và giờ thì tứ chi của họ đều được thả tự do.
+
+"Chúng ta làm gì với con bé đây?"
+
+"Con bé là một phi công đăng kí dưới danh nghĩa đại diện của Nga. Con bé là người Nhật, và khi lấy được IS của mình thì con bé lại dùng quyền tự trị để thay đổi quốc tịch. Thật hỗn tạp."
+
+"Vậy..."
+
+"Cầm máu lại, mang thiết bị sơ cứu khẩn cấp ra, làm mờ nhận thức của phi công bằng móc-phin và mang con bé với IS về."
+
+"Đã rõ."
+
+Trước chỉ dẫn của tên đội trưởng, mấy gã đàn ông kia nhanh chóng bắt tay vào việc của mình.
+
+Họ vội vã nhét gì đó vào trong miệng cô để chặn cho cô không tự sát.
+
+"Nn, ugh!"
+
+"Đừng kháng cự. Sẽ còn chảy máu nhiều đấy."
+
+"..."
+
+Bụng cô đang đau, và cảm giác ngỡ như xương và thịt cô đang bị moi ra.
+
+Cổ của Tatenashi bị tiêm mócphin, và ý thức của cô mờ dần đi.
+
+(Ichika...ku...n)
+
+Cô vô thức gọi tên cậu.
+
+Và ý thức của cô mất đi ngay lập tức.

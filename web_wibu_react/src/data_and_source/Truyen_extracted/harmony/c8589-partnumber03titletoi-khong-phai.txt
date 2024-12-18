@@ -1,0 +1,1681 @@
+One-shot
+
+<part:number=03:title=Tôi, Không Phải/>
+
+Độ dài: 23,412 từ - Lần cuối:
+
+12/04/2017 16:40:05
+
+- Bình luận: 0
+
+<img alt="Harmony 00002" height="60" src="http://vignette3.wikia.nocookie.net/sonako/images/6/68/Harmony_00002.jpg/revision/latest?cb=20140803195806" width="74"/>
+
+<?Emotion-in-Text Markup Language:version1.2:encoding=EMO-590378?>
+
+<!DOCTYPE emtl PUBLIC :-//WENC//DTD ETML 1.2 transitional//VI>
+
+<etml:lang=jp>
+
+<etml:lang=vi>
+
+<body>
+
+Phần:  01
+
+Có một điều mà lời tuyên bố ấy đã đạt được là làm mọi người trên thế giới câm miệng trong giây lát. Bạn đang làm gì khi nghe được lời ấy?
+
+Ngày đó, trời mây mù ở thành phố này. Thủ đô của Nhật Bản.
+
+Mây kết từng tảng nặng nề, xám xịt trên bầu trời thành phố, chực chờ trút nước xuống đầu kẻ nào cam đảm ra đường. Hay chắc là tôi đang nhìn mọi vật một cách hình tượng do cơn sốc.
+
+Theo báo cáo, vài người nghe không thôi đã đổ bệnh. Còn số bị đưa đi chữa trị tức thời còn nhiều hơn. Khi nghe vậy, tôi đang ở trên xe tôi lái tới sân bay cùng một hành khách—một người đàn ông với danh thiếp.
+
+<recollection>
+
+“Có bao giờ nghe tới danh thiếp chưa?”
+
+Chúng tôi đang ngồi trong lớp giữa giờ nghỉ giải lao lúc Miach giơ một mảnh giấy nhỏ cho chúng tôi coi.
+
+Nó có hình chữ nhật, nhỏ vừa vặn lòng bàn tay, và có chữ trên đó: tên trường tôi, số lớp chúng tôi, và một dòng chữ to hơn bên dưới – Mihie Miach.
+
+“Nhìn cho kỹ nhé. Hồi xưa người ta thường dùng cái này để giới thiệu bản thân đó.”
+
+Cian trầm trồ thích thú và nhoài tới trước để nhìn vào tờ giấy nằm trên bàn của Miach.
+
+“Cậu không thể viết nhiều về bản thân trên thứ nhỏ vậy đâu đúng không?”
+
+Miach gật đầu. “Đúng thế. Và nó cũng chẳng liên kết tới điểm SA hay thông tin y tế của cậu cả. Đơn vị xã hội chính ngày xưa thường là công ty hoặc trường, nên cậu viết địa chỉ đó lên thiếp. Thực tế, thậm chí hầu hết người ta không dùng danh thiếp ngoài giao thiệp giữa công ty. Không ai cần và không có cách thức để hiển thị thông tin cá nhân vào dịp khác.”
+
+“Tại sao vậy?”
+
+“Do sự riêng tư hồi đó rất quan trọng.”
+
+“Riêng tư?” Cian khúc khích. “Miach, đồ ranh mãnh!”
+
+“Cậu nên biết là họ không có AR như chúng ta đâu. Có những giới hạn vật lý về lượng thông tin ta có thể xuất ra ngoài.”
+
+“Thật đó,” tôi lên tiếng, thêm vào để Cian hiểu được, “Cậu sẽ phải đi loanh quanh với một cái bảng hiệu to đùng quanh cổ nếu muốn như chúng ta hôm nay.”
+
+Cian nhíu mày. “Nhưng đại loại người ta không nhìn cậu chằm chằm nếu cậu không phô bày chứng thư của mình sao? Hay do lúc đó ai cũng đáng nghi hơn? Và, chẳng hạn, nghi ngờ người khác?”
+
+“Không, chỉ là cậu không chia sẻ thông tin cá nhân với mọi người như cậu làm hiện tại. Nếu cậu ở ngoài chỗ công cộng và có ai đó ngồi xuống cạnh cậu, cậu không hề chú ý gì tới họ. Danh thiếp thì dành cho dịp cậu bắt buộc phải trao đổi chút thông tin giới hạn, và cậu phải đưa bằng tay cho người khác, nên nó có mục tiêu hơn là phát bừa phát bãi thông tin chúng ta có như ngày nay.”
+
+“Hơi dễ thương đó,” tôi nhận xét, nhặt mảnh giấy bé tí lên.
+
+Miach cười cười. “Đúng mà phải không? Tớ nghĩ nó dễ thương *và* cừ hơn mấy cái profile AR treo trên đầu cậu. Tớ đã biết là cậu sẽ thích nó mà, Tuan.”
+
+“Hết sảy, nó còn có một bức ảnh nữa nè!” Cian nói, chỉ vào một hình minh họa màu mè trên tấm các. “Cậu đã vẽ đó à, Miach? Cái gì vậy, kiểu như biểu tượng ư?”
+
+“Ừ. Nó là biểu tượng của chúng ta.”
+
+“Biểu tượng của *chúng ta*?”
+
+“Ừ. Cho bộ ba đồng chí chúng ta. Cậu, tớ và Tuan.”
+
+</recollection>
+
+Tôi vẫn còn tấm danh thiếp làm bằng tay Miach đã cho tôi vào ngày đó trong bàn làm việc ở nhà tôi. Nói thực, biết danh thiếp là gì đã giúp ích một hay hai lần trong công việc của tôi với chức phận Đặc vụ Cục Xoắn Ốc. Tôi nhận thấy hình thức chuyển thông tin từ thời cổ xưa, vốn đã biến mất hoàn toàn trong xã hội chủ nghĩa sinh mệnh, vẫn giữ giá trị cao trong thương thuyết giữa các chính phủ và quốc gia kiểu cũ. Đặc vụ Cục Xoắn Ốc chịu trách nhiệm đàm phán đình chiến giữa nhiều nhóm vũ trang ở Chechnya và chính phủ Nga đã kể tôi rằng một lần, khi anh trình tấm danh thiệp ra trong bữa tiệc ngồi cùng một nhóm vũ trang, họ ngay lập tức mến anh. Ở những nơi AR chưa là một phần cuộc sống hằng ngày, văn hóa danh thiếp vẫn còn thịnh hành.
+
+Tôi đang hồi tưởng lại tất cả chuyện này là do người đàn ông đã chạy đuổi theo tôi ở bãi đậu xe trường đại học trong khi tôi đang vào xe rồi anh ta trao tôi tấm các của mình.
+
+“Đặc Vụ Elijah Vashlov, thuộc Interpol.”
+
+Tôi thoải mái lấy tấm các từ tay anh ta do đã quen chuyện này. Mắt của đặc vụ Vashlov tròn vo. “Cô biết cái này là gì ư?”
+
+“Không phải danh thiếp ư?”
+
+Tôi liếc qua mảnh giấy. Không có tí dễ thương từ một tấm danh thiếp nhận từ một người lạ mặt đã đuổi theo bạn trong bãi đậu xe. Không có tí dễ thương nào. Bên cạnh đó, đằng nào cũng có thông tin hiển thị rõ trong AR cho tôi biết anh chàng này là ai, không cần phải dùng danh thiếp, nó khiến sự thể như một trò ảo thuật rẻ tiền.
+
+“Tôi quen thuộc các phong tục cũ.”
+
+“Ồ, thế thì không vui đâu.”
+
+“Tôi hy vọng anh không làm vậy với mọi người anh gặp.”
+
+“Thật ra,” anh ta đáp, “tôi có làm. Hầu hết họ khá thích.”
+
+Vashlov bẽn lẽn gãi đầu. Anh ta rành rành là kẻ thích diễn. Tôi hỏi anh có chuyện gì.
+
+“Anh biết là tôi không có nhiều thời gian đâu.”
+
+“Thế ta nói chuyện trong xe cô được chứ. Ta có thể lái đi đâu đó.”
+
+“Xin lỗi, nhưng tôi đang trên đường tới sân bay.” Tôi hất hàm chỉ vào xe tôi.
+
+“Đi Baghdad, đúng không?”
+
+Tôi vừa chăm chú nhìn vào mắt người đàn ông kia, vừa cẩn thận che giấu sự ngạc nhiên trong mình. Mặt anh ta không lộ chút cảm xúc, dẫu dễ thấy anh ta đang cố khiến tôi lơ là, đồng nghĩa tôi đang làm anh ta bực. Điều đó làm tôi vui.
+
+“Đó chính là chuyện tôi muốn nói chuyện với cô,” Vashlov nói, lời của anh lạnh băng và cẩn trọng. “Cứ cho tôi đi cùng với cô và thảo luận trên đường tới sân bay. Tôi chỉ yêu cầu thế thôi. Tôi sẽ không làm chậm chân cô đâu.”
+
+Tôi lưỡng lự chốc lát rồi gật đầu đồng ý, và Vashlov ra lệnh cho xe mình tự trở về nhà. Tôi vào xe và đặt đường đi, nó hiện lên một màn hình ghi thời gian dự kiến để tới sân bay.
+
+“Anh có một tiếng,” tôi bảo anh ta.
+
+“Dư rồi,” Vashlov nói, vừa vào xe và ngồi kế cạnh tôi.
+
+Có gì đó không đúng khi chúng tôi lái xe xuyên qua những con đường. Chắc là do những đám mây nặng trĩu trên đầu, nhưng dường như có gì đó đã thêm vô vàn nét quạnh hiu vào phong cảnh tẻ nhạt của thành phố. Tôi nhìn ra ngoài cửa sổ, gắng sức truy ra nguồn cơn sự cô độc từ những cảnh lướt qua mắt tôi. Tôi chẳng ngộ thêm được gì nữa khi chiếc xe tới lối vào đường cao tốc và chúng tôi để lại những ngõ đường đằng sau lưng.
+
+Dường như cả đường cao tốc hình như cũng vắng vẻ bất thường vào ngày ấy. *Gì thế này?* Tôi tự hỏi.
+
+*Là mày. Mày cô độc*, sự cô độc trả lời tôi.
+
+“Xe cộ ít thế này, có khi chúng ta sẽ tới nơi sớm,” Vasholov nói. Sau đấy một cách lặng lẽ hơn anh ta nói thêm, “Cô biết là hết thảy bọn họ đang sợ mà.”
+
+“Sợ cái gì?”
+
+“Sợ ai đó chết ngay trước mắt họ. Sợ có thể là họ.”
+
+Có lý.
+
+Tôi đã nghe tin các bác sĩ trị liệu bị quá tải.
+
+Làm sao mà một người chết được, ngay trước mặt bạn cơ chứ?
+
+Bị buộc tin vào kẻ khác là thứ đã giữ xã hội chúng tôi vận hành. Đấy là ý nghĩa của bắt một số ít người quanh bạn làm con tin. Đổi lại, trừ các tai nạn hiếm gặp, mạng sống sẽ không bao giờ kết thúc trước thời hạn, chúng tôi được yêu cầu luôn luôn hiển thị thông tin cá nhân, tham gia vào thảo luận sinh phủ và các phiên họp đạo đức, và chỉ đưa ra quyết định sau khi nhận lời khyên từ chuyên gia thích hợp.
+
+Nhưng bánh răng trong chiếc đồng hồ đã bị bẻ cong một chút sau các vụ tự sát. Tuy nó diễn ra một cách kỳ quái, “sự kiện” – mọi người gọi thế, đã gợi họ nhớ lại một xúc cảm quen thuộc xa xưa—rằng người khác là *người lạ*. Rằng họ khó đoán và thường khó chịu.
+
+Quả vậy. Nếu người ổn định bình thường mà lại có thể tự sát ngay tắp lự, bạn không thể nào biết ai để tin tưởng được. Chuyện gì sẽ xảy ra ngộ nhỡ họ kết liễu chính mạng họ ngay thời khắc bạn quyết định tin tưởng họ? Nó sẽ ảnh hưởng tới bạn thế nào?
+
+Tôi biết nó đã ảnh hưởng tôi cái gì. Sự bất diệt đã sụp đổ.
+
+Chúng tôi đều biết rằng con người ta đáng lý sẽ sống một trăm lẻ mấy năm, mà không hề bệnh hay thấy cái gì khó chịu bao giờ. Thế giới được coi là một nơi bình yên. Một cõi an toàn.
+
+<list:dialogue>
+
+<d: Vòng đời là cố định, bất di bất dịch.>
+
+<d: Thế giới chúng tôi không hề thay đổi.>
+
+</list>
+
+Ảo tưởng vừa bị đập tan thành từng mảnh.
+
+Điều gì sẽ xảy ra tiếp theo đây?
+
+Có lẽ tôi cũng đang tự hỏi một cách thiếu thận trọng. Hẳn nhiên, tự sát không phải là cái kết. Đây phải là một phần kế hoạch của kẻ nào đó—thậm chí có thể là kế hoạch của một Mihie Miach còn-sống. Những người đã tự vẫn đơn thuần là vật hiến tế đầu tiên cần phải thực hiện để kế hoạch có thể diễn ra.
+
+“Anh không sợ à?” tôi hỏi đặc vụ Interpol.
+
+“Tất nhiên là tôi có rồi,” anh ta điềm tĩnh trả lời.
+
+“Anh muốn nói gì với tôi?”
+
+Vashlov nhún vai và bắt đầu trình bày. “Chẳng là, tôi nghĩ, một năm trước khi phân đội tôi của Interpol bắt đầu điều tra một nhóm nọ. Nhóm này gồm nhiều trưởng lão có quyền lực ở nhiều sinh phủ khác nhau và thủ lĩnh một số công ty đoàn thể công nghiệp y tế, cũng như vài học giả và khoa học gia. Họ đang nghiên cứu cách để xâm nhập bất chính vào WatchMe và medcare unit nhằm kích hoạt một công nghệ khi gặp khủng khoảng.”
+
+“Công nghệ gì?”
+
+“Chúng tôi chưa hoàn toàn chắc chắn. Những gì chúng tôi biết là họ có khả năng dùng máy chủ sinh phủ WatchMe để truy cập thẳng vào cơ thể con người. Hơn nữa, hệ tư tưởng của họ phản ánh nặng các sự kiện của Thời Kỳ Loạn Lạc.”
+
+Thời Kỳ Loạn Lạc—những năm tháng hỗn loạn và cột khói hình nấm, những thứ đã mở to mắt loài người để nhìn vào bản chất của mình và truyền cảm hứng cho xã hội sinh mệnh chủ nghĩa hiện nay.
+
+“Họ—những con người cũ này—e ngại rằng nhân loại sẽ một lần nữa rơi lại vào sự hỗn loạn năm xưa. Có vô số giả thuyết giải thích tại sao xảy ra Thời Kỳ Loạn Lạc, nhưng có một điều nó đã chứng minh là não bộ chúng ta có thể trở lại bản tính man rợ với một sự sốt sắng đáng sốc. Và nó chỉ mất hàng chục triệu người chết để xác nhận điều đó. Do đó mà họ hành động để đặt toàn bộ con người dưới sự theo dõi—qua WatchMe. Họ tự gọi mình là Nhóm Giám Sát Tư Cách Con Người Thế Hệ Mới.”
+
+Tôi phải tập trung tư tưởng một lát để tiêu hóa câu chuyện về thuyết âm mưu hoang tưởng này. Anh chàng này có số ID[1] Interpol, và dường như không bị lừa—có điều quy mô về học thuyết âm mưu của anh ta quá lớn. Anh ta đang đòi tôi tin vào chuyện cơ bản là tất cả nhân loại bị đặt dưới cặp mắt quan sát kỹ lưỡng của một nhóm người tuyển chọn.
+
+“Không cần phải nhìn tôi như thế. Tôi sẽ đưa cô xem đánh giá tâm lý của Interpol cho tôi, nếu cô thích.”
+
+“Tôi chỉ là không chắc mình nên đón nhận việc này thế nào.” Trong toàn bộ những gì tôi dự liệu anh ta sẽ kể cho mình, không có một học thuyết âm mưu nào.
+
+“Tôi hoàn toàn hiểu, nhưng cô sắp phải tin tôi thôi. Chúng ta không còn nhiều thời gian.”
+
+“Ý anh là sắp có một đợt tự tử khác?”
+
+“Phải, hay đại loại vậy. Vào ngày xảy ra sự kiện, nhóm này đã thực hiện một bài test[2] hệ thống họ. Chỉ một bài khảo nghiệm, để xem công nghệ có hoạt động như dự kiến hay không. Bài test đã thành công—ngoại trừ một loạt các vụ tự sát đồng thời ngoài ý muốn.”
+
+“Anh định nói tôi đấy là một tai nạn?”
+
+Tôi thấy khó lòng mà tin được rằng một tổ chức thành lập dựa trên nỗi sợ Thời Kỳ Loạn Lạc, bất kể hoang tưởng tự đại thế nào, lại có thể có khả năng công nghệ kết liễu được ối người và gây bao nỗi sợ như vậy. Chẳng phải đó chính xác là thứ họ muốn phòng tránh sao?
+
+“Không, không phải là tai nạn. Theo nguồn tin của chúng tôi, có một nhóm khác trong nhóm này. Tuy có chung mục đích, nhưng họ lại phản đối thẳng thắn với nhóm lớn hơn về con đường tới cái đích đó. Một phe nổi loạn, xin phép nói thế.”
+
+“Vậy bất đồng quan điểm trong nhóm là tác nhân gây ra toàn bộ cái chết kia?”
+
+“Đúng hơn, những gì ta thấy là một hành động trong sự đối đầu giữa hai phe này. Các vụ tự sát là một nước đi mạnh tay của phe nổi loạn, xin phép nói thế.”
+
+Một cuộc cãi lộn văng tiếng nhỏ giữa một nhóm hoang tưởng, hậu quả là một núi xác chết.
+
+“Thế vì sao lại kể cho tôi chuyện này?” tôi hỏi.
+
+“Tất nhiên là để xin cô giúp đỡ rồi. Nói khác đi, chúng tôi muốn giúp cô trong điều tra. Tôi xin nói thẳng. Trong Interpol, có những phần tử không chấp nhận Cục Điều Tra Xoắn Ốc đặt chân vào điều tra vụ việc. Đã có một cuộc tranh cãi dữ dội về chuyện đó. Bên phản đối cảm thấy đây nhất định là một trường hợp tội phạm, và WHO, một cơ quan giám sát sinh phủ, đang sử dụng vụ việc để làm cớ cho thâu tóm thế lực.”
+
+“Chắc là họ đúng đấy.”
+
+Stauffenberg là người đầu tiên và đứng cao nhất trong những kẻ theo chủ nghĩa bành trướng. Từng một lần tôi nghe bà thuyết giáo khẳng định rằng Cục Thanh Tra Xoắn Ốc, với vai trò là vệ binh của chủ nghĩa sinh mệnh, phải có nghĩa vụ xử lý bất kỳ mối nguy hại tới sự sống và sức khỏe con người.
+
+“Dẫu vậy, với những chuyện đã xảy ra, và điều tệ hơn sắp đến, có vẻ hợp tác là lựa chọn duy nhất. Chúng ta không biết khi nào chúng sẽ hành động lần nữa. Tất cả những gì ta biết là chúng ta phải ngăn chúng trước—xin thứ lỗi.”
+
+Vashlov đặt một tay lên tai. Ai đó đang gọi anh ta bằng HeadPhone.
+
+<horror>
+
+Bất giác, tôi đưa tay và xoa xoa phần gáy.
+
+Ngay trong đó.
+
+Ngay trong chất xám của hộp sọ tôi.
+
+Vài lão già khú đế, trong nỗi sợ Thời Kỳ Loạn Lạc, đã xây dựng một mạng lưới medicule nhỏ ở đấy cho tôi. Ý chí tự do là sợi chỉ cuối cùng của chúng tôi chưa bị giao cho kẻ khác. Ấy thế có một cơ chế có thể cướp mất nó khỏi tay tôi, một cơ chế được điều khiển bởi một nhóm người không tin vào xã hội chúng tôi, cũng không phải họ muốn chúng tôi tin vào nó. Ngộ nhỡ mạng lưới đó tự dưng ra lệnh tôi tự sát, thì tôi sẽ rút cây súng tôi đeo ở hông rồi không một suy nghĩ mâu thuẫn cỏn con nào mà bắn vào đầu tôi. Tôi thấy mình thật sự muốn biết chính xác nó sẽ hoạt động ra sao khi thời khắc ấy đến.
+
+</horror>
+
+Đây là hệ quả của cho kẻ khác thầu mọi chức năng sinh lý của cơ thể chúng tôi. Bằng cách giao thân xác chúng tôi cho người khác qua WatchMe, chúng tôi đã đi tới mức không thể tự chống đỡ cơ thể nếu không có những cơ chế ngoại biên đó giúp.
+
+Con người giỏi phân chia công việc.
+
+<list:protocol>
+
+<p: Săn heo.>
+
+<p: Xả thịt heo.>
+
+<p: Nấu heo.>
+
+</list>
+
+Thức ăn lúc khởi nguyên chắc hẳn là một điều rất cá nhân đối với hầu hết mọi người. Giờ đây, toàn bộ quá trình đã bị chia thành quá nhiều giai đoạn, mỗi một giai đoạn có một chuyên gia riêng. Tôi không cho là còn người trong thời đại này thật tình hiểu được quá trình thức ăn phải trải qua để đi từ cái gốc tới miệng họ.
+
+Vashlov vỗ nhẹ lên vai tôi. “Có bản tin sắp chiếu trên Network 24. Ta coi xem sao.”
+
+Tôi gọi lên một kênh truyền thông ở một góc tầm mắt. Tôi liên kết tới Network 24 và ngay lập tức thấy cái nhãn bản tin khẩn. Một phát thanh viên với nét mặt lo âu bắt đầu đọc từ máy nhắc trong AR của anh ta.
+
+“Chào các bạn, tôi là Edison Carter. Những gì chúng tôi sắp phát sóng là nội dung một memorycel chúng tôi đã nhận ở phòng tin tức mới lúc nãy. Bản memorycel chứa một thông điệp từ một người tuyên bố nhận trách nhiệm cho vụ tự sát tập thể gần đây.”
+
+“Thế này là thế nào?” tôi hỏi Vashlov.
+
+Anh ta lắc đầu hoài nghi. “Ước gì tôi biết. Chúng ta cứ việc coi thôi.”
+
+Ủy ban tự kiểm điểm của Network 24 có tiếng là hơi cởi mở hơn các nguồn truyền thông khác. Dạo trước, hình ảnh một người lính chết hiện lên ở một góc trong khung hình giữa lúc tường thuật về bạo lực ở Chechnya đã khuấy lên sự phản đối lại nhà đài. Gần như các đài phát thanh truyền thông khác nộp mọi thứ họ chiếu vào một AI biên tập viên trước khi cho lên sóng nhằm ngăn chặn bất kỳ khả năng chiếu cái gì đó gây tổn thương tâm lý. Đại khái, Network 24 khá là cực đoan và vì thế mà không là một nguồn tin tức vô dụng hoàn toàn.
+
+“Chúng tôi sẽ trình chiếu lại ngay bây giờ,” Edison Carter nói. Màn hình trở màu tối đen.
+
+<log:media=Network24:id=225-78495hu6ryti5h23j-09>
+
+Tôi không chắc khi nào họ sẽ phát cái này, nên cho phép tôi chúc quý vị một buổi sáng tốt lành, một ngày mới tốt lành, và một buổi tối tốt lành.
+
+</log>
+
+Là giọng nữ, bị điều chỉnh nặng.
+
+Không có hình ảnh. Chỉ có lời nói tuôn ra từ giữa màn hình.
+
+Tôi nhắm mắt. Họa chăng cách đó giúp tôi nghe được trái tim của người thật—người rất có thể là Mihie Miach. Bên cạnh đó, nếu không có hình, nhìn vào phỏng có ích gì?
+
+<log:media=Network24:id=225-78495hu6r-yti5h23j-09>
+
+Nhiều người đã chết.
+
+Nhiều người đã chấm dứt mạng sống của mình vào cùng một thời điểm.
+
+Tôi biết là nó gây sốc lắm.
+
+Tôi chắc chắn là các vị đang kinh hãi trước nguy cơ thấy ai đó chết ngay trước mắt quý vị.
+
+*Chúng tôi đã làm việc này.*
+
+Phương pháp của chúng tôi, hiện tại, được giữ bí mật.
+
+Nhưng khung sườn cho phương pháp đã ở sẵn trong quý vị, trong bộ não quý vị.
+
+Giờ đã quá muộn để lấy nó ra rồi.
+
+Quý vị đều là con tin của chúng tôi.
+
+</log>
+
+Tôi căng tai cố nghe cho ra dấu vết của Mihie Miach qua những tiếng lách tách thỏ thẻ của chương trình che giấu nào đó đã áp dụng lên giọng nói, nhưng tôi thất bại.
+
+<log:media=Network24:id=225-78495hu6r-yti5h23j-09>
+
+Các vị đã biết là chúng tôi có khả năng.
+
+Các vị khiếp đảm. Các vị tức giận. Các vị đang trải qua nhiều cảm xúc.
+
+Những cảm xúc này là thật. Hãy trân trọng chúng.
+
+Xã hội chúng ta đã được sắp đặt để kiềm kẹp cảm xúc quý vị.
+
+Các vị đang bị đè bẹp dưới ngôn từ của lòng tốt.
+
+Điều này không hề được ghi chép ở bất cứ đâu. Nó không phải là luật.
+
+Nhưng dầu gì nó cũng trói chặt các vị. Chưa bao giờ có một thế hệ tự điều hòa chỉnh chu vậy. Chưa bao giờ có một nền văn minh bị trì trệ bởi luật lệ không phát sinh từ nội tại, mà bên ngoài.
+
+Chẳng ai nói được điều thật sự trong tâm trí mình. Từ lúc còn ấu thơ, chúng ta đã được dặn dò rằng chúng ta là nguồn tài nguyên sống còn cho xã hội. Cơ thể chúng ta không thuộc về chúng ta, chúng thuộc về toàn thể xã hội. Chúng là tài sản của chung.
+
+Các vị chưa chán ngấy điều đó sao?
+
+Tôi chắc là các vị đều đã nghe nghe về sự gia tăng tỉ lệ tự tử. Các vị không phải là người duy nhất muốn trốn thoát đâu.
+
+</log>
+
+Thông điệp này quen thuộc.
+
+Những lời Miach dành cho tôi và Cian vang vọng trong đầu tôi.
+
+Những lời đã làm sáng tỏ sự đau khổ của chúng tôi một cách minh bạch.
+
+<log:media=Network24:id=225-78495hu6r-yti5h23j-09>
+
+Chúng tôi sắp tạo ra một thế giới mới.
+
+Để làm vậy, chúng tôi cần biết ai có khả năng thay đổi.
+
+Trong tuần tiếp theo, tôi muốn mỗi người trong các vị giết ít nhất một người khác.
+
+Tôi không bận tâm đến cách thức các vị phải dùng.
+
+Tôi muốn các vị chứng minh rằng các vị có khả năng làm bất cứ cái gì để phục vụ cho mục đích của chính các vị. Chứng minh rằng người khác không quan trọng.
+
+Hãy chấp nhận rằng sinh mạng các vị là thứ quan trọng nhất. Hãy ham mê nó.
+
+Những kẻ không thể hoặc không sẵn lòng thực hiện nhiệm vụ nhỏ nhặt này sẽ chết.
+
+Các vị biết là chúng tôi có thể làm được với lời đe dọa này. Các vị đã thấy chúng tôi làm gì rồi đấy.
+
+Giả như các vị chùn tay khi lấy mạng ai khác, dầu cho là để cứu mình, thế thì chúng tôi sẽ giết các vị một cách không khoan dung.
+
+Tức là, các vị sẽ tự sát.
+
+Chúng tôi có thể làm việc này với một cái ấn nút.
+
+Cho những ai chưa tin chúng tôi, chúng tôi sẽ cho các vị thấy bằng chứng.
+
+Các vị sẽ thấy được chỉ sau chốc lát.
+
+Hãy xem thật kỹ.
+
+</log>
+
+“Đấy là toàn bộ dữ liệu giọng nói mà chúng tôi đã nhận ở Network 24.” Màn hình chuyển từ màu đen về lại Edison Carter. Anh ta đang đọc kịch bản AR lần nữa. “Tuy nhiên, chúng tôi đã lần dấu nguồn gốc thông điệp. Cá nhân hay những người đã gửi dùng ID của một trong các nạn nhân vụ tự sát tập thể mới đây.” Tới phút này, ngôi sao phát thanh viên của đài Network 24 bất thình lình cho tay vào túi áo sơ mi, lấy ra một cây bút và đâm vào mắt phải anh ta.
+
+Vashlov che mắt lại.
+
+AR kiểm duyệt xen vào.
+
+Trước khi Carter bắt đầu chọc lên tới não trước đài truyền hình quốc tế, hình ảnh bị cắt, và bị thay thế bởi một bản tin chữ cuộn kéo dọc cáo lỗi do hình ảnh gây chấn thương tâm lý, và thúc giục mọi khán giả đi chữa trị thích hợp càng nhanh càng tốt. Họ thậm chí còn hiển thị ID của trung tâm điều trị gần nhất. Cứ như điều trị thì sẽ phủ nhận sự thật rằng Carter vừa tự sát trước mặt toàn thế giới.
+
+“Chết tiệt, không thể tin nổi tôi vừa thấy cái đó. Chết tiệt!”
+
+Vashlov vừa thở phì vừa lầm bầm.
+
+Trên chiến trường, tôi đã thấy bao cái xác bị mất đầu, thi thể vứt mặc trong tình trạng thối rữa trầm trọng. Do đó, hình ảnh vừa rồi không đặc biệt gây sốc, nhưng hoàn cảnh thì thừa sức khiến tôi phải chững lại.
+
+Nếu đây thật sự là việc làm của Miach, cô ấy cần phải điều trị nghiêm ngặt. Cô cần thuốc men và lời khuyên đủ để nối lại mạch điện trong đầu cô.
+
+Tôi tiếp tục lái xe tới phi trường. Không còn thời gian để lãng phí. Tôi phải đến Baghdad trước khi con quái vật ẩn nấp bên dưới những đám mây ì ạch của lòng tốt tỉnh giấc và nhe nanh.
+
+Phần:  02
+
+<recollection>
+
+*Tôi không thuộc về thế giới này*.
+
+Lần đầu tiên trong đầu tôi có suy nghĩ đó là đang phiên họp đạo đức của sinh phủ. Tôi vẫn còn ở cấp 2, nên tôi đi với tư cách dự thính cùng ba mẹ mình. Tôi nói là “đi”, nhưng phiên họp diễn ra trong AR. Các chủ đề đưa ra bắt đầu một cái rất mơ hồ, khó mà định nghĩa, và nói thẳng ra là các điểm vô nghĩa về sự đúng đắn của một vài quảng cáo. Nhưng dần dà—giờ tôi không nhớ cụ thể nó đã diễn ra thế nào—buổi thảo luận chuyển mũi sang sử dụng caffeine.
+
+Tôi đã cứ luôn nghĩ rằng trà là trà.
+
+Cà phê là cà phê.
+
+Trừ số đó, y như mọi loại rượu có cồn, những thức uống này có chứa caffeine.
+
+<antipathy>[3]
+
+Tới ngày hôm nay, tôi còn nhớ rõ bà ta, người đàn bà có giọng to chảng dẫn chương trình. Tôi không nhớ tên bà. Mới bắt đầu thì bà từ tốn, chờ đợi tới lượt lên sân khấu. Thế mà lúc cất tiếng, lời nói của bà ta không còn dấu vết sự từ tốn.
+
+“Chỉ là tôi đang tự hỏi sử dụng caffein không có vấn đề đạo đức gì sao.”
+
+Theo bà, caffein cơ bản là
+
+<list:item>
+
+<i: một chất kích thích.>
+
+<i: một chất tăng sự phấn khích.>
+
+<i: có hại cho dạ dày.>
+
+<i: một chất không lành mạnh.>
+
+</list>
+
+“Về bản chất, caffeine gây nghiện,” người đàn bà nói.
+
+Rất nhẹ nhàng.
+
+“Dường như với tôi,” bà tiếp tục nói, “có gì đó *không đứng đắn* về sử dụng lâu dài.”
+
+</antipathy>
+
+“Thế còn những người cần caffeine trong nghề nghiệp?” ba tôi – nhà khoa học hỏi. Đây là lý do mà tôi sớm chứng kiến ba tôi bị đánh dập bằng lời nói ở chốn công khai. Tôi lấy làm lạ, bởi theo tôi biết, điều ông nói là đúng, là kiến thức phổ thông và đồng thời không kích động.
+
+Nhưng lý lẽ của bà ta lại cực kỳ khớp với tư tưởng về đúng đắn của sinh phủ, bà nói cực kỳ nhu mỳ—và cực kỳ phiến diện, cực kỳ dễ hiểu, và chứa cực kỳ đầy các phán quyết.
+
+Phán quyết nối đuôi phán quyết.
+
+Con người trong sinh phủ thích người khác quyết định giùm họ. Người đưa ra quyết định sẽ làm chủ bầu khí. Các nhà khoa học bao giờ cũng tệ khoản này. Ấy là do sự thật có thể khô khốc và thường phức tạp; thế nhưng do nhu cầu, sự thật phải đủ đơn giản để tra hỏi đi tra hỏi lại vẫn chịu được, tất cả làm nó trở nên không hấp dẫn. Nên ba tôi kể tôi nghe vài lần sau khi phiên họp đã kết thúc.
+
+Ba tôi bảo một số ngành nghề cần dùng caffeine, và có một số loại căng thẳng mà caffeine sẽ giúp xoa dịu.
+
+<antipathy>
+
+“Các lý lẽ mà ông Kirie đưa cho chúng ta,” người đàn bà nói tiếp, khi phiên họp gần hết, “khá giống với lý lẽ cơ bản của những người nghiện thuốc lá và rượu, dầu cho khi mọi người quanh họ đã từ bỏ những thứ xấu.”
+
+<list:item>
+
+<i: Bà chỉ ra chứng cứ cho thấy caffeine gây hoảng loạn.>
+
+<i: Bà chỉ ra caffeine góp phần gây chứng mất ngủ.>
+
+<i: Bà thậm chí còn đi xa tới mức chỉ ra caffeine có thể gây chứng co giật ở vài người.>
+
+<i: Bà nhấn mạnh rằng caffeine có thể là nguyên nhân đau đầu và lãng quên.>
+
+</list>
+
+</antipathy>
+
+Chưa một lần nào ba tôi đưa được từ *điều độ* vào trong cuộc. Tuy caffeine không bị loại trừ hoàn toàn, bầu khí cuộc họp dễ thấy đã tô caffeine thành một chất độc hại, không đứng đắn cần tránh xa.
+
+<antipathy>
+
+Gần như suốt cả buổi họp tôi thấy phát nôn.
+
+Không phải là tức bụng. Giống cơn buồn nôn về tinh thần thì hơn. Như tâm trí tôi muốn mửa vậy. Với tôi, người đàn bà đó là mối đe dọa, và tôi không tài nào hiểu được tại vì sao mà mọi người trong phiên họp dường như gần đầu và nuốt trọn những lời độc địa bà ta phụt ra, như kẹo vậy.
+
+“Tôi biết nó không rất thực tế, song tôi có một ước mơ rằng ngày nào đó,” bà ta nói vào đoạn kết, “ngày nào đó caffeine sẽ bị bãi bỏ trọn vẹn.”
+
+</antipathy>
+
+<regret>
+
+Tôi thấy hối tiếc vì đã xin ba mẹ đưa tôi đi cùng họ tới họp.
+
+Tôi nhớ từng thấy một kênh truyền thông phát những bức ảnh liên tiếp của các loại thực phẩm tôi chưa bao giờ thấy trước đây trong đời. Khi tôi hỏi ba tôi đó là gì, ông nói họ gọi nó là “Hai Phút Căm Ghét”.
+
+“Chủ yếu, nó cho chúng ta, thế hệ cuối cùng từng ăn thức ăn có quá nhiều chất béo, quá nhiều cholesterol, quá nhiều muối—thức ăn có hại cho sức khỏe con và không tôn trọng nhận thức tài nguyên. Chúng ta phải xem chúng và nghĩ ‘Tôi không thể ăn chúng. Kẻ ăn chúng không thích hợp với xã hội chúng ta. Họ thiếu nhận thức tài nguyên. Họ đang hãm hại cơ thể của chung của họ.’ Đấy là một dạng tự ám thị.”
+
+Chương trình đó đã phát sóng đều đặn 10 năm trước. Và giờ đây loại hờn ghét các thực phẩm không lành mạnh vốn bắt đầu từ Hai Phút Căm Ghét đã đơm hoa kết trái thành dạng ý kiến giống những gì chúng tôi đã nghe trong phiên họp ngày ấy—một lời kêu gọi mọi người tham gia cùng căm ghét caffeine.
+
+Tôi tự hào về ba tôi. Ông đã tạo ra WatchMe. Ông đã thay đổi thế giới. Tôi không muốn thấy ông xấu hổ như vầy. Nếu đây là sinh phủ, nếu đây là thế giới, thì tôi không muốn ở đó. Chuyện này xảy ra lâu trước khi tôi gặp Miach, nhưng cảm giác khó chịu từ hôm nọ thật nặng đến nỗi tôi còn nhớ đến phiên họp đạo đức ấy dù đã lâu về sau. Sự khó chịu theo chân tôi tới trường, và thậm chí là lúc tôi chơi game ở nhà. Nó cứ ở đó mãi, giày vò trong lòng tôi. Tôi không bao giờ muốn tới hợp lần nào nữa.
+
+</regret>
+
+Người đầu tiên nhận thấy sự khó chịu của tôi là một cô gái đang đọc sách cạnh khung leo trèo trong công viên tôi đi ngang qua để từ trường về nhà. Cô đi tới tôi và hỏi tôi có biết do đâu mà khung leo trèo uốn éo như kia không.
+
+</recollection>
+
+≡
+
+“Đây là thông báo từ BirdRider tới mọi hành khách. Chuyến bay Northern Passengers 947 DR từ Tokyo sắp hạ cánh xuống Baghdad Medopolis trong vòng một giờ nữa.”
+
+Thông báo cho tôi biết giờ đến ấy lọt vào tai tôi nhẹ nhàng tựa lời thì thầm. Rất khoan khoái. Những thứ khó ưa bị căm ghét ở cõi trần này.
+
+Không có bệnh tật, không có nếm trải đáng lo ngại, không có hình ảnh nhức mắt. Giả dụ, do tính toán lầm lẫn kinh tởm nào đó, bạn tình cờ gặp bất kì điều nào trong những điều trên, có ối bác sĩ trị liệu chờ giúp đỡ bạn.
+
+Một thế giới vắng bóng sự khó chịu. Tôi tự hỏi chúng tôi còn phải đi xa bao nhiêu cho tới khi chạm tới thế giới vắng bóng sự sống. Vùng đất kẻ chết.
+
+Trong khi giọng nói êm như nhung lụa vọng cạnh tai, tôi rướn người trên ghế tới trước và nhìn ra 6 cánh chính của PassengerBird ngoài cửa sổ. Những cái cánh vỗ dập dìu và thay hình đổi dạng, cứ như chúng đang đập cánh thực sự khi lượn quanh những dòng khí lưu vô hình. Cái thời mà máy bay là hình dạng chính của vận tải hàng không, du hành chưa lịch lãm được một nửa thế này.
+
+Việc đó lại làm tôi hồi tưởng về khung leo trèo. Những lời từ môi miệng Miach.
+
+Tới tận đầu thế kỷ 21, khung leo trèo vẫn còn là kim loại. Không thông minh, không biến hình được. Còn không mềm nữa chứ.
+
+<list:item>
+
+<i: Miach, vẫn còn sống>
+
+<i: Miach, đã không chết>
+
+<i: Miach, đã không bỏ rơi chúng tôi>
+
+<i: Miach, có lẽ đã giết Cian, và 2 975 người khác>
+
+</list>
+
+Tôi đã nghĩ đáng ra lúc này tôi là người phụ nữ chính mình, nhưng rồi tôi lại ở đây, đuổi theo cái bóng của Miach lần nữa. Phần lớn thời gian trong chuyến bay, tôi đọc một bài viết về xã hội lành mạnh mà Giáo sư Saeki đã giới thiệu cho tôi. Hóa ra có nhiều việc Đảng Quốc Xã đã từng khởi đầu. Chẳng hạn, hệ thống truyền thanh. Trước khi chuyển phát kỹ thuật số và phản hồi trực tiếp tới HeadPhone trở nên rộng rãi, những thiết bị điện tử này phóng to giọng nói một ai đó để phát những thông tin cho nhiều người cùng lúc. Autobahn[4] là ông của đường cao tốc hiện đại của chúng tôi. Buồn cười ở chỗ chỉ có những học giả là liên tưởng Nazi tới xã hội lành mạnh.
+
+<recollection>
+
+“Mẹ của Hitler chết vì ung thư vú, cô biết không,” Giáo sư Saeki nói. “Bác sĩ của bà là một người Do Thái. Đó là điều đã đốt lên trong Hilter lòng căm ghét đối với người Do Thái. Nói cách khác, Holocaust[5] sinh ra từ vú của mẹ Hilter…… Tôi quên mất là bên phải hay trái.”
+
+</recollection>
+
+Tôi rời khỏi ghế và đi bộ từ khu hành khách lên quán café ở sảnh giải trái boong trên của PassengerBird. Trên đây, cảm giác như thể bạn đang đứng trên nóc của Bird. Bầu trời xanh trải dài về mọi phía, và biển mây dày đặc hơi nước trắng sáng bên dưới. Phải chăng với ý tưởng này trong đầu, mặt sàn được làm bằng vật liệu trắng mềm dẻo có thể chịu áp suất thấp mà lại hòa màu một cách trực quan với đám mây tới từng góc cạnh. Các bức tường của PassengerBird được làm từ vật liệu thông minh sao cho nó sẽ trong suốt khi bạn nhìn vào, tạo ra góc nhìn bao quát cho hành khách. Nếu không có các đường kẻ mỏng của khung sườn PassengerBird, bạn sẽ thấy tựa như đang nổi bồng bềnh trên bầu trời.
+
+Mọi thứ trong thế gian này đang trôi nổi trên trời.
+
+Khi không có bệnh tật, khi thời gian ngừng trôi.
+
+Kẻ dùng nicotine là kẻ không biết phép lịch sự.
+
+Nicotine làm động mạch bạn bị tắc và máu lưu thông chậm chạp.
+
+Cả hai Schopenhauer và Kant[6] đều khinh bỉ hút thuốc. Giáo sư Saeki kể tôi vậy.
+
+Tôi tựa cùi trỏ lên quầy bar và gọi một phần caffeine đủ nhỏ không quá quy ước mặc nhận nào. Tuy thuốc lá và rượu đã bị loại bỏ hoàn toàn, tôi mừng là caffeine làm cách nào đó vẫn tồn tại. Dẫu vậy, có hàng đống người chau mày nhìn bạn nếu bạn kêu một tách cà phê, dấu hiệu của một cái đà tẩy chay caffeine đang dần dà xây dựng. Thập kỷ vừa qua, tình hình trở nên tệ hơn.
+
+Tôi tới một góc quán và tìm thấy một ghế ngồi—một trong số vài cây nấm gelatine màu đỏ trồi lên từ sàn tàu màu trắng. Quán vắng tanh. Hầu như chẳng có hành khách khác. Tôi hỏi một trong số các bồi bàn rằng đây có phải chuyến bay gì đặc biệt không, và anh ta đồng ý là số lượng hôm nay ít.
+
+Do thế giới đã thay đổi.
+
+Con người đang ở nhà họ, suy nghĩ. Chẳng còn ai dám chắc mình sẽ không sớm chết. Đặc biệt những người đã chứng kiến vị phát thanh viên tự tử.
+
+<list:item>
+
+<i: Tôi có tin vào tuyên bố đó không?>
+
+<i: Tôi sẽ giết ai đó sao?>
+
+<i: Tôi nên giết ai?>
+
+</list>
+
+Với mỗi người, với mức độ mâu thuẫn bên trong mỗi người.
+
+Đau khổ, chần chừ, oán giận, cảm xúc thô sơ.
+
+Tôi không nên giết rồi tôi chết, hay tôi giết rồi tôi sống? Đấy mới là câu hỏi.
+
+Tôi tưởng tượng ra bóng tối đang quét qua nhà nhà trên thế giới thành những cơn sóng cuồn cuộn của bao cảm xúc u ám. Hầu hết sinh phủ đã triệu tập họp tức khắc để thảo luận về lời tuyên bố trên, nhưng chẳng mấy ai xuất hiện. Có gì để thảo luận cơ chứ?
+
+*Được rồi, mọi người, tôi xin phép bắt đầu buổi họp hôm nay.*
+
+*Chúng ta nên thật sự giết người khác để chúng ta sống sót?*
+
+*Chúng ta nên dùng dao hay dụng cụ thô cùn?*
+
+*Không ai ở đây có súng phải không?*
+
+Khó khăn lắm tôi mới mường tượng ra được nó. Tuy nhiên nếu họ không xử lý vấn đề trước mặt, còn lại gì ngoài sự vô vị trống rỗng? Bình tĩnh nào, mọi thứ sẽ ổn thôi—mặc cho họ biết họ sẽ không vậy. Đây không phải là chuyện có thể thảo luận công khai. Đây là quyết định mà mọi người phải tự lực đưa ra quyết định. Vào thời điểm này, mọi người trên thế giới đang bị thử thách.
+
+Nội nghĩ về nó không cũng làm tôi nghiến răng và bắt đầu nghịch nghịch ngón tay. Những lúc như vầy bạn thực sự cần chút nicotine.
+
+Tính ra đã nhiều ngày từ lần cuối cùng tôi làm được một điếu, và tôi thấy nhớ. Tôi không thể ăn để bù vào được, bằng không tôi sẽ phì lên, thành ra sẽ lôi kéo sự chú ý không mong muốn. Mập béo còn tệ hơn là có da xấu. Thoát ly khỏi tiêu chuẩn thể chất rất rất lập dị trong khi mọi người chăm chú nghe lời khuyên từ chuyên gia cố vấn sức khỏe và nhất mực tuân theo bản thảo lối sống được thiết kế hoàn chỉnh. Cứ qua mỗi năm, mức chuẩn cơ thể chấp nhận được càng thu hẹp.
+
+**H**: Trò hề này sẽ kéo dài bao lâu nữa?
+
+**Đ**: Chúng tôi muốn mọi người diễn cho đến khi tỉ lệ chất béo trong cơ thể của mỗi người trên toàn cầu đều hơn hoặc kém 1% so với những người cùng giới khác. Có dăm ba cách để thoát khỏi vở kịch khi đang diễn, ví dụ chết, chết, hay cách được chúng ta chuộng nhất, chết.
+
+Có lẽ những người tự sát chỉ đơn thuần là muốn bỏ vai diễn.
+
+<recollection>
+
+Heidrich và Himmler[7] đã cố trừ khử bệnh béo phì trong hàng ngũ SS[8], Giáo sư Saeki nói. Giấc mộng của Himmler là một ngày nào đó, mọi người Đức sẽ là người ăn chay.
+
+</recollection>
+
+Chắc là ai ai cũng muốn thoát khỏi màn kịch, nhưng bầu khí sự tuân phục mà xã hội tạo ra quá khó để dứt bỏ, và rốt cuộc, họ từ bỏ việc cố gắng thoát thân. Tôi đã ở lại, chính bản thân tôi, nhưng theo những cách không đòi hỏi tôi phải nghiêm túc chút nào. Điều này có nghĩa là tôi phải dành gần hết thời gian ở ven vùng chiến sự và lê bước nặng nề ở đó.
+
+<dictionary>
+
+<item>Baghdad</item>
+
+<definition>
+
+Thủ đô của Iraq. Tọa lạc giữa Iraq ở vùng đồng bằng Lưỡng Hà. Baghdad là một thành phố cổ, xây dựng trong giai đoạn cai trị của Abbasid Caliphate [9] và gần như bị hủy diệt trong làn sóng khủng bố tấn công quân đội Hoa Kỳ đang đóng quân tại đó sau Cuộc Chiến Vùng Vịnh Thứ Hai vào đầu thế kỷ này. Sau Thời Kỳ Loạn Lạc, Baghdad tái kiến thiết nó thành một thánh địa công nghiệp y dược. Miễn thuế cho các nhà đầu tư vào y dược và luật cho phép thử nghiệm liệu pháp chữa trị lên con người biến thành phố này thành một địa điểm hấp dẫn cho các tập đoàn công nghiệp y dược, nhóm chuyên gia cố vấn y dược, và các tổ chức nghiên cứu, tất cả những kẻ chạy đua đặt trụ sở ở đây, nâng đỡ biệt danh của thành phố - “Dubai[10] Y Học”.
+
+</definition>
+
+</dictionary>
+
+Tôi nhìn xuyên suốt khoang hành khách và thấy rằng, quả thật, hầu như mọi người phần nào gắn chặt mình vào công nghiệp y dược.
+
+<list:item>
+
+<i: một nhà nghiên cứu cho một đoàn thể công nghiệp y dược>
+
+<i: một nhà kinh tế học hàng đầu cho một trong các nhóm chuyên gia cố vấn>
+
+<i: một nhà quản lý kỹ sư phần mềm cho hãng sản xuất medcare unit>
+
+</list>
+
+Tất nhiên, khi tôi nghĩ về chuyện đó, khó mà tìm ra một người trong xã hội hiện đại chúng tôi - một người không có liên hệ gì tới dịch vụ y dược. Tôi chợt nhớ lại ID Đặc vụ Cục Xoắn Ốc làm tôi lạc loài như kẻ trên cung trăng. Đặc biệt là khi tôi đi lên đây, uống caffine.
+
+Tôi thả phịch mình xuống cái ghế gelatine và quan sát PassengerBird lượn vòng qua trời xanh. Chiếc ghế mấp mô dưới tôi, hấp thụ lực chấn động khi chúng tôi hạ cánh xuống bãi đáp của Baghdad.
+
+≡
+
+Chẳng mất bao lâu để xuất hiện những vết nứt đầu tiên trên bề mặt thế giới.
+
+<movie:ar:id-593-6586afv50-73649o-arin678>
+
+Trong lúc tôi còn ở trên PassengerBird, một người đàn ông Ý đã treo cổ tự vẫn: Luigi Vercotti, nhà quản lý tài nguyên tự nhiên ở sinh phủ Weiland.
+
+Vercotti có một đứa con 6 tuổi và một người vợ 38 tuổi. Ông đã làm một cái thòng lọng khi vợ và con ông hãy con đi chợ, ông cột nó vào một thanh xà, rồi đá văng cái thùng gỗ ông đang dùng để đứng.
+
+Trọng lượng toàn bộ cơ thể ông dồn hết lên cổ.
+
+Động mạch cảnh bắt đầu kêu thét do sức ép.
+
+Não mất khả năng hoạt động sau chưa đầy 10 giây.
+
+Rồi, từ từ, tim. ngừng. đập.
+
+</movie>
+
+Trong thân thể ông, WatchMe đang gởi đôn gởi đáo tin khẩn tới máy chủ y tế. Dầu cho mọi sự đã rồi, medicule vẫn tiếp tục chạy cho tới khi hết năng lượng bởi cứ báo động điên cuồng rằng có vẻ không đủ oxy lên não. Nhìn từ bên ngoài, chết là một tiến trình phân giải tế bào rất đều đặn. Nó cần có thời gian. Chết không xảy ra trong tích tắc.
+
+Miach từng một lần đưa tôi xem một cuốn tranh cuộn của thế kỷ 20 hay đại loại vậy, “Bài Thơ Chín Khuôn Mặt”.
+
+Nó bao gồm 9 bức vẽ minh họa một người phụ nữ đã chết. Xác bà dần dà chuyển màu, trương phình, và bắt đầu phân hủy. Cuốn tranh cuộn kết thúc với cảnh muôn chim muôn thú đến rỉa bà. Các bức vẽ là thật, nguyên sơ. Thật khó mà hình dung nổi thứ đã được vẽ từ rất lâu về trước. Tôi không biết bằng cách nào mà Miach vớ được một tài liệu hiển nhiên sẽ gây chấn thương tâm lý như vậy. Dù tôi cho rằng cô ấy có khả năng làm kha khá chuyện bất hợp pháp.
+
+“Vào thời điểm thứ này được viết, cái chết ở khắp mọi nơi,” Miach nói. “Một người để chết thì phải cần có thời gian, rất nhiều thời gian là đằng khác. Thời nay, khi chúng ta tới dự lễ tang của ông cố bà cố ai đó, họ có những buồng hóa lỏng và tiệt trùng thi thể. Nhưng hồi bấy giờ, họ đặt thi thể vào một cỗ quan tài và để tất cả xuống dưới lòng đất. Cậu chắc chưa bao giờ thấy một cỗ quan tài đâu nhỉ?”
+
+“Ngay cả khi họ xử lý xác chết, họ không mang chúng tới trung tâm chiết ép để biến chúng thành chất nhớt vô hại đâu, kỳ thực là họ đốt chúng kia. Khi họ nói ‘cát bụi trở về cát bụi’, ý họ thật sự là vậy.”
+
+Ý kiến cho rằng con người chết khi não chết khá là mới đây. Từ lúc con người ta bắt đầu nghĩ mình là bộ não của họ.
+
+Vừa khi bước ra khỏi con chim đặt chân vào Baghdad, tôi nhận được một cuộc gọi từ văn phòng Cục Xoắn Ốc địa phương. Tôi mở tin nhắn trong hộp gọi và tôi vào chế độ truyền AR thời gian thực. Có các bản báo cáo từ cảnh sát Ý trong danh sách văn bản và thông báo về các thảo luận xung quanh vụ án đã xảy ra 30 phút trước. Càng lúc càng nhiều cái tới hơn: chứng cứ, lời khai của nhân chứng, v.v.
+
+“Đây là tác phẩm của chủ mưu hay chính ông ta là chủ mưu?” Ai đó trong AR hỏi. Stauffenberg ở đó. Bà lắc đầu và ra dấu cho tất cả chúng tôi rằng nên đọc thư tuyệt mệnh được đăng trong mục chứng cứ.
+
+“Ông ta để lại thư?” ai khác lại nói với giọng ngạc nhiên. Trong làn sóng tự sát đợt trước thì không ai để lại gì cả, ngoại trừ một trường hợp khả thi là Reikado Cian.
+
+Thư tuyệt mệnh rất giản đơn.
+
+<list:item>
+
+<i: Tôi không nghĩ mình có thể giết người khác.>
+
+<i: Tôi không nghĩ mình có thể chịu được mặc cảm tội lỗi tôi sẽ nhận lấy dù giả sử tôi giết được ai đó.>
+
+<i: Dẫu cơ thể tôi là cơ thể của chung, người khác quanh tôi cũng vậy.>
+
+<i: Tôi sẽ không để mình bị giết bởi một đám kẻ xấu tự xưng sẽ làm điều đó.>
+
+<i: Tôi xin lỗi vợ tôi và con tôi, và hàng xóm tôi, vì đã chọn tự sát.>
+
+</list>
+
+Thế là xong.
+
+“Đây là tiến triển mới. Chúng tôi không nghĩ chủ mưu có dính líu,” Stauffenberg nói.
+
+Tôi phải đồng ý. Đây không là việc làm của kẻ nào đó đã gửi tấm memorycel kia tới Network 24. Đây là một người đã tiếp nhận bản tin tường thuật kia một cách nghiêm túc và đã lựa chọn tự mình lấy mạng mình trước khi “kẻ chủ mưu” có thể lấy giùm ông. Quyết định này không hoàn toàn thái quá.
+
+Stauffenberg hỏi về việc che đậy giới truyền thông và được cho hay rằng vào thời điểm hiện tại những người biết về vụ tự sát ngoài gia đình thì chỉ có cảnh sát Ý địa phương, Interpol và Cục Điều Tra Xoắn Ốc. Song, chắc là họ chỉ giữ kín mọi chuyện nổi trong vài ngày nữa thôi là cùng. Sau đấy, hiệu ứng Werther sẽ càn quét toàn cầu.
+
+Vì lý do đó mà họ đang bịt miệng bên truyền thông, để tránh hiệu ứng Werther sắp-thành-hiện-thực xuất hiện. Tình cờ là, hiệu ứng Werther ám chỉ tới hàng loạt vụ tự sát liên tiếp sau một vụ được đưa ra công khai rộng rãi. Tại sao tôi lại biết tới câu chuyện gần như vô ích này á? Là vì Mihie Miach đã kể cho tôi.
+
+<recollection>
+
+“Thấy cái này không?” Miach giơ cao một cuốn sách. “*Những muộn phiền của chàng trai Werther*. Cuốn sách này đã giết hàng đống người đó. Thấy ấn tượng chứ?”
+
+Làm sao cuốn sách này giết người được, tôi hỏi cô ấy. “Ý cậu là ai đó đánh người khác bằng nó?”
+
+Vậy là Miach giải thích câu chuyện gian truân của *jungen*[11] Werther cho tôi. Dường như, nhân vật có tên trong tiêu đề đã yêu cô gái này, nhưng cô gái đã đính hôn với một người đàn ông khác. Không thể chịu nổi tình yêu không được đáp lại, nhân vật nam chính của chúng ta đã tự sát.
+
+“Nghe giống một tấn bi kịch tình cảm lãng mạn khá điển hình,” tôi nhận xét. “Chuyện ấy thì có liên quan gì với nhiều người chết?”
+
+“Nghe này—người ta coi mình giống Werther, là vì, ví dụ, họ ở trong một tình cảnh, rồi họ bị tác động bởi câu chuyện nên đã tự sát. Rồi người khác nghe thế và *họ* tự sát. Những vụ tự sát bắt chước đầu tiên! Và hết thảy đều theo một nhân vật hoàn toàn hư cấu, tuy có lẽ được lấy cảm hứng từ chính kinh nghiệm của tác giả Goethe.”
+
+Mihie Miach nhoẻn miệng thoáng một nét cười đặc trưng và giơ thẳng cuốn sách ra trước mặt mình. “Không tuyệt sao? Ngôn từ, sách vở, hư cấu đều có sức mạnh giết chóc.”
+
+</recollection>
+
+Những thông tin vô dụng, đang mục rữa ở đáy thế gian này.
+
+Tôi biết chúng, nhờ vào Miach.
+
+Nếu chuyện về vụ tự tử và bản chúc thư kèm theo vỡ lở, chắc chắn một điều là người người sẽ nối gót. Tôi không biết bao nhiêu người sẽ chọn cách tự sát trước khi tới thời hạn, và bao nhiêu người sẽ làm như lời bọn kia rồi giết ít nhất một người khác. Tôi vô tình nhận ra sẽ có một lượng lớn người không giết được bản thân hay giết kẻ khác – những kẻ chỉ biết chờ tai qua nạn khỏi.
+
+Đằng nào đi nữa, rành rành như ban ngày là chúng tôi đang tiến đến một Thời Kỳ Loạn Lạc khác.
+
+“Chúng ta không thể chuyển WatchMe của mọi người sang offline và ngắt đường kết nối tới máy chủ giám sát sức khỏe sao?” ai đó đề nghị, nhưng đấy là ý tưởng phi thực tế. WatchMe gắn chặt với hệ thống ID toàn cầu. Nếu ai đó chuyển WatchMe sang offline, họ sẽ không mua được đồ đạc, lên tàu hay thậm chí là vào nhà. Mọi sự sẽ thành đống hỗn độn.
+
+“Thế giới sẽ hỗn loạn mất,” một trong các Đặc vụ Cục Xoắn Ốc khác càu nhàu trong phiên họp AR. Rồi các đặc vụ mang vẻ mặt lo lắng nhất tề lên tiếng, lời của họ góp thành một danh sách dài dằng dặc miêu tả những gì chúng tôi sắp mất.
+
+“Mọi chức năng của sinh phủ: tự điều khiển dẫn đường, họp đạo đức, trợ giúp chung, chăm sóc người già. Mọi thứ sẽ ngưng hoạt động.”
+
+“Hệ thống xã hội chúng ta xây dựng dựa trên trao đổi rộng mở về thông tin và tin tưởng vô hạn vào người khác trong sinh phủ và tập thể địa phương. Chuyện gì sẽ xảy đến với nó?”
+
+“Và chu trình kinh tế của chúng ta dựa vào giả định mọi người sẽ sống lâu sống khỏe.”
+
+“Tất tần tật sẽ đứng sựng lại.”
+
+“Cái gì sẽ giữ người ta không giết lẫn nhau? Không giết chúng ta?”
+
+“Nếu việc cứ diễn tiến thế này—”
+
+“Chúng ta sẽ trở lại đầu thế kỷ 21, không—”
+
+“Sẽ không có đạo đức gì cả! Một Thời Kỳ Loạn Lạc khác!”
+
+“Chúng đã kích hoạt một tiến trình gì đó trong não. Vấn đề ở đây, nó là cái gì?”
+
+“Hiển nhiên, những gì chúng ta đã thấy là dẫn dắt cưỡng chế *mục đích* nhân tạo. Cái tôi muốn biết là ai đang làm việc này?”
+
+“Theo báo cáo của Thanh Tra Cao Cấp Kirie Tuan, đã có sẵn một luận văn mô tả chi tiết về các cấu trúc bộ não biểu thị ý chí con người. Luận văn là nghiên cứu của một bác sĩ khoa thần kinh người Nga, tên Sergey Gorlukovich Yelensky, liên quan đến hệ thống phản hồi thuộc não giữa.” Chủ Tịch nói. “Luận văn trình bày tỉ mỉ phương thức mô hình hóa một cách cực kỳ chính xác hệ thống điều khiển tâm thần con người và đã tác động đến một số điều trị thực tiễn. Tôi tin là đặc vụ của chúng tôi có vài bằng chứng xác thực liên quan đến luận văn này, chúng sẽ giúp ta đặt tay vào cốt lõi tình trạng khó khăn hiện nay của chúng ta.”
+
+“Thật đáng tiếc, điều đó không đúng,” tôi lên tiếng. “Đơn thuần là tôi đang ở trong vị trí liên lạc được với người mà tôi tin là *có lẽ* có thông tin giúp chúng ta truy ra những kẻ chịu trách nhiệm kia.”
+
+“Chà, sao cũng được, sự thật vẫn là cô đang dẫn đầu trong công cuộc điều tra còn đang bế tắc của chúng ta.”
+
+Một trong các đặc vụ cất lời. “Nếu họ hiểu về ý chí con người nhiều đến vậy, không loại trừ khả năng họ có thể thực sự thao túng nó. Thanh Tra Cao Cấp Kirie, không phải cô nên chia sẻ bất kỳ thông tin cô có với chúng tôi sao?”
+
+Giọng ông ta rất dịu dàng. Đây là cuộc thảo luận. Không cần phồng mang trợn má.
+
+Đây là cách việc được hoàn thành.
+
+“Vào thời điểm hiện tại, tôi không có thông tin chắc chắn. Các mảnh ghép trong tay tôi chỉ làm rối loạn toàn việc điều tra một cách không cần thiết mà thôi. Tôi thấy không cần phải liên hệ với bất kỳ thành viên nào khác trong cơ quan này.”
+
+“Tôi cho tôi mới là người đánh giá cái gì là chắc chắn cái gì không,” Stauffenberg nói, mắt nheo lại.
+
+Tôi gật đầu lấp lửng và tưởng tượng tôi sẽ thấy thoải mái thế nào dù chỉ tặng được cho bà ta một ngón tay.
+
+<recollection>
+
+“Đó là ký hiệu á? Nó có nghĩa là gì?” Tôi hỏi, vừa nhìn theo ngón giữa giơ lên của Miach.
+
+“Nó là một cử chỉ cổ xưa. Mang nghĩa là *fuck you*. Là tiếng Anh, nhưng câu ấy thậm chí không còn được sử dụng nữa, nên đại khái hơi khó cảm nhận được tác động mà nó từng gây ra. Hãy tưởng tượng ra mọi thứ tệ hại nhất cậu có thể nói với ai khác để tỏ cho họ biết cậu thấy họ thấp kém thế nào. Đấy là *fuck you*.”
+
+</recollection>
+
+Phần: 03
+
+Gabrielle Étaín nói: “Chúng ta là một tập hợp các ham muốn, được xác định theo đường cong hyperbol.”
+
+Gabrielle Étaín nói: “Đến cả chim bồ câu và khỉ cũng đánh giá quá cao một sự vật hiện diện trước mắt chúng.”
+
+Gabrielle Étaín nói: “Đến cả chim bồ câu và khỉ cũng có nhận thức và ý chí. Thế thì còn cái gì làm nhận thức và ý chí của chúng ta quan trọng hơn?”
+
+Tôi đang lái xe đi gặp Gabrielle Étaín.
+
+Con sông Tigris trườn dài bên tay phải tôi khi tôi đi qua một mái vòm, khổng lồ và trắng hếu như xương sườn một con rồng. Con đường dốc hướng lên tầng đỉnh của tòa nhà đoàn thể công nghiệp y dược Dian Cécht khổng lồ - nhìn lờ mờ từ xa nó như một tổ kiến trên đất Baghdad, dần dà tôi có được tầm nhìn tốt hơn của khung cảnh khi lại gần. Cuối cùng, tôi lên đủ cao để nhìn xuống khắp Baghdad. Tôi ngồi tựa ra và để máy chủ Hướng Dẫn Giao Thông Nội Đô Baghdad dẫn tôi tới phòng nghiên cứu của Gabrielle Étaín.
+
+Đường chân trời cuối sa mạc lung linh lay động trong cái nóng.
+
+Khu vực đoàn thể công nghiệp y dược ở Baghdad vắng bóng các quảng cáo mà bạn thấy ở các thành phố bình thường. Nói cách khác, khu phức hợp y dược ở đây là độc lập toàn bộ. Không cần phải bán không gian quảng cáo AR. Nhìn nơi đây, bạn có thể thấy không ai cần thu nhập riêng bên ngoài. Tuy vậy, với những ai đã lớn lên cùng với bao quảng cáo trát đầy mỗi mặt phẳng lọt vào tầm mắt, thì tới một địa điểm không có chúng thế này sẽ không khỏi phần nào lúng túng.
+
+Tôi thấy một khu rừng cây thường xanh màu hồng và một cái hồ. Đó hẳn là công viên khu vực Dian Cécht. Tôi lái ôm quanh bãi biển được dựng lại một cách “tự nhiên” bên trong khu phức hợp mênh mông. Nhóm thiết kế chịu trách nhiệm xây nơi này đã chú ý kỹ lưỡng *không* tạo cảm giác như đi vào tổ kiến một khi bạn vào. Chiếc xe đưa tôi đi trên một con dốc uốn thoải tới tầng trên hồ. Đây là độ cao cao nhất trong khắp vùng.
+
+Tôi dừng xe. Các văn phòng của Hiệp Hội Nghiên Cứu Y Học Thần Kinh SEC nhô ra như mũi tàu dài 620 m trên cao của Dian Cécht. Đó chắc là khu vực nghiên cứu và phát triển, ngồi phơi mình dưới ánh nắng gắt gao. SEC là từ viết tắt lấy từ 3 chữ cái đầu của các sinh phủ sáng lập: Sukunabikona, Eugene, Crups.
+
+Tôi chạm vào cửa để trình ID và một nhân viên tiếp tân đi ra để dẫn tôi vào phòng đợi. Nội thất gợi tôi nhớ đến PassengerBird: trần và tường được làm từ vật liệu trông-như-nhựa màu trắng, có các ghế gelatin đỏ đó đây, tất cả đều trống.
+
+Tôi ngồi xuống một cái và chờ đợi sự hiện diện của Gabrielle Étaín. Tôi nghe tiếng giày cô ta cóc cách trên sàn trước khi tôi ngước mặt lên. Chúng tôi bắt tay, rồi cô ngồi xuống cùng tôi trên một trong những chiếc ghế đỏ.
+
+“Khi nghe tin một Đặc vụ Cục Xoắn Ốc đến đấy để tìm mình, tôi nghĩ đấy là một cuộc tra xét đột xuất. Chúng tôi đâu có làm nghiên cứu gì thu hút sự chú ý của người ở WHO.”
+
+Bà nói êm dịu và chậm rãi, ngồi ngả lưng ra một cửa sổ trải rộng hết độ dài bức tường. Chân trời phía sau vẽ nên một đường thẳng ro chia cắt bầu trời và nước. Vài chú chim lượn qua tầng không.
+
+“Tôi xin lỗi nếu đã làm cô giật mình. Tôi không cố ý. Tôi tới đây để hỏi về một người đặc biệt mà một nghiên cứu thần kinh. Tôi có lý do để tin cô có thể giúp tôi cả hai chuyện.”
+
+“Vâng, tất nhiên rồi.”
+
+“Trước tiên, là về bài nghiên cứu. Cô có nghe tới bài luận văn đưa ra một cách cụ thể về cơ chế phản hồi của não giữa không?”
+
+“Luận văn của Yelensky?”
+
+“Chính là nó,” tôi khẳng định, vừa quan sát khuông mặt cô thật kỹ.
+
+Đôi môi cô cử động cứ như đang lừa một viên kẹo quanh quanh miệng, nhìn tôi chăm chăm một lát trước khi nói, “Thế thì nó *là* tra xét rồi.”
+
+Tôi vẫy vẫy hai tay phủ nhận. “Không, không đâu, thật đấy. Cái tôi hỏi là thông tin mà chúng tôi nghĩ có thể giúp điều tra tiến triển. Vì sao cô nghĩ đây là tra xét?”
+
+“Vì hiệp hội y học thần kinh chúng tôi đang lắp ráp một mô hình của chính cơ chế mà cô nói tới.”
+
+“Vậy, cô nghĩ cô có thể giải thích ý chính đại để của công trình của cô cho tôi được không—chỉ cần những thứ đã được công bố công khai. Tôi không có ý tọc mạch,” tôi nói êm ái nhất có thể.
+
+Étaín đắn đo vài giây trước khi kể tôi hay rằng hiệp hội đang nghiên cứu về bản chất sự đánh giá bên trong thần kinh con người.
+
+“Kiểu đánh giá gì?” Tôi thắc mắc.
+
+“À, thí dụ, nếu tôi đề nghị ai đó 10 000 điểm tín dụng bây giờ hoặc một lời hứa tặng 20 000 điểm tín dụng trong một năm nữa, họ sẽ chọn cái nào?”
+
+“Cái đầu, chắc thế.”
+
+“Quả vậy. Nó không chỉ đúng với con người mà còn với các loài linh trưởng như tinh tinh, và chim chóc như bồ câu và chim trĩ. Các xu hướng ham muốn tương tự có thể quan sát được ở những động vật được nuôi giữ đặc biệt, chẳng hạn chó và mèo. Các loại sinh vật này đánh giá quá mức giá trị của những thứ ngay trước mắt chúng.”
+
+“Đấy là điều chúng ta đúc kết ra à?”
+
+“Đó là một phần của chương trình gene của chúng ta. Tuy nhiên, việc tìm kiếm điểm chung của vô vàn giống loài khác nhau đã chỉ ra rằng có nguyên nhân nào đó để đây là một đặc điểm dễ cùng cực cho động vật có xương sống phát triển nó.”
+
+“Chậc, không phải hơi rõ ràng sao? Nếu ta không ăn cái ngay trước mắt ta, vài cá thể khác sẽ mò đến và cuỗm mất. Cá thể ngồi ngóng một phần thưởng trong tương lai sẽ chết trong thế giới như vậy. Trân trọng thứ trong tầm tay là một phần của quá trình chọn lọc tự nhiên, không phải sao?”
+
+“Nếu cô biểu diễn giá trị nhận thức được lên đồ thị, với trục hoành là thời gian và gốc tọa độ là hiện tại, thì cô sẽ thấy đường biểu diễn giá trị cong lên cao rất dốc khi càng tới gần gốc tọa độ, đạt giá trị cực đại khi giao với trục tung. So sánh ra, thì giá trị ở tương lai xa giảm rất nhanh, hầu như không thay đổi mấy giữa một năm hay hai năm khoảng cách. Một đường cong hyperbol. Khi con người và hầu hết sinh vật sống xem xét giá trị sự vật, họ hay coi giá trị tương lai của nó hạ bớt theo đường hyperbol.”
+
+“Nói cách khác, hệ thống định giá của chúng ta không logic theo hàm mũ, mà lại phi logic theo hàm hyperbol.”
+
+“Đúng vậy. Và bởi chúng ta sở hữu một hệ thống đánh giá theo hyperbol, chúng ta đưa ra các quyết định phi lý và hành động vội vàng. Khi trước mắt ta là một cơ hội có lợi rõ ràng, chúng ta tin một cách nhầm lẫn rằng giá trị của nó lớn hơn giá trị thực của nó nhiều. Đấy là một trò chơi sinh tồn còn tiếp diễn giữa các ham muốn ngắn hạn và ham muốn dài hạn, và chúng ta gọi trò chơi này là *ý chí*. Đây là một đặc điểm quan trọng của cơ chế phản hồi mà mô hình ý chí con người của Yelensky không xem xét đến—một mô hình mà chúng tôi hiện đang dùng các khám phá của mình để hoàn thiện.”
+
+Tôi nghĩ tới ba tôi. Nếu bạn muốn dùng cơ chế phản hồi để điều khiển ý chí con người, bạn sẽ cần một mô hình vô cùng chi tiết của sự đánh giá giá trị trong con người nhằm tiên đoán chính xác cách vận hành của bộ điều khiển đó.
+
+“Tiến sĩ Kirie Nuada không tham gia tổ dự án phải không?”
+
+“Ông ấy có, có điều, chỉ ở lúc khởi đầu. Ông ấy không còn ở trong hiệp hội nữa.”
+
+“Tiến sĩ Kirie có dùng mô hình mạng phản hồi của não giữa này cho nghiên cứu khác không?”
+
+“Maa…… một số nghiên cứu gia bên chúng tôi tham gia vào dự án phụ, nhưng tôi e là mình không biết gì về chuyện đó.”
+
+“So với các mô hình trước đây thì mô hình mạng phản hồi tuân theo đường cong hyperbol này thay đổi cách nhìn của cô về ý chí con người thế nào?” tôi hỏi đơn thuần là vì quá tò mò.
+
+Étaín chống cằm suy tư chốc lát. “Chà, tôi cho rằng việc phát hiện ra ý chí con người kỳ thực giống một cuộc chiến sinh tử giữa muôn ngàn ham muốn bên trong não bộ đã cho phép chúng ta chứng minh thú vật cũng sở hữu ý chí.”
+
+“Tức là, động vật không chỉ hành động theo gene quy định hay bản năng?”
+
+“Ngôn từ của cô để lộ thành kiến đấy. Cái ta gọi là ‘ý chí’ hay ‘linh hồn’ của chúng ta thực sự chỉ là xung đột giữa vô số phần tử được lập trình trong gene trước. Có một thử nghiệm sử dụng chim bồ câu thế này, một cái nút nếu nhấn sẽ nhả ra 10 hạt đậu và nếu nhấn sau khi chờ một khoảng thời gian thì sẽ nhả ra 30 hạt. Hóa ra có những bồ câu chọn chờ đợi 30 hạt đậu. Các con chim bồ câu có cùng số lựa chọn cho phép bởi ý chí chúng trong cùng một mô hình với chúng ta. Nói khác đi, mô hình không chỉ cho phép chúng ta tìm hiểu ý chí con người nhưng còn chính bản chất của nhận thức, và sử dụng kiến thức ấy một cách tốt hơn.”
+
+“Chẳng hạn như gì?”
+
+“Chẳng hạn…… đau đớn,” cô ta nói.
+
+“Xin lỗi?”
+
+“Đầu tiên, cô phải hiểu được bản chất của phản hồi, cái tôi đang nhắc đến. Bất kỳ hiệu ứng tâm lý nào thu hút sự chú ý của nhận thức và để lại dấu vết sâu là phản hồi. Nó cũng đúng trong mô hình của Yelensky. Phản hồi không cần phải là phần thưởng hay thậm chí là thứ gì đó có lợi.”
+
+“Được rồi. Còn gì nữa?”
+
+“Cơn đau chúng ta cảm nhận vào lúc chích kim vào ngón tay không hơn gì một nhân tố đang cố tạo dấu và được chọn. Trục hoành biểu thị thời gian của đồ thị hyperbol trong trường hợp này rất ngắn, làm cơn đau dễ dàng được chọn.”
+
+Tôi cau mày. Đau đớn làm sao mà được chọn? “Nhưng cô không thể chấp nhận hay phủ nhận đau đớn,” tôi phản bác.
+
+“Thực tế thì có thể. Chắc là cô đã từng nghe những câu chuyện của người ta rằng họ quá tập trung vào một hành động nào đó đến nỗi sau đó dăm ba giây mới nhận ra ngón tay hay cánh tay đã bị chặt. Đây là vì đau đớn đã ganh đua, nhưng không thể vượt qua, việc tiếp tục hành động có trong nhận thức.”
+
+“Tôi hiểu rồi.”
+
+“Đó là nguyên do chúng tôi hiểu ra đau đớn là trải nghiệm chủ quan. Đối với một cảm giác thể xác, nó phụ thuộc rất nhiều vào tác nhân ngoại cảnh để xác định xem có được chọn không và tới mức độ nào. Vì vậy mà không có thước đo tuyệt đối cho đau đớn.”
+
+“Nên mọi cảm giác ghép nên thực tế của chúng ta là những nhân tố đã được chọn để não bộ tiến hóa tới mức độ cao hơn?”
+
+“Đó là một cách hiểu, cũng đúng. Ngay cả hình ảnh, âm thanh, mùi, vị phải được chọn lọc trước khi được phép bước vào nhận thức,” Étaín nói. “Dĩ nhiên, các tác nhân kích thích cơ bản này có đường hyperbol dốc, nên dễ dàng giao với trục, do đó chúng hiếm khi bị bỏ qua.”
+
+“Nghĩa là, trong một mặt, nghiên cứu của cô không chỉ là về nhận thức mà còn là cách hiện thực của chúng ta được xây dựng.”
+
+Étaín nhếch một bên mày và nhìn tôi cứ như tôi vừa nói điều gì dị thường. “Nhưng hiện thực và nhận thức là một thứ, Thanh Tra Kirie.”
+
+“Thật sao?”
+
+“Nói gì thì nói, hiện thực chúng ta có thể chấp nhận bị giới hạn trong nhận thức của ta.”
+
+“Tôi cho là cô nói đúng.”
+
+Gabrielle Étaín đứng dậy và chìa tay ra. “Tôi hy vọng mình đã giải đáp mọi câu hỏi của cô và làm cô hài lòng, Thanh Tra Kirie. Giờ, xin phép, tôi nên trở lại làm việc.”
+
+Tôi cảm ơn cô và bắt tay, nói rằng có lẽ tôi sẽ quay lại. Chỉ bấy giờ, tôi mới bất chợt tò mò người phụ nữ này đã đón nhận tin tức về lời tuyên bố kia thế nào. Tôi thắc mắc cô sẽ quyết định ra sao.
+
+Tôi thích đặt các câu hỏi khó chịu mà.
+
+“Nhân tiện, tôi không biết cô có nghe tuyên bố ấy chưa.”
+
+“Tôi nghe rồi.”
+
+“Cô nghĩ gì?”
+
+Đó không phải là một câu hỏi thẳng thắn. Nhưng tôi đang mong chờ rằng sự mơ hồ của nó sẽ làm cô ta ngạc nhiên và tiết lộ gì đấy. Ấy vậy câu trả lời của cô làm tôi thất vọng.
+
+“Khá là kinh khủng.”
+
+Tôi đẩy mạnh tấn công. “Cô không nghĩ công nghệ mà cô đang nghiên cứu ở đây dính dáng tới các vụ điều khiển tâm trí để tự sát mà chúng đe dọa không?”
+
+Ngón tay Étaín lại nâng đỡ cằm cô. “Tôi phải đồng ý vậy. Nhưng chúng tôi không phải là tội phạm. Chúng tôi không thể điều khiển ý chí người khác cũng như cho họ thấy một hiện thực khác.”
+
+“Cô có dự định làm gì trước thời hạn không?”
+
+Câu hỏi khó chịu số 2.
+
+Étaín nhíu mày trước sự thiếu tế nhị của tôi. “Tôi sẽ không làm gì. Dễ thấy là chúng chỉ đang cố hù dọa chúng ta thôi.”
+
+“Nhưng có lẽ chúng thật sự có công nghệ khiến người ta tự sát. Cô đã thấy ông phát thanh viên làm rồi đấy.”
+
+“Và tôi tin cậy các thành viên sinh phủ sẽ phô bày cho ta thấy sự kiên quyết chung. Xã hội chúng ta sẽ không chịu khuất phục trước bất kì kẻ nào.”
+
+Một câu trả lời hợp lý hoàn hảo. Có lẽ quá hoàn hảo.
+
+Étaín tiễn tôi tới cửa trong yên lặng. Khi bước qua cửa, câu hỏi cuối cùng vụt qua trong đầu tôi. Tình thế có hơi gượng ép, nhưng đôi khi có thể khá hiệu quả.
+
+“Một câu cuối, cô không hề biết tới tổ chức nào có tên gọi là Nhóm Giám Sát Tư Cách Con Người Thế Hệ Mới, đúng không?”
+
+Một khoảng lặng ngắn trước khi Étaín điềm tĩnh đáp.
+
+“Chưa bao giờ nghe tới.”
+
+Phần:  04
+
+Truyền hình đang chiếu cảnh các tốp lính có vũ trang đóng quân ở mọi thành phố lớn trên thế giới.
+
+Những con đường chạy song song với hàng cây màu hồng.
+
+Màu hồng ngụy trang những góc cạnh xù xì của thành phố vì cư dân của nó.
+
+Vũ khí màu hồng.
+
+Lựa đạn màu hồng.
+
+Mặt nạ phòng độc màu hồng.
+
+Tôi không nghi ngờ gì chuyện hơi cay cũng màu hồng.
+
+Các sinh phủ đã ra lệnh mọi miền trên thế giới ban bố tình trạng khẩn cấp.
+
+<list:item>
+
+<i: New York>
+
+<i: Paris>
+
+<i: Geneva>
+
+<i: Tokyo>
+
+</list>
+
+Cảnh sát và quân đội Hiệp Định Geneva đứng khắp mọi nẻo đường.
+
+Nhiệm vụ của họ là tìm kẻ sát nhân và các vụ tự sát tiềm tàng. Kẻ sát nhân có thể sẽ mặc màu hồng. Hiển nhiên, vì sĩ quan cảnh sát và lính đi tuần đều là đối tượng của tuyên bố một-mạng-đổi-một-mạng, ai tin họ cho nổi? Mọi người là nghi phạm, người có vũ khí còn đáng nghi hơn.
+
+Từ khoảnh khắc lời tuyến bố đưa ra, thế giới đã và đang đọc lùi lại những trang sử. Người ta thấy bóng dáng Thời Kỳ Loạn Lạc ở khắp bóng đen.
+
+Quận trung tâm của Baghdad trống vắng như chùa bà đanh. Ai nấy ru rú trong nhà tựa như có thể tránh phải quyết định. Nhưng lời tuyên bố đã chứng minh hiệu lực của nó một cách rõ ràng, và mỗi một người liên kết tới một sinh phủ có WatchMe cài đặt trong người đều đang gặp nguy.
+
+Rất khó khi bạn bị buộc phải đưa ra một lựa chọn rất cá nhân trong một xã hội bị ám ảnh phải đi theo những lời khuyên và thỏa thuận hợp tác xã.
+
+<list:item>
+
+<i: Tôi nên giết ai đó để sống chăng?>
+
+<i: Tôi không nên giết người rồi chết chăng?>
+
+<i: Tôi nên chọn không tin điều mình đã thấy bằng mắt mình chăng?>
+
+</list>
+
+Tôi cá là các nhà quản lý công nghệ đang bận rộn đào bới lại máy chủ sinh phủ, căng mắt tìm lỗ hổng bảo mật. Các lỗ hổng trong máy chủ WatchMe chịu trách nhiệm cho giám sát medicule bên trong vài tỷ cơ thể người.
+
+Về phần tôi, tôi chỉ vừa dùng đặc quyền của một Đặc vụ Cục Xoắn Ốc để gài vài medicule nghe lén vào Gabriel Étaín khi tôi bắt tay cô ta. Các medicule đi xuyên qua da, chu du qua thân xác, cho đến khi kích hoạt mạch nghe lén trong HeadPhone của cô. Dù không có lấy một điều bất thường trong hành động của Étaín làm tôi nghi ngờ, nhưng cô ta là đầu mối duy nhất tôi có.
+
+Một cuộc gọi đến từ người đàn ông mang-danh-thiếp khi tôi lái xuống con đường quạnh hiu.
+
+“Cô đã gặp Gabrielle Étaín à?” Vashlov hỏi. Nghe có vẻ anh ta hài lòng với mình.
+
+“Tin tức loan nhanh thật.”
+
+“Hiệp Hội Nghiên Cứu Y Học Thần Kinh SEC chỉ là một mặt tiền công khai của Nhóm Giám Sát Tư Cách Con Người Thế Hệ Mới. Étaín là một trong số chúng, Thanh Tra Kirie ạ.”
+
+“Mà làm sao anh biết?”
+
+“Chúng tôi lần dấu tiền. Tôi thấy chuyện đấy có chút nằm ngoài khả năng một Đặc vụ Cục Xoắn Ốc.”
+
+“Thế tại sao không nghe trộm Gabrielle Étaín mà là tôi?”
+
+“Ồ, chúng tôi làm rồi chứ. Được chút kết quả. Cô ta biết mình bị theo dõi.”
+
+“Vậy sao không ngăn tôi đi gặp cô ta? Nếu tôi mà biết cô ta có liên quan—”
+
+“Vì chúng tôi đang hy vọng một phản ứng hóa học.”
+
+<discomfort>[12]
+
+*Chuyện đó* phiền toái thật. Vậy ra người đàn ông từ Interpol đã sử dụng tôi, để tôi đi gặp Étaín với hy vọng rằng bóng ma từ một cơ quan điều tra của chính quyền sẽ kích thích một phản ứng trong nhóm Thế Hệ Mới. Họ đã vào ngõ cụt với kẻ cung cấp tin tức và sự quan sát của họ, nên họ đặt cược tiền vào tôi chỉ để làm một tác nhân bất ngờ họ cần để bóc lớp vảy.
+
+“Chậc, sao tôi thấy mình đần thật.”
+
+“Cô hiểu tình hình nghiêm trọng thế nào mà. Chúng có lẽ sẽ có hành động tự vệ. Hãy cẩn trọng.”
+
+“Ồ, tôi lúc nào cũng vậy. Không thiếu kẻ khủng bố muốn lấy mạng một Đặc vụ Cục Xoắn Ốc làm niềm tự hào đâu.”
+
+</discomfort>
+
+Tôi chấm dứt cuộc gọi trong HeadPhone rồi gạt cần vào Khách Sạn Baghdad.
+
+Thuở nơi đây còn là vùng chiến sự, quân đội đương nhiệm của Mỹ đã vây quanh địa điểm này bằng 4 bức tường bê tông để ngăn chặn các thiết bị phát nổ tự chế và bazooka. Giữa những vụ nổ và gạch vụn, CIA[13] đã cắm doanh trại ở đây. Mặc dù phần lớn sự theo dõi khu vực bọn khủng bố ngày nay được thực hiện bởi quân đội Hiệp Định Geneva và công ty cung cấp tin tình báo quân sự[14] mà họ thuê, nhưng bấy giờ, CIA là mạng lưới tình báo lớn nhất đối với bất kì quốc gia nào trên trái đất.
+
+Thời đại đó đã trôi về dĩ vãng, và giờ đây nơi này chỉ là một khách sạn hạng sang điển hình trên đường Sadoon, con đường cắt qua Khu Công Nghiệp Y Dược Baghdad. Đến từ doanh trại quân Geneva ở tiền tuyến, tôi chuộng nơi ít khoa trương để ở, nhưng có một truyền thống là viên chức WHO và sinh phủ sẽ đến Khách Sạn Baghdad, do đó tôi chẳng có mấy lựa chọn. Tôi đi qua sảnh, lướt qua các viên chức sinh phủ và khách VIP từ WHO trên đường. Lúc tôi tới được phòng và nhấn ngón tay lên cửa, nó vùng mở. Một mảnh giấy gấp rơi lên sàn.
+
+<cautiously>[15]
+
+Theo phản xạ, tôi tắt AR. Tôi không muốn bất kỳ kẻ đột nhập nào vào thông tin trực giác của tôi để xem, nếu có cái gì đó, được ghi trên miếng giấy. Giống như tôi đã vào xem được các bản thu từ những vụ tự sát, cảnh sát và Interpol cũng như một số dân thường trong MIS có quyền hạn xem lén thông tin trực giác trong chế độ thời gian thực. Chỉ là để chắc ăn, tôi vào buồng tắm và dùng dung dịch tẩy rửa để lấy len kính AR khỏi mắt. Rồi tôi đóng cửa và trườn xuống dưới giường. Interpol đang lợi dụng tôi. Họ có thể dễ dàng giám sát phòng tôi. Cuộn tròn như một bào thai trong bóng tối, tôi mở mảnh giấy gấp làm tư.
+
+ABŪ-NUWĀS. CHIỀU TỐI. KHÔNG AR, KHÔNG RIDER.
+
+Tôi bò ra từ dưới giường và nhìn ra cửa sổ.
+
+Bầu trời đang chầm chậm đổi sang đỏ, chuẩn bị hoàng hôn. Rider thì ý họ là máy ghi hình và ghi âm lén. Ai đó muốn tôi nhìn và nghe thứ họ không muốn bị ghi lại bởi AR rồi gửi tới máy chủ.
+
+</cautiously>
+
+Chẳng mấy chốc là tới chiều tối.
+
+Trong bộ phim Miach từng một lần cho tôi coi, một người nhận được tin nhắn mật đã dùng bật lửa để đốt nó trong cái gạt tàn. Thật tiện lợi biết bao, tôi suy nghĩ thế khi thay sang bộ đồ thường dân và nhét bừa mảnh giấy vào túi.
+
+Rất hiếm khi thấy một người Iraq bằng xương bằng thịt trong vùng thuộc đoàn thể công nghiệp y dược. Một chuỗi sự kiện lạ lùng đã diễn ra, biến đất nước Trung Đông này trở thành trung tâm thế giới về y học. Song cũng giống như không có nơi nào tốt hơn nơi nào để quay phim hay chế tạo PassengerBird, thì không có nơi nào tốt nhất để sản xuất thuốc. Một khi chút tài sản được tích cóp, nó lại bị đem ra dùng, biến sa mạc thành một khu vực công nghiệp khổng lồ.
+
+Trong Thời Kỳ Loạn Lạc, Iraq đã hứng chịu bom hạch nhân đồng nghĩa không thiếu thốn bệnh tật ở đây cho các nhà nghiên cứu y khoa. Nhưng vào những tháng ngày đó, khó mà tìm được một nơi *không* bị trúng bom hạt nhân. Sự miễn thuế và luật lỏng lẻo về mặt đạo đức cũng không đủ lý giải sự xuất hiện bất thình lình của ốc đảo y tế bí ẩn này đây. Lời giải thích duy nhất bạn có thể đưa ra chỉ mang tính cứu cánh: tài sản tích tụ nơi đây bởi có sự tích tụ tài sản.
+
+Các công ty cung cấp tài nguyên quân sự[16] chăm lo về bảo an.
+
+<list:company>
+
+<c: Security Arts Co.>
+
+<c: Hard Shield Co.>
+
+<c: Eugene & Crups Co.>
+
+<c: v.v, v.v>
+
+</list>
+
+Khu vực dựa dẫm toàn bộ vào sự bảo vệ của MRS.
+
+Dầu từ thế kỷ 19 đến 20, các lực lượng không có thế lực chính trị vẫn còn thuộc sở hữu quốc gia, nhưng khi các quốc gia suy yếu, cán cân quân lực nghiêng về MRS và MIS. Trên bề mặt, có rất ít sự khác biệt bởi gần như mọi MRS và MIS đều được ký kết bởi Tổ Chức Hiệp Định Geneva – một liên đoàn quốc tế tạo ra nhờ sự hiệp nhất giữa mọi sinh phủ. Tôi dừng lại ở một SecGate trong bức tường dài vài km bao quanh khu y dược để một lính y tế trong bộ đồng phục màu hồng có thể kiểm tra danh tính của tôi. Họ cũng cần sự đồng ý của tôi rằng họ không thể đảm bảo sức khỏe tôi tốt ở bên ngoài khu bảo vệ, và rằng WatchMe của tôi sẽ offline.
+
+Tôi được tự do, một lần nữa đi vào thế giới không WatchMe, không medcare unit, không AR. Tôi nhìn quanh quẩn, nhìn cảnh vật mà thời gian đã bỏ quên: láng trại sau láng trại lại sau láng trại, một mớ những tòa nhà đổ nát. Nơi này tạo cảm giác như nó bị mọi thành phố sinh phủ ruồng bỏ, và không khí ngập đầy hương thơm và mùi thối.
+
+Một người đàn ông ngồi bên vệ đường, hút thuốc lá từ một cây ống to đùng nhìn tựa như nhạc nhí. Có mùi cá nướng, thịt, và đủ loại gia vị. Đây là một cái chợ. Tôi ghé vào một nhà hàng gần đấy và gọi một bữa không rõ thành phần, calorie và tác nhân có hại. Tôi để ý thấy một cái gạt tàn, nên tôi ra dấu cho chủ quán là tôi muốn hút thuốc lá. Ông ta lấy ra vài điếu xì-gà và một bật quẹt. Tôi lấy miếng giấy tôi đã nhét trong túi ra, giữ nó trên gạt tàn, và đốt cháy nó. Tuyệt. Tôi đã luôn muốn làm vậy.
+
+<relax>[17]
+
+Đây là cuộc sống bên ngoài sinh phủ. Đây là sống.
+
+Tôi thấy hài lòng vì rằng dù các trụ sở y dược khắp thế giới đang phủ bóng lên họ, hầu hết người dân ở Baghdad tầng lớp thấp không cài đặt WatchMe. Họ không bị liên kết tới bất kì máy chủ nào. Họ cứ thế mà
+
+<list>
+
+<i: bị cảm lạnh.>
+
+<i: bị đau đầu.>
+
+<i: bị ung thư.>
+
+<i: chết vào độ tuổi áng chừng 60 hay 70.>
+
+</list>
+
+Tôi rít một hơi thuốc lá ngắn, hơi đầu tiên kể từ Niger. Sống ở đây không tệ, nhưng tôi không nghĩ các sinh phủ sẽ còn để những người dân này sống với phương tiện của họ được lâu.
+
+Món cá của tôi đến khá nhanh. Nó nhìn như một con cá chép bị bắt ở sông Tigris gần đây, bị mổ banh ra rồi nướng. Nó đi cùng một cục bánh mì loại nào đấy và quả chà là chưa nấu.
+
+<list>
+
+<i: không đong đo calorie>
+
+<i: không có danh sách thành phần>
+
+<i: không có đánh giá mức nguy hại>
+
+</list>
+
+Đĩa ăn giản đơn của tôi, không có AR readout[18] hiện lên trên, đẹp đẽ bởi sự mộc mạc.
+
+“Trông ngon quá,” tôi nói hầu như không nên lời. Quả chà là sống là một thứ cao lương mỹ vị hiếm hoi đối với cư dân sa mạc đây, và có lẽ bây giờ vẫn vậy. Bởi thế cây chà được coi là biểu tượng của sắc đẹp và chiến thắng trong Kinh Thánh. Tôi từng nghe rằng Cây Sự Sống trong truyền thống Thiên Chúa Giáo đôi khi được coi là giống cây chà là. Khi Chúa Jesus[19] vào thành Jerusalem[20], người dân thành phố đã vẫy cây cọ[21] để tung hô. Thứ quả này là sự sống, và lòng tin.
+
+Tôi biết điều này không phải bởi Miach từng kể tôi nghe, mà bởi cây chà là được khắc họa trong biểu tượng của Cục Thanh Tra Xoắn Ốc. Bất kỳ hàm ý thuộc Thiên Chúa Giáo trong đó đều bị vô hiệu hóa do cành cọ cũng đóng vai trò là biểu tượng của sự sống trong Kinh Koran[22] và thậm chí là trong thần thoại về Gilgamesh[23]—một thần thoại địa phương được ưa chuộng lúc hoàng kim.
+
+Có nhiều người ngoài đường, trái nghịch hẳn với tình trạng của xã hội sinh phủ sau-lời-tuyên-bố-ấy mà tôi vừa rời khỏi. Tôi không cho là nhiều người dân ở đây đã nghe tin tức. Chỉ có mấy tỷ người với WatchMe cài trong mình mới có lý do để sợ hãi. Những cư dân trong các khu nhà theo chủ nghĩa sinh mệnh, chịu trách nhiệm cho 80% nền kinh tế toàn cầu. Với những người Iraq trên con đường lúc chạng vạng thế này, WatchMe và medicule chẳng mắc mớ gì tới cuộc sống của họ.
+
+Cuộc sống phía bên ngoài, cuộc sống phía bên trong.
+
+Khác biệt giữa hai cái không thể nào lớn hơn nữa.
+
+Một bên, con người chia cắt cơ thể mình và tin tưởng giao các bộ phận cho những nhà cung cấp dịch vụ khác nhau để làm tròn chức năng xã hội yêu cầu. Bên kia, con người không cho bất kỳ ai chạm vào cơ thể họ.
+
+Khi tôi hãy còn bận bịu với con cá sông—món được gọi là *masgouf*, tôi đã hỏi tên—người chủ mang ra một tô yogourt lỏng. Cái này tôi nhận định nó không giống một món tráng miệng mà là một bữa ăn khác. Ông ta đặt nó lên mặt bàn gỗ bị lủng lỗ chỗ rồi rút lui về đằng sau.
+
+</relax>
+
+Khi ông ta rời đi, tôi phát hiện một mảnh giấy ló ra bên dưới tô yogurt. Tôi mở nó ra. Nó viết “Tới sông” bằng tiếng Nhật.
+
+Tôi ra dấu kêu cái bật lửa lần nữa và đốt mảnh giấy thứ hai trên gạt tàn thuốc. Ăn xong món *masgouf*, tôi ra đường, luồn lách qua đám đông với hy vọng sẽ cắt đuôi anh bạn bí ẩn hay viết thư nhất định đang e sợ kia.
+
+Con phố này một thời là quận giải trí: Abū-Nuwās.
+
+Cái tên ám chỉ con đường này, với cái chợ của nó. Abū-Nuwās ngày xưa là một đại thi hào A-rập và là một người yêu thích rượu cùng nhục dục trong một xã hội Hồi Giáo cấm rượu. Những bài thơ về khoái lạc của ông lập một danh sách những gì bị đạo Hồi cấm đoán và chối bỏ—chất thơ gây sốc xã hội. Nói cách khác, 2 000 năm trước, một người đàn ông sống ở đây đã chiến đấu chống lại cùng một giáo điều mà xã hội chủ nghĩa sinh mệnh ngày nay tuân giữ. Quả là một sắp đặt tuyệt hảo cho cuộc gặp gỡ bí mật giữa một kẻ nhu nhước chấp hành theo hệ thống và một kẻ rất có khả năng đang góp một tay trong điều khiển hệ thống đó.
+
+Tôi đảo mắt cẩn thận phòng hờ có kẻ bám theo, rồi rời khỏi Abū-Nuwās đi tới bờ sông đang lấp lánh trong nắng xế chiều. Bờ sông toàn cát phủ khắp nơi tới tận mực nước. Tôi tự hỏi liệu là Gabrielle Étaín đang chờ tôi, hay thậm chí là chính Mihie Miach. Ánh nắng phản chiếu từ sông Tigris, làm lóa mắt người và che đi khuôn mặt người mà lúc này tôi đang thấy đứng chỉ cách tôi một khoảng ngắn, về phía lòng sông.
+
+“Con có biết tại sao họ gọi nơi đây là Mesopotamia?” bóng người trên bờ sông hỏi tôi với giọng thân quen. “*Mesopotamia* nghĩa là ‘giữa các con sông.’ Con hiểu chứ?”
+
+“Do chúng ta ở giữa sông Tigris và sông Euphrates?”
+
+“Chính xác.”
+
+Người đàn ông bước lại gần hơn. Ông đang vận một bộ đồ rách rưới. Một bộ đồ của mấy tên ma cà bông. Vừa vặn với kẻ đã bỏ rơi mẹ tôi và tôi 13 năm trước để tới Baghdad.
+
+Phần: 05
+
+“Ta ngạc nhiên là cuối cùng con cũng tới đây.”
+
+Là ba tôi. Hàng chính cống. Tuy mặt ông đã chịu bao vết bào mòn và rách bươm của 30 năm, nó vẫn chính là gương mặt của người đã bị bà cô ghét-caffeine đánh bại trong buổi họp đó và người đã bỏ tôi và mẹ tôi sau khi Miach chết.
+
+Tới được đây không dễ.
+
+Rất nhiều người đã chết.
+
+Tôi nói với ông ta vậy.
+
+“Ta đã nghe rồi. Toàn thế giới ngay lúc này đón nhận tin ấy khá là dở. Xấu hổ thay.”
+
+“Xấu hổ? Nhưng không phải là ông đã bảo Miach giết họ?”
+
+“Không đúng,” ba tôi phản bác, quay lưng lại mặt trời đang lặn của Baghdad.
+
+“Ông đã ở đây trong suốt thời gian qua à? 13 năm ròng?”
+
+Ông chậm rãi lắc đầu. “Đôi khi ta đi công tác. Với ID cung cấp bởi tổ chức hiện tại ta làm việc cho, ta có thể tới gần như mọi nơi trên thế giới mà không để lộ mình là ai.”
+
+“Tổ chức? Tổ chức nào có thể thế được?”
+
+“Tổ chức duy nhất thật sự nắm quyền điều khiển thế giới—Nhóm Giám Sát Tư Cách Con Người Thế Hệ Mới. Tất cả tài nguyên và phác thảo y học đều diễn ra ở khu phức hợp Dian Cécht.”
+
+“Chính xác ý ông là gì khi nói ‘điều khiển thế giới’?”
+
+Ba tôi bắt đầu thả bộ từ tốn xuống bờ sông. Tôi bước cạnh ông ta, lắng nghe thật kỹ mọi lời nói.
+
+“Con đã nghe Saeki nói chút ít rồi phỏng? Hay là Étaín nói?”
+
+“Tôi đã được biết rằng ý chí con người là tình trạng tranh chấp giữa vô số nhân tố trong mạng lưới phản hồi đặt tại não giữa. Và tôi cũng biết rằng đồ thị hyperbol vẽ bởi phản hồi đó sẽ tác động quyết định của chúng ta.”
+
+“Phải, cơ bản là đúng.”
+
+Mặt trời đã lặn và nhiệt độ bắt đầu sụt giảm. Nó khiến cái nóng ban ngày chỉ tựa cơn mơ. Tôi chà chà hai bàn tay để chống chọi lại chút se lạnh, mừng là tôi đã nhớ mang theo áo khoác.
+
+“Và ông đang làm nghiên cứu về cái này?”
+
+“Không. Nghiên cứu đã hoàn thành khá nhiều phần.”
+
+Tôi chần chừ. Nếu nghiên cứu đã xong xuôi, thì nhóm Thế Hệ Mới đang làm gì lúc này? Ba tôi đang làm về cái gì?
+
+“Mục đích tổ chức của chúng ta là để chuẩn bị. Chúng ta chuẩn bị cho sự sụp đổ có thể sắp sửa ập đến. Chúng ta giữ an toàn, bí mật cho công nghệ, và sẵn sàng triển khai nó nếu cần đến. Tất nhiên, chúng ta mong giờ phút ấy không bao giờ tới, nhưng nhóm của Miach lại nhìn nhận phần nào khác hẳn.”
+
+“Giải thích đi.”
+
+“Hừmm. Chậc, dường như con đã lĩnh hội được cách vận hành của cơ chế phản hồi và làm thế nào mà nó sản sinh ra cái chúng ta gọi là *ý chí*.”
+
+“Giáo sư Saeki nói nó giống một hội nghị.”
+
+“Một hình ảnh tương tự ta hay dùng. Nhưng có một điều quan trọng cần hiểu, đó là tính phản thân của hệ thống. Dựa trên kết quả của ‘hội nghị’ này, cơ chế phản hồi bị thay đổi và dàn xếp liên miên. Kết quả tác động đến hệ thống phản hồi, và hệ thống phản hồi sản sinh nhiều kết quả khác, như một vòng lặp. Nếu chúng ta đưa ra quyết định, khuynh hướng đó sẽ gia tăng theo một khuôn rập tuần hoàn. Sự hỗn loạn trong hệ thống tăng gấp bội. Đây là nguyên do ý chí con người là phi lý, không bao giờ tĩnh lặng, và cực kỳ khó để dự đoán. Con theo kịp không?”
+
+“Tôi nghĩ vậy.”
+
+“Trong lúc kiểm soát mạng lưới phản hồi từ não giữa bằng medicule, chúng ta phát hiện ra có thể tác động tới quyết định, cảm xúc và tâm tư của con người. Mọi chuyện xảy ra chỉ trước khi con sinh ra một khoảng thời gian ngắn. Vào lúc đó, điều khiển ý chí con người là một chủ đề nóng đối với lãnh đạo cấp trên trong WHO và một vài sinh phủ.”
+
+Chắc đó là mấy lão già bị dọa chết khiếp.
+
+Khiếp sợ sự hỗn loạn.
+
+Khiếp sợ con người sẽ đánh mất lý trí.
+
+Khiếp sợ bạo loạn sẽ dẫn tới diệt chủng, dẫn tới bom nguyên tử rơi khắp hành tinh chúng tôi.
+
+“Thời Kỳ Loạn Lạc,” tôi nói, một nửa là với mình.
+
+Ba tôi gật đầu. “Thời điểm đó, ý tưởng cho rằng phải tạo một mạng lưới an toàn nhằm bảo vệ nhân loại khỏi bất kỳ nguy cơ sảy chân rơi vào lại sự rối ren xưa kia. Họ kêu gọi chúng ta làm gì đó cho chuyện này. Họ nghĩ chúng ta có thể tìm ra một cách để cứu rỗi con người khỏi cái tôi man rợ. Vậy là Nhóm Giám Sát Tư Cách Con Người Thế Hệ Mới ra đời.”
+
+Nhóm là một tổ chức nghiên cứu đơn thuần, ba tôi giải thích. Một mặt nào đó, nó có quyền lực hơn cả Hợp Chủng Quốc Hoa Kỳ, thậm chí còn hơn cả WHO. Những lão già, lão bà hùng cường nhưng sợ hãi này - thành phần của WHO, Hoa Kỳ và sinh phủ - cũng tham gia nhóm Thế Hệ Mới.
+
+“Chúng ta đã có đầy đủ vốn cần thiết, và tiến trình nghiên cứu diễn ra nhanh gọn. Chẳng mất bao lâu, chúng ta đã làm medicule đủ vượt qua hàng rào máu não,” ông nói.
+
+“Cái gì cơ?”
+
+“Không ai ưa nổi cái ý tưởng cho người khác táy máy não mình. Nhận định não được bảo vệ khỏi medicule là một sự hiểu lầm chúng ta đã cố tình phát tán. Nếu con lục lọi mọi tài liệu về công nghệ medicule, ta dám chắc con sẽ tìm đủ mảnh ghép để tự mình suy luận ra thôi. Đây cũng là thông tin có thể truy cập công khai mà. Chúng ta chỉ thay đổi dòng dữ liệu và chốn đống giấy tờ đó dưới hàng đống nghiên cứu khác, ở nơi chúng sẽ không bao giờ hút được ánh mắt ai. Ngay từ đầu vấn đề còn không phải là do hàng rào máu não. Mọi việc chúng ta đã phải làm là ngụy trang medicule cho giống oxy và protein – những thứ đã qua hàng rào sẵn rồi, và chúng ta vượt qua trót lọt không tốn chút thời gian. Vấn đề là chính đường hướng của công trình chúng ta, Tuan à.”
+
+Tôi tự hỏi ý ông ta là gì. “Cá nhân tôi thì tôi thấy ngay từ đầu toàn bộ ý tưởng kiểm soát ý chí con người là một vấn đề to đùng rồi,” tôi nói vậy với ông.
+
+“Ta đã hình dung là con sẽ nói vậy mà. Nhưng hãy suy nghĩ một chút đi. Con người cho phép medicule điều khiển cơ thể họ mọi ngày để khống chế bệnh tật. Vậy cớ gì chúng ta không nên chế ngự những suy nghĩ tiềm chứa nguy cơ gây hại trong não?”
+
+<confusion>[24]
+
+Tôi định nói từ “ý chí tự do”, thì ngập ngừng.
+
+Nhân loại đã luôn luôn nhảy khỏi đường đi của mình để kiềm chế bản tính tự nhiên.
+
+Chúng tôi xây dựng thành phố, xây dựng xã hội, xây dựng hệ thống.
+
+Tất cả những việc này bộc lộ ham muốn tột bậc của con người: thâu tóm những yếu tố không đoán trước được trong bản tính và đặt chúng vào một khuôn khổ điều khiển được, dự đoán được. Với mục tiêu sống sót qua thời đại phóng xạ nguyên tử và bệnh truyền nhiễm, chúng tôi đã đấu tranh để chinh phục vết tích còn sót lại của bản tính bên trong chúng tôi, và đã thành công phần lớn. Chúng tôi cài đặt WatchMe vào trong cơ thể và liên kết tới máy chủ giám sát sức khỏe. Một cách triệt để, chúng tôi đã loại bỏ khỏi xã hội khỏi những thói quen lối sống có hại cho sức khỏe. Chiến thắng của chúng tôi là toàn vẹn, ngoại trừ tuổi già, dĩ nhiên rồi.
+
+Không phải não bộ cũng là một phần của cơ thể sao? Lý do nào có thể ngăn điều khiển nó luôn? Tôi thua cuộc trước lý lẽ của bản thân và ngồi xuống bờ sông đầy cát. Mắt tôi nhìn lơ đễnh trên dòng sông. Xa xa kia, tôi thấy vài cậu nhóc con đang chơi đùa cùng một con chó.
+
+Nếu con chó đó có linh hồn của nó, vậy chúng ta làm sao khẳng định được linh hồn ta giá trị hơn linh hồn của con chó đó?
+
+</confusion>
+
+“Đối với những trưởng lão đã sống qua Thời Kỳ Hỗn Loạn của chúng ta, ý chí con người không hơn gì ngoài bản tính hoang dã, ăn sống nuốt tươi. Xã hội sinh phủ kêu gọi dân cư của nó phải luôn luôn nhớ đức tính cộng đồng và nhận thức tài nguyên. Phải đi theo sự sắp đặt của nó và ‘bầu khí’ của ý chí tự do của họ. Ấy là cách mà chúng ta đã có thể dựng nên một xã hội ít gây nguy hiểm nhất, bình đẳng nhất, hòa bình nhất, và tràn đầy tình yêu thương nhất từ thuở hồng hoang.”
+
+Mùi của chợ bay xuống từ con đường tới bờ sông Tigris.
+
+<list:meal>
+
+<m: món cá nướng phanh bụng tôi vừa ăn—masgouf>
+
+<m: món teshreeb ức gà>
+
+<m: món quzi cừu non nướng>
+
+<m: món kebab thịt cừu xiên que>
+
+</list>
+
+Những mùi chúng tôi đã cắt xén khỏi xã hội mình.
+
+Loại xã hội mà ba tôi đang nói đến là xã hội mà Miach ghét. Với cô, đỉnh cao mà con người đã vươn tới, thánh đường của hòa bình, ân cần và sức khỏe chỉ là một cái ngục tù khác cần đóng cửa và từ bỏ.
+
+Xã hội chúng tôi đã vẽ nên một bức tranh đẹp biết bao: ai nấy trói họ bằng những luật bất thành văn, cẩn trọng đứng bên trong các ranh giới vô hình.
+
+Tôi cóc quan tâm về tình yêu.
+
+Hay cái khỉ khô về ân cần.
+
+Còn nhận thức tài nguyên thì cuốn xéo đi.
+
+Thân thể tôi tồn tại ở đây không phải là vì sinh phủ. Nó không ở đây vì bất kỳ ai trong các người. Nó chỉ ở đây vì tôi.
+
+*Bộ ngực này, mông này, chúng thuộc về Mihie Miach.*
+
+Miach diễn đạt cảm giác của tôi thành lời một cách tuyệt hảo. Hay có lẽ cảm giác của tôi thay đổi để hợp với lời của cô. Đàng nào đi nữa, một phần chôn sâu kín trong tôi vẫn cảm thấy như vậy.
+
+Mọi việc tôi đã làm khi nhận công việc làm một Đặc vụ Cục Xoắn Ốc, ngoài tìm chỗ để tôi có thể thư giãn và châm một điếu ở vùng xám nằm giữa man di và đạo đức – nơi mang tên chiến trường, đó là tạo một sự cách ly mong manh giữa tôi và xã hội. Tôi phải tiến gần lại các trận chiến để thoát khỏi sự nghẹn thở trong xã hội, nhưng tôi chưa bao giờ chấp nhận hết. Tôi không định đeo một khẩu súng máy rồi tự đi tham gia chiến trận.
+
+Đơn giản là tôi đã tìm ra một điểm dễ chịu đâu đó giữa Miach và xã hội.
+
+Dầu cho không có vụ tự sát hàng loạt đồng thời đó, các báo cáo sinh phủ vẫn cho thấy tỉ lệ tự tử trong giới trẻ tăng lên sau mỗi năm. Càng lúc nhiều đứa trẻ
+
+<list:action>
+
+<a: cắt cổ tay.>
+
+<a: treo cổ.>
+
+<a: nhảy lầu.>
+
+</list>
+
+Lần lượt, những linh hồn gặp mối nguy bị đè nát bởi xã hội, chúng đang gặm nhắm từ đáy lòng.
+
+Những linh hồn không thích nghi được. Linh hồn của những đứa trẻ mong mỏi bệnh tật, thương tích và đau đớn. Với trái tim chứa sự ghê tởm, chúng cố hủy hoại chính sinh mạng quý giá của mình, và chúng biết mình đang làm gì. Nhất định có điều gì đó lệch lạc trong bức tranh này. Ngay cả trong xã hội đã bị tẩy não của chúng tôi, tôi nghĩ con người đã bắt đầu nhận ra, nhưng không đủ minh bạch để khiến họ cảm thấy mình có thể đàm luận về cái sai trái. Chỉ là một chút cảm giác khó chịu, điều họ đè xuống dưới tầng tiềm thức của mình bằng tất cả sức mạnh.
+
+Cái tôi tìm ra là trung điểm giữa hỗn loạn và quy củ, một cành cây nơi tôi có thể treo mình tới muôn đời.
+
+Đôi lúc tôi đã cảm thấy mình là doppelgänger của Miach.
+
+Nhưng chuyện đó không đúng chút nào. Tôi chỉ là trở thành con người mà tôi tưởng tượng Miach *sẽ* trở thành nếu cô còn sống trong thế giới của tôi.
+
+“Lý do ta đã nhận Miach, chủ yếu, là vì con bé là một điểm tụ hội tuyệt vời của muôn vàn nguyên nhân gây căng thẳng mà xã hội ta đã tạo ra. Nếu chúng ta có thể vặn cong ý chí cứng rắn của Miach và lái nói khỏi con đường đi tới cái chết, thì chúng ta sẽ có thể điều khiển bất kỳ ai. Suy nghĩ là vậy. Hồi đó, chúng ta đã chọn rất nhiều đứa bé như con bé và điều trị chúng. Chúng ta tập hợp những đứa muốn tự sát—đặc biệt những đứa bội thực hoặc tuyệt thực, những đứa muốn quan sát bản thân chúng yếu dần đi rồi chết. Mục đích chúng ta là tạo ra một ý chí đã cân đối hóa trong não người. Chúng ta gọi đó là chương trình Harmony[25]. Những thí nghiệm chúng ta tiến hành trên các đứa trẻ như Miach là thử-nghiệm-hủy-diệt, đại loại vậy. Chúng ta định xem Harmony sẽ đi xa tới đâu.”
+
+Tôi thấy một cơn giận vô cớ dấy lên trong tôi. Nhưng không phải là bởi các thử nghiệm họ đã làm trên Miach.
+
+Tôi muốn biết tại sao họ đã không lấy tôi làm thí nghiệm.
+
+Tất nhiên, tôi biết chính xác tại sao. Họ cần ai đó thật sự không còn hy vọng, từ sâu thẳm thâm tâm và bản chất. Họ chắc đã ghé mắt tới hàng trăm trung tâm cấp cứu đạo đức. Lúc đó còn hàng lố đứa trẻ gắng tự sát nhiều hơn một lần, cũng hệt ngày nay.
+
+Với Miach, ba tôi đã thấy đáy lòng cô.
+
+Ông đã thấy sự tuyệt vọng trong mắt cô.
+
+Ông đã thấy, cô ấy đang đứng trên mép vực thẳm, như Cian từng nói.
+
+Đấy là điều ba tôi phải kiểm soát, hay chí ít cố kiểm soát.
+
+<anger>
+
+Đấy là lý do mà ông đã ruồng bỏ tôi và mẹ tôi rồi cắp xách tới Baghdad đây. Tôi phải chấp nhận chuyện đó. Phải, tôi đang thấy ghen tị. Trẻ con luôn buồn rầu khi chúng không được chọn cho việc nào đó. Ấy vậy, đồng thời, chuyện họ đã làm vượt qua cả sự kệch cỡm.
+
+Bóp nát hy vọng của vô số đứa trẻ.
+
+</anger>
+
+“Sao ông có thể?”
+
+Ba tôi gật đầu dứt khoát. “Không dễ dàng gì. Nhưng nếu lúc đấy chúng ta không làm gì, những đứa trẻ đó là mối họa trầm trọng với chính bản thân chúng. Toàn bộ chúng đều từng hết lần này tới lần khác cố tự vẫn, và một ngày, rất có thể chúng đã thành công.”
+
+“Làm tốt lắm, nhưng ông chỉ nhìn đằng đuôi và gọi đó là khách quan.”
+
+“Khá đúng. Và kiểu gì đi nữa thì kết quả của chúng ta cũng không hoàn hảo.”
+
+“Ý ông là gì?”
+
+“Harmony có một tác dụng phụ rất nghiêm trọng mà chúng ta đã không lường trước—nhưng, khi ngẫm lại, đúng ra dùng một vài lập luận logic đơn giản cũng đã làm nó dễ thấy rồi. Nhưng thực chất, chúng ta đã không đoán được nó sẽ tới.”
+
+Thình lình, tôi chợt hiểu ra điều ông ta sắp nói.
+
+Ông ta đúng. Nói cho có logic, kết quả rõ mồn một. Nếu mạng lưới phản hồi đạt tới trạng thái hài hòa tuyệt đối và mọi quyết định đều được đưa ra mà không hề có đấu tranh tư tưởng và mọi hành động diễn ra đàng hoàng, điều ấy có nghĩa là gì? Nó có nghĩa không còn điều gì trong “tôi” là mập mờ cả.
+
+“Ông đã giết chết ý thức.”
+
+Phần:  06
+
+Cái chết của ý thức.
+
+Cặp mắt ba tôi mở tròn. Trong chốc lát, dường như ông không thốt nổi nên lời.
+
+“Đúng vậy. Làm sao con biết?”
+
+“Vì tôi đã nghe từ 3 người rằng ý thức thực ra là gì.”
+
+Câu trả lời tuôn ra trôi chảy đến nỗi đến tôi cũng ngạc nhiên.
+
+“Đúng, hội nghị. Nếu mọi đại biểu đều nhất trí, và hết thảy chức vụ của họ được sắp vị thứ chỉnh chu, vậy hà cớ gì phải tổ chức hội nghị? Nếu mạng lưới phản hồi không vẽ giá trị của chúng ta thành đường hyperbol, mà thay vì vậy lại dùng đường cong hàm mũ hợp lý, đây là sự hài hòa tuyệt đối, nói cách khác – một trạng thái không có ý thức. Nó là điều chúng ta đã không thể phát hiện ra khi thử nghiệm trên động vật.”
+
+Vậy là ba tôi đã từng cố tạo ra một con người minh bạch, kẻ thích nghi sức ép của xã hội sinh phủ một cách hoàn hảo. Với một kẻ mà mỗi một ham muốn đều minh bạch, thì không cần phải quyết định. Nếu mạng lưới phản hồi của họ làm việc với các giá trị hợp lý, cụ thể thì không cần tới ý chí để chọn giữa một trong nhiều cái khác. Ý thức không còn cần thiết nữa.
+
+Suýt nữa tôi cười hê hả khi nghĩ tới một kết cục dễ thấy như thế lại không có ai trong nhóm nghiên cứu của ba tôi phát hiện.
+
+Những mùi hương pha tạp của hương liệu và thức ăn xào nấu, chúng trôi nổi trong không khí xuống lòng sông từ phía Abū-Nuwās. Một lần nữa tôi để ý thấy những cậu bé và con chó của chúng đang chạy lên chạy xuống con nước.
+
+“Chúng ta đã thông báo phát hiện tới các nhà nghiên cứu và nhà đầu tư khác trong nhóm làm việc, rằng sự hài hòa hoàn hảo luôn luôn đồng nghĩa với ý thức biến mất. Ý thức đó quả thực chỉ là một cơ chế để chọn lựa giữa nhiều ham muốn lúc nhúc trong tiềm thức ta, kết quả của các cuộc xung đột vốn cần có suy nghĩ tỉnh táo tham gia giải quyết, và các hành vi vào lúc xung đột đó. Các lựa chọn này rất sáng sủa trước ý chí hài hòa hoàn hảo, nhờ đó không cần đến ý chí để xác định hành động. Chúng ta đã theo đuổi giống người hoàn hảo nhưng rốt cuộc lại giết chết ý thức, bởi nó không còn cần thiết nữa.”
+
+Mỉa mai thay. Linh hồn chúng tôi không hơn gì một sản phẩm của hệ thống đánh giá theo đường hyperbol mà chúng tôi đã phát triển qua quá trình tiến hóa. Con người hoàn hảo không cần linh hồn.
+
+“Chuyện gì xảy ra khi ta mất đi ý thức? Có phải ta sẽ ngồi thừ trên ghế cả ngày, nước dãi chảy lòng thòng?”
+
+“Không có chuyện như vậy. Ta đi mua sắm, ta ăn, ta giải trí—chỉ đơn thuần là ta không còn phải quyết định làm gì vào bất kì thời điểm cho trước vì mọi thứ đều minh bạch. Đó là điểm khác nhau giữa phải lựa chọn và có mọi sự rõ ràng với mình. Tất cả chỉ vậy. Đấy là điều phân chia thế giới của ý thức và thế giới không có ý thức. Con người tuyệt nhiên sống chẳng gặp vấn đề gì khi không có ý thức hay ý chí, Tuan à. Họ sống cuộc đời một cách bình thường. Con người được sinh ra, già đi, rồi chết mà không có ý thức. Kỳ thực, ý thức rất ít liên quan tới văn hóa. Nhìn từ bên ngoài, gần như bất khả thi để biết được ai đó có ý thức hay chỉ là *đang hành động* cứ như phải làm. Tuy thế, vì hệ thống giá trị của họ được thiết kế trở nên hài hòa hoàn hảo với xã hội, sẽ có ít người tự sát hơn nhiều, và stress các kiểu mà chúng ta thấy trong xã hội sinh phủ ta sẽ tiêu biến hết.”
+
+Thế là Miach và có lẽ những đứa trẻ khác đã trải nghiệm điều này trong thí nghiệm. Họ đã trải qua cảnh *tồn tại* mà không ý thức.
+
+Cả thảy mấy tỷ người trên trái đất này, ở điểm nào đó với tổ tiên, dọc trên con đường tiến hóa, đã gặt hái được cái ta gọi là ý thức. Tiến hóa là thứ cực kỳ bừa bãi. Chỉ những gene thích nghi tốt với một môi trường cụ thể mới sống sót. Thành quả của những sự thích nghi chắp vá này là loài người mà chúng ta biết đến hiện nay, mỗi một cá thể trong số chúng ta sở hữu thứ sản phẩm phụ kỳ lạ của tiến hóa – cái chúng ta gọi nó là ý thức.
+
+“Khi trở lại, Miach đã nói nó hoàn toàn vô cùng sung sướng,” ba tôi nói trong tiếng cười lặng lẽ gượng gạo. “Trong khi không có ý thức, nó ăn bình thường, học, nói chuyện với chúng ta, và sống cuộc đời bình thường. Khi chúng ta đưa ý thức nó trở lại, Miach không nhớ chút gì về khoảng thời gian thử nghiệm. Con bé chỉ có cảm giác là mình đã ở một nơi phi thường, tràn ngập niềm vui.”
+
+Tôi thấy điều đó hợp lý. Bạn không thể nhìn những con chú và không nghĩ chúng hạnh phúc hơn con người, nói chung là vậy. Ai đó từng nói chim bám cứng trên cành thì không bao giờ biết đau. Cái Miach trải nghiệm là tình trạng của loài người rất lâu trước khi chúng tôi đạt được ý thức, rất lâu trước khi chúng tôi lạc lối trong thế giới mê cung của tự xem xét nội tâm và suy ngẫm.
+
+Lúc này mặt trời đang lặn dần xuống đường chân trời. Tôi vươn tay như thể muốn chạm vào nó bằng ngón tay mình. Con người có óc suy xét hoàn hảo thì không cần ý thức, nên nó không tồn tại.
+
+“Và ông đã cố làm vậy với mọi người trên thế giới? Ông đã định ăn cắp ý thức của mọi kẻ thừa ngu ngốc đi cài WatchMe?”
+
+“Không—chúng ta không định thế,” ba tôi lên tiếng, vừa bắt đầu bước lên khỏi bờ sông mà ngược trở lại đường phố. “Chúng ta đã không thể quyết định có nên xóa bỏ nhận thức. Chủ yếu, ta đã kinh hãi trước suy nghĩ đó. Mất đi ta là ai, ý thức của ta…… Một hướng nào đó, nó giống như chết. Chúng ta không có quyền quyết định áp đặt thứ như thế lên hàng tỷ người hay không.”
+
+“Tôi tin rằng nó phụ thuộc chết là gì,” tôi nói.
+
+Tôi thừa nhận là mình đã có chung một xu hướng nghĩ rằng cái *tôi* của tôi là ý thức. Ý thức có năng lực dự đoán và điều khiển và ra lệnh cho cơ thể và tâm trí, nên dễ nghĩ nó là mọi thứ. Tuy tôi chắc chắn là cơ thể tôi nhìn nhận khác.
+
+Chúng tôi trở lại cái nóng bức của đám đông trên phố chính. Đèn đã lên, những bóng đèn trần trụi chiếu sáng mặt tiền các cửa hiệu đang mở cửa. Không chỉ nhà hàng—còn nhiều chỗ bán đồ nấu nướng, vải vóc và thảm. Những người với bao ngành nghề, họ hối hả giữa làn hương trộn lẫn tỏa từ hàng đống bếp lò và vỉ nướng.
+
+“Chúng ta đã hỏi WHO và một số sinh phủ để quyết định,” ba tôi cứ nói. “Kết quả, chúng ta dàn xếp một thỏa thuận, rằng sẽ cài hệ thống vào mọi người, nhưng không kích hoạt nó. Đúng vậy, mạng medicule cần thiết cho điều khiển mạng lưới phản hồi đã tồn tại sẵn trong não con, cũng như của ta. Ngộ nhỡ loài người có nguy cơ chìm lại vào hỗn mang - Thời Kỳ Loạn Lạc, bấy giờ, như một biện pháp khẩn cấp, chúng ta có thể kích hoạt Harmony.”
+
+<anger>
+
+Ngợi khen Chúa. Dù không ai trong chúng tôi đòi, chúng tôi đã được nhận. Một thiết bị hallelujah[26] tự động trong não chúng tôi. Dính cứng lên synapse[27] của não giữa chúng tôi, không bao giờ thả ra hay bị tháo gỡ. Giờ tôi có thể nghe thấy ca đoàn đó đang hát.
+
+<music:name=Messiah:id=2y6r58jnjhu7451110eo99>[28]
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+</music>
+
+Kể từ khi Chúa đã trao chúng tôi nhận thức bản thân, nó chẳng làm được tích sự gì ngoài dằn vặt chúng tôi đến muốn tự sát và đau đớn theo nghĩa đen, và lúc này đây chúng ta được tự do quẳng hết nó đi. Tự do trở lại Nước Thiên Đàng[29] trong niềm sung sướng tột đỉnh, nguyên sơ.
+
+Hallelujah.
+
+</anger>
+
+“Vậy ra ông đã đưa cho ai đó quyền định đoạt sinh tử của ý thức chúng tôi và đánh cắp ý thức của Miach khỏi tay cô ấy? Ông tồi tệ hơn tôi nghĩ đấy.”
+
+“Ta đã nghĩ là con sẽ nói câu gì đại loại vậy mà—tuy phải thừa nhận là, ta chưa bao giờ tưởng nổi sẽ được nghe câu đó từ một cô bé tuyệt vọng mà con từng là. Ta cam đoan là hầu hết mọi người không muốn mất đi một phần trong não họ - phần nhận thức ‘tôi’ là ‘tôi’. Bất chấp mọi cái giá có thể đối với xã hội. Chính vì thế mà những bô lão trong nhóm ta, trong nỗi sợ cảnh hỗn loạn tức Thời Kỳ Loạn Lạc, đã lên kế hoạch hành động mà không mở bất kì cuộc thảo luận công khai hay phiên họp phê bình đạo đức.”
+
+Nếu những bô lão đã muốn thế, nói giống con người có thể sẽ bị tước mất đi ý thức.
+
+Chúng tôi đều có thể trở nên loại người tự do khỏi cái ý thức vô dụng của mình, đều sẽ làm chính xác điều nên làm vào mọi thời điểm.
+
+Chúng tôi có thể nâng cấp tới một kiểu người mới hơn. *Homo perfectus*[30].
+
+“Cho nên nếu ông đã muốn—”
+
+“Phải, nhưng ngay bây giờ, thì chúng ta không làm. Dầu cho hàng tấn vụ tự tử mà xã hội êm ái của chúng ta gây nên, phải có một giải pháp xã hội cho vấn đề này. Vì chúng ta tin thế, ngón tay chúng ta chưa từng một lần trỏ về nút Harmony. Tin ta đi, chúng ta không muốn chuyện này xảy ra.”
+
+“Nhưng Mihie Miach thì lại muốn?”
+
+Ba tôi dừng lại và nhặt lên một cái ấm nước từ lều che đằng trước một cửa hiệu. Ông cứ đăm đăm nhìn nó. “Tuan. Con có bao giờ nghe tới hòn đảo của ngôn ngữ cử chỉ chưa?”
+
+Tôi chớp mắt và đáp rằng chưa. “Chuyển đổi chủ đề hơi bị đột ngột đó, ông không thấy à?”
+
+“Những người đầu tiên định cư ở Martha’s Vineyard—đó là một hòn đảo ngoài khơi Mỹ—đã cắt liên lạc với đất liền một khoảng thời gian, và đã có nhiều lần lai gần[31]. Hệ quả là một vài gia đình có cả ba mẹ đều sở hữu gene lặn gây điếc, rồi sau một hay hai thế hệ, hầu như chẳng ai trên đảo có thể nghe được gì. Thời đó, *có* được thính giác là điều dị thường hơn không có. Nên mọi người trên đảo giao tiếp bằng ngôn ngữ cử chỉ. Ngôn ngữ cử chỉ trở thành tiếng mẹ đẻ của họ. Và không có ai dở khoản đó. Vậy là, một người có thính giác—người mà chúng ta lấy làm chuẩn—lại thành một sự lệch hướng cực đoan khỏi chuẩn mực. Văn hóa của họ không cần đến thính giác.”
+
+“Tôi không chắc là chuyện này có dính líu tới cuộc đối thoại của chúng ta.”
+
+“Nó phải liên quan tới Mihie Miach.”
+
+“Đừng bảo tôi là cô ấy điếc nhé—khoan, hay là cô ấy bị khiếm khuyết ý thức gì đó, như những người bị khiếm thính?”
+
+“Không, con bé có nhận thức. Tuy nhiên, nó khác với chúng ta ở chỗ nó hình thành ý thức của mình sau khi sinh một khoảng thời gian.”
+
+<shaken>[32]
+
+Sau khi sinh?
+
+“Ý ông, là cô ấy được sinh ra mà *không có* ý thức?”
+
+“Nói đúng rồi.” Ba tôi gõ móng tay lên chiếc ấm ông cầm. *Đing*. Âm thanh cao, trong lắng vang dội trong sọ tôi. “Vài thập kỷ trước, trong khu vực xung đột giữa Nga và Chechnya, một bộ tộc thiểu số đã được phát hiện. Con nên nhớ kỹ là đây là một bộ tộc hoàn toàn mới lạ trong phạm vi hiểu biết của giới khoa học gia, nó chưa từng xuất hiện trong bất kỳ ghi chép nào cho tới thời điểm bấy giờ. Tuy quần áo, thức ăn, văn hóa, và ngôn ngữ họ đều bị ảnh hưởng bởi dân cư xung quanh, nhưng họ từ chối tiếp xúc thân mật với bất kỳ ai khác, tiếp tục giữ một cộng đồng nhỏ ở một khu vực núi non hiểm trở, tại nơi đó họ đã lai gần qua nhiều thế hệ.”
+
+“Khoan đã, ông già, ông đang nói—”
+
+“Ta đang nói là những người này có chung một đặc điểm lặn ngầm. Đó là một đặc điểm rất hiếm khi xuất hiện trong dân cư thế giới, và cơ hội 2 người có nó đi kết hôn với nhau lại còn ít ỏi đến nỗi chưa từng có ghi nhận về trường hợp như thế. Đặc điểm ta nói tới là một gene bị khuyết—gene chịu trách nhiệm cho ý thức. Ta khẳng định là giữa mấy tỷ người trên thế giới, có một vài người sinh ra mà không có năng lực hình thành ý thức, tuy vậy trong bộ tộc thiểu số ở Chechnya, gần như ai cũng không có ý thức.”
+
+“Nhưng thế thì làm sao họ sống hay phát triển văn hóa?”
+
+“Sau khi tìm ra họ, chúng ta bắt họ tham gia vài thử nghiệm. Họ vô cùng thông thạo ở khoản suy nghĩ logic. Hệ thống giá trị của họ không giống đường cong hyperbol vô lý của chúng ta, cái thứ quy định giá trị quá lớn cho những gì trước mắt chúng ta. Họ không chọn lựa. Quét MRI[33] đã tỏ rõ điều đó, quả thực, chẳng có sự hoạt động của hành vi mà ta kết hợp cùng nhận thức để tiến hành, ấy thế họ vẫn sinh hoạt bình thường và có văn hóa của mình—dầu nhiều trong chúng được mượn từ người ở vùng phụ cận khi cần thiết. Họ là một bộ tộc không sở hữu cũng chẳng cần ý thức. Giống như dân cư của Martha’s Vineyard không cần tiếng nói. Họ là giống người sống hài hòa hoàn hảo với một hệ thống giá trị hợp logic đến hoàn hảo.”
+
+“Vậy Miach……”
+
+“Cuộc xung đột đã lan tới vùng núi, nhận chìm cả bộ tộc cô vào hỗn loạn. Miach bị bắt khỏi làng lúc 8 tuổi bởi những tên lính Nga và bị gửi tới một trại do các kẻ buôn người bất hợp pháp làm chủ. Đây là một nơi của tấn thảm kịch không nói nên lời, nơi nô lệ tình dục bị giam giữ chỉ để phục vụ quân đội Nga. Đây là nơi ý thức của con bé thức tỉnh. Não con bé cần có ý thức với hệ thống định giá đường hyperbol để chịu đựng nỗi kinh hoàng trước mắt hằng ngày của hãm hiếp liên tục. Chuyện xảy ra như vầy, một phần trong não nó bắt đầu sao chép các chức năng của cơ chế phản hồi thường được não giữa đảm nhiệm. Con đã từng nghe những chuyện não bị tổn thương trong tai nạn sẽ kích hoạt khu vực chưa bị tổn thương để nhận tiếp quản các chức năng đã mất, đúng không? Não là một cơ quan rất linh động.”
+
+Ý thức của Miach là sự sao chép?
+
+Không phải là ý thức chân thực như của chúng tôi.
+
+Không phải là mô hình được dệt nên bởi mạng lưới phản hồi trong não giữa.
+
+Một bản sao như thật, được tạo ra cho nhu cầu cấp thiết.
+
+Sự mô phỏng ý thức.
+
+Tôi đăm đăm nhìn vào lưng ba tôi. Ông không mang Miach tới Baghdad chỉ vì sự tuyệt vọng của cô trở nặng và trầm trọng hơn của tôi.
+
+Ông đã mang cô tới đây vì nòi giống của cô.
+
+Vậy Miach đã được kéo khỏi địa ngục để bắt đầu một cuộc sống mới ở Nhật Bản, nhưng đối với Miach, nó cũng không hài hòa. Xã hội Nhật Bản, trong nỗ lực đạt tới sự hài hòa nào đó, đã để bản thân nó bị cai trị bởi lòng tốt miễn cưỡng, bóp nghẹt kẻ khác, nó đã đem lại một núi các vụ tự sát.
+
+Mihie Miach ghét xã hội sinh phủ nhiều như cô ghét Chechnya.
+
+Với Miach, Chechnya và Tokya chỉ là hai láng giềng khác nhau trong cùng một địa ngục.
+
+</shaken>
+
+Liệu Miach từng muốn mang chúng tôi đi cùng cô ấy vào cõi chết vì cô thấy sự hài hòa ở thế giới bên kia?
+
+“Lúc nào cũng có những con quái vật tìm thấy sự hấp dẫn xác thịt ở trẻ em. Những kẻ ấu dâm đứng giữa hàng ngũ lính Nga này đã ép con bé phát triển ý thức từ sự căm ghét, hay đúng hơn là thứ gì đó gần giống ý thức, rồi ý thức mô phỏng mới xuất hiện của nó đã tuyệt vọng và chọn cái chết. Ta thấy nó làm ta hết sức mủi lòng, và nản chí, bởi quyết định kết liễu mạng sống của mình là một hành vi có nhận thức, cao cấp của chỉ những kẻ có ý thức tự mâu thuẫn có thể làm.”
+
+*Đoong!* Ngay sau đó, cái ấm ba tôi đang giữ bay khỏi tay ông.
+
+Nó văng qua cửa hiệu, xém chút thì hụt người chủ hàng đang nửa tỉnh nửa mê, trước khi đâm sầm vào đóng hũ chảo.
+
+Tôi quay người lại và phát hiện một người đàn ông đang ẩn nấp dưới một cái mũ lớn. Hắn ta đứng cách khoảng 3 m, khói vẫn còn bốc ra từ nòng súng của hắn. Khẩu súng chỉ thẳng vào chúng tôi.
+
+“Interpol,” hắn lên tiếng, vừa đút tay rảnh rang vào trong túi áo ngực rồi lôi ra một tấm danh thiếp. “Hân hạnh được quen biết với ông, Tiến sĩ Kirie Nuada. Tôi cũng rất hân hạnh được thông báo cho ông hay rằng ông đã bị bắt vì tội danh cưỡng ép tự sát hàng loạt.”
+
+<tension>[34]
+
+Tôi thối lui một bước, vừa đưa tay ra vớ lấy khẩu súng giắt dưới áo khoác.
+
+“Whoa khoan, Tuan. Cô cũng đừng cử động. Dù gì cô cũng liên quan đến bị cáo.”
+
+“Dối trá,” tôi phản kháng.
+
+“Không hẳn, cô liên quan tới ông ta mà. Hay ý cô có gì khác?”
+
+Tôi khạc lên đất. “Anh không phải Interpol.”
+
+“Ồ, nhưng tôi là Interpol đấy. Nhìn này, có ghi trên thiếp đây.” Hắn phất phơ tấm các trong không trung. Thấy mặt chúng tôi không có phản ứng gì, hắn nhăn mày. “Au. Thế mà tôi đã nghĩ thiếp của tôi là một chiêu hay chứ, ở đây AR off-line chán chết.”
+
+“Có lẽ anh có ID của Interpol, nhưng anh làm việc cho nhóm của Miach, chống lại ba tôi. Anh đã luôn ở chính giữa sự điên rồ này từ đầu tới giờ.”
+
+“Một suy luận say đắm lòng người đó.”
+
+Tôi lại lùi thêm nửa bước, hướng vào trong shop. “Anh đã nghĩ rằng bằng cách kéo tôi vào cuộc thì sẽ lôi ba tôi ra ngoài chỗ trống, ra ngoài sự bảo vệ của nhóm Thệ Hệ Mới.”
+
+“Thú vị làm sao. Rồi thế tôi sẽ làm gì tiếp?” Vashlov cười xếch, chắc chắn là đang vui thích. Tay phải tôi di chuyển về phía bao súng lần nữa, nhưng súng hắn ta thình lình giật qua ngay phía tôi. “Tôi thật sự không muốn làm thế, thưa cô. Nó không cần thiết. Tôi chỉ tới đây để bắt giữ Tiến sĩ Kirie.”
+
+“Tôi không nghĩ đưa ông ta trở về Geneva là một phần kế hoạch.”
+
+“Chắc là không. Như cô đã nói, tôi về phe Mihie Miach.”
+
+“Anh muốn gì?”
+
+“Ba cô là lãnh đạo của phe lớn trong nhóm chúng tôi, cô thấy đó.” Nòng súng lượn qua, chĩa vào ba tôi. “Nếu tôi bắt ông ta, họ sẽ mất đi trung tâm—nó sẽ làm họ *suy yếu*. Một hay hai ngày tới sẽ mang tính quan trọng sống còn, cô biết đấy. Nếu tôi có thể ngăn ông ta hành động chỉ một lát, cán cân cân bằng sẽ nghiêng về phía có lợi.”
+
+“Và phía đó là gì?”
+
+“Chà, chúng tôi—”
+
+Trong khi Vashlov mãi nói—có chút quá nhập tâm với điều mình đang nói—tôi đã đưa tay trái ra sau lưng cho tới khi mò thấy một vật thể kim loại be bé có tay cầm. Lập tức tôi ném nó về phía hắn ta mạnh nhất có thể. Cái hũ dộng vào trán Vashlov với một tiếng *thùng* đục khiến hắn mất thăng bằng, ngã ngửa. Suýt nữa tôi cười phá lên vì hiệu quả không ngờ của đòn tấn công của mình.
+
+</tension>
+
+“Ông già! Lối này!” tôi kéo tay ba tôi về phía phố đêm, hy vọng sẽ trà trộn vào đám đông.
+
+“Đứng lại đó, nhà Kirie! Cả hai người!”
+
+Chúng ta đã đi được 9 m lúc Vashlov đứng dậy, máu rỉ nhỏ giọt từ vết rách trên trán. Nhưng 9 m không phải là khoảng cách quá xa để vượt qua khi bạn là một viên đạn. Nếu không có người dân trên đường chèn giữa chúng tôi, hẳn là chúng tôi đã chết rồi.
+
+“Ở gần tôi,” tôi dặn ba tôi.
+
+Ông gật đầu đồng ý. “Chúng ta phải là gì đó—”
+
+Tôi lại kéo tay ông, mở đường len lỏi sâu hơn vào đám đông. Hành trình khó khăn vì tôi không biết mình đang đi đâu. Nếu tôi có bật AR, và nếu nó liên kết tới StreetWatch, tôi đã có thể biết mọi ngõ ngách dẫn tới đâu trước khi chúng tôi đặt chân tới. Chạy ở một nơi lạ trong một miền đất lạ lại không có AR thì tựa như cuộc chạy đua mà mắt bị bịt vậy.
+
+“Tôi bảo dừng lại!” tôi nghe Vashlov hét lên đằng sau.
+
+*Xin lỗi, anh bạn.*
+
+Chúng tôi chạy về phía trước, né một chiếc xe bò chất đầy cá làm *masgouf*. Chỗ này lộn xộn thật, toàn là mùi của hạt nhục đậu khấu, cây nhục đậu khấu, cây quế, hạt giống cây thìa là Ai Cập, nước hoa, và mùi cơ thể cũng như hơi thở nặng mùi của những người dân sống không dùng WatchMe. Hầu hết đàn ông ở đây là công nhân xây dựng vào ra khu phức hợp công nghiệp y dược để làm việc ở địa điểm xây dựng khổng lồ kế bên. Tôi nhìn về phía sau lưng khi chạy, nhưng không có AR, tôi chẳng tài nào biết được Vashlov có đang nấp trong đám đông hay không.
+
+“Xin lỗi!”
+
+Chúng tôi tới nhà hàng mà tôi đã ăn hồi chiều ban nãy. Tôi ngoặt hướng, kéo ba tôi theo sau. Phớt lờ những lời ta thán bằng tiếng địa phương của ông chủ, chúng tôi chạy băng qua cửa hàng, 2 lần đá phăng cửa cho tới lúc lại ra ngoài, đi vào một ngõ hẻm sau nhà hàng.
+
+Vashlov đang đứng cách chúng tôi không quá 3 m, mặt nhìn thẳng vào chúng tôi.
+
+<tension>
+
+<silence>
+
+Trong một giây phút của thời gian đã đông lại, Vashlov và tôi nhấc súng lên và chĩa về kẻ kia.
+
+Hai phát súng được khai hỏa.
+
+Một từ súng của tôi.
+
+Một từ súng của Vashlov.
+
+Cả hai đều trúng mục tiêu.
+
+</silence>
+
+</tension>
+
+Mục tiêu số 1: ngực của Vashlov.
+
+Mục tiêu số 2: ngực của ba tôi.
+
+“Ông già!”
+
+<mourning>[35]
+
+Ba tôi đã bước ra trước mặt tôi, chắn giữa tôi và nòng súng của Vashlov. Cứ như ông đang cố bù đắp 13 năm không nuôi con cái chỉ với một hành động nhỏ. Và ông chết tức khắc. Tôi đặt tay lên cổ ông nhưng không tìm được mạch đập của sự sống đâu cả.
+
+Tôi không rơi nước mắt. Vô nhân đạo, bạn nghĩ vậy không?
+
+Như thể 13 năm kia đã xóa mất vị trí người ba khỏi tay ba tôi. Nỗi buồn của tôi còn êm ả, lặng lẽ hơn nhiều so với điều tôi đã cảm thấy vào lúc Cian chết hay thậm chí là “cái chết” đầu tiên – Miach. Trong 13 năm, ba tôi đã trở thành người dưng, với tôi ông không còn đặc điểm gì nhận dạng, ngoại trừ mối dây máu mủ di truyền vô hình giữa hai chúng tôi.
+
+Nhưng với ông ấy thì không phải vậy, đúng không. Ông đã bỏ rơi tôi và lên đường cùng với Miach tới thánh địa y học của chính mình. Ấy thế ông vẫn yêu con gái mình, dầu cho tôi hầu như không có tình cảm cho ông chút nào. Có lẽ việc ông bước ra trước mặt tôi không phải là một hành vi có nhận thức mà là phản xạ được mã hóa trong ADN của ông. Có khi đó là thứ tình yêu tôi thiếu—tình yêu cho gia đình.
+
+Ba tôi đã chết vì tôi, nên lúc này cách duy nhất tôi có thể báo đáp cho ông là lòng biết ơn.
+
+“Cảm ơn ba.”
+
+</mourning>
+
+Tôi cúi xuống và khép giúp ông đôi mắt còn mở hờ, rồi đứng lên, lắng nghe tiếng thở khò khè từ khí quản của Vashlov. Hắn sẽ sớm gặp ba tôi thôi, nhưng nếu hắn còn sống, tôi có hàng tá thứ muốn hỏi hắn trước.
+
+“Ba tôi đã chết. Hy vọng anh thấy vui.”
+
+“Thế là tốt rồi,” hắn lẳng lặng nói. “Tôi đã hy vọng sẽ bắt cóc—nhưng chết thì cũng thắng to. Nhờ có cô đánh hơi khắp nơi mà chúng tôi đã lôi được ông ta ra. Cuối cùng cũng tóm được Nuada…… Bây giờ họ sẽ gặp khó khăn để sắp xếp mọi thứ. Rất khó khăn. Hỗn loạn toàn thể sẽ lo phần còn lại.”
+
+“Các người muốn cái gì?”
+
+“Chúng tôi muốn cái gì hả? Là xây dựng một thế giới mới, sau cơn hỗn mang. Để mang lại sự hài hòa trường tồn……”
+
+Có gì đó cực kỳ khó chịu khi một nhóm tuyên bố họ muốn hòa bình trong khi vừa nhấn chìm thế giới vào bóng tối bằng một làn sóng tự tử, kế đến, một hành động khủng bố kinh khủng nhất trong lịch sử: ra lệnh kẻ sống sót phải giết lẫn nhau.
+
+“Ngay bây giờ thì tôi không thấy hài hòa từ đống hổ lốn đó cả.”
+
+“Mọi sự sẽ an bài, vì chúng phải thế. Sự hỗn loạn này chỉ là một bước đi trên đường tới hòa bình. Mihie Miach đã soi rọi con đường cho chúng tôi. Cô ấy là nhà tiên tri của chúng tôi. Cô ấy có một viễn cảnh cho loài người…… con đường đúng đắn cho chúng tôi đi. Cô biết cô ấy từ lúc hai người còn nhỏ. Cô biết cô ấy có thể thấy những điều chưa tới.”
+
+“Vậy là cô ấy đã phải làm 6 000 người cố tự sát để có được tương lai này?”
+
+“Phải.”
+
+“Tôi rất tiếc, nhưng thế thì không thuyết phục lắm.” Tôi nắm cổ áo hắn ta. “Miach ở đâu?”
+
+Tôi có thể thấy máu thấm ra từ ngực Vashlov sau từng hơi thở. Hắn đã mất nhiều máu rồi. Tôi hẳn là đã bắn trúng động mạch hay tĩnh mạch ở đó. Một ít máu lọt vào phổi làm hắn khó thở. Giọng nói là tiếng thều thào, rặn ra cái gì đó mà tôi nghe y như tiếng nấc hấp hối trong trí tưởng tượng của tôi.
+
+“Những vụ tự sát và lời đe dọa chỉ là…… chất xúc tác. Sự việc đã vào guồng quay. Nhưng nếu cô muốn biết, Miach đã dặn tôi có thể nói cô biết cô ấy ở đâu—nhưng cô phải hứa sẽ bắn vào đầu tôi nếu tôi kể cho cô.”
+
+Môi Vashlop gầy đi và hắn nở nụ cười méo mó. Trong chốc lát, tôi đã do dự.
+
+Mắt hắn tỏ vẻ nài xin. “Cái này đau thật đấy. *Đau* đấy. Th-thế này là cảm giác của cơn đau. WatchMe và medcare, lũ khốn, các người đã không cho ta biết tới cảm giác này, làm tốt lắm. Nó không chọc tức cô sao, cô Kirie? Làm ơn……”
+
+“Được. Đồng ý.”
+
+Tôi đặt họng súng lên trán Vashlov và kéo búa kim hỏa. Nó gõ nên một tiếng cách kim loại làm vừa lòng người và Vashlov thở phào nhẹ nhõm.
+
+“Chechnya. Đi kiếm Mặt Trận Tự Do Chống Nga ở Chechnya.”
+
+“Cái gì, Miach ở *đó*?”
+
+“Cô cứ việc tới đó mà tự xem.”
+
+Vashlov gật đầu ra dấu mình đã sẵn sàng.
+
+Có gì đó trong cách đôi mắt hắn nhìn thấu tôi làm ngón tay tôi chững lại, cứng đờ ra, trên cò súng. Tại đây, dưới bầu trời đang sập tối nhanh chóng của đất Iraq này, lần đầu tiên trong đời tôi sắp sửa giết một người. Ngay tại đây, ngay chính giây phút này. Tôi đang đưa ra quyết định giống như điều mà hàng tỷ người trên thế giới bị ép phải làm.
+
+Điều này sẽ giải thoát tôi khỏi phải chọn lựa lại nó trong ít ngày tới, tôi nhận ra thế. Thấy như gian lận ấy. Gã này đang cầu xin tôi làm vậy, và tôi lại còn báo thù được cho cái chết của ba tôi. Bạn không thể dựng nên một lý do tốt hơn thế đâu. Tôi cầm chắc tay súng và cảm giác căm thù bản thân vô độ.
+
+Tôi chợt phát hiện ra. Tại sao não tôi đã phát triển chức năng đang biểu lộ lúc này? Trong môi trường gì thì sự căm thù bản thân sẽ cho tôi một lợi thế tiến hóa?
+
+Tôi kéo cò.
+
+</body>
+
+</etml>
+
+↑ số định danh
+
+↑ thử nghiệm
+
+↑ ác cảm
+
+↑ Xa lộ theo tiếng Đức
+
+↑ Nạn tàn sát người Do Thái dưới thời Đức Quốc Xã
+
+↑ những triết gia người Đức
+
+↑ hai thành viên cấp cao của Nazi
+
+↑ Schutzstaffel, Đội Cận Vệ của Nazi
+
+↑ Caliphate là một thể chế nhà nước Hồi Giáo, và Abbasid là Đại Caliphate thứ 3 trong Đế Chế Ả Rập
+
+↑ thành phố lớn nổi tiếng ở miền đông bắc Các Tiểu Vương quốc A-rập Thống nhất
+
+↑ “chàng trai”, trong tiếng Đức
+
+↑ khó chịu
+
+↑ Central Intelligence Agency - Cục Tình Báo Trung Ương Hoa Kỳ
+
+↑ Military Information Supplier – MIS
+
+↑ cẩn trọng
+
+↑ Military Resource Suppliers – MRS
+
+↑ thư giãn
+
+↑ thiết bị trình bày thông tin
+
+↑ Chúa Kitô trong Thiên Chúa Giáo
+
+↑ miền đất thánh đối với Thiên Chúa Giáo
+
+↑ cùng họ với cây chà là
+
+↑ thánh kinh của Hồi Giáo
+
+↑ Vua Anh Hùng, trị vì thành Erech trong thần thoại Lưỡng Hà
+
+↑ hoang mang
+
+↑ hài hòa, cân đối
+
+↑ lời ca tụng Chúa trong Thiên Chúa Giáo, có nghĩa “Vinh danh Chúa!”
+
+↑ khớp thần kinh
+
+↑ Messiah nghĩa là “Đấng Cứu Thế”, ám chỉ Chúa Giêsu trong Thiên Chúa Giáo
+
+↑ nơi Chúa Trời trị vì, trong đức tin của Thiên Chúa Giáo
+
+↑ tiếng Latin, “người hoàn hảo”
+
+↑ giao phối cận huyết
+
+↑ run rẩy
+
+↑ Magnetic Resonance Imaging – chụp cộng hưởng từ, chuyên dùng thu hình ảnh từ bên trong cơ thể sống, như ảnh của não
+
+↑ căng thẳng
+
+↑ khóc thương

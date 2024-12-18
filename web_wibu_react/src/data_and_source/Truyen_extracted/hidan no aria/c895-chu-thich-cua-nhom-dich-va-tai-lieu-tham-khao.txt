@@ -1,0 +1,41 @@
+Tập 3 - Honey Trap
+
+Chú thích của nhóm dịch và tài liệu tham khảo
+
+Độ dài: 507 từ - Lần cuối:
+
+11/11/2016 00:40:54
+
+- Bình luận: 0
+
+Butei High được chia thành các ban khác nhau …Dưới đây là danh sách đầy đủ của từng ban có từ Volume đầu tiên và chức năng tương ứng của các ban đó.
+
+Assault 「強襲科」(đội đặc nhiệm): Họ sử dụng súng ,kiếm và một số vũ khí khác để chiến đấu.  Các nhân vật thuộc ban này : Aria H. Kanzaki, Ryou Shiranui.
+
+Snipe 「狙撃科」 (đội bắn tỉa ): Chuyên môn của họ là hỗ trợ đồng đội từ khoảng cách xa bằng việc sử dụng súng bắn tỉa. Nhân vật thuộc ban này :Reki.
+
+Lezzad 「諜報科」 (đội tình báo): Chịu trách nhiệm về việc báo cáo cũng như tình báo trong các tổ chức tội phạm. Họ cũng có thể tham gia vào việc xây dựng chiến lược . Nhân vật thuộc ban này: Hina Fuuma.
+
+Dagula 「尋問科」 (đội thẩm vấn): Phụ trách thẩm vấn những tội phạm bị bắt.
+
+Inquesta 「探偵科」(đội điều tra ): Sử dụng kỹ năng thám tử và áp dụng các kĩ năng lý luận để điều tra phân tích thông tin. Các nhân vật thuộc ban này : Kinji Tohyama, Riko Mine.
+
+Repier 「鑑識科」(đội pháp lý): Phụ trách việc tìm kiếm manh mối trong hiện trường vụ án bằng các thử nghiệm với các thiết bị khoa học hiện đại.
+
+Amdo 「装備科」 (đội bảo trì): Phụ trách việc cung cấp, tùy biến và bảo trì các trang thiết bị Butei. Nhân vật thuộc ban này: Aya Hiraga.
+
+Logi 「車輌科」(Đội lưu chuyển): Chịu trách nhiệm lái các loại phương tiện giao thông vận tải (đường bộ, đường biển, đường hàng không). Nhân vật thuộc ban này: Gouki Mutou.
+
+Connect 「通信科」(đội liên lạc): Sử dụng các thiết bị thông tin liên lạc để cung cấp các thông tin. Nhân vật thuộc ban này: Misaki Nakasochira.
+
+Informa 「情報科」 (đội thông tin): Sử dụng các thiết bị xử lý thông tin để biên soạn và phân loại thông tin nhận được. Nhân vật thuộc ban này: Jeanne D'Arc.
+
+Medica 「衛生科」 (đội y dược): Phụ trách chăm sóc y tế và các hoạt động cứu hộ trong Butel.
+
+Ambulace 「救护 科」: Phục vụ trong các bệnh viện tương lai. Phải có đầy đủ kinh nghiệm từ các hoạt động cứu hộ. Có nhiệm vụ đào tạo các bác sĩ sau này.
+
+SSR 「超 能u21147 力 捜 查 研究所」: SSR là viết tắt của Nghiên cứu tìm kiếm năng lực siêu nhiên ( Supernatural Searching Research). Những người ở đây đều phải có năng lực siêu nhiên. Công việc của họ là điều tra tội phạm mang năng lực siêu nhiên. Nhân vật thuộc ban này: Shirayuki Hotogi.
+
+CVR 「特殊 捜 查 研究 科」: Viết tắt của Civetta Reseach. Chỉ có những cô gái với vẻ đẹp đặc biệt mới có thể tham gia ban này.Họ được đào tạo cách sử dụng sắc đẹp của mình để bắt tội phạm.
+
+Masters 「教務科」: Các giáo viên của Butei High. Các nhân vật thuộc ban này: Tsuzuri Umeko (Dagula), Sayanaki Tooru (Ambulace), Ranbyou (Assault), Nangou (Snipe), Chan Wu (Lezzad).

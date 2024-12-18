@@ -1,0 +1,365 @@
+Toàn tập
+
+Chương 02 - Đụng độ
+
+Độ dài: 3,233 từ - Lần cuối:
+
+11/11/2016 00:42:20
+
+- Bình luận: 0
+
+Vùng không gian gần Pezun.
+
+Một tia sáng màu đỏ chói lòa nổ tung ngay trước màn hình trong khoang lái, cảnh tượng cuối cùng mà phi công của GM III nhìn thấy trước khi chết. Một mobile suit với bộ trang bị lớn trên lưng đang trôi bất động phía đằng xa. Dường như nó là một mobile suit đã bị phi công bỏ đi. Một EWAC (Cảnh báo sớm và chỉ huy) Nero. Vào lúc đó, nó đang quan sát tất cả các hoạt động gần đấy và thu thập dữ liệu chiến đấu từ mọi hướng. Sĩ quan tác chiến điện tử bên trong EWAC Nero nhìn chăm chú vào các khung hình hiển thị tình huống.
+
+r-Kẻ Địch
+
+g-Đồng minh
+
+*-Phát Nổ
+
+Di Chuyển  Di Chuyển  Di Chuyển
+
+r r
+
+* g
+
+g g g
+
+g
+
+Di Chuyển  Di Chuyển  Di Chuyển
+
+* *
+
+* * r *
+
+g r
+
+Di Chuyển  Di Chuyển  Di Chuyển
+
+Những chấm màu xanh lá trên màn hình biết mất từng cái một. Cuối cùng chỉ còn lại hai chấm đỏ.
+
+"Họ bị quét sạch trong năm phút!" Sĩ quan tác chiến điện tử hét lên.
+
+"Phải thoát khỏi đây thôi!" Phi công trả lời.
+
+EWAC Nero hoạt động trở lại ngay khi những tia lửa phát ra từ các động cơ. Hai chấm đỏ trên màn hình bắt đầu hướng về phía họ.
+
+"Thôi chết! Bị phát hiện rồi!" Phi công thực hiện động tác xoay về sau và bắt đầu rút lui thật nhanh. Vô số chấm đỏ xuất hiện trên màn hình, thậm chí còn có vài chấm vượt qua họ với tốc độ rất cao.
+
+"Lạy Chúa..."
+
+Ngay lúc phi công đang lẩm bẩm, sĩ quan tác chiến điện tử tiến hành tải toàn bộ dữ liệu Ada-F từ hệ thống của EWAC Nero.
+
+"Toàn bộ dữ liệu đã được chuyển vào các thiết bị lưu trữ!"
+
+"Được, bắt đầu thôi!" Phi công gõ mạnh vào nút trên bảng điều khiển bên tay phải. Bốn thiết bị lưu trữ dữ liệu bay ra từ bộ trang bị trên lưng của EWAC Nero và biến mất vào trong bóng tối. Ngay sau đó, hai tia beam màu đỏ xuyên thủng phần hông của EWAC Nero. Một quả cầu màu xanh dương bùng nổ dữ dội và soi sáng hai mobile suit màu xanh dương ở gần đấy.
+
+"Là một mẫu trinh sát điện tử mới. Có vẻ nó đã phóng các thiết bị lưu trữ dữ liệu rồi." Tosh Cray xác nhận.
+
+"Vậy những GM lúc nãy chỉ là mồi để thu thập dữ liệu thôi sao?" Josh Offshore hỏi.
+
+"Hi sinh mạng sống vì thông tin chính là nét đặc trưng của chiến tranh. Nhớ rõ điều này."
+
+Offshore gật đầu. Cậu không nhận thức được những cái chết mà mình vừa gây ra. Với cậu thì chuyện này chẳng khác gì một trận đấu thể thao.
+
+*********************************************
+
+PENTA là trạm chuyển tiếp chính trên quỹ đạo Trái Đất của Liên Minh. Các bến đỗ cho tàu quân sự được thiết lập tại đầu bên kia của năm cột hình trụ được nối vào nó. Sau khi rời Trái Đất, Lực Lượng Đặc Nhiệm Alpha đã dừng lại ở nơi này để tiến hành kiểm tra bảo trì trước khi bắt đầu nhiệm vụ. Các thành viên còn lại, mobile suit, và trang thiết bị của họ cũng được đưa đến đây. Lúc này Ryu Roots đang rất hào hứng. Công việc của cậu ở Đơn vị Mobile Suit thử nghiệm vốn chỉ là tiến hành kiểm tra mô phỏng hệ thống điều khiển và độ an toàn của các mobile suit mới.
+
+Nhưng giờ cậu đã được bổ nhiệm làm phi công điều khiển mobile suit của Lực Lượng Đặc Nhiệm Alpha. Điều tốt đẹp đầu tiên xảy ra sau khi được chuyển sang Lực Lượng Đặc Nhiệm chính là sự thay đổi trong cấp bậc. Cậu được thăng lên thiếu úy vì căn cứ theo các điều luật khi thực hiện nhiệm vụ thì chỉ các sĩ quan mới được điều khiển mobile suit. Tuy nhiên, cậu vẫn luôn tự hỏi tại sao mình lại được chọn.
+
+Sau khi từ Trái Đất đến đây trên một tàu con thoi, Roots bắt đầu tìm phòng chỉ đạo chiến thuật dành cho đơn vị của mình. Cậu tìm trong hệ thống thông tin tự động. Sau khi nhập "Lực Lượng Đặc Nhiệm Alpha—Đơn vị mobile suit—Phòng chỉ đạo chiến thuật", màn hình máy tính hiển thị một bản đồ 3D với các đường hướng dẫn màu vàng.
+
+Bản Đồ  Bản Đồ  Bản Đồ  Bản Đồ  Bản Đồ  Bản Đồ
+
+Khu vực: Khu có trọng lực thứ nhất
+
+Tầng: 23
+
+Số phòng: 1-23-1006
+
+Thời gian: 1300-1600 GMT
+
+Hãy theo hướng dẫn trên bản đồ
+
+Bản Đồ  Bản Đồ  Bản Đồ  Bản Đồ  Bản Đồ  Bản Đồ
+
+Một giọng nữ từ hệ thống hỏi: "Anh có muốn một bản sao không?
+
+"Không, cám ơn!" Roots bước vội đi.
+
+"Không có gì"
+
+"Tôi là đại úy Stole Mannings, là người sẽ chỉ huy đơn vị mobile suit của Lực Lượng Đặc Nhiệm Alpha . Mời mọi người ngồi."
+
+Các phi công trong phòng im lặng và nhìn về phía Mannings. Roots nhìn thấy Shin Crypt và ngồi xuống bên cạnh cậu ta.
+
+"Nè Shin, mày thấy thằng già này thế nào?"
+
+"Cha này có mùi khó chịu của một thằng lính. Chắc là khó gần đây."
+
+"Tao thì thấy lão có vẻ thú vị."
+
+"Mày có hứng với đàn ông từ bao giờ thế?" Shin nheo mắt.
+
+"Thằng ngu, ý tao là có hứng phá lão kìa!"
+
+Dù họ chỉ nói thầm nhưng Mannings vẫn nghe được. Anh nhìn về phía Roots. Roots thấy Mannings nhìn mình nên giả bộ nghiêm túc.
+
+"Im lặng. Giờ tôi sẽ trình bày vắn tắt nhiệm vụ cho các cậu."
+
+Cánh cửa đột nhiên mở ra. Một chàng trai cao lớn với vẻ mặt bối rối đang đứng bên ngoài.
+
+"À... Ừ... Xin lỗi."
+
+"Cậu thuộc đơn vị này à?" Mannings hỏi.
+
+Chàng trai cao lớn gật đầu.
+
+"Vậy thì bước vào và ngồi xuống đi!"
+
+"Vâng... um ... hết chỗ ngồi rồi..."
+
+Mannings hơi bực mình.
+
+"Vậy thì ngồi xuống sàn! Tên cậu là gì?"
+
+"Tôi là thiếu úy Tex West."
+
+Mannings nhìn vào danh sách: "Ồ, cậu đến từ Karaba....." Trong Cuộc xung đột Gryps, Karaba là một trong những đồng minh của A.E.U.G.. Tất cả hoạt động của họ chỉ giới hạn trên Trái Đất. Nhiều người trong phòng cười thầm. Lực Lượng Đặc Nhiệm Alpha được giao một nhiệm vụ trong không gian, đưa một tên chưa bao giờ thoát khỏi mặt đất đến đây làm gì. Sau khi West tự tìm một chỗ trống và ngồi xuống, màn hình hiển thị hình ảnh của tiểu hành tinh Pezun và lộ trình quỹ đạo của nó.
+
+Mannings nói tiếp: "Một tháng trước, các thành viên của Đội Hướng Dẫn Viên đóng quân tại đây đã phản bội theo Titans và chiếm quyền kiểm soát Pezun. Sau đó họ dùng các động cơ xung hạt nhân để đẩy tiểu hành tinh Pezun đến vị trí L4. Theo phân tích của chúng tôi, mục đích của họ tuyệt đối không phải là cho Pezun rơi xuống Trái Đất. Hiện vẫn chưa rõ mục đích của họ là gì nhưng chắc chắn họ sẽ chống đối Liên Minh và A.E.U.G.."
+
+Hình ảnh trên màn hình thay đổi.
+
+"Một tuần trước, Đơn Vị Chiến Đấu 127 đóng quân tại Side 2 đã được cử tới Pezun để tiến hành một nhiệm vụ trinh sát. Đây là thông tin chúng tôi thu thập được sau khi họ bị tiêu diệt. Không may là chúng tôi chỉ thu được một thiết lưu trữ dữ liệu."
+
+Màn hình cho thấy hai chấm màu đỏ đang tiếp cận sáu chấm màu xanh lá cây. Các chấm màu xanh lá cây lần lượt biến mất.
+
+Bị Tiêu Diệt Bị Tiêu Diệt Bị Tiêu Diệt Thời gian: 00:04:35:51 Bị Tiêu Diệt Bị Tiêu Diệt Bị Tiêu Diệt
+
+"4 phút 35 giây! Có lộn không vậy!" Roots hét lên.
+
+Các thành viên khác trong phòng cũng có phản ứng tương tự.
+
+"Không đùa đâu. Tất cả đều là thật."
+
+"Đây chính là kẻ địch của chúng ta. Nhớ kỹ đấy."
+
+Hình ảnh trên màn hình tách ra thành sáu ô khác nhau, mỗi ô hiển thị các chuyển động của từng mobile suit.
+
+"Các cậu nên biết kẻ địch của chúng ta là những người chịu trách nhiệm phát triển dữ liệu chiến đấu cho hệ thống IMPC. IMPC của họ hơn hẳn những gì chúng ta đang có."
+
+"Cơ hội sống sót duy nhất của chúng ta nằm trong những dữ liệu chiến đấu mới nhất do các thành viên của Đội Hướng Dẫn Viên đã trở lại Trái Đất cung cấp."
+
+"Nghĩa là tụi này chỉ sống lâu hơn đội GM đó một chút thôi." Roots thầm nói đùa.
+
+Mannings phải mất hơn ba giờ để giải thích các chi tiết và hướng dẫn cho nhiệm vụ.
+
+"Lực Lượng Đặc Nhiệm Alpha sẽ xuất phát từ PENTA vào lúc 0300 theo giờ chuẩn Trái Đất. Tất cả thành viên phải có mặt trên chiến hạm được chỉ định vào lúc 2200. Giải tán."
+
+*********************************************
+
+0300 theo giờ chuẩn Trái Đất.
+
+Khi tất cả thành viên đều đã có mặt trên các chiến hạm, Pegasus III và bốn chiến hạm lớp Salamis Kai lên đường thực hiện nhiệm vụ. Sau khi gặp mặt tất cả thuyền viên trên Pegasus III, Roots và Crypt đến phòng ăn tập thể để uống cà phê.
+
+"Đệt, bọn mình dính luôn với thằng già đó!"
+
+"Sếp của đội mobile suit thì ở hạm chỉ huy là phải đạo rồi."
+
+"Sao mày lại được làm trung úy hả?" Root ghen tị vì cấp bậc của Crypt cao hơn cậu.
+
+"Vì tao được giao quyền chỉ huy đơn vị FAZZ."
+
+"Hiểu chết liền đấy. Hay là tao với mày đổi chỗ."
+
+"Chỗ này là quân đội, người ta bảo sao thì làm vậy đi."
+
+"Nhảm vãi."
+
+Text West bước vào. Cậu sẽ điều khiển một Z-Plus.
+
+"Này, đại úy Mannings sắp tiến hành huấn luyện rồi. Anh ta muốn tất cả có mặt trong phòng chờ."
+
+"Huấn luyện á? Tao còn chưa cất hành lý. Nói với lão là tao không đến được." Roots vẫy tay bảo West đi chỗ khác.
+
+"Nhưng..."
+
+"Không nhưng nhị gì hết, cứ nói với lão như thế." Roots ném cốc cà phê về phía West.
+
+Cốc cà phê bay qua người West và rơi trúng vào mặt Mannings, người đang đi đến từ phía sau.
+
+"Nếu cậu nghĩ hành lý quan trọng hơn mạng sống thì đừng luyện tập làm gì cho mất công." Sau đó Mannings kéo ống quần bên phải lên. "Còn nếu cậu cũng muốn một cái giống thế này thì..."
+
+Roots nhìn thấy cái chân nhân tạo.
+
+"Đây là bài học tôi nhận được từ One Year War. May mà cái giá phải trả chỉ là một cái chân. Cậu muốn một cái giống thế này không?"
+
+"Cậu có thể tự tin vào bản thân mình nhưng tôi chỉ hi vọng cậu không làm liên lụy đến những người khác trong đội!"
+
+Roots cảm thấy khó chịu. "Được rồi. Đi thì đi! Mở to mắt mà xem trình độ của thằng này nhé!" Roots bước vội ra khỏi phòng ăn.
+
+“Đồ nhãi ranh! Nếu mày không phải người được chọn cho S Gundam thì tao đã bóp cổ mày rồi? Mannings nghĩ. “Nghe nói đám Newtype toàn những đứa như thế. Không lẽ thằng nhãi đó cũng là Newtype? Anh cảm thấy khó chịu với suy nghĩ này.
+
+*********************************************
+
+Vào lúc việc huấn luyện đang diễn ra, hạm đội bắt đầu tiến vào tầm radar của Pezun.
+
+Kẻ Địch Kẻ Địch Kẻ Địch Kẻ Địch Kẻ Địch
+
+Phát hiện chiến hạm:
+
+Chiến hạm không gian công kích lớp Agama---1
+
+Chiến hạm lớp Salamis Kai-------4
+
+Tỉ lệ chiến đấu: 1:0.987
+
+Kẻ Địch Kẻ Địch Kẻ Địch Kẻ Địch Kẻ Địch
+
+"Hạm đội của Quân Đội Liên Minh đã vào tầm radar. Xác nhận có năm chiến hạm." Điều khiển viên báo cáo với Cray. Pezun đã làm việc cả ngày lẫn đêm để chuẩn bị hệ thống phòng thủ nhưng vẫn chưa hoàn thành.
+
+"Chúng ta vẫn chưa sẵn sàng để đấu với chúng. Có tìm được dữ liệu nào về chỉ huy của hạm đội đó không?"
+
+"Để tôi thử xem. Có lẽ dữ liệu sẽ hơi cũ vì chúng ta không thể kết nối với hệ thống máy tính của Liên Minh được nữa."
+
+Lí Lịch Lí Lịch Lí Lịch Lí Lịch Lí Lịch
+
+Chiến hạm: Pegasus III-Chiến hạm không gian công kích lớp Agama
+
+Hạm trưởng: Eton F. Heathrow
+
+Cấp bậc: Thiếu tá
+
+Tình trạng: Chưa có kinh nghiệm
+
+Dữ liệu từ hồ sơ của Học Viện Quân Sự thuộc Quân Đội Liên Minh
+
+0083-014863.
+
+Lí Lịch Lí Lịch Lí Lịch Lí Lịch Lí Lịch
+
+"Có lẽ chỉ là một gã đạt thành tích cao tại trường quân sự của Liên Minh nhưng chưa có nhiều kinh nghiệm. Chắc hắn cứ y theo sách mà chiến đấu thôi. Có thể hạm đội này chỉ là một cái mồi nhử khác."
+
+"Có thông tin về đơn vị mobile suit của chúng không?
+
+"Đó là một chiến hạm hoàn toàn mới. Chúng ta không có dữ liệu chiến đấu của nó."
+
+"Không sao, chắc cũng toàn một lũ gà mờ thôi. Cho đội mobile suit xuất phát. Bảo trung úy Offshore và đơn vị của cậu ta kìm hãm tốc độ tiếp cận của địch."
+
+Sau khi nhận lệnh trực tiếp từ Brave Cod, Offshore và đội của cậu bắt đầu chuẩn bị trong kho mobile suit. Tổ bảo trì đã cài đặt trang bị phụ trợ tấn công tầm xa cho các Xeku Eins.
+
+"Josh Offshore, Đội công kích thứ nhất, xuất phát!"
+
+Các Xeku Eins hướng về phía Lực Lượng Đặc Nhiệm Alpha.
+
+"Trì hoãn kẻ địch và dò xét thực lực của chúng. Đừng cố gắng quá," giọng của Cod vang lên trong khoang lái. Offshore mỉm cười.
+
+"Trung úy Shin Crypt. Hãy đến khoang mobile suit."
+
+Giọng nói vang lên từ cái loa kế bên tai của Crypt vào lúc 0060 giờ.
+
+"Đệt, mình ghét kiểu báo thức này."
+
+Crypt vừa gãi đầu vừa tháo các sợi dây đang cột mình vào giường. Sau khi mặc đồ phi công, cậu hướng đến phòng đợi dành cho phi công ở khoang mobile suit. Vừa bước vào phòng thì cậu đã thấy vẻ mặt nghiêm túc của Mannings.
+
+"Đến lúc chiến đấu rồi, trung úy Crypt."
+
+Crypt cũng trở nên nghiêm túc.
+
+"Là mục tiêu à?"
+
+"Hạm đội đang ở trong tầm radar của Pezun. Địch đã cho đội mobile suit của chúng xuất phát để đánh chặn chúng ta. Với khoảng cách này thì chúng sẽ không đủ năng lượng để đến tận đây nên có lẽ chúng sẽ tấn công từ xa. Dùng các khẩu pháo hay tên lửa của các chiến hạm để bắn hạ những mục tiêu nhỏ như thế thì không mấy hiệu quả nên đơn vị FAZZ của cậu sẽ tấn công với các vũ khí beam tầm xa."
+
+"Rõ!"
+
+"Đừng quá hăng hái lập công. Cứ làm hết sức mình là được."
+
+Sau khi chào xong, Crypt hướng đến kho mobile suit. Ngay khi vào khoang lái, cậu liền khởi động bộ điều khiển liên lạc laser. Một cửa sổ nhỏ xuất hiện trên màn hình 360 độ. Crypt nhìn thấy thiếu úy John Grissom trên màn hình.
+
+"Tỉnh ngủ chưa?"
+
+"Ờ. Tỉnh rồi. Aldrin đâu?"
+
+"Đang chuẩn bị. Cậu ta sẽ yểm trợ cho chúng ta."
+
+"Được!"
+
+Cryprt chuyển màn hình sang phòng điều khiển của Pegasus III.
+
+"Đơn vị FAZZ, sẵn sàng xuất phát!"
+
+Hai FAZZ được trang bị Hyper Mega Cannon lao vào không gian. Ngay khi họ tiến vào tầm bắn của đối phương, Crypt nhìn thấy các tia sáng màu đỏ bất ngờ lao về phía mình.
+
+"Lùi lại! Khuếch đại tối đa phạm vi dò tìm!" Crypt phá vỡ sự im lặng trên radio.
+
+Cả hai FAZZ lùi ra khỏi tầm bắn bằng các động cơ đẩy ở phía trước.
+
+"Có biết chúng bắn từ đâu không?"
+
+Crypt kiểm tra kết quả lần dò tìm vừa rồi trên màn hình.
+
+Vị Trí Vị Trí Vị Trí Vị Trí
+
+r r
+
+0
+
+r r
+
+*********************************************
+
+Kẻ địch trong tầm bắn: 4
+
+Vị Trí Vị Trí Vị Trí Vị Trí
+
+"Bốn mục tiêu trong tầm bắn! Đừng rời mắt khỏi chúng!"
+
+"Những tia beam ban nãy là do chúng bắn bừa thôi. Tầm bắn của chúng ta chắc chắn xa hơn chúng." Grissom bình tĩnh trả lời.
+
+"Được rồi! Grissom, tôi sẽ bắn phát đầu tiên. Cậu cứ theo đấy mà tăng hoặc giảm năm độ rồi bắn phát tiếp theo."
+
+Crypt đưa khẩu Hyper Mega Cannon vào vị trí. Một tia beam màu xanh dương hung hãn được bắn ra và lao vào bóng tối, sau ba giây thì biến mất hẳn.
+
+"Đệt! Hụt rồi!"
+
+Grissom lập tức điều chỉnh và bắn phát thứ hai. Hai FAZZ phải bắn luân phiên vì thời gian nạp năng lượng của khẩu Hyper Mega Cannon khá lâu. Nếu chiến thuật này được áp dụng hoàn hảo thì đây chính là vũ khí beam mạnh nhất mà Pegasus III sở hữu.
+
+"Gì thế này? Không lẽ chúng dùng các khẩu pháo của chiến hạm?" Josh Offshore giật mình vì tia beam màu xanh dương bay vụt qua phía trên.
+
+“Theo sức mạnh và tầm bắn của những tia beam đó thì có thể chúng được bắn ra từ các chiến hạm? Offshore nghĩ. “Nhưng chiến hạm vốn không có khả năng nhắm thật chính xác vào các mục tiêu nhỏ như mobile suit?
+
+Chỉ có hai kết luận: kẻ địch sở hữu một mobile armor khổng lồ hoặc chúng có các mobile suit được trang bị vũ khí beam hạng nặng.
+
+"Vậy là chúng cũng muốn chiến đấu tầm xa..."
+
+Cả hai phe bắn những tia beam về phía đối phương. Những tia sáng màu đỏ và xanh dương bay vụt qua nhau, để lại những dãy bụi không gian bị bốc hơi trên đường đi của chúng. Tuy nhiên, độ chính xác rất thấp vì cả hai phe cách nhau đến hàng dặm.
+
+Vũ Khí Vũ Khí Vũ Khí Vũ Khí
+
+Năng lượng của lò phản ứng ở mức thấp
+
+Khả năng bị thiệt hại nếu tiếp tục: 89.657889%
+
+Hãy chọn vũ khí khác
+
+*********************************************
+
+Tiếp tục sử dụng sẽ khiến cỗ máy bị thiệt hại
+
+Vũ Khí Vũ Khí Vũ Khí Vũ Khí
+
+"Mẹ, hết năng lượng rồi!" Crypt bực mình vì thông tin trên màn hình.
+
+"Tôi cũng thế. Có nên gọi Aldrin đến chi viện không?"
+
+"Thôi, không cần đâu."
+
+Crypt phát hiện kẻ địch đã rút khỏi tầm bắn của họ. Tất cả chấm đỏ đã biến mất khỏi màn hình.
+
+Ở phía bên kia, Offshore nhận được mật lệnh: "Khu vườn đã được trang hoàng."
+
+Cậu cùng đơn vị của mình trở về Pezun, thỏa mãn vì đã hoàn thành nhiệm vụ.

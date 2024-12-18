@@ -1,0 +1,91 @@
+Tập 1
+
+File 06: 385D
+
+Độ dài: 1,552 từ - Lần cuối:
+
+11/11/2016 00:42:11
+
+- Bình luận: 1
+
+Tôi được dẫn tới đây bởi con số mà tôi bị nguyền rủa .
+
+“...Tôi không hiểu anh muốn nói cái gì cả.”
+
+“Tôi cũng hoàn toàn không hiểu chuyện gì đã xảy ra với tôi đây này.”
+
+Tôi đang ở trong một quán cafe cách nhà ga một chút. Tôi đang nói chuyện với người phụ nữ và cũng là khách hàng duy nhất khác của quán.
+
+Đúng vậy.
+
+Tôi không hiểu nó có nghĩa là gì, nhưng tôi biết nó phải có nghĩa gì đó. Lúc nào cũng là như vậy. Đây cũng chỉ là một điểm dừng khác trong một chuỗi những sự kiện.
+
+“385D. Con số đó đã ở quanh tôi một thời gian dài. Lần đầu tiên, tôi nhận được một bức thư rác với con số đó ở trên. Khi tôi lục soát lô đất tại cột 38 và dòng 5D trên bản đồ, tôi tìm thấy một cái đĩa nhựa. Khi tôi để đồ đạc của tôi trong phòng giữ hành lý của khách sạn, tủ của tôi có mã #385. Ký tự D là từ chữ ‘deposit’(đặt cọc). Đó chỉ ra rằng đồ đạc của tôi được xem như có giá trị cao hơn so với hành lý thông thường.”
+
+Sau đó, 385D cứ đều đặn theo quanh tôi. Khi tôi thấy một quả boom hẹn giờ và chả biết làm gì, tôi ngẫu nhiên nhập vào số 385D và cái đồng hồ dừng lại. Tôi đã từng sử dụng tia hồng ngoại ở góc tới 38,5 độ để trao đổi dữ liệu . Ký tự D gắn với bước sóng của cái đèn dùng khi trao đổi dữ liệu. Nó đại diện cho ‘deep blue’ (xanh thẫm)
+
+“Vậy ra trong lúc anh đang theo đuổi số 385D hoặc bị số 385D đuổi theo, anh tiến tới quán cafe này?”
+
+“Cô không tin tôi. Thôi được, nhìn vào số hiệu của cái bàn này đi.” Tôi chỉ vào một mẩu giấy nhỏ dán trên cạnh bàn.
+
+Tôi không cần phải nói tiếp nữa.
+
+“Nó ghi 3-85-D”
+
+“Đó chính là 385D. Con số đó ở khắp mọi nơi.”
+
+Tôi đã do dự có nên ngồi cạnh cô ấy không, nhưng chủ quán cafe đã nhìn trừng trừng tôi đầy nghi ngờ trong khi tôi cứ đứng lúng túng như vậy. Tôi nhanh chóng ngồi xuống dưới áp lực từ cái nhìn của ông ta. Người phụ nữ có vẻ không mấy để ý về chuyện tôi ngồi cạnh cô ta.
+
+“Nói cho tôi. Cô có những gì? Từ những gì đã xảy ra với tôi cho tới bây giờ, tôi phải giả sử rằng cô có thứ gì đó liên quan tới bức tranh hoàn chỉnh về 385D. Cho dù đó có lẽ chỉ là một mảnh nhỏ. Tôi muốn cô nói cho tôi biết đó là cái gì. Tôi phải làm gì tiếp theo?”
+
+“Sao anh lại nghĩ tôi có thứ như vậy?”
+
+“Tôi gặp cô trong khi theo đuổi 385D.”
+
+“Thế nếu tôi nói rằng tôi không biết gì về nó cả?” cô ấy nói đầy êm ái.
+
+Giọng của cô ấy tạo cho tôi cảm giác rằng cô ấy sẽ cư xử y như vậy dù có đang được chiêm ngưỡng tận cùng của thế giới.
+
+“Vậy tôi sẽ từ bỏ ở đây thôi. Nhưng tôi nghi ngờ chuyện đó đấy. Tôi đã đi xa tới mức này. Dù tôi có muốn hay không, 385D luôn cho tôi câu trả lời. Tôi chắc chắn có thể thông qua kỳ thi tuyển sinh đại học hay mở khóa trên cổng Nhà Trắng bằng cách dùng 385D. Đó là cái cách mà cuộc đời tôi diễn ra kể từ ngày đó.”
+
+Ánh nhìn của người phụ nữ thay đổi dù rất nhỏ.
+
+Cô ấy nhấm nháp từng ngụm cà phê mà tôi không biết tên và nói,”Tôi hiểu. Chuyện này rất thú vị, nhưng làm sao anh có thể tới địa chỉ quán cafe này? Địa chỉ của nó khá là khác so với 385D đấy chứ.”
+
+“Đó cũng là một trò mẹo. Tôi bắt đầu với 385 và D. Nếu tôi muốn dùng ký tự D như một con số, tôi phải chuyển nó sang hệ thập lục phân. Nó cũng có nghĩa là cô không thể nghĩ 385 trực tiếp là 385. Nếu cô chuyển số 385D từ số thập phân sang số thập lục phân...” (Chú thích: base 16: Hệ thập lục phân. Nếu hệ thập phân là hệ tạo ra các số từ 10 con số 1,2,3,4,5,6,7,8,9,0 thì hệ thập lục phân tạo ra các số từ 16 ký tự 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F . Hệ thập lục phân thường được dùng trong tin học.)
+
+Biểu cảm trên mặt người phụ nữ không hề thay đổi khi tôi nhanh chóng giải thích. Cô ta đã nói cô ta thấy nó khá thú vị, nhưng trông cô tả chả có tí thích thú nào. Chà, thôi kệ. Tôi giải thích quá trình cộng, trừ, nhân và chia.
+
+“....và sau tất cả 385D chuyển thành 12-9-41, thứ vừa vặn chỉ tới địa chỉ quán cafe này. Và người duy nhất ngồi trong quán cafe này là cô, ngồi trên cái bàn có số hiệu 3-85-D.”
+
+“Tôi hiểu rồi. Quả thật có vẻ như anh đã kẹt trong chuyện gì đó khá kỳ quặc. Nhưng đối với tôi có vẻ cái thư rác ban đầu anh nhận được có thể có mục đích đáng ngờ hơn ẩn trong đó.”
+
+“Vậy số 385D tiếp theo cô muốn dành cho tôi là gì? Cô có biết không?”
+
+“Tôi nói chuyện này kỳ quặc, nhưng tôi chưa từng nói rằng tôi thấy con số 385D có gì kỳ quặc. Thực tế, bản thân 385D chả có ý nghĩa gì cả.”
+
+“…?”
+
+Tôi im lặng và người phụ nữ tiếp tục nói.
+
+“Để tôi kiểm tra vài vấn đề này trước. Anh nói anh đã bị bám theo bởi số 385D suốt từng đấy thời gian đúng không? Nó không phải là con số gì khác. Nó chính là con số 385D từ đó tới nay. Và sự tình cờ liên tục này khiến anh thấy kỳ lạ, đúng không?”
+
+“Đúng. Đó chính là cái tôi muốn giải thích cho cô từ nãy tới giờ! 385D ở bất cứ đâu quanh tôi!!”
+
+“Nhưng 385D, 3.85D và 38-5-D tất cả đều hoàn toàn khác nhau đối với tôi.”
+
+“Cái gì cơ...?”
+
+“Đúng là như vậy, phải không? Khi đi làm, anh thấy tiền lương 55,000 yên một tháng và 5,500 yên một tháng là giống nhau à? Đặt 385 sang một bên đã, còn D thì sao? Con số mất sạch mọi ý nghĩa khi anh đặt một ký tự bảng chữ cái vào. Nếu anh trông đợi vào việc chuyển nó sang mã thập lục phân như khi nãy, có thể nó sẽ hiệu quả, nhưng không phải lúc nào cũng chuyển sang mã 16 như vậy, giờ hiểu chưa?” Người phụ nữ nâng ngón trỏ lên. “Cái đáng nói ở đây là địa chỉ quán cafe này. Anh cố tình biến một con số rõ ràng chả liên quan gì với 385D trở thành một. Anh thực hiện đinh thực hiện lại các phép tính để khiến cho nó phù hợp. Đây chính là sự thật ẩn sau đó. Anh không phải đang bị theo đuổi bởi số 385D. Có người đã khiến anh liên kết mọi con số anh thấy tới 385D.”
+
+“Khiến tôi...? Vậy ra 385D vốn chưa từng ở đó...?” Tôi nói giọng trống rỗng.
+
+Với ngón trỏ vẫn dơ lên cao, người phụ nữ nói,”Cái mà tôi thấy kỳ lạ ở đấy là ‘cái thứ’ đã khiến anh kẹt vào trong quan niệm anh đang bị theo sát bởi số 385D. Tôi không rõ người làm chuyện này muốn gì và họ làm chuyện đó như thế nào, nhưng nếu họ có thể khiến 385D khớp hoàn toàn với những thứ khác nhau, nó có thể được dùng cho một nghi lễ thờ cúng hay đại loại thế. Họ có thể tuyên bố rằng mọi thứ trên thế giới này đều liên quan tới ‘thứ gì đó’ và tất cả những vấn đề của anh đều có thể giải quyết dựa vào ‘thứ gì đó’. Anh có lẽ đã bị dính vào cuộc thí nghiệm nào đó được tiến hành bởi những người nguy hiểm rồi.”
+
+“Chờ đã, chuyện này còn tệ hơn cả chuyện bị theo đuổi bởi một con số. Cái gì vậy? Chuyện gì đang xảy ra với tôi? Sao tôi lại dính vào vụ này!?”
+
+“Nghe này.” Người phụ nữ đứng dậy với một nụ cười nhẹ trên môi. “Tôi chỉ đang giết thời gian sau khi hoàn thành một ‘công việc’. Tôi đoán tôi có thể giải bài toán 385D này cho anh để tiếp tục giết thời gian.”
+
+“Ý cô là gì khi nói là ‘công việc’? Oh, đúng rồi. Chính xác cô là ai?”
+
+“Có vẻ như nhờ vào ảnh hưởng của 385D mà anh lấn sâu vào cuộc nói chuyện này mà không hỏi.” Người phụ nữ dừng lại một lát. “Có thể nói rằng ‘công việc’ mà có vẻ như đang theo đuổi tôi mang ý nghĩa sâu xa hơn một con số nào đó nhiều.”
