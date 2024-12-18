@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
-import './BottomNav.css';
+// import './BottomNav.css';
+import styles from './BottomNav.module.scss';
 import genresData from '../../../data_and_source/Novel_Data/genres.json';
 
 function BottomNav() {
@@ -17,7 +18,7 @@ function BottomNav() {
   const [tooltipContent, setTooltipContent] = useState('');
   const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
   const navigate = useNavigate();
-  const [isAfterBanner, setIsAfterBanner] = useState(true);
+  // const [isAfterBanner, setIsAfterBanner] = useState(true);
 
   const organizeGenresInColumns = (genres, numColumns = 3) => {
     const itemsPerColumn = Math.ceil(genres.length / numColumns);
@@ -92,11 +93,11 @@ function BottomNav() {
         const shouldStick = scrollY + topNavHeight >= originalPositionRef.current;
 
         if (shouldStick) {
-          navRef.current.classList.add('sticky');
+          navRef.current.classList.add(styles.sticky);
           navRef.current.style.top = `${topNavHeight}px`;
           wrapperRef.current.style.paddingBottom = `${navRef.current.offsetHeight}px`;
         } else {
-          navRef.current.classList.remove('sticky');
+          navRef.current.classList.remove(styles.sticky);
           navRef.current.style.top = '0';
           wrapperRef.current.style.paddingBottom = '0';
         }
@@ -157,100 +158,104 @@ function BottomNav() {
     setShowGenres(false);
   };
 
-  return (
-    <>
-      <div 
-        className={`bottom-nav__wrapper ${!isHomePage ? 'bottom-nav__wrapper--compact' : ''}`} 
-        ref={wrapperRef}
+return (
+  <>
+    <div 
+      className={`${styles['bottom-nav__wrapper']} ${!isHomePage ? styles['bottom-nav__wrapper --compact'] : ''}`} 
+      ref={wrapperRef}
+    >
+      <nav 
+        className={`${styles['bottom-nav']} ${!isHomePage ? styles['bottom-nav--compact'] : ''}`} 
+        ref={navRef}
       >
-        <nav 
-          className={`bottom-nav ${!isHomePage ? 'bottom-nav--compact' : ''}`} 
-          ref={navRef}
-        >
-          <div className="bottom-nav__container">
-            <ul className="bottom-nav__list">
-            <li 
-              className="bottom-nav__item genres-container" 
-              key="genres"
-              ref={genresRef}
-              onMouseEnter={handleGenresMouseEnter}
-              onMouseLeave={handleGenresMouseLeave}
+        <div className={styles['bottom-nav__container']}>
+          <ul className={styles['bottom-nav__list']}>
+          <li 
+            className={styles['bottom-nav__item genres-container']} 
+            key="genres"  
+            ref={genresRef}
+            onMouseEnter={handleGenresMouseEnter}
+            onMouseLeave={handleGenresMouseLeave}
+          >
+            <div 
+              className={styles['bottom-nav__link']}
+              style={{ cursor: 'pointer' }}
             >
-              <div 
-                className="bottom-nav__link"
-                style={{ cursor: 'pointer' }}
-              >
-                <i className="fas fa-tags"></i>
-                Thể loại
-                <i className={`fas fa-chevron-${isHovered ? 'up' : 'down'} ml-1`}></i>
-              </div>
-              
-              <div  
-                className={`genres-dropdown ${showGenres ? 'show' : ''} ${dropdownPosition === 'up' ? 'dropdown-up' : 'dropdown-down'}`}
-              >
-                  <div className="genres-list">
-                    {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
-                    <ul key={`column-${colIndex}`} className="genres-column">
-                      {column.map((genre) => (
-                        <li 
-                          key={`genre-${genre.id}-${colIndex}`}
-                          onMouseEnter={(event) => handleMouseEnter(event, genre.description)}
-                          onMouseLeave={handleMouseLeave}
+              <i className="fas fa-tags"></i>
+              Thể loại
+              <i className={`fas fa-chevron-${isHovered ? 'up' : 'down'} ml-1`}></i>
+            </div>
+            
+            <div  
+              className={`${styles['genres-dropdown']} ${
+                showGenres ? styles['show'] : ''
+              } ${
+                dropdownPosition === 'up' ? styles['dropdown-up'] : styles['dropdown-down']
+              }`}
+            >
+                <div className={styles['genres-list']}>
+                  {organizeGenresInColumns(genresData.genres).map((column, colIndex) => (
+                  <ul key={`column-${colIndex}`} className={styles['genres-column']}>
+                    {column.map((genre) => (
+                      <li 
+                        key={`genre-${genre.id}-${colIndex}`}
+                        onMouseEnter={(event) => handleMouseEnter(event, genre.description)}
+                        onMouseLeave={handleMouseLeave}
+                      >
+                        <button
+                          className={styles['genre-item']}
+                          onClick={() => handleGenreClick(genre.id, genre.slug)}
                         >
-                          <button
-                            className="genre-item"
-                            onClick={() => handleGenreClick(genre.id, genre.slug)}
-                          >
-                            {genre.name}
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  ))}
-                </div>
+                          {genre.name}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                ))}
               </div>
-            </li>
+            </div>
+          </li>
 
-            <li className="bottom-nav__item">
-              <NavLink to="/lich-phat-hanh" className="bottom-nav__link">
-                <i className="far fa-calendar-alt"></i>
-                Lịch phát hành
-              </NavLink>
-            </li>
-            <li className="bottom-nav__item">
-              <NavLink to="/dang-truyen" className="bottom-nav__link">
-                <i className="fas fa-upload"></i>
-                Đăng truyện
-              </NavLink>
-            </li>
-            <li className="bottom-nav__item">
-              <NavLink to="/cua-hang" className="bottom-nav__link">
-                <i className="fas fa-store"></i>
-                Cửa hàng
-              </NavLink>
-            </li>
-            <li className="bottom-nav__item">
-              <NavLink to="/bang-xep-hang" className="bottom-nav__link">
-                <i className="fas fa-trophy"></i>
-                Bảng xếp hạng
-              </NavLink>
-            </li>
-            <li className="bottom-nav__item">
-              <NavLink to="/quy-dinh" className="bottom-nav__link">
-                <i className="fas fa-book"></i>
-                Quy định
-              </NavLink>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    {tooltipContent && (
-      <div className="tooltip" style={tooltipPosition}>
-        {tooltipContent}
+          <li className={styles['bottom-nav__item']}>
+            <NavLink to="/lich-phat-hanh" className={styles['bottom-nav__link']}>
+              <i className="far fa-calendar-alt"></i>
+              Lịch phát hành
+            </NavLink>
+          </li>
+          <li className={styles['bottom-nav__item']}>
+            <NavLink to="/dang-truyen" className={styles['bottom-nav__item__link']}>
+              <i className="fas fa-upload"></i>
+              Đăng truyện
+            </NavLink>
+          </li>
+          <li className={styles['bottom-nav__item']}>
+            <NavLink to="/cua-hang" className={styles['bottom-nav__item__link']}>
+              <i className="fas fa-store"></i>
+              Cửa hàng
+            </NavLink>
+          </li>
+          <li className={styles['bottom-nav__item']}>
+            <NavLink to="/bang-xep-hang" className={styles['bottom-nav__item__link']}>
+              <i className="fas fa-trophy"></i>
+              Bảng xếp hạng
+            </NavLink>
+          </li>
+          <li className={styles['bottom-nav__item']}>
+            <NavLink to="/quy-dinh" className={styles['bottom-nav__item__link']}>
+              <i className="fas fa-book"></i>
+              Quy định
+            </NavLink>
+          </li>
+        </ul>
       </div>
-    )}
-  </>
-  );
+    </nav>
+  </div>
+  {tooltipContent && (
+    <div className={styles['tooltip']} style={tooltipPosition}>
+      {tooltipContent}
+    </div>
+  )}
+</>
+);
 }
 export default BottomNav;
