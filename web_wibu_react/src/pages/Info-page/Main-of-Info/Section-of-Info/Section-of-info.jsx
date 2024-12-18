@@ -3,6 +3,7 @@ import styles from './Section-of-Info.module.scss';
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
 import novelsData from '../../../../data_and_source/Novel_Data/novels_chapters.json';
+import { Link } from 'react-router-dom';
 
 function SectionOfInfo({ novel }) {
   SectionOfInfo.propTypes = {
@@ -190,14 +191,14 @@ function SectionOfInfo({ novel }) {
           <div className={styles["chapters-grid"]}>
             {chapters.map((chapter, index) => (
               <div key={index} className={styles["chapter-item-container"]}>
-                <a 
-                  href={`/read/${encodeURIComponent(novel["Tựa đề"])}/${encodeURIComponent(chapter.name)}`}
+                <Link 
+                  to={`/read/${encodeURIComponent(novel["Tựa đề"])}/${encodeURIComponent(chapter.name)}`}
                   className={styles["chapter-item"]}
                 >
                   <span className={styles["chapter-name"]}>
                     {formatChapterName(chapter.name, index)}
                   </span>
-                </a>
+                </Link>
               </div>
             ))}
           </div>

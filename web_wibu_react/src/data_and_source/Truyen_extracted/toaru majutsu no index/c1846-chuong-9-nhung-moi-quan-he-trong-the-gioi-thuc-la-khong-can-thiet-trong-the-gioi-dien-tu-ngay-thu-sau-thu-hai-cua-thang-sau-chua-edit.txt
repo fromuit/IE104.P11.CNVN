@@ -1,0 +1,217 @@
+SS Volume 2
+
+Chương 9: Những mối quan hệ trong thế giới thực là không cần thiết trong thế giới điện tử — Ngày Thứ Sáu Thứ Hai của Tháng Sáu. (chưa edit)
+
+Độ dài: 3,224 từ - Lần cuối:
+
+11/11/2016 00:41:11
+
+- Bình luận: 0
+
+(Người Gác Cổng ở đó. Đó là tại sao mình lại đang chiến đấu ở đây.)
+
+Kuyama Kihan là một tin tặc.
+
+Hắn là loại tin tặc không thực sự quan tâm tới sự khác biệt giữa tin tặc và người bẻ khóa mà các câu chuyện giả tưởng thường mang lại. Có lẽ hắn có thể được mô tả đơn giản hơn như là một tên tội phạm internet. Kuyama lần đầu chạm vào máy tính là vào những lớp thấp hơn ở trường tiểu học. Hắn đã ngẫu nhiên bấm vài phím và vô tình mở khóa mật khẩu dành cho giảng viên. Từ lúc đó, hắn đã hứng thú với những lỗ hổng của các hệ thống. Hắn đã nhìn vào rất nhiều thứ và lúc hắn học cấp ba hắn đã có một loại tiền án kì lạ.
+
+(Ở quanh đây à?)
+
+Kuyama đang ngồi trong một quán cà phê mở cửa bình thường có mạng LAN không dây. Hắn không định tạo ra bất cứ lỗi nào sẽ làm hắn bị “đối thủ” của mình theo dấu và, ngay cả khi hắn làm vậy, thì hắn cũng có thể làm giả nguồn gốc tín hiệu, nên có khả năng sẽ không sao cả, nhưng hắn vẫn không muốn "chiến đấu" ở nhà.
+
+Hắn gọi món tùy tiện với cô hầu bàn tươi cười tiếp cận hắn và rút ra cái máy tính xách tay của mình. Đây là “vũ khí” của Kuyama. Bề ngoài nó trông như một cái máy nhãn hiệu rẻ tiền, nhưng mọi thứ đã được thay thế từ tận lõi. Đây là bởi vì máy tính Thành Phố Học Viện có phân bậc an ninh định giới hạn từ D tới S và số nhà sản xuất được khắc vào chúng nên, ngay cả khi nguồn gốc tín hiệu bị làm giả, thì vẫn sẽ có nguy cơ bị phát hiện nếu không làm gì con số gắn trực tiếp vào LSI.
+
+(Mình không thường căng thẳng thế này.)
+
+Kuyama nhét chiếc thẻ thông tin khác với cái được tạo ra vào khe máy.
+
+(Mình đoán nó cũng không đáng ngạc nhiên cho lắm. Mình sắp xâm nhập vào hệ thống của Người Gác Cổng mà.)
+
+Người Gác Cổng giống một truyền thuyết đô thị hơn là một phần thông tin thực.
+
+Có một tin tặc tài giỏi trong số những người gìn giữ hòa bình của Thành Phố Học Viện. Tính bảo mật mà anh ta (hay cô ta) đã tạo ra nằm trong 10 hệ thống mạnh nhất Thành Phố Học Viện. Tuy nhiên, ban giám đốc lại không tin tưởng năng lực của người này và người này không được đưa vào phụ trách một hệ thống công cộng. Điều này đã tạo ra một tình huống lạ lùng mà cái văn phòng nhỏ mà tay tin tặc đó là một phần bên trong có tính phòng thủ mạnh hơn những ngân hàng dữ liệu chứa đựng tất cả dữ liệu của Thành Phố Học Viện.
+
+Nghe như loại trò đùa nào đó vậy.
+
+Thế giới tin tặc được tạo ra bởi những người mà không ai biết thân thế hay khuôn mặt. Không phải là bất thường khi ai đó tung tin đồn vô căn cứ gây rắc rối hay làm bản thân mình quan trọng hơn.
+
+Tuy nhiên, những tin đồn mơ hồ lại chứa đựng thông tin nhất định.
+
+Trong tuần qua, vài tin tặc khác mà hắn biết đã bị bắt. Từng người họ đều cố xâm nhập vào một hệ thống nọ.
+
+Hắn chưa thực sự gặp bất cứ ai, nhưng hắn biết những người này giỏi thế nào. Họ đã trò chuyện với nhau qua bản sửa đổi bất hợp pháp trạng thái của một trò chơi trực tuyến. Hắn không nghĩ ai đó với kĩ năng của những người này lại sẽ thảm bại khi xâm nhập vào một văn phòng Anti-Skill hay Judgment bình thường.
+
+Có gì đó ở đó.
+
+Rất có thể, “gì đó” đó là Người Gác Cổng.
+
+(Thực sự thì mình không muốn ăn cắp dữ liệu nào ở đó và mình không thực sự có thù oán với cái tên Người Gác Cổng này.)
+
+Theo luật của Thành Phố Học Viện, những hành động bất hợp pháp liên quan tới thông tin điện tử sẽ bị phạt tù lên tới 20 năm hoặc phạt tiền lên tới 50 triệu yên. Xâm nhập mà không có lí do không phải là rủi ro nhỏ.
+
+(Nhưng khóa chủ của mình phải là hoàn hảo. Nếu còn có một cánh cửa mà nó không thể mở, khóa chủ sẽ chẳng là gì ngoài rác rưởi.)
+
+Không phải là hắn ghét thua; hắn đang cố xé bỏ cái mác đã vô lí được gắn vào hắn.
+
+Hắn muốn tự do và hắn sẽ không cho phép ngay cả trở ngại nhỏ nhất cản đường tới mục đích đó.
+
+Đó là tại sao Kuyama Kihan, một tin tặc không trục lợi, hành động.
+
+Điều đầu tiên Kuyama làm không phải là làm giả ID của mình theo cách bí ẩn nào đó hay mở khóa một mật khẩu bằng cách gõ bàn phím với tốc độ chóng mặt.
+
+Hắn phân định phím tắt.
+
+(Mình nghĩ mình sẽ dùng Điều Kiện 3 hôm nay. Thực ra, có lẽ 4 hoặc 1 sẽ tốt hơn.)
+
+Hắn lướt qua danh sách chương trình hack hắn có và chọn những chương trình hắn sẽ sử dụng. Sau đó hắn sắp đặt nhiều phím trên bàn phím nhằm thiết lập những chương trình chọn lựa để hắn có thể vận hành chúng bằng những tổ hợp phím duy nhất.
+
+Những gì Kuyama đang làm tương tự như việc điều chỉnh trước những câu nói thông thường trong trò chơi trực tuyến như "hồi máu cho tôi” và “rút lui đi” để một cuộc hội thoại có thể được thực hiện chỉ với vài tổ hợp phím. Kiên nhẫn đánh từng chút một bằng tay sẽ lãng phí công sức và, quan trọng nhất, nó khiến hắn không phản ứng nhanh được.
+
+Thiếu sót thực sự duy nhất là hắn phải chuyển chế độ bằng tay khi hắn đi qua thứ mà những câu lệnh cài đặt sẵn không bao gồm. Hắn không muốn phải làm nhiều đến thế. Do đó, hắn phải xem xét cấp độ đối thủ của mình và những gì hắn phải làm rồi đưa ra sự bố trí phím có hiệu quả nhất.
+
+(Phần tồi tệ nhất là mình không biết Người Gác Cổng có những loại kĩ năng nào. Có nghĩa là tạo ra một loại hỏa mù sẽ an toàn hơn. Quá cẩn thận sẽ trông như là mình sợ, nhưng mình cần phải giả định rằng đây là đối thủ xứng với sự tôn trọng của mình.)
+
+Kuyama thích khoảnh khắc hắn nghĩ về kẻ địch của mình và chắp cái tay hữu hạn của mình lại với nhau. Hắn thích nó còn hơn cả thời điểm sau khi hắn xuyên thủng được hệ thống. Điều đó khiến hắn cảm thấy như hắn được kết nối qua internet với người mà hắn không thể nhìn thấy.
+
+Khi hắn cảm nhận loại niềm vui đặc biệt này, hắn nghe thấy một tiếng bịch từ một chiếc bàn gần đó. Kuyama nhìn qua thì thấy một người phụ nữ ngực bự mặc chiếc áo nịt màu xanh lá ngồi xuống bàn.
+
+“Hoo. Viết báo cáo thật đúng là phiền phức. Nè, cô phục vụ. Nơi này có mạng LAN không dây không? Tôi không muốn đi cả quãng đường về trường để nộp cái này đâu.”
+
+(…Cái quái gì vậy?)
+
+Trên cửa quán cà phê có ghi nó có mạng LAN hay không. Trên thực tế, một tin tặc như Kuyama không thể tin được rằng ai đó sẽ gửi một báo cáo chính thức trên mạng LAN không rõ sử dụng tín hiệu mà bất cứ ai cũng bắt được. Cô ta nhất định không trông giống như đang sử dụng bất kì biện pháp nào ngăn tín hiệu của một người khỏi bị bắt như Kuyama đang dùng.
+
+(Đồ nghiệp dư chết tiệt.)
+
+Sau khi âm thầm bày tỏ sự khinh miệt của mình với tất cả những người thích máy tính nhưng lại không biết gì về chúng, Kuyama chìm bản thân vào công việc.
+
+Sau khi phân định hầu hết tất cả phím tắt, hắn cuối cùng cũng bắt đầu những hoạt động bất hợp pháp của mình.
+
+Tuy nhiên, một tin tặc không phải là siêu nhân. Hắn đang sử dụng một chương trình chuyên ngành dành cho nhà phát triển. Hắn sử dụng một công cụ tìm kiếm thông thường để tìm một trang web nhất định.
+
+Tại trung tâm màn hình máy tính xách tay của hắn là một màn hình trình duyệt bình thường và quanh đó là một cửa sổ phức tạp đầy những con số và biểu tượng cuộn xuống. Về cơ bản, hắn đã chỉ mang thông tin thường không nhìn thấy lên bề mặt. Đây không phải là thứ mà máy tính không thường xử lí.
+
+Kuyama cảm thấy sự khác biệt duy nhất giữa một tin tặc và bất cứ ai khác là khoảng trống trong kiến thức.
+
+Khoảng trống đó là lượng thông tin ẩn chứa mà ai đó nhận thức được. Một tin tặc giống như người giỏi trò vớt cá vàng vậy. Họ biết thủ thuật chơi trò đó.
+
+Nhắc lại: một tin tặc không phải là siêu nhân.
+
+Hắn chỉ đang mang những quá trình thường được xử lí ở phần nền lên bề mặt.
+
+(Giờ thì, bắt đầu thôi.)
+
+Hắn đã tìm thấy hệ thống mà Người Gác Cổng quản lí.
+
+Tất nhiên, nó không được làm ra để người bình thường có thể truy cập vào, nhưng một điểm liên hệ đã được chuẩn bị cho việc trao đổi thông tin của Anti-Skill và Judgment. Kuyama đã dùng thứ đó để lọt vào hệ thống.
+
+Ngay khi hắn truy cập nó, một sự thay đổi xảy ra trong cửa sổ đầy những con số và biểu tượng cuộn xuống. Một vài chuỗi kí tự màu đỏ và một số biểu tượng cảnh báo được hiển thị.
+
+(Ồ, liên kết chuyển tiếp!!)
+
+Đó là một hệ thống khiến mọi người truy cập một trang web di chuyển tới một trang web khác. Hầu hết trường hợp, trang web liên kết tới sẽ lây nhiễm virus cho tất cả những ai truy cập nó.
+
+Nhiều khả năng, thứ này đang liên kết hắn với một trang web sẽ truy cập thông tin cá nhân của hắn. Anti-Skill và Judgment không cho phép những hệ thống truy cập vào thông tin cá nhân của một người, nên gửi kẻ xâm nhập ra ngoài hệ thống của tổ chức trước khi xử lí chúng là việc làm cần thiết.
+
+Lần này, kẻ xâm nhập đã nhận ra trước khi hắn bị mắc bẫy.
+
+Khi luồn lách qua bãi mìn của Người Gác Cổng, Kuyama mỉm cười.
+
+Chuyện này không được thực hiện với nỗ lực canh giữ thứ gì đó. Một thứ “vũ khí” như liên kết chuyển tiếp rõ ràng chỉ là thứ dùng để tấn công các tin tặc.
+
+Ta có thể đọc được tính cách của ai đó từ hệ thống của họ.
+
+Kuyama Kihan phấn chấn lên như thể đang thưởng thức một tác phẩm nghệ thuật.
+
+Đó là khi một chuyện làm gián đoạn hắn một lần nữa.
+
+“Tìm thấy rồi, tìm thấy rồi! Ở đây!!”
+
+Đó là giọng của một cô gái mà cảm thấy như đang xé rách tai hắn. Hắn khó chịu nhìn qua và thấy một cô gái trạc tuổi học sinh cấp hai đang ngồi ở bàn đối diện người phụ nữ mặc áo nịt màu xanh lá có hơi cúi xuống khi đang viết báo cáo. Hắn lướt qua thấy một lượng lớn hoa trang trí trên đầu cô gái. Có vẻ như cô gái đang tận hưởng một trò chơi cầm tay với ai đó.
+
+“Hahhh. Mình cuối cùng cũng ổn định được tốc độ rồi. …Ôi không! Giờ thì mọi chuyện tệ hơn rồi!!”
+
+Cô gái nhấn nút mạnh tới nỗi trông như đang cố nghiền nát chúng. Kuyama nhận thấy một trong những khiếm khuyết của hắn là hắn có chút hơi xao nhãng khi đang ở trong cuộc tấn công và sau đó chuyển sự tập trung của mình về lại màn hình máy tính.
+
+Hắn tìm thấy thêm vài cái bẫy sau đó.
+
+Một cái làm trông giống như hắn đã xuyên thủng hệ thống, một cái tạo vòng lặp một câu lệnh vô tận, một cái gây ra một lỗi bằng cách buộc hắn phải mở một tập tin có định dạng không thể đọc được. Trong khi Kuyama trước đó đã xác định chúng đều là những phương pháp tấn công tin tặc thì nhiều cái đã làm hắn kinh ngạc bởi vì hắn chưa từng nghĩ tới việc sử dụng thứ như thế trước đây.
+
+Tuy nhiên, vẫn chưa có gì bắt được hắn. Trước khi một cái thành công, chuỗi kí tự nguy hiểm được đánh màu đỏ và hắn đi quanh chúng để tiến sâu vào hệ thống.
+
+Nhưng rồi, ngay khi hắn nghĩ hắn có thể đã thắng, một cửa sổ nhỏ đột nhiên xuất hiện ở mép màn hình. Đó là một tin nhắn ngắn ghi là kết nối đã bị cắt đứt. Kuyama ngờ vực, nhưng không có vấn đề gì với tín hiệu từ mạng LAN không dây. Hệ thống của Người Gác Cổng hẳn đã mất điện vì lí do nào đó.
+
+(Mình bị phát hiện rồi sao!?)
+
+Kuyama nhìn xuống những cửa sổ mở, nhưng, may mắn là, không có dấu hiệu ai đó đã lấy thông tin của hắn. Nhiều khả năng, đối thủ của hắn biết ai đó đã xâm nhập vào, nhưng người đó không biết cụ thể đó là ai. Vì vậy, người đó quyết định rằng để kẻ xâm nhập tiếp tục sẽ là việc làm nguy hiểm và do đó mới ngắt điện.
+
+Để đề phòng, Kuyama đã dùng một loạt “đường vòng” nhằm không để lại dấu vết đằng sau, nên không có dấu hiệu lo lắng trên mặt hắn.
+
+(Đúng lúc thật đấy. Mình cho là mình sẽ gọi đây là một trận hòa.)
+
+Hắn đã chỉ sử dụng phương pháp điện tử trong khi Người Gác Cổng đã bị buộc phải một cách vật lí ngắt điện. Nói cách khác, hắn đã thắng về kĩ năng hack. Hắn ít nhiều đã chứng minh được tính hiệu quả của khóa chủ của hắn.
+
+Tuy nhiên, đó là khi hắn nhận ra một chuyện.
+
+Đó là về cái tin nhắn đơn giản nói rằng kết nối đã bị cắt đứt mà đã xảy ra một lúc trước. Lúc nó hiển thị trên máy tính của hắn, nó hẳn cũng đã xuất hiện trên hệ thống của Người Gác Cổng. Khi ta cắt dây nối điện thoại lon, cả hai bên đều không còn khả năng nghe nữa.
+
+Điều đó có nghĩa là cùng một chuyện đã xảy ra ở hai nơi trong cùng một năm, cùng một tháng, cùng một ngày, cùng một giờ, cùng một phút, và cùng một giây.
+
+(Không phải vậy nghĩa là nếu Người Gác Cổng kiểm tra ngày giờ tin nhắn được để lại trên hệ thống, thì tên đó sẽ có thể tìm ra mình ngay lập tức sao?)
+
+“…!?”
+
+Mồ hôi lạnh bao phủ mặt Kuyama.
+
+(K-không, mình có chương trình kèm theo làm giả nguồn gốc tín hiệu. Tên đó sẽ không thể tìm ra mình ngay—!!)
+
+Khi đang suy nghĩ, hắn cảm thấy như máy quay an ninh của quán cà phê và ống kính của những con robot an ninh lăn dọc đường đang nhằm vào hắn như súng bắn tỉa. Bàn tay của ai đó nắm lấy vai hắn. Hắn thậm chí còn không thể quay lại. Bàn tay thuộc về một thành viên của Anti-Skill, những người gìn giữ hòa bình của thành phố.
+
+“Cậu đã vi phạm quy định đối với hoạt động thông tin điện tử bất hợp pháp. Và, tôi chắc là cậu biết, đây không phải là một vụ tra hỏi tự tiện.”
+
+Tuy nhiên, Kuyama đang không lắng nghe giọng nói trầm ấy.
+
+Đây hầu như không phải là lúc.
+
+(Chờ đã. Còn chưa tới 3 phút từ lúc kết nối bị ngắt mà. Ngay cả khi tên đó có thể lập tức tìm ra tín hiệu đến từ đâu, Anti-Skill cũng không thể tới đây nhanh đến thế được. Nghĩa là…)
+
+Vị trí của hắn bị phát hiện sớm hơn thế.
+
+Nhưng khi nào? Ở đâu? Bằng cách nào?
+
+Kuyama nghe thấy tiếng ồn ào và nhìn qua thì thấy cô gái đã chơi hệ thống trò chơi cầm tay đứng dậy. Cô gái với hoa trang trí trên mái tóc lên tiếng sau khi tiến tới người thu ngân cùng với tờ hóa đơn.
+
+“Vâng, em muốn xin biên lai. Vâng, ghi cho Uiharu Kazari của Judgment.”
+
+Tất cả những gì cô gái làm là chơi một trò chơi và yêu cầu một tờ biên lai vậy mà biểu hiện của Kuyama lại méo mó tới khổ sở. Đây là vì hắn đã nhận ra thứ ở trong tay cô gái.
+
+(Không…lẽ…)
+
+Hệ thống trò chơi cầm tay được làm ra để nó có thể sử dụng mạng LAN không dây. Điều đó có nghĩa là các chương trình có thể hoạt động qua internet bằng cách sử dụng nó.
+
+Nhưng…
+
+Điều đó là không thể. Không ai có thể chiến đấu với hệ thống hack của Kuyama bằng cách sử dụng thứ như thế.
+
+(Nghĩ lại, khi tới đây, cô ta đã nói gì đó như đã ổn định tốc độ và mọi chuyện đã trở nên tệ hơn…)
+
+“Này…Này, cô kia!!”
+
+Kuyama cố tiếp cận cô gái khi cô bỏ đi, nhưng thành viên Anti-Skill hẳn đã nghĩ hắn đang cố bỏ trốn, vì hắn bị ném xuống đất. Nằm bẹp trên đất, Kuyama vẫn nhìn chằm chằm vào lưng cô gái. Cô gái không quay lại. Không một lần.
+
+Hắn không có bằng chứng cho việc cô gái có hoa trang trí trên đầu là Người Gác Cổng.
+
+Tất cả những gì hắn biết là, Người Gác Cổng thực sự ngồi ở đầu kia kết nối đang cười thầm. Có thể Người Gác Cổng là bạn của cô gái và đang giúp cô từ trong bóng tối.
+
+Thế nhưng…
+
+Vấn đề không phải là bản thân cô gái.
+
+Đó là cái bóng của Người Gác Cổng mà hắn đã thoáng thấy trước mặt nhưng lại không nắm bắt được.
+
+Cái lưng ấy là một màu xám vô cùng gần với màu đen và nó đang nhảy nhót trước mặt hắn khiến hắn không bắt được cái đuôi của nó.
+
+“Đó là một tin tặc…”
+
+Khi hai tay hắn bị tra còng sau lưng, Kuyama Kihan lẩm bẩm những điều giống tiếng rên rỉ hơn là lời nói.
+
+“Đó là một tin tặc thực sự.”
