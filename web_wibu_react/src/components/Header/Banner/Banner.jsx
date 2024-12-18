@@ -1,6 +1,6 @@
 import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Banner.css';
+// import './Banner.css';
 
 import styles from './Banner.module.scss';
 
@@ -54,7 +54,7 @@ function Banner() {
   // Sau đó là các state
   const [initialSlide] = useState(() => Math.floor(Math.random() * bannersData.length) + 1);
   const [currentSlide, setCurrentSlide] = useState(initialSlide);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isAutoPlaying] = useState(true);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   // Thêm state để theo dõi thời gian interval
