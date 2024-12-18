@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import styles from "./Top_of_Page_Button.module.scss";
-import PropTypes from 'prop-types';
 
 /**
  * @typedef {Object} TopOfPageButtonProps
