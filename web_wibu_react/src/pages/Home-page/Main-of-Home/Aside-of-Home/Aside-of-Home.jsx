@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import styles from './Aside-of-Home.module.scss';
 import { useRef } from 'react'
 import avatarAside from '../../../../data_and_source/Images/Avatars/avatar.png';
-
-
+import bottomNavStyles from '../../../../components/Header/BottomNav/BottomNav.module.scss';
+import footerStyles from '../../../../components/Footer/Footer.module.scss';
 function Aside() {
   // const navigate = useNavigate();
   const asideRef = useRef(null);
@@ -30,7 +30,7 @@ function Aside() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const bottomNav = document.querySelector('.bottom-nav');
+      const bottomNav = document.querySelector(`.${bottomNavStyles["bottom-nav"]}`);
       
       // Kiểm tra null cho các elements
       if (!bottomNav || !asideRef.current || !wrapperRef.current) {
@@ -52,7 +52,7 @@ function Aside() {
           asideRef.current.style.top = `${bottomNavRect.bottom}px`;
         } else {
           // Nếu không đủ không gian, cho phép scroll trong aside
-          asideRef.current.classList.add(styles.sticky);
+          asideRef.current.classList.remove(styles.sticky);
           asideRef.current.style.top = `${bottomNavRect.bottom}px`;
           asideRef.current.style.maxHeight = `${availableSpace}px`;
           asideRef.current.style.overflowY = 'auto';
