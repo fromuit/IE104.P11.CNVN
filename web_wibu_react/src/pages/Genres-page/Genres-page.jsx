@@ -7,6 +7,7 @@ import Header from '../../components/Header/Header';
 // import './Genres-page.css';
 import styles from './Genres-page.module.scss';
 import Pagination from '../../features/Pagination/Pagination';
+import TopOfPageButton from "../../features/Top_of_Page_Button/Top_of_Page_Button";
 
 // Hàm chuyển đổi tên thể loại từ tiếng Anh sang tiếng Việt
 const convertGenreName = (englishName) => {
@@ -124,6 +125,7 @@ function GenresPage() {
           />
         )}
       </div>
+      <TopOfPageButton /> 
     </>
   );
 }

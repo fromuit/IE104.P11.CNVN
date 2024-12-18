@@ -51,7 +51,7 @@
     width: 100%;
     padding: 0.5rem;
     border: none;
-    background: #f5f5f5;
+    background: color-mix(in srgb, #f5f5f5, black 5%);
     color: #666;
     cursor: pointer;
     display: flex;
@@ -61,7 +61,7 @@
     transition: all 0.3s ease;
   
     &:hover {
-      background: darken(#f5f5f5, 5%);
+      background: color-mix(in srgb, #f5f5f5, black 10%);
     }
   
     &.liked {
