@@ -1,8 +1,8 @@
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 // import './TopNav.css';
 import styles from './TopNav.module.scss';
-import { searchNovelsRealtime, getAllGenres } from '../../../features/utils/searchUtils';
+import { searchNovelsRealtime } from '../../../features/utils/searchUtils';
 import avatar from '../../../data_and_source/Images/Avatars/avatar.png';
 
 function TopNav() {
@@ -15,26 +15,42 @@ function TopNav() {
   const [userData, setUserData] = useState(null);
   const [searchResults, setSearchResults] = useState([]);
   const [showResults, setShowResults] = useState(false);
-  const [visibleResults, setVisibleResults] = useState(3);
+  const [setVisibleResults] = useState(3);
+  const [showLogoutModal, setShowLogoutModal] = useState(false);
+  const [sortOrder, setSortOrder] = useState('asc');
 
   const isHomePage = location.pathname === '/';
 
-  const toggleTheme = () => { 
+  const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
   };
 
   const handleSearchChange = (e) => {
     const query = e.target.value;
     setSearchQuery(query);
-    
+
     if (query.trim()) {
-      const results = searchNovelsRealtime(query);
+      let results = searchNovelsRealtime(query);
+      results = results.sort((a, b) => {
+        const compareResult = a["Tựa đề"].localeCompare(b["Tựa đề"]);
+        return sortOrder === 'asc' ? compareResult : -compareResult;
+      });
       setSearchResults(results);
       setShowResults(true);
     } else {
       setSearchResults([]);
       setShowResults(false);
     }
+  };
+
+  const toggleSortOrder = () => {
+    const newOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+    setSortOrder(newOrder);
+    const sortedResults = [...searchResults].sort((a, b) => {
+      const compareResult = a["Tựa đề"].localeCompare(b["Tựa đề"]);
+      return newOrder === 'asc' ? compareResult : -compareResult;
+    });
+    setSearchResults(sortedResults);
   };
 
   const handleSearchClick = (e) => {
@@ -49,7 +65,12 @@ function TopNav() {
     setShowResults(false);
   };
 
+  const handleLogoutClick = () => {
+    setShowLogoutModal(true);
+  };
+
   const handleLogout = () => {
+    setShowLogoutModal(false);
     localStorage.clear();
     setIsLoggedIn(false);
     setUserData(null);
@@ -76,12 +97,7 @@ function TopNav() {
     return () => document.removeEventListener('click', handleClickOutside);
   }, []);
 
-  const handleScroll = (e) => {
-    const bottom = e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
-    if (bottom) {
-      setVisibleResults(prev => prev + 3);
-    }
-  };
+
 
   const handleSearchResultClick = (novelId) => {
     setShowResults(false);
@@ -89,10 +105,7 @@ function TopNav() {
     navigate(`/info/${novelId}`);
   };
 
-  const handleGenreClick = (genre) => {
-    navigate(`/tim-kiem-nang-cao?genres=${encodeURIComponent(genre)}`);
-    setShowResults(false);
-  };
+
 
   return (
     <div className="top-nav-wrapper">
@@ -102,20 +115,21 @@ function TopNav() {
             <img src="/src/data_and_source/Images/logo.png" alt="Logo" />
           </a>
 
-          <form 
+          <form
             className={styles["top-nav__searchbar"]}
             onSubmit={(e) => {
               e.preventDefault();
               handleSearchClick(e);
             }}
           >
-            <input 
-              type="text" 
-              placeholder="Tìm kiếm tựa Light Novel, tác giả, ..." 
+            <input
+              type="text"
+              placeholder="Tìm kiếm tựa Light Novel, tác giả, ..."
               value={searchQuery}
               onChange={handleSearchChange}
               onFocus={() => setShowResults(true)}
             />
+            
             {showResults && searchResults.length > 0 && (
               <div className={styles["top-nav__search-results"]}>
                 {searchResults.map(novel => (
@@ -124,8 +138,8 @@ function TopNav() {
                     className={styles["top-nav__search-results-item"]}
                     onClick={() => handleSearchResultClick(novel.ID)}
                   >
-                    <img 
-                      src={novel["Link ảnh"]} 
+                    <img
+                      src={novel["Link ảnh"]}
                       alt={novel["Tựa đề"]}
                       onError={(e) => {
                         e.target.onerror = null;
@@ -141,7 +155,7 @@ function TopNav() {
               </div>
             )}
             <div className={styles["top-nav__searchbar__divider"]}></div>
-            <button 
+            <button
               type="button"
               className={styles["top-nav__searchbar__button"]}
               onClick={handleSearchClick}
@@ -171,7 +185,7 @@ function TopNav() {
           </div> */}
 
           <div className={styles["top-nav__actions"]}>
-            <button 
+            <button
               className={styles["theme-toggle"]}
               onClick={toggleTheme}
               title="Chuyển đổi giao diện sáng/tối"
@@ -238,7 +252,11 @@ function TopNav() {
                         <span>Giỏ hàng</span>
                         <span className="badge">2</span>
                       </Link>
-                      <button onClick={handleLogout} className={styles["dropdown-item__signout"]}>
+                      <button
+                        onClick={handleLogoutClick}
+                        className={styles["dropdown-item__signout"]}
+                        style={{ color: 'red' }}
+                      >
                         <i className="fas fa-sign-out-alt"></i>
                         <span>Đăng xuất</span>
                       </button>
@@ -255,6 +273,19 @@ function TopNav() {
           </div>
         </div>
       </nav>
+
+      {showLogoutModal && (
+        <div className={styles["logout-modal"]}>
+          <div className={styles["modal-content"]}>
+            <h3>Xác nhận đăng xuất</h3>
+            <p>Bạn có chắc chắn muốn đăng xuất không?</p>
+            <div className={styles["modal-buttons"]}>
+              <button onClick={handleLogout}>Có</button>
+              <button onClick={() => setShowLogoutModal(false)}>Không</button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

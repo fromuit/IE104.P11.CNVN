@@ -11,6 +11,7 @@ import RecentlyUpdatedPage from '../pages/Home-page/Main-of-Home/See_More/Recent
 import NewNovelsPage from '../pages/Home-page/Main-of-Home/See_More/NewNovels-page.jsx';
 import CompletedNovelsPage from '../pages/Home-page/Main-of-Home/See_More/CompletedNovels-page.jsx';
 import OriginalNovelsPage from '../pages/Home-page/Main-of-Home/See_More/OriginalNovels-page.jsx';
+import ReadPage from '../pages/Read-page/Read-page.jsx';
 
 const AppRoutes = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const AppRoutes = createBrowserRouter([
   {
     path: "*",
     element: <div>Not Found</div>,
+  },
+  {
+    path: "/read/:novelTitle/:chapterName",
+    element: <ReadPage/>
   }
 ]);
 

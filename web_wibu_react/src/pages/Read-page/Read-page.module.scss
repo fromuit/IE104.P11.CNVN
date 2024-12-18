@@ -1,0 +1,38 @@
+.readPage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    .loading {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .error {
+      color: red;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    .chapterContent {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      
+      .chapterTitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .content {
+        line-height: 1.6;
+        font-size: 18px;
+        
+        p {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
