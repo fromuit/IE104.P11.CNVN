@@ -1,13 +1,18 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import novelsData from '../../data_and_source/Novel_Data/novels_chapters.json';
+import hakoData from '../../data_and_source/Novel_Data/hako_data.json';
 import styles from './Read-page.module.scss';
 
 function ReadPage() {
+    const navigate = useNavigate();
     const { novelTitle, chapterName } = useParams();
     const [chapterContent, setChapterContent] = useState('');
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [currentChapterIndex, setCurrentChapterIndex] = useState(0);
+    const [chapters, setChapters] = useState([]);
+    const [novelId, setNovelId] = useState(null);
 
     useEffect(() => {
         const loadChapterContent = async () => {
@@ -17,81 +22,72 @@ function ReadPage() {
                     throw new Error('Không tìm thấy truyện');
                 }
 
-                const chapter = Object.values(novel.chapters).find(
-                    c => c.name === chapterName
+                // Tìm ID của truyện từ hakoData
+                const novelInfo = hakoData.find(n => 
+                    n["Tựa đề"].toLowerCase() === novelTitle.toLowerCase()
+                );
+                if (novelInfo) {
+                    setNovelId(novelInfo.ID);
+                }
+
+                // Lấy danh sách các chương
+                const chaptersList = Object.entries(novel.chapters).map(([_, chapter]) => ({
+                    name: chapter.name,
+                    path: chapter.path
+                }));
+                setChapters(chaptersList);
+
+                // Tìm index của chapter hiện tại
+                const currentIndex = chaptersList.findIndex(chapter => chapter.name === chapterName);
+                setCurrentChapterIndex(currentIndex);
+
+                // Tìm chapter trong novel
+                const chapterEntry = Object.entries(novel.chapters).find(
+                    ([_, chapter]) => chapter.name === chapterName
                 );
 
-                if (!chapter) {
+                if (!chapterEntry) {
                     throw new Error('Không tìm thấy chương');
                 }
 
-                // Thêm log để kiểm tra đường dẫn
-                console.log('Đường dẫn chapter:', chapter.path);
+                const chapter = chapterEntry[1];
+                const chapterNumber = chapterEntry[0];
+                const chapterTitle = chapter.name ? `Chương ${chapterNumber}: ${chapter.name}` : `Chương ${chapterNumber}`;
 
-                const response = await fetch(`/api/chapter?path=${encodeURIComponent(chapter.path)}`);
-
-                // Kiểm tra response status và content type
-                console.log('Response status:', response.status);
-                console.log('Content type:', response.headers.get('content-type'));
+                // Đọc nội dung từ file txt
+                const response = await fetch(
+                    `/src/data_and_source/Truyen_extracted/${novelTitle.toLowerCase()}/${chapter.path}`
+                );
 
                 if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error('Không thể tải nội dung chương');
                 }
 
-                const html = await response.text();
+                const content = await response.text();
 
+                // Parse nội dung
+                const lines = content.split('\n').filter(line => line.trim());
 
-                if (!html || html.trim() === '') {
-                    throw new Error('Nội dung file trống');
-                }
+                // Format nội dung
+                const formattedContent = `
+                    <div class="${styles.chapterHeader}">
+                        <h1>${lines[0]}</h1>
+                        <h2>${chapterTitle}</h2>
+                        <div class="${styles.chapterInfo}">
+                            <span>Độ dài: ${lines[2]?.split('Độ dài:')[1]?.trim() || ''} ${lines[3]?.trim() || ''}  - Bình luận: ${lines[4]?.split('Bình luận:')[1]?.trim() || ''}</span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="${styles.chapterContent}">
+                        ${lines.slice(5).map(line => `<p>${line}</p>`).join('')}
+                    </div>
+                `;
 
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(html, 'text/html');
-
-                // Kiểm tra lỗi parsing
-                const parserError = doc.querySelector('parsererror');
-                if (parserError) {
-                    throw new Error('Lỗi parsing HTML: ' + parserError.textContent);
-                }
-
-                // Log để debug
-                console.log('Parsed document:', doc);
-
-                // Lấy nội dung từ các thẻ
-                const title = doc.querySelector('.title-top h2')?.textContent;
-                const subTitle = doc.querySelector('.title-top h4')?.textContent;
-                const content = doc.querySelector('#chapter-content');
-
-                console.log('Thông tin chương:', {
-                    title: title || 'Không có title',
-                    subTitle: subTitle || 'Không có subtitle'
-                });
-
-                if (!content) {
-                    throw new Error('Không tìm thấy nội dung chương');
-                }
-
-
-                // Lấy tất cả các thẻ p trong content
-                const paragraphs = content.getElementsByTagName('p');
-                const contentArray = Array.from(paragraphs).map(p => p.textContent);
-
-                // Log để debug
-                console.log('Các đoạn văn:', contentArray);
-
-                // Tạo HTML content với các đoạn văn được tách riêng
-                setChapterContent(`
-          <h2>${title || ''}</h2>
-          <h4>${subTitle || ''}</h4>
-          <div class="chapter-content">
-            ${contentArray.map(para => `<p>${para}</p>`).join('\n')}
-          </div>
-        `);
+                setChapterContent(formattedContent);
                 setLoading(false);
 
             } catch (err) {
                 setError(err.message);
-                console.error('Lỗi:', err);
                 setLoading(false);
             }
         };
@@ -99,18 +95,78 @@ function ReadPage() {
         loadChapterContent();
     }, [novelTitle, chapterName]);
 
+    const handleChapterChange = (event) => {
+        const selectedChapter = chapters[event.target.value];
+        navigate(`/read/${novelTitle}/${selectedChapter.name}`);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const handlePrevChapter = () => {
+        if (currentChapterIndex > 0) {
+            const prevChapter = chapters[currentChapterIndex - 1];
+            navigate(`/read/${novelTitle}/${prevChapter.name}`);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
+    const handleNextChapter = () => {
+        if (currentChapterIndex < chapters.length - 1) {
+            const nextChapter = chapters[currentChapterIndex + 1];
+            navigate(`/read/${novelTitle}/${nextChapter.name}`);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
     return (
         <div className={styles.readPage}>
+            <div className={styles.topNavigation}>
+                <Link 
+                    to={novelId ? `/info/${novelId}` : '#'} 
+                    className={styles.backButton}
+                >
+                    <i className="fas fa-arrow-left"></i>
+                    Về trang thông tin
+                </Link>
+            </div>
+
             {loading && <div className={styles.loading}>Đang tải...</div>}
             {error && <div className={styles.error}>{error}</div>}
             {chapterContent && (
-                <div className={styles.chapterContent}>
-                    <h1 className={styles.chapterTitle}>{chapterName}</h1>
+                <>
                     <div
-                        className={styles.content}
+                        className={styles.container}
                         dangerouslySetInnerHTML={{ __html: chapterContent }}
                     />
-                </div>
+                    <div className={styles.navigation}>
+                        <button 
+                            onClick={handlePrevChapter}
+                            disabled={currentChapterIndex <= 0}
+                            className={styles.navButton}
+                        >
+                            Chương trước
+                        </button>
+                        
+                        <select 
+                            value={currentChapterIndex}
+                            onChange={handleChapterChange}
+                            className={styles.chapterSelect}
+                        >
+                            {chapters.map((chapter, index) => (
+                                <option key={chapter.name} value={index}>
+                                    {chapter.name}
+                                </option>
+                            ))}
+                        </select>
+
+                        <button 
+                            onClick={handleNextChapter}
+                            disabled={currentChapterIndex >= chapters.length - 1}
+                            className={styles.navButton}
+                        >
+                            Chương sau
+                        </button>
+                    </div>
+                </>
             )}
         </div>
     );
