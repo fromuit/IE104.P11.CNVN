@@ -36,6 +36,8 @@ $tooltip-color: #fff;
 
     &--compact {
       height: 40px;
+      padding: 0 0.75rem;
+      font-size: 0.9rem;
     }
   }
 
@@ -45,10 +47,6 @@ $tooltip-color: #fff;
     margin: 0 auto;
     padding: 0 1rem;
     transition: padding 0.3s ease;
-
-    &--compact {
-      padding: 0 0.75rem;
-    }
   }
 
   &__list {
@@ -92,9 +90,6 @@ $tooltip-color: #fff;
           font-size: 1.1rem;
           transition: font-size 0.3s ease;
 
-          &.bottom-nav--compact {
-            font-size: 0.9rem;
-          }
         }
       }
     }
