@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import styles from "./Top_of_Page_Button.module.scss";
 import PropTypes from 'prop-types';
 
@@ -61,6 +62,11 @@ const TopOfPageButton = ({ showAtHeight = 300, className = "" }) => {
       ↑
     </button>
   );
+};
+
+TopOfPageButton.propTypes = {
+  showAtHeight: PropTypes.number,
+  className: PropTypes.string
 };
 
 export default TopOfPageButton;
