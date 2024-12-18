@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "./Top_of_Page_Button.module.scss";
+import PropTypes from 'prop-types';
 
 /**
  * @typedef {Object} TopOfPageButtonProps
@@ -16,6 +17,11 @@ import styles from "./Top_of_Page_Button.module.scss";
  */
 const TopOfPageButton = ({ showAtHeight = 300, className = "" }) => {
   const [isVisible, setIsVisible] = useState(false);
+
+  TopOfPageButton.propTypes = {
+    showAtHeight: PropTypes.number,
+    className: PropTypes.string
+  };
 
   useEffect(() => {
     /**
