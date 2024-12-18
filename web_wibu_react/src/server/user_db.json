@@ -41,6 +41,13 @@
       "password": "123456789",
       "fullName": "shikanoko",
       "createdAt": "2024-12-18T00:27:12.609Z"
+    },
+    {
+      "id": "1734510802150",
+      "email": "test2@example.us",
+      "password": "00000000",
+      "fullName": "trissss",
+      "createdAt": "2024-12-18T08:33:22.150Z"
     }
   ]
 }
