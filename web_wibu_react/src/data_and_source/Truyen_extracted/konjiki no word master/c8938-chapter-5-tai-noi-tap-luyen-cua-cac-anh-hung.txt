@@ -1,0 +1,383 @@
+Arc 1: Phép thuật OP như hack
+
+Chapter 5 - 勇者たちは？ - Tại nơi tập luyện của các Anh Hùng.
+
+Độ dài: 1,895 từ - Lần cuối:
+
+12/07/2019 16:03:59
+
+- Bình luận: 21
+
+Trong khi đó, 4 anh hùng đang luyện tập ma thuật.
+
+Vale Kimble, thống lĩnh quân đoàn 2 thuộc quân đội Victorias, là người phụ trách của họ.
+
+Taishi Aoyama
+
+LVL 1
+
+HP 35/35
+
+MP 35/35
+
+EXP 0
+
+NEXT 10
+
+ATK 28
+
+DEF 23
+
+AGI 13
+
+HIT 19
+
+INT 9
+
+≪Thuộc tính ma thuật≫ Hỏa, Phong, Quang, Lôi
+
+≪Ma thuật≫ – Hỏa cầu (Hỏa, Công)
+
+- Phong Trảm (Phong, Công)
+
+- Lôi sốc (Lôi, Công)
+
+-Phát sáng (Quang, Ảnh hưởng)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới
+
+Chika Suzumiya
+
+LVL 1
+
+HP 28/28
+
+MP 30/30
+
+EXP 0
+
+NEXT 10
+
+ATK 25
+
+DEF 20
+
+AGI 21
+
+HIT 17
+
+INT 12
+
+≪Thuộc tính ma thuật≫ Hỏa, Thổ, Băng, Quang
+
+≪Ma thuật≫ -Hỏa cầu (Hỏa, Công)
+
+- Mộ (Thổ, Công)
+
+- Băng Châm (Băng, Công)
+
+- Phát sáng (Quang, Ảnh hưởng)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới
+
+Shuri Minamoto
+
+LVL 1
+
+HP 18/18
+
+MP 60/60
+
+EXP 0
+
+NEXT 10
+
+ATK 9
+
+DEF 10
+
+AGI 15
+
+HIT 10
+
+INT 20
+
+≪Thuộc tính ma thuật≫ Phong, Thủy, Quang
+
+≪Ma thuật≫ – Phong trảm (Phong, Công)
+
+- Thủy Đập (Thủy, Hỗ trợ)
+
+- Phục hồi (Quang, Hồi phục)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới
+
+Shinobu Akamori
+
+LVL 1
+
+HP 22/22
+
+MP 52/52
+
+EXP 0
+
+NEXT 10
+
+ATK 13
+
+DEF 13
+
+AGI 24
+
+HIT 14
+
+INT 24
+
+≪Thuộc tính ma thuật≫ Thủy, Lôi, Quang
+
+≪Ma thuật≫ - Sương (Thủy, Hỗ trợ)
+
+- Tê liệt (Lôi, Ảnh hưởng)
+
+-Phục hồi (Quang, Hồi phục)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới
+
+Bốn người nói cho Vale nghe về <Status > của họ.
+
+“Các bạn quả thật là siêu phàm.”
+
+Vale tròn con mắt thốt lên ngạc nhiên khi biết về những thông số đó.
+
+“Nó siêu phàm đến vậy sao?”
+
+Taishi lên tiếng đại diện hỏi với ánh mắt hồ nghi.
+
+“Thường thì một người chỉ có duy nhất một thuộc tính. Dĩ nhiên có những ngoại lệ hay các thiên tài bẩm sinh thì có thể có hơn một thuộc tính. Nhưng tôi chưa bao giờ nghe có người có đến 3, 4 thuộc tính như thế này. Hơn nữa, lại còn có thuộc tính ánh sáng, thuộc tính chỉ có Pheoms mới sở hữu.”
+
+Bốn người kia cười ngượng trước những lời tán tụng cường điệu.
+
+Dù đó là những thông số đầy cheating (gian lận) nhưng họ vẫn cảm thấy vui trong lòng.
+
+“Từ hệ ma thuật mà các bạn sử dụng thì cậu Taishi và tiểu thư Chika là thuộc loại vanguard (tiên phong) còn tiểu thư Shuri và tiểu thư Shinobu hợp với rearguard (hậu tập). Các chỉ số cũng chỉ ra điều đó.”
+
+Căn bản là <Status > của Taishi và Chika thiên về công còn Shuri và Shinobu thiên về thủ và hỗ trợ.
+
+Ma thuật của họ cũng phù hợp với tính trạng của họ.
+
+“Đúng là một party đồng đều làm sao.”
+
+“Haha, y như game online chúng ta hay chơi ấy.”
+
+“Ừ”
+
+Taishi và Chika nói cười với nhau.
+
+Cả bốn đều là cựu thành viên của cùng party khi còn chơi game online RPG.
+
+Thậm chí lúc ấy, Taishi và Chika chơi công trong khi Shuri và Shinobu chơi vị trí người hỗ trợ.
+
+Và bây giờ họ cũng nhận cùng vai trò tương tự trong thế giới này.
+
+“<Status > của chúng ta chắc cũng tăng lên phù hợp với từng vai trò khi chúng ta level up.”
+
+“A ha, thế thì y chang RPG. Thế còn của "ngài" như thế nào, Thống lĩnh Vale”
+
+“Cậu chỉ cần gọi tôi là Vale là được rồi, cậu Taishi.”
+
+“Ồ, vậy sao? Vậy trình độ của anh đến đâu rồi, Vale?”
+
+“Của tôi ấy ạ? Tôi là cấp 48.”
+
+“Oa, đúng là thống lĩnh có khác. Chắc là do anh kiếm được nhiều điểm kinh nghiệm từ việc giết quái lắm?!”
+
+“Quả là vậy. Ngoài ra thì hoàn thành các nhiệm vụ cũng nhận được các điểm kinh nghiệm.”
+
+“Nhiệm vụ?”
+
+Bốn người bị sốc.
+
+“Chúa ơi, nhiệm vụ á?! Những thứ nhận từ Guild ấy hả?”
+
+“Vâng, đúng vậy, các Mạo hiểm gia phải đăng kí tại Guild.”
+
+Mắt chữ A mồm chữ O.
+
+Nào nhiệm vụ rồi đến Guild đã khiêu khích sự thích thú của bốn người bọn họ, những người luôn mong muốn trải nghiệm thế giới game.
+
+“Chúng tôi có thể đăng kí được không?”
+
+“Tại sao không chứ. Sau khi giúp các bạn luyện tập những thứ cơ bản, tôi rất vui lòng đưa các bạn đi đăng kí để nâng cao kĩ năng.”
+
+“Ồ yeah~!!”
+
+Vale chớp mắt ngạc nhiên bởi sự hưng phấn của bốn người họ.
+
+“C-Có vẻ các bạn hứng thú về mấy thứ đó sao? Nguy hiểm luôn rình rập Mạo hiểm gia. Tôi có chút ngạc nhiên khi thấy các bạn phấn khích đến thế.”
+
+“Ồ, thôi nào, đó là Guild đó! Mạo hiểm gia đó! Lại còn những nhiệm vụ nữa. Đối với game thủ thì còn gì hơn chứ! Phải không, các cậu!”
+
+“Đúng, ngứa lắm rồi đấy.”
+
+“Ừm, hơi run chút nhưng mọi người đi cùng nhau nên chắc sẽ ổn thôi.”
+
+“Tốt quá~Ta chẳng thể làm được gì nếu không có Guild.”
+
+Mỗi đứa lại chêm một câu.
+
+“Những âm thanh đầy hứa hẹn làm sao!”
+
+Tuy nhiên Vale đã hiểu nhầm về cái suy nghĩ lạc quan của mấy đứa nó, ông ta cảm thấy niềm hi vọng trên những lời “gan dạ” đó mà nở một nụ cười.
+
+***
+
+“À, về “cậu ta” thì sao?”
+
+Taishi chợt nhớ cất tiếng hỏi. Chika phản ứng lại.
+
+“Cậu ta?”
+
+“Là Okamura ấy.”
+
+“À…”
+
+Chika đáp lời thờ ơ, không một chút hứng thú.
+
+“Cậu ta bị vạ lây cũng bởi chúng ta, đúng chứ? Ý mình là mình cảm giác có lỗi với cậu ấy.”
+
+“Ôi thôi nào, tên đó cũng đã nói không trách chúng ta rồi còn gì, lo làm gì cho nhọc công.”
+
+“Nhưng…”
+
+“Với lại ngay từ đầu mình không thích thái độ của tên đó.”
+
+“Ơ?”
+
+“Phải, tên ấy lúc nào cũng ở một mình cứ như ta đây có thể làm mọi chuyện ấy. Nhìn mà ghét.”
+
+Cả ba người còn lại lặng thinh trước những lời giận dữ của Chika.
+
+Đúng là họ ở cùng lớp nhưng chưa bao giờ nói chuyện với nhau một lần.
+
+Không chỉ mỗi thế, họ cũng chưa thấy cậu ta nói chuyện với ai cả.
+
+Cậu ta cứ như người trên trời, hễ lơ mắt đi là biến mất.
+
+Không trốn tiết thì cũng ngủ hay đọc sách trong giờ học.
+
+“Thích thì cứ chết dẫm một mình ngoài đó đi!”
+
+“Này, Chika, sao mà có vẻ cậu ghét cậu ta vậy?”
+
+“Bởi hắn làm mình ức chế! Đã ít học mà sao điểm vẫn cao như thường! Công bằng ở đâu chứ?!”
+
+“À mà, dù cậu có hỏi thì…"
+
+Vâng, Okamura Hiiro chẳng đến lớp thường xuyên và có đến rồi thì cũng làm việc riêng.
+
+Thế mà chẳng rõ lý do nào mà điểm số của cậu ta vẫn cao chót vót. Chika căm phẫn sự bất công đó.
+
+“C-Có thể là cậu ấy xem lại và chuẩn bị bài ở nhà.”
+
+Shuri không có ý nói đỡ cậu ta, cô chỉ muốn nêu ra ý kiến của mình.
+
+“Hay trường luyện thi hoặc gia sư riêng thì sao.”
+
+Shinobu nói thêm.
+
+“Tớ không quan tâm!”
+
+Chika bĩu môi quay đi. Taishi thở dài chán ngấy.
+
+“Ngài Okamura là bạn của các bạn à?”
+
+Việc Vale thêm “ngài” (dono) thay vì “cậu, tiểu thư” (sama) thể hiện cách nhìn nhận khác nhau giữa họ.
+
+“Hắn không có bạn!”
+
+“Anh có thể nói đó là… bạn cùng lớp, người học chung với chúng tôi.”
+
+“Thì ra là vậy. Nhưng để ngài ấy như vậy có ổn không?”
+
+“Hể?”
+
+“Thế giới của chúng tôi ngập tràn nguy hiểm. Ngoài Evila khỏi nói ra thì tranh chấp trong cùng một tộc cũng không phải là hiếm. Để có thể sống sót thì ngài ấy phải trở thành Mạo hiểm gia. Nhưng không có vẻ gì là ngài ấy có khả năng chiến đấu như các bạn nên… ”
+
+Cậu ta có thể sẽ chết.
+
+Ai nấy đều nghĩ như vậy.
+
+Cơn yên lặng đè nặng trong không khí.
+
+Dù không phải bạn bè gì chăng nữa thì đúng là chẳng vui vẻ gì khi mất đi một bạn học.
+
+Chika phá tan bầu không khí.
+
+“À, mô! Thật tốn thời gian để mà lo nghĩ cho tên ích kỉ đó! Thay vào đó, mấy cậu lo nghĩ cách trở nên mạnh mẽ hơn đi!”
+
+“Cậu mạnh mẽ thật đấy, Chika.”
+
+“Hả, có vấn đề gì à?! Với lại, ta chỉ cần đánh bại Evila và lập lại nền hòa bình thì tên ấy cũng có thể sống thanh thản mà, đúng chứ?”
+
+Ai nấy há miệng ngạc nhiên.
+
+Đâu ai ngờ Chika, cô nàng còn nổi cáu vừa nãy lại có thể nêu lên quan điểm như vậy chứ.
+
+“Chika, cậu thật là nhân hậu!”
+
+Shuri nói trong sung sướng, cô nở một nụ cười khiến cho Chika mặt đỏ bừng và thét lên.
+
+“Không-! Mình chỉ… A..A! Không nói chuyện này nữa! Không được nhắc lại nữa! Hiểu chưa?”
+
+Những người khác vui vẻ đồng thanh “Rồi rồi”
+
+“Tiểu thư Chika nói đúng lắm. Chúng ta giờ phải ưu tiên cho luyện tập.”
+
+Mấy đứa đồng ý với Vale. Buổi luyện tập ma thuật bắt đầu.
+
+***
+
+Trong lúc đó, Hiiro đã kiếm được một nhà nghỉ và giờ đang nghiềm ngẫm xem nên mua gì.
+
+Cậu tính toán rằng với số tiền trong túi thì cậu không thể sống hết ngày.
+
+(Mình cần phải nhanh chóng kiếm thêm tiền. Có nhiều thứ mà mình muốn thử quá.)
+
+Nghĩ thế, cậu nằm trên giường đắm chìm trong suy nghĩ trong căn phòng đơn của nhà trọ.
+
+(…Tim mình đang đập rộn lên?)
+
+Cậu nắm rồi thả tay lặp đi lặp lại. Bằng cách đó, cậu thấy cơ thể nóng lên bất thường, cậu đang phấn khích.
+
+(Mình chưa từng phấn khích thế này? Haha, đúng là dù gì mình vẫn là một tên con trai mà.)
+
+Một thế giới như RPG đang khiến cậu rộn ràng lên.
+
+Một thế giới mà cậu chỉ mới kinh qua sách và game.
+
+Ngay cả trong giấc mơ cũng chưa bao giờ cậu nghĩ mình có thể được trải nghiệm nó.
+
+Hoàn thành nhiệm vụ, thử ma thuật. Và giờ chỉ cần thành thạo cái ma pháp bá đạo kia nữa thì đời còn gì đẹp hơn, dù ngay tại nơi đây.
+
+(Mà nên ngủ sớm thôi.)
+
+MP của cậu đã hồi hoàn toàn khi ăn món Mì hải sản gây nghiện hồi tối.
+
+Thậm chí giờ cậu cũng có thể ra ngoài lên level ngay luôn cũng được nhưng quá nhiều chuyện xảy ra trong một ngày, đầu óc rã rời ra rồi.
+
+Không thể chống nổi cơn mệt mỏi, cậu quyết định đi nằm cho thư thái đầu óc và mọi thứ sẽ bắt đầu từ ngày mai.
+
+***
+
+“Cậu chắc muốn nhận nhiệm vụ này chứ?”
+
+“Đúng vậy.”
+
+Điều đầu tiên cậu làm trong ngày mới là đến Guild tìm nhiệm vụ.
+
+Săn Goblin: E
+
+Giết 10 con trong rừng Clair
+
+Thưởng: 35000 Rigin

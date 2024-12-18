@@ -1,0 +1,595 @@
+Vol 17
+
+Chương 2
+
+Độ dài: 8,524 từ - Lần cuối:
+
+11/11/2016 00:43:23
+
+- Bình luận: 9
+
+Tập 17, chương 2: Skill Blacksmith of Magic Swords
+
+Kuruso, thành phố của các Craftsman tộc Dwarf, đã trở nên nổi tiếng nhờ Weed và rất nhiều khách thập phương ghé qua nơi này. Những người chơi đến từ nơi khác đều ấn tượng khi họ nhìn thấy tác phẩm điêu khắc bằng nước của Kendellev vừa được phục chế. Và họ còn đi loanh quanh để xem các loại vũ khí và giáp trụ tốt.
+
+“Hah, cháu có thể mua nó nếu cháu kiếm được thêm một chút tiền nữa. Chú Dwarf à, chú giảm giá cho cháu nhỏ một ít điiiiiiiiii???? Híu hiu.”
+
+“Một đồng cũng không nhá, đi nghỉ mát đi cháu.”
+
+Việc mặc cả giữa người chơi với các tộc nhân Dwarf xuất hiện ở khắp hang cùng ngõ hẻm thành phố. Những đồ ngon được bán bởi các Dwarf ở Kuruso đều rất đắt đỏ, thậm chí cả các đồ phụ kiện (vòng đeo cổ, vòng tay…. các kiểu con đà điểu) cũng vậy. Người ta khó có thể dễ dàng quyết định mua một món đồ. Đối với các Merchant, các món đồ phụ kiện luôn là những món có giá trị giao dịch cao hơn nhiều so với đá quý hay vàng. Chúng có thể được bán ở bất cứ thành trì làng mạc nào, và một món tốt thậm chí có thể giúp Merchant kiếm được lời nhiều hơn nữa nhờ vào điểm thân thiện của mình với người dân ở lục địa.
+
+Có một số Dwarf cảm thấy thích thú vì Kuruso đã trở thành một địa danh đông đúc, nhưng một số còn lại thì chả thèm rời cái lò rèn và chỉ cặm cụi làm thủ công với các vật phẩm của mình.
+
+“Hmmm.”
+
+Fabio mài sắc thanh kiếm của mình trên phiến đá mài.
+
+*Raasp rasp*
+
+Thanh kiếm đã được mài sắc.
+
+Skill Sword Grinding được kích hoạt!
+
+Lượng Damage tăng 41%
+
+Skill Sword Grinding. (Skill Mài Sắc Kiếm)
+
+Đó không phải là một skill mà chỉ mình Weed mới nhận được, mà đó là một kỹ thuật mà bất cứ một Blacksmith nào đạt đến trình độ Trung Cấp cũng có thể nhận được. Hiển nhiên, bởi lẽ Fabio chả bao giờ học skilll Tailoring, nên ông cũng sẽ không biết đến 2 skill Ironing và Hand Washing.
+
+“Có vẻ nó được mài dũa cũng kha khá rồi.”
+
+Fabio lật thanh kiếm tới lui, cố gắng tìm khuyết điểm. Lưỡi kiếm đã đủ độ bóng tới nỗi nó có thể phản chiếu bộ râu xồm xoàm của chính ông!
+
+Người chơi nổi tiếng nhất trong các Blacksmith trên khắp bờ cõi Lục địa Versailles chính là Fabio. Ông là chuyên gia chế tạo giáp và khiên, nhưng ông hoàn toàn che giấu một điều là ông cũng có thể rèn được kiếm.
+
+Bất cứ khi nào một thanh kiếm trong vô vàn các thanh kiếm được ông rèn và trình làng, thì thanh kiếm nấy đều gây chấn động. Những thanh kiếm này là lý do khiến nhiều người lao vào cuộc tìm kiếm ai là Blacksmith đã rèn ra nó.
+
+Một vũ khí ở tầm cỡ hoàn toàn khác biệt so với các tác phẩm được rèn bởi những Blacksmith thông thường!
+
+Sẽ rất là bình thường như cân đường hộp sữa khi thu được vũ khí xịn thông qua việc đi săn quái khi bạn đang ở một lv nhất định, nhưng những thanh kiếm được Fabio tận tâm làm, đủ sức để phát động một cuộc chiến tranh giành giữa vô vàn những người chơi với nhau. Có một thanh kiếm khủng sẽ thay đổi hoàn toàn tốc độ săn quái. Nỗi ám ảnh và khao khát đối với vũ khí và giáp trụ ở Royal Road vẫn luôn là nỗi khiếp sợ.
+
+Fabio rèn ra những cây kiếm và ông thường lan truyền chúng ra ngoài cho vui, tuy nhiên, ông chủ định giấu đi sự thật ông là người rèn nên những thanh kiếm này. Ông giấu khéo đến nỗi có thể khiến người ta lầm tưởng ông là một Blacksmith già đã về hưu.
+
+“Skill Sword Grinding quả thực cũng khá hữu dụng nhể.”
+
+Fabio mãn nguyện hạ cây kiếm xuống.
+
+Dù chỉ là nhất thời, skill này làm tăng damage cho thanh kiếm. Ở cấp độ skill Blacksmithing Cao Cấp level 8 và Sword Grinding Cao Cấp level 6, ông thậm chí có thể gia tăng damage của thanh kiếm lên đến 85%. Dù vậy, tác dụng phụ của nó cũng khá là nghiêm trọng.
+
+“Nếu độ sắc bén tăng đi tăng lại quá độ, độ bền của thanh kiếm sẽ tụt nhanh chóng và thanh kiếm sẽ dễ hỏng hơn.”
+
+Nếu sử dụng skill này một cách thận trọng, tăng damage tầm 40% hoặc hơn cũng được.
+
+“Một thanh kiếm hoàn chỉnh quả thực rất đẹp.”
+
+Trước đây ông từng là một nhân viên làm công ăn lương ngoài đời, nhưng ngay khi Royal Road xuất hiện, ông đã hoàn toàn bị thu hút. Có rất nhiều class khác nhau, nhưng class thực sự có ý nghĩa với ông nhất chính là Blacksmithing.
+
+Người ta có thể nói rằng, từ lúc mới bắt đầu, Royal Road từng chìm trong hỗn loạn. Đại đa số những người chơi thậm chí còn chẳng biết đánh thỏ kiểu gì. Sự xuất hiện của một con Orc bình thường cũng khiến họ dễ dàng bỏ chạy thẳng về cổng làng, và số lượng người tạch ngay lúc ấy cũng chẳng phải ít.
+
+Đó là quãng thời gian mà một thanh trường kiếm bình thường cũng có thể đem lại sự thèm muốn và ghen tỵ khủng khiếp.
+
+Do đó, Fabio đã quyết định chọn class Blacksmith.
+
+“Đó là một sự lựa chọn đúng đắn.”
+
+Ông không thể lao đầu vào những cuộc chiến, dù vậy ông không hề hối tiếc khi quyết định như vậy. Ông nâng cao tay nghề skill Blacksmithing của mình nhờ vào việc tập trung hoàn toàn và đưa ra các quyết định nhanh chóng hơn những người khác.
+
+Sau khi đã trở thành một Blacksmith xuất chúng nhất ở làng Dwarf, cơ hội làm việc của ông là bất tận. Với tên tuổi của mình lan truyền khắp thành phố, khách hàng từ phương xa đã chọn và tin cậy đặt hàng ông làm ra sản phẩm cho mình.
+
+Thường thì cung vẫn luôn không đủ cầu trên thị trường Blacksmithing. Một khi đã trở thành Blackmith có tay nghề giỏi nhất, chẳng còn gì để mà nói nữa cả. Ổng kiếm tiền nhờ vào tiền phí dịch vụ khổng lồ, để rồi lấy số tiền đó đầu tư mua quặng để chế giáp trụ.
+
+Một class phải tiếp xúc và xử lý liên tục những thanh sắt nóng đỏ trên những lò than rực hồng! Dù đó là một công việc đơn độc, ông vẫn chịu đựng được tất cả và tiếp tục luyện sắt.
+
+Lấy những nguyên liệu tốt nhất làm nền tảng, ông ký hợp đồng với nhiều người chơi ở đẳng cấp cao và cung cấp áo giáp cho họ. Và khi ông được xuất hiện trên truyền hình, số lượng người ủng hộ ông tăng lên ngày một nhiều hơn. Ông là một hình tượng sống cho các Blacksmith mới vào nghề noi theo.
+
+Mặc dù không phổ biến mấy, nhưng Fabio là thủ lĩnh thực sự của một guild tên là “Iron Road”. Ông đã điều hành guild của mình trong khi rèn trang bị cho các thành viên. Và với việc ông luôn có nhiều bạn hơn là kẻ thù, ông cũng có sức ảnh hưởng nhất định dù hữu hình hay vô hình với những người này. Trong số những người chơi thuộc tộc Dwarf, không có mấy ai lại dám chối từ ông.
+
+“Dù vậy thì, giá trị thực sự của một Blacksmith được chứng minh bởi tài rèn vũ khí của anh ta!”
+
+*CLANG!*
+
+Fabio tàn bạo quẳng đi cây kiếm ông vừa mới rèn sang một bên. Hàng đống kiếm như vậy chất chồng lên như núi xung quanh ông.
+
+“Lần này, lại một lần nữa, thanh đó không được như kỳ vọng của mình. Một thanh kiếm tối thượng, có thể cắt vạn vật, dù chúng có là gì đi nữa. Ta phải làm ra một thanh kiếm được xưng tụng là thanh tốt nhất trên khắp Lục địa Versailles này.”
+
+Một hệ thống skill ẩn của Blacksmith!
+
+Khi đi trên con đường của một Blacksmith, Fabio đã học được một kỹ thuật đặc biệt.
+
+Skill Mineral Smelting Cao Cấp level 3 (25%)
+
+Một kỹ thuật có thể tinh lọc được các tạp chất của một quặng hỗn tạp chứa những thành phần khác nhau để đem ra sử dụng.
+
+Có thể xem như đây là một kỹ thuật căn bản của một Blacksmith. Để học được kĩ năng này, bạn phải thấu hiểu ý chí của các nguyên tố lửa, không khí và kim loại.
+
+Trong các skill ẩn của Blacksmith, Mineral Smelting gần như là skill đầu tiên mà ông học được. Đó là một kỹ thuật Fabio lĩnh hội khi chuyển class sang nhánh class Ironblood Blacksmith.
+
+“Aahh, tới tận bây giờ nó vẫn làm ta rùng mình khi nghĩ tới quá trình chuyển class.”
+
+Để có thể chuyển sang class Blacksmith, ông đã phải rèn tới chết trong lò rèn của mình. Dù rằng ông có thể chỉ cần đến cái Guild Blacksmith rồi làm vài cái vũ khí hay giáp trụ để chuyển class, cơ mà ông chả thích làm vậy.
+
+Ông muốn chính mắt mình nhìn thấy, tự rèn bằng đôi bàn tay của chính mình trước khi chuyển class, ông đã dành thời gian hơn một tháng quí báu của cuộc đời chỉ để làm ba cái việc lặt vặt trong lò rèn vào thời điểm mới bắt đầu chơi Royal Road.
+
+Quest chuyển class khiến ông phải trải qua những quá trình khủng khiếp mới hoàn thành được!
+
+“Ta sẽ chẳng thể nào quên nổi cái quest ‘Niềm vui, nỗi buồn và nước mắt của một Blacksmith’ cho tới cuối đời.”
+
+Để chuyển class, ông luôn phải bận rộn nhong nhong trên đôi chân ngắn ngủn của mình đi khắp các làng mạc khi thực hiện các bước hoàn thành yêu cầu của nhiệm vụ. Và rồi ông phải cố gắng trở thành thành viên chính thức của lò rèn để có thể nhận được quest ấy.
+
+Một Blacksmith có thể hoàn thành quest không chỉ trong Guild, mà trong cả lò rèn. Ông cố gắng có thể chế tác không chỉ một loại item, mà là nhiều loại trang bị khác nhau. Ông nhận được điểm Fame khi hoàn thành các quest cũng như kiếm được thêm xiền. Qua những quest này, ông lại nhận được skill Equipment Enhancement.
+
+Skill Equipment Enhancement Cao Cấp level 1 (16%)
+
+Dưới bàn tay của một Blacksmith, các tiềm năng ẩn của một trang bị có thể được xuất hiện.
+
+Thông qua rất nhiều thất bại, vật phẩm sẽ được tinh chỉnh.
+
+Đây chính là skill khiến Fabio trở nên nổi tiếng!
+
+Ông học được skill này vào khoảng thời gian ông đạt đến trình độ Blacksmithing Trung Cấp.
+
+Có một câu nói thế này: “Đừng có mà bao giờ lộ hết quân bài của mình.” Nếu ai đó không cẩn thận mà cứ bô lô ba la khoe ra hết kỹ năng của mình trên cái Lục địa Versailles này, nơi mà những trận chiến bất tận nhằm giành lấy sự độc tôn luôn diễn ra không ngớt, người đó sẽ dễ dàng bị kéo vào một cuộc tranh chấp nào đó hoặc không chừng sẽ mất mạng.
+
+Fabio chủ đích giấu nhẹm việc ông có thể gia tăng sức mạnh cho những thanh kiếm hay giáp trụ với skill Equipment Enhancement. Nếu ông cũng tăng cường sức mạnh cho những thanh kiếm, ông sẽ dễ dàng hốt bộn tiền trong một nốt nhạc. Tiền ông kiếm trong một ngày thậm chí sẽ hơn số tiền ông kiếm được trong một tháng nếu ông chỉ làm mỗi công việc tăng cường sức mạnh cho giáp trụ như trước kia. Ngay cả khi tính đến một thực tế là, ngoài các Merchant, Blacksmith luôn thích những class có thể sinh lời nhất, và đó quả là một khoản lợi nhuận khổng lồ.
+
+Dù vậy, nếu người ta biết được khả năng của một Blacksmith có thể mở rộng đến nhường ấy, sẽ có nhiều người chọn class này hơn…
+
+“Các đối thủ cạnh tranh của ta sẽ tăng lên, và chúng sẽ chẳng bao giờ để yên cho cái thân già này.”
+
+Fabio chỉ cường lực cho giáp đến một level nhất định. Sau cùng, thứ mà ông muốn không phải là tiền, mà là đạt được đến đỉnh cao các kĩ năng của Blacksmithing và chế tạo ra thứ vũ khí cũng như thứ giáp trụ khủng nhất.
+
+Sau khi kiếm tiền với skill Equipment Enhancement, ông đã có thể dùng khoáng vật không giới hạn. Ông giàu tới nỗi có thể tiếp cận Vương Quốc Thor và thường mua thành đống các loại quặng Mithril, iron, và bạ ở nơi này.
+
+Skill Blacksmithing của ông đã đạt đến Cao Cấp.
+
+Ông thậm chí còn học được một skill Blacksmith ẩn thông qua các quest và mối quan hệ của chính mình!
+
+Skill Ego Sword Production Sơ Cấp level 8 (49%)
+
+Có thể thổi hồn vào vật phẩm. Tuy nhiên, nó ngốn một lượng lớn Mana và một vong linh đặc biệt để làm được điều này.
+
+Kết quả sẽ tăng lên nếu bạn thực hiện skill này ngoài nghĩa trang.
+
+Ego swords. (Linh Kiếm)
+
+Fabio thử thổi hồn vào một thanh kiếm mà ông có.
+
+*Ding!*
+
+Toàn bộ Mana của bạn đã được sử dụng
+
+Một kiếm linh đã được ban cho thanh kiếm. Các đặc tính của thanh kiếm đã thay đổi.
+
+Lượng Damage giảm 17%, Durability (độ bền) giảm 65%
+
+Giờ thanh kiếm sẽ có những đặc tính phép thuật.
+
+Dựa vào level skill Ego Sword Production và độ thành thục phép thuật của các Blacksmith, lượng Damage cùng độ bền sẽ giảm, các đặc tính phép thuật sẽ được thêm vào.
+
+Thanh kiếm tập sự
+
+Độ bền: 25/25.
+
+Damage: 31-46.
+
+Một thanh trường kiếm cơ bản. Nó rất cân bằng và được rèn từ loại thép chất lượng cao. Vì là vũ khí được chế tác thủ công, nó sở hữu các đặc điểm của skill Blacksmith đã đạt đến trình độ Cao Cấp.
+
+Một sản phẩm được rèn bởi Blacksmith Fabio.
+
+Một thanh linh kiếm, với kiếm linh là một goblin bên trong. Linh hồn này vẫn đang ở trong trạng thái chưa thức tỉnh.
+
+Giới hạn level: 180
+
+Hạn chế: Chỉ dành riêng cho các class Swordsman, Knight, và Warrior.
+
+Đặc tính: damage sét +2. Luck +15.
+
+Ông đã kì vọng rất lớn vì nó là một Linh Kiếm. Ông đã mong chờ một thứ gì đó tuyệt vời, một thứ gì đó ấn tượng sẽ xuất hiện! Vậy mà…
+
+“Nó là một phế phẩm.” - Fabio cau có.
+
+Một thanh Linh Kiếm sở hữu một ý chí cho riêng mình và là một vũ khí sẽ phát triển dần thông qua việc săn quái. Lấy ví dụ, một thanh kiếm với lượng Damage khoảng 40 có thể tăng lên đến tầm 70-80 thông qua săn quái. Ngoài ra, thanh kiếm cũng sẽ giải phóng một vài phép thuật bảo vệ nào đó theo ý chí chủ động của riêng nó.
+
+Đây là một skill giúp vũ khí tự phát triển vượt qua giới hạn của chính nó!
+
+Dù vậy, vẫn còn đó những khuyết điểm nghiêm trọng. So với một thành kiếm thường, lượng Damage và độ bền của nó bị giảm đi rất đáng kể.
+
+“Đặc tính phép thuật thì cũng chả nhiều nhặn gì cho cam.”
+
+Như một Blacksmith thuần, Fabio chủ yếu tăng các chỉ số của mình vào Strength, Agility, Stamina, và Concentration (sự tập trung), để có thể nện búa mạnh, chuẩn xác và đều tay hơn. Có thể vì điểm Wisdom và Intelligence của ông thấp, nên ông chỉ có một ít MP, và cũng chẳng học thêm một phép thuật nào. Có lẽ đó là nguyên nhân. Nhưng một thanh kiếm hoàn thiện chỉ giải phóng được phép thuật cơ bản, và cũng chỉ tiêu tốn ít MP.
+
+Quan trọng hơn cả, cái tôi chứa đựng trong thanh kiếm cũng chẳng thể nói chuyện hay nhớ được những trận chiến trước đó bởi skill Ego Sword Production của ông vẫn còn thấp và ông thiếu mana để rèn.
+
+“Ừ thì, dù gì cũng chả có ai biết…”
+
+Để thử nghiệm, Fabio nhờ con gái mình bí mật bán hộ chỗ kiếm đó để ông có thể theo dõi được tiến độ phát triển của các thanh Ego Sword. Tuy nhiên, nhanh chóng sau đó những thanh kiếm này bị quẳng đi bởi những người chơi tập sự hay trung cấp dù rằng nó đã phát triển đến một mức nhất định. Ngay cả khi nó là một thanh Linh Kiếm, nếu không tính vẻ bề ngoài thì nó chỉ là một thanh kiếm phép quèn với một hai đặc tính phòng ngự được thêm vào.
+
+Một ai đó đã phát hiện được điều kỳ lạ này rồi post lên forum.
+
+– Một điều gì đó rất đáng ngạc nhiên đã xuất hiện.
+
+Thứ vũ khí này được tôi nhặt trên đường, nó có sức mạnh của sấm sét. Min-Max damage ban đầu của nó là 31-46 cùng lightning damage +2,  nhưng sau một tuần săn quái, khi tôi mang nó đi sửa rồi giám định lại thì Min-Max damage của nó đều tăng thêm 1 còn Lightning damage tăng thêm 3.
+
+Tôi đang tính đến việc chuyển sang sử dụng cây kiếm khác, cơ mà.... mọi người nghĩ sao về chuyện này?
+
+Câu trả lời cho đoạn post này nhanh chóng xuất hiện:
+
+– Mất trí nhớ ngắn hạn à cu.
+
+– Uống ít thôi high quá rồi đấy chú em.
+
+– Thanh kiếm đó, bạn có thể cho mình xem thử không? Mình không đề nghị bạn phải đưa nó cho mình, mình chắc chắn sẽ trả lại nó.
+
+– Tôi là một người mới chơi không có kiếm, hãy bán cho tôi với giá 300 vàng.
+
+“Có vẻ sẽ khá khoai để skill Ego Sword Production cho thấy bất kì kết quả khả quan nào khi chưa đạt đến cấp độ Trung Cấp hay Cao Cấp.”
+
+Mặc dù Dwarf là một chủng tộc có tính chất đặc thù để phát triển các kỹ thuật Blacksmithing, ông cũng khó mà có thể phát triển được skill này bởi các chỉ số phép thuật của ông lại khá là khiêm tốn. Một Blacksmith tộc Elf hay Human thì có khi sẽ có thể làm ra một thanh Linh Kiếm tốt hơn.
+
+Đây thực sự là một điều đáng xấu hổ, nhưng Fabio buộc phải từ bỏ phát triển skill Ego Sword Production.
+
+Skill Magic Sword Production Sơ Cấp level 1 (3%)
+
+Bạn có thể rèn được một thanh kiếm có phép thuật bên trong.
+
+Một thanh kiếm phép hoàn chỉnh có thể cho thấy khả năng đặc biệt phù thuộc vào tính chất của vật liệu làm ra nó. Chỉ có thể được sử dụng nếu đã được phù phép.
+
+Đây là skill Fabio đặt kì vọng nhất!
+
+“Ta sẽ làm ra một thanh kiếm được yểm lên những phép thuật mạnh nhất.”
+
+Điều này cũng không phải là bẩt khả thi. Vật liệu chứa đựng sức mạnh phép thuật có thể kiếm được một ít trong các khu vực rất sâu bên trong các hầm ngục hay lụm được khi đi săn các con quái có level cao. Ông đã rất háo hức được làm một thanh kiếm phép tối thượng bằng những vật liệu ấy.
+
+“Một thanh kiếm phép đích thực, được tạo bởi một Blacksmith, chứ không phải một Magician.”
+
+Một Magician có thể sẵn sàng ngốn toàn bộ số Mana anh ta có vào một thanh kiếm để tạo ra một phép thuật khủng và chỉ sử dụng chúng lèo tèo vài lần. Tuy vậy, một Blacksmith cũng có thể tạo ra một thanh kiếm đã được yểm sẵn phép thuật.
+
+Đó là một skill mà Fabio đã bí mật kiếm được trong khi hoàn thành một yêu cầu sau khi đã hoàn thành được hàng tá nhiệm vụ Blacksmithing khó nhai.
+
+Skill Blacksmith of Magic Swords (Skill Blackmith Rèn Kiếm Phép)
+
+Nghệ thuật bị ẩn giấu của một Blacksmith tộc Dwarf – Người căm ghét con quỷ rồng Kaybern.
+
+Những thanh kiếm bình thường không thể làm thương tổn lớp vảy của Kaybern, và thực sự khá là ngu ngốc khi dùng phép thuật để chiến nhau với một con Rồng. Vị Blacksmith tộc Dwarf tin rằng giải pháp duy nhất để đi săn Kaybern là tấn công nó bằng một phép thật sau khi chém xuyên qua được lớp vảy rồng.
+
+Để có thể tiếp nhận được phương thức sản xuất một thanh kiếm phép, người Blacksmith tộc Dwarf ấy phải khám phá một hầm ngục đã bị biến mất.
+
+Độ khó: Quest dành riêng cho class Blacksmith
+
+Giới hạn: Quest chỉ giới hạn cho các Blacksmith tộc Dwarf
+
+Đó là một quest class ông từng hoàn thành nhờ vào việc bí mật đưa nguyên Guild đến làm cùng.
+
+Một thanh kiếm phép có lượng damage khủng hơn một thanh kiếm thường, và nó cũng sẽ phát triển thêm nhờ vào mỗi lần nó lên cơn khát máu khi nó hút máu đối thủ bị chém. Và bởi đặc tính của nó cũng thuần hơn một thanh Ego sword, vậy nên làm ra một thanh kiếm như vậy làm vũ khí sẽ tốt hơn.
+
+*CLANG, CLANG, CLANG!*
+
+Fabio lặng lẽ nện chiếc búa hà ầm lên tấm thép.
+
+“Một vũ khí tuyệt đối, một bộ giáp trụ gần như hoàn hảo; chỉ cần những tác phẩm như thế, một Blacksmith mới có thể có chỗ đứng ở trung tâm Lục địa Versailles.”
+
+Bởi các Blacksmith khác trên lục địa Versailles đều rất chăm chỉ làm việc, vậy nên cho dù tới lúc này kể cả khi đã là số một, ông cũng không thể nghỉ ngơi.
+
+Trên lục địa Versailles rộng lớn, Fabio chính là một hình tượng vĩ đại, tuy nhiên ông luôn che giấu thân phận của chính mình.
+
+* * *
+
+Guild Crimson Mercenary
+
+Một guild có thể tự hào khoa trương lực lượng trên Lục địa Versailles. Chỉ có các Mercenary với level hơn 280 mới được gia nhập. Họ có các chi nhánh điều hành trên mọi vương quốc, và toàn bộ vùng ven hồ Nemere trù phú đều nằm dưới sự kiểm soát của guild này. Họ là những kẻ cai trị một khu vực rộng lớn, nắm trong tay 5 tòa thành và 28 ngôi làng.
+
+Guild Crimson Mercenary hôm nay có một cuộc họp tại Lâu đài Haryun, nơi gần khu vực ven hồ Nemere nhất..
+
+“Chủ đề là về Chiến Thần Weed.”
+
+“Chủ guild à, chúng ta có nên mần thịt hắn không?”
+
+Chủ guild Maren gật đầu.
+
+“Chúng ta có rất nhiều lí do để khuất phục Weed.”
+
+Vinh quang của việc chiến đấu với Chiến Thần Weed và giành lấy chiến thắng!
+
+Đối với Guild Crimson Mercenary, họ muốn thể hiện thế lực của mình lên toàn Lục địa Versailles. Đó là điều họ luôn khao khát.
+
+Tuy vậy, cũng có một vài Mercernary lắc đầu phản đối ý kiến này.
+
+“Kể từ thời game Continent of Magic, hắn đã là một hình tượng mẫu mực cho anh em Mercenary rồi. Điều này là quá sức đối với chúng ta, những người đại diện cho các Mercenary, mà lại đi khuất phục người đó.”
+
+“Cần phải xem xét vài chuyện. Nếu chúng ta tùy tiện tấn công hắn mà không có nguyên cớ gì, điều này có khác chó gì lũ trộm cướp ngoài đường ngoài chợ chứ?”
+
+“Lí do nó quan trọng như thế nào ư? Hãy nghĩ đến danh tiếng của chúng ta! Đây là cơ hội để tăng danh tiếng nhờ vào việc đánh bại được Chiến Thần Weed trong một cuộc chiến!”
+
+“Chỉ có thời gian mới biết được việc này sẽ đem lại danh tiếng hay sự sỉ nhục.”
+
+Top 20 các Mercenary lời qua tiếng lại với nhau mà không thèm đếm xỉa chút nào đến ý kiến của người kia
+
+Maren, lãnh đạo của Guild Mercernary, ban đầu cũng tham lam tính tới chuyện khuất phục Weed. Nhưng sau khi nghe nhiều ý kiến trái chiều, ông cũng có chút chần chừ.
+
+Thực ra thì việc này cũng sẽ đem lại vinh quang. Danh hiệu của người chơi có khả năng làm thịt Chiến Thần Weed cũng khá là hấp dẫn. Nhưng mặt khác, họ cũng sẽ phải chịu sự thù địch đến từ những người chơi hâm mộ Weed.
+
+Thậm chí ngay cả những người chơi trước đây đến từ game Continent of Magic cũng không hề ghét Weed. Danh tiếng của cậu ta ở Royal Road đã lên tới đỉnh điểm với một số người chơi nói chung. Nếu chỉ tính tới điểm Fame, thậm chí Weed đã ngang hàng với Bardray, chiến binh mạnh nhất Guild Hermes. Không ai biết rằng nếu giờ tấn công Weed, người đã hoàn thành các nhiệm vụ tưởng chừng như là bất khả thi và hiện tại đang trở thành thần tượng trong số những người chơi, thì điều đó có đem lại lợi ích gì cho guild của họ hay không.
+
+Naphgel, một trong số các top Mercenary, phát biểu, “Thế đ** nào chúng mày có thể nói rằng giờ đem nguyên cả Guild đi để chèn ép Weed lại là cơ hội để kiếm thêm danh tiếng? Và có thằng bếch nào trong đám chúng ta dám tự tin solo 1 vs 1 với Weed không hả?”
+
+“…”
+
+Đến lúc này, tất cả lại chìm trong im lặng. Thậm chí Maren cũng chẳng biết nói gì để đáp trả lại câu vừa rồi.
+
+Trước đây Weed cũng chưa từng công bố lượng level và skill mà cậu có.
+
+“Sẽ rất hồ đồ nếu chúng ta chỉ giả định Weed là một Sculptor bình thường. Làm gì có ai có thể chiến đấu như Weed ở trận chiến Palrangka chứ?”
+
+“…”
+
+Cho dù có nhìn vào khả năng kiếm thuật của cậu ta trong một trận chiến như thế lào đi chăng nữa, thì cơ hội thành công là quá ít ỏi, nhưng trận chiến thành công là nhờ vào bản lĩnh và tinh thần dũng cảm của cậu ta. Những người chơi bình thường tôn kính Weed đến vậy là bởi lòng dũng cảm sẵn sàng đem hết tất cả sức mình để chiến đấu và đương đầu với thử thách.
+
+“Chỉ tính tới khả năng chiến đấu, cũng chả có mấy ai trên khắp lục địa này có thể đọ lại được hắn ta. Và tôi cho rằng class thực sự của hắn cũng có thể không phải một Sculptor đâu.”
+
+“Naphgel, ý ngươi là…?”
+
+“Chúng ta không thể mất cảnh giác chỉ bởi hắn ta là một Sculptor. Với khả năng sử dụng phép của Necromancer và sức mạnh chiến đấu mà hắn thể hiện, vẫn chưa ai biết chắc class thực của hắn là gì.”
+
+Maren cũng là một người chơi có xếp hạng nằm trong top 50 của Royal Road, nhưng anh không biết khả năng của đối phương là gì hết. Tính tới kỹ năng chiến đấu Weed thể hiện khi chiến với con Bone Dragon và các quest mà cậu ta đã hoàn thành, thành thật mà nói thì nó thực sự #khoai.
+
+“Chúng ta chiến đấu như một guild đấy. Nhưng thực ra... tôi chả có tí tẹo tự tin nào để có thể tự làm những quest với độ khó như thế một mình như vậy cả. Và, không kể đến level, các giác quan chiến đấu của hắn ta ít nhất cũng phải hơn tôi gấp mấy lần.”
+
+Cũng không có nhiều thông tin về Weed.
+
+Nếu bị đánh bại trong một trận chiến solo với rất nhiều biến cố có thể xảy ra như thế thì sẽ tổn hại vô cùng. Nếu một Ranker với level như Maren mà tạch, sẽ rất vất vả để có thể hồi lại level bị mất và độ thành thục skill. Thậm chí anh còn có nguy cơ bị rớt ra khỏi cuộc chiến đua top giữa các Ranker. Hơn nữa, một cuộc chiến với Weed chắc chắn sẽ được phát sóng trên truyền hình và video hẳn nhiên cũng sẽ được post lên mạng. Nếu anh bị đánh bại trong một cuộc chiến như thế, anh hẳn phải nhận thức được việc danh tiếng của mình sẽ tụt thê thảm như thế nào.
+
+Maren nghĩ tới viễn cảnh đó trong trong tâm trí!
+
+‘Hắn ta sẽ xé nát guild chúng ta dễ dàng như xé miếng khăn giấy hỉ mũi vậy, lại còn con Ice Dragon, rồi thì Phoenix, cả Wyvern nữa chứ... và nếu hắn cũng sử dụng cái mớ ma thuật Necromancer, thì tình hình guild chúng ta phải nói là nhọ hết chỗ nói luôn.’
+
+Sức mạnh của phép thuật Necromancer được biết đến một cách công khai. Thực ra thì cũng có những phàn nàn tới từ các Necromancer về lượng Stamina thấp và khó tăng của class này, những bởi cái hình ảnh khủng bố mà Weed đã cho thấy trên màn hình, đó vẫn là một class được nhiều người ưa chuộng.
+
+‘Một lố phép của Necromancer à… quả thực không ngoa khi hắn được xưng tụng là Chiến Thần.’
+
+Weed, cười một cách tàn bạo rồi cứa đứt cổ họng Maren trước con mắt của bàn dân thiên hạ …
+
+“Ahem.”
+
+Maren chẳng thể hành động một cách bất cẩn như vậy.
+
+“Ta cũng chẳng nghĩ tới việc thua cuộc đâu, nhưng đây là một vấn đề khá khoai, bởi chúng ta vẫn chả thể nào làm ngơ các trường hợp ‘lỡ như’ xảy ra cả.”
+
+“Và nếu chúng ta đem hết lực lượng lên tít tận phía Bắc như thế, điều đó chả phải lại là tạo cơ hội cho các guild khác, những kẻ chỉ trực chờ tấn công chúng ta, có cơ hội tốt hay sao?”
+
+Vì Guild Crimson Mercenary là một guild hùng mạnh, họ hẳn nhiên cũng có nhiều kẻ thù. Họ ở một vị thế không thể tùy tiện đem lực lượng chính đi chinh phạt kiểu vậy cả.
+
+“Có phải ý ông nói, chúng ta có thể bị tấn công khi cố gắng bắt giữ Weed đúng không?”
+
+“Chắc chắn điều đó có thể xảy ra. Lãnh thổ của chúng ta không tránh khỏi bị suy yếu khi lực lượng chiến đấu của chúng ta lại nằm tít trên phía Bắc như thế. Theo cách nhìn nhận của các guild khác, chẳng phải các ông không nghĩ rằng sẽ là chính đáng hơn nếu chúng ta cứ đặt mục tiêu vào lãnh thổ rộng lớn và đem lại lợi nhuận nhiều hơn thay vì cứ cố gắng theo đuổi chút công danh nhờ vào việc tóm cổ Weed?”
+
+Họ có rất nhiều guild Mercenary đối lập, và cũng chả có điều lệ nào ngăn cấm nhiều bên lập hội để úp sọt một bên cả. Vấn đề này khiến cho Guild Crimson Mercenary đủ lo rồi chứ ở đó mà rước thêm mối lo khác vào.
+
+* * *
+
+Weed chỉ giữ lại một vài món sau khi tống khứ hết chỗ item rác. Cậu dự định sẽ tìm chủ nhân cho các món: cây thương tuyệt phẩm của Sophia, viên pha lê cỡ bự, con dấu của Jorudia, các viên kim cương, và mũ khí phép của Isuren, ở chỗ khác.
+
+“Sẽ thật tuyệt nếu bán viên pha lê cỡ bự này cho giới quí tộc sau khi mình tinh chế nó với điêu khắc và biến nó thành một món đồ trang trí tinh xảo. Cũng không tệ khi mình dùng skill Light Sculpting để gia công nó. Chắc mình phải bán chỗ còn lại thông qua trang đấu giá của Tổ chức Dark Gamer.”
+
+Một tủ quần áo hay một chiếc bàn ăn được đính một viên đá quý khổng lồ! Sẽ rất khó để bán nó ở phương Bắc, nhưng nó luôn là thứ đồ xa xỉ mà cậu có thể bán với giá cực khủng ở các vương quốc khu vực Lục Địa Trung Tâm.
+
+Sau khi bán mớ đồ linh tinh, Weed thong thả dạo bước cùng Yellowy trên con phố thân quen trong lãnh thổ vùng Morata.
+
+Những người dân lập tức nhận ra cậu và chủ động chào đón cậu trước.
+
+“Kính chào ngài, thưa lãnh chúa kính mến.”
+
+“Thưa lãnh chúa, có người nói rằng ngài đã lại hoàn thành một nhiệm vụ không tưởng một lần nữa... Làm ơn hãy kể cho chúng tôi câu chuyện này vào một ngày nào đó. Con trai tôi nói rằng nó muốn được trở thành một người như ngài khi nó lớn lên.”
+
+“Thưa Lãnh chúa vùng Morata, tôi là một Merchant tới từ Vương quốc Rintle. Thật là một vinh dự khi được gặp một người nổi tiếng đến như vậy.”
+
+Bởi lượng Fame khổng lồ mà cậu có được sau quest sông Lamentations, ngay cả các NPC tới từ Lục Địa Trung Tâm cũng phản ứng nồng hậu với cậu.
+
+“Những quả táo chín mọng này vừa mới được hái ở phía trước vườn nhà tôi. Chúng tôi đã để dành cho ngài những quả ngon nhất, thưa lãnh chúa, xin ngài hãy thử nó xem.”
+
+Một người phụ nữ đưa cho cậu hẳn một giỏ táo! Đó là nguyên một giỏ trái cây mà cô đã lấy ra để bán ở chợ, nhưng khi cô nhìn thấy vị lãnh chúa, cô lập tức đưa cho cậu.
+
+Weed nhận lấy giỏ trái cây rồi cắn một miếng lớn trên quả táo mọng đỏ.
+
+“Yellowy, chú mày cũng làm một quả đi.”
+
+Cậu ném cho Yellowy một quả táo bị sâu. Chú bò thè lưỡi ra liếm thử quả táo, rồi há to miệng đớp cả quả táo vào mồm.
+
+Weed long trọng tiến tới để chỉ dạy cho chú bò một bài học.
+
+“Yellowy, đặc điểm của loài người là, họ luôn giúp đỡ nhau khi gặp khó khăn. Liệu mày có nghĩ những việc xảy ra vừa rồi đều là nhờ những việc làm hằng ngày của chúng ta không?”
+
+Yellowy nghĩ ‘bố ai mà tin được ông’, nhưng nó vẫn gật đầu lấy lệ. Nó vẫn đang bận rộn ngấu nghiến chỗ táo trong giỏ trái cây.
+
+Morata đã khác nhiều so với lần cuối cậu ở đây. Các hình tượng bí ẩn được tạc trên cây cầu đá hướng đến lâu đài của Lãnh chúa. Các Sculptor, Artist, và Painter đã tới Morata và làm giàu mạnh thêm cho thành phố
+
+“Chúng tôi đang xây dựng một trung tâm mua sắm!”
+
+“Tôi là một Painter, hãy mang tôi theo với.”
+
+“Tôi – một Sculptor cũng sẽ tham gia, hãy để cái trần nhà đấy tôi lo cho!”
+
+Khi một quest xây dựng xuất hiện, mọi class mang tính nghệ sĩ đều tham gia để xây dựng nên một công trình tuyệt đẹp.
+
+Cùng với các con sông và hồ nước trong veo như pha lê, sự hấp dẫn của Morata đang ngày một tăng lên.
+
+Nơi đây còn có một vật trang trí lớn trên nóc của tòa nhà lớn nhất ở Morata, có thể nhìn thấy từ quảng trường.
+
+Đó là chiếc trâm cài tóc của Quý Bà Ankia được tìm thấy bởi Adventurer Spenson!!!
+
+Chiếc trâm cài tóc của Quý Bà Ankia, bảo vật của thành phố
+
+Độ bền: 80/80.
+
+Một món trang trí bằng vàng với giá trị khảo cổ xuất chúng.
+
+Tác dụng:
+
+Toàn bộ tốc độ phát triển thương mại của ngôi làng tăng thêm 2%.
+
+Điểm kinh nghiệp của các class liên quan đến Adventurer tăng 1.5%.
+
+Spenson là một Adventurer rất có tiếng ở Royal Road; chiếc trâm cài tóc ông khai quật được trong quá trình khám phá phương Bắc đã được trưng bày ở Morata.
+
+Adventurer có thể cất đi hoặc công bố công khai di vật đặc biệt mà mình khai quật được tại các thành thị. Chúng thi thoảng được bán với cái giá rất cao, nhưng Adventurer sẽ nhận được một lượng điểm Fame vô cùng lớn nếu họ cống hiến chúng cho các đô thị. Việc này cũng làm tăng thêm ngay lập tức độ thân mật của người chơi với người dân trong vùng, và họ sẽ có thể mua những đồ tốt với giá hạt dẻ hơn – cái giá ngon hơn nhiều khi cắn răng mua của mấy ông gian thương Merchant. Hơn nữa, tiếng tăm của họ với các nhân viên trong quán rượu thì cứ gọi là nhất luôn! Ngoài ra thì người dân trong khu vực cũng sẽ chủ động tìm Adventurer để giao Quest thay vì ngược lại.
+
+Spenson đã tiên đoán rằng trong tương lai Morata sẽ phát triển thành thành phố trung tâm của khu vực phía Bắc nên ông đã quyết định sẽ trưng bày những vật phẩm mà mình khai quật được tại nơi đây.
+
+Quay trở lại Morata sau một thời gian dài, Weed có thể cảm nhận được sức sống mãnh liệt của những cuộc phiêu lưu
+
+“Thật mỹ miều.”
+
+“Cậu không vui khi thấy chúng tôi tới đây sao?”
+
+“Quàooo, không khí nơi này thật tuyệt.”
+
+Một trong những đổi thay chính là cảnh tượng các đôi tình nhân tràn ngập như một lũ gián, lổn ngổn dưới các cây cầu hay tòa nhà, tự dưng lại tạo ra một quang cảnh thú vị. Kể từ lúc những người mới chơi bắt đầu chọn địa điểm khởi đầu của họ tại Morata, thì nơi đây sớm xuất hiện nhiều đôi uyên ương. Ái tình chẳng phải sẽ nở rộ khi cùng săn thỏ và cáo cùng nhau hay saoooo!
+
+Việc tiêu thụ và mua bán hàng hóa dành cho những người tập sự bắt đầu manh nha trở thành nền kinh tế mũi nhọn phát triển nhanh chóng ở Morata. Không có nguyên nhân chính nào có thể giải thích việc tầng tầng lớp lớp người mới chơi tự dưng tụ lại nơi này đông đúc chỉ kém mỗi khu vực phía Đông Vương quốc Rosenheim, khiến Morata bỗng dưng trở nên tràn đầy sức sống. Đó là một cảnh tượng bình thường khi bạn thấy những người mới chơi hí hoáy trang bị khởi đầu của họ là thanh kiếm gỗ hay nhâm nhi 10 cái bánh mỳ lúa mạch trong khi làm các quest trong làng.
+
+Morata, một thành phố vui tươi và tràn đầy sức sống!
+
+Thực ra trong khi Weed đi xa thì Morata tăng trưởng với tốc độ chóng mặt. Khi những người mới chơi xuất hiện, các cửa hàng bắt đầu mọc lên nhanh chóng. Không chỉ có các shop bán đồ vớ vẩn rẻ tiền, mà còn các shop bán đồ chất lượng và cao cấp nữa.
+
+Các Merchant cùng người dân muốn xây lên một ngôi nhà thì mới đầu thường khá là keo kiệt trong ba cái vụ nghệ thuật.
+
+“Ba cái thứ tào lao đó thì giúp được cái gì cơ chứ.”
+
+“Cứ xây nó nhanh nhanh chóng chóng cho tôi và nhớ là làm rộng rộng chút nhé.”
+
+Dù vậy, các tòa nhà được thiết kế mang đầy tính nghệ thuật ngay lập tức lại khiến việc kinh doanh trở nên tốt hơn. Ngay cả khi hai shop bán cùng một loại mặt hàng, người ta vẫn ưa tập trung tại những tiệm ưa nhìn hơn, và vì vậy nên ở Morata, đầu tư vào Điêu khắc hay Hội họa không còn là điều xa xỉ nữa.
+
+Sculptor, Painter, và các Architect tề tựu lại để khiến thành phố trở nên muôn màu muôn vẻ.
+
+“Bài hát được chơi ngày hôm nay sẽ có tên là ‘Một đêm trong hầm ngục với bọn Goblin’.”
+
+Mọi ngóc ngách trên các con phố đều xuất hiện những buổi trình diễn nho nhỏ như vậy. Ở một nơi chật hẹp chỉ rộng tầm 5 bước chân, các Bard cất lên những bài hát trong khi chơi nhạc cụ. Đó là một cảnh tượng mà người ta chỉ thường thấy ở Rhodium - Thành phố của những Người Nghệ Sĩ.
+
+Ở Morata, các Artist, Bard, và Architect đều được tôn trọng.
+
+Đó là kết quả của việc trưởng làng dùng số tiền mà Weed đã phải đổ biết bao máu và nước mắt mới kiếm được đầu tư quá trớn vào lĩnh vực nghệ thuật. Các thành phố hay lâu đài khác chả bao giờ thèm đầu tư, may ra thì được 1% vào cái phát triển văn hóa, nhưng Morata thì đầu tư nhiều lần theo nhiều gói tài trợ khác nhau.
+
+Nhờ việc bắt đầu có nhiều Bard tập sự, và sự xuất hiện của các Bard đã có tên tuổi nổi tiếng khắp Lục địa Versailles, những thanh âm tràn trề sức sống cũng dần trở thành một trong những nét quyến rũ của thành phố Morata.
+
+Quán rượu, lò rèn, cửa hàng vũ khí, và cửa hàng giáp trụ đều tràn ngập những người chơi cũng như newbie. Hiện cũng đang có khá nhiều người chơi đang tụ tập trên các con phố, giống như nơi này đang có một lễ hội nào đó vậy.
+
+“Mình cũng tò mò không biết đã có bao nhiêu thứ đổi thay kể từ khi mình rời khỏi nơi này. Bật Cửa Sổ Thông Tin Khu Vực!”
+
+*Ding!*
+
+Khu vực Morata
+
+Một nơi từng thuộc về Đế chế Niflheim.
+
+Đây là khu vực giàu có nhất phía Bắc Lục địa Versailles và đang liên tục phát triển. Các Merchant thường xuyên lo việc giao thương, và cũng có rất nhiều khách hàng trong các cửa hiệu. Nghệ thuật được lan rộng, thu hút các du khách đến với nơi này. Nhờ vào văn hóa, có một làn sóng nhập cư chuyển tới nơi này cùng với việc hình thành những class mới. Dân số mới chuyển đến giúp tất cả các class có sự tăng trưởng đột biến.
+
+Quân sự :	47	Kinh tế  :	821
+
+Văn hóa  :	1,130	Kỹ thuật  :	310
+
+Ảnh hưởng tôn giáo  :	89	Chính trị khu vực  :	22
+
+Mức độ ảnh hưởng đối với các khu vực xung quanh  :	41%
+
+Tầm ảnh hưởng của đế chế Niflheim cũ: 3.6%
+
+(Mức độ ảnh hưởng sâu rộng được xét trên các tiêu chí về quân sự, kinh tế, văn hóa, kỹ thuật, tôn giáo, dân cư, và nhiệm vụ.)
+
+Mức độ phát triển của thành phố  :	106	Vệ sinh  :	41
+
+An ninh  :	69%
+
+Các cơ sở quản lý nguồn nước đã được làm sạch, và nhiều ngôi nhà mới được xây lên. Tuy nhiên, việc phát triển vẫn chưa tương xứng và khó cung ứng được nhu cầu của người dân khi có sự bùng nổ dân số.
+
+Những người dân mới nhập cư muốn chính quyền đầu tư thêm vào an ninh. Họ muốn mở rộng thêm lãnh thổ của ngôi làng sang một khu vực rộng lớn hơn và tăng thêm việc chinh phục lũ quái xung quanh.
+
+Những người dân vẫn còn nhớ mang máng về một lễ hội đã có từ lâu đời.
+
+Một lượng lớn các tác phẩm điêu khắc đang đem lại hạnh phúc cho cuộc sống của người dân. Ngành hội hoạ có vẻ cũng sa sút đi một chút. Niềm tin cũng như sự ủng hộ bất tận dành cho giới Nghệ Sĩ làm tăng thêm danh vọng cho ngôi làng. Người dân sẽ tự hào vì nơi này có nhiều tác phẩm nghệ thuật hơn những nơi khác và vẫn muốn tiếp tục đầu tư vào các guild liên quan đến các lĩnh vực này.
+
+Ngành công nghiệp may mặc tiếp tục đi vào ổn định. Với sự xuất hiện của các Taylor mới, tương lai cho những người học việc này là rất xán lạn.
+
+Kĩ thuật xử lí sắt vẫn còn khá cơ bản; các Blacksmith sản xuất vũ khí hay giáp trụ tay nghề vẫn còn non kém.
+
+Toàn vùng đều tin vào Đức Tin của Freya. Đức tin của dân chúng rất chắc chắn và khó có thể bị lung lay. Chủ nghĩa khoái lạc và sinh sản cũng tăng lên thêm nhờ vào ảnh hưởng của Giáo Hội Freya; người dân đều cho thấy bản tính siêng năng của mình.
+
+Đặc sản  :	Vải vóc và Da. Nghệ thuật.
+
+Tổng dân số sinh sống tại khu vực  :	168,101
+
+Thuế nhận được hàng tháng  :	178,045 Vàng
+
+Tỉ lệ sử dụng tiền trong quá trình điều hành ngôi làng:
+
+Quân sự 5%
+
+Phát triển kinh tế 32%
+
+Đầu tư vào văn hóa 14%
+
+Quest và công việc chinh phục quái 9%
+
+Bảo trì thành phố 31%
+
+Đóng góp cho Giáo hội Freya 9%
+
+Bùng nổ dân số kéo theo sự bùng nổ về lượng thuế nhận được hàng tháng, cũng như làn sóng các Mercenary và Adventurer nhập cư!
+
+“Hehhh.”
+
+Weed nặn ra một khuôn mặt đứng đắn. Khóe miệng của cậu chỉ hếch nhẹ lên, còn đống cơ mặt của cậu căng ra vì cố nhịn để không nở một nụ cười trên môi. cậu hạnh phúc đến độ muốn lăn lộn trên mặt đất, nhưng cậu vẫn buộc phải duy trì hình tượng Lãnh Chúa của mình, đặc biệt vào những lúc như thế này, phải giữ lấy thể diện.
+
+“Cũng chả có gì nhiều. Chậc, chậc… Nó vốn là một ngôi làng nông thôn cổ lỗ sỉ.”
+
+Weed, vui mừng với cặp lông mày nheo lại cùng đôi gò má run rẩy, để lộ ra một biểu hiện thối nát!
+
+Tin mừng là số tiền đóng góp hàng tháng cho Giáo Hội Freya đã giảm từ 15% xuống còn 9%.
+
+“Có vẻ như việc này tự động điều chỉnh khi lượng tiền nhận được hàng tháng tăng lên.”
+
+Đã có nhiều xiền được chi cho việc đóng góp hơn, nhưng tỉ lệ thì ngày một giảm đi khi lợi nhuận tăng lên.
+
+Khi ngân sách tăng, việc đầu tư vào văn hóa, sức mạnh quân sự, phát triển kinh tế, bảo trì sửa chữa ngôi làng cũng sẽ tăng thêm. Và kể từ khi có sự bùng nổ số lượng newbie xuất hiện, Morata giờ đã có thể coi như một thành phố tầm trung đáng kính trọng.
+
+“Thông qua thôi, mình vẫn không nhận được nhiều thuế so với số lượng người nhiều như vậy...”
+
+Ngay cả trên con phố Weed đang đứng, 86 trên 100 người là những newbie!
+
+Thuế thấp, phiêu lưu thì sướng, các bãi săn thì miễn phí, lại còn được buff bởi công trình điêu khắc Tháp Ánh Sáng. Số lượng newbie tăng vọt lên như thế chính là nhờ những cảm nhận tích cực mà Morata có được.
+
+“Newbie tăng level càng nhanh, tiền thuế sẽ tăng càng nhiều!”
+
+Cậu hẳn có niềm tin vào tương lai tương sáng. Đó là những suy nghĩ hạnh phúc mà chỉ một vị Lãnh Chúa mới hiểu được.
+
+Dĩ nhiên, Morata cũng có nhiều cái bất lợi.
+
+Chẳng có một giáo hội nào ngoài Giáo hội Freya. Đó là một điều rất đáng tiếc bởi những người chơi đi theo class Cleric sẽ bị giới hạn lựa chọn.
+
+Sự phát triển kỹ thuật vẫn còn kém, và chất lượng vũ khí và giáp cũng tệ bởi nơi này không có nhiều Blacksmith. Và bởi vì lượng đồ sản xuất ra hàng ngày cũng bị giới hạn, toàn bộ vũ khí và giáp thường sẽ bán hết chỉ trong buổi sáng. Những người mới chơi cũng có nhiều phàn nàn vì thậm chí vũ khí cho newbie bán trong các shop cũng có giá khá là mắc. Mapan nhắm được vào kẽ hở này trên thị trường, chủ yếu nhập khẩu vũ khí về để kiếm hàng đống tiền.
+
+Weed cũng không quá lo lắng. “Để đối phó với tình trạng khan hiếm, sau này lượng Blacksmith sẽ sớm tăng thêm.”
+
+Để có thể làm những việc như tăng thêm lượng vũ khí, bảo dưỡng giáp, và củng cố lại các dụng cụ, sự hiện diện của Blacksmith là rất cần thiết! Và nhờ vào việc Blacksmith cũng được xem trọng như các Cleric, rồi cũng sẽ có nhiều người như vậy tới nơi này.
+
+Bất chấp nhiều khó khăn, những newbie – họ yêu thích phiêu lưu mạo hiểm, đã cùng phát triển nhanh chóng khi tương trợ lẫn  nhau.
+
+Weed cũng đã thử ra ngoài thị sát khu vực biên giới ngôi làng. Trong giỏ bánh, lúa mì và lúa mạch phát triển rất nhanh chóng. Lúa mạch, được ban phước bởi các Priest của Giáo Hội Freya, có nhiều hạt đến nỗi khiến thân cây lúc nào cùng trĩu nặng. Ngoài ra, cũng có một cơ số người chơi cầm cuốc chim tiến thẳng về các mỏ trong những rặng núi lân cận.
+
+“Ít nhất ta cũng phải tự kiếm được lấy một cắc chứ.”
+
+“Không có tiền thì cạp đất mà ăn cưng ạ.”
+
+“Chúng ta sẽ chẳng thể săn nhiều như mong muốn khi giá vũ khí đắt tới vậy.”
+
+“Giá thế vẫn còn chịu được ông ạ, giá giáp trụ mới gọi là đếch còn cái gì để mà nói.”
+
+“Phù, có thể đây cũng chẳng phải là một ý hay cho tớ khi chọn classe Defensive Warrior. Thôi thì mình sẽ đi săn cùng các Priest của giáo hội Freya vậy.”
+
+Thậm chí newbie cũng cầm cuốc chim và hướng tới các hầm mỏ. Kể cả dù họ không phải là một Miner, cuốc chim có thể dễ dàng sử dụng bởi bất cứ ai, đặc biệt là các class Warrior, Swordman hay Knight nhờ vào thể chất tráng kiện sẵn có. Các thanh niên newbie è lưng ra trong các hầm mỏ để cố gắng kiếm tiền nuôi thân.
+
+“Quả là một cảnh tượng quá ư là hấp dẫn.”
+
+Khóe miệng của Weed cuối cùng cũng nhếch lên, thể hiện một nụ cười thối nát một cách hoàn mỹ!
+
+Việc khai thác được phát triển xuyên suốt như vậy không khác gì một bằng chứng cho thấy nền kinh tế ở Morata đang thực sự vững vàng.
+
+* * *

@@ -1,0 +1,155 @@
+Tập 1.
+
+Phụ chương: Chủ nhân hầm ngục Kehma.
+
+Độ dài: 1,356 từ - Lần cuối:
+
+03/01/2017 20:46:59
+
+- Bình luận: 1
+
+(Suy nghĩ của Rokuko)
+
+Kì lạ. Tại sao chuyện này lại xảy ra chứ?
+
+Mình vừa mới vứt 1000 DP vào cái gachapon, với hi vọng mong manh là có thể vượt qua tình cảnh khốn khó này. (TLN: gachapon là cái xoay sổ xố ra quái ấy)
+
+Ấy vậy mà, một con người yếu đuối xuất hiện. Kehma. Trên nữa, hắn ta trở thành chủ nhân của hầm ngục và mình phải tuân lệnh hắn.
+
+Chuyện quái gì xảy ra vậy, không tài nào hiểu nổi.
+
+Không thể nào chịu được cho đến khi mình giết hết lũ cướp bẩn thẩn dám dùng bàn chân dơ bẩn của chúng đá vào hạt nhân của mình được. Thà rằng dùng 1000 DP để gọi ra một đống goblin còn tốt hơn như thế này.
+
+Còn giờ thì mình đang làm gì đây. Khi hắn ngủ, mình phải im lặng, bởi hắn ra lệnh như vậy.
+
+Ta có nhiều thứ muốn nói chứ!
+
+Và rồi, khi mà mình dùng DP để triệu hồi goblin thì hắn lại giận dữ.
+
+Còn nữa, khi mà cơ hội để trả đũa bọn cướp đến khi chỉ còn một tên ở lại, hắn cũng chẳng làm gì cả, không gì cả!
+
+Tại sao chứ!? Chị cả số 89 nói rằng mình nên gọi goblin!
+
+Chị ấy tuyệt vời lắm ngươi có biết không!? Chị ấy có một hầm ngục ở giữa thủ đô đấy! Ngươi còn chẳng chạm nổi vào chân chị ấy đâu Khema à!
+
+Đống DP đấy ta vất vả lắm mới tích cóp được.
+
+Và rồi hắn còn ra lệnh ta không được dùng DP nếu không được phép.
+
+Vậy mà hắn dùng cho chính hắn. Nếu là thức ăn thì không sao, đằng này hắn lấy cả một cái 「Chăn」. Uuuuu… vậy mà hắn còn dạy bảo ta…
+
+Mà không phải hắn ngủ quá nhiều sao? Bản thân là một hạt nhân hầm ngục, ta không ngủ tí nào cả ngươi biết không?
+
+Ngủ nhiều như vậy không biết có bị sao không?
+
+Tiếp đến, bằng một lí do nhiệm màu nào đó, hoặc là do não hắn bị chập mà lại dùng số DP ta vất vả có được để tặng đồ cho lũ cướp.
+
+Hơn nữa, hắn còn bắt ta viết những thứ mà ta không muốn tí nào.
+
+[Cảm ơn đã tiêu diệt bọn goblins.]
+
+Aaaaah! Thật à~~~~!
+
+Tên này, hắn chỉ muốn bợ đít chúng để có thể sống!
+
+Ta vẫn nghĩ như vậy, cho đến khi ー
+
+“Việc lúc nãy làm chỉ để câu giờ thôi. Chúng sẽ bị thảm sát, sớm thôi, nên bình tĩnh lại nào.”
+
+ー hắn nói vậy với một khuôn mặt nghiêm túc.
+
+Hả? Chẳng phải làm vậy để giữ an toàn cho cái giường của mình à? Mình chẳng hiểu được tên này nghĩ gì nữa, chịu luôn. Và cứ thế hắn lại đi ngủ.
+
+Giải thích rõ ràng xem nào!
+
+Sau đó, những du hành gia đến khi mà hắn vẫn đang ngủ. Tuy nhiên, họ dễ dàng bị lũ cướp giết.
+
+Đấy là lần đầu tiên có một cái gì đấy chết trong hầm ngục này không phải là goblin.
+
+Có lẽ lũ cướp này là một điều gì đó tốt.
+
+Kệ, ta sẽ không để chúng đá vào hạt nhân của ta đâu!
+
+Dường như Khema dự tính trước điều này rồi, hắn có vẻ không bất ngờ lắm.
+
+Trên tất cả, có thêm DP.
+
+Lũ cướp cho DP nhiều hơn là số mà hắn bỏ ra cho chúng.
+
+Không tệ chút nào.
+
+Vừa nghĩ rằng mọi chuyện tốt hơn chút, thì hắn lại dùng DP cho chúng và tạo thêm phòng.
+
+Với một phòng, phòng thích ra con quái vật mạnh nhất, và rồi…. Bang!
+
+Đấy là tôi nghĩ như vậy, còn hắn thì giải thích khác. Chỉ cần đủ số goblin là được thôi mà.
+
+Nhưng hắn không cho phép điều đó, chả hiểu tí gì cả.
+
+Sau khi dùng hết số DP cho lũ cướp, hắn giải thích rằng điều này khác với các món quà khác bởi nó không thể bị đem bán trong thị trấn được. Ừm, hắn nói cũng đúng. Và lạ kì thay, Kehma khá là thông minh. Hắn biết kiếm nhiều DP hơn mình.
+
+Nhưng lại là người hay ngủ hử?
+
+Tôi chọc vào người hắn.
+
+A, Gobsuke. Ta chỉ dùng 「Tẩy sạch」lên người hắn thôi. Tuy nhiên, hắn vừa mới dùng 「Tẩy sạch」lên chính mình lúc nãy và sạch hoàn toàn rồi.
+
+Bình thường, bạn phải ngâm nước nhiều lần, và dùng 「Tẩy sạch」mấy lần thì mới có thể như vậy được. Không biết là hắn làm như nào nhỉ?
+
+Sau lần đó, lũ cướp chủ động mang xác về và mang vào trong hầm ngục. Và DP tăng lên đúng như Kehma nói.
+
+Và rồi, [Bánh mì dưa]. Kehma lấy ra thứ mà tôi chưa thấy bao giờ, thứ được gọi là [Bánh mì dưa] bằng DP. Nó thật ngọt và ngon… ăn những thứ như này không tệ chút nào.
+
+Mặc dù [Bánh đậu đỏ] cũng ngon. Nhưng [Bánh mì dưa] là nhất.
+
+Ơ, ta phải chia phần với cả Gobsuke à?… T-thế cũng được thôi, nhưng ta sẽ không chia [Bánh mì dưa] đâu ngươi biết không?
+
+Dù đã báo trước khi nào những du hành gia sẽ đến. Hắn thật sự tạo ra một phòng goblin vài ngày trước để làm kế hoạch dự phòng.
+
+Với tư cách là một chủ nhân hầm ngục, hắn xem xét tất cả mọi thứ một cách cẩn thận.
+
+Hắn thường xuyên ngủ, bắt mình gửi nhiều thứ được viết trong cái hộp rồi lại thu nó về… À, không chỉ thế, hắn còn… Hử, nghĩ lại thì, hắn làm nhiều thứ đấy chứ?
+
+Còn mình thì chỉ biết việc quẳng goblin vào đám du hành gia tiến đến…
+
+Hừm.… Học hỏi mấy cái mới có khhi cũng tốt.
+
+… Và rồi lũ cướp cuối cùng cũng bị tiêu diệt.
+
+Cứ nghĩ là mình sẽ chết khi mà thanh kiếm được chĩa vào hạt nhân rồi, và tôi đã được cứu.
+
+Bởi Gobsuke. Nó đã hi sinh vì chúng tôi.
+
+Gần đây, tôi bắt đầu hiểu được những thứ mà Gobsuke muốn nói… Nhưng giờ nó không còn ở đây nữa… Cảm giác hơi buồn một chút…
+
+Còn về phần bọn cướp… Chúng bị thảm sát giống như những gì Kehma đã nói và hoàn toàn bị biến thành DP.
+
+… Kehma thật tuyệt vời. Không ngờ rằng hắn ta có thể giết được chúng.
+
+Chắc chắn chỉ với goblin thì mình cũng không thể làm được như vậy.
+
+… Không biết là chỉ với goblin thì Kehma có làm được không nhỉ?
+
+Đúng ra, chúng bị giết không phải bởi quái vật hay là cạm bẫy.
+
+Sau đó, hắn ta còn thu về một nô lệ bé xíu vào trong phòng chủ.
+
+Dù không biết bằng cách nào, nhưng cô ta chắc chắn là một kẻ xâm nhập, còn hắn coi cô ta là một vật phẩm.
+
+Nô lệ có thể thu về được giống như vật phẩm khi mà chủ nhân của chúng bị giết, đây là lần đầu tiên mình biết vụ này.
+
+Tuy nhiên, không biết cũng là bình thường bởi đây là lần đầu tiên có nô lệ ở bên trong hầm ngục. Ta không biết những gì mà ta không biết.
+
+… Không biết hắn sẽ dùng nó làm gì nhỉ? Có thực là làm gối ôm không?
+
+Không thể nào, đây là Kehma mà. Chắc chắn rằng có một lí do chính đáng nào đó.
+
+Nhưng, [Thịt] hử… đích thị là tiếng lóng rồi. Ý nghĩa chẳng có gì tốt đẹp cả… Mà kệ, nếu Kehma nói được thì là được.
+
+Tiếp đến sẽ thế nào đây. Mặc dù hầm ngục đã thay đổi đáng kể…
+
+Mà không sao. Mọi thứ sẽ do chủ nhân của hầm ngục này lo liệu.
+
+Nếu như là Kehma, có khi mình có thể tiến đến gần hơn với Ane-sama số 89!
+
+À, ta cũng sẽ giúp đỡ một ít nữa.

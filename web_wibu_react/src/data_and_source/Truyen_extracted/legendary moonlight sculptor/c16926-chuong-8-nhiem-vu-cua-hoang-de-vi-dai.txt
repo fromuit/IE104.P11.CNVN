@@ -1,0 +1,439 @@
+Vol 40
+
+Chương 8: Nhiệm vụ của Hoàng đế vĩ đại.
+
+Độ dài: 4,026 từ - Lần cuối:
+
+28/04/2017 02:29:55
+
+- Bình luận: 9
+
+Sau khi đi săn ở sa mạc, level của Weed đã lên 420.
+
+Tốc độ tăng level rất nhanh nhờ lượng kinh nghiệm x2 trong các hầm ngục và cậu cũng rất chăm đi săn.
+
+Time Sculpting đạt đến Sơ cấp lv6. Phải tạo ra 3 kiệt tác cấp IV mới có được kết quả đó.
+
+<em>"Hmm, kỹ năng này tăng chậm quá."</em>
+
+Không dễ để vừa tăng thông thạo kĩ năng điêu khắc vừa tăng số level đã mất.
+
+<em>"Sẽ tốt hơn nếu có một phần thưởng lớn khi kết thúc nhiệm vụ."</em>
+
+Thỉnh thoảng họ sẽ đến thăm các thành phố lớn xung quanh ốc đảo và sông để bán loot.
+
+<em>"Bạn mang tới rất nhiều item tốt. Rất vui khi tôi được chuyển giao nó cho các Warrior."</em>
+
+<em>"Bạn muốn mua chiếc vòng cổ bằng ngà voi với giá bao nhiêu?"</em>
+
+<em>"Vì là ngà voi nên ít nhất 800 vàng."</em>
+
+<em>"Giá trị của nó sẽ tăng thêm 200 vàng vì tôi đã chế tác nó."</em>
+
+<em>"Một item tuyệt đẹp. Tôi thừa nhận rằng giá đó là đúng. Hãy tiếp tục giao dịch trong tương lai nhé."</em>
+
+Weed thân thiện với các Merchant ở các thành phố sa mạc. Thành phố sa mạc có một nền văn hoá hoàn toàn khác với các thành phố ở lục địa Trung tâm cũng như phía Bắc.
+
+Những Warrior mạnh mẽ đi vòng quanh để lộ thân thể trần truồng của họ. Nước, thuốc lá và tác phẩm nghệ thuật là hàng xa xỉ tại chợ.
+
+Weed đã để lại một số tác phẩm điêu khắc ở các thành phố sa mạc mà vẫn còn nguyên vẹn. Dấu vết của đế chế Pallos vẫn còn. Nhiều đồ vật có giá trị cậu có được ở lục địa Trung tâm đã được đổi lấy kim loại quý.
+
+<em>"Dân số đang tăng lên nhưng có hạn chế đối với tăng trưởng kinh tế."</em>
+
+Weed thở dài khi đi quanh thành phố sa mạc. Cậu đã trông đợi sự phát triển tiếp tục của các khu vực sa mạc.
+
+Tuy nhiên, với đặc tính của sa mạc thì khó có thể trồng trọt cũng như khai khoáng được. Các thành phố cũng phải được xây dựng dọc theo các ốc đảo và sông.
+
+Trong quá khứ, mưa đã làm cho khu vực sa mạc màu mỡ nhưng rất nhiều nước đã bốc hơi. Có rất nhiều tàn tích của nhiều vùng đất và thành phố bị bỏ hoang.
+
+Cây trồng đặc biệt được trồng trong khi thực phẩm như gạo, lúa mì và lúa mạch đã được mang tới. Những người du mục đi lang thang khắp nơi để nuôi cừu và lạc đà.
+
+Dấu vết của đế chế Pallos có thể thấy trên thị trường nhưng hàng hóa không đắt lắm.
+
+<em>"Thật khó để sống. Vấn đề điển hình của thanh niên thất nghiệp chưa được khắc phục. Desert Warrior cần săn bắn để trả lại tiền. Chỉ lính đánh thuê là còn giữ được."</em>
+
+Cậu có thể nghe thấy vô số câu chuyện khi đi vòng quanh thành phố sa mạc.
+
+<em>"Bạn có hứng thú với kho báu của đế chế Pallos không? Thông tin về nó có giá 2.000 vàng."</em>
+
+Kho báu của Đế chế!
+
+Python và người đàn ông vô danh đã bị cám dỗ nhưng Weed và Pale không quan tâm. Họ biết rằng kho báu của đế chế Pallos được chôn đâu đó ở phía Bắc. Vấn đề là tìm kho báu và xác định giá trị của nó. Đã có những người trên đường đi khai quật kho báu ở phía Bắc.
+
+<em>"Uhh, Hoàng đế vĩ đại Weed của sa mạc. Những đứa trẻ của sa mạc lớn lên với câu chuyện về huyền thoại ấy mỗi ngày. Tối nào mẹ tôi cũng nói về ngài ấy."</em>
+
+<em>"Về cái gì cơ?"</em>
+
+Weed tự hỏi không biết danh tiếng của cậu có thay đổi gì không.
+
+<em>"Hoàng đế vĩ đại của sa mạc là người khiến máu chảy thành sông. Ông đã rời đi sau khi tiến quân từ sa mạc vào lục địa. Ông đã sáng lập đế chế Pallos trong thời gian chúng ta gọi là thời hoàng kim của sa mạc."</em>
+
+<em>"Một người thực sự tuyệt vời."</em>
+
+Weed nở một nụ cười hài lòng khi đi qua thành phố sa mạc. Nghe những lời khen ngợi bản thân mình cũng không tệ. Rất hiếm khi người chơi đến thăm thành phố sa mạc.
+
+Lịch sử mới khiến sa mạc phía Nam thịnh vượng hơn so với các khu vực khác. Mặc dù vậy, khu vực bên cạnh đó là Lục địa Trung tâm, nơi có nhiệt độ thấp hơn.
+
+Đó là nơi hiếm thấy những người chơi có level thấp hơn tổ đội đi săn của Weed. Nhưng mỗi một lần trong một thời gian, họ sẽ thấy những người chơi khác.
+
+Không dễ để đến một thành phố gần Sa mạc tĩnh lặng. Hành trình khó khăn hiểm trở khiến chỉ có Adventurer và Warrior level cao mới có thể đặt chân đến.
+
+<em>"Bạn trông giống như một Adventurer giàu kinh nghiệm. Bạn có muốn tìm thấy một di tích cổ nằm trên sa mạc không? Không có gì khó khăn đâu. Nó sẽ không gây nguy hiểm cho mạng sống của bạn."</em>
+
+Những thanh niên sống lâu năm của thành phố đôi khi sẽ nói chuyện với Weed. Đó là một nhiệm vụ để tìm kiếm di sản của Weed từ quá khứ của cậu ở sa mạc.
+
+<em>"Được đó."</em>
+
+<em>"Tôi không phải là người duy nhất nói về nó. Có nhiều bộ lạc rải rác khắp sa mạc rộng lớn. Nếu một trong số họ tìm thấy dấu vết của Hoàng đế vĩ đại thì tất cả của cải, danh dự và quyền lực sẽ...... "</em>
+
+<em>"Tôi không quan tâm!"</em>
+
+Nhiệm vụ sẽ là một thử thách dài. Đảm bảo trong quá trình thực hiện sẽ có thứ gì đó đáng sợ xảy ra. Cậu đã có một số thành tích vượt trội trong nhiệm vụ bí thuật điêu khắc cuối cùng.
+
+Những bí mật của sa mạc. Những thứ có giá trị như thông tin về quái vật, dấu vết của thành phố và nơi chôn cất của chiến binh có thể mua được.
+
+Tuy nhiên, cậu cần phải tập trung nâng cao level của mình vì cuộc chiến chống Đế chế Haven đang đến gần.
+
+<em>- Quân đội Haven Empire đã vượt sông Peshil.</em>
+
+<em>- Những người chơi phương Bắc đã tiến hành một số cuộc phục kích nhưng không thể gây ra thiệt hại nào.</em>
+
+<em>- Quân đội Đế chế Haven giống như khí độc vậy. Chúng đã tàn phá toàn bộ phương Bắc bằng ma thuật.</em>
+
+<em>- Chúng còn cách Cung điện Trái đất 10 km. Nếu những người lính di chuyển nhanh thì họ có thể đến nơi trong vòng 2 ~ 3 giờ tới.</em>
+
+<em>- Chúng đã dừng chân và đang lắp ráp công thành. Có tổng cộng hơn 400 vũ khí cỡ lớn. Chỉ cần nhìn lướt qua một cái là đủ. Một khung cảnh choáng ngợp!</em>
+
+Mapan đã báo cáo thường xuyên về tình hình hiện tại.
+
+Sự đe dọa của quân đội đối với Cung điện ngày càng trở nên nghiêm trọng.
+
+Sau vài ngày, đã đến lúc rời khỏi sa mạc.
+
+<em>"Ngày đó cuối cùng đã đến."</em>
+
+Weed nhẹ nhàng thở dài.
+
+Cậu có một mối hận lớn đối với Guild Hermes.
+
+<em>"Thế giới này ngày càng trở nên khó khăn hơn. Giá trị của thịt heo, trái cây và điện đang ngày một leo thang."</em>
+
+Cậu đổ lỗi cho giá táo và lê tăng trong Guild Hermes!
+
+<em>"Thật đáng tiếc, nhưng mình phải đến Cung điện."</em>
+
+Cuối cùng Weed tuyên bố chấm dứt chuyến đi săn.
+
+'Nó cuối cùng kết thúc.'
+
+‘Lần này nó thật sự đã kết thúc. Không thể tin được.'
+
+‘Đúng vậy.'
+
+Python, người đàn ông vô danh và Pale tỏ ra như không mặc dù họ rất muốn gào lên. Nếu họ quá vui vẻ thì họ có thể bị bắt phải đi săn tiếp.
+
+Ngày đầu tiên giống như địa ngục nhưng ngày hôm sau đã tốt hơn một chút vì Weed đã tạo ra các tác phẩm điêu khắc. Tuy nhiên, đi lang thang giữa các hầm ngục trên nền cát là một trong những trải nghiệm kinh khủng nhất.
+
+Người già nhất, Python hắng giọng và nói.
+
+<em>"Nếu anh bận thì cứ đi đi. Giờ thì nhanh chóng quay về thôi"</em>
+
+<em>"Yurin sẽ đến trong giây lát. Hãy sẵn sàng đi."</em>
+
+Họ lang thang quanh thành phố sa mạc và đầu tư tiền kiếm được thông qua săn bắn. Họ không muốn mang theo nhiều.
+
+Đó là lý do tại sao họ bán đồ trang sức, đất đai, nhà cửa và thậm chí một cửa hàng. Giá nhà ở các thành phố sa mạc vẫn khá phải chăng.
+
+Không có nhiều người đến đây vì vậy lợi nhuận bị hạn chế. Nhưng nó có những khu vực săn bắn tốt nhất. Nếu họ đầu tư ở đây thì một ngày nào đó họ sẽ trở lại để săn bắn.
+
+‘Một đi không trở lại.'
+
+‘Mình sẽ không đi với anh ta nữa.’
+
+'Mình sẽ không sống trong cảnh màn trời chiếu đất đâu.'
+
+Yurin đến và họ tiến về Cung điện.
+
+*****
+
+Earth Shadow.
+
+Unring, Ben và Elliks, một nhóm gồm những Adventurer hàng đầu của lục địa Versailles bắt đầu một nhiệm vụ tại đền Valhalla.
+
+Trong quá trình thực hiện, họ đã bóc phốt của Giáo hội Embinyu và đã có những đóng góp to lớn.
+
+Phốt của Giáo hội Embinyu đã bị phơi bày ra cả thế giới trước khi chúng sẵn sàng và các tôn giáo khác đã tìm ra và tiêu diệt chúng.
+
+Tất nhiên, cư dân và những người chơi khác đã được giữ bí mật.
+
+Cuối cùng, họ tìm thấy cánh tay thứ năm của thần Embinyu ở Metapeia và phá hủy nó bằng cách ném nó vào dung nham sôi sục.
+
+<em>"Giáo hội Embinyu? Họ là thế nào? Họ có phải một nhóm người nghèo như chúng tôi không?"</em>
+
+<em>"Uhh, Giáo hội Embinyu ... mua một ít bánh mì trước khi nói về họ. Họ giống như một nhóm người yêu thích cá mú vậy."</em>
+
+<em>"Những người tên Unring, Ben và Elliks? Tôi đã nghe nói về khá lâu trước đây. Tôi không biết giờ đây thì họ đang làm gì. Phải chăng họ đang đào bới đất ở đâu đó?"</em>
+
+Hầu hết các dấu hiệu của Giáo hội Embinyu trên lục địa đã biến mất. Các Adventurer, người có những cuộc phiêu lưu hoành tráng nhưng không được người ta biết đến đều cảm thấy bất công và thất vọng.
+
+<em>"Aigoo. Chúng tôi lãng phí một năm chẳng vì thứ gì."</em>
+
+<em>"Tôi rất vui khi Giáo hội Embinyu biến mất nhưng nó giống như chúng tôi không làm gì cả."</em>
+
+<em>"Sẽ có những cuộc phiêu lưu khác vì vậy chúng ta hãy cùng nhau ngủ ngon giấc."</em>
+
+Earth Shadow quyết định thư giãn.
+
+Tất cả các cuộc săn bắn và khám phá trong nhiệm vụ Valhalla đã làm cho họ bị bệnh. Họ muốn dành chút thời gian thư giãn và sạc pin.
+
+<em>"Bạn có muốn một con lạc đà không?"</em>
+
+<em>"Có chứ. Càng nhanh và khỏe càng tốt."</em>
+
+<em>"Lạc đà Bactrian là phương tiện tốt nhất ở sa mạc. Giá hơi đắt nhưng chúng có thể đi bất cứ đâu."</em>
+
+<em>"Bán nó cho tôi."</em>
+
+Sau khi hoàn thành nhiệm vụ tại Metapeia, Earth Shadow đang ở sa mạc. Họ mua mấy con lạc đà để rời khỏi đây.
+
+<em>"Thật đáng tiếc là bạn muốn rời đi. Liệu bạn có muốn nghe một câu chuyện trước khi lên đường không?"</em>
+
+Linh cảm về một nhiệm vụ!
+
+Unring đã mệt mỏi nhưng anh vẫn có thói quen của một Adventurer. Chẳng hại gì khi nghe ngóng thông tin cả. Ngay cả khi nó không quan trọng, họ có thể trao đổi tại các cửa hàng khác để mua hàng rẻ hơn.
+
+<em>"Người dân ở sa mạc vẫn chưa quên một người. Đôi khi tôi tự hỏi liệu chúng tôi sẽ ra sao nếu không có Hoàng đế vĩ đại Weed."</em>
+
+<em>"Ah, là Weed à."</em>
+
+Unring ơ thờ vì không muốn lạc vào trong nỗi đau này.
+
+Những người chơi khác tôn vinh Weed như một Adventurer. Cậu đã giải quyết được những nhiệm vụ bất khả thi và vượt qua bất kỳ nghịch cảnh nào.
+
+Vương quốc Arpen có thể bị đẩy vào một cuộc khủng hoảng do Bardray nhưng kỹ năng chiến đấu cá nhân của cậu được công nhận là tốt nhất.
+
+Earth Shadow chuyên về các cuộc phiêu lưu nên họ khá cay khi nghĩ đến cậu.
+
+Họ không thiếu kỹ năng và tin rằng họ có thể đạt được thành tích cao hơn đáng kể thông qua nhiệm vụ Vahalla. Nhưng người dân địa phương thì suốt ngày nâng bi cho Weed.
+
+Unring quay lại.
+
+<em>"Thật mất thời gian. Đi thôi."</em>
+
+Vẻ mặt của Elliks và Ben không tốt.
+
+Họ đã phí công vô ích khi đến sa mạc và bây giờ họ phải lắng nghe những lời này!
+
+Thương nhân buôn lạc đà vẫn thao thao bất tuyệt.
+
+<em>"Thành tựu vĩ đại nhất của Hoàng đế là thành lập Đế chế Pallos, nhưng những cư dân sa mạc biết ơn ngài vì đã tạo ra ốc đảo và sông. Nhờ đó, người dân sống trên sa mạc không bao giờ hết nước để uống.”</em>
+
+<em>"Vâng, nhưng chúng tôi bận lắm nên là ..."</em>
+
+<em>"Đó là ơn cứu mạng. Di sản của Hoàng đế. Đó là lý do tại sao sa mạc hiện tại đang chấn động trong một cuộc khủng hoảng rất lớn. Các ốc đảo và sông đang khô cạn dần. Các bộ lạc sa mạc vốn thống nhất đã bắt đầu thù ghét lẫn nhau. Chẳng bao lâu toàn bộ sa mạc sẽ chìm trong biển máu."</em>
+
+Unring, Elliks và Ben khựng lại
+
+Linh cảm mãnh liệt hơn về một nhiệm vụ. Bản năng của Adventurer khiến họ không thể rời đi khi chưa nghe hết câu chuyện.
+
+Unring quay lại và nói cẩn thận.
+
+<em>"Sẽ có một trận đại chiến vì thiếu nước ư?"</em>
+
+Cuộc chiến giữa các bộ tộc sa mạc có thể dẫn đến một cuộc chiến tranh trong toàn bộ khu vực. Dân số của sa mạc đã tăng rất nhiều nhờ cuộc phiêu lưu của Weed.
+
+Thật là nguy hiểm cho người chơi khi hành động trên sa mạc vào lúc này và giá của hàng hóa sẽ tăng lên.
+
+<em>"Dấu chân lạc đà sẽ bị xóa hoàn toàn bởi bão cát. Sau khi mặt trời mọc vài lần, toàn bộ chúng ta cũng sẽ bị cát bao phủ."</em>
+
+<em>"Sẽ tốt hơn nếu ai đó đầu hàng."</em>
+
+<em>"Chúng tôi đâu phải là kẻ ngốc. Chúng tôi ý thức được rằng cuộc chiến này sẽ tận diệt toàn bộ cư dân. Rất khó để từ bỏ các thành phố và nền văn minh sẽ bị xóa sổ. Nhưng chúng tôi sẽ chết nếu không có nước. Cách giải quyết của các bộ lạc khác sẽ dẫn đến chiến tranh."</em>
+
+Những người dân có kinh nghiệm có thể thấy ý nghĩa ẩn sau những lời nói của họ.
+
+‘To chuyện rồi.'
+
+'Euum, đây là một nhiệm vụ.'
+
+‘Đây có phải là một nhiệm vụ với sứ mạng hòa bình nhằm ngăn chặn cuộc chiến tranh và khôi phục lại các bộ lạc sa mạc không? Nó đơn giản nhưng rất khó.’
+
+Và họ chờ đợi những lời tiếp theo.
+
+<em>"Chỉ có một cách để ngăn chặn cuộc chiến giữa các bộ lạc sa mạc. Trong truyền thuyết, Hoàng đế sẽ xuất hiện một lần nữa để thống nhất toàn bộ sa mạc."</em>
+
+<em>"Vâng?"</em>
+
+<em>"Hoàng đế vĩ đại đã bỏ lại di sản của mình để hậu duệ của ngài đi tìm nó."</em>
+
+Ben dường như nhận ra điều gì đó và nói.
+
+<em>"Khó đấy. Giá trị của di sản của Hoàng đế phải là rất lớn."</em>
+
+Rất khó để quy đổi giá trị của trang bị Weed để lại trong thời chiến ra tiền.
+
+<em>"Trang bị và sức mạnh của Hoàng đế đã được giấu ở một nơi rất nguy hiểm. Lời đồn nói rằng bạn không nên đến đó trừ khi bạn sẵn sàng đánh cược mạng sống của mình."</em>
+
+<em>"......."</em>
+
+<em>"Với nỗ lực muốn ngăn chặn chiến tranh, nhiều Desert Warrior đã liều mình đi tìm di sản của Hoàng đế. Nếu họ có thể có được kiến ​​thức và sức mạnh của Hoàng đế, họ có thể cai trị sa mạc. Nhưng đây là một nhiệm vụ mà chỉ có một Desert Warrior thuần túy và có uy tín mới có thể làm được. "</em>
+
+<em>"Hơi bị khó đấy."</em>
+
+Nhóm Earth Shadow đang phân vân.
+
+Một nhiệm vụ liên quan đến Weed tuy đáng lo về độ khó nhưng độ hấp dẫn thì rất cao. Tìm kiếm các di tích đặc biệt hoặc tiền bạc sẽ rất thỏa mãn nhưng sa mạc là một nơi rất rộng cho một cuộc phiêu lưu. Nhưng có vẻ như nhiệm vụ này chỉ dành cho các Desert Warrior.
+
+Elliks hỏi.
+
+<em>"Desert Warrior là class gì?"</em>
+
+Anh không có ý định chuyển đổi class nhưng muốn biết thông tin.
+
+<em>"Chỉ những người đàn ông lớn lên trên sa mạc cảm nhận mặt trời trên làn da của họ mới đủ điều kiện."</em>
+
+<em>"Vậy là ông không tìm các Desert Warrior để tìm lại di sản à?"</em>
+
+<em>"Không. Có rất nhiều Desert Warrior đang tìm người chỉ dẫn."</em>
+
+<em>“Chỉ dẫn, ý ông là người dẫn đường à?"</em>
+
+<em>"Đúng. Các chiến binh rất tôn trọng Hoàng đế vĩ đại. Họ đang hy vọng Hoàng đế sẽ tái sinh để lãnh đạo các bộ lạc sa mạc .. Bạn sẽ giúp các Desert Warrior đạt được mục tiêu của họ chứ?"</em>
+
+Ddring!
+
+Người trợ giúp các Desert Warrior
+
+Có một huyền thoại về một chiến binh trẻ đang ngủ trên sa mạc, người tỉnh dậy và chạy vào một ngọn núi cát và xương.
+
+Cách đây rất lâu, Hoàng đế Weed đã dẫn đầu các Desert Warrior
+
+Trợ giúp Desert Warrior chống lại những con quái vật trong núi cát để đạt được những thành tựu của một anh hùng.
+
+Các chiến binh sẽ làm theo chỉ dẫn trong những tình huống nguy hiểm.
+
+Độ khó: A
+
+Bồi thường: niềm tin của Desert Warrior.
+
+Có thể dẫn dắt một số lượng lớn Desert Warrior phụ thuộc vào sự thể hiện của bạn
+
+Hạn chế: Không có giới hạn về Fame hay level.
+
+Phải hoàn thành trong vòng mười ngày.
+
+Phát hiện ra nhiệm vụ của Hoàng đế vĩ đại.
+
+<em>"Nó sẽ hơi lâu và khó đấy. Chúng ta phải tiến hành nhiệm vụ trong khi phải để ý đến các Desert Warrior."</em>
+
+Elliks phàn nàn nhưng tất cả mọi người đều thấy nhiệm vụ này khá hấp dẫn. Một nhiệm vụ cho phép họ chỉ huy Desert Warrior, điều này khá là vui.
+
+Những Adventurer tò mò sẽ không bao giờ từ bỏ một điều gì đó tương tự.
+
+<em>"Hãy thực hiện nó."</em>
+
+<em>"Quẩy thôi."</em>
+
+Bạn đã chấp nhận nhiệm vụ
+
+Nhiệm vụ về Desert Warrior đã bắt đầu.
+
+Earth Shadow đã chấp nhận nhiệm vụ Trợ giúp Desert Warrior và đi gặp họ.
+
+‘Họ vẫn là những chiến binh trẻ. Nếu mình rèn giũa tốt thì họ có thể trở thành trụ cột của sa mạc.’
+
+Tuy nhiên, thực tế khác rất nhiều so với những gì họ tưởng tượng. Các Desert Warrior nhổ nước bọt vào họ.
+
+<em>"Ngươi đang nhìn gì đó? Có tin ta móc mắt ngươi không?"</em>
+
+Đám trẻ trâu đầy tinh thần của sa mạc!
+
+Desert Warrior sẽ không nghe lời trừ khi được chứng kiến sức mạnh áp đảo từ nhóm Earth Shadow, thế rồi niềm đau thực sự của họ đã bắt đầu.
+
+*****
+
+<em>"Lạnh sun cả cờ u vào rồi."</em>
+
+<em>- Đây là bản tin thời tiết. Nhiệt độ hiện tại là 6 độ C, tốc độ gió và mưa là 4m/s khiến cảm giác về nhiệt độ còn thấp hơn nữa...</em>
+
+<em>"Thôi đi. Đừng trả lời trừ khi ta đặt một câu hỏi."</em>
+
+Cơ thể của Yoo Byung-jin đang run lên vì lạnh.
+
+Người ngồi trên băng ghế và đút tay vào túi áo là nhà khoa học giàu nhất và có ảnh hưởng nhất trên thế giới. Gió lạnh khiến ông không thể rút tay ra khỏi túi của mình.
+
+Ông ngồi trên băng ghế gỗ ẩm ướt và mông của ông cũng bắt đầu cảm thấy ướt.
+
+Yoo Byung-jin hiện đang ở trong một công viên ở New York để gặp gỡ Bardray, đây có thể là người đầu tiên thống nhất Royal Road.
+
+Bardray là một người Mỹ gốc Pháp. Anh ta thường xuyên chạy trong công viên lúc 5 giờ sáng.
+
+Yoo Byung-jin đã sắp xếp lịch trình để họ có thể gặp nhau bởi sự trùng hợp ngẫu nhiên.
+
+<em>"Thế quái nào anh ta còn chưa xuất hiện nhỉ?"</em>
+
+Yoo Byung-jin cảm thấy cơn lạnh thấm vào xương. Đầu của ông có thể nghĩ nhanh hơn bất cứ người trẻ nào nhưng cơ thể ông đã già.
+
+Công viên ẩm ướt vì cơn mưa đêm, mọi người đang tập thể dục và đâu đó vang lên tiếng chim hót. Ông nghĩ miên man khi ngồi trên băng ghế trong công viên.
+
+<em>"Mình đã già rồi."</em>
+
+Ông đã cống hiến hết cuộc đời mình cho Royal Road. Phần lớn thế giới đã nhạo báng kế hoạch thời thơ ấu của ông. Tạo ra một thế giới thực tế ảo của riêng mình, mang lại của cải và quyền lực vô biên.
+
+Sự cô đơn đã trở thành động lực đằng sau kế hoạch và ông đã tạo ra một công nghệ mới.
+
+Việc này tuy hơi liều lĩnh nhưng kế hoạch to lớn của ông đã ở giai đoạn cuối cùng của nó. Gặp Bardray bên ngoài Royal Road rất quan trọng đối với Yoo Byung-jin.
+
+Ông ngồi trên ghế trong vài giờ. Bardray đã không xuất hiện ngay cả khi mặt trời đã mọc.
+
+Yoo Byung-jin run lên vì lạnh và hỏi.
+
+<em>"Khi nào Bardray mới đến?"</em>
+
+<em>- Đây là câu hỏi của tiến sĩ à?</em>
+
+<em>"Ờ."</em>
+
+<em>- Bardray không tập thể dục sáng nay. Hiện tại anh ta đang trên máy bay tới Las Vegas để gặp các nhà đầu tư của Guild Hermes trong vòng 1 giờ 20 phút nữa.</em>
+
+<em>"Wtf?"</em>
+
+Ông đã phải chịu đựng vài tiếng đồng hồ trong cái lạnh.
+
+<em>"Ngươi đã biết thế thì sao không nói từ đầu đi?"</em>
+
+<em>- Tiến sĩ bảo tôi chỉ được nói khi ngài hỏi thôi mà.</em>
+
+Yoo Byung-jin cúi đầu. Ông tự trách mình khi đổ lỗi cho AI.
+
+<em>"Khi nào Bardray mới trở lại?"</em>
+
+<em>- Theo đúng lịch trình thì sẽ là 3 ngày nữa.</em>
+
+<em>"Vậy ta sẽ trở lại”</em>
+
+<em>- </em><em>.......</em>
+
+Yoo Byung-jin cảm thấy không thoải mái khi AI không trả lời.
+
+<em>"Ngươi có chắc chắn Bardray sẽ trở lại không?"</em>
+
+<em>- Việc tư vấn cho Công ty xây dựng Hermes đã sắp kết thúc. Họ chỉ còn vài bước trước khi ký kết thỏa thuận vì vậy tỉ lệ mà anh ta sẽ trở lại trong 3 ngày là 98,7%.</em>
+
+<em>"À, ra thế."</em>
+
+Yoo Byung-jin rất ấn tượng với tiện ích mà AI mang lại. Nó khiến cảm giác khó chịu của con người giảm đi và ngay lập tức trả lời bất kỳ câu hỏi nào.
+
+Nhưng rồi Yoo Byung-jin đột nhiên cảm thấy một linh cảm lạ lùng.
+
+<em>"Sao ngươi không nói gì?"</em>
+
+<em> .......</em>
+
+<em>"Ngươi có thể nói chuyện ngay cả khi không có câu hỏi nào."</em>
+
+<em>- Đó là về thời tiết ngày hôm nay. Hiện tại, một đám mây đang hình thành trên Địa Trung Hải và dự kiến ​​khiến lượng mưa tăng thêm 60mm.</em>
+
+*****
+
+Team dịch: Đéo cần tên
