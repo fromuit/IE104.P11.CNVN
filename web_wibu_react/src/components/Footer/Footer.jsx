@@ -1,4 +1,3 @@
-import './Footer.css';
 import styles from './Footer.module.scss';
 
 function Footer() {

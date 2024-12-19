@@ -3,13 +3,12 @@ import Header from '../../components/Header/Header';
 import MainOfAccount from './Main-of-Account/Main-of-Account';
 import TopOfPageButton from "../../features/Top_of_Page_Button/Top_of_Page_Button";
 import Footer from '../../components/Footer/Footer';
-import './Account-page.css';
-
+import styles from './Account-page.module.scss'
 function AccountPage() {
   const { id } = useParams();
   
   return (
-    <div className="account-page">
+    <div className={styles["account-page"]}>
       <Header />
       <MainOfAccount userId={id} />
       <TopOfPageButton />
