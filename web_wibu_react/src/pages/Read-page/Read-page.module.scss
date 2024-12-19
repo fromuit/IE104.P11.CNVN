@@ -1,8 +1,8 @@
 .read-page {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
-  background-color: #faf6f1;
+  background-color: #f5f0e8;
   padding: 2rem 1.5rem;
   
   @media (max-width: 768px) {
@@ -12,6 +12,7 @@
 
 .navigation {
   position: sticky;
+  flex-wrap: wrap;
   bottom: 1rem;
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.95);
@@ -35,6 +36,7 @@
 
 .back-button {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
   color: #4a5568;
@@ -52,14 +54,14 @@
 }
 
 .container {
-  background: white;
+  background: #fffcf7;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 3rem;
+  margin-bottom: 3rem;
   
   @media (max-width: 768px) {
-    padding: 1.5rem;
+    padding: 2rem;
   }
 }
 
@@ -95,15 +97,19 @@
   
   p {
     font-family: "Noto Serif", serif;
-    font-size: 1.125rem;
-    line-height: 1.9;
-    margin-bottom: 1.75rem;
-    color: #2d3748;
+    font-size: 1.2rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    color: #374151;
     text-align: justify;
+    max-width: 75ch;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.01em;
     
     @media (max-width: 768px) {
-      font-size: 1.05rem;
-      line-height: 1.8;
+      font-size: 1.1rem;
+      line-height: 1.9;
     }
   }
 }
@@ -200,6 +206,16 @@
       color: #2d3748;
     }
   }
+  
+  .font-size-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .theme-toggle {
+    padding: 0.5rem;
+  }
 }
 
 .image-container {
@@ -215,5 +231,18 @@
   
   @media (max-width: 768px) {
     border-radius: 4px;
+  }
+}
+
+// Add dark theme styles (can be toggled via JavaScript)
+.dark-theme {
+  background-color: #1a1a1a;
+  
+  .container {
+    background: #242424;
+  }
+  
+  .chapterContent p {
+    color: #e5e5e5;
   }
 }
