@@ -11,7 +11,11 @@ const PORT = 5000;
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173", // URL của React app
+  origin: [
+    "http://localhost:5173",
+    "http://192.168.112.1:5173",
+    "http://192.168.1.5:5173"
+  ],
   methods: ["GET", "POST"],
   credentials: true
 }));
@@ -27,12 +31,12 @@ app.post('/api/signup', (req, res) => {
 
     // Đọc dữ liệu hiện tại
     const data = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-    
+
     // Kiểm tra email đã tồn tại
     if (data.users.some(user => user.email === email)) {
-      return res.status(400).json({ 
-        success: false, 
-        error: 'Email đã được sử dụng' 
+      return res.status(400).json({
+        success: false,
+        error: 'Email đã được sử dụng'
       });
     }
 
@@ -50,16 +54,16 @@ app.post('/api/signup', (req, res) => {
     // Lưu vào file
     fs.writeFileSync(dbPath, JSON.stringify(data, null, 2));
 
-    res.json({ 
-      success: true, 
-      message: 'Đăng ký thành công' 
+    res.json({
+      success: true,
+      message: 'Đăng ký thành công'
     });
 
   } catch (error) {
     console.error('Server error:', error);
-    res.status(500).json({ 
-      success: false, 
-      error: 'Lỗi server' 
+    res.status(500).json({
+      success: false,
+      error: 'Lỗi server'
     });
   }
 });
@@ -68,23 +72,23 @@ app.post('/api/signup', (req, res) => {
 app.post('/api/signin', (req, res) => {
   try {
     const { email, password } = req.body;
-    
+
     // Đọc dữ liệu
     const data = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-    
+
     // Tìm user
     const user = data.users.find(u => u.email === email && u.password === password);
-    
+
     if (!user) {
-      return res.status(401).json({ 
-        success: false, 
-        error: 'Email hoặc mật khẩu không chính xác' 
+      return res.status(401).json({
+        success: false,
+        error: 'Email hoặc mật khẩu không chính xác'
       });
     }
 
     // Tạo response không bao gồm password
     const { password: _, ...userWithoutPassword } = user;
-    
+
     res.json({
       success: true,
       token: 'fake-jwt-token-' + Date.now(), // Trong thực tế nên dùng JWT
@@ -93,9 +97,9 @@ app.post('/api/signin', (req, res) => {
 
   } catch (error) {
     console.error('Server error:', error);
-    res.status(500).json({ 
-      success: false, 
-      error: 'Lỗi server' 
+    res.status(500).json({
+      success: false,
+      error: 'Lỗi server'
     });
   }
 });
@@ -111,7 +115,7 @@ const shutdown = () => {
     console.log('Server closed');
     process.exit(0);
   });
-  
+
   // Nếu server không đóng trong vòng 5s, force exit
   setTimeout(() => {
     console.error('Could not close connections in time, forcefully shutting down');
