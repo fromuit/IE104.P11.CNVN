@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react';
 import { Link} from 'react-router-dom';
 import TopNav from '../../components/Header/TopNav/TopNav';
 import Banner from '../../components/Header/Banner/Banner';
-import { searchNovels } from '../utils/searchUtils';
+import { searchNovels } from '../../features/utils/searchUtils';
 import genreMapping from '../../data_and_source/Novel_Data/genre_mapping.json';
-import Pagination from '../Pagination/Pagination';
+import Pagination from '../../features/Pagination/Pagination';
 import styles from './AdvancedSearch.module.scss';
-import TopOfPageButton from "../Top_of_Page_Button/Top_of_Page_Button";
+import TopOfPageButton from "../../features/Top_of_Page_Button/Top_of_Page_Button";
 
 
 function AdvancedSearch() {

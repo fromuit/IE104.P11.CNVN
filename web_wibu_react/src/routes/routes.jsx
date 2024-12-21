@@ -4,7 +4,7 @@ import InfoPage from '../pages/Info-page/Info-page.jsx';
 import AccountPage from '../pages/Account-page/Account-page.jsx';
 import SignUp from '../pages/SignUp-page/SignUp.jsx';
 import SignIn from '../pages/SignIn-page/SignIn.jsx';
-import AdvancedSearch from '../features/Advanced-Search/AdvancedSearch.jsx';
+import AdvancedSearch from '../pages/Advanced-Search/AdvancedSearch.jsx';
 import GenresPage from '../pages/Genres-page/Genres-page.jsx';
 import TopNovelsPage from '../pages/Home-page/Main-of-Home/See_More/TopNovels-page.jsx';
 import RecentlyUpdatedPage from '../pages/Home-page/Main-of-Home/See_More/RecentlyUpdated-page.jsx';
