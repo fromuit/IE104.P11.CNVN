@@ -44,8 +44,6 @@ function SectionOfInfo({ novel }) {
           .map(key => ({
             path: novelData.chapters[key].path,
             name: novelData.chapters[key].name,
-            volume: novelData.chapters[key].name.toLowerCase().includes('minh họa') ? 'Minh Họa' : 
-                   `Tập ${Math.ceil(parseInt(key) / 10)}` // Mỗi 10 chapter là 1 tập
           }));
 
         console.log('Số lượng chapters:', chaptersList.length);
@@ -63,14 +61,7 @@ function SectionOfInfo({ novel }) {
     loadChapters();
   }, [novel["Tựa đề"]]);
 
-  // Nhóm chapters theo tập
-  const chaptersByVolume = chapters.reduce((acc, chapter) => {
-    if (!acc[chapter.volume]) {
-      acc[chapter.volume] = [];
-    }
-    acc[chapter.volume].push(chapter);
-    return acc;
-  }, {});
+
 
   if (!novel) {
     console.log("No novel data received"); // Debug
