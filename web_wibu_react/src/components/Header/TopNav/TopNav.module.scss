@@ -1,0 +1,573 @@
+// Key Frames
+@keyframes dropdownFade {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+// TopNav
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: #fff;
+    z-index: 1000;
+    &__container {
+        max-width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        transition: padding 0.3s ease;
+    }
+
+    &__logo {
+        height: 40px;
+        min-width: 120px;
+        display: flex;
+        align-items: center;
+        transition: height 0.3s ease;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+
+    &--compact {
+        height: 40px;
+
+        &__container {
+            padding: 0 0.75rem;
+        }
+
+        &__logo {
+            height: 30px;
+        }
+
+        &__search {
+            padding: 0 0.3rem;
+
+            input {
+                height: 30px;
+                font-size: 0.85rem;
+                padding: 0 0.75rem;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+// Search bar components 
+
+.top-nav {
+    &__searchbar {
+        flex: 1;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background: #f5f5f5;
+        border-radius: 20px;
+        padding: 0 0.5rem;
+        transition: all 0.3s ease;
+
+        &:hover,
+        &:focus-within {
+            background: #eee;
+        }
+
+        input {
+            flex: 1;
+            height: 40px;
+            padding: 0 1rem;
+            border: none;
+            background: transparent;
+            font-size: 0.9rem;
+            transition: height 0.3s ease;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &__divider {            // Divider between search and button
+            width: 1px;
+            height: 20px;
+            background: rgba(0, 0, 0, 0.1);
+            margin: 0 8px;
+        }
+
+        &__button {
+            background: #1976D2;
+            border: none;
+            padding: 6px;
+            cursor: pointer;
+            color: white;
+            transition: all 0.2s;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 28px;
+            height: 28px;
+            border-radius: 50%;
+
+            &:hover {
+                background: #1565C0;
+
+                i {
+                    transform: scale(1.2);
+                }
+            }
+
+            i {
+                font-size: 12px;
+                transition: transform 0.2s ease;
+            }
+        }
+    }
+
+    &--compact {
+        &__searchbar {
+            padding: 0 0.3rem;
+
+            input {
+                height: 30px;
+                font-size: 0.85rem;
+                padding: 0 0.75rem;
+            }
+        }
+    }
+
+
+}
+
+    //Search Results
+
+.top-nav {
+    &__search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        max-height: 400px;
+        overflow-y: auto;
+        z-index: 1000;
+        margin-top: 5px;
+        padding: 8px 0;
+
+        &-item {
+            display: flex;
+            padding: 14px 16px;
+            border-bottom: 1px solid #eee;
+            text-decoration: none;
+            color: inherit;
+            transition: background-color 0.2s;
+            align-items: center;
+            cursor: pointer;
+
+            img {
+                width: 55px;
+                height: 80px;
+                object-fit: cover;
+                border-radius: 4px;
+                margin-right: 14px;
+            }
+
+            &:hover {
+                background-color: #f5f5f5;
+            }
+
+            &:last-child {
+                border-bottom: none;
+                background-color: #f5f5f5;
+            }
+
+            &-info {
+                .title {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #333;
+                    margin-bottom: 6px;
+                    line-height: 1.3;
+                }
+
+                .author {
+                    font-size: 14px;
+                    color: #666;
+                }
+            }
+        }      
+    }
+}
+
+// Actions
+
+.top-nav {
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        min-width: -webkit-fill-available;
+        min-width: -moz-available;
+        min-width: stretch;
+        min-width: fit-content;
+
+        // Theme toggle and settings button
+        .theme-toggle,
+        .settings-button {
+            background: none;
+            border: none;
+            padding: 0.5rem;
+            font-size: 1.2rem;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: #333;
+            }
+        }
+    }
+
+
+    &--compact {
+        &__actions {
+            gap: 0.5rem;
+        
+
+            .theme-toggle,
+            .settings-button {
+                padding: 0.3rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+        // Sign in and Sign up buttions
+
+.top-nav {
+    &__signin-signup-buttons {
+        display: flex;
+        gap: 10px; // Tạo khoảng cách giữa 2 nút
+
+        // Styles chung cho cả 2 nút
+        .signin-button,
+        .signup-button {
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .signin-button {
+            color: #1a73e8;
+            background: transparent;
+            border: 1px solid #1a73e8;
+
+            &:hover {
+                background: rgba(26, 115, 232, 0.1);
+            }
+        }
+
+        .signup-button {
+            color: white;
+            background: #1a73e8;
+            border: 1px solid #1a73e8;
+
+            &:hover {
+                background: #0b5fca;
+            }
+        }
+    }
+}
+
+
+        // Logged in user dropdown
+
+.top-nav {
+
+    //Avatar on TopNav
+    &__avatar {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &:hover {
+            border-color: #2196F3;
+        }
+    }
+
+    &--compact {
+        .top-nav__avatar {
+            width: 28px;
+            height: 28px;
+        }
+    }
+}
+    //Account dropdown container
+.account-dropdown-container {
+    position: relative;
+
+    .account-dropdown {
+        position: absolute;
+        top: calc(100% + 1px);
+        right: -10px;
+        min-width: 300px; /* Thay đổi width thành min-width */
+        max-width: 400px; /* Thêm max-width để tránh quá rộng */
+        width: max-content; /* Cho phép container mở rộng theo nội dung */
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        z-index: 1000;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.2s ease-in-out;
+        transform: translateY(-10px);
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 12px;
+            width: 100%;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            right: 24px;
+            width: 12px;
+            height: 12px;
+            background: white;
+            transform: rotate(45deg);
+            border-left: 1px solid rgba(0, 0, 0, 0.08);
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .dropdown-user-info {
+            padding: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            background: linear-gradient(to right, #f8f9fa, #ffffff);
+    
+            h4 {
+                margin: 0 0 4px 0;
+                font-size: 1rem;
+                font-weight: 600;
+                color: #1a1a1a;
+            }
+    
+            span {
+                font-size: 0.9rem;
+                color: #666;
+            }
+
+            .dropdown-avatar {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+
+        .dropdown-menu {
+            padding: 8px 0;
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+
+            .dropdown-item {
+                display: flex;
+                align-items: center;
+                padding: 12px 20px;
+                text-decoration: none;
+                color: #333;
+                gap: 12px;
+                cursor: pointer;
+                border: none;
+                background: none;
+                width: 100%;
+                text-align: left;
+                font-size: 0.95rem;
+                transition: all 0.2s ease;
+    
+                i {
+                    width: 20px;
+                    font-size: 1.1rem;
+                    color: #666;
+                    transition: color 0.2s ease;
+                }
+    
+                &:hover {
+                    background-color: #f8f9fa;
+                    color: #2196F3;
+    
+                    i {
+                        color: #2196F3;
+                    }
+                }
+    
+                &.badge {
+                    background: #ff4757;
+                    color: white;
+                    padding: 2px 8px;
+                    border-radius: 12px;
+                    font-size: 0.75rem;
+                    margin-left: auto;
+                    font-weight: 500;
+                }
+                    
+                &__signout {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin-top: 8px;
+                    border-top: 1px solid rgba(0, 0, 0, 0.08);
+                    background: none;
+                    cursor: pointer;
+                    font-size: 0.95rem;
+                    transition: all 0.2s ease;
+                    color: #666; // Màu mặc định nhẹ nhàng hơn
+    
+                    i {
+                        width: 20px;
+                        font-size: 1.1rem;
+                        margin-right: 12px;
+                        color: inherit;
+                    }
+    
+                    &:hover {
+                        background-color: #FFF1F1;
+                        color: #dc3545;
+                    }
+
+                    // Thêm hiệu ứng ripple khi click
+                    &:active {
+                        background-color: #FFE5E5;
+                        transform: scale(0.98);
+                    }
+                }
+            }
+        }
+   }
+
+   &:hover .account-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    }   
+}
+    
+
+.logout-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  .modal-content {
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    h3 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    p {
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+
+    .modal-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      button {
+        padding: 12px 40px;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:first-child {
+          background-color: #dc3545;
+          color: white;
+          
+          &:hover {
+            background-color: #c82333;
+          }
+        }
+
+        &:last-child {
+          background-color: #6c757d;
+          color: white;
+
+          &:hover {
+            background-color: #5a6268;
+          }
+        }
+      }
+    }
+  }
+}
+
+.top-nav__searchbar__sort {
+  background: none;
+  border: none;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #666;
+  
+  &:hover {
+    color: #333;
+  }
+}
+
+
+
+
+
+

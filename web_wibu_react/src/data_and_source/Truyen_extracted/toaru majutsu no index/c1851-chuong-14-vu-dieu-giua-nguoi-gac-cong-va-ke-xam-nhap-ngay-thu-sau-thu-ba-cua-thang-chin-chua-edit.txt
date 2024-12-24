@@ -1,0 +1,185 @@
+SS Volume 2
+
+Chương 14: Vũ điệu giữa người gác cổng và kẻ xâm nhập — Ngày Thứ Sáu Thứ Ba của Tháng Chín. (chưa edit)
+
+Độ dài: 2,570 từ - Lần cuối:
+
+11/11/2016 00:41:11
+
+- Bình luận: 0
+
+Để cho rõ ràng, Uiharu Kazari không phải là siêu nhân.
+
+"?"
+
+Giờ là sau giờ học và cô đang ở trong Chi nhánh thứ 177 của Judgment trong khi nhai nhóp nhép một cái bánh quy. Cô trông như thể đã nhận ra một chuyện gì đó và rồi nhìn vào chiếc máy tính xách tay đặt trên một chiếc bàn sắt.
+
+(Mgh!? Ai đó đang gây phiền phức ở đây rồi!!)
+
+Đó là một kẻ xâm nhập.
+
+Tuy nhiên, không phải ai đó đang xâm nhập vào máy tính của Uiharu hay vào Chi nhánh thứ 177 của Judgment. Hiện tại, cuộc tấn công điện tử này nối tiếp cuộc tấn công điện tử kia đang tấn công vào Ngân Hàng quản lí toàn bộ dữ liệu của Thành Phố Học Viện và Uiharu đang tiến hành các biện pháp phản công. Một liên kết trong phòng thủ của Ngân Hàng đã gửi tất cả dữ liệu được gửi tới Ngân Hàng qua cho máy chủ lớn của Judgment trước tiên.
+
+Vài dữ liệu bỏ qua vòng lặp đó mà đi thẳng vào Ngân Hàng.
+
+Dòng dữ liệu đó không thể nào vượt qua được theo cách bình thường.
+
+Ai đó đang xâm nhập vào.
+
+Và đó không phải là xâm nhập bình thường. Sự tiếp cận này không phải đi qua lỗ hổng an ninh mà Uiharu đã không nghĩ tới trước đây. Mà dù sao thì cô cũng đã lấp những lỗ hổng này rồi.
+
+Điều đó có nghĩa là…
+
+Misaka Mikoto, một thiếu nữ từ ngôi trường phát triển siêu năng lực danh tiếng Trường Trung Học Tokiwadai, đang ngồi trên băng ghế nhà ga. Thiết bị đầu cuối cầm tay mà cô đang vận hành trong tay được kết nối vào mạng qua mạng LAN không dây.
+
+Cô là một trong bảy Level 5 duy nhất của Thành Phố Học Viện.
+
+Cô là Railgun.
+
+Cô được xếp hang 3 trong toàn bộ thành phố và có sức mạnh kiểm soát điện năng mạnh nhất.
+
+Mikoto đang kiểm soát nhiều thứ khác nhau bằng cách trực tiếp chạm ngón trỏ mình vào màn hình, nhưng màn hình đang hiển thị nhiều thứ hơn những gì ngón tay cô có thể làm. Những biểu tượng và chuỗi kí tự đang cuộn quá nhanh để dễ dàng đọc được và Mikoto không chú tâm vào mọi thứ. Cô đã bắt đầu hình dung chiếc máy trong đầu mình và chiếc máy tính đang tự mình lo liệu mọi thứ gần giống như một hiệu ứng theo kèm.
+
+Mikoto đang cố truy cập vào Ngân Hàng của Thành Phố Học Viện.
+
+Cô đã đi xa tới thế này vài lần trước đây, nhưng lần này không ai ngăn cản cô cả. Cô chắc người ở bên kia có khả năng lo ngại việc ai đó có thể xâm nhập vào, nhưng cô đã không làm tới mức để họ có lí do ngắt kết nối mạng và cách li Ngân Hàng.
+
+(…Ừm, nó hẳn phải là một quyết định khó khăn. Cắt quyền truy cập vào Ngân Hàng sẽ mang lại mất mát lớn hơn cả việc dừng đoàn tàu lại khẩn cấp.)
+
+Trong khi nhìn chăm chú vào các cửa sổ xuất hiện và biến mất, Mikoto thở phào nhẹ nhàng.
+
+Cô muốn dùng toàn bộ sức mạnh của mình và vượt qua nó, nhưng cô cũng không muốn phá hủy cái máy của mình.
+
+(…Hmm.)
+
+Uiharu dõi mắt theo dữ liệu đang cố truy cập trực tiếp vào Ngân Hàng và bỏ cái bánh quy ăn dở trở lại dĩa.
+
+(Chuyện này đã từng xảy ra trước đây rồi. Chỉ có điều lần này ở mức độ cao hơn thôi.)
+
+Cô nhìn vào màn hình và thở ra.
+
+Cô đang thấy một chuyện không thể được thực hiện bằng cách vận hành máy tính theo cách bình thường.
+
+Nói cách khác, cô đang đối đầu với một tin tặc siêu năng lực gia.
+
+Thành Phố Học Viện là một thành phố của các siêu năng lực gia. Điều đó tất nhiên có nghĩa là có cả đống siêu năng lực gia có thể dùng năng lực của mình để hack. Vài người đọc tâm trí của người sử dụng để lấy mật khẩu, vài người dùng điện năng để dành quyền kiểm soát máy tính, và vài người thậm chí còn có thể kiểm soát “thông tin” một cách trực tiếp.
+
+Rất khó để đẩy lùi những người như thế trong khi sử dụng máy tính theo cách bình thường. Sự khác biệt giữa người dùng bình thường và tin tặc là ta có thể sử dụng hệ thống nhìn thấy được tốt đến thế nào và ta có thể đọc được bao nhiêu thứ đang diễn ra ở bên dưới, nhưng các tin tặc siêu năng lực gia còn sắp xếp thứ còn sâu hơn bên dưới.
+
+Tuy nhiên…
+
+Đây là một thành phố tràn ngập siêu năng lực gia.
+
+(Nếu mình do dự ở đây, làm sao mình có thể bảo vệ sự yên bình củ thành phố này được chứ!?)
+
+Uiharu đổi mới quyết tâm và kiểm tra lại dòng dữ liệu. Dữ liệu không phải đang đi qua “con đường ngắn nhất” mà Uiharu đã thiết lập trước đó, vậy nên tên tin tặc này không phải đang đọc suy nghĩ của Uiharu. Ngoài ra, dữ liệu không phải đang bị gỡ bỏ trong khi hoàn toàn lờ đi bức tường phòng thủ, vậy nên tên tin tặc này không phải là người có thể tiếp xúc trực tiếp với thông tin.
+
+(Điều đó có nghĩa là…)
+
+Rất có thể, cô đang đối đầu với một siêu năng lực gia có thể kiểm soát điện năng. Tuy nhiên, năng lực điện rất phổ biến, cho nên gần như không thể xác định được ai là tin tặc chỉ với điều đó.
+
+“…”
+
+Uiharu nhíu mày và dùng mắt dõi theo kiểu mẫu mà dữ liệu đang di chuyển.
+
+Chút phản ứng với dữ liệu đó mang “cây hoa” của hệ thống đó tới tâm trí cô.
+
+Hiện tại, cô đang nhìn vào đoạn cuối của phần rễ. Cô tưởng tượng ra phần thân cây và những chiếc lá từ đó rồi tới dòng nước và dưỡng chất. Tất cả những điều đó tạo ra một hình ảnh lớn của toàn bộ cây hoa trong đầu cô. Cách tính toán theo kiểu có tổ chức bằng cách tưởng tượng ra nó từ những góc độ khác nhau này là những gì Uiharu thực hiện khi hack.
+
+Nếu Uiharu Kazari thực sự có năng lực đặc biệt, cô có thể đã có khả năng dựng một Personal Reality to lớn và thể hiện sức mạnh khổng lồ.
+
+Thế nhưng…
+
+(…)
+
+Uiharu bậm môi.
+
+Hình ảnh bắt đầu từ đầu rễ của cô đột nhiên nổ tung khi cô chạm đến phần thân. Đối thủ của cô hẳn đã sử dụng những tính toán cấp độ cực cao, vì cô không thể đọc được đường đi được thực hiện bởi sự kiện mà cô đang nhìn thấy trước mắt hay Personal Reality gây ra nó.
+
+Và nếu cô không thể hiểu được đối thủ của mình đang làm gì, thì cô sẽ không thể tìm ra cách ngăn chặn nó.
+
+(Mình phải làm gì đây…?)
+
+Những ngón tay của Uiharu lang thang quanh trên bàn phím.
+
+Đây là một hành động như khi ai đó không thể quyết định được phải chọn món đồ nào và đây là một biểu tượng cho sự căng thẳng của cô.
+
+“Được rồi, được rồi. Có vẻ như nó ở quanh đây,” Mikoto lẩm bẩm khi chăm chú nhìn vào màn hình thay đổi nhanh chóng.
+
+Hiện tại, cô đang tiến hành việc bẻ khóa mật khẩu tiêu chuẩn.
+
+Chỉ vì cô có năng lực kiểm soát điện năng không có nghĩa là cô có thể vượt qua mọi loại bảo mật bằng năng lực ấy. Trong thực tế, Thành Phố Học Viện đầy rẫy siêu năng lực gia cho nên những phòng thủ chống lại kiểu tấn công bất thường đó đã được phát triển.
+
+Tuy nhiên, dù người ta nghĩ về nó thế nào, người có siêu năng lực sẽ có lợi thế hơn người không có.
+
+Tất nhiên, cô không chỉ dùng mỗi năng lực của mình để vượt qua mọi thứ.
+
+Sau cùng, chẳng có lí do gì mà phải gắn chặt với việc làm vậy.
+
+Cô sẽ sử dụng năng lực của mình để vượt qua bảo mật khó bẻ gãy bằng máy tính bình thường và cô sẽ sử dụng máy tính cho bảo mật đặc biệt chống lại siêu năng lực gia. Mikoto xâm nhập vào những mục tiêu khác nhau bằng cách sử dụng phương pháp có hiệu quả nhất tại mỗi điểm.
+
+Và rồi công việc của cô hoàn tất.
+
+Mikoto gõ vài phím và vượt qua đoạn bảo mật cuối cùng.
+
+(Giờ thì, dữ liệu đó đâu rồi…hả?)
+
+Mikoto dừng chuyển động.
+
+Khi cô nhìn vào màn hình, duy chỉ có đôi lông mày cô là co giật.
+
+Màn hình đang hiển thị hàng loạt dữ liệu trong Ngân Hàng khi nó đang được mã hóa với tốc độ vượt trội.
+
+(Không thể nào…)
+
+Từ các đặc điểm của chuỗi kí tự ngẫu nhiên mà các biểu tượng và con số đang biến thành, đó rất có thể là Omega Secret. Omega Secret là một chương trình mã hóa số ngẫu nhiên đã giành chiến thắng trong một cuộc thi mã hóa tuyệt đối được tổ chức trên mạng internet của Thành Phố Học Viện.
+
+(Không, không, đùa đấy hả trời!)
+
+Cuộc thi mã hóa tuyệt đối đó không phải là thứ có lợi ích thực sự nào giống như để cho một cái máy tính chơi cờ vua với một con người. Trong thực tế, nó nổi tiếng vì có những ảnh hưởng khó chịu. Omega Secret được tạo ra trong cuộc thi đó nổi tiếng vì không thể phá, nhưng dữ liệu được mã hóa một cách ngẫu nhiên khiến cho ngay cả chính chương trình đó cũng không thể giải mã được. Người ta nói rằng thứ bị con quái vật đó mã hóa sẽ làm cho siêu máy tính của Thành Phố Học Viện mất tới 200 năm mới giải mã nổi.
+
+(Tên ngốc nào lại đi quyết định sử dụng thứ đó chứ!?)
+
+Phần khó chịu nhất về Omega Secret là mỗi tập tin từ nhỏ nhất đến lớn nhất cũng đều sẽ mất tới 200 năm để giải mã. Sự khác biệt giữa mỗi tập tin là được tạo nên bằng những con số ngẫu nhiên nên không có kiểu giải mã nào có thể dùng cho mọi tập tin khi nó được phát hiện ra. Sau khi giải mã một tập tin, tập tin kế tiếp sẽ cần thêm 200 năm nữa.
+
+Toàn bộ Ngân Hàng đang bị mã hóa, nên cô còn không biết được dữ liệu cô muốn đang ở đâu trong cái kho lưu trữ khổng lồ đó. Cách duy nhất để đảm bảo cô có được dữ liệu mình muốn là cô phải chuyển từ việc chọn lựa những thứ mình muốn rồi đánh cắp nó sang việc chuẩn bị một ngân hàng dữ liệu khổng lồ kích cỡ máy chủ lưu trữ và chuyển hết mọi thứ của lượng dữ liệu nực cười đó vào trong.
+
+Cô chẳng thể làm được gì cả.
+
+Hành động chuẩn bị một máy chủ lớn như thế sẽ làm cho cô bị theo dấu. Và ngay cả khi cô có máy chủ, ai biết được việc chuyển hết chỗ dữ liệu đó sẽ tốn bao nhiêu giờ. Những người giám sát mạng sẽ không bao giờ bỏ lỡ việc chuyển dữ liệu lớn đến thế.
+
+Tuy nhiên…
+
+(…Họ điên rồi. Các tập tin kiểm soát và bảo trì máy chủ Ngân Hàng cũng đang bị mã hóa luôn rồi!! Cái máy chủ khổng lồ đó sẽ trở nên vô dụng sau chuyện này mất!!)
+
+Ngay cả một tiểu thư lâu năm như cô cũng tái nhợt khi nghĩ tới những cái máy dùng cho Ngân Hàng phải tốn lượng tiền lớn đến thế nào. Tất cả những thứ đó đã bị vứt bỏ không do dự. Mở hộp máy chủ ra rồi đổ nước vào còn ít tổn thất hơn thế này nữa.
+
+(Nếu họ sẵn sàng đánh trả như thế này, họ chắc có dữ liệu trên Ngân Hàng được lưu trữ ở đâu đó. Nếu tấn công vào đó, mình có thể sẽ kiếm được dữ liệu ấy…)
+
+Mikoto nhìn lại thảm họa đang diễn ra trên màn hình của mình.
+
+Cô có cảm giác đối thủ của cô sẽ không ngừng ngăn cản cô. Ngay cả khi cô xoay sở để tiếp cận dữ liệu sao lưu đó, cô cũng không khỏi cảm thấy đối thủ của cô sẽ không kiềm lại.
+
+(Tin tặc làm tốt nhất khi không bị tìm thấy.)
+
+Mikoto không thể quyết định phải làm gì trong một lúc, nhưng cuối cùng cô vò đầu mình bằng một tay như thể đã bỏ cuộc.
+
+(Nếu mình gắn với lí thuyết đó, mình nên rút lui lúc này. Mình không muốn đi xa đến vậy để rồi bị hạ bởi tên đần độn nào đó kia.)
+
+"Ừm, mình đoán vậy là xong hôm nay rồi,” Uiharu Kazari vừa nói vừa chăm chú nhìn vào màn hình.
+
+Nếu kẻ xâm nhập ở lâu hơn chút nữa, cô có khả năng đã có thể theo dấu hắn, nhưng cô vẫn đã khá thành công rồi. Thay vì đuổi theo kẻ xâm nhập quá xa, cô nên phân tích kiểu tấn công của hắn và đưa ra vài phòng thủ chống lại nó.
+
+Việc phương pháp bình thường đó sẽ có tác dụng với tin tặc trực tiếp kiểm soát điện năng có thể có vẻ đáng nghi, nhưng nó sẽ có tác dụng thôi. Kẻ xâm nhập chẳng làm gì hơn việc sử dụng năng lực của mình để xâm nhập vào phần ẩn của hệ thống mà. Hắn chỉ trông như hắn có thể làm bất cứ điều gì vì hắn có thể tự do di chuyển qua những khu vực ngoại lệ đó.
+
+Miễn kẻ xâm nhập chỉ đang gửi nhận thông tin điện tử, Uiharu chỉ cần phải tìm ra những ngoại lệ ấy và lấp những lỗ hổng ở đó thôi. Kiểu phương pháp bình thường đó còn hơn cả đủ để ngăn chặn một siêu năng lực gia xâm nhập vào.
+
+(Chuyện này là một bài học hay đây. Tên xâm nhập đó khá giỏi, nhưng cuối cùng việc đó đã tăng thêm kĩ năng của mình.)
+
+Vừa suy nghĩ, Uiharu vừa với tay tới cái bánh quy đặt trên đĩa.
+
+“…Uiharu.”
+
+Cô quay lại phía giọng nói thì thào thì thấy thành viên Judgment đồng nghiệp của mình, Shirai Kuroko, đứng ở lối vào căn phòng. Shirai đang cúi đầu xuống và Uiharu nghiêng đầu sang một bên khó hiểu. Người bạn đồng nghiệp tóc thắt bím của cô chỉ ngón cái của mình về phía cánh cửa và tiếp tục thì thào.
+
+“Cậu đi quá xa rồi, vậy nên giờ là lúc dạy cậu một bài học đó, đồ ngốc.”

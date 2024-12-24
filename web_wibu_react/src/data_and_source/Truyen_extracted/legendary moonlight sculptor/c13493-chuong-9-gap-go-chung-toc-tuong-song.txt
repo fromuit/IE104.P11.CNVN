@@ -1,0 +1,899 @@
+Vol 27
+
+Chương 9: Gặp gỡ chủng tộc tượng sống.
+
+Độ dài: 7,401 từ - Lần cuối:
+
+07/01/2017 17:59:10
+
+- Bình luận: 8
+
+
+
+<strong>Tóm tắt chương trước</strong>
+
+
+
+Weed phải hoàn thành 2800 bức tượng trong 52 ngày để cống nạp cho Akryong Kaybern. Với nhiệm vụ như này sao làm khó được cậu, với kĩ năng có thừa và tính kiên trì thì không ai bằng, cậu đã hoàn thành được nó, ngoài ra cậu còn nhận được rất nhiều phần thưởng có giá trị. Miên man với những câu chuyện của Einhand, nói chung là xoay quanh cựu hoàng đế Von Arpen, nhiệm vụ mở ra nhưng do cậu đã là LMS rồi nên không cần làm cũng xong.
+
+
+
+Guid Hermes vẫn kiên trì cử người đi săn lùng Weed, nhưng đi đến đâu họ cũng bị xua đuổi, lần này là tộc Orc, họ bị vùi dập tơi bời hoa lá. Và hình như họ đang lên kế hoạch đánh thẳng vào Morata để dụ Weed ra.
+
+
+
+150.000 con Orc đã đến Morata, một con số đáng kinh ngạc. Nhưng Weed đã chủ động sắp xếp chỗ ăn ở cho lũ Orc gần pháo đài Vargo.
+
+
+
+
+
+Weed nói với Einhand.
+
+<em>“Những tác phẩm điêu khắc của hoàng đế đế chế Arpen không hề biến mất. Tôi đã biết được điều này.”</em>
+
+<em>“Ôi, thật tuyệt vời!”</em>
+
+Einhand thốt ra lời cảm thán như lúc uống được một cốc bia ngon.
+
+<em>“Nếu đúng như những gì cậu đã nói, cậu thực sự có thể được gọi là một nhà điêu khắc vĩ đại. Vậy, ta có thể yêu cầu cậu thêm một việc được không? Cậu có biết một nơi có tên là Ugoth không?”</em>
+
+Hình như Weed đã nghe cái tên này ở đâu đó.
+
+Ở vương quốc Thor, đó là tên của một khu vực phía nam dãy núi Saigorn. Các Dwarf Warrior chặn đứng những con quái vật ở biên giới trong khi nhiều nhà thám hiểm có level cao đi đến nơi này vì vẫn còn một số lượng lớn hang động chưa được khám phá.
+
+Một cửa sổ tin nhắn hiện ra trước mặt Weed.
+
+Bạn đã chọn Sculpture Life Bestowal cho nhiệm vụ Sculpting Master của mình.
+
+Phần còn lại của nhiệm vụ sẽ được xác định bằng nhiệm vụ liên quan đến những tác phẩm điêu khắc sống.
+
+<em>“Ngoài ra thì một vài Dwarf đã nói chuyện với những Goblin”</em>
+
+<em>“Họ đã nói gì?”</em>
+
+<em>“Họ nói rằng bất cứ khi nào họ vừa đi vừa hát những bài ca của mình, họ sẽ nhìn thấy những sinh vật nhỏ thỉnh thoảng xuất hiện trong các bụi cây.”</em>
+
+<em>“Kích thước của chúng như thế nào?”</em>
+
+<em>“Khoảng bằng một phần hai con sóc. Có lẽ chúng không phải là quái vật mặc dù tộc Dwarf chúng ta chưa từng thấy chúng. Ta nghĩ rằng sẽ tốt hơn nếu cậu đi điều tra xem cái gì ở đó. Ta nghĩ rằng chúng cũng không thực sự quan trọng lắm nên hãy chỉ đi khi nào cậu rảnh. Khi nào cậu có thời gian, hãy đến kiểm tra thử.”</em>
+
+<em>“Vâng, tôi sẽ đến xem xét khi rảnh rỗi.”</em>
+
+Mặc dù trả lời như vậy, Weed vẫn nghĩ rằng cần phải tìm xem đó là thứ gì.
+
+Những gợi ý thỉnh thoảng sẽ liên kết với các sự kiện và phần thưởng to lớn. Tất nhiên, mặc dù không phải lúc nào cũng vậy nhưng nó vẫn xứng đáng để tìm kiếm một phen.
+
+<em>“Và ở Ugoth, vì gần đây có một đám quái vật xuất hiện nên nhiều Dwarf đang trong tình trạng nguy hiểm. Nếu cậu có thể làm ra những bức tượng sống mạnh mẽ như được làm từ thép khi còn ở đế chế Arpen thì ta nghĩ rằng cậu có thể giành lại hòa bình và trật tự ở Ugoth. Mặc dù, nó thật sự là một yêu cầu hơi quá nhưng cậu có thể hỗ trợ một chút cho những Dwarf ở Ugoth không?”</em>
+
+<em>“Tất nhiên rồi, tôi sẽ đi xem thử và làm hết sức mình.”</em>
+
+Weed nghĩ đó chỉ là một nhiệm vụ chiến đấu đơn giản.
+
+Mặc dù những thứ liên quan đến nhiệm vụ điêu khắc rất hiếm, nó có thể chỉ là một nhiệm vụ mang đến gánh nặng cho cậu vì có liên quan đến nhiệm vụ ban tặng sự sống cho tác phẩm điêu khắc.
+
+<em>“Và cậu cũng có thể giúp đỡ chúng tôi rất nhiều bằng việc đó. Vì vậy nếu cậu giúp Ugoth, Dwarf chúng tôi thậm chí không biết sẽ tặng cho cậu những món quà giá trị đến mức nào.”</em>
+
+Ttring!
+
+Những người bảo vệ Ugoth.
+
+Một lực lượng bí mật của đế chế Arpen!
+
+Nếu một Sculptor biết cách sử dụng Sculpture Life Bestowal, anh ta có thể giúp đỡ rất nhiều cho những Dwarf ở dãy núi Saigorn.
+
+Bắt đầu với ít nhất 10 tượng sống và chỉ huy chúng giúp đỡ khôi phục lại hòa bình ở Ugoth.
+
+Dwarf sẽ tặng thưởng cho bạn vì hành động này.
+
+Và ngoài ra, bạn còn có thể tìm thấy một số thứ khác ở Ugoth. Tuy nhiên, đó cũng có thể chỉ là những lời dối trá của những Goblin.
+
+Nếu bạn gặp phải những sinh vật kì lạ, nó sẽ dẫn bạn đến giai đoạn tiếp theo của chuỗi nhiệm vụ.
+
+Độ khó: Nhiệm vụ Sculpting Master.
+
+Giới hạn nhiệm vụ: Kĩ năng Sculpting cao cấp level 8.
+
+Cần có kĩ năng Sculpture Life Bestowal.
+
+Level kĩ năng – Yêu cầu hợp tác với một Bard có kĩ năng Singing  ít nhất ở mức trung cấp.
+
+Bạn cần phải tiêu diệt 500 quái vật để hoàn thành nhiệm vụ.
+
+Weed thực sự không nhớ rõ lắm cấp độ của những quái vật ở Ugoth.
+
+Cho dù nơi này có độ khó khá cao, nếu có các bức tượng sống, nhiệm vụ này cũng sẽ không tốn nhiều thời gian. Tuy nhiên, về lâu dài, việc sử dụng kĩ năng Sculpture Life Bestowal cho nhiệm vụ Sculpting Master, cậu có một chút lo lắng là những nhiệm vụ chiến đấu sẽ càng khó khăn hơn.
+
+Thực tế, cậu không thực sự có nhiều niềm tin cho việc tiếp tục nhiệm vụ các tác phẩm điêu khắc sống.
+
+<em>“Giống như những kẻ bất tài, đem tất cả chúng đến đây cũng chẳng có ích gì. Nếu mình muốn làm tiếp nhiệm vụ với chúng, điều đó sẽ rất khó khăn.”</em>
+
+<em>“Kwaegwaeaeg!”</em>
+
+<em>“Tôi thậm chí không biết mình sinh ra để làm gì. Meoooooo.”</em>
+
+<em>“Đôi cánh ánh sáng. Cậu ta là người trung thành với chủ nhân.”</em>
+
+Những bức tượng sống được Weed tập hợp lại với nhau trong lúc bị la mắng không ngừng.
+
+*****
+
+Tất cả Barbarian xung quanh pháo đài Vargo đều cảm thấy lo lắng về một nơi.
+
+<em>“Không một chiến binh nào đến đó mà sống sót trở về.”</em>
+
+<em>“Truyền thuyết nói rằng có một con quỷ sống trong đó.”</em>
+
+<em>“Nơi đó bốc lên thứ mùi khủng khiếp của những xác chết đã bị thối rữa cùng với một vầng hào quang đáng ngại bao phủ xung quanh. Nếu bạn muốn giữ mạng sống của mình, có những cách tốt hơn để làm điều đó.”</em>
+
+Vì vậy, các Geomchi và võ sinh nhận được nhiệm vụ từ các Barbarian.
+
+<em>“Hừm, chúng ta có thể làm điều này không?”</em>
+
+<em>“Thậm chí nếu chúng ta thất bại, chúng ta cũng sẽ không chết.”</em>
+
+<em>“Bộ não của các con không phải nằm trên trán, nên hãy sử dụng nó như cách chúng ta tấn công chúng.”</em>
+
+<em>“Chúng con sẽ làm theo lời của sư phụ.”</em>
+
+Các Barbarian nói rằng chúng là những con quái vật khó nhằn, chúng sẽ kéo đàn kéo lũ đến và sử dụng chiến thuật “lấy thịt đè người”.
+
+Vì không cần toàn bộ 505 Geomchi làm việc đó nên họ chia nhỏ ra và phân tán rải rác khắp các hầm ngục khác nhau.
+
+<em>“TUYỆT ĐỐI KHÔNG ĐƯỢC TIẾN VÀO. Ái chà, mấy chữ này cũng đáng lo ngại đấy chứ”</em>
+
+<em>“Lối vào nằm ở đâu?”</em>
+
+<em>“Một vài chiến binh loài người thậm chí còn nói rằng những cái cây phía trên ngăn cản họ hét lên.”</em>
+
+<em>“Có vẻ hay đấy. Tôi sẽ chiến đấu đầu tiên.”</em>
+
+<em>“Bọn chúng có móng vuốt cực kỳ sắc nhọn. Ít nhất chúng sẽ bị suy yếu khi trời đổ mưa vì tầm nhìn của chúng trong mưa không được tốt, nếu lợi dụng điều đó….”</em>
+
+<em>“Chẳng lẽ chỉ có cách đó tôi mới giết được chúng sao? Cho dù trời không đổ mưa, tôi vẫn sẽ chiến đấu.”</em>
+
+*Chiến* *chiến* *chiến*
+
+<em>“Nhanh lên!”</em>
+
+<em>“Hãy vui vẻ mà chào đón lũ quái vật.”</em>
+
+Các Geomchi tăng tốc trong lúc chịu đựng và che các vết thương.
+
+Họ chạy, nghiền nát và chiến đấu như cách họ vẫn làm trong các hầm ngục. Họ giảm thiểu thời gian tối đa để có thể hoàn thành nó trong thời gian ngắn nhất.
+
+<em>“Chúng ta không cần những thứ phức tạp. Chỉ cần giết tất cả kẻ thù.”</em>
+
+<em>“Ý kiến của sư phụ rất đúng.”</em>
+
+Như thường lệ, họ vượt trội như những anh hùng trong trận chiến khi từng người lần lượt ngã xuống.
+
+Geomchi489 là một người được xem như tinh hoa của xã hội.
+
+Từ khi còn nhỏ, anh đã chứng mình được những phẩm chất của một thiên tài đầy hứa hẹn và vẫn tiếp tục duy trì nó đến cấp 2, lên cấp 3 và tới khi tốt nghiệp sớm.
+
+Sau đó, anh rời trường đại học tốt nhất Hàn Quốc và trở thành sinh viên trao đổi học tập ở nước ngoài theo một học bổng của chính phủ. Anh cũng đã giành giải nhất cuộc thi toán học và nổi tiếng trong cộng đồng khoa học khi xuất bản tạp chí riêng của mình.
+
+Anh được bảo đảm sẽ trở thành một trong những giám đốc điều hành của một công ty và còn là bậc thầy trong nghệ thuật lái xe trên đường cao tốc với một tốc độ chóng mặt mà đến cả Pikachu VN cũng không thể bắt được.
+
+Geomchi489 vẫn có rất nhiều nỗi khổ riêng trong cuộc đời của mình.
+
+<em>“Kiểu như thế này, tôi sẽ được giám đốc thăng chức cho sớm hơn tất cả những người khác kể cả phó giám đốc hay thậm chí là giám đốc. Tôi kiếm được hàng trăm triệu ngoài ra còn có khoản tiền thêm từ cổ phiếu. Các công ty sẽ cung cấp cho tôi xe hơi cá nhân và sau đó tôi sẽ leo lên được vị trí CEO hoặc phó chủ tịch của công ty.”</em>
+
+Mặc dù cuộc sống của anh trông có vẻ rất thành công nhưng anh chưa bao giờ cảm nhận được niềm vui. Trên TV đang chiếu một thứ gì đó về một nhóm người và nó chẳng có gì là thú vị cả.
+
+Đó là về võ đường, nơi mà chúng ta có thể đến để luyện tập và nắm lấy cơ hội cho phép chúng ta giác ngộ con đường kiếm thuật.
+
+Toàn bộ cơ thể anh cảm nhận được một niềm đám mê cháy bỏng dành cho kiếm thuật.
+
+Kể từ đó, kiếm thuật trở thành sở thích của anh và anh bắt đầu tham gia vào võ đường. Mặc dù không ngừng đổ mồ hôi vì luyện tập khó khăn, anh vẫn thích việc rèn luyện thân thể.
+
+Tuy nhiên, đã có một vài tác dụng phụ.
+
+Cùng các võ sinh khác, hay đơn giản chỉ cần mặc bộ võ phục lên người là anh lại nảy sinh ý muốn thượng cẳng chân hạ cẳng tay thay vì dùng đến cái đầu của mình.
+
+<em>“Giết chúng.”</em>
+
+Anh không hề quan tâm đến những kiến thức được tích lũy từ xã hội. Nếu ai đó cầm lấy kiếm và chiến đấu cùng với các võ sinh, đó thật sự là ngu bẩm sinh.
+
+Nếu ai đó có đủ can đảm vứt bỏ cuộc sống của mình, nhận lấy sự quan trọng về thể chất hơn là kiến thức, cuộc sống của họ sẽ vui vẻ hơn nhiều.
+
+<em>“Nhìn đi. Nếu con cố gắng, không gì là không thể.”</em>
+
+<em>“Vâng, thưa sư phụ.”</em>
+
+<em>“Được thầy chỉ huy là một điều may mắn của lục địa Versailles.”</em>
+
+Các võ sư còn sống sót và các võ sinh đang tâng bốc Geomchi.
+
+Các tiền bối phối hợp với nhau để nâng cao level với một tốc độ nhanh chóng. Họ cũng đã thu hoạch và đóng góp thông tin về những địa điểm săn bắn mới xung quanh pháo đài Vargo.
+
+Geomchi3 nhìn thấy Zephyr và nhóm của mình khi họ đang lang thang khắp các cửa hàng.
+
+<em>“Hey, Zephyr.”</em>
+
+<em>“Vâng, sư huynh.”</em>
+
+<em>“Cậu có đang làm việc gì không?”</em>
+
+<em>“À thì…..”</em>
+
+Geomchi3 nghiến răng trông có vẻ như thật sự cấp bách. Mặc dù Zephyr có một thách thức cần phải hoàn thành vào ngày mai nhưng anh không thể nói ra được điều đó.
+
+<em>“Không thưa sư huynh.”</em>
+
+<em>“Vậy thì chúng ta hãy đi săn cùng nhau.”</em>
+
+<em>“Vâng, sư huynh. Nhưng mà còn có Pale và những người khác nữa.”</em>
+
+Zephyr biết rằng các Geomchi khi đi săn chẳng bao giờ điều tra chút thông tin nào.
+
+Nhưng, họ không phải là những người lạ hoàn toàn không biết gì về pháo đài Vargo.
+
+Khi các Barbarian nhắc đến một nơi nào đó, họ sẽ đi cùng các võ sinh và quét sạch quái vật ở đó!
+
+Họ phô diễn các kĩ năng chiến đấu và tốc độ săn bắn của mình đủ để khiến các Barbarian phải kinh ngạc.
+
+Cứ như vậy, bất cứ khi nào họ đi săn, chắc chắn rằng sẽ phải có người nằm xuống.
+
+Nếu Zephyr đi một mình mà không có Pale, Surka, Irene, Romuna và bị kẹp giữa các võ sinh, anh có thể nhanh chóng ngã gục vì kiệt sức mà không có bất kì ai để chia sẻ sự khó khăn này.
+
+<em>“Được thôi. Chúng ta sẽ bắt đầu sau khi tất cả mọi người đã tập trung lại.”</em>
+
+Như vậy, họ đã quyết định sẽ đi săn cùng nhau.
+
+Geomchi2 đã tái ngộ với Seechwi, người luôn được các Orc vây quanh.
+
+<em>“Cũng đã được một khoảng thời gian rồi, chwiiig!”</em>
+
+<em>“Hẳn là em đã mất rất nhiều công sức để đạt được trình độ này.”</em>
+
+Cả hai ôm nhau thật chặt để chia sẻ sự ấm áp của mình.
+
+Nhìn thấy cảnh đó có thể sẽ hơi lúng túng vì màn thể hiện tình cảm giữa một Orc và một con người, nhưng đó là cảm xúc của cả hai người.
+
+<em>“Bây giờ anh phải đi săn rồi…”</em>
+
+<em>“Chúng ta hãy đi cùng nhau, chwichichwiik!”</em>
+
+Orc Commander Seechwi dẫn những con Orc tham gia vào cuộc đi săn.
+
+Những Elite Orc Champion tiến vào hầm ngục và săn bắn. Orc Champion đã vượt qua các dãy núi gồ ghề, chúng trưởng thành trong lúc chiến đấu với quái vật.
+
+Và Seoyoon cũng đi săn cùng các võ sinh. Nói cách khác, họ thật sự là một thảm họa.
+
+Vì dạo gần đây cô cũng chỉ học làm gốm và điêu khắc với Weed nên cô muốn nâng cao level bằng cách đi săn với các Geomchi.
+
+Class của Seoyoon, càng chiến đấu nhiều cô càng trở nên mạnh mẽ hơn, một Beserker!
+
+Không chỉ có sức mạnh kĩ năng tuyệt vời, ngay sau khi dọn sạch một hầm ngục, cô sẽ nhanh chóng di chuyển đến hầm ngục khác. Cô đi vòng quanh và thu hút một lượng lớn quái vật trong khi các Geomchi và võ sinh chỉ đứng bên ngoài nhìn xem khả năng chém giết của cô.
+
+<em>“Cô ấy mạnh hơn tất cả chúng ta….”</em>
+
+<em>“Khả năng đi săn của chúng ta dường như không thể so sánh với cô ấy.”</em>
+
+<em>“Không, không thể thế được! Ngay cả khi chúng ta thua kém cô ấy về khoản ăn uống chúng ta cũng không thể thua về chiến đấu được. Đi thôi!”</em>
+
+Geomchi, các võ sư và võ sinh càng trở nên cục súc.
+
+*****
+
+Để hoàn thành nhiệm vụ Ugoth, Weed cần phải hợp tác với một Bard.
+
+<em>“Vậy là mình không nên làm nhiệm vụ này một mình mà cần hợp tác với những người chơi với các class khác nhau. Và Bard đó cũng cần có level tương đối cao và có kĩ năng ít nhất ở mức trung cấp.”</em>
+
+Cậu luôn luôn có thể yêu cầu sự giúp đỡ khi nhiệm vụ có liên quan đến Bard vì họ phát triển ở Morata hơn bất kì nơi nào khác. Mặc dù có rất nhiều người tài năng ở Morata, chỉ cần là Weed gọi, mọi người sẽ chạy đến chỗ cậu cho dù đang đi chân đất. Thật không may là kĩ năng của cậu cũng không phải là cao lắm.
+
+<em>“Nếu có Bellot thì cũng được rồi bởi vì chỉ cần cấp độ trung cấp thôi.”</em>
+
+Weed nhắn tin cho Bellot.
+
+<em>- Xin lỗi, bây giờ cô có rảnh không?</em>
+
+<em>- Heek heek.</em>
+
+<em>- Bellot?</em>
+
+<em>- Phù. Xin lỗi, có phải anh vừa gọi em?</em>
+
+Cô vẫn quyến rũ như mọi ngày, chỉ có sự khác biệt là vội vã hơn thông thường.
+
+<em>- Ngay bây giờ, nếu cô rảnh thì...</em>
+
+<em>- Em rảnh, em hoàn toàn rảnh.</em>
+
+<em>- Tôi chỉ nhờ cô một chút thôi, tôi cần cô giúp một việc.</em>
+
+<em>- Thế thì đợi em rời khỏi chỗ này đã. Sau đó….em có rất nhiều thời gian.</em>
+
+Đó là lần đầu tiên Bellot dành thời gian cho một người đàn ông.
+
+Hiện tại, cô đang chiến đấu cùng với Hwaryeong và các Geomchi.
+
+Mặc dù level tăng khá dễ dàng, cô vẫn không hoàn toàn hài lòng. Cuộc đi săn của họ sẽ không kết thúc ngay cả khi hiện tại cô đã hoàn toàn kiệt sức và lưỡng lự về việc chơi các bài hát.
+
+<em>- Thế thì tôi sẽ liên lạc với Yurin để đưa cô đến đây.</em>
+
+<em>- Vâng, và tàu nhanh anh nhé.</em>
+
+****
+
+Weed, Bellot, 6 Wyvern, Geumini, Yellowy, Silver Bird cùng với Light Wing đi đến Ugoth. Gold Bird cũng đi cùng vì có Silver Bird.
+
+Ugoth nằm ở một trong sáu vùng đất của Dwarf, Weed cưỡi một Wyvern bay lên trời và quan sát các tòa nhà nơi Dwarf sinh sống từ trên cao. Tất nhiên, những Dwarf trông càng nhỏ bé hơn nữa. Nhưng ở đây họ cũng tạo ra rất nhiều áo giáp, vũ khí và những thứ khác.
+
+Những Adventurer đang lang thang trên những con phố đông đúc tránh xa các chủng tộc.
+
+<em>“Đầu tiên, chúng ta sẽ đi bắt quái vật, cô có đồng ý không?”</em>
+
+Bellot thờ dài.
+
+<em>“Như vậy là em lại phải đi săn à?”</em>
+
+Cô đúng là tránh vỏ dưa gặp vỏ dừa mà.
+
+<em>“Chỉ có 500 con quái vật thôi, chúng ta sẽ bắt chúng một cách dễ dàng thôi mà.”</em>
+
+<em>“Anh vừa nói chỉ có 500 thôi ư?”</em>
+
+Bellot lôi nhạc cụ của mình ra và sẵn sàng chơi nó.
+
+Khả năng chiến đấu của một Bard nằm ở phong thái tao nhã của họ. Tuy nhiên, cơ thể của các bức tượng sống không hề nhúc nhích khỏi vị trí. Cô chỉ định chơi một bản nhạc có thể làm tăng đáng kể khả năng của các bức tượng sống khi….
+
+<em>“Kaeaek. Thế quái nào mà tôi chỉ nghe thấy mấy âm thanh rè rè nhỉ.”</em>
+
+<em>“…….”</em>
+
+Lũ Wyvern không thích âm nhạc bởi vì bản chất tàn bạo, nóng vội của chúng. Tuy nhiên Silver Bird lại khá thích thú đủ để nó vừa nhảy vừa hót líu lo.
+
+Khi các dây đàn bị đứt, Silver Bird đã thực hiện một điệu nhảy rất đáng yêu.
+
+Nhưng mà các động tác đáng yêu và dễ thương của Silver Bird không được Weed đánh giá cao vì cậu hoàn toàn không có cảm giác với chúng.
+
+<em>“Ngươi phê cần à?”</em>
+
+<em>“Twit twit!”</em>
+
+Silver Bird quay đầu nhìn Weed một cách giận dỗi.
+
+Còn lũ Wyvern lại đang nghi ngờ và nghĩ rằng chúng đã bị bỏ lại phía sau trong lúc những người khác được chè chén.
+
+<em>“Bắt đầu trận chiến thôi!”</em>
+
+Cái giá Weed phải trả cho nhiệm vụ là phải huy động lũ tượng sống.
+
+Lũ Wyvern, những kẻ có thể được gọi là vua của bầu trời, bây giờ thậm chí phải bay qua những ngọn núi thấp.
+
+Weed và Geumini được trang bị cung tên và họ sẽ bắn bất kì con quái nào lang thang trong rừng. Nếu mũi tên của họ chỉ sượt qua để lũ quái vật sống sót, các Wyvern ngay lập tức sẽ tấn công chúng.
+
+<em>“Ta sẽ đi săn với nhịp điệu nhanh.”</em>
+
+Kể từ khi Bellot chơi với tốc độ cao hơn, các Wyvern có cảm giác cơ thể nhẹ hơn, sự nhanh nhẹn tăng lên và có thể di chuyển một cách nhanh chóng.
+
+Những con quái vật ở Ugoth là con mồi phù hợp cho lũ tượng sống. Đôi khi nếu tìm thấy một nơi tập trung nhiều quái vật, Weed sẽ nhảy xuống đất.
+
+<em>“Radiant Sword!”</em>
+
+Weed cưỡi Yellowy, xông vào và giành chiến thắng.
+
+Số quái vật còn lại: 264
+
+Cuộc đi săn tiến triển một cách nhanh chóng.
+
+Mặc dù có những con quái vật cấp cao ở các khu vực của Ugoth, chúng vẫn rất yếu đuối trước sự kết hợp của các Wyvern.
+
+<em>“Kyalulululu!”</em>
+
+Sliver Bird triệu hồi một làn sương bí ẩn.
+
+Mặc dù thông thường nó được sử dụng cho các cuộc bao vây nhưng nó cũng có thể sử dụng ở những vùng núi cao. Đó là một kỹ năng gây nguy hiểm cho lũ quái bằng cách khiến chúng bối rối và đồng thời cũng nâng cao tinh thần chiến đấu của binh lính.
+
+Ở pháo đài Vargo, kỹ năng này được Silver Bird sử dụng một cách thường xuyên để các binh lính và lũ tượng sống có được lợi thế chiến đấu.
+
+Bellot cưỡi Wy-1, nở nụ cười rạng ngời khi cô đang chơi nhạc.
+
+<em>“Đẹp quá.”</em>
+
+Màn sương bí ẩn bao phủ dãy núi Saigorn và lan ra khiến những con quái vật bị mất phương hương và đi lang thang.
+
+Mặc dù có rất nhiều kinh nghiệm chiến đấu, Bellot vẫn bị cô lập trong làn sương mù khi lũ Wyvern nảy ra ý tưởng tuyệt vời là tấn công bất kì thứ gì có hình dáng của một con quái vật.
+
+Nhưng bất chợt Weed nói.
+
+<em>“Này, ta không thấy các japtem được… mau hủy kĩ năng của ngươi đi.”</em>
+
+<em>“Kkyaruk!”</em>
+
+<em>“Hơn nữa ta cũng đâu bảo ngươi làm điều đó.”</em>
+
+Silver Bird đã bị mắng vì cầm đèn chạy trước Wyvern.
+
+Silver Bird, luôn coi Weed như một người cha từ lúc mới sinh, đã xoắn mỏ lại trong sự thất vọng và giận dỗi. Giờ thì mỏ nó đã cong luôn rồi.
+
+Và như vậy họ kết thúc việc tiêu diệt 500 con quái vật khi trời đã chiều tối.
+
+Ttring!
+
+Bạn đã hoàn thành số quái vật yêu cầu trong nhiệm vụ Những người bảo vệ Ugoth
+
+Bạn có thể nhận được phần thưởng cho nhiệm vụ bằng cách tìm kiếm Dwarf trong thị trấn
+
+Mặc dù họ đã đi săn vô cùng nhanh nhưng nó vẫn khiến họ mất một ít thời gian để phân biệt những con quái vật.
+
+Bởi vì có liên quan đến nhiệm vụ nên sẽ tốt hơn nếu giết được những con quái có cấp độ cao để có thể nhận được phần thưởng lớn hơn từ các Dwarf.
+
+<em>“Bellot, bây giờ tôi cần một chút thời gian của cô.”</em>
+
+<em>“Có chuyện gì?”</em>
+
+Nhiệm vụ của Weed có lẽ chỉ mới bắt đầu.
+
+Nếu cậu không tìm thấy những sinh vật nhỏ mà các Goblin nhắc tới, nó sẽ không thể dẫn đến một nhiệm vụ khác.
+
+*****
+
+Khi đi săn xung quanh Ugoth, Weed đã xem xét rất kĩ càng.
+
+Đó là một nơi có cây xanh tươi tốt và hơn nữa, người ta còn bảo rằng Goblin đang sống trong một hang động gần đó.
+
+<em>“Vậy thì em sẽ bắt đầu ở đây.”</em>
+
+Bellot cất tiếng hát khi đang chơi nhạc cụ.
+
+<em>“Đi dạo trên con đường núi tối sâu hun hút.</em>
+
+<em>Cất bước trên đám lá rơi vang lên những âm thanh xào xạc.</em>
+
+<em>Và khi tôi lạc bước</em>
+
+<em>Chuyến đi này sẽ dẫn tôi đến một nơi nào đó.</em>
+
+<em>Tôi không biết chuyện gì sẽ xảy ra</em>
+
+<em>Tôi run lên khi cất cao bài hát của mình</em>
+
+<em>Bất cứ lúc nào nghe thấy tiếng của những con chó sói.”</em>
+
+Trong đêm tối, giọng hát của cô lan truyền khắp chốn.
+
+Mặc dù khả năng chơi nhạc cụ của cô chỉ bằng một Bard bình thường nhưng giọng hát của cô thật sự đặc biệt hay và trong trẻo.
+
+Nhưng đôi khi, một số sinh vật trừ các Roblin nhìn trộm họ rồi chạy trốn. Và các sinh vật nhỏ trong các bụi cây cũng không ló dạng.
+
+Bellot tự nhủ.
+
+‘Điều này thật là xấu hổ.’
+
+Mặc dù có những bức tượng sống đi cùng, việc hát một mình cùng với một người đàn ông đem lại bầu không khí khá lạ lùng.
+
+Cô không cảm thấy gì ngoài sự e thẹn và rộn ràng.
+
+<em>“Đến giờ vẫn chưa có thứ gì xuất hiện. Em sẽ tiếp tục hát.”</em>
+
+Khi Bellot tiếp tục cất tiếng hát, cô hy vọng rằng sẽ có những thứ gì đó nghe thấy âm nhạc của cô và xuất hiện.
+
+Từ lúc họ tiến đến gần hang động của các Goblin, những loài quái vật khác thường không xuất hiện và đó là lý do tại sao bầu không khí nơi đây khá vắng vẻ.
+
+Yellowy và lũ Wyvern ngủ gà ngủ gật và ngã xuống khi lỡ thiếp đi.
+
+Cuối cùng, Weed không chịu đựng được nữa.
+
+<em>“Dường như bài hát có gì đó sai sai.”</em>
+
+<em>“Hả?”</em>
+
+Mặc dù ngoài đời Bellot không phải là một ca sĩ những cô vẫn là một Bard đáng tự hào ở Royal Road.
+
+<em>“Giai điệu đúng, lời chuẩn, em không nghĩ là mình có sai lầm gì đó?”</em>
+
+Weed lắc đầu.
+
+<em>“Tôi không có ý đó. Hãy để tôi nhớ và hát lại lời bài hát một lần nữa.”</em>
+
+<em>“Lần này để tôi.”</em>
+
+Giọng hát của Weed là thứ tệ nhất trong những thứ tệ nhất.
+
+Mặc dù biết rất rõ về điều này, Bellot quyết định chỉ làm theo cậu và không hề phản ứng gì khi cậu cố gắng hát một trong những ca khúc của cô.
+
+Weed chỉ thay đổi lời của những bài cô đã hát.
+
+<em>“Bài hát phải như thế này.”</em>
+
+<em>“Lời bài hát có phần... Chế thế nào bây giờ?”</em>
+
+Bellot không thể chịu đựng nổi khi lời bài hát xấu hổ đến mức cô chỉ cố gắng hát đúng lời của nó.
+
+Tuy nhiên, khả năng khá cao là lũ Wyvern và Yellowy sẽ rất thích thú khi nghe chúng.
+
+<em>“Được rồi, tôi sẽ hát nó ngay đây.”</em>
+
+<em>“Một viên ngọc quý được chôn giấu trong một con đường tối sâu trên núi.</em>
+
+<em>Những chiếc lá rơi rụng vang lên những âm thanh xào xạc.</em>
+
+<em>Tôi đã nấu vô vàn món ăn ngon.</em>
+
+<em>Không một ai đến đây.</em>
+
+<em>Một bài hát không có ai nghe.</em>
+
+<em>Một bài hát bạn không cần phải nghe.</em>
+
+<em>Đừng đến đây để nghe.”</em>
+
+Weed đã suy nghĩ khi lắng nghe những bài hát tuyệt vời của Bellot.
+
+‘Điều này sẽ khiến các Goblin mò tới…’
+
+Kĩ năng ca hát của cô đậm chất thanh nhã.
+
+Bài hát mang lại cảm giác sảng khoái mà không hề có giai điệu lộn xộn hay những nốt cao bất cẩn.
+
+Bài hát rất hay để cùng chơi với cô. Nếu đủ độ thông thạo, Weed rất có thể sẽ tìm thấy những sinh vật nhỏ bé.
+
+‘Có thể lời bài hát có vấn đề gì đó?’
+
+Weed lập tức nhìn thấy thứ gì đó chuyển động.
+
+Khi Bellot thay đổi lời bài hát, phản ứng của các bức tượng sống cũng thay đổi.
+
+<em>“Moooooooooooooo.”</em>
+
+Yellowy ngã xuống với đôi mắt ngái ngủ và đào đất bằng đôi chân sau của nó.
+
+Pababa! (Tiếng đào đất)
+
+Yellowy cố gắng tìm xem thật sự có viên ngọc nào ở đó không.
+
+Tất nhiên cả lũ Wyvern, Silver Bird hay Golden Bird cũng cất tiếng hót vội vã.
+
+*sột soạt**sột soạt*
+
+Và sau đó, âm thanh một tiếng lắc nhẹ vang lên từ những bụi cây.
+
+Weed đã tìm thấy những sinh vật nhỏ hơn cả quả thông đang nheo mắt trong bụi cây.
+
+Ttring!
+
+Bạn đã tìm thấy các Ellyon, một chủng tộc tượng được ban sự sống bởi hoàng đế Geihar Von Arpen.
+
+Ellyon là một chủng tộc dạng tiên.
+
+Vì có tuổi thọ rất cao, rất khó để tìm thấy trường hợp nào đó mà họ chết vì tuổi già.
+
+Kích thước cơ thể của họ rất nhỏ và họ cũng rất yêu thích âm nhạc và tác phẩm điêu khắc.
+
+Thức ăn chủ yếu của họ là sương và ngũ cốc họ thu thập được lúc bình minh.
+
+Họ là những sinh vật ôn hòa và không có hứng thú với việc chiến đấu. Họ thậm chí còn không có lãnh thổ tách biệt với những chủng tộc khác.
+
+Họ yêu nơi này và không hề gây tổn hại nghiêm trọng nào đến thiên nhiên.
+
+Nhờ sự phát hiện này, HP tối đa tăng 1000.
+
+Mana tăng 500.
+
+Tất cả chỉ số +2.
+
+Bạn có thể báo cáo về chủng tộc mới được mình phát hiện này cho một nhà vua hoặc lãnh chúa.
+
+Nếu các thành phố và quốc gia biết về Ellyon, chỉ số Knowledge và Affinity của bạn đối với tự nhiên sẽ tăng lên.
+
+Nhiệm vụ Vệ binh của Ugoth đã hoàn thành.
+
+Goblin rất trung thực, những điều họ nói tuy khó tin nhưng đó hoàn toàn là sự thật.
+
+Sculpting Mastery tăng.
+
+Bạn có danh tiếng tốt với các Goblin.
+
+Nếu nói chuyện với họ, họ sẽ cung cấp cho bạn những câu chuyện mà họ biết.
+
+Luck tăng 7.
+
+Bạn đã hoàn thành nhiệm vụ Người bảo vệ Ugoth.
+
+Bây giờ bạn có thể tiếp tục giai đoạn tiếp theo của nhiệm vụ Sculpting Master.
+
+*****
+
+BardRay đã tốn 400 quân để phòng thủ pháo đài Kraton.
+
+Cho dù lực lượng cho các pháo đài được tăng thêm, binh lính của đối thủ cũng nhiều hơn họ gấp 10 lần.
+
+Quân lính đã được đào tạo và cung cấp những vũ khí mới như lao hay kiếm.
+
+Từ đây đến lúc tất cả kẻ địch tiến đến chỉ còn 20 ngày.
+
+Trong thời gian đó, quân lính được đào tạo và các cư dân cũng bị ép buộc tham gia hoặc được lệnh tu sửa.
+
+Vì thiếu nguồn tiếp tế cho trận chiến, nó chỉ vừa đủ để gia tăng năng lực sản xuất của họ.
+
+<em>“Tôi đã sai, tôi xin lỗi.”</em>
+
+Mặc dù BardRay là người chỉ đạo việc đào tạo của họ, binh lính cũng khó lòng nghe theo.
+
+<em>“Nếu các ngươi không lắng nghe….”</em>
+
+Bard Ray rút kiếm và vung lên.
+
+Những người lính mắc sai lầm biến thành ánh sáng màu xám rồi biến mất.
+
+<em>“…các ngươi sẽ chết. Hãy ghim điều đó vào đầu các ngươi.”</em>
+
+Quân lính của pháo đài Kraton giảm còn 399.
+
+Nỗi sợ lãnh chúa lan truyền trong quân lính.
+
+Notoriety đã tăng lên.
+
+Hiệu quả của sự lãnh đạo tạm thời sẽ được cải thiện.
+
+<em>“Rõ!”</em>
+
+BardRay đã đến nhiệm vụ thứ 11 của chuỗi nhiệm vụ Black Knight.
+
+Khi độ khó nhiệm vụ tăng lên, sự hỗ trợ của Guild Hermes cũng tăng theo.
+
+Quân lính ưu tiên cho nhiệm vụ tiếp theo được trao các item đơn giản để có thể trang bị với hạn chế ở mức độ thấp như nhẫn ma thuật, dao găm ma thuật, áo giáp da. Nó được trao như một cách trả công cho họ.
+
+Mặc dù hầu hết nhiệm vụ Black Knight không là gì ngoài mù quáng chiến đấu để có thể tồn tại, khả năng quản lý quân đội là những yêu cầu phổ biến.
+
+BardRay thậm chí còn đang ở cương vị vua của vương quốc Haven và cùng với chỉ số Charisma và Leadershipcủa mình, hắn đã đạt đến mức độ khiến bạn không thể không ghen tị.
+
+Tuy nhiên, nó không đủ để biến những người lính ngay lập tức trở thành tinh anh.
+
+Để chuẩn bị cho trận chiến sắp tới cùng với các kế hoạch, nhiều thứ đã được thay đổi.
+
+<em>“Tập trung dân chúng sản xuất cung và mũi tên. Huy động thêm nhiều người đến các bức tường để sửa chúng xuyên đêm.”</em>
+
+<em>“Sự khiếu nại của người dân sẽ tăng lên.”</em>
+
+<em>“Việc này cũng là vì chính bọn chúng thôi.”</em>
+
+Mặc cho sự mệt mỏi và khiếu nại của người dân tăng lên từng ngày, BardRay chỉ có thể kiểm soát và ngăn chặn các cuộc nổi loạn.
+
+Những thông tin tích lũy mà hắn đã thu được khi cai trị các vùng đất của vương quốc Kallamore bây giờ trở nên hữu ích.
+
+Tất cả các cư dân sẽ chết nếu bị bóc lột và không được nghỉ ngơi.
+
+Những người lính không tuân thủ chính xác việc đào tạo cũng bị đưa tới các bức tường sắp sập để làm công việc sửa chữa.
+
+Khi thời hạn 20 ngày trôi qua, kẻ thù đã chuẩn bị hoàn tất cho trận chiến.
+
+Binh lính của pháo đài Kraton: 620 người.
+
+Kỷ luật: Họ có thể tham gia vào các cuộc chiến bởi nỗi sợ nhà vua.
+
+Tinh thần: thấp.
+
+Quân thù diễu hành về phía pháo đài và những người lính được đặt trong trạng thái kháng cự mạnh mẽ.
+
+Khi họ bắn đá và những mũi tên, họ cũng chiến đấu với những người lính trên các bức tường.
+
+Từng khoảnh khắc của nhiệm vụ của BardRay đều được phát trực tiếp trên sóng của các đài truyền hình.
+
+<em>“Một lần nữa, hắn ta thật sự tàn sát họ như thể họ là những con quái vật.”</em>
+
+Hắn đang thể hiện một sức mạnh áp đảo hơn so với tất cả các khả năng chiến đấu trước kia hắn thể hiện khi làm chủ chiến trường.
+
+<em>“Những người lính không thích hợp lắm cho việc chiến đấu vẫn đang có một cuộc chiến khá tốt.”</em>
+
+Những binh lính lao về phía BardRay buộc hắn không thể tiến thêm cho dù phải hy sinh bản thân.
+
+Mặc dù họ lùi lại một chút vì không muốn bị thương, nhưng chỉ có cách giết chết lãnh chúa mới có thể chấm dứt cuộc chiến và họ sẽ bị giết hoặc may mắn sống sót.
+
+Cuối cùng, BardRay cũng an toàn và giữ được pháo đài Kraton mà có lẽ sẽ tạo nên một truyền thuyết mới. Một cửa sổ trạng thái xuất hiện và hắn đã thu được cả set trang bị Lightning Armor và thêm Lightning Spear nữa.
+
+Nhiệm vụ Black Knight của hắn tiến thêm một bước.
+
+Tất nhiên, phần BardRay chấp nhận nhiệm vụ sẽ không được phát sóng.
+
+<em>“</em><em>Tên Knight đó, sự tàn ác là điều không thể tránh khỏi để đạt được hòa bình. Đối với thanh kiếm của Black Knight, có một con quái vật ở gần các mỏ Melbourne ở pháo đài Treipeak. Nếu ngươi có thể sở hữu thanh kiếm đó, ngươi có thể học được kĩ năng kiếm thuật có tên là Destruction. Để thức tỉnh con quái vật này, ngươi phải tìm được viên đá quý từ một Earth Shaker</em><em>.”</em>
+
+Bard Ray mỉm cười lạnh lùng.
+
+<em>“Melbourne. Nó nằm ở lãnh địa của Guild Black Lion.”</em>
+
+*****
+
+<em>“Ah.”</em>
+
+Bellot nắm chặt 2 tay.
+
+Fairy Ellyon mặc bộ quần áo màu xanh lá cây cùng với một chiếc mũ trông rất dễ thương và vô cùng đáng yeu.
+
+<em>“Thật là đẹp.”</em>
+
+Mắt cô lấp lánh không biết phải làm gì với sinh vật dễ thương này.
+
+Ngoài ra, sau khi phát hiện ra những Ellyon cùng với Weed, cô cũng được nhận phần thưởng tương tự.
+
+Là một Bard, cô sẽ là người đầu tiên hát một ca khúc về Ellyon. Và thông qua bài hát đó, cô sẽ kiếm được một lượng lớn Fame giúp cho cô có thể thu hút được khán giả tốt hơn.
+
+Kể từ ngày trọng đại nhất của chuyến phiêu lưu đến Las Phalanx, cô đã nhận được rất nhiều sự ủng hộ.
+
+Weed tiến đến chỗ các Ellyon và cúi thấp người xuống.
+
+Lúc đầu cậu đã nghĩ chỉ có một Ellyon thôi, nhưng thật sự bên trong các bụi cây có đến 30 người.
+
+<em>“Xin chào.”</em>
+
+Weed cất lời chào với họ.
+
+Trong suốt triều đại của hoàng đế Geihar Von Arpen, có rất nhiều bức tượng sống ở thời đại vàng của điêu khắc của ông.
+
+Vì đã phát hiện ra một trong những chủng tộc tượng sống, nên cậu không thể không vui mừng.
+
+<em>- Một con người.</em>
+
+<em>- Anh ta đã phát hiện ra chúng ta.</em>
+
+<em>- Chúng ta có nên trốn đi không.</em>
+
+<em>- Tôi không có ấn tượng tốt về anh ta. Tôi nghĩ anh ta là một kẻ xấu.</em>
+
+Theo như những điều Goblin nói, họ sẽ không bỏ chạy. Nhưng nhìn vào Weed, có vẻ như các Ellyon đang cố gắng chạy trốn vậy.
+
+Tuy nhiên, một người trong số họ nói.
+
+<em>- Nhìn chúng kìa. Chúng giống với chúng ta.</em>
+
+<em>- Họ giống như tác phẩm nghệ thuật được tạo ra bởi trẻ con vậy.</em>
+
+Các Ellyon chạy đến, vui vẻ nhảy lên nhảy xuống trên người Yellowy và cọ xát khuôn mặt lên cơ thể của các Wyvern.
+
+<em>“Moooooooooo. Họ có mùi kìa.”</em>
+
+Lũ Wyvern và Yellowy cảm thấy nhột và khẽ lắc cơ thể.
+
+Silver Bird nhảy xuống khi nhìn về phía các nàng tiên nhỏ, thể hiện sự nghiêm trang và sau đó nó mỉm cười và bay lên những cành cây.
+
+Weed dùng ngón tay nhấc một Ellyon lên.
+
+<em>“Hiển thị cửa sổ thông tin Ellyon.”</em>
+
+Bạn đang quan sát một tượng sống.
+
+Bạn không thể kiểm tra các thông tin chi tiết.
+
+Tên: Ronnie Ellyon.
+
+Chủng tộc: Fairy.
+
+Sở thích: Thiên nhiên.
+
+Level: 51
+
+Class: Dew Drink Leader.
+
+Danh hiệu: Đứa trẻ lang thang bí ẩn.
+
+Fame: 2
+
+Một sinh vật được tạo ra bởi hoàng đế Geihar.
+
+Họ rất giỏi về nông nghiệp và còn có khả năng đào khoáng sản.
+
+Họ yêu âm nhạc và nghệ thuật.
+
+Mặc dù họ có rất ít kĩ năng chiến đấu, những kẻ ác sẽ không thể nhìn thấy được.
+
+Chưa biết.
+
+Chưa biết.
+
+Weed nhìn kĩ Ellyon.
+
+Khi quan sát nó ở khoảng cách gần trông nó càng giống một đứa trẻ ngây thơ vô tội.
+
+Đó là một nữ Fairy ăn mặc như một cô gái nhỏ.
+
+<em>- Thả tôi ra.</em>
+
+Weed đặt Ellyon xuống đất.
+
+Đột nhiên, các Ellyon tập trung lại với nhau thành một vòng tròn với khoảng 100 người bao quanh Weed.
+
+Weed và Bellot không bỏ chạy như cách lũ tượng sống làm một cách bí ẩn.
+
+<em>- Tôi sẽ nói cho bạn biết một vài điều về chúng tôi.</em>
+
+Họ nghe thấy tiếng của các Ellyon.
+
+Và sau đó, những cảnh tượng hiện ra trong mắt Weed.
+
+*****
+
+Sau cái chết của hoàng đế Geihar, người đã thống nhất lục địa Versailles, nền văn minh của đế chế Arpen nhanh chóng sụp đổ.
+
+Do sự tranh chấp giữa các con của ông và những hiệp sĩ, đế quốc rộng lớn dần phân tán và từng bức tượng sống cũng rời đi.
+
+<em>“Hãy tìm cho mình một vùng đất mới để sinh sống….”</em>
+
+<em>“Ngày đó rồi sẽ đến, ngày mà văn hóa và nghệ thuật ở lục địa này nở rộ một lần nữa.”</em>
+
+<em>“Hòa bình sẽ luôn ở cùng các ngươi.”</em>
+
+Các bức tượng sống, những người rời bỏ đế chế đã sụp đổ, đã trải qua vô vản nguy hiểm và phải lẩn trốn trên khắp lục địa.
+
+Các Dwarf sống trong thế giới ngầm của họ, sâu hơn cả một thành phố dưới lòng đất, họ ngước mắt lên trời và cầu nguyện.
+
+Họ đã đi đến các vùng biển, đảo lớn, những ngọn núi nơi mà chưa được con người khai phá và cả các đầm lầy nữa.
+
+Mặc dù những bức tượng sống được hoàng đế Arpen tạo ra vô cùng ngoan cường nhưng chúng cũng dần phân tán.
+
+Các Ellyon phụ trách việc khai thác nông nghiệp và khoáng sản của đế quốc cũng như các ao hồ.
+
+Mặc dù không có khả năng chiến đấu nhưng họ thích ứng với mọi thứ rất tốt.
+
+Họ dần thích nghi được với đá sỏi trên các ngọn núi và trái đất trong lúc tránh né lũ quái vật và xoay xở để tồn tại đến ngày nay.
+
+*****
+
+<em>“Chúng tôi đã luôn chờ đợi ngày mà một Sculptor kế vị hoàng đế Arpen tìm đến chúng tôi.”</em>
+
+Mặc cho những sự bày tỏ thân thiện, Weed vẫn không thấy quá tệ.
+
+Cách của các Ellyon nói chỉ khiến Weed nhớ đến những lúc bụi bay vào mắt.
+
+‘Nhiệm vụ Sculpting Master. Khi mình phát hiện ra Ratzeburg, danh tiếng của Sculptor và những bức tượng mình làm ra đã mang đến những tác động tích cực lan tỏa đến các chủng tộc khác. Trước đó, khi chọn Sculpture Life Bestowal, mình thật sự sẽ được gặp chủng tộc tượng sống.’
+
+<em>“Chúng tôi có thể sống lâu hơn các Elf. Nhưng mà sức mạnh của chúng tôi đã suy yếu rất nhiều. Để có thể quay lại bản chất nguyên thủy, chúng tôi cần sức mạnh của viên đá Sapphire ở Melbourne.”</em>
+
+Weed rùng mình.
+
+<em>“Đợi một chút, ý của các bạn không phải là…..”</em>
+
+<em>“ Bạn có thể kiếm viên đá này và tạo nên một tác phẩm điêu khắc bằng nó không?”</em>
+
+Ttring!
+
+Các Ellyon muốn viên đá Sapphire.
+
+Trong dãy núi Haineph của vương quốc Tullen có một pháo đài được con người xây dựng tên là Treipeak.
+
+Pháo đài này được tạo ra với mục đích bảo vệ các hầm mỏ của Melbournekhỏi lũ quái vật và cả các vương quốc khác.
+
+Trong lúc các tinh linh hung dữ thường xuyên lảng vảng các hầm mỏ, đó cũng là nơi mà bạn có thể thâm nhập và đào được loại đá sapphire tốt nhất có thể sử dụng cho việc điêu khắc.
+
+Độ khó: nhiệm vụ Sculpting Master.
+
+Phần thưởng: lòng trung thành của các Ellyon.
+
+Giới hạn nhiệm vụ: kĩ năng Sculpting cao cấp level 8.
+
+Yêu cầu kĩ năng Mining.
+
+Một kiệt tác cấp IV bằng đá Sapphire.
+
+Những mỏ khoáng sản ở Melbourne tự hào là có trữ lượng sắt và ngọc bích lớn nhất lục địa.
+
+Nếu một người giành được quyền sở hữu các mỏ, người đó sẽ có được sức mạnh và của cải vô cùng to lớn.
+
+Đó là một nơi mà cuộc chiến giữa các Guild không bao giờ kết thúc, nơi đó nổi tiếng với pháo đài Oden.
+
+Hiện nay, khu vực này thuộc về Guild Black Lion.
+
+<em>“Chúng tôi đã sống trong một thời gian dài và đánh mất đi nền nghệ thuật và văn hóa của đế chế Arpen. Nếu bạn quyết định thực hiện tác phẩm điêu khắc này cho chúng tôi, chúng tôi sẽ tin lời nói của bạn. Nếu bạn mang trái cây tươi ngon cho các tinh linh, họ sẽ không chiến đấu.”</em>
+
+Weed gật đầu.
+
+<em>“Đừng lo lắng về tác phẩm điêu khắc. Các bạn chỉ cần đợi thôi.”</em>
+
+Bạn đã chấp nhận nhiệm vụ.
+
+<em>“Cảm ơn.”</em>
+
+<em>“Không có gì, đây là tất cả những gì tôi có thể làm cho các bạn…”</em>
+
+Nhiệm vụ Sculpting Master, Weed sẽ cố hết sức mình vì Ellyon bởi sau này cậu có thể được trả công gấp 10 lần.
+
+*****
+
+Team dịch: Đéo cần tên
+
+Trans: Trang
+
+Edit: ireNigma

@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "1730701283134",
+      "email": "teste@exemplo.us",
+      "password": "00000000",
+      "fullName": "Tris",
+      "createdAt": "2024-11-04T06:21:23.134Z"
+    },
+    {
+      "id": "1730701896421",
+      "email": "eldlichlord2403@gmail.com",
+      "password": "00000000",
+      "fullName": "Tris",
+      "createdAt": "2024-11-04T06:31:36.421Z"
+    },
+    {
+      "id": "1730702327544",
+      "email": "trisnguyen45@gm.com",
+      "password": "11111111",
+      "fullName": "Tris",
+      "createdAt": "2024-11-04T06:38:47.544Z"
+    },
+    {
+      "id": "1730703503145",
+      "email": "trisnguyen45@gmail.com",
+      "password": "00000000",
+      "fullName": "abc",
+      "createdAt": "2024-11-04T06:58:23.145Z"
+    },
+    {
+      "id": "1731565479738",
+      "email": "Test123@gmail.com",
+      "password": "123456",
+      "fullName": "Test123",
+      "createdAt": "2024-11-14T06:24:39.738Z"
+    },
+    {
+      "id": "1734481632608",
+      "email": "eldlichlord243@gmail.com",
+      "password": "123456789",
+      "fullName": "shikanoko",
+      "createdAt": "2024-12-18T00:27:12.609Z"
+    },
+    {
+      "id": "1734510802150",
+      "email": "test2@example.us",
+      "password": "00000000",
+      "fullName": "trissss",
+      "createdAt": "2024-12-18T08:33:22.150Z"
+    },
+    {
+      "id": "1734656728284",
+      "email": "eldlichlord@gmail.com",
+      "password": "00000000",
+      "fullName": "Tri_Nguyen",
+      "createdAt": "2024-12-20T01:05:28.284Z"
+    },
+    {
+      "id": "1734703343228",
+      "email": "shika@gmail.com",
+      "password": "00000000",
+      "fullName": "shikanoko",
+      "createdAt": "2024-12-20T14:02:23.228Z"
+    }
+  ]
+}

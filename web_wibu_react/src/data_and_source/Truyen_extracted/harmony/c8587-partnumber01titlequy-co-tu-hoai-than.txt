@@ -1,0 +1,1659 @@
+One-shot
+
+<part:number=01:title=Quý Cô Tự Hoại Thân/>
+
+Độ dài: 24,059 từ - Lần cuối:
+
+12/04/2017 16:40:05
+
+- Bình luận: 0
+
+<a href="http://vignette3.wikia.nocookie.net/sonako/images/6/68/Harmony_00002.jpg/revision/latest?cb=20140803195806" rel="nofollow noreferrer" target="_blank"><img alt="Harmony 00002" height="60" src="http://vignette3.wikia.nocookie.net/sonako/images/6/68/Harmony_00002.jpg/revision/latest?cb=20140803195806" width="74"/></a>
+
+<?Emotion-in-Text Markup Language:version1.2:encoding=EMO-590378?>
+
+<!DOCTYPE emtl PUBLIC :-//WENC//DTD ETML 1.2 transitional//VI>
+
+<etml:lang=jp>
+
+<etml:lang=vi>
+
+<body>
+
+Phần: 01
+
+Tôi có một câu chuyện để kể.
+
+<declaration:calculation>[1]
+
+<pls: Câu Chuyện về Thất Bại>
+
+<pls: Câu Chuyện về Kẻ Đào Ngũ>
+
+<eql: Nói cách khác, là tôi.>
+
+</declaration>
+
+Phần: 02
+
+<theorem:number>
+
+<i: Khi trẻ con trở thành người lớn, chúng hóa thành dữ liệu.>
+
+<i: Khi người lớn chết đi, họ bị hóa lỏng.>
+
+</theorem>
+
+Không, nói thế không đúng lắm. Nói theo kiểu lệnh cấm thì hay hơn:
+
+<rule:number>
+
+<i: Cơ thể trẻ con sẽ không bị suy biến thành dữ liệu cho đến khi đã trưởng thành.>
+
+<i: Khi người lớn chết, cơ thể sẽ bị phân giải thành dịch lỏng.>
+
+</rule>
+
+Cơ thể trẻ con luôn hiếu động, háo hức. Chúng sẽ không ở yên, dù chỉ một giây. Cơ thể người lớn cũng chuyển động—đều đặn về phía cái chết—nhưng thong thả hơn rất nhiều. WatchMe không thuộc về một cơ thể hiếu động. WatchMe không thuộc về một cơ thể hết nhảy lại chạy. WatchMe giám sát sự bất biến, song trẻ con lớn lên từng ngày. Chúng thay đổi không ngừng nghỉ. Thế thì bất biến chỗ nào?
+
+Do đó,
+
+<list:item>
+
+<i: Khi ngực tôi vẫn ngày càng nảy nở……>
+
+<i: Khi mông tôi vẫn ngày càng căng tròn……>
+
+<i: Không có WatchMe trong tôi!>
+
+<i: Cơ thể chứa WatchMe là cơ thể người lớn.>
+
+</list>
+
+Đối với một nữ sinh cấp 3 như tôi, trưởng thành là điều cuối cùng tôi muốn làm.
+
+“Hãy cho họ thấy, cả hai chúng ta,” một ngày kia, Miach nói. Mihie Miach là tên đầy đủ của cô ấy. Tôi ngồi đằng sau cổ trong lớp. Khi mọi người sẵn sàng xách cặp ra về, cô quay lại mà vẫn ngồi trên ghế và nhoài người lên bàn tôi.
+
+“Chúng ta hãy cùng nhau tuyên bố rằng: chúng ta sẽ không bao giờ trưởng thành.”
+
+<list:item>
+
+<i: cơ thể của chúng ta>
+
+<i: ngực của chúng ta>
+
+<i: âm hộ của chúng ta>
+
+<i: tử cung của chúng ta>
+
+</list>
+
+“Những thứ đó là của chúng ta. Chúng ta sẽ nói với họ như thế. Chúng ta sẽ vắt cạn phổi để thủ thỉ điều đó!”
+
+Ờ, tôi và Miach là những đứa trẻ kì lạ.
+
+Trong một thế giới đầy những người tốt bụng, ân cần và quan tâm lẫn nhau, có thể chúng tôi không hoàn toàn là chính mình, nhưng chắc chắn chúng tôi cảm thấy thế này.
+
+<declaration>
+
+<i: Chúng ta sẽ không thành họ.>
+
+</declaration>
+
+Tách biệt với toàn thể thế giới, nơi hầu như ai cũng bỏ qua bản thân để không xúc phạm kẻ khác, để quan tâm kẻ khác—dù là tôi.
+
+“Nè, Tuan, cậu biết gì chưa?” Đôi mắt của Miach sáng lên rạng rỡ. Miach biết mọi thứ. Trong đám cá biệt của lớp, cô ấy có điểm cao nhất. Miach không bao giờ chuyện với bất kì ai ngoài tôi và Cian—Reikado Cian, một người bạn khác của hai chúng tôi—trừ phi tuyệt đối cần thiết.
+
+Tôi vẫn không biết Miach thấy gì ở chúng tôi. Tôi không đạt điểm tốt lắm, và tôi không xấu cũng chẳng đặc biệt quyến rũ gì. Cian cũng thế. Đôi khi tôi thắc mắc tại sao cô ấy lại lúc nào cũng chơi cùng chúng tôi, nhưng tôi chưa bao giờ hỏi. Chưa một lần.
+
+“Cách đây rất lâu, có những tên đàn ông thậm chí trả tiền để quan hệ tình dục với vài tấm thân trong sáng như chúng ta đây. Nên những cô gái này, dù cho không nghèo, cũng bán mình làm đồ chơi tình dục, và họ còn không hề thấy tội lỗi chút nào. Cả đám đàn ông bại hoại tâm hồn đã mua họ cũng vậy. Họ sẽ gặp nhau ở khách sạn và trả tiền mặt cho các cô gái.”
+
+“Cái gì?” Tôi vừa nói, vừa cười rúc rích. “Cậu muốn bán thân cậu à?” Cái cách Miach đáng nói, nghe cứ như thể cổ sẽ đi ngay đến một phố đèn đỏ gần nhất nếu có thể—ấy là, giả như chúng vẫn còn tồn tại. Ở đây, một cô gái có thể sa đọa bao nhiêu cô muốn. Cô có thể quẳng hết cả cuộc sống, tàn phá thân thể mình bằng tình dục không yêu đương, bệnh tật, rượu bia, thuốc lắc các thể loại, và xì gà.
+
+Dịch bệnh, chè rượu và thuốc lá—món hàng quá thơm để vứt bỏ.
+
+Không thể nào kiếm được những món ấy ở Nhật Bản, một quốc gia bị ám ảnh bởi sức khỏe, cũng bất cứ nơi nào khác tuân theo quy tắc của sinh phủ[2]. Tất cả các điểm xấu này, vốn ít nhiều bị phớt lờ trong quá khứ, nay đã được chạm khắc thành danh sách các tội lỗi nhờ bàn tay thâu tóm mọi quyền lực của thuốc men, để rồi lần lượt từng thứ một bị tẩy trừ khỏi xã hội.
+
+“Giá mà ngày nay còn những kẻ đội trụy cỡ như thế, có khi trưởng thành không quá tệ như ta tưởng đâu. Thế mà không.”
+
+Cô ấy có lý. Nếu đường xá còn nhung nhúc những kẻ đầu óc đồi trụy, thì có khi, chỉ là có khi thôi, chúng tôi đã không ghét trường học và khá nhiều thứ khác đến thế. Ấy vậy, thế giới cứ càng lúc lành mạnh hơn, càng trong lành hơn, càng hòa bình hơn, càng đẹp đẽ hơn, và cứ tốt đến phát nản. Có chút tự trọng đi chứ, có thể bạn sẽ nói vậy, nhưng tôi không nghĩ thế giới sẽ quan tâm.
+
+<declaration:anger>[3]
+
+<“Chúng ta không biết tảng đá gốc nền thế nào. Và họ sẽ không để cho ta biết, dẫu ta cố thử.”>
+
+</declaration>
+
+Câu nói yêu thích của Miach.
+
+Miach biết mọi thứ. Chẳng hạn:
+
+<list:item>
+
+<i: Làm thế nào để vặn cong chức năng của medcare unit[4] thành vũ khí hóa học đủ khả năng giết một thành phố có 50 000 người.>
+
+<i: Làm thế nào để lừa medcare unit tạo ra chút endorphin[5] tạo cảm giác dễ chịu.>
+
+</list>
+
+“Medcare unit là những chiếc hộp thần kì này này,” cô ấy từng kể tôi một lần. “Tất cả những gì cậu cần là nửa thùng medicule[6] và thế là có thể làm tuốt tuồn tuột. Muốn bơm đầy phòng tắm bằng khí độc ư? Trên cả dễ.”
+
+Kể chúng tôi nghe những chi tiết hãi hùng về bao hiểm nguy của medcare unit là một trong những điều ưa thích nhất của Miach. Ngay cả một medcare unit bình dân cũng có tính thích ứng cao. Những gì nó cần phải là tải công thức về và trộn chung với một hợp chất để sinh ra đúng loại medicule ta cần để chữa bất kì bệnh gì. Tựa như một bàn thần kỳ diệu sờ vào bên trong rồi nghiền nát bệnh tật. Đối với Miach, có một nhánh rẽ biểu hiện rõ ràng: trở mặt một cái, thì medcare unit biến từ tốt thành xấu, từ thần dược chữa bách bệnh sang bạo dịch. Thứ duy nhất giữ con người không rớ tay vào là medcare unit bảo họ không thể làm vậy. Chắn giữa chúng tôi và Armageddon[7] chỉ là một chút dòng mã cỏn con, cô ấy nói vậy đấy. Đổi tí phần ngọn của lề thói hằng ngày, thì sẽ đảo lộn thế giới. Mọi việc đều chảy xuống từ đỉnh. Sinh phủ kiểm tra dữ liệu WachMe của bạn để tải thông tinh đúng xuống medcare unit trong nhà bạn, để có thể sau này sản xuất các chất cần thiết chống lại bất cứ thứ gì làm bạn ốm đau.
+
+“Hãy nghĩ đến hàng tỷ người trên thế giới đang bị WatchMe giám sát liên miên, họ tiêu thụ bất cứ thứ gì mà medcare unit tuôn ra. Chiếm quyền điều khiển hệ thống, và cậu có thể nện đến tên cuối cùng bằng căn bệnh ác ôn vô phương cứu chữa nào đó. Hay tệ hơn.”
+
+“Vấn đề ở chỗ muốn làm hay không,” Miach nói vậy.
+
+Khi không nói chuyện với chúng tôi, Miach sẽ ngồi trên một băng ghế và lặng lẽ đọc sách trong công viên, nơi những đứa trẻ trong phố vui chơi. Đọc chữ trên dead-tree media[8] là thú vui duy nhất của cô, theo chúng tôi biết là thế. Tôi từng hỏi cổ rằng tại sao lại bận tâm đến sách trong khi chỉ cần gọi y thứ như vậy trên mạng, bằng AR[9].
+
+“Khi cậu muốn cô độc thật sự, dead-tree media là cách duy nhất. Bấy giờ, chỉ còn hai thứ. Ta và sách[10],” Miach đáp lại vậy. Cô tiếp tục với chất giọng điềm tĩnh, êm như nhung, ru ngủ lòng người. “Phim ảnh và hội họa cũng được. Nhưng một cuốn sách sẽ mang lại sự đeo bám lâu nhất, bỏ xa hai thứ kia.”
+
+“Đeo bám, ý cậu là sao?”
+
+“Sự đeo bám của cô độc.”
+
+Vậy là Miach sẽ tải nội dung cô mong muốn từ Borgesnet và đến thợ in có thể làm cho cô một bản sách thực. Không dễ gì kiếm được chỗ in sách cho người đam mê, nhưng nếu căng mắt ra thì vẫn có thể tìm thấy. Miach tiêu phần lớn tiền để in sách, và chắc là sở thích này là nguồn gốc của kho tàng kiến thức khủng của cô.
+
+Ngày ngày, cô chìm đắm trong biển chữ, tìm kiếm những gì mang lại chân trời mới mà cô muốn.
+
+“Tớ phải nghĩ rằng tới nay mình khá là điêu luyện rồi,” cô thích nói câu ấy.
+
+Tôi không cần phải hỏi cô ấy muốn nói gì.
+
+Cô đang rèn giũa bản thân để trở thành kẻ thù quốc gia hoàn mỹ. Một con chó hoang dã hiếu chiến, mơ đến một ngày kia có thể chiến đấu với cả thế giới ngọt-ngào-đến-nghẹn-họng-như-thể-đang-siết-cổ-ta-bằng-sợi-chỉ-lụa.
+
+“Nên điều tớ đang nói là, nếu có vài người chịu động não, họ có thể giết mọi người ở Nhật Bản—” cô búng ngón tay cái tách—“đại loại vậy. Vấn đề chỉ là muốn hay không thôi.”
+
+“Nhưng cậu không thể giết người,” Cian nói vậy, nhưng ngôn từ của cô trông mong manh trước khuôn mặt chắc như đinh đóng cột của Miach. Hay có lẽ đơn thuần là câu chuyện tức giận của tôi—sự tức giận tôi thậm chí chưa bao giờ nghĩ có nên làm chuyện như vậy hay không, hay là tại sao.
+
+Có lẽ:
+
+<list:item>
+
+<i: Vì tôi có một người cha.>
+
+<i: Vì tôi có một người mẹ.>
+
+<i: Vì tôi có bạn bè.>
+
+</list>
+
+Có thể lắm chứ. Nhưng gạt gia đình sang một bên, người tôi có thể gọi bạn bè là Miach – đã đề xuất với chúng tôi làm khí ga độc bằng medcare unit bình dân, và Cian – chưa bao giờ đề xuất gì.
+
+Vừa cười hì, tôi nói, “Có sự khác biệt giữa muốn làm gì đó và muốn chuyện như thế.”
+
+Miach cười đáp lại. “Muốn làm điều gì đó kinh khiếp, đúng rồi. Tới khi chúng ta trưởng thành, chỉ cần nghĩ đến chuyện gì kiểu đó thì là tội ác rồi.”
+
+“Không ai tới bắt cậu chỉ vì suy nghĩ đâu.”
+
+“Tớ không nói đến cảnh sát. Tớ đang nói đến tội ác trong trái tim, linh hồn chúng ta.”
+
+Miach vươn tay ra và tóm lấy một bên ngực tôi.
+
+Ngực trái của tôi. Ngực gần tim tôi nhất.
+
+Tôi trố mắt khi Miach bắt đầu nhào bóp mạnh ngực tôi, mặt cô vẫn nghiêm túc khi nói. Kế bên chúng tôi, Cian đang ngồi đó với cái miệng chữ O.
+
+“Khi cái vú này đã lớn đến kích cỡ nó sẽ có, chúng ta sẽ bị cài WatchMe bên trong người.”
+
+Những ngón tay của Miach nhay nhay núm vú tôi mạnh đến nỗi tôi nghĩ nó sẽ đứt ra mất. Cô ấy muốn tôi cảm giác được cơn đau.
+
+“Một bầy medicule ở trong người cậu, chúng theo dõi cậu, mách lẻo mọi thứ về cậu. Những hạt nano bé tin hin đang biến cơ thể chúng ta thành gì? Thành dữ liệu. Chúng thu biến thể chất chúng ta thành thuật ngữ y học và chuyển giao thông tin, cơ thể chúng ta, hết cả thảy về tay vài vị quan liêu trong sinh phủ có thiện ý.”
+
+“Miach, d-dừng lại!”
+
+Phớt lờ tôi, cô tiếp tục, “Cậu có thể chịu đựng được những gì đang diễn ra với mình không, Tuan?”
+
+“Cái tớ không chịu được là tay cậu đang làm cái gì với tớ ngay lúc này này!”
+
+Nhưng Miach tiếp tục bóp và cười mỉm. “Cậu có nghĩ mình có thể cắn răng để chúng thay thế cơ thể cậu bằng dữ liệu không? Tớ biết là tớ không thể.”
+
+≡
+
+Miach đã phát hiện ra tôi trước ở một công viên.
+
+Vài ông bố bà mẹ đang chơi đùa cùng con trẻ trên một bộ khung leo trèo[11] méo mó có màu hồng, và cô cũng ở đấy, một cô gái trạc tuổi tôi, đang ngồi trên băng ghế và đọc sách. Tôi từng thấy cô trong lớp, nên tôi biết cô ấy là ai. Mọi người đều biết cô là ai.
+
+Bóng ma.
+
+Họ gọi cô như thế. Rất nhiều bọn bạn trong trường, cả nam lẫn nữ, đã tiếp cận cô hồi ban đầu—chỉ mỗi điểm số thôi thì cô đã khác biệt rồi—nhưng cô vẫn giữ thái độ không tham gia, và cô ưa sự cô độc đẹp đẽ.
+
+Vài nhóm hiểu lầm và thương tiếc cho cô. Không phải là tôi chê trách họ vì không hiểu được Miach. Ai cũng quá quan tâm người khác thế nào. Và với cái chuẩn mực “thiện ý hướng về con người” hiện nay, khó mà tưởng nổi có người không muốn tham gia chút nào. Do đó các cô gái mời cô lại ăn trưa cùng họ, hay muốn nhắn tin với cô, toàn bộ đều muốn lôi kéo sự chú ý của cô ấy.
+
+Chúng tôi được dạy dỗ rằng phải tốt bụng với người khác, phải giúp đỡ người khác, phải sống hòa thuận. Đấy mới là người lớn, họ nói thế.
+
+<list:item>
+
+<i: Hãy thương lấy đồng loại ngươi.>
+
+<i: Đừng trả thù.>[12]
+
+</list>
+
+Chúng tôi bị bảo phải trở nên như vậy. Mọi người đều phải trở nên như vậy, từ Đông tới Tây, từ sau Thời Kỳ Loạn Lạc[13].
+
+<list:item>
+
+<i: tự do>
+
+<i: khoan dung>
+
+<i: bình đẳng>
+
+</list>
+
+Đây là xã hội mà Miach ghét. Ba mẹ không thể chọn con cái của họ, nhưng con cái không được chọn gì cả. “Đáng ra ít nhất tôi cũng phải muốn chọn thế giới mà tôi phải sống chứ,” Miach thường nói. Khi những cậu trai bạn gái ở trường tiếp cận, lúc đầu cô từ chối họ một cách lịch sự. Nếu họ cứ kiên trì, cô sẽ nói đại loại như “Tôi không có hứng thú với con người tầm thường,” và thế là mọi chuyện thường sẽ đâu vào đấy.
+
+Cô ấy trông tựa nàng Công Chúa Kaguya đã quay lưng khỏi những kẻ có tiềm năng tới cầu hôn nàng, những kẻ sống nơi mặt đất chứ không đến từ mặt trăng hay không thể giành được viên ngọc quý trên cổ con rồng. Lời từ chối thẳng thừng dùng để xử sự với bất cứ ai giờ y hệt một bùa chú. Đến cả những kẻ mơ mộng có-thể-trở-thành-fan, cô không chừa bất một chút để họ thể hiện. Tất nhiên, nếu ý cổ thực đúng như lời mình, có nghĩa là Cian và tôi không phải “con người tầm thường”. Tôi bất chợt nghĩ đáng lý mình phải buồn vì chuyện đó chứ.
+
+Kết quả là tôi chưa bao giờ cảm thấy mình ăn khớp với trường học và cố dành phần lớn thời gian ru rú ở nhà, tuy làm thế nào đó mà tôi đã bị kéo vào một nhóm nào đó trong các năm học. Tôi thích coi đó là chút vết tích cuối cùng của hành vi xã hội của tôi. Tôi cố ẩn mình trong khung cảnh bình thường, lòng cầu nguyện rằng sẽ không có ai gọi tôi làm gì đó trong hoạt động ngoại khóa, cảnh giác triệt để trước lòng tốt của bạn bè.
+
+<declaration>
+
+<Lòng tốt luôn trông đợi một lòng tốt báo đáp.>
+
+</declaration>
+
+Sự chu đáo của các giáo viên, của ba mẹ, của mọi người chung quanh tôi cứ như bóp nghẹt tôi một cách thầm lặng. Tôi từng nghe một lần về cái họ đã thường gọi là bắt nạt.
+
+Tôi không chắc lắm nó như thế nào, mà hồi ấy tôi cũng chẳng học bao nhiêu về nó, ở cái tuổi 15 phơi phới, song đâu đó tôi đã kiếm được một định nghĩa mơ hồ nói rằng nó gồm nhiều đứa trẻ tạo thành một nhóm tấn công một đối tượng bị chỉ định trước, thông thường là một đứa trẻ khác. Nó đã từng xảy ra mọi lúc tại một nơi nào đó, nhưng kể từ sau Thời Kỳ Loạn Lạc, bất kì sự xâm hại đến một tài nguyên tự nhiên rất giá trị như trẻ em đều bị cấm tiệt, dù cho bên xâm hại là trẻ em. Bắt nạt cứ thế mà biệt tăm.
+
+Nhận thức tài nguyên.
+
+Đấy là cách người ta định nghĩa nghĩa vụ của họ đối với xã hội. Điều đó cộng với khái niệm về thể xác cộng xã. Họ nói với chúng tôi như vầy: luôn luôn ý thức rằng bạn là một tài nguyên không thể thay thế. “Cuộc sống là điều quý giá nhất trong số mọi thứ” và “Trọng lượng sinh mệnh là trọng lượng thế giới” biến thành khẩu hiệu.
+
+Giả như tôi sinh ra sớm hơn một thế kỷ, tôi có bị bắt nạt không nhỉ?
+
+Chắc thế, tôi nghĩ vậy. Tôi muốn bị bắt nạt. Và tôi chắc mẫm rằng tôi không phải đứa đi bắt nạt.
+
+≡
+
+Vậy là tôi thấy cô ấy trên đường từ trường về nhà, cô đang ngồi trong công viên kế bên khung leo trèo với cái gì đấy trong tay. Mãi sau này tôi mới biết thứ đó là gì—dead-tree media, một cuốn sách. Cho tới bấy giờ, tôi hầu như mù tịt về quá khứ tương tự mỗi học sinh cao trung khác. Tôi biết rằng nhiều phần trong lịch sử của chúng tôi đã bị kiểm duyệt, cụ thể là hình ảnh, tuy tôi có đặt giả thiết rằng chúng là những cái xác bị biến dạng kinh hoàng hay đại loại vậy. Bạn cần phải có giấy phép đặc biệt để xem các thứ đó. Hàng lố phương tiện truyền thông trực quan, được gọi là phim, không thể được tìm thấy trên Borgesnet bởi yếu tố bạo lực chúng miêu tả. Ngay cả nội dung được những chuẩn mực trước kia coi là lành mạnh thì giờ đây các chuẩn mực hiền hòa, thanh lịch của sinh phủ đánh giá là nhiễm đầy bạo lực. Để coi được bất cứ bức tranh trực quan về bạo lực, bạn cần phải có ủy nhiệm thư hợp pháp: EVIL, hay Emotionally-traumatic Visual Information License[14].
+
+Một mảnh giấy phép, nhân tiện nói luôn, bây giờ tôi có vì công việc yêu cầu nhưng hiển nhiên lúc còn là trẻ con tôi không hề có. Tôi cũng không biết về sách – thứ một quãng thời gian dài sau đấy thì chết và biến mất, tôi cũng chưa từng nghe chuyện có kha khá vụ trao đổi sinh lợi về chúng giữa những người mê sách. Con gái cấp 3 quá bận bịu việc lớn lên, thậm chí còn chỗ nào cho họ tìm được động lực tìm hiểu về quá khứ? Đầu chăng? Trái tim chăng? Bụng chăng?
+
+Ngày đấy tôi không bị quấy rầy bởi sự có mặt của Miach. Tôi chỉ đơn thuần là chấp nhận, rồi dời mắt khỏi cô và đi tiếp.
+
+Nhưng Miach đã thấy tôi.
+
+Thọc quyển sách vào cặp, cô sải chân tới trước mặt tôi, đi những bước lớn. Tôi nhớ mình ngạc nhiên thế nào trước nét mặt như đeo mặt nạ của cô ấy. Cô trỏ một ngón ra, chỉ về khung leo trèo.
+
+“Cậu có biết tại sao người ta đồng bộ hóa chuyển động của khung leo trèo theo trẻ em không?”
+
+Tôi nào biết. Miach nhướng một bên mày khi thấy tôi yên lặng rồi tiếp lời. “Là để những đứa con nít không chết. Xưa rất xưa kia, trẻ con thường chết trên khung leo trèo. Cậu có biết không?”
+
+Tôi lắc đầu. Tôi lặng người. Vừa mang nghĩa bị á khẩu vừa mang nghĩa là con đần. Tôi chưa bao giờ nghe có trẻ em chết vì tai nạn hay thậm chí là bị thương trên khung leo trèo. Cách nói của Miach cứ như cô đang thổi sáo, giai điệu say đắm êm đềm nhưng cũng lạnh lẽo, tuyệt nhiên không tí cảm xúc.
+
+“Vào đầu thế kỷ 21, khung leo trèo được làm hoàn toàn bằng kim loại—những ống xà mắc ngang dọc chéo nhau thành dạng lưới mắt cáo hình học.”
+
+“Trẻ con sẽ rơi xuống từ đỉnh à?”
+
+“Đảm bảo là thế. Khung leo trèo thuở đó không đón lấy trẻ con như những cái hiện đại. Xà kim loại không thông minh. Chúng không thể thay đổi, thậm chí còn không mềm. Vài đứa trẻ đập đầu lên xà và chết vì chấn thương sọ não. Và hộp cát thì là bể sinh sôi nảy nở của virus và vi khuẩn. Công viên là một nơi rất nguy hiểm.”
+
+Trong đầu tôi không gợn được chút ý tưởng nào về lý do con người này, con người mà người ta có thể cho rằng là cô gái kì quặc nhất lớp, đang giảng tôi một bài học khảo cổ về lịch sử khung leo trèo. Chí ít lúc đó tôi cũng đã phục hồi đủ lý trí để giả vờ đồng ý.
+
+“Thế,” tôi đánh bạo, “cái chúng ta gọi là công viên ngày nay cực kì khác với khi xưa.”
+
+Cô lắc đầu. “Không hẳn. Vẻ ngoài công viên chẳng hề thay đổi cả một thế kỷ rồi. Có cây và vân vân để chơi. Có những đứa trẻ ngồi trên băng ghế đọc sách như tớ vừa nãy. Khác biệt là cát trong hộp cát, khung leo trèo và dây leo núi không thông minh. Chúng không quan tâm chuyện xảy đến tới các đứa trẻ chơi chúng.”
+
+“Xin lỗi, nhưng thứ cậu nhìn ban nãy, là sách ư?” tôi hỏi.
+
+“Phải, Kirie Tuan. Tớ đang đọc sách lúc đó. Tớ luôn mang theo một cuốn bên mình. Tớ hay đọc giữa giờ giải lao.”
+
+Miach rút quyển sách khỏi cặp và giơ cho tôi xem. Trên trang bìa là Một Người Tầm Thường.
+
+“Trông không thú vị lắm.”
+
+Nghe thế, Miach cười phá lên. “Y như tớ nghĩ! Tớ biết là tớ có xu hướng hóa thành gỗ trơ, ấy vậy, tớ vẫn ngạc nhiên là cậu chưa từng để ý đến tớ—cái đứa con gái luôn cô độc, luôn đọc cái gì đó là lạ. Cậu không để ý nhiều đến xung quanh đúng không?”
+
+Làm thế nào mà tôi không để ý tới cô ấy? Đặc biệt là cô gái duy nhất không hề tham gia bất kì nhóm nào trong lớp luôn đọc món đồ quái đản nào đó giữa giờ giải lao? Trong giây lát, tôi đã nghĩ rằng có thể không ai nhưng lập tức loại trừ. Mang trong mình những hứng khởi ban đầu muốn làm bạn với Miach, các đứa trẻ khác tuyệt nhiên phải nhìn thấy cô, thắc mắc về cô. Chỉ có mỗi mình tôi quên mất điều đó.
+
+“Đó là vì cậu không muốn làm chú ý tới mọi người. Cậu không muốn thử làm bạn. Cậu muốn trở thành người như thế đúng không? Cậu chơi cùng các cô gái khác trong nhóm nhỏ của họ, cậu đi tham gia tình nguyện vào ngày nghỉ cuối tuần, nhưng người cậu quan tâm nhất là chính bản thân cậu. Cậu cóc quan tâm về sự hài hòa. Vì thế mà cậu chẳng thèm bận tâm để mắt tới tớ và cuốn sách của tớ.”
+
+Cô ấy đúng.
+
+Cô ấy đúng, và tôi đảm bảo chưa có ai ngoài cô từng nhận thấy khía cạnh này của tôi. Tôi mất một lúc mới đứng vững lại vì mắc suy nghĩ cách trả lời. Những gì tôi nặn ra sau khi theo dõi là một câu nhận xét hoàn toàn lạc đề và ngu xuẩn vô đối.
+
+“Không phải những cuốn sách đó khá nặng và khó để mang theo sao?”
+
+“Đúng, chúng nặng và khó mà mang theo, Kirie-san. Cậu không nghĩ nặng và khó mang theo đích thực là hành vi chống đối xã hội sao?” giọng cô phát ra như giọng nam cao. Rồi cô bắt đầu bước đi, hai tay giữ cặp đằng sau lưng. Tôi cho tới hôm nay vẫn không biết chắc lý do khiến mình đi theo cô ấy. Tôi chỉ nhớ mang máng rằng những gì cô nói, từng chữ từng chữ của cô, đã cắt vào tim đen của thứ gì đó mà tôi không tài nào diễn tả bằng lời từ rất lâu rồi, và tôi thấy thoải mái lúc nghe cô ấy nói. Hoặc phải chăng là cô ấy đã tìm thấy trong tôi một lưỡi kiếm cũ kỹ, gỉ mòn vì nước biển, sau đó cô mài sắt nó lên một chút. Trùng hợp là một thời gian sau, khi tôi hỏi Cian đã gặp Miach thế nào, cô ấy nói cô cũng gặp Miach trong công viên.
+
+“Thế,” Miach cất tiếng, chẳng ngoái đầu lại sau. “H: nếu một người trải qua cả đời mình mà chưa từng ngã khỏi cái gì, thì họ làm sao biết được ý nghĩa của ngã?” tôi chỉ trông thấy gáy đầu cô, nhưng tôi dám cá là cô đang mỉm cười.
+
+“Cậu nói về khung leo trèo.”
+
+“Không chỉ thế, nhưng gần đúng đấy.”
+
+“Không phải bản năng người ta là sợ ngã sao?”
+
+Đối với tôi, dường như khá là lạ khi thực sự tồn tại ai đó có thể sống qua cả cuộc đời mình mà chưa từng ngã khỏi cái gì, nhưng dù cho là có đi nữa, tôi vẫn cảm thấy bằng cách nào đó, họ cũng có một nỗi sợ ngã thường trực trong đầu.
+
+Miach buông tiếng thở dài lấp lửng, chẳng đồng thuận cũng chẳng phủ nhận giả thuyết của tôi.
+
+“Vậy đó là câu trả lời của cậu? Bản năng tự nhiên của con người là sợ ngã—chúng ta đều như thế sao?”
+
+“Ừ.”
+
+“Cậu có bao giờ ngã chưa?”
+
+Thực tế là tôi từng. Đó là thuở tôi còn nhỏ. Nhà tôi đi cắm trại, và tôi trượt chân từ một tảng đá mòn và té xuống suối. Tôi có thể nhớ như in khoảnh khắc nó xảy ra. Bạn nghe người ta nói thời gian chậm lại thế nào trong lúc tai nạn diễn ra, nhưng với tôi, hình như ngay khi tôi nhận ra bàn chân mình đang trợt, tôi đã quỳ dưới làn nước.
+
+Ống chân tôi bị trầy rách trong cú ngã và khi nhìn vào, tôi thấy một vệt màu mỏng thoát khỏi bắp chân phải của tôi, nó uốn lượn tựa một dải ruy băng đỏ tự xoắn vòng vào dòng nước hơi đục. Một con cá hồi be bé bơi xuyên qua, tôi cứ nghĩ nó sẽ chạm vào sợi dây nhưng tất nhiên là không rồi. Giây lát sau là ba tôi đang giúp tôi ra khỏi con suối. Ông dùng bộ cứu thương bỏ túi để chữa vết rách, song tôi còn nhớ rõ nó trông thế nào, sợi chỉ đỏ của máu thả mình trôi một cách gần như khêu gợi trong nước. Bột medicule—cùng loại với thứ Miach khẳng định rằng có thể giết 50 000 người—nhanh chóng khép miệng vết thương trong khi cũng hộp medcare đó tạo các kháng sinh tiêu diệt bất kì vi khuẩn gây hại nào tôi có thể vướng phải. Ba tôi gắn bộ đơn vị vào cổng medcare phía dưới xương bả vai của tôi.
+
+“Cảm giác lúc đó thế nào, khi cậu ngã ấy?”
+
+Miach ngưng lại rồi quay về phía tôi. Tôi đã thành thực trả lời là sự việc kết thúc quá nhanh khi đó đến nỗi tôi chẳng kịp nhớ cảm giác gì. Khắc đầu tiên tôi ở trên tảng đá, khắc tiếp theo tôi đã ở trong nước.
+
+“Ồ.”
+
+Miach nhún vai và lại bước đi. Tôi lẽo đẽo theo sau.
+
+“Thế cậu nghĩ một người chưa từng ngã một lần trong đời thì sẽ không sợ ngã?”
+
+“Tớ không nói thế. Nhưng họ có thể quên đi nỗi sợ đó. Giống như chúng ta quên đi bệnh tật là gì.”
+
+“Bệnh tật là khi ta già đi càng lúc càng nhanh và xương cốt cứng ngắt.”
+
+Miach ngoái đầu, một nụ cười hiện trên môi cô. “Đó là định nghĩa của nó ngày nay, điều đó đúng, nhưng nó chỉ mới nhắc đến một điều kiện ảnh hưởng lên vài người kém may mắn, những ai có vài gen xui xẻo. Ý tớ không phải là loại bệnh tật ấy. Ý tớ là bị ốm bệnh cơ. Giống như cảm lạnh hay đau đầu này. Có bao giờ nghe tới chưa?”
+
+Tôi lắc đầu.
+
+“Ngày xưa, có rất nhiều bệnh đè lên chúng ta, hàng ngàn đấy. Ai cũng bị ốm, tớ đang nói đến chỉ 50 năm trước thôi. Khi các đầu đạn hạt nhân rơi xuống trong Thời Kỳ Loạn Lạc, mọi người đều bị ung thư do phóng xạ. Cả thế giới này là một căn bệnh lớn.”
+
+“Ồ, tớ có học rồi.”
+
+<reference:textbook:id=hsj56093-4n7mn 2jp:line=3496>
+
+<content>
+
+Nhiều người bị nhiễm ung thư do ảnh hưởng từ phóng xạ. Đồng thời, phóng xạ gây ra đột biến ở Trung Quốc và sâu tận trung tâm Châu Phi, sản sinh một cơn lũ các chủng virus lạ. Trước một mối nguy hại hiện hữu rõ ràng tới sức khỏe như thế, chỉ trong chớp mắt thế giới đã biến chuyển từ thể chế tư bản chủ nghĩa cầm đầu bởi các chính phủ sang xã hội Y Tế Bảo Hộ được các Hội Đồng Sinh Phủ tổ chức.
+
+</content>
+
+</reference>
+
+“Phải không? Tớ không chắc tại sao mình thuộc cái đó. Ấn tượng chứ?”
+
+“Phải, nhưng họ không bao giờ kể cậu nghe người ta hay bị bệnh thế nào lúc xưa kia. Cậu có thể thuộc bài học lịch sử, nhưng cậu còn chẳng biết cảm lạnh là gì. Thì làm sao cậu biết được? Cậu chưa từng bị lấy một lần mà. Xã hội chúng ta đã đạt tới một nấc thang khác kinh ngạc. Nhờ vào WatchMe và medcare, chúng ta đã đánh đuổi hầu như mọi căn bệnh khỏi bề mặt Trái Đất.”
+
+Tôi chưa từng kể ai ở trường về người cha của tôi—nếu họ có biết gì, thì họ chỉ biết ông là người quan trọng. Kirie Nuada là nhà khoa học đầu tiên đề xuất lý thuyết dẫn tới công nghệ tạo ra WatchMe, trong một luận án ông viết cùng đồng nghiệp cách đấy 35 năm.
+
+<reference:thesis:id=stid749-60d-r2yrui6ronl>
+
+<title>
+
+“Về Tính Khả Thi của Giám Sát Tình Trạng Nội Cân Bằng của Sức Khỏe bằng Bầy Phân Tử Y Học (Medicule) và Hạt Dược Lý Dẻo (Medibase).”
+
+</title>
+
+<author>Kirie Nuada, nhà nghiên cứu</author>
+
+<author>Saeki Keita, nhà nghiên cứu đồng sự</author>
+
+</reference>
+
+Miach có biết không? Nếu tôi kể cho cô ấy, khuôn mặt cô sẽ ra sao? Liệu cô ấy có ghét tôi nếu tôi kể với cô rằng thế giới mà cô ghét cay ghét đắng được ba tôi bấm nút khởi dựng? Tôi không biết mình có được tha thứ không nếu tôi nói với cô rằng tôi cũng ghét thế giới này.
+
+“Cậu biết là chúng ta đang sống trong tương lai,” Miach nói, hàng mày cau nghiêm nghị xung đột với cái đáng lý phải là một câu khẳng định. “Và tương lai, nói gọn lại là, đáng chán. ‘Tương lai chỉ là một cái bể mênh mông, êm ái của tâm hồn’. Một người tên là Ballard đã nói thế. Ông là nhà văn viễn tưởng. Và ông ta đã nói về nơi đây, chốn này, thế giới của chúng ta. Cái thế giới mà sinh phủ săn sóc hết thảy mạng sống và sức khỏe con người. Chúng ta đang bị giam cầm trong ảo tưởng cổ hủ về tương lai của ai đó, phiền bỏ xừ.”
+
+Chúng tôi đi một lúc cho tới khi gặp ngã tư đường, tại đó Miach đứng lại và đỡ lấy tay tôi. Tôi hóa tượng. Điều này khác. Cô nhấc tay tôi lên trước mặt cô bằng tất cả sự kính cẩn của một triều thần trước nữ vương, và cất lời, “Chúng ta đã mang những quy trình của cơ thể tự nhiên—những thứ trước đây chúng ta thậm chí còn không thấu hiểu—rồi phó mặc nó cho kẻ khác. Bị ốm, sống, ai biết cái gì tiếp? Có khi là cả suy nghĩ. Những thứ này từng chỉ thuộc về chúng ta, chúng chỉ có thể thuộc về chúng ta, và giờ đây chúng là một phần của hệ thống thị trường, được kiểm soát từ bên ngoài. Tớ không muốn là một phần của thế giới này. Cơ thể này là của chính tớ. Tớ muốn sống cuộc sống của chính tớ. Không ngồi lây lất như con cừu chờ bị siết cổ bởi lòng tốt của người lạ.”
+
+Sau đó, cô hôn lên mu bàn tay tôi.
+
+Tôi đã cố giật phắt tay đi, nhưng đã quá trễ. Cảm nhận về đôi môi cô ấy đã vĩnh viễn khắc lên da tôi.
+
+Lạnh lẽo.
+
+Đó là ý nghĩ đầu tiên trong tôi. Môi cô ấy lạnh ngắt. Nhưng không tệ lắm; trái lại, nó còn vương một cái lạnh dễ chịu trên da tôi, tựa như dư vị, và thấm vào từng thớ tế bào. Khi tôi ngước lên, Miach đã băng qua đường, cô đang đi theo hướng ngược chiều hướng về nhà tôi.
+
+“Cậu và tớ cùng một giuộc đó, Kirie Tuan,” cô nói vọng tới, đôi môi mỉm cười lần nữa. Thế rồi Miach bất chợt ù chạy và cứ thế cho tới lúc tôi không còn thấy được cô nữa.
+
+≡
+
+Tôi đã gặp Mihie Miach như thế.
+
+Tôi bước dạo qua công viên. Cô đang đọc sách. Tất cả là vậy.
+
+Nhiêu đó là đủ để bắt đầu một tình bạn, tuy ngắn ngủi, nhưng đã thay đổi quãng đời còn lại của tôi.
+
+Phần: 03
+
+Trước khi kể về cuộc chia tay và hội ngộ với Mihie Miach, một câu chuyện bắt đầu ở Sahara, tôi nên bắt đầu bằng kể bạn nghe về cái chết của Reikado Cian bởi chính tay cô. Đã 13 năm từ lần cuối ba chúng tôi gặp nhau. 48 giờ trước khi Cian ập mặt vào cái đĩa insalata di caprese với
+
+<list:item>
+
+<i: những lát cà chua đỏ tươi>
+
+<i: những khoanh phô-mai mozzarella trắng tinh>
+
+</list>
+
+và chết, thì tôi đang ở trong Sahara, trong một thế giới được tô vẽ bằng màu xanh dương và vàng tươi chia cắt dọc theo một đường thẳng đơn độc.
+
+<landscape>[15]
+
+<i: Trời xanh phủ ngút ngàn tầm mắt.>
+
+<i: Hoa vàng trải xa tít tắp tầm mắt.>
+
+</landscape>
+
+Các sắc màu hội tụ tại đường chân trời – xum xuê, thấm đẫm chất nhuộm, đủ để bất kì ai cũng quên đi Sahara từng là một sa mạc.
+
+Bị con người lãng quên, bị lịch sử lãng quên.
+
+Từng đợt nóng hâm hấp, những cách hoa xếp chồng chồng lớp lớp, đến cả những thân cây đu đưa nhẹ nhàng trong làn gió, tất cả đều là dấu vết để lại của ngòi cọ họa sĩ—một phong cảnh bị hóa thành thứ nghệ thuật đã lỗi thời một thế kỷ. Một bức tranh trừu tượng màu vàng và lam của Mark Rothko[16]. Tôi ngồi nhìn ra cảnh vật ngoài qua đôi mắt khép hờ từ vị trí thuận lợi trên một chiếc xe vận tải bọc giáp của WHO[17]. Môi tôi nhâm nhi điếu xì-gà, các lớp biểu bì mơn trớn chút xù xì của những lớp vỏ chuối cứng. Tôi rất thích cái thói quen trái phép của mình. Đoàn xe lưu động của chúng tôi đậu tại rìa của biển hoa hướng dương bát ngát, nơi đây người ta đã từng gọi là Sa mạc Sahara. Nơi đây, các RRW đã từng rơi xuống.
+
+<dictionary>
+
+<item>RRW</item>
+
+<definition>
+
+Reliable Replacement Warhead[18], một loại đầu đạn được sản xuất phổ biến do một quốc gia tên là Hợp Chủng Quốc Hoa Kỳ, bắt đầu từ khoảng năm 2010. Những đầu đạn này được tung hô là “đầu đạn hạt nhân của thế kỷ 21”, được dự kiến là giải pháp thay thế cho các loại đạn thế kỷ 20 đang già đi với độ bền, độ an toàn cao hơn và dễ sử dụng hơn. Trong Thời Kỳ Loạn Lạc - nổ ra tại khối các nước nói tiếng anh ở Bắc Mỹ năm 2019, rất nhiều đầu đạn đã bắn tới Thế Giới Thứ Ba. Và tuy quân đội EU[19], chủ yếu là của Pháp và Đức, can thiệp và đã thành công trong vô hiệu hóa nhiều đầu đạn hạt nhân, 35 RRW vẫn bị mất cắp khỏi kho đạn của Mỹ. Trong số đó, 14 cái sau này đã được thu hồi, 2 cái nổ trên đất Mỹ, và 19 cái còn lại được đem ra sử dụng trong vô số cuộc đụng độ khắp thế giới.
+
+(Trích báo cáo của Cơ Quan Năng Lượng Nguyên Tử Quốc Tế[20].)
+
+</definition>
+
+</dictionary>
+
+Vì thế có những bông hướng dương này.
+
+Một phương pháp cổ, nhưng vẫn hiệu nghiệm. Bất cứ khi nào chiến tranh tan đi và hòa bình trở lại, con người trồng hoa. Điểm khác nhau duy nhất lần này là quy mô của công sức. Đủ hoa vàng để làm một tên hippie[21] khóc lóc trong cảnh hồi tưởng. Đây là phương pháp lỗi thời - khử độc bằng cách trồng cây. Những bông hướng dương được biến đổi gen sẽ cắm rễ sâu vào lòng đất rồi hấp thụ Strontium, Uranium[22], các chất ô nhiễm khác cùng chất dinh dưỡng chúng cần để phát triển. Trong một vòng đời của cây hoa, vùng đất sẽ được thanh tẩy.
+
+Bước cùng nhiều quốc gia khác, liên minh các nước Nam Phi đã rất đỗi vui mừng mua vũ khí hạt nhân từ các nhân vật vô liêm sỉ tại Mỹ trong Thời Kỳ Loạn Lạc rồi thả chúng bừa bãi đó đây trên chính mảnh đất của họ; tất cả giờ đây không còn gì ngoài một chương trong sử sách. Một màn ngắn trong vở diễn của lịch sử ở thời đại mà mọi cuộc chiến vì độc lập đều bị dán cái mác “khủng bố”.
+
+“Họ tới rồi, ma reine[23].”
+
+Étienne gọi vọng lên tôi từ chỗ anh ta đang đứng dựa vào bên lề xe vận chuyển. Anh mặc đồng phục dã chiến nhuộm màu hồng tiêu chuẩn của quân đội y tế. Khách hàng của chúng tôi sẽ đến, mang theo bật lửa gas và xì-gà. Tôi phát hiện ra một đám đầu quấn xanh nước biển hé mặt nhìn lén ra từ biển hoa hướng dương được sinh phủ trồng. Họ lạc loài giữa một màu vàng chóe trải lênh lánh khắp mọi thứ xung quanh họ. Kel Tamasheq đã từng lúc nào cũng mặc khăn đóng màu chàm kèm theo voan che mặt, hẳn họ cũng sẽ vậy. Thậm chí họ cũng ăn vận như vậy khi cưỡi lạc đà lao vào trận mạc, để lại một ấn tượng khó quên bởi cái cách ngụy trang màu chàm dở tệ giữa cánh đồng hoa.
+
+4 chiến binh Tamasheq thò mặt ra từ bờ rìa biển hoa hướng dương, mỗi người đeo trên vai một cây AK-47 truyền thống. Tôi đi xuống từ mái xe vận tải và bước tới thủ lĩnh.
+
+“Chào, người phụ nữ của y dược nhân[24]. Cũng khá lâu rồi.”
+
+“Chào, chiến binh của Tuareg.”
+
+Người đàn ông mặc màu chàm lắc đầu. “Cô có biết từ Tuareg này có nghĩa gì trong tiếng Ả Rập không?”
+
+“Tôi không biết.”
+
+“Nó nghĩa là ‘những kẻ bị Thánh Allah bỏ rơi’. Đấy là cái tên những người ngoài cuộc đặt cho chúng tôi.”
+
+“Thế Kel Tamasheq là ý gì?”
+
+“Những người nói tiếng Tamasheq.”
+
+Tôi không khỏi nghĩ “những kẻ bị Allah bỏ rơi” nghe ngầu hơn kinh khủng, và tôi nói với ông ta vậy. Các vị thần của chúng tôi, Asklepios[25] và Hippocrates[26], theo dõi sát gót chúng tôi, “y dược nhân”, và nhân danh họ, chúng tôi đã dựng nên đền thờ cho thuốc chữa bệnh và đánh đổ gần như từng căn bệnh con người từng biết. Niềm tin của chúng tôi lớn đến nỗi chúng tôi sẽ tiếp tục hạ gục chúng, nhờ đó y dược nhân không bao giờ bị thần của họ ruồng bỏ. Chúng tôi còn cài cả WatchMe vào trong cơ thể, chỉ để đảm bảo không có nơi nào mà cặp mắt các vị thần của chúng tôi không thể thấy.
+
+“Dường như cô ghét thần của cô, người phụ nữ của y dược nhân.”
+
+“Ấy thế ông cũng đâu có ăn năn gì khi nhận tặng phẩm của họ từ tay chúng tôi.” Hàm ý của tôi là chế giễu, song người Tuareg kia mỉm cười, hàng răng trắng nổi bật trên làn da ngăm. “Phải, nhưng điểm khác biệt giữa chúng ta là chúng tôi chỉ thờ phụng với tấm lòng tối thiểu, không hơn nữa. May cho chúng tôi là các vị chúa rất thấu hiểu dàn xếp này.”
+
+Tôi lắc đầu ngao ngán và thở dài trước những khối óc thông thái mà thực dụng của các cư dân sinh sống tại sa mạc—ờ thì, nơi từng là sa mạc—rồi rút một tấm memorycel[27] từ túi.
+
+“Vậy là ông nghĩ đầu chúng tôi đã cúi thờ quá sâu đối với thần chúng tôi?”
+
+“Ngắn gọn là, đúng. Các người bảo ‘Mọi việc đều điều độ’, nhưng nào ai thực hành. Đầu các người ngập ngụa niềm tin đó đến độ cũng phải áp đặt lên chúng tôi. Và do đó chúng tôi chiến đấu.”
+
+“Ông không nghĩ chúng tôi đại diện người Niger đúng không? Chúng tôi thậm chí còn chẳng phải là một nhà nước kiểu cũ. Chúng tôi là tổ chức tuân theo Hiệp Định Geneva, một sự nhất trí của Hội Đồng Y Tế—tức sinh phủ—khắp mọi nơi trên thế giới. Chúng tôi không phải đồng minh của Niger, cũng chẳng phải của Tuareg. Chúng tôi chỉ là một nhóm quan sát viên của hiệp ước ngưng bắn và thậm chí còn không là một ủy ban được phê chuẩn chính thức.”
+
+“Dù các người là người Niger hay y dược nhân, đối với Kel Tamasheq thì đều như nhau. Khác biệt duy nhất là bề ngoài—nước da của các người. Mà đôi khi chưa tới mức đó.”
+
+“Đúng, nhưng sinh phủ là hệ thống chính quyền. Đó là chính trị, không phải đức tin.”
+
+“Đức tin, cai trị—hai từ này là hai mặt của cùng một thứ. Niger có thể viện cớ đến chủ nghĩa sinh mệnh[28] này khi họ bảo chúng tôi liên kết tới máy chủ của họ, nhưng đấy chỉ là cai trị thôi, đơn giản và dễ hiểu. Trong quá khứ, chúng tôi đã chiến đấu chống lại bọn thực dân từ Anh và Pháp. Khi Quaddafi nhìn thấy lòng dũng cảm của chúng tôi, ông ta đã hứa hẹn về vinh quang cho những binh lính chúng tôi, song thời điểm chiến sự dịch chuyển về phía nam, như lời họ nói, chúng tôi bị đuổi khỏi đất đai của ông ta. Chúng tôi đã chống lại bọn độc tài ở Mali, Niger và Algeria. Tất cả chúng đều dùng chung bộ máy cai trị. Chủ nghĩa sinh mệnh chỉ là phần mềm mới cho bộ máy cũ kỹ y hệt vậy.”
+
+Tôi buông tiếng thở dài lần nữa. Là đại diện của Cục Xoắn Ốc trực thuộc WHO, thương thuyết chính trị chiếm mảng lớn trong công việc của tôi, tuy vậy tôi thấy chính trị chán phèo phèo. Tay phải tôi vẫy vẫy tấm memorycel.
+
+“Thế thì bản patch[29] y tế này cũng là phần mềm cai trị luôn.”
+
+“Chính vì vậy mà chúng tôi chỉ tham gia có chừng mực.”
+
+Người chiến binh búng tay, những người sau lưng ông liền quay trở lại vào đám hoa hướng dương. Khi ló đầu ra, họ đang đứng quanh và vác theo vài thùng gỗ thưa. Tôi biết các thùng đó chứa gì—những món hàng mà bên ngoài nơi bị sinh phủ quản lý thì vẫn được tận hưởng thỏa thích nhưng sẽ bị cấm ngặt nếu ở bên trong. Những thứ như điếu xì-gà tôi đang hút, và rượu, cùng hàng lô đống niềm khoái lạc có hại cho sức khỏe khác.
+
+“Thực ra, tôi rất khoái sống điều độ. Étienne đằng kia cũng vậy, cũng như nhiều nhiều người đang mong ngóng chúng tôi quay về ở căn cứ đằng sau.”
+
+“Chủng tộc các người thật kỳ lạ. Nếu rất nhiều người trong số các người khao khát sống điều độ, thế tại sao lại chấp nhận những ràng buộc cứng nhắc như kia lên chính người mình?”
+
+“Không, không, mấy kẻ ưa chừng mực như chúng tôi chỉ là thiểu số. Con người thích luật nghiêm và sự cấm đoán mà. Họ tạo ra cho bản thân họ rồi sống trong sợ hãi rằng nếu không giữ các ràng buộc đấy thì lịch sử sẽ lặp lại—thời đại đen tối, hỗn loạn. Cơ bản là vậy. Với kẻ sống trong lo sợ, sự điều độ không đủ để chấm dứt nỗi sợ ấy. Và hầu hết con người trong thế giới của tôi đều sợ sệt. Như thể luôn bỏ tiền vào heo đất trong khi ngay từ đầu chưa bao giờ cạn ví.”
+
+“‘Heo đất’ là gì? Ví thì tôi có nghe tới rồi.”
+
+“Nói thật, tôi không chắc lắm. Về cả hai cái. Chúng đều tồn tại ở cái thời tiền còn là thứ có thể bỏ vào túi.”
+
+Những từ cổ xưa. Lý do duy nhất tôi biết chúng là bởi Mihie Miach biết chúng.
+
+“Giá mà các người học được giá trị của điều độ, thì đã chẳng có chiến tranh ở đây rồi.”
+
+“Tôi dám chắc là ông đúng.”
+
+Trong khi tôi và ông chiến sĩ nói chuyện, Étienne và đám bạn đi nhận các thùng gỗ từ lính Tuareg và bắt đầu kiểm tra bên trong. Étienne là người Pháp. Dầu cho có chút hơi quá đại trượng phu so với khẩu vị của tôi, anh ta có đôi mắt sáng suốt đẹp đẽ đối với dòng máu của mình, và theo kinh nghiệm của tôi, không ai vạch lá tìm sâu tốt hơn người Pháp. Thứ được mạt gỗ bao bọc bên trong thùng là hàng lậu đủ làm bất cứ thành viên nào ngoan luật của sinh phủ sẽ lăn ra ngất xỉu. Song không thiếu người muốn bu vào lấy phần khi về căn cứ. Giây phút các thùng gỗ đấy chạm đất, ruột của chúng sẽ bị đem ra chia chác. Bao giờ cũng thế. Tất nhiên, chúng tôi chỉ khui thùng cho quần chúng sau khi đội của Étienne – những tòng phạm đã tải nội dung của memorycel trong tay tôi từ máy chủ sinh phủ – và tôi lấy phần mình xong.
+
+Đấy là cách mà tôi, trong vai trò một người lớn, đã chọn để tặng một ngón tay vào mặt xã hội.
+
+Cái xã hội đã siết cổ bạn bằng lòng tốt bụng.
+
+Cái xã hội đã hạ nốc ao bạn bằng một cú đánh lén bất ngờ vào linh hồn.
+
+Mọi thứ bạn cần phải làm để có tự do là:
+
+<list:item>
+
+<i: Giả vờ chấp nhận sự trưởng thành.>
+
+<i: Đánh lừa hệ thống tin rằng bạn đã là người lớn.>
+
+</list>
+
+Chỉ hai điều đó thôi.
+
+Họ nói rằng rất xưa xưa kia, những học sinh muốn làm việc xấu phải lén lút đến nhà vệ sinh hay lẻn ra sau phòng thể dục của trường để phì một điếu thuốc lá. Lại một điều tôi học từ Miach. Điều Miach không biết là ngày nay, phòng vệ sinh không che giấu nổi nếu ta muốn làm một điếu. Bây giờ bạn phải bằng mọi giá tìm đường đến chiến trường. Bạn muốn coi đấy là hành động mất trí hay là của lũ đần liều mạng vì chút niềm vui hút hít, đều tùy vào bạn.
+
+Tuy nhiên, tôi sẽ trình bày để thuận cho việc ghi lại rằng trước khi tôi đặt chân tới nơi này, tôi đã thử hàng tá điều, và tôi đã mất vài thứ cực kỳ quan trọng với mình.
+
+Điều tôi thử là bội thực và tuyệt thực.
+
+Điều tôi mất là Mihie Miach.
+
+≡
+
+Sinh mạng.
+
+Hàng đàn medicule mà ba tôi và bạn ông đã phóng thích vào thế giới, chúng đánh đuổi hầu hết các căn bệnh khỏi bề mặt hành tinh này. Hệ thống cài bên trong để giám sát nội cân bằng, được gọi là WatchMe, theo dõi hệ miễn dịch và các tế bào máu tới mức độ đọc lỗi phát sinh khi sao chép mã RNA. Cái gì không phù hợp sẽ lập tức bị gỡ bỏ. Nhà máy dược nho nhỏ có mặt khắp mọi nhà – medcare unit – tức khắc viết nên một cách chính xác ly cocktail gồm những medicule cần thiết nhằm diệt trừ bất kì chất gây bệnh hiện diện trong protein máu. Trong vài phần nghìn giây, unit có thể chỉ điểm y chóc khu vực cần thuốc nhất rồi điều quân đến.
+
+“Nè, Tuan, muốn chết cùng tớ không?” Miach hỏi bằng cái phong cách cao quý thường thấy của mình. Tôi ngó quanh phòng. Nhiều bạn cùng lớp vẫn còn đó, rất dễ nghe thấy. Miach đang chồm người qua ghế, đặt cùi trỏ lên bàn tôi.
+
+Phải, đấy là một điều quá kinh ngạc để một cô gái cấp 3 nói, nhưng thú thật, tôi chẳng ngạc nhiên gì. Tôi đã luôn có cảm giác đó là điều cô ấy sẽ hỏi tôi vào một ngày nào đó. Đến cả việc cô chọn một chỗ công cộng thế này để hỏi cũng không làm tôi giật mình. Hoặc giả như cô yêu cầu chúng tôi đi ngay lúc bấy giờ thì kết quả cũng thế. Đã từ lâu, tự tử rõ ràng là con đường duy nhất thoát khỏi nơi chốn này. Tất cả chúng tôi đồng ý. Cian đang đứng kế bên Miach, vẻ mặt nghiêm túc và chờ đợi câu trả lời từ tôi.
+
+À, tôi nên giải thích rằng chết không phải là vấn đề đơn giản vào những ngày ấy. Do dân số suy giảm chóng mặt, cơ thể chúng tôi được coi là tài sản cộng đồng, nguồn tài nguyên quý giá đối với xã hội, vì thế chúng cần phải được gìn giữ, hay đấy là lối suy nghĩ đúng đắn trong quần chúng.
+
+Trong vô vàn các bài thuyết giảng luôn được cô truyền tải chúng bằng cùng chất giọng không quan tâm, Miach đã kể cho chúng tôi nghe các tín đồ Thiên Chúa Giáo là chuyên gia thế nào trong việc cấm kị tự tử. “Đây này, mạng sống của cậu đến từ Chúa Trời. Cậu được Chúa ban tặng, dù cậu có muốn hay không. Do đó con người phàm tục không được phép vất bỏ mạng sống, như người chăn chiên không muốn chiên mình tự thí mạng. Người tự sát sẽ bị sỉ nhục. Người ta sẽ chôn họ ở giữa giao lộ để kẻ đã chết không bao giờ biết đường đến thiên đàng, cho tới Ngày Phán Xét. Đấy là hình phạt cho họ vì đã phản bội lòng tin của Chúa Trời.”
+
+“Tớ thấy khó tưởng tượng chúng ta sẽ bị chôn ở một giao lộ,” Cian nói cùng với đôi môi cười hồn nhiên.
+
+Mỗi khi Cian cười lại làm tôi rên rỉ chút chút trong lòng. Miach phớt lờ cô ấy và tiếp lời.
+
+“Và kẻ kế tục tín điều của Công Giáo đó ư? Tin hay không tùy cậu, nhưng đó là chúng ta, với cái xã hội cực-nhân-đức và bị-ám-ảnh-về-sức-khỏe của chúng ta. Những thân xác từng được Chúa tặng giờ đây, dưới luật lệ của sinh phủ theo chủ nghĩa sinh mệnh, trở thành tài sản cộng đồng. Chúa không còn sở hữu chúng ta nữa, mà là mọi người. Lịch sử chưa bao giờ có chuyện cụm từ ‘sự quý trọng của mạng sống’ có sức nặng như thế.”
+
+Miach đúng, hiển nhiên mà.
+
+Và vì lý do đó chúng tôi phải chết.
+
+Bởi sinh mạng chúng tôi bị quá coi trọng.
+
+Bởi ai cũng quá quan tâm đến mọi người khác.
+
+Tất nhiên, nhiêu đó chưa đủ để chết. Chúng tôi phải chết theo cách nào có thể quật một lời nhạo báng lên chế độ giữ sức khỏe mà chúng tôi đáng lý phải giữ do luật. Chí ít, đấy là điều chúng tôi đã nghĩ trong đầu lúc ấy.
+
+“Cách đây rất lâu, có những vị vua. Khi người ta muốn thay đổi gì đấy, họ giết nhà vua. Thông thường, việc giết chóc được mọi người ra tay, song không phải mọi người đều có thể đứng ra cai trị bởi liên lạc thuở ấy không tốt lắm. Vì vậy mà họ lập nên chính phủ. Do đó, nếu sự tức tối của cậu đủ lớn, cậu có thể giết chính phủ thay vì nhà vua.”
+
+Tông giọng của Miach lúc kể cho chúng tôi điều này dường như trong ngần, sắc sảo hơn mọi khi. Nó mang theo vẻ đẹp, đủ khiến xương sống tôi lạnh run bần bật. Cứ như thể nó là một lưỡi gươm—lưỡi gươm bằng băng.
+
+“Tuy nhiên chúng ta làm gì bây giờ? Trong xã hội hậu chính phủ và nằm trong tay sinh phủ, không có ai để giết cả. Mọi người đều hạnh phúc, mọi người đều cầm quyền—các đơn vị cơ bản của bộ máy cai trị quá nhỏ để đặt vào tầm ngắm.”
+
+Miach đưa mắt nhìn qua cửa sổ và về phía cổng trước, nơi những người bạn đồng trang lứa của chúng tôi đang bước ra để lên đường trở về nhà. Từ tầng 3 của tòa nhà trong trường học, ta có thể nhìn xuống mọi thứ.
+
+“Sinh phủ. Hội Đồng Y Tế. Một đám người quây quần, những người đã đạt tới thỏa thuận về một hệ thống y tế đặt biệt. Harmonic[30]. Một cơ quan quản trị có thể có các hội viên hội đồng, nhưng họ không hề giống nghị sĩ Nghị Viện từng góp mặt trong các nhà nước cũ. Hội viên và ủy viên hội đồng không có sức mạnh tập trung trong tay như những vì vua xưa. Chúng ta đã phân chia trải rộng quyền lực đến nỗi thực ra chúng ta bất lực. Dẫu cho chúng ta muốn chiến đấu chống lại sự thống trị như các học sinh thế hệ trước, không có lấy một cơ sở thuộc chính phủ nào cho ta ném bom xăng vào.”
+
+Cian chau mày khi nghe vậy, một nỗi bất an thình lình ập lên người cô. “Vì thế mà chúng ta phải tự sát? Đó là đòn tấn công chúng ta lên hệ thống ư?”
+
+Miach gật đầu chắc nịch. “Chính xác. Bởi vì chúng ta là thứ quý giá đối với họ. Tiềm năng trong tương lai của chúng ta là nguồn vốn công nghiệp của họ. Chúng ta là cơ sở hạ tầng. Do đó chúng ta sẽ tước đoạt cơ thể chúng ta, tức tài sản của họ, khỏi tay họ. Đó là cách chúng ta cho họ biết cơ thể này thuộc về chúng ta. Chúng ta không khác những người đã đến trước; chúng ta vẫn đang cố phá bĩnh cái hệ thống này. Chỉ là ngẫu nhiên mà con đường tốt nhất để làm đau chúng là tự làm đau ta.”
+
+Miach đã trả lời những lo âu của Cian như thế.
+
+Hiển nhiên, sẽ là chơi khăm các bạn nếu tôi không thừa nhận ngay tại đây rằng hầu hết mọi lần, Cian và tôi cảm thấy hoàn toàn phục tùng cá tính lôi cuốn của Miach. Hai chúng tôi đắm mình trong ánh hào quang của cô ấy, trân trọng chúng trong trái tim.
+
+Hiểu biết rất nhiều, cũng như căm ghét rất nhiều, cô ấy quả là một nhà tư tưởng. Bạn luôn biết được cô ấy đứng ở đâu, khiến theo bước cô cực dễ dàng.
+
+Đến tận bây giờ, tôi không cho rằng ngày ấy tôi đã chọn lựa theo ý riêng của mình. Chỉ là tôi đặt niềm tin nơi Miach – người lúc nào cũng quá đỗi tài giỏi, quá đỗi kỹ càng. Tôi biết cô ấy đã tìm ra phương pháp tuyệt hảo để trả đũa hệ thống. Nên khi cô rút bàn tay nắm chặt từ trong túi áo ra và chậm rãi mở những ngón tay, tâm trí của chúng tôi đã biết chắc nó lạnh lùng nắm giữ phán quyết cuối cùng của chúng tôi.
+
+“Thấy viên thuốc này không? Chỉ cần một viên mỗi ngày thì nó sẽ ngừng hoàn toàn chức năng của hệ tiêu hóa, từ dạ dày đến ruột già của các cậu. Chỉ một viên và cơ thể cậu sẽ cự tuyệt bất kì chất dinh dưỡng nào.”
+
+“Cậu tìm đâu ra vậy?”
+
+Tôi không hề nghi hoặc gì về việc uống thuốc. Tôi chỉ tò mò hết chỗ nói về cách thức cô ấy nhận được nó. Trong thoáng chốc, tôi mường tượng ra rằng cổ đã vừa xoay xở vừa chống đối mạnh mẽ để tìm ra một trong những kẻ trưởng thành mà bại hoại đạo đức—thứ giống nòi lạc hậu đã tuyệt chủng—đang sống đâu đó, rồi hắn thuê cơ thể cô, và nếu may mắn, hắn quen một tay buôn thuốc trong chợ đen.
+
+“Là tớ làm. Bằng medcare unit,” Miach nói, đập tan hy vọng của tôi. Tôi cũng biết là cô ấy không dối gạt. Tại sao cô ấy phải làm vậy? Cian đi tới đằng sau cô, đặt bàn tay lên vai Miach và đỡ lưng cô theo đúng nghĩa đen.
+
+“Tất nhiên là cậu ấy làm rồi,” Cian cất tiếng. “Miach biết cách dùng medcare để tạo độc đủ mạnh để tiêu diệt cả một thành phố mà. So ra thì làm vài viên thuốc còn dễ hơn.”
+
+Chẳng cần ngoái lại, Miach chìa tay ra và đặt một ngón tay lên tay trái của Cian.
+
+Theo nhiều phương diện, Cian là cái bóng của Miach. Đồng cảnh ngộ với tôi, cô ấy thấy khó chịu trong thế giới này, tựa thể cô không thuộc về nó vậy, tuy nhiên bản chất cô là một người yếu bóng vía sẽ làm bất kì điều gì bạn bảo nếu bạn nạt tiếng đủ to. Cuộc đời cô sống trong sợ hãi.
+
+Miach hắng giọng. “Chà, tớ không biết hai cậu thế nào, nhưng tớ sắp chết rồi.” Cô lần lượt nhìn chúng tôi. “Cian? Tuan? Các cậu quyết định sao?”
+
+Đôi mắt tôi đăm đăm vào viên thuốc trắng trên bàn tay xòe ra của Miach.
+
+Viên ngọc trắng con con này sẽ chia lìa thân xác tôi khỏi mọi dưỡng chất mà nó cần. Tôi có thể ăn bữa sáng, trưa và tối trong cặp mắt theo dõi của mọi người, trong khi thứ trái cấm bé nhỏ đấy kéo dắt tôi không lệch một ly khỏi con đường chết đói. Nếu chúng tôi mà là người lớn, WatchMe trong chúng tôi đã gửi tín hiệu báo động suy dinh dưỡng về máy chủ tư vấn sức khỏe, tại đó nó sẽ la hét om sòm cho đến khi sinh phủ gửi một đoàn xe cứu thương đến cứu chúng tôi khỏi tay của mình.
+
+Vì thế, chúng tôi phải thực hiện trước khi trưởng thành. Nói cách khác, ngay lúc này.
+
+Vì đây là cơ hội cho chúng tôi. Vì chúng tôi đã gặp con người thiên tài này, đấng cứu rỗi của chúng tôi, Mihie Miach.
+
+Nếu tôi vuột mất cơ hội này, nó sẽ không bao giờ tới lại lần hai suốt toàn bộ đời tôi.
+
+“Tớ sẽ làm.”
+
+Tôi chẳng biết thời gian đã qua bao lâu khi tôi cứ mãi đứng trân trân nhìn viên thuốc trước khi trả lời. Cian trông có hơi chút miễn cưỡng, nhưng rồi cô cũng đồng ý. Lớp học bấy giờ chẳng còn ai, trừ ba chúng tôi. Vươn tay nhận những viên thuốc xong, chúng tôi tộng chúng vào miệng và nuốt.
+
+Lẽ dĩ nhiên, tôi đã không chết.
+
+13 năm sau, tôi đang đứng ở Sahara, buông làn khói dày đặc từ giữa đôi môi mím lại, trong lúc chờ đợi Étienne và đồng đội anh ta hoàn tất việc chuyển tải các thùng gỗ vào khoang cuối của chiếc xe vận chuyển bọc giáp bên phe tôi. Lão chiến binh Tuareg—Kel Tamasheq—đang phì phèo một điếu xì gà hệt như loại họ đã mang tới cho chúng tôi. Ông ta đang quan sát lính của mình khi họ đang chúi húi trên mặt đất ở một quãng đằng kia và mở một cột antenne di động hình parabol.
+
+“Từ nãy giờ tôi cứ thắc mắc, cái đĩa đó làm gì vậy?”
+
+Tôi đã luôn thấy họ mang nó theo mọi lần họ đến giao dịch với chúng tôi. Đó là một thiết bị liên lạc cổ lỗ, cái loại mà bạn cần phải đeo tai nghe bằng máy lên đầu để nghe. Một cảnh tượng khó coi đối với thành viên trong xã hội hiện đại, những người đã quen với việc nghe những bài nhạc trong danh sách qua thiết bị thu nhận được gắn chìm vào xương hàm.
+
+“Hử? Cái đó á? Nó dùng để gửi tín hiệu sóng cực ngắn.”
+
+“Ngày nay còn ai mà nghe radio sóng ngắn nữa?”
+
+“Không còn ai. Bởi vì thế mà chúng tôi dùng nó để giao tiếp với trợ thủ bọn tôi trên Trạm Vũ Trụ Quốc Tế[31].”
+
+Ngạc nhiên chưa. Tôi cứ ngỡ rằng ISS—một di tích của Hợp Chủng Quốc Hoa Kỳ nay-đã-giải-thể—đã bị tháo dỡ khi quốc gia khai lập nó tan rã trong Thời Kỳ Loạn Lạc.
+
+“Thật chứ? Tôi không hề hay biết là còn có ai đấy trên đó.”
+
+“Là vầy, vài người trong sinh phủ các cô đã hợp tác với nhau để mua lại nó vì mục đích đào tạo phi hành gia. Họ sử dụng nó làm một phần của chương trình huấn luyện những học sinh có tài năng đặc biệt. Một thanh niên của bọn tôi đã vượt được lên một vạn thí sinh khác—” chiến binh Tamasheq xoắn tay áo lên, như một diễn viên đang lên sóng, để lộ ra chiếc đồng hồ đeo tay loại cũ ở trên cánh tay—“và cậu ấy đang bay qua đầu chúng ta ngay lúc này này.”
+
+“Tôi ngạc nhiên là người ta cho cậu ta vào với cái lý lịch như thế - đến từ khu vực có chiến tranh và vân vân.”
+
+“Cậu ta lớn lên ở Mali. Một công dân của Cộng Hòa Mali. Bọn tôi có rất nhiều trợ thủ là những công dân của nhiều quốc gia. Đó là sức mạnh những dân du mục như chúng tôi.”
+
+“Nhưng từ trên không gian thì cậu ta nói gì được cho các ông? ‘Tôi đã thấy Trái Đất, và nó màu xanh, như khăn xếp của chúng ta’[32]?”
+
+Giây phút tôi nói câu đấy, người đàn ông trẻ tuổi đang ngồi xổm cạnh chiếc đĩa với cái tai nghe to tướng chụp trên đầu giơ tay lên. Mặt anh ta trở nên trắng bệch.
+
+Lão chiến binh trừng mắt nhìn anh. “Bình tĩnh. Nghe được gì rồi?”
+
+“Chúng ta đang nhận được tín hiệu…… một máy bay địch, cậu ấy nghĩ đó là WarBird do thám, nó đang bay về vị trí chúng ta. Chắc hẳn là của Niger. Nhưng hình dáng kỳ lạ so với chim do thám. Cậu ấy nói có thể nó có vũ trang.”
+
+Étienne và đội anh ta căng thẳng. Nếu nhóm quan sát hiệp ước ngưng bắn bị ghi hình lại cảnh đang trao đổi hàng hóa với Kel Tamasheq—dù cho chỉ là đang đổi bản patch chủng ngừa lấy tobacco và rượu—thì câu chuyện sẽ rất tệ đây.
+
+Tôi thở dài. “Giờ tôi mới hiểu ra tại sao các ông lại tốn công phí sức chỉ định địa điểm với thời gian đến thế chỉ cho những cuộc gặp gỡ nhỏ của hai bên.”
+
+Họ đã sắp đặt thời gian để trùng khớp chính xác với quỹ đạo của cái trạm bảo tàng không gian đang mang theo cậu điệp viên trẻ của họ bên trong. Trong khi chúng tôi theo dõi phe Tuareg, họ cũng quan sát chúng tôi luôn.
+
+“Phải, không có sự giúp đỡ của anh bạn bọn tôi phía trên, bọn tôi không thể thực hiện các giao dịch này. Cô biết đây là chiến trường mà. Cậu ta là vệ tinh điệp viên của chúng tôi.”
+
+Lão binh Kel Tamasheq thọc tay tới, và tôi đặt tấm memorycel vào đấy. Con người có cài WatchMe vào thân thì có thể dùng chính da của mình để làm bộ nhớ lưu trữ, trao đổi thông tin chỉ bằng chạm ngón tay vài giây, nhưng bên Tamasheq yêu cầu chúng tôi mang dữ liệu bên trong tinh thể nhỏ hình chữ nhật này. Chỉ khi đấy họ mới trao đổi hàng. Họ vẫn chỉ tin vào những thứ ta có thể thấy bằng mắt. Đúng là một kiểu thuyết vật linh[33]. Để trao đổi hàng hóa thì phải có thứ gì đấy sờ mó được đem ra đổi chác, vậy đấy. Dẫu khi vật chứa thực chất chỉ mang tính tượng trưng.
+
+“Cái này theo nguyên tắc sẽ có hiệu nghiệm chống loại bệnh nhiễm khuẩn mới đang lây lan trong khu vực này. Cứ cài đặt nó lên máy chủ nước ông và WatchMe sẽ chặn đường xâm nhập mà các prion[34] của bệnh đang xài.”
+
+Ngang đây tôi nên dừng một lát để đính chính, có hơi trễ chút, rằng người Kel Tamasheq đều có cài WatchMe. Rất tiếc nếu tôi đã gây cho các bạn sự hiểu nhầm hay đã gợi nên một hình ảnh lãng mạn nào đó về những con người thuần khiết, nguyên thủy, chưa bị công nghệ y học nano vấy bẩn. Tamasheq không phải Mennonite hay Amish[35]. Nếu có gì tốt, họ chấp nhận—theo lượng điều độ. Họ khôn ngoan trong phương diện đó. Nếu tất cả những gì phải làm chỉ là một mũi tiêm cỏn con, thì chắc chắn rồi, họ sẽ cài WatchMe vào người thôi.
+
+Vì vậy,
+
+<question>
+
+<Q: Giả sử các bạn là người Tuareg, và tất cả các bạn đều được tiêm WatchMe vào cơ thể cũng như tạo ra một hệ thống giám sát sức khỏe trong người. Do đó, các bạn đã theo dõi sức khỏe người dân được một thời gian, rồi các bạn tìm ra căn bệnh này. Là người Tuareg, bây giờ các bạn làm gì?>
+
+<A: Các bạn không thể làm gì. Không có bộ tộc thiểu số bị chiến tranh tàn phá kiệt quệ nào lại có tiền trong quan tài để chi trả cho chương trình chủng ngừa, mặc dầu họ đã có hệ thống phân phối tại chỗ. Hơn nữa, máy chủ y tế của Kel Tamasheq cũng không được kết nối tới mạng sinh phủ. Nó là Mạng Cục Bộ[36] thuần túy—đúng hơn, mạng khu vực dân tộc thiểu số.>
+
+</question>
+
+Chúng tôi đã bảo vệ máy chủ của họ dăm ba lần. Và lúc này đây, chúng tôi trợ giúp họ bằng cách sao chép bản patch chương trình chủng ngừa từ máy chủ cơ sở chúng tôi rồi bí mật buôn bán với họ.
+
+Hành động đổi chác bất hợp pháp nhỏ của chúng tôi nói cách khác là đang cứu mạng người.
+
+Tất cả cùng với các chương trình chôm từ sinh phủ.
+
+<list:item>
+
+<i: Chúng tôi cứu người.>
+
+<i: Chúng tôi nhận thuốc lá.>
+
+</list>
+
+“Giao dịch hoàn tất.”
+
+“Và chúng ta hết thời gian rồi.” Tôi cột gọn mái tóc dài lại thành đuôi ngựa. “Chúng tôi sẽ quay về ‘thánh đường’ ngay, trước khi người Niger tìm thấy tụi tôi ở đây.”
+
+Người Kel Tamasheq bật một tràng cười chân thành. “Nếu cô ghét thần của mình đến thế, sao không đến ở với chúng tôi, người phụ nữ của y dược nhân? Chúng tôi rất tôn trọng phụ nữ. Đặc biệt là hiện tại, lúc chiến tranh, phụ nữ rất quý giá với chúng tôi.”
+
+“Cảm ơn lời đề nghị, nhưng tôi xin khước từ.”
+
+“Vì cớ gì?”
+
+“Vì chính lý do khởi đầu cho tôi ở đây—vì tôi là kẻ hèn nhát.”
+
+Trong 3 hay 4 giây, chiến binh người Kel Tamasheq trầm lặng nhìn tôi. Ra chiều thấu hiểu và lấy làm tiếc thay cho tôi.
+
+Tôi có thể nói năng thoải mái, nhưng tôi tuyệt nhiên không tài nào rời bỏ sinh phủ, trốn khỏi xã hội mà tôi đã được sinh ra và đặt vào. Bất kể khao khát chạy thoát trong tôi lớn mức nào. Và tại sao lại vậy? Một từ thôi, sợ. Mặc cho tôi có ghét thế nào, tôi không chịu đựng nổi cảnh từ bỏ nó hoàn toàn.
+
+Chính nỗi sợ này:
+
+<list:item>
+
+<i: Đã để Miach chết một mình.>
+
+<i: Đã để Cian và tôi còn lại lẻ loi.>
+
+</list>
+
+Tôi nghĩ mình không đủ mạnh mẽ để theo chân Miach tới thế giới bên kia.
+
+Tôi đã không đủ dũng cảm.
+
+Chiến sĩ Kel Tamasheq chỉ cần nghe nhiêu đấy để hiểu. Gương mặt sạm đen, nhăn nheo, lại còn đen hơn vì bức xạ tia cực tím, nhưng nở ra một nụ cười tươi rói—nụ cười của người cha. Ông ta chìa tay ra để bắt tay.
+
+“Thế thì chúng ta sẽ gặp lại trong cuộc trao đổi tiếp theo, người phụ nữ của y dược nhân. Giả như cô đổi ý và mong được gia nhập bọn tôi, cô lúc nào cũng được chào đón.”
+
+“Thế hẹn gặp ở vụ trao đổi tới, chiến binh của những người nói tiếng Tamasheq.”
+
+Vậy là đủ để tôi biết mình có một nơi có thể trốn tới.
+
+Lòng tử tế của lão binh người Tamasheq trao cho tôi khác hẳn với lòng từ thiện gượng gạo mà tôi sống và lớn lên cùng. Đó là kiểu ân cần chỉ đơm hoa từ những môi trường khắc nghiệt nhất, giữa một dân tộc vì tự do mà đã bền bỉ đấu tranh lại với hàng loạt đế vương và độc tài.
+
+Cả tôi và chiến binh kia bấy giờ quay lưng đi và bước trở lại phe mình.
+
+“Nhanh chút nữa, ma reine!” Étienne gọi vọng ra từ cửa sổ của ghế hành khách trên xe vận tải. Tôi phất tay ra dấu cho anh ta yên lặng rồi đi vòng sang phía kia, nhảy phốc lên ghế lái xe và nắm bánh lái.
+
+Phần: 04
+
+<declaration>
+
+<i: Công việc của tôi là khơi nguồn chiến tranh.>
+
+<i: Chí ít là hình như ai cũng nghĩ thế.>
+
+</declaration>
+
+Không phải lúc nào cũng thế này. Chuyện đã khác đi, tuy chỉ một quãng ngắn trước khi tôi gia nhập cục.
+
+Cục Thanh Tra Xoắn Ốc[37] là một bộ phận của WHO, Tổ Chức Y Tế Thế Giới.
+
+Lúc mới đầu, chúng tôi hao hao Cơ Quan Năng Lượng Nguyên Tử Quốc Tế, nhưng về di truyền học thay vì vũ khí hạt nhân. Công việc chúng tôi là thăm viếng các cơ sở đang nghiên cứu về công nghệ di truyền của sinh phủ để đảm bảo không có thành phẩm nào mang tiềm năng đe dọa loài người. Bổn phận chúng tôi là giám sát công nghệ, chấm hết. Đấy là khi cái từ “Xoắn Ốc” được gắn vào tên chúng tôi.
+
+Tuy nhiên, câu chuyện đổi hướng, phạm vi hoạt động của chúng tôi mở rộng dữ dội qua các năm đến khi nói chung, chúng tôi trở thành một nhóm vẫy cờ của đám nhà-ngoại-giao-kiêm-quân-giữ-hòa-bình nhận trách nhiệm bảo vệ sinh mạng mọi nơi—không phải là đặt một dấu chấm quá tròn trịa lên đấy. Như Miach ngày xưa hay nói, không ai vẫy cờ lớn mà làm việc tốt. Vậy là chúng tôi lang thang vào hệ thống sinh phủ khác và thậm chí là vài chính phủ kiểu cũ để kiểm tra xem họ có đang giữ dân chúng sống một lối sống “lành mạnh và con người” thích đáng hay không—một công thức gây chiến nếu thứ đó có tồn tại. Chúng tôi tựa như quả lựu đạn cầm tay được ních đầy các hạt giống gây phế tật cho người khác, thứ mà những bậc cấp cao đã hân hoan bàn giao cho chúng tôi vì lý do tôi không thể hiểu được một chữ.
+
+Đây là nơi tôi đã chọn để tháo thân khỏi thế giới.
+
+Khi các quốc gia dần dà cắt giảm chức năng, chỉ còn vỏn vẹn vài kiến thức mơ hồ về lực lượng quân đội và cảnh sát, cương vị lãnh đạo của nền kinh tế toàn cầu rơi vào tay hằng hà sa số sinh phủ mọc lên thay chỗ họ. Không giống thể chế chính phủ quốc gia nay-đã-lỗi-thời, sinh phủ gồm các đơn vị nhỏ hơn, thi hành theo cùng nguyên lý về thuốc men, sự ân cần và lòng tử tế—có nghĩa là nếu họ thấy một người hàng xóm đang bị đau, họ không thể cứ đứng yên và bỏ mặc người kia với các thiết bị riêng. Dù cho bề ngoài Niger là một quốc gia kiểu cũ, nguyên nhân cuộc tranh chấp với Tuareg không gì ngoài nỗ lực sai lầm nhằm buộc Kel Tamasheq liên kết tới máy chủ y tế của Niger—“Để đảm bảo những người du mục một lối sống lành mạnh hơn,” bọn họ nói vậy.
+
+Còn câu trả lời của Kel Tamasheq, tất nhiên rồi, đó là “Cút xéo.”
+
+Các nhà xã hội học diễn giải nguyên tắc kim chỉ nam đằng sau Cục Thanh Tra Xoắn Ốc, và của bề ngoài chính phủ Niger, như thế này:
+
+<dictionary>
+
+<item>Chủ Nghĩa Sinh Mệnh</item>
+
+<definition>
+
+Một chính sách hoặc một xu hướng được ban hành về mặt chính trị xem việc giữ gìn sức khỏe là trách nhiệm tối cao của sinh phủ. Dựa trên hệ thống phúc lợi xã hội của thế kỷ hai mươi mốt. Nói nôm na, điều này nghĩa là: mỗi người trưởng thành thành tham gia mạng giám sát sức khỏe nội cân bằng; sự thiết lập hệ thống tiêu thụ thuốc khối lượng lớn với thuốc men và sản phẩm y tế có giá phải chăng; và cung cấp chất dinh dưỡng đúng cách cũng như lời khuyên về lối sống nhằm giảm bớt các căn bệnh liên quan đến lối sống có thể tiên đoán được. Các hành vi này được xem là hành vi cơ bản tối thiểu cho phẩm cách con người.
+
+</definition>
+
+</dictionary>
+
+Chúng tôi, những Đặc vụ Cục Xoắn Ốc là chiến sĩ ưu tú của chủ nghĩa sinh mệnh. Dù sao đấy cũng là cách nhiều người nhìn nhận chúng tôi. Và sự thật ấy đúng đến nỗi rằng, lúc chúng tôi vào thế sẵn sàng sau khi nhận yêu cầu từ vài sinh phủ, những gì tôi viết vào báo cáo sau đó thường hay trực tiếp làm các phe liên quan lao vào chiến tranh.
+
+Với tình hình Sahara hiện nay, Cục còn chưa quyết định chúng tôi sẽ theo phe nào. Như tôi đã nói lúc trước, bên Tuareg đã cài đặt WatchMe, và họ dùng điều đó để biện luận rằng “họ không phải người chống đối chủ nghĩa sinh mệnh”, ngược với điều người Niger cáo buộc họ.
+
+Là thẩm phán tự phong của mọi sinh mạng, Cục Thanh Tra Xoắn Ốc không bao giờ muốn bùa rìu dư luận nghiền nát—đôi khi khá là theo nghĩa đen.
+
+<list:item>
+
+<i: bắn>
+
+<i: đâm>
+
+<i: siết cổ>
+
+<i: đầu độc>
+
+<i: đánh bom>
+
+</list>
+
+Đây chỉ là một vài trong vô vàn cách đã cướp đi mạng sống của không ít hơn 12 Đặc vụ Cục Xoắn Ốc trên đường thi hành công vụ. Đây là công việc tôi đã tìm kiếm cho bản thân, thơ thẩn tới mọi vùng chiến sự trên thế giới, gọi mời căm hận mỗi lần ghé tới—thanh tra viên cao cấp ở độ tuổi 28 mỏng manh. Do những hiểm nguy dính líu tới nghề nghiệp, tôi đã luyện tập cách sử dụng các vũ khí tân tiến nhất và thêm không ít loại thô sơ hơn.
+
+Bởi vậy mà Étienne—người có bản lĩnh đàn ông bị bán rẻ vì hoàn toàn không có kinh nghiệm cận chiến—có lý khi cầu cứu tôi từ ghế pháo thủ của chiếc xe vận tải được vũ trang.
+
+<shout>[38]
+
+“Ta gặp rắc rối rồi, ma reine! Chúng sắp thấy ta mất!”
+
+</shout>
+
+“Ờ, chắc là bên kia đã chụp vài tấm rồi,” tôi lẩm bẩm với bản thân, rồi quát to át đi cả tiếng rền rĩ của động cơ xe vận tải và tiếng keng kéc của hệ thống giảm xóc, “Anh có nghĩ nó vận hành độc lập[39] không?”
+
+“Chắc là thế,” Étienne lớn tiếng đáp lại. “Niger biết Tuareg dùng biện pháp đối phó điện tử, nên tốt nhất là cho WarBird bay yên lặng.”
+
+“Vậy là đại bàng trọc bị tiêm thuốc và được huấn luyện tốt của ai đó.”
+
+“Bộ não thì đúng thế. Nhưng cơ thể là vật liệu tổng hợp mềm. Nhiều mấu cứng trên cánh.”
+
+“Chim do thám mang hàng nóng? Hơi lạ đấy.”
+
+“Đây được cho là đất hoang. Nếu có ai ngoài này thì hoặc là người Niger hoặc Tuareg. Vậy cớ sao chúng không được vũ trang cơ chứ?”
+
+“Chậc, miễn là chúng thực sự vận hành độc lập và không gởi hình ảnh của chúng ta về trụ sở thì ta không hề gì.”
+
+Tôi bảo một người dưới trướng Étienne lái xe giùm tôi rồi đưa bánh lái cho anh ta. Di chuyển về buồng sau, tôi lôi ra một vật thể hình ống trông-nguy-hiểm-chết-người vốn được giấu cạnh thùng xì-gà và rượu—thứ được chiến binh Kel Tamasheq quăng vào làm “quà khuyến mãi”.
+
+“Xuống khỏi ghế pháo thủ đi, Étienne. Tôi sẽ lo vụ này.”
+
+“Lo, ý cô là sao—”
+
+Khi anh chàng người Pháp nhìn xuống từ trên cao và nhìn thấy thứ tôi đang cầm, mọi thớ gân trong người anh đông đá, làm tay anh tuột khỏi lan can. Étienne ngã lướt qua tôi, rơi vào buồng chở người. Không phải là tôi chê trách gì anh ấy. Đâu phải ngày nào bạn cũng có thể thấy một cô gái ôm ống phóng tên lửa cổ-hơn-một-thế-kỷ trong tay.
+
+“Nói người của anh tiếp tục lái thẳng. Lái thế nào thì lái, nhưng tôi không muốn anh ta đột ngột quay bánh xe hay gì hết.”
+
+“Hiểu rồi,” tiếng đáp nghèn nghẹn vọng lại. Cùng ống phóng hung bạo trơ tráo trong tay, tôi nhô người ra khỏi cửa sập trên nóc.
+
+“Cô chắc là có thể lo được cái đó không, cô Kirie?” Tôi nghe thấy tiếng Étienne ở tầng dưới xe tải.
+
+“Tốt hơn anh,” tôi thầm trả lời, rồi siết cò.
+
+Trong tất cả những điều tinh tế của chúng, WarBird khá là kém điệu nghệ khi bay. Chúng không bao giờ bay zig-zag hay lượn vòng, cứ bay thẳng tắp tới mục tiêu như con đang bay vào chúng tôi lúc này. Mọi việc tôi phải làm là khai hỏa món quà từ người Kel Tamasheq vào không trung ngay đằng sau lưng chúng tôi với mục tiêu đảm bảo một vụ nổ chí mạng tại điểm gặp mặt trên không.
+
+<list:item>
+
+<i: đôi cánh được phủ đầy mấu cứng>
+
+<i: xác và thân máy điều khiển cánh>
+
+<i: bộ não động vật sống lắp vào mạng thần kinh>
+
+<i: một chút mảnh giáp>
+
+</list>
+
+Cái gì từng là con chim văng vương vãi trên bầu trời sau một pha bừng sáng ngắn gọn—một mớ màu tươi tình cờ bôi bẩn lên phong cảnh xanh lam và vàng.
+
+“Kính cận chiến!” Tôi la lên, vừa thọc tay xuống khoang mà không rời mắt khỏi bầu trời đằng sau. Étienne chuyền cặp kính của mình lên và tôi mau chóng quét khắp khu vực. Không còn WarBird trong tầm nhìn.
+
+“Chí ít, không có gì ở độ cao thấp. Nhưng hãy trông chừng,” tôi thông báo khi chui lại vào xe tải.
+
+Tôi thả cho cái ống phóng giờ-rỗng-không lăn trên sàn, và đổ quỵ, cảm thấy như sức lực bòn rút khỏi tứ chi. Sau khi điều hòa hơi thở, tôi cởi mớ tóc buộc đuôi ngựa. Giải phóng khỏi vòng bóp nghẹt, mái tóc tôi cứ cuồn cuộn, mơn trớn qua trước trán và mà tôi.
+
+Hút thuốc ngày nay rất khó. Mà ngay từ đầu, rớ tay lên thuốc lá còn khó hơn. Tâm trí tôi – vừa thoát khỏi sự căng thẳng bóp chẹt – đang thút thít trong sọ tôi rằng nó không muốn nhìn gì, không muốn nghe gì. Tại sao không chứ? Étienne có thể đưa chúng tôi về căn cứ. Mình chỉ cần lặng lẽ ngồi đây cho đến khi đi qua cái cửa an ninh đó.
+
+Tôi khép mắt và để mặc giấc ngủ nhẹ nhàng ôm lấy mình. Những cơn sóng của mỏi mệt vỗ về thái dương tôi.
+
+≡
+
+Một chút nhận thức hiện lên vào khoảnh khắc tôi mở mắt. Tôi đã thất bại.
+
+Trên trần nhà, bóng đèn tỏa sáng màu hồng nhạt dìu dịu.
+
+Tôi đang nằm nghiêng một bên, bao quanh là máy móc. Có những ống gắn vào tôi—không chỉ một cái trên cổng y tế dưới xương đòn tôi, mà còn được gắn theo cách cũ nữa, bằng ống tiêm. Tôi đang ở trong một phòng cấp cứu ở bệnh viện. Hoặc phòng cấp cứu ở trung tâm đạo đức. Tôi chỉ mất một lát để nhận ra chắc cái nào là đúng.
+
+Tôi còn sống. Đồng nghĩa tôi đã thất bại.
+
+Không chỉ một lần, mà những hai lần.
+
+Đây không phải là lần đầu tiên tôi mưu toan tự sát bằng thức ăn. Thậm chí một quãng thời gian trước khi gặp Mihie Miach, tôi đã từng được mang tới một trung tâm y như thế này sau khi bội thực. Tôi không nghĩ ý thức tôi khi ấy hình thành rõ quyết định sẽ chết. Đúng hơn là một khao khát mơ hồ muốn được chết, nó đã cháy ầm ầm trong hộp sọ tôi bao năm liền trước khi rốt cuộc tôi quyết định hành động.
+
+<disappointment>[40]
+
+Bội thực không giết mình được. Tuyệt thực cũng không.
+
+</disappointment>
+
+“Không phải lại nữa chứ,” tôi lầm bầm, dầu cho bấy giờ tôi đã thấy mẹ tôi đang ngồi kế cạnh giường tôi.
+
+Là đây, là lúc mình chết. Tôi đã chắc mẩm điều đó. Tôi đã quá tự tin đến ngu ngốc dường nào. Tất cả những gì tôi cần là Miach và công cụ—vũ khí—cô ấy đưa tôi, tôi đã nghĩ vậy và tôi chắc chắn sẽ thực hiện. Nếu cô ấy có thể tạo ra thiết bị có khả năng tàn sát hàng loạt từ một medcare unit gia dụng, cô có thể làm bất cứ điều gì.
+
+Nếu tôi không thể làm điều này dù cho có sự giúp đỡ của cô ấy, vậy thì tôi sẽ sống cả đời mà không làm được bất kì cái gì cả.
+
+Tôi thật quá phụ thuộc vào cô ấy.
+
+“Con tỉnh rồi,” mẹ tôi nói, rồi bà bắt đầu khóc. Cứ như điều tôi vừa nói chẳng làm bà sợ nổi. Hay phải chăng là do cổ họng tôi đã quá khô cằn chẳng đủ cất nên lời. Mà đằng nào, ai quan tâm? Tôi mới là người sẽ sống chung với thất bại của mình, có phải bà ấy đâu.
+
+“Thế còn Miach?”
+
+Lần này thì tôi chắc cú là bà ấy đã nghe tôi. Tôi thấy bà hơi nhíu mày, chân mày bà nheo lại. Tôi hỏi lần nữa.
+
+Đầu đó trên đầu tôi, tiếng bíp của máy theo dõi sinh học trẻ em vang lên nhỏ nhẹ rồi tan đi.
+
+Tôi mà là người lớn thì đã không cần cái nào trong số chúng. Họ chẳng cần bất kì thiết bị ngoại vi để biết chuyện đang xảy ra bên trong tôi. Trừ WatchMe đã được cài sẵn. Trừ đám medicule khi nào cũng đang ba hoa tình hình mọi thứ dưới da tôi.
+
+“Miach…… không qua khỏi,” mẹ tôi nói, môi bà mím lại. Cứ như là lỗi của bà.
+
+Tôi muốn nôn.
+
+<anger>
+
+Đừng làm thế, Mẹ à.
+
+</anger>
+
+Môi tôi vẫn đóng, nhưng sâu trong thân thể ốm gầy và bất động của tôi, tôi gào lên: Đừng làm vậy! Đừng cảm thấy có lỗi về cái chết của người khác! Cậu ấy không liên quan gì đến mẹ cả! Cái thế giới này—thứ yêu cầu bạn phải đồng cảm với người khác, ngay cả người bạn chưa từng gặp—là thứ tôi không chịu đựng nổi. Không khí nồng nặc lòng tốt, đặc sệt ý thức rằng mọi người là tài sản cộng đồng. Hình thức suy nghĩ thỏa đáng duy nhất là một lẽ phải chung quần chúng: ép buộc ta phải tự trách bản thân do đã không thể ngăn ai đó tự sát—mặc cho không tồn tại nổi một con đường ta có thể tưởng tượng.
+
+Tuy nhiên tôi chẳng còn sức lực và ý chí để bật to điều ấy, nên tôi chỉ đơn giản là lẩm bẩm, “Vậy là cậu ấy đã chết.”
+
+Mẹ tôi gật đầu, chấm chấm nước mắt với chiếc khăn tay. “Nhưng Cian vẫn ổn. Con bé đang được điều trị ở trung tâm khác.”
+
+“Ồ.”
+
+Chế độ thuốc men và lời khuyên xuất hiện kế tiếp đã lôi xệch tôi – hãy còn vùng vẫy và la hét – về lại khuôn phép xã hội.
+
+<list:item>
+
+<i: Thoát khỏi cái thế giới bị phù thũng[41].>
+
+<i: Thoát khỏi cái thế giới bị suy giáp[42].>
+
+<i: Thoát khỏi cái thế giới bị loãng xương.>
+
+</list>
+
+Về lại thế giới có sức khỏe đều đặn nhưng giao phó cho tay kẻ khác.
+
+Hàng ngày nhận lời tư vấn và thuốc, tôi lại chôn thất bại của mình sâu thêm. Chí ít kinh nghiệm tôi cũng mách bảo không nên để cố vấn viên của mình biết tôi cảm thấy thế nào về việc ấy.
+
+Chuyện xảy đến với tôi khi tôi đang trên xe taxi từ trung tâm về nhà với mẹ.
+
+Tôi ngồi cạnh bà, mắt nhìn qua cửa sổ về phía bầu trời ban chiều trên sông Sumida. Sự thanh biên yên ả của những tòa nhà xếp dọc đôi bờ làm tôi lạnh thấu xương. Chúng đều được tô màu nhạt nhẹ—hồng, lam, lục—tất cả chỉ thiếu chút nữa là thành màu trắng.
+
+Không có luật nào cấm sơn màu nhà có phần lý thú hơn, ấy vậy này đây, một chuỗi dài vô tận những ngôi nhà, toàn mang sắc thái nhạt nhẽo, chìm lỉm. Không cái nào trong số chúng phá cách. Không có gì quấy nhiễu mắt, và vì thế không có gì quấy nhiễu tâm hồn.
+
+<hopelessness>[43]
+
+Mình không làm được gì cả.
+
+</hopelessness>
+
+Đấy là lúc tôi học được cách bỏ cuộc. Miach đã chết, và cô ấy chẳng hoàn thành được gì. Tôi mất hết thảy hy vọng vào thế giới, và đồng thời, học được cách sống không hy vọng.
+
+Tôi ngước mắt ra ngoài cửa sổ và thấy mặt trời chiều ngày 12 tháng 6 năm 2060 đang rọi xuống khu vực lộ thiên của bệnh viện khổng lồ kéo dài tới đường chân trời ở hai bên bờ sông. Nhân loại đang bị nhốt trong một bệnh viện vô biên giới.
+
+<regret>[44]
+
+Tớ xin lỗi, Miach.
+
+</regret>
+
+Tôi đã không thể làm được. Và một sinh mạng đã được tế lên các vị thần y dược để tôi thấu hiểu. Tôi bắt đầu khóc ở ghế sau xe taxi. Đôi mắt mẹ tôi vẫn nhìn về con đường phía trước, tựa như bà không để ý. Sau khi ngơi nước mắt, tôi dựa ra ghế và ngủ thiếp đi.
+
+≡
+
+Tôi lại mở mắt ra.
+
+Kirie Tuan, thanh tra viên cao cấp, 28 tuổi.
+
+Étienne đang lay phần vai mà tôi tựa lên thùng thuốc lá và rượu.
+
+“Chúng ta về căn cứ rồi, ma reine.”
+
+Phần: 05
+
+“Lữ đoàn trinh nữ e thẹn”.
+
+Đó là cái tên người ta đặt cho Y Tế Đoàn. Tôi nghĩ ý họ là muốn khen.
+
+Nếu bạn thắc mắc liệu mọi Y Tế Đoàn thuộc sinh phủ đều mặc đồng phục hồng hay không, thì bạn đúng rồi đấy. Dù đến Pháp, Nga hay Mexico, mọi đồng phục của Y Đoàn và mũ bảo hộ, hay xe tải bọc giáp đều được tô màu quả đào hơi chín. Giống như quân đội luôn mang màu xanh olive ngả xám, và màu xanh đen cùng với trắng.
+
+Vì lẽ ấy mà các lều trại trong trại quan sát hòa ước Niger đều mang màu hồng.
+
+Chọi lại một biển màu hồng nhạt, tà áo đỏ sẫm của Đặc Vụ Cục Xoắn Ốc chúng tôi lạc loài. Thực ra, chúng tôi lạc loài ở mọi nơi. Lúc này tôi đang tìm đường đi qua những cái lều, đến chỗ các thùng gỗ đang được dỡ xuống—sân sau.
+
+Tôi mang đi phần của mình và phần cho chàng chuyên viên máy chủ của chúng tôi—cứ gọi anh ta là Alpha—rồi để Étienne và đội anh xử lý phần còn lại. Tôi sẽ trở lại văn phòng của mình nhanh nhất có thể và tự chuốc say mình, như tôi đã luôn làm. Ít ra kế hoạch là vậy.
+
+Tôi chẳng hứng thú về chi tiết phương thức Étienne phân chia chiến lợi phẩm từ Kel Tamasheq, hay anh ta kiếm bao nhiêu tiền, hay anh ta lượm riêng bao nhiêu. Anh ta luôn chuyển cho tôi một khoảng sau khi xong phi vụ, nên tôi biết chí ít anh ta không cuỗm tất cả. Tạm thời thế là đủ tốt rồi. Những gì tôi cần là thuốc lá và rượu. Vậy thôi.
+
+<list:item>
+
+<i: Những thứ phá hư phổi tôi.>
+
+<i: Những thứ phá hư gan tôi.>
+
+</list>
+
+Trong thế giới của tôi, bạn phải vật lộn đủ đường để tới vùng sâu vùng xa, tới vùng chiến sự, chỉ để tìm cách phá hư bạn. Hiệu quả, nhưng vô cùng tầm thường. Tầm thường hơn nhiều so với việc tôi từng thử làm lúc còn cấp 3, trước khi tôi mất Miach.
+
+“Tôi mang hàng về rồi,” tôi loan báo, vừa bước chân qua vạt vải màu hồng làm cửa lều chỗ Alpha làm việc—chỗ tôi phát hiện ra không chỉ Alpha đang bị các màn hình thu nhận thông tin bủa vây, mà còn có sếp của tôi với bộ mặt siêu siêu đanh thép. Tôi bắt gặp cái mặt sợ sệt khúm núm của Alpha và hiểu rằng sự việc đã rẽ ngoặt sang hướng xấu nhất. “Chúng tôi đang đợi cô, Thanh Tra Viên Cao Cấp Kirie,” người phụ nữ trong chiếc áo khoác màu đỏ thẫm hệt như tôi lên tiếng.
+
+“Sếp cần nói gì với tôi vậy, Os Cara?”
+
+“Chỉ là về cái mà cô đang giấu sau lưng.”
+
+Tôi nhún vai rồi tung chai rượu vang về phía bà ta. Tôi có tiếng là dễ dàng bỏ cuộc.
+
+Bà bắt lấy chai Petrus cổ, thứ chất lỏng màu hồng ngọc sóng sánh trong chai thủy tinh.
+
+<dictionary>
+
+<item>Château Petrus</item>
+
+<definition>
+
+Nhãn hiệu một loại thức uống có cồn có nguồn gốc từ vùng Pomerol của Pháp. Một loại “rượu Bordeaux”. Trên nhãn có vẽ hình ông Thánh Phêrô, vị Tông Đồ thứ 12[45]. Chai rượu lâu đài này nhảy phốc từ nơi khá tăm tối lên vị trí tiếng tăm mênh mông sau khi giành huy chương vàng ở Triển Lãm Paris 1889. Một trong những loại rượu vang đắt đỏ nhất vào thời hoàng kim của nó, nhưng từ sau Thời Kỳ Loạn Lạc và sự leo thang của chủ nghĩa sinh mệnh, nó gánh chung số phận với tất cả loại đồ uống có cồn khác.
+
+</definition>
+
+</dictionary>
+
+Đã hơn 40 năm kể từ lần cuối có ai đó ở quốc gia phát triển có thể tự do thưởng thức rượu. “Ta có gì ở đây nào?” Os Cara thở ra khi tay trái bà nhẹ nhàng chụp lấy cái chai chứa thú hoan lạc bị cấm. “Tôi sẽ hỏi nếu cô không biết ngượng, mà thôi, tôi biết câu trả lời rồi.”
+
+“Nó được gọi là rượu vang.” Tôi khịt mũi. “Có bao giờ nghe chưa?”
+
+Bà ta còn chẳng thèm nhìn nhãn. “Một chai Bordeaux. Rất nhiều nho đen trong này—vài thùng rượu còn tới trăm phần trăm, tùy theo năm. Tạo màu rất đều.”
+
+“Thiệt hả.”
+
+“Gần như là không. Thực ra, tôi đã uống một chai khi còn trẻ hơn nhiều. Thế hệ cuối cùng có thể thực sự tận hưởng đồ cồn. Tôi hồi trước có một chai Petrus y thế này ở nhà.”
+
+“Tôi nghe nói nó khá đắt,” tôi nói, vừa bước lại gần anh chàng Alpha đang run run và sếp của tôi dù cho tôi cảm thấy mình đang đi vào bẫy.
+
+“Gia đình tôi khá là giàu trước Thời Kỳ Loạn Lạc.”
+
+“Sếp không cần phải nói,” tôi nói, giờ thì tôi đang đứng trực diện sếp. Chủ Tịch Thanh Tra Os Cara Stauffenberg.
+
+<notes> Được xức dầu phong làm tiểu thiên sứ của Cục Xoắn Ốc; tại trụ sở Geneva, người ta chỉ biết đến bà là ‘Chủ Tịch’. Độc thân. 72 tuổi, với diện mạo là một phụ nữ đẹp ở độ 35 nhờ WatchMe với độ phân giải siêu cao, một hệ thống kiểm soát hoàn hảo, điều trị chống oxy hóa thường kỳ, và loại bỏ các lỗi sao mã RNA dồn ứ theo định kỳ. </notes>
+
+“Chà, thế này không được.” Bà giơ cái chai ra. “Cô biết có thứ như vầy thì chúng ta xấu hổ biết bao.”
+
+“Tôi vẫn chưa mất hết lý trí đâu, nếu đó là thứ sếp đang mời, Chủ Tịch.”, tôi nói với môi cười nhạt.
+
+Bà ấy trừng mắt với tôi. Alpha, với mồ hôi như tắm, rụt lui ra núp sau những màn hình của mình. Anh ta thậm chí không còn nhìn chúng tôi nữa. Cặp mắt ảnh nhìn vào khoảng không nào đó, chắc là chút tàn dư của sự nghiệp mình.
+
+“Ít ra có vẻ cô còn nhận thức hành vi vi phạm của mình. Tuy nhiên, rõ ràng cô không hiểu được chúng ta là ai và chúng ta ở đây làm gì.”
+
+Tôi buộc phải cười. Chính là vì tôi biết quá tường tận Sahara là cái chốn nào đến độ tôi đã yêu cầu đặc biệt để được chuyển tới đây. Lại một khoảng lặng cho tới khi thượng cấp của tôi nói.
+
+“Nhóm quan sát hiệp ước hòa bình Niger đang ở trong tình cảnh vô cùng tế nhị hiện giờ. Báo cáo mà Đặc Vụ Cục Xoắn Ốc chúng ta tường trình lên sẽ xác định bên nào trong hai bên, Niger hay Tuareg, là đúng trong xung đột này.”
+
+Tôi nhún vai. Tôi khá chắc rằng nếu người ta biết chúng tôi chia chác thuốc lá và rượu, bên Tuareg sẽ coi chúng tôi là đồng minh, cùng với gu sống trong điều độ của họ. Nhưng dường như đây không phải là viễn cảnh trong đầu sếp tôi. Bà ấy bắt đầu đi quanh tôi nhưng rất sát.
+
+“Việc quan sát mà chúng ta làm thay phần của sinh phủ không được châm dầu thêm cho xung đột. Nếu có lời đồn rằng chúng ta, những người theo lẽ thường là trụ cột chống đỡ chủ nghĩa sinh mệnh và vô địch về sống lâu sống khỏe, lại đang buông mình trong các chất gây hại như rượu và thuốc lá, đấy sẽ là thảm họa.”
+
+Thảm họa cho ai, tôi tự hỏi. Hiển nhiên tôi chẳng bận tâm gì. Tôi chẳng hại ai với việc hút thuốc bị động. Và chẳng phải tôi được quyền làm hại bản thân bao nhiêu tùy thích sao? Không, tôi lập tức chấn chỉnh bản thân. Ngay cả nghĩ vậy cũng bị cấm ở thời đại của lẽ phải quần chúng.
+
+“Điều tôi muốn biết là làm thế nào mà cô giữ WatchMe của mình không bao giờ kêu la. Đáng lý bất cứ lượng chất cồn nào vào người đều bật báo động các medicule trong hệ thống của cô, nó sẽ tức tốc báo về máy chủ theo dõi sức khỏe—”
+
+“Chậc, lang thang ở miền quê hẻo lánh này, máy chủ thường xuyên offline[46] lắm,” tôi nói, như thể cấp trên tôi thực sự một lời giải thích về điều kiện ở trại quan sát hòa ước đây. “Và bên cạnh đó, con gái chúng ta biết một chút ma thuật. Có điều, chỉ những người trong chúng ta vẫn còn nhớ mình là con gái.”
+
+“Thú vị lắm,” bà ta nói mà giọng không chút hài hước. “Tôi không biết cô đã dùng biện pháp lén lút nào để lấy thứ hàng cấm này, nhưng tôi sẽ cho cô biết những thiệt hại mà hành vi của cô đã mang lại cho nhiệm vụ của chúng ta.”
+
+“Tôi biết sẵn rồi: không có gì cả.”
+
+Tôi vỗ một tay lên vai bà ấy một cách nhẹ nhất có thể. Đằng sau lớp áo khoác mà đỏ đậm, Os Cara Stauffenberg giận run người. Tôi lướt ngón tay khe khẽ qua con rắn chạm nổi đang uốn mình quanh cây trượng trí tuệ trên huy hiệu WHO bà ấy mang. “Tôi không lo huy hiệu của sếp sẽ bị nhuốm bẩn đâu, Os Cara. Vì sếp sẽ không nói với bất kì ai về chuyện này, đúng không sếp.”
+
+Os Cara tặc lưỡi. Tôi chợt nảy ra rằng đó chắc là biểu hiện khinh bỉ gây xúc động nhất mà bà, một thành viên sống-trong-nhung-lụa của xã hội, có thể biểu lộ.
+
+<anger>
+
+“Dĩ nhiên là tôi không thể công bố chuyện này.”
+
+</anger>
+
+Bà ta trừng mắt với tôi. “Nếu quyền lực của Cục bị nghi ngờ, thì mọi nỗ lực để làm thế giới này lành mạnh hơn, hòa bình hơn, độ lượng hơn sẽ ra công cốc. Ngay cả nói ngắn gọn, nếu tôi báo cáo lại ‘buổi tiệc’ nhỏ của cô, nhiệm vụ quan sát của chúng ta ở Niger này sẽ mất sạch sự tín nhiệm trong nháy mắt.”
+
+<sarcasm>[47]
+
+“Tôi rất lấy làm tiếc, Chủ Tịch.”
+
+</sarcasm>
+
+Tới lúc này, Alpha hình như nhận thấy sự việc có thể không xấu tệ hại như anh từng tưởng. Tôi cũng vỗ vai anh ta một cái, vừa nói, “Tôi tất nhiên là mong không có chuyện như vậy xảy ra với nhiệm vụ tuyệt vời của chúng ta ở đây.”
+
+<yell>[48]
+
+“Tôi chưa xong!”
+
+</yell>
+
+Alpha quay lại trạng thái ban đầu: khiếp sợ đến cứng đờ.
+
+“Tôi e là cô sẽ phải nhận trách nhiệm vì những gì cô đã làm, Thanh Tra Viên Cao Cấp Kirie. Cô sẽ trở về nhà vào chuyến bay gần nhất sắp tới và ở lại đấy cho tới khi cô nhận ra lỗi lầm trên con đường của mình.”
+
+“Nhà? Ý sếp là Nhật Bản á……”
+
+Đéo thể nào.
+
+Sau tất cả những gì tôi đã làm để thoát khỏi cái nhà giam ấy—bội thực, nhịn đói, mất một người bạn—rồi kết thúc ở cái nghề nghiệp hiện tại của mình - bay hết từ vùng chiến sự này tới chiến sự khác.
+
+Đéo thể nào.
+
+“Đúng vậy. Nhật Bản. Tôi sẽ không cho cô sử dụng chiến trường làm chỗ tiêu khiển đâu. Cô đã phản bội chúng tôi. Tôi muốn cô trở về và chiêm nghiệm thế nào là yêu thương và được đồng loại yêu thương thực sự, Tuan. Cô sẽ học làm sao để đúng đắn theo cộng đồng.”
+
+Cấp trên của tôi đặt chai rượu vang xuống cạnh một cái màn hình của Alpha và sải bước khỏi lều, bỏ lại tôi đang đứng chôn chân. Tôi đã mường tượng sẵn những ngày tháng áp lực trước mắt. Tôi sẽ lại sống ở Nhật. Cái nơi mà lúc còn nhỏ tôi đã ghét, cái nơi mà Miach ghét thấu tâm can. Nhật Bản.
+
+“Cô quá tuyệt vời,” Alpha bé giọng, một tiếng thở phào thoát khỏi môi anh. “Hoàn toàn kinh ngạc. Tôi không thể tin nổi là cô thoát trận chỉ với một hình phạt nhẹ nhàng vậy. Tôi đã từng nghe nói cô là người đầy sinh lực, Tuan, nhưng đó là chuyện khác. Chẳng trách Étienne gọi cô là nữ hoàng.”
+
+Tôi bất chợt muốn tặng một cái tát thật mạnh cho anh chàng Alpha đang hân hoan lảm nhảm, nhưng thay vì cho phép bản thân trút bạo lực, tôi lại lấy chai rượu và nốc cạn cả chai Château Petrus trong một hơi. Một dòng suối con con màu hồng ngọc chảy ra từ mép miệng và bò xuống má tôi, bắn vãi lên tấm áo khoác đỏ thẫm của Đặc vụ Cục Xoắn Ốc. Alpha nuốt nước miếng, niềm vui sướng thoáng chốc của anh bốc hơi còn nhanh hơn rượu trên cổ áo tôi.
+
+Tôi cần thứ này. Tôi cần phải được uống như thế này. Đây có thể là lần cuối cùng tôi uống cho quãng thời gian dài sắp tới.
+
+Trái tim tôi thắt lại.
+
+Sayonara[49], Sahara.
+
+Gặp lại sau, Kel Tamasheq.
+
+Phần: 06
+
+Vậy là tôi thấy bản thân mình mắc cạn trong một hoang mạc có tên là cuộc sống bình thường. Một mảnh đất hoang cằn mênh mông của lẽ phải quần chúng và con người được coi là tài nguyên.
+
+Mắc kẹt trong vũng cát lún có tên là hài hòa.
+
+Tôi thấy được nó trải dài như một tấm màng nhờn, bắt đầu từ sân bay lên khắp mảnh đất. Tạo nên một kết cấu làm tôi muốn ói mửa. Tôi để ý thấy các cụm nhà tập thể bên dưới, những khối hộp nhỏ với màu sắt nhợt nhạt không gây chói mắt. Tựa như các ảnh điểm bé tí của sự sống nhân tạo, chúng nhân lên gấp bội trên màn hình. PassengerBird chở tôi gập cánh, lượn một đường tròn thoải qua không trung. Một thông báo vang lên gần tai nghe trong, báo hiệu tôi biết chuẩn bị hạ cánh.
+
+Một quả RPG phóng ra từ đâu đó rồi đâm vào mạn PassengerBird.
+
+Con chim khổng lồ vỡ nát thành từng mảnh, trút hàng hóa của nó—khách khứa—lên những cư dân 3D tẹo teo xa xa bên dưới. Lúc chết, con chim hệt như con WarBird mà tôi bắn hạ ở Sahara. Bao nhiêu là người mặc trang phục, họ rơi khỏi cái lỗ hổng trên thân nó như nước tràn một cách rất nhẹ nhàng và đều đặn, y hệt trong bức Golconde <notes> Vẽ bởi Rene Magritte, năm 1953</notes>. Trên mặt đất, dân chúng chẳng tốn thời gian khi vứt bỏ cái lốt giả mạo tình thương từ thiện để nhặt cây gậy bóng chày mà quất những kẻ đang rơi bay ngược lên trời.
+
+Khi con chim đặt chân lên đường bay, tôi mới nhận ra mình đang nằm mơ giữa ban ngày. Các hành khách khác đã đứng dậy khỏi ghế, sẵn sàng để xuống máy bay. Tôi cầm lấy túi, rời khỏi con chim, bước qua máy quét hành lý, và tuôn ra cùng đống phân chim khác và vào sảnh sân bay được sơn màu đỏ tía.
+
+Giây phút tôi bước khỏi PassengerBird, AR ở công tắc trong đầu tôi nhảy xộc vào. Thứ nào cứ có trong tầm nhìn tôi là đều có metadata[50] AR đi kèm. Tôi liếc mắt về phía cửa vào của một quán cá phê và thấy một menu treo trên không cùng một thước đo kế bên cho tôi biết quán còn bao nhiêu chỗ trống và kế nữa vài ngôi sao biểu thị các bài phê bình ưa chuộng.
+
+Mọi thứ trong thế giới chúng tôi đều đính kèm một bản phê bình từ người dùng.
+
+Đến cả con người cũng đeo chút ngôi sao đánh giá của xã hội.
+
+Café de Paris ở buồng đợi sân bay: bốn sao.
+
+Kirie Tuan: bốn sao.
+
+Reikado Cian: ba sao.
+
+<shout>
+
+“Tuan! Tuantuantuan!”
+
+</shout>
+
+Giọng một bé gái réo tên tôi.
+
+Vì không quen bất cứ bé gái nào, tôi khá chắc đó là Reikado Cian. Cô ấy là một trong số ít người biết tôi sẽ về. Tôi đi lấy mã Đặc vụ Cục Xoắn Ốc của mình ở quầy hành lý, rồi trở lại với Cian, cô ấy đang hét gọi và nhảy cẫng vì vui mừng. Nếu cổ mà có đuôi, dám chắc là cổ vẫy ngoe nguẩy rồi. Vài metadata công khai được gắn vào cơ thể cô—tên của sinh phủ mà cô là thành viên và số điểm <notes: social assessment[51]> SA </notes> được trao cho cô bởi hiệp hội đạo đức của sinh phủ cô tham gia.
+
+“Làm sao cậu tìm thấy tớ trong đám đông này?” tôi hỏi.
+
+“Cậu nói cái gì vậy, Tuan? Cậu luôn nổi bật trong mọi đám đông mà!”
+
+“Ồ?”
+
+“Cậu thực sự nên chú ý đấy—cậu chắc là thu hút kha khá sự chú ý đều vì công việc của cậu. Wow, da dẻ cậu cũng trông thật, ưh, thô ráp đó. Tớ không có ý trêu đâu.”
+
+“Lẽ dĩ nhiên rồi. Tớ biết làm sao vì chiến trường lúc nào cũng có xu hướng diễn ra trên sa mạc, cao nguyên và vùng đầm lầy. Có hại cho da lắm.”
+
+Thật lòng mà nói, tình trạng da tôi chắc phần nhiều là do lối sống buông thả đủ kiểu hơn là điều kiện chiến trường. Thứ duy nhất ngăn WatchMe trong tôi khỏi báo động cố vấn gần nhất có hợp đồng với sinh phủ, là DummyMe mà tôi đã cài đặt để gửi dữ liệu dỏm về thân thể mình tới máy chủ, nhưng DummyMe vô dụng nếu dùng để che mắt người. Tôi hẳn lạc loài thật.
+
+<list:item>
+
+<i: thuốc uống hằng ngày từ medcare unit>
+
+<i: một biểu đồ lối sống thích hợp từ nhà thiết kế cuộc sống bạn>
+
+<i: thức ăn lành mạnh nhằm để lại ít dấu vết nhất trên cơ thể bạn>
+
+<i: tư vấn sức khỏe thích hợp từ chuyên viên>
+
+<i: một bầy medicule với mục đích tiêu diệt chỗ hư hại trên da tôi trước khi chúng hóa ác tính>
+
+</list>
+
+Làn da xấu nghĩa là bạn đang không sống đúng với chí ít một trong các yêu cầu cơ bản của xã hội trọng sinh mệnh. Một dấu hiệu chắc chắn rằng bạn là một bánh răng trật rìa trong bản hòa phối. Xã hội trọng sinh mệnh tức là mọi người, nam hay nữ, đều phải tuân theo những tiêu chuẩn nhất định. Sự bất tuân đều hiện rõ ra bên ngoài.
+
+Da xấu? Dấu hiệu xác thực của tự kiểm soát kém.
+
+Quầng thâm dưới mắt? Thiếu ý thức đàng hoàng về tài nguyên chiếu theo lẽ phải quần chúng.
+
+Tất cả đều phản ánh lên điểm SA của bạn. Đại đa số các sinh phủ yêu cầu tất cả người lớn công khai lịch sử của mình, kể cả y bạ của mình. Chuyện này, một phần, thúc đẩy quá trình đánh giá điểm SA minh bạch nhất có thể. Tôi không nghi ngờ gì rằng, nếu chính trị gia ngày nay béo núc như các nguyên thủ ngày xưa đã từng, thì chia sẻ rộng rãi thông tin cá nhân như vậy chẳng bao giờ được cho phép.
+
+Tôi còn nỗi ngạc nhiên của mình khi tình cờ thấy ảnh các đại nguyên thủ trong lúc đọc lướt qua văn thư lưu trữ lịch sử.
+
+Những người đàn ông và phụ nữ của quyền lực, bọn họ không pha lẫn, và hầu hết bọn họ đều cực kì thừa cân.
+
+Xét theo tiêu chuẩn hiện đại, người như Churchill không bao giờ có thể được coi là anh hùng. Ai mà tin nổi một người phì nộn như vậy? Bất kì bức tranh khỏa thân trước thế kỷ 18 nào cũng hoàn toàn bị tống khứ.
+
+Tôi từng một lần vô tình nghe một giai điệu học đường.
+
+Béo lăn, nhỏ xíu, chẳng lọt vừa cửa phòng tắm!
+
+<question>
+
+<Q: Từ béo lăn, được lặp lại ở đây, có nghĩa là gì?>
+
+<A: Đó là một từ có nghĩa miệt thị, nhằm chỉ một người thừa cân.>
+
+</question>
+
+Từ như “béo lăn” đã không được dùng trong nhiều năm rồi—rất dễ làm mếch lòng người khác. Mà đằng nào cũng chẳng có ai đủ mũm mĩm để dùng từ đó. Tương tự như rượu, thuốc lá, và những gã đàn ông bại hoại đạo đức trả tiền để quan hệ tình dục với con gái, các danh từ coi thường này đã biến mất tuyệt đối. Khái niệm người mập người ốm cũng chóng theo bước vào con đường tuyệt chủng. Tất cả biến mất hết. Dưới sự giám sát liên tục của WatchMe và lời khuyên liên miên từ cố vấn viên sức khỏe, sự béo phì lẫn còi cọc đều bị đuổi khuất khỏi mắt loài người.
+
+Tôi nhìn Cian, người bạn đã từng cố nhịn đói đến chết cùng với tôi và Miach.
+
+Một cách vừa vặn, cơ thể cô hợp với tiêu chuẩn soạn sẵn cho một người lớn khỏe mạnh.
+
+Một cơ thể nhàm chán, trong vóc dáng nhàm chán.
+
+Tôi rảo bước băng qua đại sảnh sân bay—tự thân nó cũng được đầu tư công phu đến đáng ngạc nhiên hòng giảm thiểu bất kì cảm giác ngột ngạt mà kiến trúc có thể gây ra do bản chất tự nhiên. Một cụm những cái bàn màu vàng lạc lõng đối chọi với nội thất màu đỏ tía, chúng thu hút mắt tôi. Khi tôi hướng đến phía đường tàu ngầm với tay kéo túi đằng sau, Cian nỗ lực đuổi kịp tôi. Nó thật sự kinh ngạc. Đối với mọi không gian lớn ở đây, và những trần nhà trên cao, tôi không tài nào dò ra nổi chút oai phong của nơi này. Thiết kế sinh phủ cằn cỗi vậy đấy. Theo bản chất tự nhiên, các không gian kiến trúc lớn đều có mùi phát xít nhất định, một dáng vẻ kiêu hãnh xuất phát từ tính vĩ đại và nó luôn phảng phất dẫu người xây dựng có dự định vậy hay không. Kiến trúc lớn khiến con người bé nhỏ khi đem ra so sánh. Ngay cả những nơi công cộng, như sân bay này, cũng thế.
+
+Đó là nguyên nhân mà các nhà thiết kế của địa điểm này đã rút hết mọi tấm chắn kỹ thuật để cắt giảm sự ảnh hưởng từ kích thước sân bay. Tôi có thể cảm thấy nỗ lực hòng che giấu mùi hôi không ai muốn của sức mạnh, và nó làm tôi buồn ói. Gọi nơi này là một tu viện nghe có vẻ quá Thiên Chúa Giáo, nhưng sự thật là thế giới chúng tôi sống hay có cảm giác như được các bà xơ điều hành. Đó là sự phát xít, sự lịch sự của Marie, Mẹ Chúa Trời.
+
+Thế giới đã bị làm mềm triệt để. Ngay cả nghệ thuật.
+
+Profile[52] của tôi—chỉ là một trong vô số chương trình duy trì sức khỏe mà tôi phải sử dụng hằng ngày—cũng đã giống một phiên bản khác của tôi.
+
+Một phiên bản chấp nhận mọi thứ mà cái tôi thật nó ghét.
+
+Profile của tôi sống bên trong máy chủ sinh phủ, nơi mà từ đó, nó theo dõi cuộc sống mọi ngày của tôi, định dạng sở thích cũng như điều tôi ghét và căng mắt theo dõi cẩn thận bất cứ thứ gì, là chữ hay ảnh, có thể khiến tôi dính tổn thương tâm lý. Nếu nội dung nào trong đó dính líu đến tổn thương tôi từng bị trong quá khứ, thông thường nó sẽ bị lọc ra ngoài trước khi tôi kịp trông thấy mặt nó. Ít ra, tôi sẽ nhận được một cảnh báo. Tác phẩm nghệ thuật này có chứa thành phần có khả năng gây hại cảm xúc, hay câu tôi thích nhất, Tiểu thuyết này chứa các nội dung tiềm ẩn khả năng vi phạm đến luật đạo đức cộng đồng, văn bản 40896-A được xác nhận bởi Hội Đồng Phê Bình Đạo Đức của sinh phủ về Sức Khỏe và Trinh Bạch ngày 4/12/2049.
+
+Khi nỗi sợ bị xóa bỏ mọi cơ hội để xuất hiện trong môi trường của chúng tôi, một loại nỗi sợ khác tinh vi hơn thay vào.
+
+<recollection>[53]
+
+“Cậu biết gì chưa?” Tôi nghe Miach nói. “Ngày xưa, rất xưa về trước, có ông họa sĩ này đã dùng một chiếc máy bay và khói để viết chữ BÙM trên bầu trời Hiroshima. Cậu nghĩ thế nào?”
+
+“Bùm, như bom nguyên tử nổ á? Tớ phải nói là cái gu đó khá tệ đó.”
+
+“Nó tệ ơi là tệ ấy chứ!” Miach nói, miệng cười xếch. “Họa sĩ đó đã bị chỉ trích nhiều đến mức phải xin lỗi trước công chúng. Vì nghệ thuật của ông làm vài người không vui, nó xúc phạm đến cảm xúc con người. Nhưng ngày nay chẳng còn ai làm được chuyện kiểu đó. Họ sẽ bị cảnh cáo lánh xa nó bởi sinh phủ ngay trước khi có cơ hội chạm tay vào. Mà ngay từ đầu có khi họ còn không tơ tưởng tới. Với những bộ lọc cảnh báo chúng ta về những gì chúng ta sắp thấy mọi thời điểm, chẳng có ai nhìn vào cái gì cả. Vậy thì một họa sĩ lấy đâu ý tưởng xấu xa để bắt đầu? Tớ nhìn những cuốn sách và tranh vẽ cổ mà thấy ghen tị với trí tưởng tượng của bậc tiền nhân. Thật sự đấy.”
+
+“Tại sao?”
+
+“Do luôn luôn có cơ hội để họ làm đau ai đó bằng nghệ thuật của họ. Luôn có cơ hội để họ làm ai đó buồn hay giận dữ.”
+
+</recollection>
+
+Đôi mắt tôi bắt gặp một cụ già, một công nhân bảo an, đang dọn dẹp sân bay. Hiển nhiên, ông ta đã không quan tâm tới sức khỏe theo đúng mức đáng lý phải làm. Điểm SA của ông thấp là hệ quả tất yếu. Điểm SA thấp mang lại cho công việc có mức an toàn tương xứng—không hề có ai mơ đến việc cướp nghề của bạn, thật đáng tiếc—nhưng nó cũng đồng nghĩa với hoàn toàn thiếu tính cơ động. Căn bản là bạn sẽ kẹt cứng một chỗ, làm bất kì việc gì mà họ bảo bạn làm. Nói vậy, chứ cụ già đó rất có vẻ đang đi theo một cuộc sống tạm thoải mái, nhờ vào thức ăn được phân phối bởi các tình nguyện viên và một trung tâm hỗ trợ sinh kế để có thể ngủ vào ban đêm. Thậm chí có khi ông còn có gia đình.
+
+Cian hơi thấp hơn tôi, nên khi chúng tôi bước cạnh nhau, cô phải sải dài bước chân chỉ để bắt kịp. Khi đặt chân bước tới, tôi không quan tâm tôi có bước ngang ai khác hay không. Từ lâu tôi đã quyết định đó là cách tôi sẽ tiếp tục bước đi. Ngay sau khi tôi mất Miach.
+
+Và này đây. Đi bộ cùng với Cian mang lại cảm giác mất mát mà tôi đã kinh sợ rằng nó ở đâu đó ngoài kia để đón chờ tôi. Miach đáng lẽ sẽ đứng ngay đó, ngay cạnh Cian, cuốn sách giữ theo sau lưng, cô kể chúng tôi nghe kế hoạch vĩ đại (mà không thật sự nhìn chúng tôi) làm thế nào chúng tôi có thể gây tổn hại lên thế giới chúng tôi sống.
+
+Cian và tôi tựa như một ngôi chùa mà người ta đã trộm mất tượng Phật vàng, mang tên Mihie Miach. Tôi không khỏi cảm thấy không gian trước mắt chúng tôi này đúng ra đã được lấp đầy.
+
+Quái lạ là ở cùng ai đấy lại gợi tôi nhớ đến cái đang vắng mặt. Thủ lĩnh đầy lôi cuốn của chúng tôi, cô ra đi đã 13 năm nay. Cô mang biết bao nhiêu kiến thức trong thân xác nhỏ bé của mình, biết bao nhiêu hận thù, và biết bao nhiêu nhan sắc. Và giờ đây cô đã đi xa.
+
+<recollection>
+
+Tớ muốn khiêu vũ trên ngôi mộ của những con người tốt bụng, khỏe mạnh ấy.
+
+Một điệu Valse, chắc thế.
+
+</recollection>
+
+Một Miach không có thực ngoái lại nhìn chúng tôi qua bờ vai của cô.
+
+Mihie Miach. Mihie Miach. Mihie Miach.
+
+Chúng tôi lướt qua những tình nguyện viên đang trao súp protein nhân tạo cho các người tị nạn chính trị trong sảnh sân bay rồi đi thang máy xuống tầng có tàu điện ngầm kết nối tới phi trường. Trên đường đi xuống, tôi bất chợ ngỡ rằng Miach đang đứng ngay sau lưng mình, thế là tôi phải quay lại nhìn, nhưng đó chỉ là Cian thôi.
+
+“Cậu định về nhà à?” cô ấy hỏi tôi khi cả hai đợi ở thềm chờ xe điện ngầm. Thềm được tô màu xanh biển không chói mắt.
+
+Tôi lắc đầu. “Tớ sẽ tìm một khách sạn hoặc một chỗ nào đó để lẻn vào. Tớ không có việc gì với gia đình cả.”
+
+“Tớ không cho là vậy đâu. Mọi người muốn nghe chuyện của cậu đó, cậu biết chứ.”
+
+“Ai là mọi người?” tôi cười thầm và lại lắc đầu. “Thực ra, tớ đã nhận một tin nhắn từ một người hàng xóm nói rằng họ muốn tổ chức một bữa tiệc chào mừng tớ về nhà. Họ dự định gọi mọi người trong hai khu phố cạnh và sẽ đứng đây chờ khi PassengerBird của tớ hạ cánh. Cậu tưởng tưởng nổi không? Không, cảm ơn. Đấy là điều cuối cùng mà tớ muốn. Đặc biệt là khi mẹ tớ rất hồ hởi về ý tưởng đó.”
+
+“Vì sao cậu không để họ tổ chức tiệc của họ? Có thể vui mà.”
+
+“Tớ không có gì để nói chuyện với họ cả.”
+
+“Cậu nói gì vậy? Cậu có thể kể cho họ nghe về Sahara, hay nơi cậu đến trước đấy—Colombia, phải không nhỉ? Cậu đã đi tới nhiều nơi và thấy nhiều thứ quá, Tuan.”
+
+Ừ, tôi có thể kể họ nghe những câu chuyện. Chẳng hạn như chuyện về những cậu lính nhí bị chuốc thuốc và ép phải bắn chính cha mẹ và anh em của mình để tập nhắm mục tiêu. Hay bao cánh tay, cẳng chân bị chặt lem luốc máu me chất thành đống như củi. Khó có ai đã mua lấy cuộc sống được bảo vệ của sinh phủ có thể có hiểu biết về sự thật chiến tranh dù là nhỏ nhất. Họ đã quá bận rộn trong việc đối xử tốt với mọi người xung quanh họ. Cian cũng ngu dốt như họ. Ngu dốt và ngây thơ. Về mặt đó, chẳng có gì thay đổi.
+
+“Và tớ nghĩ họ muốn nghe cậu đang làm gì đấy,” Cian huyên thuyên.
+
+“Chỉ là tớ không có hứng.” Tôi thở dài tỏ ý chán chường. “Cian, cậu có đi tình nguyện gì không?”
+
+“Một chút. Ba ngày một tuần. Đi giao thức ăn và chăm sóc người già, đại loại vậy.”
+
+“Còn phiên họp đạo đức và hội nghị sức khỏe?”
+
+“Ừ, online[54]. Khoảng mười lăm tiếng một tháng. Không quá tệ.”
+
+Cái gì thế này? Một trong những người bạn của tôi, một cô gái từng không chịu đựng nổi thế giới này, người đã toan tự sát chỉ để lưu lại một dấu ấn trên bộ mặt hoàn hảo của nó, giờ đây đã hoàn toàn tuân theo một lối sống điển hình, đúng đắn theo cộng đồng.
+
+Hoặc họa chăng là nó ít cá tính hơn. Hay nó vỏn vẹn là, trẻ con lớn lên và trở thành người lớn.
+
+<definition>
+
+<i: Trở thành người lớn là:>
+
+<d: Cài đặt WatchMe.>
+
+<d: Chấp nhận mệnh lệnh của một sinh phủ.>
+
+<d: Gắn liền bản thân vào máy chủ sinh phủ.>
+
+<d: Tiếp nhận chỉ dẫn lối sống từ vị cố vấn sức khỏe nào đó.>
+
+<d: Tham dự vào các phiên hội nghị, cả online và offline.>
+
+</definition>
+
+Bóng ma của Miach lượn lờ quanh đây, một điệu cười lạnh tanh nở trên môi khi cô thì thầm.
+
+Cơ thể này, bộ ngực này, cặp mông này, tử cung này. Chúng là của tôi.
+
+Chẳng phải sao?
+
+Vậy là sau thất bại của chúng tôi, Cian đã nhảy và đâm đầu vào thế giới người lớn. Kẻ duy nhất còn níu gót cô ấy là tôi, và tôi không thể quyết định xem đó là đáng phục hay đáng khinh.
+
+Tôi treo lắc lẻo, lơ lửng trên không, đâu đó giữa bóng ma của Mihie Miach và sự ngây thơ của Reikado Cian.
+
+“Nhìn này, Cian, tớ đã đi công tác ở hải ngoại lâu rồi, đúng không? Do đó chỉ là tớ không biết người sống quanh nhà tớ. Tớ không đi tình nguyện hay tham dự hội nghị sức khỏe với họ. Tớ chỉ là không thật sự liên kết với cộng đồng.”
+
+Tôi giải thích cho cô ấy rằng làm một Đặc vụ Cục Xoắn Ốc lon-ton-khắp-thế-gian nghĩa là:
+
+<list:item>
+
+<i: điều kiện làm việc nguy hiểm>
+
+<i: khó khăn khi hòa mình vào cuộc sống xã hội ở bất cứ chốn nào>
+
+<i: khó khăn khi hình thành mối dây với hàng xóm cũ hay cộng đồng y dược>
+
+<i: một con điểm SA cao giả tạo được trao để đền bù cho mọi điều đó>
+
+</list>
+
+Bởi vì chúng tôi không có hội đồng để đánh giá, sinh phủ đã trao thưởng chúng một số điểm SA ngẫu nhiên hòng giải thích cho mâu thuẫn vốn là hệ quả của công tác rất quan trọng cho sự trường tồn của lối sống sinh phủ trong khi, do nhu cầu của nó, chúng tôi lại bị ép phải vận động không phụ thuộc vào sinh phủ đó.
+
+“Ồ. Thật ư?”
+
+“Thật.”
+
+Trong giải thích cuộc đời mình cho Cian, tôi không thể không cảm thấy mình phần nào đã trở thành Miach. Miach, người đã giải thích làm thế nào sử dụng medcare unit để tạo vũ khí hóa học có khả năng tàn sát 50 000 người. Miach, người có thể tạo một loại thuốc có thể làm toàn bộ hệ tiêu hóa của bạn ngừng hoạt động.
+
+Miach, người có đôi môi cười hờ hững được khi cô nói cho bạn biết cô muốn quan sát thế giới cháy trụi.
+
+Tôi cảm giác rằng ngày xưa đó, cô ấy đầy ắp tri thức không ai có, nói chuyện thẳng thắng với giọng lanh lảnh tràn đầy tự tin, không sợ gì, đang tuyên bố từng chữ chắc nịch.
+
+Này, Cian, cậu có biết là nếu cài DummyMe, cậu có thể làm giả dữ liệu thân thể trước khi nó được gửi tới máy chủ không? Này, Cian, cậu có biết là cậu có thể làm bất kì điều gì với cơ thể khi đã cài DummyMe không? Này, Cian, cậu đã nghe chuyện này chưa…… Này, Cian…… Nè, Cian……
+
+Nhưng thay vì đóng vai Miach, tôi chỉ cười cay độc và nói, “Lý do thật sự họ cho tớ điểm bởi nếu họ không làm, tớ sẽ bị dán nhãn là kẻ tâm thần.”
+
+Cian nhăn mày, tỏ vẻ không hiểu. “Vậy là cậu sẽ không về nhà?”
+
+“Chắc là không.”
+
+Cian bước ra trước mặt tôi. “Thế ít ra hãy đi tìm cái gì đó ăn đi. Có một tòa nhà mới xây, gần chỗ tớ ở. Bên ngoài thì trông nó mấp mô và trắng bệch, cứ như làm từ thạch cao đặc. Nhưng khi cậu vào bên trong, cậu có thể nhìn ra ngoài. Nó là vật liệu thông minh mới, gương Styrofoam[55] khúc xạ ánh sáng đặc biệt.”
+
+“Nghe vui đó. Tớ thật sự không có tâm trạng.”
+
+“Chúng ta có thể ăn, rồi cậu có thể tới nhà tớ chơi. Chỉ mới 11 giờ thôi. Buổi trưa thì sao nào?”
+
+Tôi có một thôi thúc muốn hỏi với Miach không tồn tại. “Muốn đi với tớ và Cian để ăn trưa tí không?”
+
+Tôi thở dài và bảo cô ấy tôi sẽ đi ăn trưa cùng cô. Chỉ bữa trưa. Tôi đi theo sau Cian, bước vào con tàu hình hạt đậu màu vàng nhạt đầu tiên vừa trượt trên đường ray. WatchMe trong tôi liên kết tới tài khoản tín dụng, trừ đi phần phí tàu thích hợp. Tôi nhận ra đã lâu rồi mình mới đi lại tàu điện ngầm ở Nhật Bản khi ngó quanh nhìn các hành khách khác và cảm giác thấy một nỗi sợ bất chợt ôm siết tôi.
+
+<panic>[56]
+
+Họ đều y hệt nhau. Mọi người.
+
+Nó không tỏ rõ rành rành trên chiến trường. Làm việc với một nhóm quốc tế nghĩa là có rất nhiều người từ rất nhiều nơi chốn và dân tộc khác nhau tụ hội lại cùng một lúc, và không ít người bí mật buông thả bản thân, như tôi đây.
+
+Nhất định ở đây không phải vậy.
+
+Lần đầu tiên, tôi nhận thức được một cảnh quá đỗi lạ lùng gồm dân chúng Nhật Bản - đã bị chuẩn hóa bằng y dược. Sự khác biệt giữa một cặp đang ngồi chỗ gần tôi nhất không hơn gì sự khác biệt giữa người nộm A và người nộm B. Không quá béo cũng không quá gầy. Ai ai trên tàu cũng thỏa mãn một hình mẫu cơ thể đặc biệt. Ai ai cũng vừa mình trong cái mép lề hướng tới sự khỏe mạnh. Tôi ngỡ mình là một kẻ lạ mặt trong ngôi nhà gương—một đất nước của gương.
+
+Cớ sự gì đã xảy ra thế này? Làm thế nào mà mọi người giống hệt trong khi mỗi cái gen đã cho chúng ta biết mỗi người khác nhau?
+
+<maxim>[57]
+
+Mục tiêu càng hẹp và cứng nhắc, kẻ yếu càng dễ đạt tới.
+
+</maxim>
+
+Bóng ma của Miach lại một lần nữa thầm thì vào tai tôi. Lối nói y như cô đã luôn luôn nói khi thuyết giáo chúng tôi. Tôi vẫn nhớ lời nói của cô rằng con người vẫn có thể trở nên tàn nhẫn dẫu cho đã chịu thua cám dỗ.
+
+Con người như cái đồng hồ hư có cây kim vung tới vung lui giữa ham muốn và ý chí, lúc nào cũng là tất cả hoặc không, không bao giờ lây lất ở giữa. Không có chỗ cho sự điều hòa. Đến cả chim bồ câu cũng có ý chí của nó. Ý chí chỉ ngẫu nhiên là khía cạnh tốt hợp với loài có xương sống, vì vậy mà não bộ chúng ta luôn giữ lấy nó.
+
+</panic>
+
+“Có chuyện gì không ổn ư? Cô thấy không khỏe à? Đây này, lấy ghế của tôi đi,” một người phụ nữ tỏ ý giúp đỡ tôi, khi thấy nỗi sợ thoáng hiện qua mặt tôi do hoang mang vì xã hội. AR của tôi cho tôi biết bà ấy là một chính trị gia—một điều phối viên hay ủy viên hội đồng của sinh phủ đâu đó—dù mặt bà không khác gì những người còn lại. Bà nằm vừa quá đẹp trong cái mép lề. Gương mặt khỏe mạnh, đã được chuẩn hóa. Đó là một đặc điểm—nói cách khác, thiếu cái nét cá biệt—mà tôi cho rằng bạn có thể tìm thấy khi còn lên cao hơn nữa trong hệ thống chi phối. Tôi còn nhớ mọi người ở trụ sở Geneva có bề ngoài giống nhau ít nhiều.
+
+“Tôi không sao,” tôi nói với nhà chính trị ấy rồi đi thêm một quãng ngắn xuống dưới toa tàu. Cian bắt kịp tôi, gương mặt cô lo âu.
+
+“Đáng ra cậu không nên bước đi như thế. Bất lịch sự lắm. Bà ấy là hội viên hội đồng của sinh phủ nào đó.”
+
+“Tớ biết chứ. Tớ thấy trong AR rồi. Xin lỗi.”
+
+“Tớ nghĩ cậu chỉ là mệt mỏi bởi công việc thôi, Tuan. Hẳn phải khó khăn lắm, làm hết nhiêu ấy việc. Nhưng cậu thật sự đang cống hiến cho xã hội đấy.”
+
+Tôi, cống hiến cho xã hội.
+
+Cống hiến bằng cách đến chiến trường, nơi tôi có thể hút thuốc lá.
+
+Cống hiến bằng cách cố ý lựa chọn không trở thành một phần của xã hội—nơi chắc chắn tôi sẽ tự cứa cổ tay hay đâm ai đó từ lâu rồi.
+
+Do đó mà tôi có thể đồng ý với Cian, không hề có lấy chút giễu cợt, rằng quả thực tôi đang cống hiến nhiều cho xã hội.
+
+Con đường của tôi và Cian đã rẽ nhánh rất rõ sau cái chết của Miach. Phần Cian, mọi sự thù địch cô giành cho xã hội, gia đình, quê nhà, và trường học đã chấm dứt. Với cô, nó tựa thể một nghi thức lên đường, một giai đoạn ai cũng trải qua trước khi trở lại cuộc sống được quy chuẩn hóa. Phần tôi, tôi đã tiếp tục thu lượm kiến thức mà tôi dám chắc mình sẽ được học từ Miach nếu cô ấy mà còn sống, đồng thời trên bề mặt, tôi cũng giả vờ chấp thuận, cứ như Cian. Điểm số của tôi cứ leo lên cho đến khi tôi giành lấy vị trí đầu lớp ngày trước của Miach. Một mặt nào đó, tôi đã trở thành doppelgänger[58] của Miach. Tôi đang trở thành Mihie Miach.
+
+Cian không trở thành Miach. Cô tham gia câu lạc bộ—câu lạc bộ mà chí ít chín trên mười người Nhật tham gia. Một câu lạc bộ với tỉ lệ mỡ cơ thể được xác định chặt chẽ, hệ miễn dịch ổn định và tỉ lệ sao mã RNA bị lỗi đã được biết.
+
+Trong toàn thời gian ấy, tôi đi từ khu tiệc này tới khu tiệc khác. Chiến trường này tới chiến trường khác.
+
+Từ sân bay này tới sân bay khác.
+
+Điếu thuốc này tới điếu thuốc khác.
+
+Chai rượu này tới chai rượu khác.
+
+Chỉ trừ lần này, tôi đã đi từ Château Petrus tới insalata di caprese, ở một nơi chẳng dễ gì thấy một chút khói hay cồn.
+
+Tôi đã chào tạm biệt đường xe điện ngầm áp lực, gây hoa mắt và lúc này đang ngồi thưởng thức một bữa ăn lành mạnh trong một nhà hàng Ý cùng người bạn cũ.
+
+Có những lát cà chua đang vui lấp phó-mát bò nước đã bị rút sạch chất béo, với một chút dầu ô-liu lắc rắc bên trên. Chúng tôi đang ở trên tầng 62 của tòa nhà Đồi Lilac. Những món ăn ở đây rất đáng nể vì chỉ chứa một chút nguy cơ đối với người dùng bữa.
+
+Khi bạn gọi một món, menu hiển thị tổng ca-lo bạn nạp vào và bất cứ nguy cơ tiềm tàng từ sự gây hại lên nhiễm sắc thể mà bạn có thể nhiễm trúng khi tiêu thụ thức ăn. Mỗi một món trên menu đều có cảnh báo kèm theo. Một khi đã đọc xong thông tin nguy cơ về sự thỏa mãn của bạn, bạn có thể yêu cầu thứ bạn muốn ăn, miễn là nằm trong giới hạn đề trước cho bạn được đặt ra bởi cố vấn sức khỏe đang làm theo hợp đồng cho sinh phủ của bạn.
+
+Có vài người khác trong nhà hàng, nhưng không quá nhiều. Mỗi người đang ngồi quanh tấm khăn bàn màu cúc vạn thọ cũng hệt như những người tôi đã gặp trong xe điện ngầm, ai nấy đều nằm đẹp trong mép lề của một cơ thể người Nhật Bản khỏe mạnh.
+
+<sentiment>[59]
+
+“Cũng lâu rồi chúng ta mới ăn cùng nhau,” Cian nói, vừa quan sát người bồi bàn sắp xếp đĩa insalata của chúng tôi. Tôi chợt nhớ ra rằng kể từ ngày cả hai cùng cố bỏ mạng và thất bại, Cian và tôi chưa từng một lần ăn chung.
+
+“Đúng thật.”
+
+“Có chút là lạ, thú thực, chỉ có hai chúng ta ở đây.”
+
+Tôi nhìn qua cửa sổ khung cảnh từ tầng 62.
+
+Khung cảnh mà Miach muốn phá hỏng.
+
+Khung cảnh mà Cian đã làm quen.
+
+Khung cảnh mà tôi đã trốn thoát khỏi nó.
+
+</sentiment>
+
+“Thực sự, tớ nghĩ có khi đây là lần đầu tiên chúng ta ăn chung với nhau mà không có Miach. Ý tớ là chỉ hai chúng ta.”
+
+“Tớ nghĩa là tớ từng ăn một mình với Miach vài lần,” tôi nói, “trước khi cậu ấy kéo cậu vào.”
+
+“Phải, tớ cho là cậu đúng. Các cậu là bạn bè trước khi tớ gặp các cậu, phải không?”
+
+“Tớ không gọi tụi tớ là bạn. Chúng tớ không tìm kiếm nhau. Đúng hơn là Miach đã thộp lấy tớ.”
+
+“Thiệt hả?”
+
+“Ừ. Ngày đó, tớ đang đi bộ một mình thì cô ấy chạy lên và chộp lấy tớ theo nghĩa đen. Còn nhớ câu chuyện về khung leo trèo không?”
+
+“Ờ, nhớ.”
+
+“Chẳng phải cậu cũng khá giống vậy sao, Cian? Với tớ thì cậu ấy hỏi tớ có biết tại sao khung leo trèo vặn vẹo uốn éo như thế không.”
+
+“Có lẽ cậu ấy đã giăng lưới.”
+
+“Hử?”
+
+“Ý tớ là, cậu ấy đang ngồi đọc sách trong công viên, đúng không? Có lẽ nào cậu ấy đang chờ ai đó để ý tới mình? Một cô gái như tớ hoặc cậu.”
+
+Miach, đang ngồi chờ ai đó để ý tới mình? Có điều gì đó trong đấy không hợp với hình ảnh trong tôi. Miach căm ghét mọi thứ về xã hội lành mạnh. Cô ấy ghét cách mọi người quan tâm tới người khác, mở lời giúp đỡ dù được yêu cầu hay không. Chẳng hợp lý tí nào nếu cô ấy muốn thoát khỏi hệ thống rồi đi tìm bạn bè. Tôi bảo với Cian rằng tôi không đồng ý.
+
+“Hử? Tại sao?”
+
+“Chỉ là tớ thấy cậu lầm về cậu ấy rồi. Miach không tìm kiếm bạn bè, cậu ấy đang kiếm những tâm hồn đồng điệu—chiến hữu.”
+
+“Không phải như nhau sao?”
+
+“Không hẳn vậy. Nói rộng ra thì chúng đều là một kiểu người quen, nhưng bản chất mối dây giữa tâm hồn đồng điệu không phải là tình bạn. Nó giống mối dây giữa đồng đội binh lính hơn.”
+
+Nhấc dao và nĩa lên, tôi cắt ra một miếng vừa miệng từ món insalata của mình. Cian đang nhìn tôi, dễ thấy là cô đang cố gắng hiểu điều tôi đang nói và cũng dễ thấy là cô không hiểu.
+
+“Đó, Miach không muốn tình bạn,” tôi tiếp lời. “Cậu ấy muốn ai đó sát cánh chiến đấu. Cậu không thể một mình chiến đấu trong một cuộc chiến đâu.”
+
+“Càng đông càng vui?”
+
+“Chắc chắn rồi. Tất nhiên, sẽ rất dễ dàng hơn nếu cô ấy có thể tìm thấy ai đấy đã có chung nhiều cảm giác với mình về sự việc. Vậy nên cậu đúng ở chỗ cô ấy đã nằm chờ chúng ta, chỉ là lý do hơi khác.”
+
+“Nhưng, chúng ta không thật sự là những người lính cậu ấy đã mong chúng ta sẽ thành, phải không. Chí ít, tớ không phải.”
+
+Chắc là Cian đúng. Miach đã nhận định kẻ địch rõ ràng và lao hết mình về phía trước. Cơ bản chúng tôi không hơn gì bọn đào ngũ.
+
+Giả như Miach mà được cứu như chúng tôi đã từng, liệu cô ấy có ngồi đây ngày hôm nay, vừa ăn trưa cùng chúng tôi? Liệu cô có cười với những cựu binh đã trốn khỏi tiền tuyến của mình? Tôi không biết.
+
+Bấy giờ tôi mới để ý thấy Cian đang chăm chú quan sát đĩa ăn của mình với cái mặt vô cảm phát lạ. Thật kỳ dị. Cứ như đĩa ăn của cô là cái hồ, và cô đang quan sát thứ gì đó bơi lội ở dưới đáy. Đôi mắt cô dán chằm chằm vào một chỗ, bất động. Tôi định hỏi có việc gì vậy thì Cian mở miệng, mắt cô vẫn không rời món caprese của mình.
+
+“Tớ xin lỗi, Miach,” cô thì thầm, rồi bất thình lình, con dao trên bàn đã ở trong tay cô. Trước khi tôi kịp có thời gian tự hỏi cô ấy định làm gì, Cian đã đâm mũi dao vào chính họng mình.
+
+“È-gự,” miệng Cian buộc ra giọng nói lạ kỳ.
+
+<silence>[60]
+
+<surprise>[61]
+
+Vận lực bằng sức mạnh nào đó mà tôi không bao giờ tưởng nổi là cô ấy có, cô vặn con dao ăn trong cuống họng mình, kéo thẳng qua động mạch cảnh và ra hẳn bên kia. Con dao không thể nào sắc tới mức độ đó. Sức mạnh cô ấy thật khó tin. Tựa như cổ cô là một thân cây, và cô đã chặt qua nửa thân chỉ bằng một nhát rìu.
+
+Máu phọt ra từ cổ cô.
+
+Máu rơi lộp độp lên khắp nội thất của nhà hàng Ý trên tầng 62 của tòa nhà Đồi Lilac, nhuộm từng mảng màu đỏ thẫm lên các bức tường. Một trận mưa máu vấy lên người phục vụ—anh ta chỉ vừa đến bàn chúng tôi để rót đầy ly nước—máu vấy thẳng lên mặt anh. Anh ta ngất xỉu. Tất cả chỉ diễn ra trong một khoảng khắc kéo dài vô tận. Mọi điều tôi có thể làm là trố mắt ra nhìn. Máu lan ra lên đĩa ăn của cô ấy, trộn lẫn, nhưng không hòa màu, với số dầu ô-liu nhỏ giọt xuống từ món salad của cô.
+
+</surprise>
+
+</silence>
+
+Các khách hàng khác bắt đầu rú lên.
+
+Cũng vừa lúc, những tiếng rú khác đồng loạt vang lên khắp địa cầu.
+
+Bởi, cũng ngay chính thời điểm ấy, bằng hàng loạt biện pháp đa dạng, 6 582 người đã cố kết liễu mạng sống của mình.
+
+</body>
+
+</etml>
+
+↑ tuyên bố:dự trù
+
+↑ kanji là 生府(seifu) đồng âm với Chính Phủ, từ khác trong bản gốc là “vigorment” – ghép từ “vigor”(sinh lực) và “gorvenment”(chính phủ); từ này ám chỉ bộ máy thể chế mới đề cao sinh mạng con người
+
+↑ anger: tức giận
+
+↑ đơn vị chăm sóc y tế
+
+↑ hormone có trong não, bám vào tế bào cảm giác để giảm đau
+
+↑ phân tử y học
+
+↑ cuộc chiến quyết liệt giữa thiện và ác, kết quả là tận thế và bắt đầu ngày phán xét cuối cùng; theo Kinh Thánh
+
+↑ chỉ chung các loại phương tiện truyền thông làm từ gỗ như sách báo, tranh vẽ
+
+↑ Augmented Reality: thực tế ảo tăng cường
+
+↑ đúng ra là medium, tức ‘phương tiện’, ý chỉ sách báo giấy vở
+
+↑ jungle gym, một loại trò chơi gồm các thanh sắc ghép thành khung nhiều kiểu dáng
+
+↑ Hai câu này phỏng theo lời răn dạy của Đức Giê-su trong Kinh Thánh
+
+↑ Maelstrom
+
+↑ Giấy Phép Thông Tin Trực Quan Gây Chấn Thương Tâm Lý
+
+↑ phong cảnh
+
+↑ một họa sĩ người Mỹ gốc Nga – Do Thái, có các bức tranh chỉ gồm các vệt màu
+
+↑ World Heath Organization - Tổ Chức Y Tế Thế Giới
+
+↑ Đầu Đạn Thay Thế Đáng Tin Cậy
+
+↑ Liên minh Châu Âu
+
+↑ International Atomic Enegy Agency - IAEA
+
+↑ thanh niên lập dị chống lại quy ước xã hội
+
+↑ các nguyên tố phóng xạ
+
+↑ “nữ hoàng của tôi” trong tiếng pháp
+
+↑ chỉ những người thuộc xã hội dùng thuốc quá nhiều
+
+↑ Thần Y Học trong thần thoại Hy Lạp
+
+↑ thầy thuốc người Hy Lạp, được mệnh danh là “cha đẻ y học phương tây”
+
+↑ tấm phim ghi nhớ
+
+↑ lifeism
+
+↑ thuật ngữ tin học, chỉ những bản vá của hãng cung cấp cho phần mềm để bổ sung lỗ hổng phát sinh
+
+↑ Sự Hài Hòa
+
+↑ Internal Space Station - ISS
+
+↑ Nhại theo câu nói của Yuri Gagarin, người đầu tiên bay vào vũ trụ
+
+↑ xem thêm ở đây https://vi.wikipedia.org/wiki/Thuyết_vật_linh
+
+↑ hạt protein tương tự như virus nhưng không có acid nucleic
+
+↑ những nhánh trong đạo Tin Lành, có điểm chung là bảo thủ, giữ lối sống cũ
+
+↑ Local Area Network - LAN
+
+↑ Helix Inspectation Agency
+
+↑ hét
+
+↑ standalone
+
+↑ thất vọng
+
+↑ bệnh làm da sưng mọng lên
+
+↑ suy giảm hoạt động tuyến giáp
+
+↑ sự tuyệt vọng
+
+↑ hối tiếc
+
+↑ thực ra, theo Kinh Thánh, Thánh Phêrô là một trong những người đầu được Chúa Giêsu kêu gọi vào nhóm Tông Đồ
+
+↑ tắt kết nối mạng, hoạt động độc lập không mạng
+
+↑ chế giễu
+
+↑ la lên
+
+↑ “Tạm biệt” trong tiếng nhật
+
+↑ siêu dữ liệu
+
+↑ đánh giá của xã hội
+
+↑ thuật ngữ tin học, chỉ “hồ sơ thông tin cá nhân”
+
+↑ hồi ức
+
+↑ hoạt động trên mạng
+
+↑ xốp
+
+↑ hoảng
+
+↑ cách ngôn
+
+↑ thuật ngữ chỉ người giống hệt với một người khác
+
+↑ ủy mị
+
+↑ im lặng
+
+↑ ngạc nhiên

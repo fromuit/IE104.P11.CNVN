@@ -1,0 +1,19 @@
+// Header 
+.header {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    &--compact {
+        height: auto;
+        min-height: 200px;
+    }
+
+    > * {
+        margin: 0;
+        padding: 0;
+    }
+}

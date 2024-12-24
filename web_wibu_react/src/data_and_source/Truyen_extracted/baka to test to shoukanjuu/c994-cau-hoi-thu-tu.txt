@@ -1,0 +1,843 @@
+Tập 7
+
+Câu hỏi thứ tư
+
+Độ dài: 7,549 từ - Lần cuối:
+
+12/04/2017 16:39:57
+
+- Bình luận: 0
+
+Sử dụng phương pháp qui nạp toán học để chứng mình điều sau:
+
+1 + 3 + 5 + … + (2n-1)=n2       ①
+
+Khi n là số tự nhiên.
+
+**Câu trả lời của Himeji Mizuki:**
+
+1. Khi n=1, phương trình một ta có:
+
+Vế trái = 1
+
+Vế phải = 1
+
+2. Giả sử rằng n=k là đúng
+
+1 + 3 + 5 + … + (2k-1)= k2       ②
+
+Khi n=k+1, vế trái sẽ của  ① sẽ được viết lại là:
+
+1 + 3 + 5 + … + (2k-1)+(2k+1)
+
+=k2 + (2k+1) (Lấy từ phương trình  ①)
+
+=(k+1)2
+
+Viết cách khác,
+
+1 + 3 + 5 + … + (2k-1)+(2k+1)
+
+=(k+1)2
+
+① đúng khi n=k+1.
+
+Từ 1. và 2. ta suy ra phương trình ① đúng với mọi giá trị n.
+
+**Nhận xét của giáo viên:**
+
+Đúng vậy. Trong toán quy nạp, em cần phải chứng minh rằng n=1 là đúng. Ngoài ra, khi cho rằng n=k là đúng, em phải suy ra rằng n=k+1 là đúng. Trong câu hỏi này, chìa khóa của vấn đề chính là n là số tự nhiên. Một lưu ý là mọi người thường hay quên viết n=1, vì thế hãy chú ý khi trả lời.
+
+**Câu trả lời của Tsuchiya Kouta:**
+
+“Em sẽ chứng mình rằng  ① là đúng – Tsuchiya Kouta”
+
+**Nhận xét của giáo viên:**
+
+<a href="http://bbs.hako.re/wp-content/uploads/2013/05/BTS_vol_07_107c.jpg" rel="nofollow noreferrer" target="_blank"><img alt="BTS_vol_07_107c" height="559" src="http://bbs.hako.re/wp-content/uploads/2013/05/BTS_vol_07_107c.jpg" width="465"/></a>
+
+Cho dù em có có cố gắng chuồn đi bằng cách viết nó như một luận điểm, nhưng nó là vô ích thôi. Câu hỏi đề cập rằng em phải chứng minh điều đó qua ‘phương pháp toán quy nạp’, vì thế trong khi cho rằng n=k, hãy viết biểu thức mà n=k+1 là đúng.
+
+**Câu trả lời của Yoshii Akihisa:**
+
+“Phán quyết của em có thể chờ.”
+
+**Nhận xét của giáo viên:**
+
+Xin hãy sử dụng giả thiết.
+
+“Nè! Akihisa, cậu đã trở lại.”
+
+“Đã khổ cho cậu rồi, Akihisa.”
+
+“…Chào mừng trở lại.”
+
+“À, mm, tớ về rồi…”
+
+Khi tôi hoàn thành các bài kiểm tra phục hồi và trở về giữa khu vực thể thao, Hideyoshi và mọi người chào đón tôi một cách tử tế. Thấy mọi người như thế thì ít ra cũng làm giảm bớt cảm giác bị bỏ lại phía sau một chút. Nhưng cho dù chúng tôi thắng hay bại, tôi vẫn mong rằng được trải qua việc đó cùng với mọi người…
+
+Nghĩ về việc đó, mắt tôi quay về khu vực nghỉ của lớp F mà đã được chăng đây xung quanh. Vào lúc này, tôi nhận ra rằng đám con trai đang tụ tập xung quanh một các hộp kì lạ và đang cãi nhau. Bọn họ đang làm cái gì thế nhỉ?
+
+“XIN HÃY ĐỂ CHO CON LÀ NGƯỜI MAY MẮN!”
+
+“ĐỪNG LẰNG NHẰNG NỮA MÀ BẮT ĐẦU RÚT ĐI! CÓ NHIỀU NGƯỜI Ở ĐẰNG SAU ĐẤY!”
+
+“TỚ HIỂU RỒI, TỚ HIỂU RỒI! TẠI SAO CÁC CẬU LẠI LO LẮNG ĐẾN THẾ! ĐƯỢC RỒI, LÀ CÁI NÀY ĐÂY—CHẾT TIIIIỆỆỆỆTTT”
+
+“““TUYỆT! VỀ NHÀ MÀ KHÓC ĐI!!!”””
+
+“Ơ, bọn họ làm gì thế?”
+
+Tôi hỏi Yuuji, người đang đứng cạnh tôi. Nhiều bạn trong lớp có vẻ như khá thất vọng và không vui vẻ gì. Tại sao lại thế nhỉ?
+
+“Hửm? Cậu đang hỏi về bọn họ hả? Chỉ là rút thăm may mắn thôi.”
+
+“Tớ biết. Tớ chỉ muốn hỏi là tại sao họ lại làm thế.”
+
+“Ồ. Sự kiện tiếp theo là cuộc đua hai người ba chân. Cuộc rút tham dùng để quyết định ai sẽ đi với ai.”
+
+“Heh~ ra là thế.”
+
+Đúng là việc chọn lựa đồng đội cho cuộc đua hai người ba chân thì rất là quan trọng. Hơn cả khả năng của một người, thứ quan trọng nhất là hai bên có thể phối hợp cùng với nhau.
+
+“Sao thế, Akihisa? Cậu khá là bình tĩnh đấy.”
+
+Hideyoshi hỏi tôi với một vẻ đầy khỏ hiểu, nhưng lại không có lí do gì để tôi không giữ bình tĩnh cả…
+
+“Bời vì ai là đồng đội cũng không quan trọng. Dù gì đi nữa thì nam và nữ cũng sẽ bị tách riêng ra—”
+
+“Đây là một sự kiện ghép chung.”
+
+“Không vấn đề gì cả. TRIỆU HỒI!”
+
+TIẾN LÊN NÀO, LINH THÚ TRIỆU HỒI CỦA TA! GIẾT HẾT LŨ ĐÓ CHO TA!!
+
+“BÌNH TĨNH NÀO, TÊN NGỐC! CẬU NGHĨ CẬU CÓ THỂ TRIỆU HỒI KHI KHÔNG CÓ SỰ CHO PHÉP CỦA GIÁO VIÊN SAO?”
+
+“TỚ KHÔNG THỂ BÌNH TĨNH CHÚT NÀO!! AI THẾ? LÀ NGƯỜI CÓ CON SỐ MAY MẮN THẾ?”
+
+“Thư giãn đi, nó vẫn chưa được quyết định.”
+
+“Ơ? Thật sao?”
+
+“…Nếu việc là thế, chúng ta sẽ không cãi nhau như thế này.”
+
+“À, cậu nói đúng.”
+
+May thật…chìa khóa để giành chiến thắng trong cuộc đua hai người ba chân là không để bị hồi hộp và bước đi cho đều với đồng đội. Hai cơ thể sẽ phải cùng với nhau. Nếu có bất kì kẻ phản bội nào mà làm một điều tuyệt vời như thế với các bạn nữ, người đó chắc chắn sẽ bị thảm sát bởi FFF.
+
+“Tớ hiểu rồi. Đó là lí do tại sao mọi người lại cầu nguyện.”
+
+“Việc là thế đấy.”
+
+Mọi người đều cầu nguyện trước khi đứng trước cái hộp, chắp tay lại và cầu nguyện.
+
+“Nhưng, nghĩ rằng Himeji và Minami lại đồng ý tham gia cuộc đua hai người ba chân cùng với các bạn nam. Yuuji, cậu nói gì với bọn họ ư?”
+
+Nhìn ở phía bên kia, các bạn nữ khác có vẻ như bắt cặp với những người cùng giới. Himeji và Minami có lẽ làm thế là bởi vì chỉ có ba người, Himeji, Minami và Hideyoshi và không thể bỏ người nào ra cả?
+
+Nghe thấy tôi nói, Yuuji nhìn với ánh mắt ‘thật sao, cậu…’
+
+“Cậu đang nói điều ngốc nghếch gì thế? Tớ còn ước rằng nam và nữ ở nhóm khác nhau nữa cơ.”
+
+“Ơ? Tại sao—ồ đùng rồi, tớ hiểu. Cậu sẽ bị giết nếu có thứ gì đó sai sót.”
+
+“Thật tốt là cậu có thể hiểu.”
+
+Một khi Kirishima biết rằng đồng đội của Yuuji là một bạn nữ, cho dù Yuuji có ở xa bao nhiêu đi nữa, cậu ấy chắc chắn sẽ đến để thiết lập một vài biện pháp để chống lại việc đó. Không có từ ‘không thể’ trong từ điển của một cô gái đang yêu—mọi người đều biết điều đó.
+
+“Hơn thế nữa, tớ cảm thấy rằng giải đấu bóng chày thì quan trọng hơn.”
+
+“…Tớ đồng ý.”
+
+Yuuji và Muttsulini gật đầu. Những người bọn họ đã biến thành Asura chỉ để lấy lại những cuốn sách A đã bị tịch thu. Bọn họ sẽ thích cái vinh quang thực tế là đã lấy lại được những cuốn sách A của mình gấp 10,000 lần hơn so với có được danh dự và vinh quang.
+
+“Nếu là thế, trận đấu tiếp theo đã được quyết định, đúng không?”
+
+Khu vực ở giữa (đầu tiên) thì được sử dụng để tổ chức đại hội thể thao, và khu vực thứ hai nằm ở phía sau trường  được sử dụng cho giải thi đấu bóng chày của năm hai. Phòng thể dục thì được mở cửa cho năm ba. Chúng tôi sẽ đối đầu với năm ba sau…
+
+“…Bọn họ vẫn chưa đấu xong. Đó là những hiệp phụ.”
+
+“Ồ, nếu chúng ta thành công, chúng ta sẽ có một chiến thắng dễ dàng.”
+
+Vì giới hạn thời gian, trận đấu sẽ được kéo dài đến bảy hiệp. Nếu họ không thể chiến thắng, trận đấu sẽ được xử hòa, nhưng cả hai phe đều không được đi tiếp. Nếu thật sự thế, chúng tôi có thể thắng trận tiếp theo mà không cần đấu.
+
+“Dù gì đi nữa, hãy kiểm tra trận tiếp theo để lập kế hoạch…để tớ coi nào, trận tiếp theo có Toán, Sinh học, Văn học hiện đại, Kinh tế và Địa lí.”
+
+Yuuji lấy ra lịch thi đấu để kiểm tra. Tất cả chúng đều là những môn học cơ bản, bình thường.
+
+“…Không có Giáo dục sức khỏe.”
+
+Muttsulini nghe có vẻ hơi buồn bã khi cậu ấy liếc nhìn lịch thi đấu trong tay Yuuji. Đúng như những gì Muttsulini đã nói, không phải trận nào cũng có môn Giáo dục sức khỏe.
+
+“Nếu là thế, cậu có muốn thao dự vào sự kiện trong đại hội thể thao không, Muttsulini?”
+
+“Cậu nói đúng. Chúng ta sẽ làm việc đó cho vòng hai.”
+
+“…Tớ hiểu rồi.”
+
+Nghĩ rằng Muttsulini thật sự lại rời chiến tuyến. Tuy nhiên, vì không có môn giáo dục sức khỏe trong một vài trận đấu tới, nó là không thể tránh được. Bên cạnh đó, những môn khác của Muttsulini còn tệ hơn cả tôi.
+
+“Thế thì chúng ta nên thay đổi thứ tự đánh và cân chỉnh hàng phòng ngự. Hiệp đầu tiên là môn Toán, vậy thì Shimada sẽ là người đánh bóng đầu tiên…chúng ta sẽ để Sugawa xử lí thứ nhì. Hắn ta có vẻ như thật sự có thể đỡ nhẹ đấy.”
+
+“Thế còn tớ? Tớ không thể lo nổi môn Toán.”
+
+“Cậu ‘cũng’ không thể lo nổi môn Toán. Bên cạnh đó, cho dù bọn tớ để cậu đánh sau một vài người, điểm Sinh học của cậu thì rất tệ, vì thế có lẽ tớ sẽ đặt cậu ở vị trí thứ ba. Thật tốt nếu cậu thực sự có thể đỡ nhẹ. Nếu cậu thành công, chúng ta có thể có được một điểm.”
+
+“Mm, hiểu rồi.”
+
+Yuuji đã quyết định thứ tự đánh bóng và vị trí phòng thủ.
+
+Trong khi tôi và Yuuji đang thảo luận—
+
+“Chà, erm, Akihisa-kun…”
+
+Một giọng nói gọi tôi từ phía sau. Giọng nói này…Himeji?
+
+“Hửm? Himeji, gì thế?”
+
+Quay người lại, tôi thấy Himeji và Minami đang đứng đằng sau tôi. Bọn họ trong có vẻ thật sự nghiêm túc. Chuyện gì thế nhỉ?
+
+“Nó không phải là chuyện gì đó lớn lao…”
+
+“Chà…Akihisa-kun, cậu số mấy vậy?”
+
+“Ơ? Cậu đang hỏi số tớ sao…”
+
+À, phải là thứ tự đánh đúng không nhỉ? Đúng như mong đợi từ Himeji, thật sự nghiêm túc khi cậu ấy làm việc. Cậu ấy thật sự lại kiểm tra vị trí phòng thủ và thứ tự đánh bóng. Mặc dù cậu ấy không thật sự giỏi thể thao, nhưng có vẻ cậu ấy nghiêm túc suy nghĩ về trận đấu.
+
+Uu, thứ tự đánh bóng của tôi…
+
+“Tớ thứ 3. Số ba.”
+
+““WAH!!””
+
+Sau khi tôi trả lời điều đó, Himeji và Minami có vẻ như thút thít vì lí do gì đó. Chẳng lẽ thứ tự đánh bóng của tôi lạ lắm sao?
+
+“Uuu…tớ biết rằng cơ hội thì rất mỏng manh, nhưng tớ đã nghĩ rằng nó có thể được…”
+
+“Thật quá đáng. Điều này thật đáng buồn…cơ hội duy nhất để nắm lấy. Đây là một cơ hội hiếm có…”
+
+Cả hai người bọn họ đều cầm một mảnh giấy nhỏ khi họ khóc lên.
+
+“À ~ vậy là các cậu đang nói về việc đó. Đừng lo lắng, hai cậu, Akihisa chỉ vừa nói về thứ tự đánh bóng mà thôi. Cậu ấy vẫn chưa rút số cho cuộc đua hai người ba chân.”
+
+Yuuji nói với bọn họ trong khi nghe có vẻ như là cậu ấy thuyết giảng hai người bọn họ vậy.
+
+““EH?””
+
+Himeji và Minami, người mà vừa trong khoảng khắc ưu phiền vài giây trước, ngẩng đầu lên cùng một lúc. Hừm? Con số mà họ đang nói đến là về cuộc đua hai người ba chân sao?
+
+“Ồ đúng rồi. Tớ quên mất việc đó. Đi rút một số nào!”
+
+Ai mà có thể chịu đựng được nếu những tên kia lấy đi cơ hội tuyệt vời để ở với các bạn nữa chứ!?
+
+“À, điều đó…Akihisa-kun!”
+
+“Chờ đã, Aki!”
+
+Khi tôi chuẩn bị đi đến hộp rút số, Himeji và Minami đột nhiên chặn tôi lại. Uu…nếu tôi không nhanh lên, hạnh phúc của tôi sẽ bị lấy đi mất.
+
+“Gì? Có việc gì sao?”
+
+“Không. Bọn tớ…chà…tớ nên nói gì bây giờ…tớ số 7…”
+
+“Số của tớ là số 6…”
+
+Himeji và Minami có vẻ như nói những con số đó một cách dè dặt. 7 và 6? Tôi hiểu rồi. Vậy là tôi sẽ trúng số nếu rút được mấy số đó đúng không—
+
+““(XIN HÃY) ĐỪNG RÚT TRÚNG SỐ NÀY!””
+
+Có vẻ như bọn họ thật sự ghét tôi.
+
+“Tớ, tớ hiểu rồi…vậy, tớ sẽ rút một số vậy…”
+
+“Tớ nói nè, hai cậu. Những lời đó có thể đã làm Akihisa hiểu lầm đấy…”
+
+“Bởi, bởi vì đó là Akihisa-kun…nếu bọn tớ nói với cậu ấy là ‘xin hãy rút con số này’—”
+
+“Đúng, đúng thế! Khi điều đó xảy ra, nó sẽ trở nên trái ngược với những gì bọn tớ mong muốn. Vì lí do nào đó, tớ luôn cảm thấy rằng cậu ấy sẽ rút trúng số của Sakamoto hay gì đó…”
+
+“…Thật là, thật khổ cho hai cậu quá…”
+
+(Thở dài) Mặc dù tôi chưa bao giờ gặp may mắn, dù gì thì tôi cũng không thể nào rút được một con số tốt cả. Nhưng tôi thực sự buồn vì bị nói bởi hai cậu ấy…tôi lê những bước chân nặng nề và đến trước Sugawa, người mà đang trông chừng cái hộp.
+
+“Được rồi, Yoshii, hãy rút lấy định mệnh của cậu đi nào.”
+
+“Uu, được rồi…”
+
+Với việc Sugawa nhìn chằm chằm vào tôi một cách bí hiểm, tôi với tay vào trong cái hộp. Nó sẽ là thiên đường nếu tôi có thể rút 6 hay 7, vì thế tôi phải làm hết sức mình. Uu…được rồi, cái này!
+
+Tôi ngay lập tức lôi ra một con số. Con số được viết trên tờ giấy là—
+
+“À, 6…”
+
+**“GIẾT HẮN!!!”**
+
+**““““VÂNG THƯA GIÁO CHỦ!!!””””**
+
+“CHUYỆN GÌ THẾ? TỚ BỊ BAO VÂY RỒI!”
+
+Tôi còn thậm chí chưa đọc con số của mình lớn lên nữa, và một nhóm người đông đảo trong áo trùm đen. Tôi đã quá bất cẩn! Công bố con số của mình một cách rộng rãi như thế, đây có phải là kết thúc của tôi…
+
+“6, 6…tớ hiểu rồi, vậy là Aki sẽ là với tớ…”
+
+“Uu…Minami-chan trông có vẻ vẻ rất vui…”
+
+“Vậy, vậy sao? Khi nào mà tớ trông rất vui…”
+
+“Cậu nói dối! Tớ có thể thấy mặt cậu sáng lên…”
+
+“Uu…”
+
+“Tớ nghĩ rằng Minami-chan sẽ sử dụng cơ hội này để chạm vào ngực và mông của Akihisa…điều đó thật quá lén lút…”
+
+“Cậu, cậu đang nói gì thế, Mizuki! Làm sao mà tớ có thể làm chuyện như thế—ơ, cái gì? Cậu vừa nói gì? Chạm…Mizuki, cậu đang nói gì thế…”
+
+“À! Không, không có gì! Tớ không có nói về việc lén lúc chạm vào cậu ấy đâu. Đ,đó…tớ chỉ nói về việc hoàn thiện mối quan hệ với Akihisa-kun. Tớ chỉ nói nhầm mà thôi!”
+
+“Mizuki…cậu đang định làm gì với Aki…”
+
+Trong chớp mắt, tôi bị vật nằm xuống sàn trong khi họ cưỡng bức lấy đi mảnh giấy trong tay tôi. Những tên này…những kĩ thuật này không phải là những động tác mà những tên không chuyên có thể làm được!
+
+“Được rồi, con số 6 này sẽ được đi đấu giá.”
+
+“RẤT TỐT, CHO DÙ CÁC NGƯỜI RA GIÁ BAO NHIÊU, MIHARU SẼ MUA NÓ!”
+
+“““TẠI SAO SHIMIZU LẠI Ở ĐÂY!?”””
+
+“Xin lỗi, nhưng đây là việc riêng của lớp—hửm?”
+
+“Chuyện gì thế, thủ lĩnh?”
+
+“Không, đây…không phải là số 6. Là 9. Yoshii chỉ nhìn nó theo hướng ngược lại.”
+
+Sugawa mở con số trong tay cậu ấy ra. Con số 9 có một mũi tên dùng để xác định nó nên được đọc như thế nào.
+
+“Cái quái gì thế, vậy đó là 9 sao. Điều đó thật sự làm chúng tôi bàng hoàng…”
+
+“Yoshii rất thích thú trong việc gây hỗn loạn.”
+
+“Làm cho bọn mình dành nhiều nỗ lực cho việc này như thế.”
+
+“Tất cả là lỗi của Yoshii khi không thể nhìn ra một con số đơn giản như thế. Thật là ngu ngốc.”
+
+Những thành viên của FFF càu nhàu khi họ quay lưng đi. Xém chết. Nếu tôi thực sự có được số 6, có lẽ tôi sẽ bị giết mất…
+
+“Chà, Aki…”
+
+Trong khi tôi đang nắn lại các khớp xương, Minami bước về phía tôi.
+
+“Hửm? Minami, gì thế?”
+
+“Tớ nên nói gì nhỉ? Chà…trước khi thi, tại sao chúng ta không cột chân lại và tập luyện một chút nhỉ? Chúng ta phải tập luyện sự đồng bộ, vì thế chúng tớ nghĩ chúng ta nên tập luyện để đồng bộ nhịp thở và nhịp điệu của chúng ta…”
+
+Minami bắt đầu khởi động khi hỏi tôi.
+
+Tập luyện cho cuộc đua hai người ba chân? Tôi hiểu rồi. Vậy là Minami nhận thấy rằng điều đó thật sự quan trọng và thật sự lại chấp nhận đóng góp cho lớp như thế. Đó thật tốt. Ngược lại, những người bạn cùng lớp mà sẽ hành hình tôi một cách đầy ghen tị là những người mà thối nát đến mức tôi muốn bùn ở trong móng tay họ.
+
+“À…nhưng tớ cảm thấy rằng tốt nhất là nên tập với đồng đội của cậu, đúng không? Tập luyện với đồng đội của cậu thì sẽ hiệu quả hơn.”
+
+“Tớ không cố tình rút ngắn khoảng cách với cơ thể cậu đâu—ơ? Cậu vừa nói gì?”
+
+“Tớ rút được số 9. Chẳng phải cậu rút được số 6 sao, Minami?”
+
+Tôi mở tờ giấy mà tôi vừa rút được cho Minami thấy.
+
+Thật là tiếc. Nếu tôi có thể cặp với một Minami năng động, tôi có thể trình diễn tốt hơn trong cuộc đua hai người ba chân. Ngoài ra, cũng sẽ có rất chuyện vui xảy ra nữa…
+
+“Ồ, tớ hiểu rồi. Ra là thế…nếu việc là vậy, nó chẳng quan trọng nữa…”
+
+Nghe tôi nói thế, Minami nhún vai và trông cậu ấy có vẻ lạc lõng khi cậu ấy bước đi. Có phải cậu ấy cảm thấy sẽ dễ dàng hơn nếu bắt cặp với tôi? Chúng tôi làm việc cùng nhau rất tốt. Nếu cậu ấy thực sự nghĩ như thế, nó sẽ rất tuyệt.
+
+“Tớ xin lỗi Minami-chan. Sự thật là, tớ vừa thở phào nhẹ nhõm đấy.”
+
+“Đừng lo, Mizuki…tớ nghĩ tơ cũng sẽ làm thế nếu vị trí của chúng ta ngược lại…”
+
+Minami bước đến Himeji, và cả hai người bọn họ đều nói gì đó. Có vẻ nhưng thứ gì đó liên quan đến con gái. Tôi không nên nghe lén, và hơn nữa, đến lúc đi đến Yuuji và đám còn lại rồi.
+
+Sau khi cất con số mà tôi đã rút một cách đàng hoàng, tôi quay người để trở về với những người bạn bình thường của mình. Yuuji và mọi người có vẻ đã hoàn tất việc thảo luận về trận đấu bóng chày vì Yuuji đưa tôi thứ tự đánh bóng của tôi một khi tôi vừa trở lại đó.
+
+“Gì thế, Akihisa? Cậu không rút được số mình muốn sao?”
+
+Yuuji chế nhạo tôi. Nếu tôi thực sự có được số mình muốn, tôi đã bị chôn sống rồi, đúng không? Trong một khía cạnh nào đó, có lẽ một kết quả như thế là rất may mắn.
+
+Nhắc đến đây, người nào là đồng đội của tôi nhỉ?
+
+“Ồ đúng, Yuuji, cậu số mấy?”
+
+“Hửm? Chà, tớ vẫn chưa rút. Tôi muốn rút khi các cậu đã bình tĩnh lại, nhưng tớ quên mất.”
+
+“Tớ cũng thế.”
+
+“…Đây cũng vậy.”
+
+Có vẻ như mọi người vẫn chưa quyết định đồng đội của họ trong cuộc đua hai người ba chân. Vì người đồng đội mang số 9 vẫn chưa rút được, vậy là một trong ba người này sẽ là đồng đội của tôi. Nếu thế…
+
+“Làm ơn, Hideyoshi, cậu phải rút số 9!”
+
+“Hửm? Sao thế, Akihisa? Cậu muốn bắt cặp với tớ sao?
+
+“Tất nhiên là tớ thật sự muốn bắt cặp với Hideyoshi.”
+
+Nếu chỉ có Yuuji, Hideyoshi và Muttsulini, tôi sẽ chọn ngay Hideyoshi mà không có ngoại lệ nào. Nếu cân nhắc về danh dự của lớp, sẽ tốt hơn nếu chọn Yuuji hay Muttsulini, nhưng mọi việc thì không đơn giản như thế. Thế giới này còn có những thứ quan trọng hơn cả việc chiến thắng.
+
+“Chúng ta nên rút số của mình luôn. Bên cạnh đó, những cuộc thi của lớp thì quan trọng hơn giải bóng chày như lịch trình.”
+
+“…Sẽ rất tệ nếu chúng ta không tham gia vào những sự kiện đó.”
+
+“Tớ cũng cảm thấy thế.”
+
+Ba người bọn họ tiến đến cái hộp. Sau mọi việc, chỉ còn ba người họ là chưa rút số. Những người mà chưa quyết định được đồng đội là tôi, Himeji và Minami. Nói cách khác, một khi họ rút số, sẽ có một thảm kịch đầy máu xảy ra.
+
+Trong khi mọi người cố gắng không nuốt nước bọt, Hideyoshi với tới cái hộp.
+
+Làm ơn, Hideyoshi, hãy rút số 9!
+
+“Uu, tớ rút được số 9—”
+
+“NGON THÌ LẠI ĐÂY, CÁC CẬU!! TỚ SẼ BẢO VỆ MẢNH GIẤY NÀY CHO DÙ TỚ PHẢI CHẾT!!”
+
+**“““ĐỪNG NGHĨ RẰNG CẬU CÓ THỂ SỐNG ĐỂ THẤY MẶT TRỜI NGÀY MAI, TÊN NGỐC KIA!!!”””**
+
+Không chấp nhận thua trước sát khí mãnh liệt này, tôi hét lên và nắm chặt tay. Chỉ còn vài phút trước khi cuộc đua hai người ba chân bắt đầu. Cho đến lúc đó, tôi phải sống sót!
+
+“—Xin lỗi, tớ nhìn nhầm. Nó là số 6.”
+
+“““…”””
+
+Sát khí lập tức tiêu biến.Vào lúc này, lòng nhiệt tình của tôi biến mất. Nếu nó là số 6, thì Hideyoshi bắt cặp với Minami…tôi cảm thấy đó thật sự đáng tiết, nhưng lại có một cảm giác nhẹ nhõm ở đây…
+
+Nếu là thế, chỉ còn lại 7 và 9. Người tiếp theo sẽ là đồng đội của tôi hoặc Himeji.
+
+“…(sssst).”
+
+Muttsulini với tay đến cái hộp. Với cậu ấy, đây là trận chiến giữa thắng và bại, đúng không nhỉ? Nếu cậu ấy có thể cùng với Himeji, cậu ấy có thể chạm vào những phần đáng kinh ngạc của Himeji mà cậu ấy tự mình nhận biết được. Cậu ấy sẽ nhảy thẳng vào cơn lốc của hạnh phúc mặc dù cậu ấy biết rằng mình sẽ chết. Tôi không muốn cậu ấy có được một kết quả đáng ghen tị như thế!
+
+Muttsulini cuối cùng cũng lôi ra mảnh giấy mà quyết định vận mệnh của cậu ấy và từ từ mở ra. Giờ, cậu ấy đã rút được gì…
+
+“…9—”
+
+“TẠM BIỆT!!”
+
+**“CẬU DÁM CHẠY TRỐN Ư! MỌI NGƯỜI, BẮT LẤY SAKAMOTO VÀ DÂNG HẮN CHO MỘT BUỖI LỄ HIẾN MÁU!!!”**
+
+**“OSSSUU!!”**
+
+Ít hơn một giây sau khi việc đó xảy ra, khoảnh khắc mà Yuuji biết rằng Muttsulini là đồng đội của tôi, cậu ấy nhận ra rằng mình sẽ là đồng đội của Himeji dù không rút số, vả cả lớp ngay lập tức chạy đi trong một hành động đi săn nhanh như chớp. Mn, không phải là tôi không hiểu cảm giác của mọi người muốn bắt tên chết tiệt đó và hành hình hắn.
+
+Nhìn vào cảnh Yuuji và mọi người chạy ở một tốc độ mà xứng đáng ở đại hội thể thao, Hideyoshi và Muttsulini đến với tôi cùng với con số họ rút được.
+
+“Thật là, mọi người tràn đầy năng lượng đấy.”
+
+“…Đó thật sự là rất ồn ào.”
+
+“Sao thế, Akihisa? Cậu không định giải quyết Yuuji sao?”
+
+Có lẽ, nghi ngờ sự bình tĩnh của tôi, Hideyoshi không thể không hỏi. Uu, tôi cũng muốn tự mình giải quyết hắn…
+
+“Không vấn đề gì. Cho dù tớ không thì Kirishima sẽ—”
+
+“…Mình sẽ không tha thứ cho cậu làm trò ngu ngốc đâu.”
+
+“GUUUUAAHHH!!! SHOUKO? CẬU TỪ ĐÂU BAY RA THẾ!!?”
+
+“—Kirishima sẽ hoàn thành điều ước của tớ.”
+
+“Tớ hiểu rồi. Dù bằng cách nào đi nữa, theo tớ thấy, Yuuji có lẽ không còn nhiều sức sống…”
+
+Kirishima, người mà đột nhiên xuất hiện từ không khí, đã đặt những ngón tay mảnh dẻ đầy sức mạnh lên mặt Yuuji. Đó phải đau lắm đây…
+
+“…Ồ đúng rồi, Yuuji.”
+
+“Nè, Shouko, chờ một chút! Ai mà lại nói chuyện bình thường trong tình huống này cơ chứ? Bình thường thì người ta sẽ bỏ lực ở mặt ra, đúng không?”
+
+“…Dì có đưa cậu gì không?”
+
+“Hửm? Cậu đang nói đến mẹ tôi ư? À, nếu thế…”
+
+Yuuji, người mà khuôn mặt vẫn đang bị khóa chặt bởi những ngón tay vẫn đang nói chuyện với Kirishima, lẩm bẩm ‘chờ một chút đã’. Nhưng Yuuji lại có thể nói chuyện được trong tình huống này, tôi nghĩ rằng điều đó khá là ấn tượng đấy.
+
+“…Về việc đó?”
+
+“Vụ kiểm tra vật dụng cá nhân đó, tôi đã để thứ mà mẹ tôi muốn đưa cho cậu trong cái cặp luôn rồi.”
+
+“…Cặp?”
+
+“Ơ, cái cặp với quyển sách thôi miên đấy.”
+
+“…Thật ư?”
+
+“Đúng.”
+
+“…Cậu không nói dối mình chứ?”
+
+“Tôi không có.”
+
+“…”
+
+“Shouko, chuyện gì với cậu thế? Chuyện gì sẽ xảy ra nếu cái cặp đó bị tịch thu?”
+
+“…Với mình…cái…”
+
+“Vậy, cậu đang nói cái quái gì thế—”
+
+“…Cậu…đã làm gì với mình hả!”
+
+“UWAAAHHH!! ĐAU, ĐAU QUÁÁÁÁÁÁ!!!”
+
+*“…Mọi thứ trong cái cặp đó đều bị tịch thu…”*
+
+“UWAAAAHHHHH!!!!”
+
+Tôi mơ hồ nghe thấy một tiếng rắc. Giây phút tiếp theo, tôi thấy Yuuji nằm bất động trên sàn.
+
+*“…Yuuji là…một tên đại ngốc!”*
+
+Để lại đằng sau một Yuuji bất tỉnh, Kirishima bỏ đi mà không ngoảnh mặt lại.
+
+Thật là, không thể tránh được. Vào lúc này, tôi chỉ có thể chăm sóc Yuuji. Nếu tôi cứ để cậu ấy nằm ở đấy, sẽ là một sự xáo trộn lớn với mọi người còn lại.
+
+“Cậu đã làm gì thế, Yuuji?”
+
+Tôi cúi người và nắm lấy tay Yuuji để lôi cậu ấy đứng dậy, hỏi về tình huống vừa nãy. Yuuji lắc đầu trước khi trả lời. Dù gì đi nữa thì nó cũng không quan trọng, nhưng với việc Yuuji có thể đứng dậy ngay lập tức sau một đòn tấn công như thế, tôi thật sự cảm thấy rằng cậu ấy không phải là người thường trong bất kì kiểu nào.
+
+“Chà…có vẻ như đó là tại tớ. Mẹ tớ muốn đưa cho cô ấy thứ gì đó, và những cuốn tạp chí đó cũng bị tịch thu luôn.”
+
+“Mẹ cậu nhờ cậu đưa cho Kirishima thứ gì đó…”
+
+Thấy cậu ấy giận dữ như thế, đó chắc phải là thứ gì đó quan trọng lắm.
+
+“Nói đến thứ mà mẹ tớ muốn đưa cho cô ấy, đừng bảo tớ là…một giấy đồng ý kết hôn!?”
+
+À, tôi hiểu rồi. Vì cả Yuuji lẫn Kirishima đều dưới tuổi, cả hai bên phải đồng ý để kết hôn. Giấy đồng ý kết hôn mà cậu ấy cực lực kiếm đã bị tịch thu. Thảo nào cậu ấy giận dữ như thế.
+
+“Thật quá nguy hiểm…nếu thế, tớ thật sự cảm kích vụ kiểm tra vật dụng cá nhân đột xuất đó guu…!”
+
+Yuuji một lần nữa lại đổ nhào xuống đất. Sau lưng cậu ấy, những bạn cùng lớp của chúng tôi đang cầm những cây roi điện trong khi bao vậy cậu ấy.
+
+**“Mang hắn đi.”**
+
+**“““Tuân lệnh!”””**
+
+Bọn họ nhấc cơ thể không còn chút sự sống nào của Yuuji và bước đi vào góc tối của khi trường học. Giờ tên Yuuji đó đã đi rồi, cậu ấy chắc chắn sẽ bị hành hình…nhưng đừng bận tâm việc đó. Hắn sẽ chỉ làm mọi việc khó khăn hơn đối với tôi nếu hắn tiếp tục sống. Quan trọng hơn nữa là tôi nên tập trung vào cuộc đua hai người ba chân.
+
+“Dù gì đi nữa, đồng đội của tớ Muttsulini ơi. Hãy làm hết sức nha.”
+
+“…Hãy làm hết sức mình.”
+
+Chúng tôi nắm mạnh tay nhau. Về khoảng tốc độ, Muttsulini thậm chí còn nhanh hơn cả Yuuji. Trong một cuộc thi, cậu ấy sẽ là một người đồng đội tốt nhất.
+
+“Kinoshita thì với tớ, đúng không? Chúng ta cũng làm hết sức nha.”
+
+“Ừ, tớ nói, hãy cùng hết sức mình nha.”
+
+Minami nghiên người vì một lí do nào đó. Có lẽ cậu ấy đã tập luyện với Hideyoshi rồi. Bên cạnh cậu ấy, Himeji trông có vẻ rất lo lắng.
+
+“Với Sakamoto-kun…tớ lo là tớ sẽ làm vướng chân cậu ấy…”
+
+“À, Himeji, tớ đoán rằng cậu không cần phải lo lắng đâu.”
+
+Một khi Yuuji quay trở lại, cơ thể cậu ấy sẽ ở trong trạng thái không thể nào chạy một cách bình thường được.
+
+Giờ đây, các nhóm của lớp chúng tôi là ‘tôi và Muttsulini’, ‘Minami và Hideyoshi’ và ‘Himeji và cái xác’ Tôi không thể tham gia vào nhóm có cả nam lẫn nữ, nhưng ít ra thì có lẽ đó là một điều tốt.
+
+“Sao thế, Aki? Đồng đội của cậu không phải Kinoshita, là Tsuchiya đó…nhưng trông cậu lại khá là vui!”
+
+“Ơ? Th, thật sao?”
+
+Lí do mà tôi cảm thấy thực sự vui vẻ khi Muttsulini là đồng đội của tôi vì tôi sẽ phải chết nếu tôi bắt cặp với một bạn nữ…nhưng rất khó để có thể nói một điều như thế. Dù gì đi nữa thì chạy trốn bằng một lời nói dối thì tốt hơn cả.
+
+“Tớ đoán thế. Bên cạnh đó, có Muttsulini làm đồng đội thì tốt hơn là với Yuuji.”
+
+“Hở ~ tại sao?”
+
+“Chẳng phải Muttsulini thì khá dễ thương sao?”
+
+“““…Ơ?”””
+
+Minami và Muttsulini sử dụng một biểu cảm khá là nghiêm túc khi họ hỏi tôi.
+
+“Chẳng phải Muttsulini đã mặc đồ nữ lúc ở biển sao? Tớ thấy cậu ấy trông khá là dễ thương vào lần đó—ow!”
+
+Đang nói nửa chừng, tôi bị gõ nhẹ sau đầu bởi ai đó, Ai thế?
+
+“…Xin lỗi, Akihisa.”
+
+Quay người lại, tôi thấy Hideyoshi trông không có vui vẻ gì khi cậu ấy đứng sau tôi. Ơ? Hideyoshi vừa đánh tôi sao?
+
+“Chuyện gì với cậu thế, Hideyoshi?”
+
+“Uu…thật ra, tớ thật sự không biết, nhưng tớ không thể không làm…”
+
+“Ơ? Như thế sao? Chà, dù gì đi nữa thì nó cũng không quan trọng, vì nó cũng không thực sự đau lắm…”
+
+Có lẽ Hideyoshi trượt tay? Tôi không thể tưỡng tượng được việc Hideyoshi đánh người một cách ngẫu nhiên được, vì thế chắc cậu ấy vô tình đánh tôi thôi…nhưng nếu nghĩ kĩ về việc đó, cậu ấy có vẻ như đã dùng ngón đòn đô vật lên người tôi…
+
+“Gần đây, có vẻ như sở thích của Akihisa phát triển lên. Tớ cảm thấy rất phiền về việc đó…”
+
+“…Biến thái…”
+
+“HAI, HAI CẬU HIỂU NHẦM RỒI! TÔI KHÔNG THẬT SỰ THÍCH MUTTSULINI MẶC ĐỒ NỮ, TỚ CHỈ CẢM THẤY VUI VÌ SẼ DỄ DÀNG CHIẾN THẮNG NẾU CẬU ẤY LÀ ĐỒNG ĐỘI CỦA TỚ!!”
+
+Tôi tiếp tục la với Himeji và Muttsulini, người mà đang đứng cách xa tôi ra và lẩm nhẩm. Nói đến chuyện đó, TÔI KHÔNG MUỐN MÌNH BỊ KÊU LÀ BIẾN THÁI BỞI MỘT NGƯỜI NÀO ĐÓ NHƯ MUTTSULINI!!!
+
+“Heh~ Aki, cậu khá tự tin đấy.”
+
+Có vẻ như lời ‘dễ dàng chiến thắng’ của tôi đã làm cho Minami không vui khi cậu ấy trả lời tôi. Tự tin gì chứ? Dù gì đi nữa thì tôi cũng chẳng qua tự tin…
+
+“Uu, mọi người đều đã biết Muttsulini tuyệt với như thế nào, nhưng tớ cũng khá giỏi thể thao đấy.”
+
+Nếu chúng tôi thi chạy 100m, tôi sẽ thua Muttsulini một chút, nhưng thời gian của tôi thì cũng khá tốt. Nếu Muttsulini và tôi có thể hợp nhau, việc đánh bại những người còn lại là không khó khăn.
+
+“Humph, và cậu thực sự đã nói điều đó…vì vậy nếu thế—”
+
+“Hửm?”
+
+“Một cuộc đua với bọn tớ thì sao?”
+
+“Ơ? Với hai cậu?”
+
+“Đúng thế. Kinoshita và tớ. Tớ nhớ rằng mỗi lớp được đề cử hai nhóm mà, đúng không?”
+
+Nghe Minami nói thế, có vẻ như tôi nhớ rằng đúng như thế. Mỗi khối có một cuộc đua riêng, và cho các lớp từ A—F, mỗi lớp cử ra hai nhóm, tổng cộng là 12 nhóm.
+
+Vì Minami đã thách thức tôi, sẽ thú vị để thách thức họ đây.
+
+“Mn, được thôi, chúng ta sẽ đua vậy.”
+
+Tôi lưỡng lự một hồi trước khi đồng ý việc đó.
+
+“Thế thì kẻ thua cuộc sẽ phải bị trừng phạt.”
+
+“Ơ?”
+
+Minami thêm vào một điều kiện.
+
+Hình phạt…nếu là Minami, thì loại hình phạt mà cậu ấy bắt tôi là sẽ là gì nhỉ? Chỉ nghĩ về việc đó không thôi đã làm tôi thấy sợ.
+
+“Sao thế, Aki? Cậu không có bất kì tự tin nào để chiến thắng nhóm nữ bọn tớ sao?”
+
+“Shimada, cậu đang nhầm phải không? Tớ không phải là nữ.”
+
+Minami khiêu khích.
+
+Woah, Minami thật sự dám nói điều đó. Tôi thật sự không có nhiều tự tin trong việc học, nhưng tôi không thể nào thua trong thể thao!
+
+“Tất, tất nhiên rồi! Được, hãy thi nào!”
+
+Nghĩ về việc đó, tôi đã luôn thi thố với Yuuji đủ mọi thứ. So với những trò trừng phạt đầy dơ bẩn và đáng khinh của gã ấy, đây sẽ dễ dàng hơn nhiều. Ai lại sợ chứ?
+
+“Về phần hình phạt dành cho người thua cuộc—”
+
+“Mm, nói đi, dù gì đi nữa thì tớ cũng sẽ chiến thắng!”
+
+“Nếu tớ thắng—”
+
+“—Cậu phải đi chơi với tớ.”
+
+“Ơ? Đi chơi với cậu…kiểu như cuối tuần hay sao? Cậu định đi mua sắm ư?”
+
+Minami nghĩ về việc gọi tôi đi và giúp cậu ấy mang đồ, đúng không? Tôi có nghe nói rằng con gái thì tốn rất nhiều thời gian đi mua sắm, vì thế Minami sẽ hỏi tôi làm điều này? Có lẽ tôi sẽ phải xách nhiều đồ đây.
+
+“Uu…chà, dù gì đi nữa, là như thế đấy. Mua sắm, ăn uống, xem phim…rất nhiều.”
+
+“Điều, điều đó…chúng ta có thể hoàn tất trong một ngày không?”
+
+Cảm thấy rằng thời khóa biểu bị chật kín. Có vẻ như trò chơi trừng phạt của Minami vừa nói đúng thật sự là một hình phạt.
+
+**“…Và ý tớ không phải là ‘chỉ trong một ngày’ khi tớ nói điều đó.”**
+
+Minami lẩm bẩm một mình trong một giọng khó thành tiếng. Cậu ấy định làm gì nữa sao?
+
+“Mn…tớ có thể đi chơi với cậu trong một ngày. Nhưng về phần tớ, nêu tớ thắng—để tôi nghĩ xem nào, tớ muốn một bữa ăn ngon lành.”
+
+“Được rồi, tớ hứa với cậu điều đó.”
+
+“Vậy thì chúng ta cược chứ?”
+
+“Ừ, nếu tớ thằng—cậu thật sự phải đi chơi với tớ đấy!”
+
+Minami nghe có vẻ thật sự nghiêm túc. Có lẽ cậu ấy sẽ bắt tôi ăn thứ gì cực kì đắt tiền với cậu ấy hay là giao cho tôi một công việc cực kì khó khăn, hay có lẽ cậu ấy sẽ vui vẻ lôi tôi đến khu vực bán đồ lót để mua hàng…
+
+**“Cuộc đua hai người ba chân chuẩn bị bắt đầu. Tất cả học sinh năm hai, xin hãy tập trung trước vạch mức.”**
+
+Vào lúc đó, một thông báo có thể nghe thấy từ loa phóng thanh.
+
+Mn, tôi chỉ cần không thua trận đấu này thôi! Vì nó đã được quyết định, nhất ngôn cửu đỉnh.
+
+“Được rồi! Nè, Muttsulini, đừng đứng cách xa tớ như thế nữa, chúng ta sắp bắt đầu rồi! Chúng ta phải giành được kết quả tốt!”
+
+“…Akihisa, đừng lại gần tớ quá.”
+
+“TỚ ĐÃ NÓI ĐÓ LÀ MỘT SỰ HIỂM NHẦM MÀ!”
+
+Tôi chỉ có thể cố hết sức mình để giải thích cho Muttsulini, người mà luôn giữ khoảng cách đối với tôi, khi chúng tôi hướng về vạch xuất phát của cuộc đua hai người ba chân.
+
+☆
+
+Ở vạch xuất phát nơi mà nhiều thí sinh đang nói chuyện nhộn nhịp. Dựa theo điều đã đồng ý, tôi xếp hàng cùng với nhóm ‘Minami và Hideyoshi’ cho cuộc đối đầu này.
+
+“MỌI NGƯỜI SẴN SÀNG! CHUẨN BỊ—”
+
+ĐÙNG!
+
+Tiếng nổ rõ ràng của khẩu súng có thể nghe thấy, và hàng thí sinh phía trước bắt đầu đi chuyển. Chúng tôi nằm ở nhóm tiếp theo, vì thế đã đến lúc chuẩn bị tinh thần rồi.
+
+Cố gẳng thả lỏng khớp và cơ bắp của mình, tôi nhẹ nhằng lắc tay chân và mô phỏng lại tình huống xuất hiện ở đó khi tôi bước lên. Khi tôi đi lên tôi phải canh chừng bước chân và hơi thở của mình và sau đó từ từ tăng tốc.
+
+“…”
+
+Đứng cạnh tôi, Minami cũng đang chờ lúc xuất phát. Cậu ấy có vẻ lo lắng, và trông cũng cực kì nghiêm túc.
+
+“Cậu khá là nghiêm túc đấy, Minami.”
+
+“Ơ? Thế, thế ư? Tớ ổn mà.”
+
+“Haha, tại sao cậu lại lo lắng thế?”
+
+“Từ, từ khi nào mà tớ lại lo lắng chứ?”
+
+“…Cậu, cậu là, một chút…”
+
+“Nè, tớ nói. Đúng là tốt để nghiêm túc cho vinh quang của lớp, nhưng nếu cậu không thư giãn, những thứ mà có thể thắng được sẽ trở thành không thể thắng được.”
+
+Cho dù từ đằng xa, tôi cũng có thể thấy rằng cơ thể của Minami khá cứng ngắt do sự lo lắng. Tại sao cậu ấy lại hào hứng với cuộc đua hai người ba chân thế nhỉ?
+
+“…Nhưng mình muốn thắng cho dù thế nào đi nữa…”
+
+Minami lầm bầm những từ đó một cách nhẹ nhàng, và những lời đó dường như tình cờ lọt vào tai tôi.
+
+Cậu ấy nhìn vào vạch xuất phát với cái nhìn đầy nghiêm tức. Tôi không hiểu tại sao Minami lại hào hứng như thế, nhưng vì cậu ấy đã coi việc này nghiêm túc như thế, là đối thủ người mà đã đồng ý việc này, tôi cũng nên coi trận đấu này một cách nghiêm túc. Điều này nên là sự lịch sự.
+
+“MỌI NGƯỜI! CHUẨN BỊ—”
+
+ĐÙNG! Tiếng súng ngắn có thể nghe thấy. Những nhóm trước chúng tôi chạy. Chúng tôi sẽ là người tiếp theo.
+
+“Làm thôi, Muttsulini, chúng ta sẽ là những người đến mức trước.”
+
+“…(Gật đầu).’
+
+“Kinoshita, tớ sẽ giao phó cho cậu cậy.”
+
+“Mn, tớ sẽ làm hết sức mình.”
+
+“Hiểu rồi. Miharu cũng sẽ làm hết sức mình.”
+
+Sau khi nuốt nước bọt, chúng tôi chờ tiếng súng bắt đầu. Thời khắc quyết định người chiến thắng là ngay lúc này.
+
+“NHÓM TIẾP THEO, CHUẨN BỊ! SẴN SÀNG—”
+
+ĐÙNG—tiếng nổ sắc nhọn có thể nghe thấy. Muttsulini và tôi tiến về phía trước. Chân trái trước, rồi phải, rồi trái. Tôi đếm từng nhịp đập khi chúng tôi bước đi. Điều đó cảm thấy thật là tuyệt.
+
+Rồi, chúng tôi từ từ tăng tốc độ và cuối cùng lại chạy về phía trước với tốc độ nhanh nhất có thể. Vào thời điểm đó, chúng tôi gần như quên mất rằng đây là cuộc đua hai người ba chân khi chúng tôi chạy như thể là chúng tôi không bị buộc vào ai từ lúc đầu cả. Với một người đồng đội có thể thở và di chuyển chung một nhịp, tôi thậm chí còn quên đi sự hiện diện của người kia nữa.
+
+“NHÓM ĐÓ…TẠI SAO NÓ LẠI LÀ BA NGƯỜI BỐN CHÂN?”
+
+Chỉ cho đến lúc này Minamo mới nhận ra, ngoài Hideyoshi chân kia của cậu ấy bị buộc chung với Shimizu.
+
+“Ơ? CHUYỆN, CHUYỆN GÌ THẾ NÀY!? CHỜ ĐÃ, MIHARU! CÔ ĐANG LÀM GÌ THẾ!?”
+
+“À, chị yêu dấu…cho dù bị dính với chị, em vẫn không thể cảm thấy cái ngực nhỏ xíu mà dính quá gần vào người chị được. Cái cảm giác đầy lôi cuốn này khiến Miharu không thể chịu lâu hơn được nữa…”
+
+“ĐỪNG CÓ CHẠM VÀO TÔI! BIẾN ĐI! VIỆC TÔI THẮNG TRẬN NÀY LÀ RẤT QUAN TRỌNG!”
+
+“Chị đang nói gì thế? Miharu làm điều này là vì lợi ích của chị đấy!”
+
+“TỪ KHI NÀO MÀ NÓ LẠI LÀ CHO LỢI ÍCH CỦA TÔI!? NẾU CÔ LÀM VÌ LỢI ÍCH CỦA TÔI—NÈ, CHỜ, CHỜ ĐÃ! CÔ VỪA MỚI VƯƠN TAY RA SAU VÀ CỞI MÓC ÁO NGỰC CỦA TÔI!?”
+
+“Không vấn đề gì! Cho dù chị không sử dụng áo ngực để hỗ trợ, thì cũng sẽ chẳng có bất kì vấn đề gì đâu!”
+
+“CÔ SẼ PHẢI NHỚ LẤY ĐIỀU NÀY!”
+
+“VÂNG, MIHARU SẼ KHÔNG QUÊN CẢM GIÁC NÀY ĐÂU!”
+
+“Ý TÔI KHÔNG PHẢI THẾ!”
+
+“Tớ nên làm gì trong tình huống này đây…”
+
+Hồi phục lại bản thân, chúng tôi đã cán mức trước tiên. Tôi đoán rằng nhóm tôi đã chiến thắng.
+
+“Haa, haa, haa…Miharu, cô…”
+
+“Thật tuyệt, chị yêu dấu!”
+
+“Tớ nên nói gì đây, cuộc đua hai người ba chân(?) này thật sự làm tớ cảm thấy mệt mỏi…”
+
+Chúng tôi cởi dây dưới chân mình ra, và cuối cùng thì nhóm của Minami cũng sớm chạy đến đích.
+
+Những người tham gia ba người bốn chân đó thật sự lại lấy được hạng nhì. Cho dù tôi nhìn nó kiểu nào đi nữa, bọn họ thì ấn tượng còn hơn cả chúng tôi.
+
+“MIHARU, BỌN TÔI THUA VÌ CÔ ĐẤY!!”
+
+“Miharu sẽ đi đây! Chúng ta sẽ gặp lại sau, chị yêu dấu!”
+
+“Á! CHẾT TIỆT! MIHARU!!”
+
+Sau khi cuối chào Minami, Shimizu liếc nhìn tôi và bắn đi mất như một con thỏ.
+
+“…Thật là, cô ta…”
+
+Mặc dù giận dữ, nhưng Minami lại nở một nụ cười gượng trên khuông mặt. Thật lạ? Trận đấu này đã bị phá hỏng nhưng trông Minami lại có vẻ ổn.
+
+“Cậu ổn chứ, Minami?”
+
+“Ơ? Ý cậu là sao?”
+
+“Không, chà…nếu Shimizu không dính vào, hai cậu đã có thể hạng nhất rồi.”
+
+“Chà…hm, có lẽ là thế.”
+
+“Như thế thì ổn chứ?”
+
+Bọn họ có thể chạy một cuộc đua ba người bốn chân với tốc độ đó. Nếu nó chỉ là một cuộc đua hai người ba chân bình thường, sẽ khó có thể nói trước được kết quả. Nhưng—
+
+“Bình tâm nghĩ về việc đó, kết quả này có lẽ là tốt hơn.”
+
+Minami trông có vẻ như cậu ấy không quan tâm, nhưng chẳng phải cô ấy quyết thắng từ lúc đầu sao?
+
+“Uu? Ý cậu là gì…khi nói ‘điều này có lẽ tốt hơn’?”
+
+“Nếu tớ sử dụng một cách đáng khinh như thế—cho dù tớ cảm thấy ổn vào lúc này, có lẽ tớ sẽ hối hận về nó một ngày nào nó. Có lẽ là hơi trễ một chút, nhưng đó là cảm giác của tớ lúc này.”
+
+Cách đáng khinh? Ý cậu ấy là gì khi nói thế nhỉ? Nói điều đó với tôi, người mà thường chơi chung với lũ không biết xấu hổ và quỷ quái, có phải cậu ấy đang nói rằng cậu ấy sẽ làm một thứ gì đó mà thậm chí còn ác độc hơn thế mà tôi sẽ phải hối tiếc? Nghĩ về việc đó, người tôi bắt đầu run lên. Nếu là thế, có lẽ tôi thực sự cần phải cảm ơn Shimizu.
+
+“Thế cuộc thi của chúng ta là vô hiệu vì trận đấu đó không tính.”
+
+“Ơ? Không cần đâu, lần này tớ đã thua, vì thế tớ sẽ đãi cậu một bữa ăn.”
+
+“Không cần đâu, điều đó thật kì cục. Bên cạnh đó, dù gì đi nữa thì chúng ta vẫn chưa đấu thực sự mà.”
+
+“Tớ muốn thế! Hay là thế nào? Cậu không muốn tớ đãi cậu sao?”
+
+“Uu…vì cậu đã nói thế, tớ sẽ cảm kích điều đó vậy.”
+
+<a href="http://bbs.hako.re/wp-content/uploads/2013/05/BTS_vol_07_151.jpg" rel="nofollow noreferrer" target="_blank"><img alt="BTS_vol_07_151" height="1200" src="http://bbs.hako.re/wp-content/uploads/2013/05/BTS_vol_07_151.jpg" width="1200"/></a>
+
+“Mm, tốt lắm!”
+
+Sau khi nói điều đó, Minami nở một nụ cừi đầy rạng rỡ với tôi.
+
+“Ồ đúng, Shimada…”
+
+Vào lúc đó, Hideyoshi, người mà nãy giờ im lặng, nói một cách ngập ngừng.
+
+“Hửm? Gì thế, Kinoshita.”
+
+“Không, điều tớ muốn nói là…‘thứ’ đó của cậu thì vẫn còn mở kìa. Chẳng phải cậu cần mặc nó lại đàng hoàng sao?”
+
+“Ơ?”
+
+<a href="http://bbs.hako.re/wp-content/uploads/2013/05/BTS_vol_07_143c.jpg" rel="nofollow noreferrer" target="_blank"><img alt="BTS_vol_07_143c" height="621" src="http://bbs.hako.re/wp-content/uploads/2013/05/BTS_vol_07_143c.jpg" width="614"/></a>
+
+Kia kìa, Hideyoshi chỉ vào ngực của cậu ấy.
+
+Thật tình mà nói, tôi đã bận tâm về nó ngay từ lúc đầu…
+
+“À…không, không phải thế! Tớ không quên mặc nó lại là bởi vi tớ cảm thấy rằng không có sự khác biệt khi để cái móc áo ngực rớt ra như thế!”
+
+Minami che ngực của cậu ấy bằng hai tay và chạy thẳng vào góc trường. Tôi hiểu rồi…vậy là Minami không nhận ra điều đó vì cậu ấy chẳng thấy sự khác biệt gì khi không có hỗ trợ…
+
+“…(Gục ngã).”
+
+Trong một góc mà chẳng ai để ý, Muttsulini ngất đi vì mất quá nhiều máu.

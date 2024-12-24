@@ -1,0 +1,421 @@
+Arc 1: Phép thuật OP như hack
+
+Chapter 15 - 勇者の耳にアイツの噂 - 4 anh hùng và tin đồn về Hiiro.
+
+Độ dài: 1,821 từ - Lần cuối:
+
+03/01/2017 19:37:16
+
+- Bình luận: 16
+
+“A, mỏi hết cả vai ~”
+
+Người đang xoa bóp cái vai của mình là một trong những Hero được triệu hồi đến Victorias, Aoyama Takashi. Ngay bên cạnh là 3 Hero còn lại, trông rất uể oải.
+
+Đội trưởng quân đoàn hai, Vale Kimble, đứng trước mặt họ đưa mắt quan sát bốn người.
+
+“Tốt lắm. Lại thêm một nhiệm vụ khấm khá nữa.”
+
+Nhiệm vụ lần này là săn Dơi Stinger trong hang Droke. Nó được đăng cáo thị bởi sự gia tăng số lượng lũ quái quá lớn nên gần đây chúng bắt đầu tấn công các thị trấn.
+
+Do hang Drove là nơi sinh sống của nhiều quái độc và rất bất tiện khi hoạt động trong tối nên nhiệm vụ đòi hỏi từ rank C trở lên.
+
+Dù vậy thì với rank khá cao và cách chiến đấu nhóm tốt nên bốn người họ đã xử được hơn 100 con Dơi Stinger. Số lượng đủ cho nhiệm vụ nên họ quay trở về thành.
+
+“Xử lũ quái đó chắc cũng được lắm EXP lắm.”
+
+Takashi phát biểu, mọi người gật đầu đồng ý.
+
+“Đúng vậy, ngoài ra ta cũng học hỏi được hạn chế trong cách chiến đấu nhóm của chúng ta để rút kinh nghiệm sau này.”
+
+Suzumiya Chika dùng chiếc khăn lau mồ hôi.
+
+“Vậy giờ ta kiểm tra ≪Status≫ chứ.”
+
+Bốn người đồng tình với Vale.
+
+Taishi Aoyama
+
+Cấp 23
+
+HP 120/406
+
+MP 89/370
+
+EXP 7200
+
+NEXT 987
+
+ATK 212 (263)
+
+DEF 195 (210)
+
+AGI 130 (137)
+
+HIT 152 (158)
+
+INT 119 (122)
+
+≪Thuộc tính ma thuật≫ Hỏa, Phong, Lôi, Quang
+
+≪Magic≫ Fireball (Hỏa, Công)
+
+Flame Lance (Hỏa, Công)
+
+Wind Cutter (Phong, Công)
+
+Cyclone (Wind, Công)
+
+Thunder Shock (Lôi, Công)
+
+Thunder Break (Lôi, Công)
+
+Lighting (Quang, Ảnh hưởng)
+
+Light Arrow (Quang, Công)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới, Hậu cung tạo, Thức tỉnh nhân
+
+Chika Suzumiya
+
+Cấp 23
+
+HP 134/373
+
+MP 65/340
+
+EXP 7200
+
+NEXT 987
+
+ATK 200 (250)
+
+DEF 200 (210)
+
+AGI 140 (155)
+
+HIT 145 (148)
+
+INT 120 (128)
+
+≪Thuộc tính ma thuật≫ Hỏa, Thổ, Băng, Quang
+
+≪Magic≫ Fireball (Hỏa, Công)
+
+Flame Lance (Hỏa, Công)
+
+Grave (Thổ, Công)
+
+Earthquake (Thổ, Công)
+
+Ice Needle (Băng, Công)
+
+Ice Tornado (Băng, Công)
+
+Lighting (Quang, Ảnh hưởng)
+
+Light Arrow (Quang, Công)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới, Nữ vương thể thao, Thức tỉnh nhân
+
+Shuri Minamoto
+
+Cấp 23
+
+HP 200/310
+
+MP 29/530
+
+EXP 7200
+
+NEXT 987
+
+ATK 107 (119)
+
+DEF 110 (121)
+
+AGI 130 (135)
+
+HIT 118 (120)
+
+INT 200 (215)
+
+≪Thuộc tính ma thuật≫ Phong, Thủy, Quang
+
+≪Magic≫ Wind Cutter (Phong, Công)
+
+Green Bind (Phong, Hỗ trợ)
+
+Water Wall (Thủy, Hỗ trợ)
+
+Bubble Shot (Thủy, Công)
+
+Heal (Quang, Hồi phục)
+
+Antidote (Quang, Hồi phục)
+
+Charge (Quang, Hỗ trợ)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới, Yamato Nadeshiko, Thức tỉnh nhân
+
+Shinobu Akamori
+
+Cấp 23
+
+HP 90/342
+
+MP 34/500
+
+EXP 7200
+
+NEXT 987
+
+ATK 115 (127)
+
+DEF 113 (124)
+
+AGI 165 (170)
+
+HIT 120 (122)
+
+INT 207 (222)
+
+≪Thuộc tính ma thuật≫ Thủy, Lôi, Quang
+
+≪Magic≫ Mist (Thủy, Hỗ trợ)
+
+Aqua Spiral (Thủy, Công)
+
+Paralyze (Lôi, Ảnh hưởng)
+
+Acceleration (Lôi, Hỗ trợ)
+
+Heal (Quang, Hồi phục)
+
+Cleaning (Quang, Hồi phục/ Hỗ trợ)
+
+Ray (Quang, Công)
+
+≪Danh hiệu≫ Anh hùng, Du hành giới, Hiếu kì nhân, Thức tỉnh nhân
+
+(Mọi thứ đều tốt cả nhưng cái danh hiệu Hậu cung tạo này có tác dụng gì chứ.)
+
+Taishi không hài lòng với cái danh hiệu của cậu, bởi cậu không nhớ là bản thân đã từng tạo harem đâu.
+
+“Sao đứng đơ ra vậy, Taishi?”
+
+“Ế? A, kh-ông có gì đâu! Ahahah!”
+
+Chika gọi đột ngột làm cu cậu giật mình, bởi dĩ nhiên là cậu không thể nói cái cho cô biết cái Danh hiệu này được.
+
+“Cậu lạ đời thật. Mà này, chúng ta có vẻ mạnh lên đó.”
+
+“Ừ, chúng ta đã cố gắng đến thế cơ mà.”
+
+“Shuricchi nói chí phải. Chúng ta cũng cần cố hơn nữa~”
+
+“Các bạn nói hay lắm.”
+
+Vale rạng ngời sung sướng.
+
+“Nhưng thực sự là hôm nay rã rời hết cả rồi~”
+
+“Ôi trời, Taishi, cậu ủy mị vừa thôi.”
+
+Chika trách mắng Taishi, người đang nằm dài xuống đất.
+
+“Tha cho mình hôm nay đi~ A, phải rồi, Vale, dạo này có gì bất thường xảy ra không?”
+
+“Bất thường? Để coi nào…”
+
+Vale đặt tay lên cằm, vẻ mặt đăm chiêu.
+
+“Nhắc mới nhớ, có vài tên bị truy nã đã bị bắt ở Ames mấy hôm trước.”
+
+“Ames là ngôi làng ở phía tây có phải không?”
+
+Vale gật đầu trả lời Shinobu.
+
+“Đúng vậy.”
+
+“Lũ bị bắt nổi tiếng lắm à?”
+
+“Phải, đó là anh em nhà Harios. Những mạo hiểm gia nổi tiếng về chém giết và trộm cướp. Dù mang danh là Mạo hiểm gia nhưng chúng được biết đến như những tên tội phạm hơn. Nên chính xác phải gọi là cựu Mạo hiểm gia.”
+
+“Hừ, lũ chúng nó sao bị bắt?”
+
+“Thật ra là các lời khai không được xác thực cho lắm.”
+
+“Là sao cơ?”
+
+Mọi người, không chỉ Shinobu hiếu kì nhìn Vale.
+
+“Người dân làng kể rằng một Hero áo choàng đỏ đã ra tay trợ nghĩa khi anh em nhà Harios cướp phá.”
+
+“Áo choàng đỏ? Anh hùng? Cái gì thế?”
+
+“Mọi thứ tôi được biết là cậu ta tóc đen, dùng ma pháp kéo dài thanh kiếm và có sức mạnh hạ đối phương bằng một chạm.”
+
+“Tóc đen… chằng lẽ lại là?”
+
+“B-áo cáo lại là cậu tự có tính tự cao rất lớn.”
+
+“Tóc đen va tính tự cao?”
+
+Shinobu quay sang nhìn mọi người và có vẻ tất cả đều đang nghĩ đến một người. Nhưng họ tin đó chỉ là nhầm lẫn đâu đó.
+
+“A… chắc không phải cậu ta đâu. Cậu ấy bảo muốn sống như kẻ bình thường cơ mà.”
+
+“Hắn chẳng bao giờ giúp ai với cái tính trái khoáy thế đâu.”
+
+“Haha, sao lại nói quá thế, Chika.”
+
+“Hừm ~ Nhưng nếu nó là thật thì sao. Mà thật ra thì giờ cậu ta đang ở đâu?”
+
+Không ai có thể trả lời. Vale cũng chỉ biết lắc đầu.
+
+“Mà, cố nghĩ cũng chẳng dẫn đến đâu. Chúng ta chỉ cần làm những gì có thể là được!”
+
+Chika cổ vũ mọi người, họ gật đầu đáp lại.
+
+***
+
+Nhóm của Hiiro đã đến Surge, thị trấn gần biên giới, nhưng có một tình huống ngoài dự kiến diễn ra ở đây.
+
+“Này, có chuyện gì thế?”
+
+“C-Chịu…”
+
+Hiiro cau mày sưng sỉa trong khi Arnold đứng cạnh nổi gân mặt.
+
+Một lượng lớn người mở các quầy hàng thu hút đám đông ở trước mặt họ. Hiiro, kẻ không thích chốn đông người, đứng trước khung cảnh như thế này và kết quả là một bầu không khí ức chế.
+
+“C-có lẽ là một lễ hội?”
+
+Muir nghiêng chiếc đầu xinh xắn, đôi mắt cô bé sáng lấp lánh. Một dãy cửa hàng dài bất tận thu hút cô.
+
+“Chờ đã, chẳng phải hôm nay là ngày đầu của Urui?”
+
+“Đúng vậy thưa bác.”
+
+Urui ở đây là tên gọi của tháng.
+
+Tháng 1: Nalwine
+
+Tháng 2: Nunui
+
+Tháng 3: Guweron
+
+Tháng 4: Guviris
+
+Tháng 5: Losron
+
+Tháng 6: Norui
+
+Tháng 7: Kelves
+
+Tháng 8: Urui
+
+Tháng 9: Ivanness
+
+Tháng 10: Nalbress
+
+Tháng 11: Hisui
+
+Tháng 12: Grisron
+
+Mỗi tháng ở đây có 28 ngày. Ngẫu nhiên là năm nay được gọi là Anol, và hôm nay là 214 Anno Anol.
+
+“Ngày hôm nay có gì đặc biệt à?”
+
+“Nhóc không biết à, Hiiro? Lễ hội Rear được tổ chức vào ngày này hàng năm mà.”
+
+“Lễ hội Raer?”
+
+Thế giới này gọi các mùa là:
+
+Xuân: Esuil
+
+Hạ: Raer
+
+Thu: Jarvas
+
+Đông: Riu
+
+“Giờ là mùa Raer. Để đuổi cơn nóng nên họ mới bày trò thế này.”
+
+(Ồ, đơn giản là một lễ hội mùa hè chứ gì!)
+
+Càng biết càng khó chịu. Đã nóng khi có một tên đáng ghét ở bên cạnh, giờ thêm cái đám đông phiền hà này chẳng khác đổ dầu vào lửa. Đúng là khó chịu mà!
+
+“Này, nhóc không phải vừa nghĩ cái gì khiếm nhã đó chứ?”
+
+“Tôi á? Không hề, tôi chỉ nghĩ ông đúng là một tên phiền phức, lão già ạ.”
+
+“Nghe này! Ngươi không biết cách phủ nhận à, dù có là nói dối chăng nữa? Sao mà người trả lời thẳng tưng vậy, tên trời đánh!”
+
+“Thế nên ông mới phiền phức!”
+
+“N-Này nhé, sẽ có ngày…”
+
+Gã ta nắm chặt tay. Đúng lúc đó, tầm nhìn của Arnold hướng tới Muir. Mặt cô bé ửng đỏ, chăm chú nhìn đám đông nhộn nhịp.
+
+“… Thôi được, ta đã quyết rồi! Chú thích nói thì nói, nhưng ta đã hạ quyết tâm rồi!”
+
+“Cái thái độ gì thế? Ông cuối cùng cũng chịu thua rồi à?”
+
+“Im đi!”
+
+Muir chớp mắt bối rối.
+
+“Chúng ta sẽ qua đêm ở đây, được chứ? Vậy hãy cùng nhau tận hưởng lễ hội!”
+
+Nghe thế, Muir tỏ rõ đầy sinh lực. Có vẻ cô bé khá vui mừng. Thực tế là cô muốn đi loanh quanh lễ hội lắm nhưng lại không dám lên tiếng.
+
+“Hiểu rồi, vậy hai người đi chơi vui vẻ nhé. Tôi kiếu về nhà trọ đây.”
+
+“Chờ đã.”
+
+Hiiro đang cố rời đi nhưng bị chặn vai lại.
+
+“Thả tôi ra.”
+
+“Thôi nào, sao nhóc có thể bỏ đi vậy chứ? Cùng nhau tận hưởng lễ hội đi!”
+
+“Không có hứng.”
+
+“Hử, nhóc có chắc chứ?”
+
+“…Ý ông là sao?”
+
+Arnold đưa một ngón tay lên và cười điệu. Hiiro cảm thấy muốn đập gã ra bã nhưng kìm lại được.
+
+“Nghe này, lễ hội Raer là lễ hội khá lớn ở Surge đó.”
+
+“…”
+
+“Có hàng tá quầy hàng ~ Hơn thế có nhưng gian cực kì nổi tiếng.”
+
+Vai Hiiro hơi co giật, “cực kì nổi tiếng” gây hứng thú đối với cậu.
+
+“Thêm nữa, họ còn tổ chức cuộc thi xem gian hàng nào bổi tiếng nhất Surge. Gian thức ăn thường thắng hàng năm… nhưng nghĩ xem ta sẽ được gì?”
+
+“…Dĩ nhiên, là được phục vụ đồ ăn ngon.”
+
+“Ta nghĩ ngươi sẽ khá thích đó.”
+
+“Hừm.”
+
+Arnold có vẻ rất thông thạo. Dường như không phải lần đầu lão tới lễ hội ở Surge. Cũng chẳng có lý do gì để gã nói dối. Và mồi câu là thức ăn ngon.
+
+Và tất nhiên là Hiiro bị cuốn theo hai người họ.
+
+“Này.”
+
+Arnold tỏ ra thất vọng, những tưởng việc thuyết phục cậu đã thất bại nhưng Hiiro nói thẳng.
+
+“Dẫn đường đi. Có những đồ gì tốt bán ở đây nào, lão biến thái?”
+
+“Đừng có gọi ta là biến thái!”
+
+Gã quát lên giận dữ nhưng miệng vẫn nhoẻn cười, Muir cũng tỏ ra khá rộn ràng. Cả ba cùng nhau tận hưởng lễ hội.

@@ -1,0 +1,139 @@
+Tập 4
+
+Giải thích trò chơi
+
+Độ dài: 1,307 từ - Lần cuối:
+
+11/11/2016 00:40:48
+
+- Bình luận: 0
+
+<<Yaa yaa yaa – Chuyện gì thế? – Ta là Noitan – linh thú dễ thương – được nhiều người yêu mến – trong [Tử chiến Hoàng gia]!>>
+
+<<Hử? – Cậu đang tự hỎi – tại sao – mỘt người – có cÁ tínH đặc bIệt – như ta – lại ở đÂy? – E hèm – ta nGhĩ – ta sẼ - giải thích – [Tử chiến Hoàng gia] – cho cẬu – kẻ đÁng thương – cHỉ có – kÍ ức – cũng cHỉ nHư lũ gÀ! – Dù bỌn hèn kÉm –cẬu đây – có thể dỄ dàng – bị nHầm lẫn – là nGuồn gốc – của từ ‘ngu xuẩn’ – ta rất tử tẾ với cẬu! – Dù sao – ta cŨng là – linh tHú.>>
+
+<<Được rồi – ta sẼ - bẮt đầu – nGay bây giờ!>>
+
+<<Ta sẼ nÓi thật – [Tử chiến Hoàng gia] là mỘt trò cHơi – về giết chóc – và lừa gạt – lẪn nhau.>>
+
+<<Sáu người chơi – sẽ có [trường phái] riêng của mình – và phải đẠt được – điều kiện cHiến thắng tương ứng. – Ta sẽ - hiển tHị [trường phái] – và điều kiện cHiến thắng ngay sau đây!>>
+
+☆ **[Vua]** *Điều kiện chiến thắng*: Cái chết của [Hoàng tử] và [Nhà cách mạng]
+
+☆ **[Hoàng tử]** *Điều kiện chiến thắng*: Cái chết của [Vua], [Kẻ thế mạng] và [Nhà cách mạng]
+
+☆ **[Kẻ thế mạng]** *Điều kiện chiến thắng*: Cái chết của [Hoàng tử] và [Nhà cách mạng]
+
+☆ **[Pháp sư]** *Điều kiện chiến thắng*: Sống sót
+
+☆ **[Hiệp sĩ]** *Điều kiện chiến thắng*: Cái chết của [Vua], và [Hoàng tử]
+
+☆ **[Nhà cách mạng]** *Điều kiện chiến thắng*: Cái chết của [Vua], [Hoàng tử] và [Kẻ thế mạng]
+
+<<Trò chơi kết thúc – mỘt khi điều kiện cHiến thắng – của mỗi người – được tHỏa mÃn! – Nói đúng hơn – trò cHơi chưa thể - kếT tHúc chỉ với việc – mỘt người hoàn tHành – điều kiệN cHiến thắng – của mình – Ví dụ - nẾu cẬu là [Vua] – và cả [Hoàng tử] – lẫn [Nhà cách mạng] đều cHết – trò chơi vẫn sẽ kHông kếT tHúc – một khi [Hiệp sĩ] – kẻ đAng nhắm vào – mẠng sống của cẬu – còn tỒn tạI.>>
+
+<<Vì thế - chắc cHắn sẽ có ai đó – phải bắt đầu giết nGười.>>
+
+<<Hử? Giết bằng cách nào à? Mọi người chơi đều có dao trong tay, nên chỉ việc tàn sát nhau là xong.>>
+
+<<Hả? Không làm được à? Vậy thì tự giết mình đi đồ ngu! Cậu không hiểu loài người là một loài vô cùng tuyệt vời khi có thể tàn sát lẫn nhau mà không cần lí do chính đáng gì sao!>>
+
+<<Đạo đức? A, cậu đang nói về cái thứ mơ hồ thay đổi theo môi trường. Cậu không thể giết người vì nó sao? Ta muốn phát ói đây, nhưng ta thừa nhận có lẽ điều đó là sự thật. Đừng lo! [Tử chiến Hoàng gia] được chuẩn bị để ngay cả những kẻ yếu đuối như cậu có thể giết nhau! Bọn ta đã tử tế cung cấp một hệ thống trong đó cho phép cậu giết người một cách đơn giản chỉ với việc ấn vào một nút.>>
+
+<<…>>
+
+<<Hử? Ta – không – tứC giận! – Hừ - bây giờ - ta sẽ - giải thích – từng [trường phái] – kể cả những kĩ năng – để giết kẻ khác.>>
+
+**Kĩ năng của [Vua]**
+
+- **[Sát hại]**
+
+Hắn có thể lựa chọn người chơi hắn muốn giết và ra lệnh cho [Pháp sư] hoặc [Hiệp sĩ] thực hiện hành động này. Hắn không cần phải lựa chọn ai sẽ giết.
+
+- **[Hoán đổi]**
+
+Hắn có thể tránh làm mục tiêu cho [Ám sát] bằng cách hoán đổi vị trí với [Kẻ thế mạng] trong vòng một ngày. Nếu hắn bị chỉ định làm mục tiêu, [Kẻ thế mạng] sẽ chết thay cho [Vua].
+
+**Kĩ năng của [Hoàng tử]**
+
+- **[Thừa kế ngai vàng]**
+
+Hắn có thể sử dụng [Sát hại] một khi [Vua] và [Kẻ thế mạng] chết.
+
+- **[Kháng phép thuật]**
+
+Hắn không thể bị giết bởi [Ma thuật].
+
+**Kĩ năng của [Kẻ thế mạng]**
+
+- **[Thừa kế]**
+
+Nếu [Vua] chết hoặc [Hoán đổi] được thực thi, hắn có thể sử dụng [Sát hại].
+
+**Kĩ năng của [Pháp sư]**
+
+- **[Ma thuật]**
+
+Hắn có thể lựa chọn thời điểm thích hợp nhất để giết kẻ bị chỉ định bởi [Sát hại]. Nhân vật bị chỉ định sẽ biến thành một xác chết cháy.
+
+**Kĩ năng của [Hiệp sĩ]**
+
+- **[Kết liễu]**
+
+Hắn có thể lựa chọn thời điểm thích hợp nhất để giết kẻ bị chỉ định bởi [Sát hại]. Nhân vật bị chỉ định sẽ chết bởi chém đầu.
+
+**Kĩ năng của [Nhà cách mạng]**
+
+- **[Ám sát]**
+
+Hắn có thể ám sát một nhân vật bị chỉ định. Hắn không cần phải lựa chọn ai khác để thực hiện. Nhân vật bị chỉ định sẽ bị siết cổ đến chết.
+
+<<Tóm lại – kĩ năNg càng mạnh mẽ - rủi ro phải chịu – càng cao – Vì thế - cậu không thể - gọi bất cứ [trường phái] nào – là có lợi.>>
+
+<<Bây giờ - ta sẽ giải thích – thời khóa biểu – trong tRò chơi này – việc quan trọng – đếN đáng ngạc nhiên.>>
+
+~12 <**A**>
+
+- Nghỉ ngơi, chờ trong phòng của mình.
+
+12~14 <**B**>
+
+- Tập trung tại phòng lớn.
+
+14~18 <**C**>
+
+- Lựa chọn nhân vật để [Họp kín] cho đến 14:40. Dành ba mươi phút trong phòng của nhân vật được chọn.
+
+- [Vua] có thể chọn mục tiêu để [Sát hại].
+
+- [Pháp sư] có thể sử dụng [Ma thuật] ([Hiệp sĩ] có thể sử dụng [Kết liễu])(Nhân vật bị làm mục tiêu cho [Ma thuật] hay [Kết liễu] sẽ chết vào lúc 17:55).
+
+18~20 <**D**>
+
+- Tập trung tại phòng lớn.
+
+20~22 <**E**>
+
+- Ăn tối trong phòng của mình(Nếu không còn đồ ăn, chết và biến thành xác ướp).
+
+- [Nhà cách mạng] có thể sử dụng [Ám sát](Nhân vật bị làm mục tiêu của [Ám sát] sẽ chết ngay lập tức).
+
+22~ <**F**>
+
+- Nghỉ ngơi, ngủ.
+
+<<Sử dụng thời khóa biểu này – để có kế hoạch – cho các hành động của mình!>>
+
+<<À đúng rồi – còn vài điều ta – muốn nóI với cậu.>>
+
+<<Thật ra – [Tử chiến Hoàng gia] là một trò cHơi – trong đó người chơi này – cHơi tiếp nối nGười chơi kia – Khi cậu là người chơi – những nGười khác – chỉ là NPC – và sẽ không chết tHật – khi cậu giết họ! – Tuyệt vời không? – Cậu có thể dễ dàng giết người – Cậu có thể - thưởng thức trò chơi.>>
+
+<<Hả? Cậu vẫn không thể - thưởng thức trò chơi – ngay cả kHi – những người khác là NPC?>>
+
+<<Nghe một miếng giẻ rách ăn hại sống một cuộc đời nhàm chán và còn không đọc nổi một mẩu tin tức trên Yahoo cho đến lúc chết như cậu nói gì nè? Hãy giao phó thân xác mình cho những ham muốn của cậu và thích thú tận tưởng từng giây phút! Như thế hợp với một tên không khác gì heo mọi như cậu hơn!>>
+
+<<……>>
+
+<<Đùa thôi ☆! Ta có làm cậu – nGạc nhiên không? Noitan là – linh tHú đáNg yêu – của mỌi người – nên ta không bao giờ - nGhĩ như thế cả ☆.>>
+
+<<Thôi – hãy tậN hưởng [Tử chiến Hoàng gia]!>>

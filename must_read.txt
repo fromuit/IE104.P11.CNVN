@@ -1,0 +1,6 @@
+-sau khi npm install để tải thư viện vite, nhấn:
+npm install concurrently --save-dev
+npm install @fortawesome/fontawesome-free
+npm install nodemon
+npm install sass
+- sau đó nhấn "npm install" 1 lần nữa và nhấn "npm start" để chạy"

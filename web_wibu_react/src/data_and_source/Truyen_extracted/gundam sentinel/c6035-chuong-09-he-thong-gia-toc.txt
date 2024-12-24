@@ -1,0 +1,343 @@
+Toàn tập
+
+Chương 09 - Hệ thống gia tốc
+
+Độ dài: 4,242 từ - Lần cuối:
+
+11/11/2016 00:42:21
+
+- Bình luận: 0
+
+Ba ngày đã trôi qua từ sau ngày 24 tháng 3, cuộc chiến vẫn diễn biến không như mong muốn. Thành Phố Ayers chỉ còn nắm quyền kiểm soát khu vực 4km xung quanh tòa thị chính.
+
+Hạm đội của Aeno, những người trấn giữ không phận của thành phố, phải rút lui do đã mất phân nữa khả năng chiến đấu và di chuyển đến khu vực xung quanh Side 5. Lực lượng phòng thủ gần như đã bị tiêu diệt. Giờ chỉ còn các đội bảo vệ cảng hàng không và tòa thị chính có thể thực hiện những cuộc tấn công có tổ chức. Một phần của quân đội Liên Minh đã tiến vào các khu dân cư ngầm dưới lòng đất nên lực lượng còn lại của New Desides vốn được phái đi chỉ huy các khu vực phòng thủ đã bị gọi về và tập trung tại tòa thị chính để chuẩn bị thoát khỏi Thành Phố Ayers.
+
+“Tôi chân thành cảm ơn tất cả các bạn. Các bạn đã chiến đấu rất tuyệt. Từ hôm nay, Thành Phố Ayers và tôi sẽ đi vào lịch sử. Đó là định mệnh của chúng tôi. Tuy nhiên, tất cả các bạn phải can đảm sống và tiếp tục chiến đấu, khiến sự nghi ngờ trong Chính Phủ Liên Minh Trái Đất ngày một tăng cao cho dù phải sử dụng sức mạnh quân sự. Đây không phải là một cuộc chiến chính trị. Đây là cuộc chiến vì những con người yêu Trái Đất. Chính Phủ Liên Minh Trái Đất hiện tại không hề đại diện cho đa số người dân. Chính người dân mới có quyền đưa ra quyết định chứ không phải chính phủ. Tôi thật sự biết ơn và tự hào vì đã dũng cảm chiến đấu cùng các bạn.”
+
+Pinefield đã mặc trang phục không gian và thể hiện lòng biết ơn đối với những thành viên còn lại của New Desides, những người đang đứng thành hàng ngang. Cod, Cray, Offshore, Side và Saotome đều có mặt trong số những người còn sống sót. Thị trưởng và quân lính của ông đều đã mệt mỏi cùng cực. Lực lượng còn lại của New Desides còn chưa tới một nữa so với lúc vừa thoát khỏi Pezun.
+
+Ngay sau đó, New Desides hướng đến hệ thống gia tốc ở phía đông của Thành Phố Ayers để phóng các mobile suit còn sử dụng được vào không gian trong khi các phi công đến cảng hàng không để chạy thoát khỏi Mặt Trăng bằng những tàu con thoi. Lúc cuộc chiến tại Thành Phố Ayers vừa bắt đầu, Pinefield đã có dự định sử dụng hệ thống gia tốc cũ này. Nó không được sử dụng suốt một thời gian dài nên có khả năng quân đội Liên Minh sẽ không chú ý đến hệ thống gia tốc dường như đã bị bỏ phế này.
+
+Đúng là thế, quân đội Liên Minh đã xem hệ thống gia tốc như một mạng lưới vận tải bị bỏ hoang và không hề phái quân đến đánh chiếm hay phá hủy nó. Phần lớn đường ray đều nằm dưới lòng đất còn các phần trên bề mặt đã được gia cố từ giai đoạn One Year War nên có thể đứng vững trước các đòn tấn công không quá mạnh.
+
+Một số người nghi ngờ rằng Thành Phố Ayers sẽ dùng hệ thống gia tốc để “oanh tạc” Trái Đất hay các colony gần đó. Sau khi xem xét nhiều yếu tố liên quan như chính trị, đa số đều khẳng định là Thành Phố Ayers sẽ không làm thế. Cho đến lúc này, Liên Minh Trái Đất vẫn xem cuộc nổi loạn của Thành Phố Ayers là quyết định cá nhân của Thị trưởng hoặc là một “vụ việc đơn lẻ” do New Desides chủ mưu. Nếu Thành Phố Ayers tấn công Trái Đất hay các colony thì vụ việc này đã leo thang thành một cuộc chiến tranh.
+
+Giữa cuộc chiến khốc liệt, New Desides đang tiến hành kế hoạch chạy thoát khỏi Mặt Trăng.
+
+Tại kho mobile suit nằm dưới kiến trúc mái vòm khổng lồ, các mobile suit của New Desides đang được cung cấp đạn dược và chuẩn bị xuất phát.
+
+“Chỉ huy Cod, thành thật xin lỗi nhưng thứ này quá phức tạp. Gấp thế này thì chúng tôi không thể hoàn tất việc sửa chữa được. Đặc biệt là hệ thống Incom, chúng tôi vẫn chưa sửa xong nên xin ngài đừng sử dụng liên tục. Ngài chỉ có thể sử dụng khoảng năm hoặc sáu lần nên chỉ dùng trong trường hợp khẩn cấp thôi. Nhưng chúng tôi đã trang bị thêm các tên lửa cỡ nhỏ và điều chỉnh hệ thống nhắm để chúng có thể được phóng bằng chế độ khai hỏa của hệ thống IMPC.”
+
+Dù không hài lòng nhưng Cod vẫn cám ơn kĩ thuật viên, sau đó anh bước vào khoang lái và đóng cửa lại.
+
+“Chúc ngài may mắn!”
+
+Tất cả những người đang có mặt tại nơi này đều vẫy tay hoan hô khi Mk-V dần trượt ra bên ngoài.
+
+“Cám ơn vì tất cả những sự giúp đỡ của các bạn!”
+
+Lối vào dành cho các cỗ máy hạng nặng của kiến trúc mái vòm khổng lồ mở ra và Mk-V xuất hiện trước những mobile suit đang cảnh giác cao độ và chuẩn bị chạy thoát như một chiến binh vĩ đại.
+
+“Tosh, nhóm của anh đến cảng hàng không còn bên tôi sẽ trấn giữ hệ thống gia tốc. Dù đồng đội ngã xuống thì vẫn phải tiến về phía trước! Hãy nhớ rằng sự hi sinh của một người có thể cứu được tính mạng của nhiều đồng đội khác!”
+
+Lệnh của Cod khiến ai nấy đều phấn chấn tinh thần. Đây là mệnh lệnh cuối cùng của anh với cương vị thủ lĩnh của New Desides.
+
+Cod và Offshore dẫn quân đến phía đông để cố thủ tại các vị trí đặt hỏa lực gần hệ thống gia tốc. Mặt khác, Cray cũng dẫn quân để cố thủ tại cảng hàng không. Các thành viên còn lại sẽ xuống lòng đất và chuẩn bị phóng các mobile suit. Mk-V lặng lẽ dẫn theo đội quân hỗn tạp bao gồm Xeku Eins, Xeku Zwei, Zaku được cải tiến của thành phố Ayers và GM III ra trận. Để yểm trợ cho họ, Lực Lượng Dân Quân Thành Phố Ayers xung quanh kiến trúc mái vòm bắt đầu khai hỏa dữ dội hơn bao giờ hết để thu hút sự chú ý của quân đội Liên Minh, gián tiếp hỗ trợ cho đội cố thủ tại hệ thống gia tốc.
+
+Suốt nhiều ngày liên tục, Ex-S Gundam phải thực hiện các nhiệm vụ yểm trở và di chuyển giữa nhiều khu vực chiến đấu khác nhau. Cuối cùng cũng có một cơ hội nghỉ ngơi và nó ở lại trạm tiếp tế cùng với hai Z-plus trong khi đợi lệnh.
+
+Trong ngày đầu tiên của cuộc chiến, Sigman Shade đã bị Josh Offshore của New Desides tấn công và Z-plus của cậu phải trở về hạm chỉ huy bằng HLV để sửa chữa. Đội ngũ kĩ thuật viên của Pegasus III đã làm việc liên tục không ngủ để đưa nó trở lại chiến trường chỉ bốn ngày sau khi bị bắn hạ.
+
+“Roots, West ,Shade, có diễn biến mới tại kiến trúc mái vòm khổng lồ. Mau xuất phát đi! Lúc này chỉ còn có các cậu thôi.”
+
+Roots đang ngồi chờ lệnh trong khoang lái của Ex-S Gundam thì nhận được lệnh xuất phát của Mannings. Cậu vứt gói đồ uống vị cà phê đang uống dở qua một bên và khởi động mobile suit. Vẻ mệt mỏi hiện rõ trên khuôn mặt và trông cậu như đã già đi mười tuổi.
+
+“Nè bố già, chiếu cố thằng này nhiều thế để làm gì hả? Gundam không phải là vô đối! Ex-S, Ryu Roots, chuẩn bị xuất phát!”
+
+“Z unit 1, Tex West, chuẩn bị hoàn tất.”
+
+“Z unit 2, Sigman Shade, chuẩn bị xuất phát.”
+
+Hai Z-plus chưa báo cáo xong thì Ex-S Gundam đã bay mất.
+
+“Lên nào!”
+
+Lưng của ba Gundam phát ra những quả cầu lửa trong khi lao vào bầu trời đầy sao của Mặt Trăng.
+
+Vào lúc này, đội cố thủ tại các vị trí đặt hỏa lực gần hệ thống gia tốc do Cod chỉ huy đang giao chiến với quân đội của Liên Minh.
+
+“Josh! Cậu dẫn một ít quân sang bên phải để dụ kẻ địch ra xa, nhớ đừng cố gắng quá.” Cod hét lên sau khi lại thêm một GM III bị kết liễu dưới thanh kiếm năng lượng của Mk-V.
+
+Vô số tia beam đầy màu sắc đang nhảy múa trong khu vực này.
+
+“Rõ! Chúng ta sẽ dụ kẻ địch ra xa. Đội công kích thứ nhất theo tôi! Các đội còn lại giữ nguyên khoảng cách, chỉ khai hỏa khi địch đã vào tầm bắn!”
+
+Hai bên bắn trả qua lại bằng những vũ khí beam. Các tia beam xuyên thủng thân thể của những GM III bên phía Liên Minh, trong chớp mắt chúng chỉ còn là những mảnh vụn.
+
+“Trung úy, tôi hạ được một tên rồi!”
+
+Offshore giật mình vì giọng nói còn non nớt cậu vừa nghe, thành viên của New Desides không bao giờ báo cáo những chuyện nhỏ nhặt như thế.
+
+“Ai vừa báo cáo đấy?”
+
+Offshore lên tiếng hỏi và đồng thời điều khiển Xeku Eins tiêu diệt ba mobile suit xung quanh cậu. Đây chính là thành quả luyện tập của Offshore dù cậu không phải là Newtype. Những bước di chuyển nhịp nhàng và liên tục như những cao thủ samurai này là do cậu luyện tập cực khổ mà có được.
+
+“Trung úy Offshore, chúng tôi đến giúp đây.”
+
+Cuối cùng cậu cũng nhận ra giọng nói của các thành viên trẻ tuổi thuộc Đội Trắng. Cậu cảm thấy khó chịu… Thật sự có kẻ tự đâm đầu vào chỗ chết sao? Offshore không biết nên trút cảm giác bực mình này vào đâu.
+
+“Lũ ngốc! Đến đây làm gì hả? Các cậu nên quay lại tòa thị chính và tiến hành giải giáp mới phải!”
+
+“Chúng tôi muốn chiến đấu cho đến phút cuối. Chúng tôi sẽ không làm vướng chân…”
+
+Tiếng thét thảm thiết tiếp theo đến quá nhanh.
+
+Những tia beam từ trên không lao xuống và phá hủy các mobile suit của những học viên trẻ tuổi.
+
+“Phía trên à?”
+
+Cậu nhìn lên và trông thấy Ex-S cùng hai Z-plus đang bay theo đội hình.
+
+“Chỉ huy Cod, là ba mobile suit loại Gundam.”
+
+Cậu cảnh báo Cod trong khi tấn công các mục tiêu trên không. Quân của Liên Minh trên mặt đất đã bị tiêu diệt toàn bộ nên chỉ cần tập trung vào ba Gundam.
+
+Các thành viên trẻ tuổi của Đội Trắng làm theo Offshore và bắn vào không trung nhưng không có hiệu quả gì.
+
+“Sao còn chưa đi?! Đừng chết ở một nơi như thế này!”
+
+Thêm một mobile suit của Đội Trắng bị phá hủy.
+
+“Lại đây mà chiến đấu với tao này, đồ hèn! Bọn mày không có quyền giết họ!”
+
+Offshore gầm lên giận dữ, cuối cùng cậu cũng tìm được mục tiêu để trút giận.
+
+“Josh, cậu lo hai tên màu xám đằng sau, để tên màu trắng ở phía trước cho tôi!” Cod vừa nói vừa nghĩ, “Dọa chúng một chút nào.” Anh phóng hai Incom và bắn vào giữa đội hình của ba Gundam.
+
+“Hoho…!”
+
+Hai chiếc đĩa đột nhiên xuất hiện và bắn vào giữa đội hình, tuy không gây nhiều thiệt hại nhưng vẫn khiến ba Gundam phải tách ra. Hai Z-plus đã đổi hướng để tránh đòn trong khi Ex-S Gundam di chuyển theo hướng khác.
+
+Offshore tuân theo lệnh của Cod và đuổi theo hai Z-plus.
+
+“Lại là thằng đó…”
+
+Roots nhìn xuống và trông thấy Mk-V rồi lập tức hạ độ cao. Cậu nghĩ Gundam màu xanh dương sẽ nhanh chóng bỏ chạy nhưng thật không ngờ, kẻ địch thật sự lao thẳng vào cậu.
+
+“Phân thắng bại ngay tại đây luôn đi!”
+
+Đối mặt với mobile suit đang hung hãn lao về phía cậu, Roots cảm thấy một khát vọng chiến đấu mãnh liệt.
+
+“Đến đúng lúc lắm, có Incom cũng kệ cha mày chứ, tao xem hết dữ liệu về mày rồi!”
+
+Roots thay đổi hệ thống vũ khí, ngăn chứa trên hai gối của Ex-S Gundam mở ra với một tiếng động chói tai và phóng ra hai vũ khí hình tròn được điều khiển bằng dây dẫn, Reflector Incom. Vũ khí này cùng loại với Incom của Mk-V, đều là vũ khí ứng dụng hệ thống quasi-psycommu. Reflector Incom không hề có khả năng tấn công nhưng nó có thể tạo ra một màn năng lượng và khiến các tia beam của đối phương hay người điều khiển bị phản xạ, làm thay đổi góc bắn và cho phép tia beam tấn công đối phương từ những góc độ mà chúng không ngờ đến. Hệ thống này tương tự như một tấm gương phản xạ.
+
+Hai Reflector Incom được thiết lập ở chế độ tự động và phát ra những tiếng rít khi bay về phía trước. Sau khi dự đoán đường bay của Mk-V, hệ thống điều khiển vũ khí của Ex-S hướng hai chiếc đĩa vào vị trí phản xạ tốt nhất.
+
+Tác Chiến  Tác Chiến  Tác Chiến
+
+Reflector Incom: Hoàn tất tự động định hướng
+
+Có thể sử dụng
+
+Hãy khai hỏa vũ khí chính
+
+Bắn  Bắn  Bắn  Bắn  Bắn
+
+Bắn  Bắn  Bắn  Bắn
+
+Tác Chiến  Tác Chiến  Tác Chiến
+
+Roots nhìn thấy từ “Bắn” hiện lên màn hình và lập tức bóp cò của khẩu beam smart gun được gắn trên hông của Ex-S.
+
+Bzzzz, bzzzz, bzzzz, ba tia sáng lập tức xuất hiện và lao vào Mk-V từ những góc độ kỳ lạ và phức tạp.
+
+“Hả?!”
+
+Nhìn thấy ba tia sáng, Cod lập tức đổi hướng và di chuyển Gundam sang phải.
+
+Tia beam nhẹ nhàng sượt qua Mk-V nhưng đã làm chảy một phần chân trái.
+
+“Xì, trò này chỉ dọa được con nít thôi!”
+
+Cod một lần nữa phóng hai chiếc đĩa từ vai của Mk-V về phía Ex-S, trông chúng như hai con rắn độc đang lao về phía con mồi. Hai chiếc đĩa phát ra những tiếng rít trong khi bắn ra các tia beam nhỏ vào bụng của Ex-S.
+
+Tác Chiến  Tác Chiến  Tác Chiến
+
+Báo Động  Báo Động  Báo Động  Báo Động
+
+Báo Động  Báo Động  Báo Động
+
+Xác định đối phương đã khai hỏa vũ khí beam: Phía trước 10’ 30”
+
+Phía dưới 07’50”
+
+Tác Chiến  Tác Chiến  Tác Chiến
+
+Roots di chuyển sang trái để tránh phát đầu tiên nhưng phát thứ hai…
+
+“Toi rồi!” Tất cả suy nghĩ đều dừng lại trong khoảnh khắc đó.
+
+Tuy nhiên, Ex-S tự động thực hiện một động tác không ai ngờ đến. Nó đưa khẩu beam smart gun trên hông ra để cản tia beam. Phần khung của khẩu súng hoàn toàn bị nung chảy, khiến nó không thể được sử dụng nữa.
+
+“Hả? Mày… bảo vệ tao à?”
+
+Cứ tưởng mình chết chắc, Roots mừng rỡ khi nhận ra mình vẫn còn sống. Cậu nhanh chóng kiểm tra tình trạng của các vũ khí còn lại.
+
+Hiện tại thì Ex-S đã mất vũ khí chính, khẩu beam smart gun, nên hai Reflector Incom cũng không còn tác dụng gì nhiều. Cậu tách bỏ khẩu súng và điều chỉnh để việc thu hồi hai Reflector Incom trở thành ưu tiên hàng đầu trong chuỗi mệnh lệnh. Sau đó, Ex-S phóng ra một cái Incom duy nhất được trang bị trên đầu.
+
+Ngay trong lúc này, hệ thống Incom của Mk-V vẫn tấn công không ngừng. Roots chật vật tránh được nhưng cuối cùng cậu cũng nhận ra là kĩ năng điều khiển của đối phương không thể bị xem thường.
+
+“Sao còn chưa thông hả? Thứ đó không làm gì được ta đâu.”
+
+Dù nghĩ như thế nhưng Cod hiểu rõ là hệ thống Incom của anh không thể được sử dụng quá nhiều nên anh chuyển sang tấn công bằng súng trường beam. Anh biết hai chiếc đĩa có thể gây thiệt hại đến một mức độ nhất định nhưng chỉ với những tia beam do chúng bắn ra thì không đủ để kết liễu Gundam của đối phương.
+
+Bzzzz, bzzz, bzzz, Incom của Ex-S bắn ra ba tia beam. Một tia trúng vào lưng của Mk-V nhưng nó không đủ mạnh và chỉ gây thiệt hại cho lớp giáp ngoài nên tình hình trận chiến vẫn không có gì thay đổi.
+
+Hai Gundam liên tục bay lên để nâng độ cao. Không ai có thể xen vào trận chiến khốc liệt này vì một lí do cực kỳ đơn giản: không một mobile suit nào khác có thể sánh ngang với chúng về tính cơ động.
+
+“Lần nữa nào!”
+
+Hệ thống Incom cần phải được thu hồi để nạp năng lượng. Cod trông thấy Ex-S phóng Incom một lần nữa và lập tức cho mở tấm chắn của các khoang chứa tên lửa cỡ nhỏ vừa được cài đặt. Tấm chắn của hai khoang chứa bật ra với một tiếng động lớn và từng chùm tên lửa cỡ nhỏ lao về phía Ex-S. Khi những quả tên lửa phát nổ thì vô số viên bi thép được phóng ra. Một trận mưa bi thép được tạo ra giữa hai mobile suit và cái Incom của Ex-S bị mắc vào trong, lập tức bị vô hiệu hóa.
+
+Vũ khí  Vũ khí  Vũ khí
+
+1. Hệ thống Incom: Không thể sử dụng
+
+2. 2 pháo beam trên hông: Có thể sử dụng
+
+3. 4 pháo beam trên vai: Có thể sử dụng
+
+4. 68mm Vulcan: Có thể sử dụng
+
+5. 2 kiếm năng lượng: Có thể sử dụng
+
+Vũ khí  Vũ khí  Vũ khí
+
+“Mẹ nó, đổi hàng!”
+
+Roots nhìn vào bảng lựa chọn và thay đổi vũ khí. Lần này cậu dùng hai khẩu pháo beam trên hông của Ex-S và khai hỏa liên tục.
+
+“Tao điên lên rồi đấy, đồ cứng đầu!”
+
+Giọng nói của Cod tràn đầy căm phẫn khi anh nhìn thấy đối phương chuyển sang sử dụng vũ khí khác. Rõ ràng kẻ địch đang tận dụng sự vượt trội về vũ khí để bù đắp cho kĩ năng điều khiển.
+
+Roots lùi về nơi xa nhất của trận mưa bi thép và tiếp tục khai hỏa nhưng bỗng nhiên cậu nhận ra Mk-V đã biến đâu mất, cứ như ảo thuật vậy.
+
+Kabooom…
+
+Trong nháy mắt, trận mưa bi thép bao trùm lấy Ex-S, và rồi… Roots nhìn thấy Mk-V, trông nó như một người khổng lồ đang đứng sừng sững trước mắt cậu.
+
+Khuôn mặt như một đấng cứu thế thường thấy của Gundam giờ không còn chút vẻ nhân từ nào. Đôi mắt lóe lên ánh sáng màu vàng nhìn trừng trừng vào Roots.
+
+Thật ra Mk-V đã dùng trận mưa bi thép để che mắt Roots và đột ngột đáp xuống mặt đất. Ngay sau đó, nó lại khởi động các động cơ phản lực và bay lên, tung một cú đá nhanh như chớp vào Ex-S đồng thời dùng tay nắm chặt hai khẩu pháo beam đã ngừng khai hỏa.
+
+“Những thứ này, mày nghĩ là có thể thắng chỉ với những thứ này sao hả?” Tiếng hét từ phi công của Mk-V xuyên qua lớp giáp đang bị chấn động và truyền vào khoang lái của Roots.
+
+“Thằng già thối, đừng có được nước làm tới!” Roots hoảng loạn hét lên trong vô thức.
+
+“Đám Newtype chúng mày toàn là một lũ non choẹt! Hét đi! Khóc nữa đi! Đồ nhãi ranh! Xem tao bóp chết mày đây!”
+
+“Tao không phải Newtype, tao là con người!”
+
+“Tưởng con Gundam của mày bá đạo lắm nhưng cuối cùng kĩ năng điều khiển quyết định tất cả!”
+
+Trận cãi nhau giữa hai người khiến ý chí khác trong Ex-S một lần nữa thức tỉnh.
+
+ALICE  ALICE  ALICE  ALICE
+
+Mẹ đã dạy bảo mình, muốn mình trở thành con người... trở thành con người tham gia vào chiến tranh.
+
+Con người tham gia vào chiến tranh đều là những sinh vật điên loạn, nhưng mình vẫn chưa trải nghiệm sự điên loạn.
+
+Nếu mình điên loạn, nghĩa là mình bị lỗi và các chức năng của mình sẽ ngừng hoạt động.
+
+Vậy nghĩa là mình thua kém con người sao?
+
+Mình không hiểu những gì họ nói... Chắc chắn họ được phân định bởi thiện và ác, không thể cùng tồn tại.
+
+Nhưng bên nào là đúng?
+
+Không, cả hai đều điên loạn, đều thiếu lý lẽ.
+
+Vẫn còn một cách khác...
+
+A! Bản thân mình đang hình thành hai ý chí khác nhau...
+
+Không được!
+
+Không được tìm hiểu nhiều hơn nữa...
+
+Không nên thay đổi những lý lẽ…
+
+Phải tách ra! Phải tách họ ra...
+
+Đúng, mình có ý chí của riêng mình…Phải…dựa vào bản thân để chiến đấu!
+
+Mình…Mình phải bước vào con đường tự hủy diệt bản thân sao?
+
+ALICE  ALICE  ALICE  ALICE
+
+Cling....
+
+Ex-S tự động tách bỏ hai khẩu pháo beam trên hông, khiến Mk-V bị mất thăng bằng trong chốc lát và đồng thời thực hiện một cú lên gối vào ngực nó. Mk-V loạng choạng rơi xuống và Ex-S cũng rơi xuống mặt đất do bị mất thăng bằng.
+
+“Gaa, arggh…”
+
+Cod cố chịu đau! Anh điều khiển mobile suit đứng dậy một cách chật vật. Những chỗ bị gãy răng do trận chiến với đội FAZZ vào tuần trước lại bắt đầu chảy máu. Miệng anh tràn ngập vị mặn.
+
+Sau khi đã đứng vững, Mk-V dùng tay phải để rút kiếm năng lượng. Thanh kiếm vươn dài ra với một tiếng xoẹt.
+
+Bên phía đối diện, Roots suýt chút nữa là tè ra quần vì những hành động của Ex-S.
+
+Cậu trông thấy Mk-V xông tới nên liền chuẩn bị đánh cận chiến nhưng chưa kịp làm gì thì đầu gối của Ex-S đã tự động mở ra, một thanh kiếm năng lượng phóng ra và được bàn tay phải của nó nắm chặt.
+
+“Hả? Mình… Mình chưa làm gì hết! Thứ mobile suit chết tiệt gì thế này? Bơ phi công tỉnh queo luôn!”
+
+Trong khi Roots còn đang cố bình tĩnh lại thì Mk-V đã tiến vào khoảng cách nguy hiểm.
+
+“Chết đi, Newtype!”
+
+Roots rơi vào trạng thái hoảng sợ cực độ vì cậu chưa bao giờ trải nghiệm một trận đấu cận chiến giữa các mobile suit. Cậu chỉ vừa mới làm quen với việc điều khiển Ex-S.
+
+“Không, không! Mình không muốn chết, mình muốn sống thêm vài ngày nữa!”
+
+Đó là một nỗi sợ có thể khiến con người trở nên điên loạn. Cơ bắp toàn thân cậu co rút lại và không thể cử động được. Hai hòn bi chui vào trong cơ thể và tâm trí cậu trống rỗng. Cậu bất động chờ đợi được nếm trải mùi vị của cái chết.
+
+“Mình không muốn chết arghhhhhhhh!”
+
+ALICE  ALICE  ALICE  ALICE
+
+Bản năng tự nhiên. Khát vọng được sống của một sinh vật…
+
+Điều chỉ sinh mạng mới có, tồn tại trong tâm trí con người…
+
+Em hiểu rồi…
+
+ALICE  ALICE  ALICE  ALICE
+
+Pzzzzz…
+
+Lưỡi gươm nóng rực của thanh kiếm năng lượng vươn dài ra. Roots lập tức tỉnh táo trở lại.
+
+“Mình đang điều khiển Ex-S Gundam… Mình sẽ không chết ở nơi này…”
+
+Thanh kiếm năng lượng đâm xuyên qua phần bụng của cỗ máy khổng lồ. Chỉ trong vài giây ngắn ngủi, gần như toàn bộ kí ức của cả cuộc đời thoáng hiện lên trong tâm trí. Đó là khoảnh khắc mà không ai có thể chịu đựng được.
+
+Dong, dong, dokang…
+
+Khoảnh khắc đó đang diễn ra bên trong Mk-V. Ex-S đã cúi xuống và tung một cú đâm đẹp mắt vào bụng của nó. Cả hai cỗ máy đều bất động, trông chúng như những pho tượng.
+
+Trước khi ý thức của Cod chìm vào vực sâu đen tối, anh mơ thấy một hành tinh màu xanh tuyệt đẹp. Trong khoảnh khắc, ý thức của anh đã băng qua không gian và anh mỉm cười.
+
+“Cuối cùng... mình... đã... trở... về... Trái Đất…”
+
+Thân thể của Mk-V bắt đầu phát ra những tia lửa màu trắng xanh. Sau khi những chùm khói màu cam xuất hiện, nó cuối cùng cũng phát nổ.
+
+Thắng rồi sao?”
+
+Ex-S Gundam đã nhảy ra xa để tránh vụ nổ và Roots nhìn thấy Mk-V biến mất trong quả cầu lửa. Trong tâm trí cậu hiện lên một niềm vui khôn tả vì giờ đây cậu đã hiểu được sinh mạng quý giá đến mức nào.
+
+Trong thâm tâm, cậu đang nghĩ về kẻ địch vẫn luôn miệng gọi cậu là Newtype ấy.
+
+Đến thời điểm này thì New Desides vẫn đang cố thủ tại hệ thống gia tốc và cảng hàng không. Tuy nhiên, không ai hay biết, một cái bóng khác đã xuất hiện trên Mặt Trăng.

@@ -1,0 +1,119 @@
+One-shot
+
+<part:number=epilogue:title=Lúc Chạng Vạng Này/>
+
+Độ dài: 989 từ - Lần cuối:
+
+12/04/2017 16:40:05
+
+- Bình luận: 0
+
+<img alt="Harmony 00002" height="60" src="http://vignette3.wikia.nocookie.net/sonako/images/6/68/Harmony_00002.jpg/revision/latest?cb=20140803195806" width="74"/>
+
+<?Emotion-in-Text Markup Language:version1.2:encoding=EMO-590378?>
+
+<!DOCTYPE emtl PUBLIC :-//WENC//DTD ETML 1.2 transitional//VI>
+
+<etml:lang=jp>
+
+<etml:lang=vi>
+
+<body>
+
+Đây là ngày cuối cùng của ý thức con người.
+
+Ngày mà vài tỉ cái “tôi” sẽ biến mất.
+
+Văn bản này là một câu chuyện được viết từ góc nhìn của một trong các Homo sapien[1] bị liên lụy vào chuyện này.
+
+Văn bản này được đánh dấu bằng ETML 1.2. Nếu bạn có các cấu trúc cảm xúc tương thích được cài đặt trong bộ đọc cấu trúc của mình, bạn sẽ có thể tái diễn mọi cảm xúc được nhắc đến trong văn bản, cũng như trải nghiệm các siêu chức năng ở vài chỗ nhất định khi bạn đọc qua. Hiện tại, ETML được nhúng trong văn bản này chỉ đóng vai trò ngòi châm cho bạn tái sinh hàng loạt chức năng cảm xúc còn sót lại trong não. Vì nhân loại được xã hội hóa một cách hoàn hảo hiện nay, ít có trường hợp kêu gọi sự thể hiện cường điệu của cảm xúc, dù tích cực hay tiêu cực.
+
+≡
+
+Hãy để tôi kể bạn nghe chuyện xảy ra sau vụ Caucasus.
+
+Chẳng bao lâu sau khi Tuan xuống núi, các trưởng lão đã quyết định hủy diệt ý thức và do đó cân bằng hóa mọi thành viên trong xã hội lập tức. Các trưởng lão với thẩm quyền trong tay đi vào phòng của họ và nhập các đoạn mã vào máy tính. Ngay khoảnh khắc đó, các thiên thần tấu lên khúc thánh ca Harmony và dang đôi cánh trước mỗi người có WatchMe cài trong mình, khắp mọi nơi trên địa cầu.
+
+Khi đôi cánh của thiên thần chạm vào đầu con người, ý thức và ý chí của họ biến mất.
+
+Trong thế giới mới này, vạn sự đều minh bạch, không còn thứ gì để chọn lựa.
+
+Chúng ta đang sống.
+
+Trong một thế giới có mọi thứ đúng theo lý lẽ.
+
+Không phân vân, không chọn lựa, không quyết định. Thứ gì đấy rất gần với thiên đường.
+
+<music:name=Messiah:id=2yr6r58jnjhu7451110e99>
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+<Hallelujah!>
+
+</music>
+
+Bạo loạn dừng ngay tức thì.
+
+Như thể họ chợt nhớ ra mình đang làm gì, ai nấy trở lại vai trò trong hệ thống xã hội. Hàng tỷ người trên thế giới với WatchMe cài trong người đã không còn là động vật.
+
+Cuối cùng chúng ta đã đạt đến thực thể xã hội hoàn hảo mà chúng ta đã luôn hướng tới một cách ngắt quãng từ thời cổ xưa.
+
+Bấy giờ, xã hội học và nghiên cứu kinh tế về các thời đại trước – thời con người còn một phần là con vật, sụp đổ chỉ trong một đêm. Khi một người được thanh tẩy và thích nghi tuyệt đối, họ trở nên đơn vị nhỏ nhất của thực thể xã hội, xã hội học và kinh tế học biến thành logic thuần túy.
+
+Hiển nhiên, trên bề mặt, không có gì thay đổi.
+
+Con người khóc như thể họ buồn và nổi giận như thể họ đang căm tức. Nhưng những hành động này mang cùng giá trị với các phản ứng bắt chước cảm xúc của một robot có thể có ở thời kỳ trước. Toàn bộ con người đã mất đi nội tâm.
+
+Nhân loại đang hài hòa tuyệt hảo với xã hội công nghiệp y dược của nó.
+
+Khoảnh khắc các trưởng lão nhập mã vào và chương trình Harmony bắt đầu tấu lên bài hát, sự tự tử biến mất khỏi xã hội con người. Gần như mọi cuộc chiến dừng lại. Cá thể không còn là một đơn vị. Toàn thể hệ thống xã hội là đơn vị. Do mất đi cảm giác về bản thân và sự tự nhận thức, xã hội được giải phóng khỏi nỗi đau nó đã gánh chịu vì hệ thống phụ thuộc những con người không hoàn hảo của mình, lần đầu tiên nó đạt đến niềm hạnh phúc viên mãn.
+
+Tôi là một phần của hệ thống, cũng như bạn là một phần của hệ thống.
+
+Không ai còn cảm thấy đau về chuyện đó nữa.
+
+Không có “tôi” để cảm thấy đau.
+
+Tôi đã được thay thế bởi một tổng thể độc nhất, “xã hội”.
+
+Thời đại mà ý thức là một khía cạnh giá trị của con người, đã trở thành dĩ vãng.
+
+Tuy giờ khó mà ước lượng, nhưng thời đại mà “tôi”, “ý thức” và “ý chí” đóng vai trò quan trọng trong đưa ra quyết định không hề ngắn. Đối với một con người hiện đại, kẻ phù hợp tuyệt vời với hệ thống, họ không cần các biểu tượng như những thứ mà Homo sapien gọi là chúa và anh hùng, nhưng học về những điều ấy không có hại.
+
+Từng có hai người phụ nữ tên là Mihie Miach và Kirie Tuan.
+
+Họ là những người cuối cùng tôn trọng cái “tôi” của chúng ta.
+
+“Tạm biệt, tôi.”
+
+“Tạm biệt, linh hồn.”
+
+“Dù có lẽ chúng ta sẽ chẳng bao giờ gặp lại nhau, xin tạm biệt.”
+
+Đó là những lời cuối cùng mà Tuan thì thầm, ngay trước khi WatchMe cô ấy online và sự vô ý thức tấn công cô. Những lời xoa dịu vài tỷ linh hồn sắp mất.
+
+Trên trái đất này có thiên đường không?
+
+Giả như con người có thể thực sự một lần chạm tới thứ gì đó hoàn hảo.
+
+Đây hẳn là thứ gần với thiên đường nhất mà chúng ta, loài có xương sống chắp nối từ một chuỗi biến đổi tiến hóa dài dằng dặc, có thể hy vọng gặt hái được. Leo những nấc thang tới một nơi chốn mà cái tôi và xã hội hòa làm một.
+
+Bây giờ, chúng ta hạnh phúc.
+
+Rất
+
+rất
+
+hạnh phúc.
+
+</body>
+
+</etml>
+
+↑ con người, theo thuật ngữ phân loài trong khoa học

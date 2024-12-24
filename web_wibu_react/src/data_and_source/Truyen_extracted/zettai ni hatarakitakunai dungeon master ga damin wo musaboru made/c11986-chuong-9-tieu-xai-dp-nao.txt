@@ -1,0 +1,155 @@
+Tập 1.
+
+Chương 9: Tiêu xài DP nào.
+
+Độ dài: 1,305 từ - Lần cuối:
+
+30/12/2016 19:01:53
+
+- Bình luận: 1
+
+“Cái gì đây, ngon quá! [Bánh mì dưa] ngon một cách kì quái luôn! Kehma, ngươi thường ăn những thứ ngon như thế này à!?”
+
+Cái hạt nhân hầm ngục cẩu thả này cảm thấy bất an về bánh mì dưa, liền cắn một miếng để thử. Trong phút chốc, nó cạp cả cái bánh trong nháy mắt.
+
+Ăn được cả bánh mì cơ đấy? Ý tôi là nhóc này còn có thể ăn cơ à? Lần đầu thấy luôn.
+
+“H-Hả? Ta cũng có thể ăn chứ bộ!”
+
+“Chẳng phải là không cần thiết à?”
+
+“Đúng rồi, bởi vì mấy thứ này tốn kém, xa xỉ… lắm… Còn nữa không vậy?”
+
+Nói gì thì nói, cái này 5 DP đấy biết không? Tầm đấy được một bộ đồ uống rồi.
+
+Dù sao 1 bộ cũng có đến 6 miếng cùng loại, yêu cầu thêm cả đồ uống nữa thì hơi quá thật.
+
+À, tôi cũng cho lũ cướp vài miếng bánh mì nữa, nhóc này cũng không để ý.
+
+Thêm nữa, vì nó tốn tận 5 DP cho một thùng đồ uống… công nhận đắt đỏ thật.
+
+“Có khá nhiều loại bánh mì đấy, nhưng thế thì không tiết kiệm được DP đâu…”
+
+“C-Chẳng phải vẫn được sao? Chúng ta có tới tận 2000 DP cơ mà? V-Vậy nên, c-chỉ một chút thôi…”
+
+A, ánh mắt nó đầy quyết tâm và nghiêm túc về việc này.
+
+“N-ngươi còn mua [Gối] và [Futon] cho chính mình cơ mà?! Một ít cho ta thì có sao chứ!?”
+
+“Kể cả anh đây đã cho nhóc con goblin à?”
+
+“Hả?! G-Gobsuke không liên quan gì đến vấn đề này cả! Hơn nữa, chẳng phải Kehma dùng 20 DP mỗi ngày cho việc ăn uống à.”
+
+Đặt tên từ lúc nào thế trời? Giờ mới biết đấy!
+
+“Này, anh còn cho con goblin một nửa đồ ăn đấy. Đúng ra nó còn tốn hơn 20 DP do tính cả phí nuôi nó nữa… mà đúng hơn, chẳng phải nó là đứa vô-dụng-ăn-bám bây giờ à? Giống như vật nuôi của nhóc còn gì?”
+
+“Không phải! Gobsuke có ích mà! Phải không Gobsuke!?”
+
+Chủ đề bỗng nhiên thay đổi, Gobsuke mặt đần ra, khó hiểu kiểu như đang nói [Ơ? Cái gì vừa xảy ra thế, sao cả hai lại nhìn mình thế này?].
+
+Hừm, chả hiểu sao cái răng nhô ra ở dưới mũi nó khiến nó trong giống chó phết nhỉ.
+
+… Không biết nó có ăn thức ăn cho chó không?
+
+“Sao cũng được. Thật ra thì anh cũng chẳng để tâm lắm nếu em không dùng nhiều quá. Mà dù có mua bộ đồ uống cộng với bánh mì từ giờ thì việc sử dụng DP cũng sẽ không thay đổi đâu.”
+
+Tịt ngỏm rồi, im lặng luôn.
+
+“Yê! Vậy thì lấy thêm một ổ bánh mì luôn đi Kehma!”
+
+“Vừa mới ăn xong lại còn đòi!? Nhóc cũng dùng DP ở thanh trạng thái rồi đúng không? Tự đi mà lấy.”
+
+“Ơ? Nhưng ta chưa từng thấy cái gọi là [Các loại bánh mì] hoặc [Bánh mì dưa] bao giờ cả… Hử? Còn nhiều nữa này? Ồ-ồ, còn có thể chọn giữa [Bánh mì đen], [Bánh mì trắng] và [Bánh mì dưa] nữa! Ta không biết đấy!”
+
+Hử? Gì thế?
+
+“Êu, nói lại xem nào.”
+
+“Hả? Ba loại là [Bánh mì đen], [Bánh mì trắng] và [Bánh mì dưa] à?”
+
+“… Đúng rồi!?”
+
+“Ơ-a, Yeah… Nhưng mà ý ngươi là gì vậy?”
+
+Với cái [Các loại bánh mì (5 DP)]… các lựa chọn là [Bánh cuộn kem][1] [Bánh đậu đỏ][2] [Bánh mứt cuộn][3] [Màn thầu][4] [Bánh táo][5] [Quẩy][6].
+
+([Cream-filled Roll] [Bean Paste Roll] [Jam Roll] [Steamed Roll] [Apple Pie] [Deep-fried Bread]
+
+“Biết gì đây không?”
+
+“.… Bánh mì, phải không? Cái gì đây, lần đầu tiên ta thấy thứ giống như vậy đấy. Ý ta là cái thứ Kehma tạo ra được bọc trong một thứ gì đó trong suốt kia kìa, cái đấy có ăn được không?”
+
+“Không, cái này là bọc nilon thôi, xé ra rồi ăn cái ở bên trong ấy… nhân tiện thì cái này gọi là [Bánh đậu đỏ], thử đi.”
+
+“Ể, đây là [Bánh đậu đỏ] hả… nom…~~~! Ngonnnn! [Bánh đậu đỏ] thật tuyệt vời! A, có cái gì vàng vàng bên trong nữa này. A-a, ngon quá! Ngon một cách kì lạ luôn…”
+
+Có một ý nghĩ chợt qua, và tôi đã đưa cho nhỏ [Bánh cuộn kem].
+
+“Rokuko, nhìn vào mục phân loại bánh mì trong thanh trạng thái lần nữa xem lựa chọn có tăng lên hay không.”
+
+“Ơ? Ok… Ồ, có thêm thật. [Bánh đậu đỏ] được thêm vào này. Ể, vậy mấy thứ như này cũng xảy ra được à?”
+
+“Vậy thì, tiếp theo, lấy ra [Bánh đậu đỏ] và kết hợp với bánh mì dưa đi Rokuko.”
+
+“Thật hả!? Fufufu, vậy thì, mỗi cái một nửa, vậy là 3 cái mỗi thứ. fufu, fufufu!” (TLN: chả hiểu sao lại là 3 luôn…)
+
+“Yeah, ta lấy ra [Bánh đậu đỏ] đây.”
+
+“AAAAAAAH!?”
+
+Ngẫu nhiên thay, khi Rokuko lấy ra [Các loại bánh mì], tôi cũng lấy ra [Bánh đậu đỏ]… Đúng rồi, đấy là [Bánh cuộn kem]. Nhìn kiểu gì thì kiểu, chuẩn [Bánh cuộn kem] luôn. Hay ở chỗ là nó không có giấy nhựa bọc mà chỉ có bánh hiện ra.
+
+“Xin lỗi nhé Rokuko. Đây là [Bánh cuộn kem]. Còn đây mới là [Bánh đậu đỏ].”
+
+“Ể, thật à? Hơ, vậy đây là [Bánh đậu đỏ] à. Hehe, thứ này có màu đỏ ở trong này!… Ngọt quá! Ta cũng thích thứ này nữa! [Bánh đậu đỏ] chính chủ ngon thật!”
+
+Haha, lại lừa nhóc nữa rồi. Đấy là [Bánh mứt cuộn], và là mứt dâu.
+
+“Được rồi, lấy ra thêm nữa đi. 4 cái [Bánh kem cuộn] và 2 cái [Bánh đậu đỏ] xem nào.”
+
+“Gì vậy, ngươi muốn chiều ta thế cơ à? Aaaa mou, chói quá, Kehma hôm nay đang tỏa sáng kìa! Vậy thì 4 [Bánh kem cuộn] và 2 [Bánh đậu đỏ]!”
+
+“… Ồ, vậy trong phần lựa chọn có gì nào?”
+
+“Ể? A, ngươi nói ta mới để ý, chúng tăng nữa này… Được rồi, lấy ra rồi đây. Vậy ăn chúng có được không?”
+
+Cái thứ mà Rokuko đổi DP để lấy được, trong số chúng là 4 [Bánh kem cuộn] và 2 [Bánh mứt cuộn].
+
+… Hiểu rồi.
+
+Có vẻ như, danh mục DP ưu tiên hiện ra những thứ mà chính người sử dụng nhận ra.
+
+Và [Những thứ mà bạn không biết không có trong danh mục].
+
+Để cho chắc chắn, thì ngoài việc thiếu cái vỏ nilon ra thì chỉ có tên là đúng.
+
+Nhóc này hấp thụ luôn rồi à? À, không phải, mặc dù nhỏ hấp thụ rác mỗi ngày… vậy thì, vấn đề này liên quan đến sự nhận biết à?
+
+Dẫu sao thì, có khả năng cao là nó không giới hạn những thứ chỉ có ở thế giới này.
+
+Mình chưa từng nhìn thấy rồng bao giờ cả nhưng mà nó lại có ở trong danh sách… hoặc có thể đây là tùy chọn mặc định dành cho chủ nhân của hầm ngục.
+
+Dù muốn xác nhận thêm cho chắc, nhưng mà như thế thì quá rắc rối, và cũng tốn DP nữa.
+
+“Ăn được đúng không? Đúng không?”
+
+“Ừ, ăn đi… À, vì chỗ đấy đủ ăn cho 4 ngày, nên ăn từ từ thôi, ok? À nhớ chia cho Gobsuke nữa.”
+
+“Hả!?”
+
+Vừa mới cắn một miếng [Bánh cuộn kem], Rokuko đơ tại chỗ luôn.
+
+Haha, dù cho nhóc có ăn hết cả đống đấy thì anh cũng vẫn chia cho Gobsuke phần của anh mà.
+
+[1]Cream-filled Roll: https://www.google.com.vn/search?q=Cream- filled+Roll&num=100&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi2ltWa9KLOAhXENpQKHYKtBpQQ_AUICCgB&biw=1366&bih=641
+
+[2]Bean Paste Roll: https://www.google.com.vn/search?biw=1366&bih=641&tbm=isch&sa=1&q=Bean+Paste+Roll&oq=Bean+Paste+Roll&gs_l=img.3…86199.86199.0.86745.1.1.0.0.0.0.168.168.0j1.1.0….0…1c.1.64.img..0.0.0.xD0bSl0AB_o
+
+[3]Jam Roll: https://www.google.com.vn/search?biw=1366&bih=641&tbm=isch&sa=1&q=jam+roll&oq=%5BJam+Roll&gs_l=img.1.0.0i19l10.135943.135943.0.137743.1.1.0.0.0.0.191.191.0j1.1.0….0…1c.1.64.img..0.1.189.kHSjqYvtacc
+
+[4]Steamed Roll:https://www.google.com.vn/search?biw=1366&bih=641&tbm=isch&sa=1&q=Steamed+Roll&oq=Steamed+Roll&gs_l=img.12..0i19l2j0i5i30i19l3j0i8i30i19l5.23006.23006.0.23755.1.1.0.0.0.0.188.188.0j1.1.0….0…1c.1.64.img..0.1.186.ZQCTSZeMYSY
+
+[5]Apple Pie:https://www.google.com.vn/search?biw=1366&bih=641&tbm=isch&sa=1&q=Apple+Pie&oq=Apple+Pie&gs_l=img.12..0l2j0i30l8.11706.11706.0.12377.1.1.0.0.0.0.436.436.4-1.1.0….0…1c.1.64.img..0.1.435.tht8TRHLais
+
+[6]Deep-fried Bread: https://www.google.com.vn/search?biw=1366&bih=641&tbm=isch&sa=1&q=Deep-fried+Bread&oq=Deep-fried+Bread&gs_l=img.12..0i30l7j0i5i30l2j0i8i30.16918.16918.0.17835.1.1.0.0.0.0.175.175.0j1.1.0….0…1c.1.64.img..0.1.174.ev4_m9-NCfA

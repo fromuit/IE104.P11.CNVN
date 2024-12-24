@@ -1,0 +1,755 @@
+Vol 23
+
+Chương 1: Skeleton hạ cấp.
+
+Độ dài: 3,995 từ - Lần cuối:
+
+02/01/2017 16:52:34
+
+- Bình luận: 6
+
+<em>“Chậc! Đây là đâu?"</em>
+
+Weed nắm chặt thanh kiếm rỉ sét và gượng dậy.
+
+Trên một bãi đất hoang tàn đến mức cỏ dại cũng không mọc nổi, có những con Skeleton đang đi lang thang.
+
+<em>"Chuckle."</em>
+
+<em>"Kooehh."</em>
+
+Lũ Skeleton bước qua Weed mà không tấn công cậu là vì cậu đã biến thành Skeleton. Phép triệu hồi của Balkan Demoph đã mang cậu tới đây trong hình dạng Undead.
+
+<em>“Cuối cùng mình cũng đến đây."</em>
+
+Weed cũng đã quen với cơ thể to lớn của Undead.
+
+Khi cậu bình tĩnh nhìn xung quanh, cậu nghe thấy tiếng hét của đám Skeleton gần đó.
+
+<em>"Whoa, nơi này là đâu?"</em>
+
+<em>“Làm sao mà chúng ta đến được đây? Tôi đang đi săn với Golem."</em>
+
+<em>"Skeleton? Ai có thể triệu hồi nhiều Skeleton đến thế?"</em>
+
+Giống như Weed, những Skeleton gần khu nghĩa trang đang trao đổi với nhau.
+
+<em>“Tôi đến từ một khu nghĩa trang gần lâu đài Vitum, còn các bạn?"</em>
+
+<em>"Tôi đến đây trong khi đang đi săn ở rừng Xerathium."</em>
+
+<em>“Tôi bị lôi đến đây từ hầm ngục Bisbek."</em>
+
+<em>“Rừng Xerathium... Có phải tên cô là Jeanne the Necromancer?"</em>
+
+<em>“Chính xác."</em>
+
+Skeleton có một ít tóc xác nhận tên cô là Jeanne. Jeanne là người đầu tiên chuyển class sau khi Weed mở khóa class Necromancer. Cô là một người chơi nổi tiếng chuyên về triệu hồi cương thi ở rừng Xerathium.
+
+Jeanne rất ngưỡng mộ Necromancer. Sức mạnh triệu hồi xác chết và ra lệnh cho chúng.
+
+Cô yêu cách Weed chiến đấu trong lốt Necromancer đến mức cô ghi hình lại nhiệm vụ của cậu và xem đi xem lại. Sau khi chuyển class thành Necromancer, cô biến những con thú nhỏ thành Undead và quét sạch các bãi săn. Là một Necromancer cao cấp, cô có thể triệu hồi số lượng lớn Undead và đi săn điên cuồng.
+
+<em>“Tôi là Necromancer Bohram."</em>
+
+<em>“Wow, toàn người nổi tiếng. Tên tôi là Otem. Có ai từng nghe danh tôi không?"</em>
+
+<em>“Ai mà không biết về những con Golem của Otem chứ? Anh là một trong những Necromancer hàng đầu cơ mà."</em>
+
+<em>“Tôi là Rashi, mới thành Necromancer một tháng. Rất hân hạnh gặp mặt."</em>
+
+Đám Skeleton chuyện trò sôi nổi như trong quán cà phê!
+
+Skeleton nhỏ con giới thiệu tên cô ấy.
+
+<em>"Xin chào, tên tôi là Harien."</em>
+
+<em>“</em><em>Không ngờ là cô cũng ở đây."</em>
+
+Harien là người chơi nữ nên cấu trúc xương của cô khác với cánh đàn ông.
+
+<em>“</em><em>Các bạn nghĩ tại sao chúng ta lại tập trung ở đây?”</em>
+
+<em>“</em><em>Chúng ta đột nhiên bị triệu hồi dưới dạng Undead. Nhưng tôi chẳng hiểu chuyện gì đang xảy ra cả."</em>
+
+<em>"Khoan, có chuyện không ổn với bảng thông số. Đổi class, đối cả các chỉ số. Mọi người hãy tự kiểm tra đi."</em>
+
+Otem vừa dứt lời, những người chơi Skeleton bật cửa sổ chỉ số của họ lên, và Weed cũng thế.
+
+<em>“Cửa sổ chỉ số."</em>
+
+Character Name
+
+Weed
+
+Trạng thái
+
+Undead
+
+Level
+
+390
+
+Trực thuộc
+
+Quân đoàn Undead
+
+Class
+
+Skeleton Tái sinh
+
+
+
+
+
+Health
+
+87,389
+
+Mana
+
+41,821
+
+Strength
+
+1,453
+
+Agility
+
+1,293
+
+Vitality
+
+766
+
+
+
+
+
+Wisdom
+
+663
+
+Intelligence
+
+655
+
+Fighting Spirit
+
+541
+
+Endurance
+
+453
+
+Perseverance
+
+753
+
+Physical Resistance
+
+455
+
+Charisma
+
+414
+
+Leadership
+
+706
+
+Power of Undead
+
+165
+
+
+
+
+
+
+
+Death Aura đã được kích hoạt
+
+
+
+
+
+Khi biến thành Undead , chỉ số Art, Faith, Charm sẽ chuyển đổi thành các chỉ số chiến đấu.
+
+
+
+
+
+'Chuyển class thế này cũng không có gì lạ.'
+
+Những Necromancer kia hẳn là đang rất ngạc nhiên.
+
+Vì Weed là người duy nhất sở hữu Power to Reject Death, một kỹ năng mà chỉ có Blood Necromancer cấp cao mới nhận được. Weed đã hồi sinh nhiều đến mức cậu coi việc chuyển class chỉ là chuyện thường ngày.
+
+<em>"</em><em>D</em><em>eath Aura à."</em>
+
+Một trong ba kỹ năng của Balkan.
+
+Quyền năng cường hóa cho Undead đã được kích hoạt trong người cậu.
+
+Một kỹ năng chia sẻ một phần sự sống nhằm mang lại sức mạnh to lớn.
+
+<em>“Class gì thế này?</em> <em>Skeleton</em><em> Tái sinh?”</em>
+
+<em>“Đây là một dạng nhiệm vụ gì đó đúng không?”</em>
+
+Sau đó, một thông báo tin nhắn đột nhiên hiện ra.
+
+
+
+Canh giữ vòng ngoài Quân đoàn Bất tử.
+
+Tại những bãi đất hoang ở Navir có rất nhiều quái vật lang thang tìm thức ăn.
+
+
+
+Để bảo vệ quân đoàn Undead , hãy “chăm sóc” lũ quái đó.
+
+Độ khó : D
+
+
+
+Giới hạn : Chỉ giành cho Undead
+
+
+
+Không thể từ chối nhiệm vụ.
+
+
+
+Bạn đã chấp nhận nhiệm vụ.
+
+
+
+
+
+<em>“Balkan</em><em> ư</em><em>?”</em>
+
+<em>“Đó chẳng phải là </em><em>đ</em><em>ội quân Undead hùng hậu nhất sao</em><em>?”</em>
+
+<em>“Ồ, là Đội quân Undead được nói đến trong chuyến phiêu lưu của Weed. Balkan là người, à không, là Lich mạnh nhất trong các Necromancer.</em><em>”</em>
+
+<em>“Trước khi </em><em>tới</em><em> đây</em><em> tôi</em><em> có thấy một tin nhắn là Balkan đang </em><em>triệu tập</em><em>. Chúng ta chắc chắn</em><em>là được</em><em> triệu hồi bởi Balkan.”</em>
+
+Các Necromancer cuối cùng cũng nhận ra lý do tại sao họ tập trung ở đây. Weed không thể trách họ tại sao chậm hiểu đến thế. Họ đang săn quái vui vẻ, rồi đột ngột bị lôi đến nơi này trong hình dạng Undead bởi lời triệu tập của Balkan. Ai nghe cũng cảm thấy vô lí đùng đùng.
+
+Thay vì tán chuyện với họ, Weed thăm dò quanh khu vực đồi của bãi đất hoang.
+
+‘Có rất nhiều quái vật lảng vảng quanh đây.’
+
+Nơi đàn Undead đóng quân đầy rẫy quái vật gớm ghiếc. Quái vật đầy gai nhọn, có hình dáng tựa như tê giác di chuyển thành hàng. Cách không xa bãi đất hoang là một con sông. Bên bờ bên kia là Pháo đài Vargo, nơi quân Undead trú ẩn.
+
+Witch, Death Knight, Ghost, đội quân của những Slayer được sinh ra để chiến đấu. Order of Bentler, từng là một hội hiệp sĩ vinh quang đã trở về từ cõi chết sau khi bị ruồng bỏ bởi nhà vua và bị tiêu diệt. Bởi vì Đội quân Undead của Balkan là đội quân tinh nhuệ nhất của chủng tộc Undead, nên nó tập hợp nhiều hiệp sĩ, pháp sư và quái vật huyền thoại của Lục địa Versailles.
+
+Ở Pháo đài Vargo, có thể nhìn thấy những con Bone Dragon giống như ở Thung lũng Tử thần. Có đến tận 3 con!
+
+‘Dù sao thì những gì mình cần làm bây giờ là…’
+
+Quái vật to như tê giác. Morghis và Nukalis đang uống nước sông, và một vài con tiến đến khu vực pháo đài của Undead.
+
+‘Cần phải chặn chúng lại.’
+
+Đám Skeleton cạnh dòng sông đang chiến đấu với quái vật. Giơ cao những thanh trường kiếm gỉ sét, và lao vào đám Morghis và Nukalis.
+
+<em>“Kueeehhh!”</em>
+
+Khi chúng gầm lên, đám Skeleton khác lao qua sông như thể có thứ gì đó ra lệnh cho chúng.
+
+<em>“Vì Balkan vĩ đại!”</em>
+
+<em>“Quân Undead, giết chúng!”</em>
+
+Weed chứng kiến cảnh tượng đó từ đằng xa. Đám Skeleton tiến lên và bị lũ Morghis cùngNukalis húc bay lên trời. Morghis và Nukalis là những con quái vật đồ sộ hung tợn. Chúng dẫm bẹp đám Skeleton và dùng sừng hất văng kẻ địch. Nhưng chỉ cần cơ thể chưa hoàn toàn bị phá hủy, Skeleton tiếp tục đứng dậy và lao vào.
+
+<em>“Gì thế này, một trận chiến à</em><em>?”</em>
+
+<em>“Nhiệm vụ bắt đầu rồi sao? Tôi còn chưa kịp chuẩn bị…”</em>
+
+Khoảng 450 Skeleton, tất cả người chơi Necromancer, đều phản ứng. Rất khó để bắt gặp một Necromancer ở một lâu đài hay làng mạc nhưng giờ tất cả họ lại cùng tập trung ở đây. Họ thậm chí còn không quen biết nhau . Họ chỉ biết được vài Necromancer nổi tiếng. Trong lúc họ còn đang mải mê tán dóc về Undead và Necromancer thì đám Skeleton đã bắt đầu chiến đấu.
+
+<em>“Chúng ta cùng làm nhiệm vụ chứ?”</em>
+
+<em>“Đi thôi!”</em>
+
+Các Necromancer tham gia vào trận chiến bên dòng sông.
+
+<em>“Tôi không </em><em>dùng</em><em> phép được.”</em>
+
+<em>“Bởi vì bây giờ chúng ta là Skeleton. </em><em>L</em><em>àm gì </em><em>b</em><em>ây</em><em> giờ</em><em>?”</em>
+
+<em>“Hãy dùng kiếm chém chúng.</em><em>”</em>
+
+Necromancer trong hình dạng Skeleton bình thường và buộc phải chiến đấu bằng những thanh kiếm cùi bắp. Necromancer sở hữu đặc điểm của ma pháp sư thông thường. Nhưng bởi vì họ chiến đấu bên cạnh Golem và Skeleton dưới quyền nên họ cũng biết một ít kiếm thuật cơ bản. Bởi vì rất khó để kiếm được các xác chết đầu tiên và đôi khi kẻ địch phá tan đội hình Undead, các Necromancer cũng là những chuyên gia bỏ chạy!
+
+Necromancer từng là class tốt nhất, bởi vì họ có thể đi săn nhanh chóng. Tuy nhiên quái vật lại rất hại Necromancer, vì chúng tụ tập thành đàn và chống trả quyết liệt khi bị săn. Do đó Necromancer cần các kỹ năng chiến đấu và khả năng ứng biến.
+
+<em>“Chaaaa!”</em>
+
+Các người chơi tấn công nhưng họ bị lũ Morghis và Nukaliss hất văng lên trời sau cú húc. Một vài người thành công trong việc cầm kiếm chém vào lũ quái và nhanh chóng có Skeleton bao vây lấy chúng.
+
+<em>“Chặn chúng lại!”</em>
+
+<em>“Nếu chúng vượt qua, tất cả chúng ta sẽ chết!”</em>
+
+Phía bên kia, những con Nukalis không bị bao vây đang cực kì hung hăng. Thoát khỏi phần hỗn độn, những con Skeleton cũng đang miệt mài múa kiếm.
+
+<em>“Họ chiến đấu khá đấy.”</em>
+
+Weed không vội vã tham gia với nhóm Necromancer. Chiếu đấu một mình sẽ thuận tiện hơn và có được lợi thế khi nhặt item. Cậu ghét việc những người solo lại phải cạnh tranh item với người khác.
+
+<em>“Nếu mình chấp nhận nhiệm vụ Lich Shire…”</em>
+
+Mọi thứ sẽ không trở thành thế này. Cậu sẽ dùng chiến thuật và chiến lược dẫn dắt Quân đội Undead như một chỉ huy Lich chứ không phải tham chiến dưới hình hài Skeleton hạ cấp trong quân đội Undead
+
+Có lẽ cậu không nên tham chiến như thế này.
+
+<em>“Sao cũng được, mình nên tham gia vào nhiệm vụ lần này."</em>
+
+Weed cầm thanh trường kiếm gỉ sét như thể đó là báu vật và bước ra.
+
+<em>"Kieeehk"</em>
+
+Theo sau những Skeleton khác, cậu xông vào lũ quái vật. Điểm khác biệt giữa Weed và những người khác là cậu không bỏ lạỉ những thanh kiếm nằm dưới đất! Trường kiếm gỉ sét có thể làm quái vật bị trúng độc hoặc bị nguyền. Tuy chúng chỉ có giá 3-4 đồng vàng nhưng Weed có thể nung chảy với kỹ năng Thợ rèn, thanh lọc bằng lửa và bán thanh kiếm mới với giá 1000 vàng.
+
+
+
+Bạn nhặt được một thanh kiếm gỉ
+
+
+
+
+
+
+
+Bạn nhặt được một mẩu xương sườn
+
+
+
+
+
+
+
+Bạn nhặt được một thanh kiếm gỉ
+
+
+
+
+
+
+
+Bạn nhặt được một mẩu xương đùi
+
+
+
+
+
+Việc thu nhặt những vật phẩm nằm dưới đất là việc cần thiết. Từ những kinh nghiệm khi là một Skeleton, cậu biết rằng mỗi khi bị trúng đòn, sinh lực sẽ giảm và xương rớt ra. Sử dụng những khúc xương của Skeleton khác để lắp vào sẽ hồi được một lượng máu và có thể dùng để sử dụng kỹ năng đặc biệt Bone Throw. Dù chẳng so sánh được với những mũi tên của Archer, nhưng ở tầm gần, nó thật sự rất mạnh.
+
+Weed chạy song song bên cạnh lũ quái, húc vào sườn chúng rồi dùng kiếm chém. LũMorghis và Nukalis trở nên rất hung hãn khi bị thương nhưng chúng cũng bị giảm tầm nhìn. Cậu nhìn những người chơi Necromancer khác và Skeleton phải vật vã tìm yếu điểm của đám quái vật và chiến đấu đến mức tí nữa thì mất mạng.
+
+
+
+Bạn nhận được kinh nghiệm
+
+
+
+
+
+
+
+Bạn nhặt được da của Morghis
+
+
+
+
+
+Weed không dừng lại, cậu vẫn di chuyển liên tục. Lũ quái này vừa nhanh vừa tông mạnh nên phải tránh đứng phía trước chúng. Dù là vùng đồng bằng gần sông, nhưng do có quá nhiều Skeleton cản đường, lũ quái không thể di chuyển dễ dàng.
+
+<em>"Quadruped Run!"</em>
+
+Dù biến thành Skeleton, cậu vẫn có thể sử dụng kỹ năng di chuyển riêng của mình. Chạy vòng bên ngoài thay vì tiến sâu vào bãi săn, cậu tấn công những quái vật đã bị thương! Cậu tham chiến hơi muộn nhưng lại được nhiều nhất. Đó là chưa kể 120 thanh kiếm gỉ và một đống xương.
+
+Do chiến đấu gần nơi đóng quân của Undead, các Skeleton đã thành công hạ gục tất cả Morghis và Nukalis
+
+<em>"Kwaao!"</em>
+
+<em>“</em><em>Vì cha chúng ta, Balkan!"</em>
+
+Skeleton thu nhặt gươm cũ, kiếm gãy, tro tàn của đồng đội đã hy sinh và cất khúc khải hoàn.
+
+Weed và những Necromancer theo sau lũ Skeleton.
+
+
+
+Nhiệm vụ canh gác vòng ngoài của Binh Đoàn Bất Tử đã thành công.
+
+
+
+Lũ quái lảng vảng quanh bãi đất hoang đã bị tiêu diệt.
+
+
+
+Skeleton có thể nghỉ ngơi một chút trong lúc đứng gác.
+
+
+
+Fame tăng 71
+
+
+
+Power of Undead tăng 19.
+
+
+
+Bạn nhận được một ít kinh nghiệm.
+
+
+
+Thứ hạng trong Quân đoàn Undead tăng.
+
+
+
+Thứ hạng hiện tại : Rotting Skeleton (Skeleton thối rữa).
+
+
+
+Binh khí, giáp trụ và kỹ năng ma thuật nhận được sẽ phụ thuộc vào thứ hạng của bạn.
+
+
+
+
+
+Khi Weed hoàn thành nhiệm vụ cùng với các Skeleton khác, một viên đội trưởng Skeleton xuất hiện.
+
+<em>“</em><em>Tốt...lắm..Một..trận..chiến..mới..sẽ..bắt..đầu..."</em>
+
+Với hàm răng lập cập, tên Đội trưởng Undead nói chậm phát chán. Hắn bảo họ có thể nghỉ ngơi cho tới khi trận chiến tiếp theo bắt đầu.
+
+Những người chơi Necromancer ngồi bệt xuống đất.
+
+<em>"Phew, một chiến thắng vất vả."</em>
+
+<em>“</em><em>Tôi tưởng mình đi đời rồi chứ, dù Undead cơ bản là đã chết rồi."</em>
+
+Dù bạn đã quen với việc chiến đấu, nhưng cũng khó mà hồi phục năng lượng khi bị gãyxương trong lúc giao chiến. Nhưng đối với Weed đó chỉ là chuyện vặt vãnh.
+
+<em>“</em><em>Vị trí càng cao thì càng nhận được đồ tốt à."</em>
+
+Weed cảm thấy hứng thú với vật phẩm hơn là thứ hạng mới đạt được. Dĩ nhiên cậu có thể tự rèn binh khí nhưng ai mà không thích đồ chùa cơ chứ.
+
+Sau khi trận đánh kết thúc, Weed quan sát động tĩnh của các Skeleton khác. Hầu hết vẫn tung hoành bên ngoài nhưng một vài Skeleton tiến vào một miệng núi lửa dẫn đến khu vực ngầm bên dưới. Mang theo thanh kiếm gỉ, Weed nhập nhóm và tiến vào miệng núi.
+
+'Cho dù đút đầu vào miệng sư tử...’
+
+Chỉ cần bạn tập trung, bạn sẽ có được tấm da sư tử. Đó là một câu nói nổi tiếng của những Dark Gamer
+
+-- Tombstone : Soldiers' Graveyard --
+
+Mộ bia: Nghĩa địa Chiến binh
+
+Đám Skeleton đang tiến vào một khu nghĩa trang khổng lồ, có Vệ binh Skeleton đứng gác và những Skeleton khác đang mua bán.
+
+<em>“Hoan hô Balkan vĩ đại ! Các ngươi là những Skeleton còn dính cát.</em><em>” </em>(ý nói mới tái sinh)
+
+<em>“</em><em>Nếu ngươi muốn mua đồ, hãy đến đây ngó qua."</em>
+
+Weed nhìn xung quanh.
+
+
+
+Gươm gia truyền cũ nát.
+
+
+
+Độ bền : 13/23
+
+
+
+Tấn công : 9-31
+
+
+
+Đã có hơn 100 năm tuổi.
+
+
+
+Thân kiếm hơi cong, trọng tâm không còn thăng bằng.
+
+
+
+Vì độ bền thấp, đừng ngạc nhiên khi nó gãy bất thình lình.
+
+
+
+Khi người chơi Undead sử dụng, gươm sẽ có thêm hiệu ứng độc.
+
+
+
+Yêu cầu : Undead
+
+
+
+Hiệu ứng : 3% độc sát.
+
+
+
+
+
+
+
+Rìu được đào lên.
+
+
+
+Độ bền 6/33
+
+
+
+Tấn công 6-11
+
+
+
+Cây rìu này được tìm thấy sau khi bị vùi dưới đất một thời gian dài.
+
+
+
+Phần lưỡi quá cũ và không thể tiếp tục dùng làm vũ khí.
+
+
+
+Tốt hơn là quên nó đi.
+
+
+
+Hiệu ứng : Nếu bạn có kỹ năng dùng rìu đôi, lực tấn công tăng 230%.
+
+
+
+Tăng Power of Undead 4%.
+
+
+
+
+
+Khiên gỉ sét của điềm xấu.
+
+
+
+Độ bền 17/29
+
+
+
+Phòng thủ 14
+
+
+
+Khiên vẫn còn sử dụng được.
+
+
+
+Chỉ cần lưu ý đến những lỗ thủng trên khiên, bạn vẫn còn có thể sử dụng nó chặn tên.
+
+
+
+Mặc dù có một cảm giác không may phát ra từ chiếc khiên.
+
+
+
+Yêu cầu: Không
+
+
+
+Hiệu ứng : Giảm 15% Luck. Giảm kháng phép.
+
+
+
+
+
+
+
+Áo giáp mỏng manh gỉ sét.
+
+
+
+Độ bền 17/44
+
+
+
+Phòng thủ :19
+
+
+
+Cũ kỹ và đầy vết nứt.
+
+
+
+Có thể sử dụng nhưng không an toàn.
+
+
+
+Sẽ trở thành trò cười cho mọi người xung quanh.
+
+
+
+Yêu cầu : 20 Strength
+
+
+
+Hiệu ứng: Giảm độ Fame, Charm và Charisma.
+
+
+
+
+
+Trong tất cả những cửa hiệu mà cậu ghé qua, chưa bao giờ cậu nhìn thấy nhiều thứ vô tích sự như thế.
+
+Bên cạnh những đống rác đó, có một vài vũ khí tẩm độc và lời nguyền mạnh đến không ngờ.
+
+'Đúng là đồ dành cho Skeleton.'
+
+Trong lúc Weed vòng quanh mà không mua gì, một hồn ma trao cho cậu một áo giáp ngực.
+
+<em>“</em><em>Ngươi chắc chắn là Skeleton có nhiều đóng góp nhất. Giữ lấy."</em>
+
+Chiếc giáp ngực mà hồn ma tặng trông khá hơn những gì bán trong chợ Skeleton.
+
+Ngoại trừ những phần gỉ sét, nó rực lên một chút ánh thép.
+
+'Vậy là nếu mình đạt thứ hạng cao hơn thì sẽ nhận được vật phẩm tốt hơn.'
+
+Giờ đây cậu chỉ là một tên Skeleton cùi bắp nhưng nếu ít nhất có thể trở thành Dullahan hay Death Knight thì có thể bỏ túi hàng đống item chất lượng.
+
+Vì cậu có thể nung chảy chúng, loại bỏ tạp chất và chế tác lại, đây hoàn toàn là một vụ làm ăn lời.
+
+<em>“</em><em>Vậy</em><em> ra</em><em> đây là cửa hàng?"</em>
+
+<em>“</em><em>Chúng ta hãy tìm xem có thứ gì xài được không."</em>
+
+Khi các người chơi Necromancer đến, cửa hàng trở nên đông đúc.
+
+Vài người chơi nhìn thấy Weed mặc giáp ngực và chỉ tay vào cậu
+
+<em>“</em><em>Anh ta có mang giáp. Skeleton đó cũng là một người chơi à?"</em>
+
+Vì không có lý do gì để giữ khoảng cách với họ nên Weed tính lên tiếng chào hỏi
+
+Đột nhiên,
+
+<strong>*</strong><strong>Ding!</strong><strong>*</strong>
+
+Tiếp tục trận chiến vòng ngoài.
+
+
+
+Thêm nhiều kẻ địch xuất hiện ở bãi đất hoang Navir.
+
+
+
+Hạ sát đám quái đang tìm mồi hoặc đuổi chúng đi.
+
+
+
+Đây là một nhiệm vụ khó đối với Skeleton nhưng nếu bạn hạ được càng nhiều quái thì danh tiếng của bạn trong Quân đội Undead càng gia tăng.
+
+
+
+Độ khó: D
+
+
+
+Giới hạn: chỉ dành cho Undead.
+
+
+
+Nhiệm vụ không thể hủy bỏ.
+
+
+
+Bạn đã chấp nhận nhiệm vụ.
+
+
+
+
+
+Lại một trận chiến nữa!
+
+Mình mang giáp trụ, Weed vung thanh trường kiếm này và chiến đấu bên cạnh các Skeleton.
+
+Đầu tiên, cậu chỉ biết tới Death Aura nhưng ở khu vực này, ma thuật triệu hồi Undead của Balkan là Dark Rule cũng đang lan tỏa.
+
+Từ những xác chết, ngày càng nhiều Skeleton xuất hiện.
+
+<em>"Bone Throw!"</em>
+
+Với hàng đàn quái vật xông tới, Weed kiếm được rất nhiều kinh nghiệm. Vì đây không phải chuyến đi săn trong hầm ngục an toàn cùng đồng đội, mà bạn cần phải để ý tới cả khu vực rộng lớn, chứ không chỉ một khu vực nhỏ hẹp. Để kiếm được nhiều, cần nhận biết được đội hình của Skeleton cũng như hướng tấn công chính của lũ quái vật.
+
+Trong khi mải mê chiến đấu và nhặt item, Weed thấy những người chơi Necromancer đang thiết lập đội hình chủ động và thu được lợi ích lớn. Họ tiêu diệt quái vật bằng cách lập nhóm với nhau, bảo vệ lẫn nhau và cùng nhau tấn công. Mặc dù bề ngoài của họ không khác gì nhau, nhưng những người chơi này đều vung tiền mua mấy món gỉ sét trong các cửa hàng.
+
+Khi họ thành công đuổi đám quái ra khỏi lãnh thổ, Weed lại được thăng chức. Bây giờ không chỉ cậu được cấp một thanh gươm to hơn mà còn nhặt được một chiếc áo choàng.
+
+<em>“</em><em>Sẽ phải tốn khá nhiều công để sửa lại nó."</em>
+
+Cậu không hy vọng gì vào trang bị dành cho Skeleton. Một Skeleton cấp thấp khó có thể sở hữu trang bị cao cấp.
+
+Nhưng đám quái vật vẫn tiếp tục kéo đến nơi đây, khiến bãi đất hoang ngập tràn quái vật.
+
+Level của đám quái vật ở khoảng trên dưới 300, cũng dễ dàng đối phó.
+
+Mỗi khi hoàn thành nhiệm vụ, cậu lại nhận được kha khá điểm kinh nghiệm và phần thưởng, vì vậy nơi này đã trở thành bãi săn lý tưởng.
+
+Bên cạnh đó cậu còn nghe ngóng được tin tức về việc đội quân Undead tiến công đến Morata.
+
+<em>“</em><em>Đủ mạnh để biến một thành phố của loài người thành phế tích."</em>
+
+<em>“</em><em>Undead đông gấp 4 lần."</em>
+
+<em>“Đủ để đảm bảo hơi thở con người không xâm phạm vùng đất của Balkan vĩ đại.”</em>
+
+Tên Skeleton có ngoại hình tương đối ổn đang bô bô về những thứ hắn biết.
+
+Niềm tự hào khi là Undead, cùng sự trung thành với Balkan của bọn chúng rất đáng kinh ngạc.
+
+<em>"</em><em>Bối rối quá cơ.”</em>
+
+Cậu thở dài khi nghĩ đến việc quân Undead sắp tràn đến Morata.
+
+Dựa theo thông tin của đám Skeleton, đội quân đó tầm 120 ngàn Undead. Tuy hầu hết chỉ là Skeleton và Zombie nhưng quân số thật sự khổng lồ. Huy động từng ấy quân chỉ để bán hành cho duy nhất một mình Weed.
+
+<em>“</em><em>Nhưng Morata vẫn</em><em> có thể phòng</em><em> thủ được."</em>
+
+Họ có đám Tượng sống và quân đội canh gác. Những người chơi sẽ được an toàn vì lúc quân Undead đến sẽ nhận được"sự chăm sóc" của Holy Knight thuộc Giáo hội Freya. Chỉ cần không có quái cấp cao nào như Hasilis xuất hiện, mọi chuyện vẫn ổn.
+
+Hasilis, mạnh như một Balkan suy yếu đang lãnh quân giao chiến với liên minh Dwarf, Elf và Fairy.
+
+<em>“</em><em>Undead rất mạnh khi tập hợp lại với nhau, nhưng nếu thiếu sự chỉ huy của Necromancer, chúng sẽ dễ dàng bị đánh bại. Với lực lượng Priest và Holy Knight của Giáo hội Freya làm nòng cốt, Morata sẽ trụ vững được trước sự xâm lăng của Undead."</em>
+
+Weed thở phào nhẹ nhõm. Nếu Morata bị Undead thiêu rụi, cậu không phải là người duy nhất phải chịu số phận hẩm hiu, mà còn cả hàng ngàn người chơi khác; và hệ thống thương mại phương Bắc cũng sẽ bị phá hủy.
+
+***
+
+Đội quân của Hermes Guild đóng quân cách nơi của Undead một ngày đường. Kể cả vớihọ, giữ một khoảng cách gần với quân Undead là một việc quá mạo hiểm. Họ cử người do thám động tĩnh từ một nơi không gây sự chú ý.
+
+<em>“</em><em>Weed chưa đến à?"</em>
+
+<em>“</em><em>Chúng tôi chưa nghe tin gì về hắn. Nếu hắn đi ngang qua, sẽ có người phát hiện ra ngay."</em>
+
+<em>“</em><em>Người của ta ở Morata báo đã 2 ngày không thấy lãnh chúa xuất hiện."</em>
+
+<em>“</em><em>Chỉ mới 2 ngày... chưa thể khẳng định được điều gì."</em>
+
+Vì Weed là Điêu khắc gia, cậu có thể ngồi lì trong một căn phòng nhỏ khắc tượng hoặc chu du khắp lục địa để tìm cảm hứng. Rời đi ngay khi nhận được mệnh lệnh từ những người lãnh đạo guild Hermes, Polon sợ rằng mình đang lãng phí thời gian khi nghe tin về việc Weed du hành khắp lục địa để tạc tượng.
+
+Dù sao thì Weed cũng không nhận nhiệm vụ từ quân đoàn Undead.
+
+*****
+
+Team dịch: Đéo cần tên
+
+Translator: Khoai Lang
+
+Editor: ireN
