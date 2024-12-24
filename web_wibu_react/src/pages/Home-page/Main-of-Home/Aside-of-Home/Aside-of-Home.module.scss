@@ -114,7 +114,17 @@ $colors: (
     font-size: 0.8rem;
     color: map.get($colors, text-secondary);
   }
+  // View more button
+  &__view-more {
+    text-decoration: none;
+    color: map.get($colors, text-secondary);
+    font-size: 0.8rem;
+    @include flex(row, flex-start, center, 0.5rem);
 
+    &:hover {
+      color: map.get($colors, primary);
+    }
+  }
   // Section Styles
   &__section {
     padding: 12px;
