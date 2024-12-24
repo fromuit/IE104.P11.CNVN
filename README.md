@@ -19,6 +19,7 @@
 ## [BẢNG MỤC LỤC](#top)
 * [Giới thiệu môn học](#giới-thiệu-môn-học)
 * [Thông tin các thành viên](#thông-tin-về-các-thành-viên-nhóm)
+* [Các liên kết liên quan](#các-liên-kết-liên-quan)
 
 ## [GIỚI THIỆU MÔN HỌC](#top)
 * **Tên môn học:** Internet & Công nghệ Web - IE104
@@ -37,7 +38,7 @@
 | 4      | 22521522      | Nguyễn Minh Trí          |Trưởng nhóm| 20521522@gm.uit.edu.vn   |
 | 5      | 22521686      | Cao Trường Vũ            | Thành viên| 20521686@gm.uit.edu.vn   |
 
-## [Các liên kết liên quan](#top)
+## [CÁC LIÊN KẾT LIÊN QUAN](#top)
 - [Liên kết đến Github](https://github.com/fromuit/IE104.P11.CNVN)
 - [Liên kết đến Trello](https://trello.com/invite/b/66ea4c00ba97ce3a04060dce/ATTI0e05265d8bd636f65a523f9d44eef29aEAC2AC11/bảng-phan-cong)
 - [Liên kết đến Google Drive](https://drive.google.com/drive/folders/1UObvQ4juDKABkYZa5pk76w37IW8F0P9P?usp=sharing)
