@@ -36,9 +36,9 @@
 | :----: |:-------------:| :-----------------------:|:---------:|:-------------------------:
 | 1      | 22520327      | Nguyễn Hoàng Duy         | Thành viên| 22520327@gm.uit.edu.vn   |
 | 2      | 22520391      | Trần Nguyễn Nam Hải      | Thành Viên| 22520391@gm.uit.edu.vn   |
-| 3      | 22520392      | Trần Thanh Hải           | Thành viên| 20520392@gm.uit.edu.vn   |
-| 4      | 22521522      | Nguyễn Minh Trí          |Trưởng nhóm| 20521522@gm.uit.edu.vn   |
-| 5      | 22521686      | Cao Trường Vũ            | Thành viên| 20521686@gm.uit.edu.vn   |
+| 3      | 22520392      | Trần Thanh Hải           | Thành viên| 22520392@gm.uit.edu.vn   |
+| 4      | 22521522      | Nguyễn Minh Trí          |Trưởng nhóm| 22521522@gm.uit.edu.vn   |
+| 5      | 22521686      | Cao Trường Vũ            | Thành viên| 22521686@gm.uit.edu.vn   |
 
 ## [CÁC LIÊN KẾT LIÊN QUAN](#top)
 - [Liên kết đến Github](https://github.com/fromuit/IE104.P11.CNVN)
