@@ -7,14 +7,16 @@
   </a>
 </p>
 
-<h1 align="center"><b>INTERNET & CÔNG NGHỆ WEB - IE104</b></h>
+<h1 align="center"><b>INTERNET & CÔNG NGHỆ WEB - IE104<br>NHÓM 3</b></h>
 
 [![Status](https://img.shields.io/badge/status-working-green?style=flat-square)](https://github.com/fromuit/IE104.P11.CNVN)
 [![GitHub contributors](https://img.shields.io/github/contributors/fromuit/IE104.P11.CNVN?style=flat-square)](https://github.com/fromuit/IE104.P11.CNVN/graphs/contributors)
 [![Status](https://img.shields.io/badge/language-html-orange?style=flat-square)](https://www.w3schools.com/html/)
 [![Status](https://img.shields.io/badge/language-scss-pink?style=flat-square)](https://sass-lang.com)
 [![Status](https://img.shields.io/badge/language-js-yellow?style=flat-square)](https://www.w3schools.com/js/)
-
+<br> 
+[![Status](https://img.shields.io/badge/framework-ReactJS-blue?style=flat-square)](https://react.dev/learn)
+[![Status](https://img.shields.io/badge/env-NodeJS-rgb(66%2C151%2C59)?style=flat-square)](nodejs.org)
 
 ## [BẢNG MỤC LỤC](#top)
 * [Giới thiệu môn học](#giới-thiệu-môn-học)
