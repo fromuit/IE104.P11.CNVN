@@ -1,6 +1,5 @@
 import  { useState, useEffect, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Banner.css';
 
 import styles from './Banner.module.scss';
 
@@ -16,45 +15,12 @@ function Banner() {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
 
-  // // Di chuyển bannersData lên trước các state
-  // const bannersData = [
-  //   {
-  //     id: 1,
-  //     image: banners.banner1,
-  //     link: '/info/1',
-  //     title: 'Banner 1'
-  //   },
-  //   {
-  //     id: 2,
-  //     image: banners.banner2,
-  //     link: '/info/2',
-  //     title: 'Banner 2'
-  //   },
-  //   {
-  //     id: 3,
-  //     image: banners.banner3,
-  //     link: '/info/3',
-  //     title: 'Banner 3'
-  //   },
-  //   {
-  //     id: 4,
-  //     image: banners.banner4,
-  //     link: '/info/4',
-  //     title: 'Banner 4'
-  //   },
-  //   {
-  //     id: 5,
-  //     image: banners.banner5,
-  //     link: '/info/5',
-  //     title: 'Banner 5'
-  //   }
-  // ];
   const bannersData = bannerArray;
 
   // Sau đó là các state
   const [initialSlide] = useState(() => Math.floor(Math.random() * bannersData.length) + 1);
   const [currentSlide, setCurrentSlide] = useState(initialSlide);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const isAutoPlaying = useState(true);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   // Thêm state để theo dõi thời gian interval
@@ -136,71 +102,6 @@ function Banner() {
     }
   };
 
-//   return (
-//     <div 
-//       className={`banner ${!isHomePage ? 'banner--compact' : ''}`}
-//       onMouseEnter={handleMouseEnter}
-//       onMouseLeave={handleMouseLeave}
-//     >
-//       <div className="banner__container">
-//         <div 
-//           className="banner__slides"
-//           style={{ 
-//             transform: `translateX(-${currentSlide * 100}%)`,
-//             transition: isTransitioning ? 'none' : 'transform 0.3s ease-in-out'
-//           }}
-//         >
-//           {extendedBannersData.map((banner) => (
-//             <Link 
-//               key={banner.id}
-//               to={banner.link}
-//               className="banner__slide"
-//             >
-//               <div className="banner__image-wrapper">
-//                 <img 
-//                   src={banner.image} 
-//                   alt={banner.title}
-//                   className="banner__image"
-//                   onLoad={handleImageLoad}
-//                 />
-//               </div>
-//             </Link>
-//           ))}
-//         </div>
-
-//         {/* Navigation Arrows */}
-//         <button 
-//           className="banner__nav banner__nav--prev"
-//           onClick={goToPrevSlide}
-//           aria-label="Previous banner"
-//         >
-//           <i className="fas fa-chevron-left"></i>
-//         </button>
-//         <button 
-//           className="banner__nav banner__nav--next"
-//           onClick={goToNextSlide}
-//           aria-label="Next banner"
-//         >
-//           <i className="fas fa-chevron-right"></i>
-//         </button>
-
-//         {/* Dots Navigation */}
-//         <div className="banner__dots">
-//           {bannersData.map((_, index) => (
-//             <button
-//               key={index}
-//               className={`banner__dot ${currentSlide === index + 1 ? 'active' : ''}`}
-//               onClick={() => goToSlide(index)}
-//               aria-label={`Go to banner ${index + 1}`}
-//             />
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Banner;
 
 return (
   <div 
