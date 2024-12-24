@@ -58,7 +58,7 @@ function Banner() {
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   // Thêm state để theo dõi thời gian interval
-  const [slideInterval, setSlideInterval] = useState(1000); 
+  const [slideInterval, setSlideInterval] = useState(5000); 
 
   // Tạo mảng slides mới với clone ở đầu và cuối
   const extendedBannersData = [
@@ -99,11 +99,11 @@ function Banner() {
 
   // Dừng auto play khi hover
   const handleMouseEnter = () => {
-    setSlideInterval(3000); // Tăng lên 10 giây khi hover
+    setSlideInterval(10000); // Tăng lên 10 giây khi hover
   };
   
   const handleMouseLeave = () => {
-    setSlideInterval(1000); // Trở lại 5 giây khi không hover
+    setSlideInterval(5000); // Trở lại 5 giây khi không hover
   };
 
   // Điều hướng slide

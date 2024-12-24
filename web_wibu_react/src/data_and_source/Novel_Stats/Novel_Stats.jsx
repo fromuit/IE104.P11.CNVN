@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const NovelStats = ({
   novel,
   variant = "original",
-  showLikes = true,
+  // showLikes = true,
   showFullNumbers = false
 }) => {
   NovelStats.propTypes = {
