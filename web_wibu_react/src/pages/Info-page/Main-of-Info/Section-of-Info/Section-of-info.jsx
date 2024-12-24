@@ -1,4 +1,4 @@
-// import './Section-of-info.css';
+// Import các module và styles cần thiết
 import styles from './Section-of-Info.module.scss';
 import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
@@ -6,6 +6,7 @@ import novelsData from '../../../../data_and_source/Novel_Data/novels_chapters.j
 import { Link } from 'react-router-dom';
 
 function SectionOfInfo({ novel }) {
+  // Định nghĩa PropTypes để kiểm tra kiểu dữ liệu của props
   SectionOfInfo.propTypes = {
     novel: PropTypes.shape({
       "Tựa đề": PropTypes.string,
@@ -15,30 +16,43 @@ function SectionOfInfo({ novel }) {
       "Họa sĩ": PropTypes.string,
       "Tình trạng": PropTypes.string,
       "Số từ": PropTypes.number,
-      "Số like": PropTypes.number
+      "Số like": PropTypes.number,
+      "Link nhóm dịch": PropTypes.string,
+      "Nhóm dịch": PropTypes.string,
+      "Số lượt xem": PropTypes.string,
+      "Người dịch": PropTypes.string,
+      "Số tập":PropTypes.number,
+      "Số chương": PropTypes.number,
+      "Link người dịch": PropTypes.string,
+      "Ngày cập nhật cuối": PropTypes.string,
+      "Tháng cập nhật cuối": PropTypes.string,
+      "Năm cập nhật cuối": PropTypes.string
     })
   };
 
-  const [chapters, setChapters] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  // Khởi tạo các state cần thiết
+  const [chapters, setChapters] = useState([]); // Lưu trữ danh sách chương
+  const [loading, setLoading] = useState(false); // Trạng thái đang tải
+  const [error, setError] = useState(null); // Lưu trữ lỗi nếu có
 
   useEffect(() => {
+    // Hàm tải danh sách chương từ dữ liệu
     const loadChapters = () => {
+      // Kiểm tra xem có tựa đề truyện không
       if (!novel["Tựa đề"]) return;
-      
+
       setLoading(true);
       try {
-        console.log('\n=== Bắt đầu tải chapters ===');
+        // Chuyển tựa đề sang chữ thường để tìm kiếm
         const novelTitle = novel["Tựa đề"].toLowerCase();
-        console.log('Tên truyện:', novelTitle);
-        
+
+        // Lấy dữ liệu truyện từ file JSON
         const novelData = novelsData[novelTitle];
         if (!novelData) {
           throw new Error('Không tìm thấy truyện');
         }
 
-        // Chuyển đổi chapters từ object sang array và phân loại theo tập
+        // Chuyển đổi và sắp xếp danh sách chương
         const chaptersList = Object.keys(novelData.chapters)
           .sort((a, b) => parseInt(a) - parseInt(b))
           .map(key => ({
@@ -46,37 +60,30 @@ function SectionOfInfo({ novel }) {
             name: novelData.chapters[key].name,
           }));
 
-        console.log('Số lượng chapters:', chaptersList.length);
-        console.log('Danh sách chapters:', chaptersList);
-        
         setChapters(chaptersList);
       } catch (err) {
         setError(err.message);
-        console.error("Lỗi khi tải chương:", err);
       } finally {
         setLoading(false);
       }
     };
 
     loadChapters();
-  }, [novel["Tựa đề"]]);
+  }, [novel["Tựa đề"]]); // Chạy lại effect khi tựa đề thay đổi
 
-
-
+  // Kiểm tra nếu không có dữ liệu truyện
   if (!novel) {
-    console.log("No novel data received"); // Debug
     return <div className="not-found">Không tìm thấy truyện</div>;
   }
 
-  console.log("Rendering novel:", novel); // Debug
-
+  // Hàm format ngày tháng năm
   const formatDate = (day, month, year) => {
     return `${day}/${month}/${year}`;
   };
 
-  // Thêm hàm xử lý tên chương ở đầu component
+  // Hàm format tên chương
   function formatChapterName(name, index) {
-    // Kiểm tra nếu là "Minh họa" hoặc các biến thể
+    // Kiểm tra nếu là chương minh họa
     if (/^[Mm]inh\s*[Hh]o[aạ]/.test(name)) {
       return name;
     }
@@ -85,13 +92,18 @@ function SectionOfInfo({ novel }) {
 
   return (
     <section className={styles["section-info"]}>
+      {/* Phần thông tin cơ bản của truyện */}
       <div className={styles["novel-basic-info"]}>
+        {/* Tiêu đề và tên khác của truyện */}
         <h1 className={styles["novel-title"]}>{novel["Tựa đề"]}</h1>
+        {/* Hiển thị tên tiếng Anh nếu có */}
         {novel["Fname"] && novel["Fname"] !== "NOT FOUND" && (
           <h2 className={styles["novel-alt-title"]}>{novel["Fname"]}</h2>
         )}
-        
+
+        {/* Danh sách thể loại */}
         <div className="novel-genres">
+          {/* Lọc và hiển thị các thể loại không rỗng */}
           {novel["Thể loại"].filter(genre => genre !== "").map((genre, index) => (
             <span key={index} className={styles["genre-tag"]}>{genre}</span>
           ))}
@@ -173,16 +185,21 @@ function SectionOfInfo({ novel }) {
           </div>
         </div>
       </div>
-      
+
+      {/* Phần danh sách chương */}
       <div className={styles["chapters-list"]}>
         <h3 className={styles["chapters-title"]}>Danh sách chương</h3>
+        {/* Hiển thị trạng thái loading */}
         {loading && <div>Đang tải danh sách chương...</div>}
+        {/* Hiển thị lỗi nếu có */}
         {error && <div className={styles["error-message"]}>{error}</div>}
+        {/* Hiển thị danh sách chương */}
         {chapters.length > 0 && (
           <div className={styles["chapters-grid"]}>
             {chapters.map((chapter, index) => (
               <div key={index} className={styles["chapter-item-container"]}>
-                <Link 
+                {/* Link đến trang đọc chương */}
+                <Link
                   to={`/read/${encodeURIComponent(novel["Tựa đề"])}/${encodeURIComponent(chapter.name)}`}
                   className={styles["chapter-item"]}
                 >
